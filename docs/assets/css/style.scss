@@ -1,0 +1,80 @@
+---
+---
+
+@import "{{ site.theme }}";
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700);
+//
+//// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$quicksand: 'Quicksand', sans-serif;
+//
+body {
+    font-family: $quicksand;
+    padding: 32px;
+//    color: $text-color;
+//    font-weight: 400;
+//    font-size: 14px;
+//    -webkit-font-smoothing: antialiased;
+//    -moz-osx-font-smoothing: grayscale;
+}
+code {
+    background: rgb(228, 228, 228);
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    padding:2px 8px;
+    display: inline-block;
+}
+
+a {
+    color:#000000;
+    text-decoration:none;
+    font-weight: 500;
+}
+
+
+a:hover, a:focus {
+    color:#41b1e1a9;
+    font-weight: 500;
+}
+
+header {
+    width:170px;
+    // float:left;
+    // position:fixed;
+    // -webkit-font-smoothing:subpixel-antialiased;
+}
+
+footer {
+    width:170px;
+    // float:left;
+    // position:fixed;
+    // bottom:50px;
+    // -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+    width:600px;
+    // float:right;
+    // padding-bottom:50px;
+}
+
+footer p {
+    margin:0px;
+}
+
+img {
+    display: inline-block;
+    box-shadow: 0 0 1px 1px #f0f0f0;
+    vertical-align: middle;
+}
+  
+img:hover {
+    box-shadow: 0 0 6px 1px #bebebe;
+}
+
+img.logo {
+    box-shadow: none;
+}
