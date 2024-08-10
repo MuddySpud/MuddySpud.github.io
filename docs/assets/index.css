@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat: 200,200i,300,300i,400,400i,500,500i,600");#stepView {
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 auto;
+  width: 500px;
+}
+#stepView .error {
+  color: rgb(255, 0, 0);
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-left: 30px;
+}
+#stepView::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+#stepView::-webkit-scrollbar {
+  width: 5px;
+}
+#stepView::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#stepView::-webkit-scrollbar-thumb {
+  background-color: #d06040;
+  border-color: #c0593c;
+}
+#stepView .step-discussion {
+  flex: 1 0 auto;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0 30px;
+  white-space: pre-wrap;
+  color: rgb(70, 70, 70);
+  margin: 30px 0;
+}
+#stepView .step-discussion .discussion {
+  min-width: 100%;
+}
+#stepView .step-discussion .discussion p {
+  margin: 15px 0 15px 20px;
+}
+#stepView p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+#stepView .step-options {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 0 0 50px 0;
+}
+#stepView .step-options .option {
+  padding: 10px 10px 10px 30px;
+  border-radius: 5px;
+  background-color: #ff6400;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 30px 10px 30px;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#stepView .step-options .option.disabled {
+  background-color: rgb(200, 200, 200);
+  cursor: default;
+}
+#stepView .step-options .option .option-text {
+  flex-grow: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#stepView .step-options .option img {
+  height: 100px;
+}
+#stepView .step-options .option p {
+  margin: 1em 0;
+}
+#stepView .step-page-buttons {
+  margin: 0 0 50px 0;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#stepView .page-backwards,
+#stepView .page-forwards {
+  height: 60px;
+  width: 60px;
+}
+#stepView .page-backwards a,
+#stepView .page-forwards a {
+  background-color: #ff6400;
+  border-radius: 60px;
+  cursor: pointer;
+  border: none;
+  display: block;
+}
+#stepView .page-backwards-icon,
+#stepView .page-forwards-icon {
+  height: 60px;
+  width: 60px;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+}
+#stepView .page-backwards a .page-backwards-icon {
+  background-image: url("data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20version='1.1'%20viewBox='0%200%20500%20500'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='matrix(.49531%200%200%20.49531%20169.49%20126.1)'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-width='48.164'%3e%3cpath%20d='M%20250,0%200,250%20250,500'%20fill='none'%20stroke='%23fff'/%3e%3c/g%3e%3c/svg%3e");
+}
+#stepView .page-backwards a:hover .page-backwards-icon {
+  opacity: 1;
+}
+#stepView .page-backwards a:active {
+  background-color: #bd4403;
+}
+#stepView .page-forwards a .page-forwards-icon {
+  background-image: url("data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20version='1.1'%20viewBox='0%200%20500%20500'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='matrix(-.49531%200%200%20.49531%20330.17%20126.1)'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-width='48.164'%3e%3cpath%20d='M%20250,0%200,250%20250,500'%20fill='none'%20stroke='%23fff'/%3e%3c/g%3e%3c/svg%3e");
+}
+#stepView .page-forwards a:hover .page-forwards-icon {
+  opacity: 1;
+}
+#stepView .page-forwards a:active {
+  background-color: #bd4403;
+}
+
+@media screen and (max-width: 810px) {
+  #stepView {
+    width: 100%;
+  }
+}#inputView {
+  font-size: 1em;
+  font-weight: 500;
+}
+#inputView .title-cell .error {
+  margin-left: 0;
+}
+#inputView .nft-i-pattern {
+  font-size: 0.7em;
+}
+#inputView .nft-i-pattern h3 {
+  margin-top: 2em;
+}
+#inputView .nft-i-pattern li {
+  padding: 5px;
+}
+#inputView .nft-i-select,
+#inputView .nft-i-numeric,
+#inputView .nft-i-numeric-count-data,
+#inputView .nft-i-numeric-converter,
+#inputView .nft-title-text,
+#inputView .nft-title-value {
+  margin: 3em 0 2em 0;
+}
+#inputView .nft-i-select.repeat,
+#inputView .nft-i-numeric.repeat,
+#inputView .nft-i-numeric-count-data.repeat,
+#inputView .nft-i-numeric-converter.repeat,
+#inputView .nft-title-text.repeat,
+#inputView .nft-title-value.repeat {
+  background-color: rgba(200, 200, 200, 0.2);
+  margin: 2em 0 1em 0;
+  padding: 0.01em 0.5em 0.5em 0.5em;
+  border: 1px solid rga(230, 230, 230);
+  border-radius: 5px;
+}
+#inputView .nft-i-select.repeat .input-repeat,
+#inputView .nft-i-numeric.repeat .input-repeat,
+#inputView .nft-i-numeric-count-data.repeat .input-repeat,
+#inputView .nft-i-numeric-converter.repeat .input-repeat,
+#inputView .nft-title-text.repeat .input-repeat,
+#inputView .nft-title-value.repeat .input-repeat {
+  margin-bottom: 20px;
+}
+#inputView .nft-i-select.repeat .input-repeat:last-child,
+#inputView .nft-i-numeric.repeat .input-repeat:last-child,
+#inputView .nft-i-numeric-count-data.repeat .input-repeat:last-child,
+#inputView .nft-i-numeric-converter.repeat .input-repeat:last-child,
+#inputView .nft-title-text.repeat .input-repeat:last-child,
+#inputView .nft-title-value.repeat .input-repeat:last-child {
+  margin-bottom: 0;
+}
+#inputView .nft-increment-group,
+#inputView .nft-collapse-group {
+  margin: 3em 0 2em 0;
+}
+#inputView .nft-increment-group > .display-contents,
+#inputView .nft-collapse-group > .display-contents {
+  border-radius: 5px;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background-color: rgba(200, 200, 200, 0.1);
+  border: 1px solid #e6e6e6;
+}
+#inputView .nft-increment-group > .display-contents > div.nft-i-select,
+#inputView .nft-collapse-group > .display-contents > div.nft-i-select {
+  display: flow-root;
+}
+#inputView .nft-increment-group > .display-contents > div:first-of-type,
+#inputView .nft-collapse-group > .display-contents > div:first-of-type {
+  margin-top: 2em;
+}
+#inputView .nft-increment-group > .display-contents > div:last-of-type,
+#inputView .nft-collapse-group > .display-contents > div:last-of-type {
+  margin-bottom: 0;
+}
+#inputView .nft-increment-group > .display-contents {
+  padding-top: 0;
+}
+#inputView .nft-checkbox-group,
+#inputView .nft-display-group {
+  margin: 3em 0 2em 0;
+  box-sizing: border-box;
+}
+#inputView .nft-checkbox-group > .label,
+#inputView .nft-display-group > .label {
+  text-align: right;
+  margin: 0 0 5px 0;
+}
+#inputView .nft-checkbox-group > .group-contents, #inputView .nft-checkbox-group > .display-contents,
+#inputView .nft-display-group > .group-contents,
+#inputView .nft-display-group > .display-contents {
+  border-radius: 5px;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background-color: rgba(200, 200, 200, 0.1);
+  border: 1px solid #e6e6e6;
+}
+#inputView .nft-checkbox-group > .group-contents > div:last-of-type, #inputView .nft-checkbox-group > .display-contents > div:last-of-type,
+#inputView .nft-display-group > .group-contents > div:last-of-type,
+#inputView .nft-display-group > .display-contents > div:last-of-type {
+  margin-bottom: 0;
+}
+#inputView .nft-display-group > .display-contents > div:first-of-type {
+  margin-top: -10px;
+}
+#inputView .nft-i-numeric-count {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 3em 0 2em 0;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data {
+  margin: 0;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data,
+#inputView .nft-i-numeric-count .headers {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data .counter,
+#inputView .nft-i-numeric-count .headers .counter {
+  flex-basis: 30%;
+  margin-right: 10px;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data .counter label,
+#inputView .nft-i-numeric-count .headers .counter label {
+  margin-left: 3px;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data .numeric,
+#inputView .nft-i-numeric-count .headers .numeric {
+  flex-basis: 70%;
+  margin-left: 10px;
+}
+#inputView .nft-i-numeric-count > .nft-i-numeric-count-data .numeric label,
+#inputView .nft-i-numeric-count .headers .numeric label {
+  margin-left: 13px;
+}
+#inputView .nft-i-numeric-count .headers {
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-direction: row;
+  margin: 2em 0 1em 0;
+  color: #787878;
+}
+#inputView .nft-i-numeric-count-data .times {
+  margin-top: 15px;
+}
+#inputView .nft-i-numeric-count-data > .display-contents > div > .nft-increment-group-repeat > input::placeholder {
+  font-size: 0.7em;
+}
+#inputView .nft-i-numeric-count-data > .display-contents > div > .title-table {
+  margin-left: 20px;
+}
+#inputView .nft-i-numeric .input-counter {
+  position: relative;
+  top: 3px;
+  font-weight: 700;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: #787878;
+}
+#inputView .nft-increment-group {
+  display: flex;
+  flex-direction: column;
+}
+#inputView .nft-increment-group .headers {
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-direction: row;
+  margin: 2em 0 1em 0;
+  color: #787878;
+}
+#inputView .nft-increment-group .headers,
+#inputView .nft-increment-group .nft-increment-group-repeat {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+#inputView .nft-increment-group .nft-increment-group-repeat > span.label {
+  font-weight: 700;
+  font-size: 0.7em;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+  color: rgb(120, 120, 120);
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data .label {
+  margin-right: 10px;
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data .counter {
+  flex-basis: 30%;
+  margin-right: 10px;
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data .counter label {
+  margin-left: 3px;
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data .numeric {
+  flex-basis: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#inputView .nft-increment-group.nft-i-numeric-count-data .numeric label {
+  margin-left: 13px;
+}
+#inputView .nft-increment-group > .display-contents > .headers > .numeric {
+  margin-left: -18px;
+}
+#inputView .nft-collapse-group {
+  background-color: rgba(200, 200, 200, 0.1);
+  margin: 2em 0 1em 0;
+  padding: 0.5em;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+}
+#inputView .nft-title-value p {
+  white-space: pre-wrap;
+}
+#inputView h4 {
+  font-weight: 700;
+  font-size: 0.7em;
+  margin: 2em 0 1em 0;
+  text-transform: uppercase;
+  color: rgb(120, 120, 120);
+}
+#inputView .nft-i-pattern ul {
+  margin: 15px 0 15px 20px;
+}
+#inputView .nft-i-check h4 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#inputView .nft-i-check input {
+  width: 20px;
+  height: 20px;
+  margin: 0px 20px 0 20px;
+  position: relative;
+  top: 3px;
+}
+#inputView input,
+#inputView select {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  font-size: 1.3em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#inputView select {
+  padding: 0.475em;
+}
+#inputView input::placeholder {
+  font-style: italic;
+  font-size: 1em;
+  color: rgb(220, 220, 220);
+}
+#inputView .nft-i-select select,
+#inputView .nft-i-select option.select-default {
+  font-style: italic;
+  color: rgb(220, 220, 220);
+  background-color: #fff;
+}
+#inputView .nft-i-select select option,
+#inputView .nft-i-select.selected select {
+  font-style: normal;
+  color: #000;
+  background-color: #fff;
+}
+#inputView button {
+  background-color: #fff;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: #787878;
+  cursor: pointer;
+  margin: 0;
+  display: block;
+}
+#inputView button:hover {
+  background-color: rgb(255, 100, 0);
+  border: 1px solid rgb(255, 200, 0);
+  color: #fff;
+}
+#inputView button:hover .tick-icon {
+  background-image: url("data:image/svg+xml,%3csvg%20version='1.1'%20viewBox='0%200%20500%20500'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='matrix(1.0251%200%200%201.0251%20-1.5349%20-13.834)'%20fill='none'%20stroke='%23fffffd'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='100'%3e%3cpath%20d='m52.311%20285.1%20110.48%20110.55'/%3e%3cpath%20d='m438.75%20119.28-275.96%20276.37'/%3e%3c/g%3e%3c/svg%3e");
+  opacity: 0.8;
+}
+#inputView button:active {
+  background-color: #ff6400;
+  border: 1px solid #ffc800;
+  color: #fff;
+}
+#inputView .tick-icon {
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  background-image: url("data:image/svg+xml,%3csvg%20version='1.1'%20viewBox='0%200%20500%20500'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='matrix(1.0251%200%200%201.0251%20-1.5349%20-13.834)'%20fill='none'%20stroke='%23000'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='100'%3e%3cpath%20d='m52.311%20285.1%20110.48%20110.55'/%3e%3cpath%20d='m438.75%20119.28-275.96%20276.37'/%3e%3c/g%3e%3c/svg%3e");
+  opacity: 0.5;
+  height: 17px;
+  width: 20px;
+  margin: -2px 10px 0 -10px;
+}
+#inputView .top-padded {
+  padding-top: 20px;
+}
+#inputView .nft-i-numeric-converter .converted {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
+#inputView .nft-i-numeric-converter .converted label {
+  display: block;
+  margin: 0 0.7em 0 0.7em;
+  color: #787878;
+  font-style: italic;
+  font-size: 0.7em;
+}
+#inputView .nft-i-numeric-converter .converted label.metric {
+  text-align: left;
+}
+#inputView .nft-i-numeric-converter .converted label.imperial {
+  text-align: right;
+}
+#inputView .nft-i-page .flex-table {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em 0;
+  padding: 0;
+}
+#inputView .nft-i-page .flex-cell-title,
+#inputView .nft-i-page .flex-cell-value {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.5em 0;
+  overflow: hidden;
+  list-style: none;
+  border: none;
+}
+#inputView .nft-i-page .flex-table-2cols > .flex-cell-title {
+  width: 60%;
+}
+#inputView .nft-i-page .flex-table-2cols > .flex-cell-value {
+  width: 40%;
+}
+#inputView .nft-i-pattern .nft-i-page p.small-italic {
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+#inputView .nft-i-pattern .nft-i-page p.warning {
+  font-size: 0.9em;
+  color: red;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", "Quicksand", "Open Sans", "arial", "helvetica", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
