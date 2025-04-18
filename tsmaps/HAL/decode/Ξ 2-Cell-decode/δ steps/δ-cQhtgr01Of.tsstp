@@ -1,0 +1,35 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+From the **Scene** screen, select the {{gl.manipulator-link}} onto which you want to attach the {{gl.end-effector-link}}. That will enable the _Item Type_ selector to list {{gl.end-effector-link}} as an option. _N.B. Stationary [Tools]{{gl.end-effector-link-D}} will be enabled in a future update._ Click **+** and you'll start creating a {{gl.end-effector-link}}.
+
+The **From Preset** _Creator_ will allow you to select a {{gl.end-effector-link}} from our catalogue. If one of those works for you, you can skip to settings the **Location** below, but with the enormous variety of [Tools]{{gl.end-effector-link-D}} in the world and even the ease with which one can create an entirely unique, custom {{gl.end-effector-link}} for a process, chances are good that you will need to model your own {{gl.end-effector-link}}. To do that, select **From Components** in the _Creator_ selector and you'll see the **Assemble** _Step_ appear.
+
+{{il.cellCreateToolFromComponents-image}}{: .pad-top}
+<em>The Tool editor with the From Components Creator selected.</em>{: .pad-bottom}
+
+Opening the **Assemble** _Step_ will generate a mini-**Scene** which represents your {{gl.end-effector-link}}. A {{gl.end-effector-link}} will always be composed of at least one {{gl.part-link}} which acts as its _base_, and one [endpoint]{{gl.endpoint-link-D}} which acts as the [tool centre point (TCP)]{{gl.endpoint-link-D}}. 
+
+Start by adding a {{gl.part-link}} and you'll get a whole new _Creator_ embedded. There are lots of options here to explore but the most common workflow is likely to **From Geometry** and importing your _Part Body_ **From CAD File**. There first editable _Step_ therein is _CAD File_ which will allow you to select the CAD file which contains your {{gl.end-effector-link}}'s geometry. _To keep things simple, it's worth ensuring that the base of that geometry is at the origin of the file you're importing but you can adjust that with the Location if needed._ The next few _Steps_ will work on their own to import that geometric data and convert into our own formats for optimal performance. The rest of the {{gl.part-link}} settings are optional and should be self-explanatory. Click **ok** on the _Creator_ to finish creating that {{gl.part-link}}.
+
+{{il.cellCreateToolCreatePart-image}}{: .pad-top}
+<em>The Part Creator in From Geometry mode allowing the importing of a CAD file to act as the Tool's geometry.</em>{: .pad-bottom}
+
+Now select your {{gl.part-link}}, and you can add an {{gl.endpoint-link}} to it. The only settings here are for the _Location_ of that {{gl.endpoint-link}} which will act as the {{gl.endpoint-tcp-link}}. This is most easily set relative to its _Parent_ as a _Reference_ and we recommend that the Z axis of [TCPs]{{gl.endpoint-link-D}} point out of the {{gl.end-effector-link}}, following the co-ordinate system flow of the {{gl.manipulator-link}} itself. Click **ok** on the _Creator_ to finish creating that {{gl.endpoint-link}} and then on **ok** again to complete the assembly.
+
+{{il.cellCreateToolCreateEndPoint-image}}{: .pad-top}
+<em>You will see the position of the TCP in the live preview.</em>{: .pad-bottom}
+
+As standard, the {{gl.end-effector-link}}'s base will be attached to the {{gl.manipulator-link}}'s _flange_, or [endpoint]{{gl.endpoint-link-D}}. Setting the _Location_ allows you to offset that attachment point if you need to.
+
+The **Translation Override** _Step_ will allow you change how the {{gl.end-effector-link}} is {{gl.export-d-lc-link}} into {{gl.manipulator-link}} code.
+
+Once you are happy with the {{gl.end-effector-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Scene** screen.
+
+{{il.cellRobotWithTool-image}}{: .pad-top}
+<em>The Tool should appear attached to our Robot and show the location of our TCP.</em>{: .pad-bottom}
+
+---

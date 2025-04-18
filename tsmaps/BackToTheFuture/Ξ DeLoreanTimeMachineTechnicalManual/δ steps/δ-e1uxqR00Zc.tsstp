@@ -1,0 +1,2 @@
+Coordinate misalignment — truly rudimentary! A 1 ms offset in the RTC crystal (32.768 kHz) skews the Lorentz transform by 10^3 years. Reset to a verified epoch — e.g., 1986-05-14, 22:04:00 PST, 34.052°N, 118.243°W — using a cesium clock if available. At 88 mph, the 10^10 J kinetic pulse confirms alignment. Your displacement will stabilize — proof that even geniuses must mind their decimals!
+

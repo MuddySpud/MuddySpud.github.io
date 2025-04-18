@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+In certain scenarios it may be necessary to have your {{gl.manipulator-link}} {{gl.wait-action-link}} in its current position. This could be because it's taking a measurement, a {{gl.end-effector-link}} is working or simply because something else is happening in the environment. If the time to {{gl.wait-action-link}} is a constant, such as the time required for a gripper to open, then a **Wait Time** {{gl.action-link}} is a good solution.
+

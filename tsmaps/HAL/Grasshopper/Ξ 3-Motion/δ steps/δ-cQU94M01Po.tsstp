@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+When we have multiple [Robots]{{gl.manipulator-link-D}} or {{gl.mechanisms-link}}, such as {{gl.positioners-link}}, in a {{gl.cell-link}} it may be necessary for them to execute {{gl.motion-action-motion-link}} synchronously. This could be in scenarios such as two [Robots]{{gl.manipulator-link-D}} sharing a load between them or a {{gl.positioner-link}} reorientating a {{gl.part-link}} whilst a {{gl.manipulator-link}} works on it.
+

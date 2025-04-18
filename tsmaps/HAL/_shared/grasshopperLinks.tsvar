@@ -1,0 +1,182 @@
+
+
+¬grasshopper-contents-url: ../Ξ Grasshopper/Grasshopper.tsmap
+¬grasshopper-contents-link: [Grasshopper SDK]({{grasshopper-contents-url}})
+
+¬grasshopper-reuse-controller-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#64-reuse-controller-data
+¬grasshopper-reuse-controller-link-D: ({{grasshopper-reuse-controller-url}})
+¬grasshopper-reuse-controller-link: [6.4. Reuse Controller Data]{{grasshopper-reuse-controller-link-D}}
+
+¬grasshopper-configure-virtual-controller-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#61-configure-a-virtual-controller
+¬grasshopper-configure-virtual-controller-link: [Configure a Virtual Controller]({{grasshopper-configure-virtual-controller-url}})
+
+
+
+¬grasshopper-getting-started-url: ../Grasshopper/Ξ 1-GettingStarted/1-GettingStarted.tsmap#1-getting-started
+¬grasshopper-getting-started-link-D: ({{grasshopper-getting-started-url}})
+¬grasshopper-getting-started-link: [1. Getting Started]{{grasshopper-getting-started-link-D}}
+¬grasshopper-getting-started-t-link: [Getting Started]{{grasshopper-getting-started-link-D}}
+
+¬grasshopper-quick-start-url: ../Grasshopper/Ξ 1-GettingStarted/1-GettingStarted.tsmap#11-quick-start
+¬grasshopper-quick-start-link: [1.1. Quick Start]({{grasshopper-quick-start-url}})
+
+¬grasshopper-interface-overview-url: ../Grasshopper/Ξ 1-GettingStarted/1-GettingStarted.tsmap#12-interface-overview
+¬grasshopper-interface-overview-link-D: ({{grasshopper-interface-overview-url}})
+¬grasshopper-interface-overview-link: [1.2. Interface Overview]{{grasshopper-interface-overview-link-D}}
+
+¬grasshopper-components-url: ../Grasshopper/Ξ 1-GettingStarted/1-GettingStarted.tsmap#13-components
+¬grasshopper-components-link-D: ({{grasshopper-components-url}})
+¬grasshopper-components-link: [1.3. Components]{{grasshopper-components-link-D}}
+
+¬grasshopper-documentation-component-url: ../Grasshopper/Ξ 1-GettingStarted/1-GettingStarted.tsmap#14-documentation-component
+¬grasshopper-documentation-component-link: [1.4. Documentation Component]({{grasshopper-documentation-component-url}})
+
+
+
+¬grasshopper-cell-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#2-cell
+¬grasshopper-cell-link-D: ({{grasshopper-cell-url}})
+¬grasshopper-cell-link: [2. Cell]{{grasshopper-cell-link-D}}
+
+¬grasshopper-insert-robot-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#21-insert-a-robot
+¬grasshopper-insert-robot-link: [2.1. Insert a Robot]({{grasshopper-insert-robot-url}})
+
+¬grasshopper-create-reference-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#22-create-a-reference
+¬grasshopper-create-reference-link-D: ({{grasshopper-create-reference-url}})
+¬grasshopper-create-reference-link: [2.2. Create a Reference]{{grasshopper-create-reference-link-D}}
+
+¬grasshopper-create-tool-err-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#22-create-a-tool
+¬grasshopper-create-tool-err-link-D: ({{grasshopper-create-tool-err-url}})
+
+¬grasshopper-create-part-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#23-create-a-part
+¬grasshopper-create-part-link-D: ({{grasshopper-create-part-url}})
+¬grasshopper-create-part-link: [2.3. Create a Part]{{grasshopper-create-part-link-D}}
+¬grasshopper-create-part-t-link: [Create a Part]{{grasshopper-create-part-link-D}}
+
+¬grasshopper-create-tool-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#24-create-a-tool
+¬grasshopper-create-tool-link-D: ({{grasshopper-create-tool-url}})
+¬grasshopper-create-tool-link: [2.4. Create a Tool]{{grasshopper-create-tool-link-D}}
+¬grasshopper-create-tool-t-link: [Create a Tool]{{grasshopper-create-tool-link-D}}
+
+¬grasshopper-calibrate-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#25-calibrate-a-reference-or-tool
+¬grasshopper-calibrate-link-D: ({{grasshopper-calibrate-url}})
+¬grasshopper-calibrate-link: [2.5. Calibrate a Reference or Tool]{{grasshopper-calibrate-link-D}}
+
+¬grasshopper-multi-part-tool-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#26-create-a-multi-part-tool
+¬grasshopper-multi-part-tool-link-D: ({{grasshopper-multi-part-tool-url}})
+¬grasshopper-multi-part-tool-link: [2.6. Create a Multi-Part Tool]{{grasshopper-multi-part-tool-link-D}}
+
+¬grasshopper-create-positioner-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#27-create-a-positioner
+¬grasshopper-create-positioner-link: [2.7. Create a Positioner]({{grasshopper-create-positioner-url}})
+
+¬grasshopper-save-mechanism-preset-url: ../Grasshopper/Ξ 2-Cell/2-Cell.tsmap#28-save-a-mechanism-as-a-preset
+¬grasshopper-save-mechanism-preset-link-D: ({{grasshopper-save-mechanism-preset-url}})
+¬grasshopper-save-mechanism-preset-link: [2.8. Save a Mechanism as a Preset \[Coming Soon\]]{{grasshopper-save-mechanism-preset-link-D}}
+
+
+
+¬grasshopper-motion-doc-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap
+¬grasshopper-motion-doc-link-D: ({{grasshopper-motion-doc-url}})
+
+¬grasshopper-motion-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#3-motion
+¬grasshopper-motion-link-D: ({{grasshopper-motion-url}})
+¬grasshopper-motion-link: [3. Motion]{{grasshopper-motion-link-D}}
+
+¬grasshopper-create-target-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#31-create-a-target
+¬grasshopper-create-target-link: [3.1. Create a Target]({{grasshopper-create-target-url}})
+
+¬grasshopper-modify-target-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#32-modify-a-target
+¬grasshopper-modify-target-link: [3.2. Modify a Target]({{grasshopper-modify-target-url}})
+
+¬grasshopper-motion-settings-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#33-change-motion-settings
+¬grasshopper-motion-settings-link-D: ({{grasshopper-motion-settings-url}})
+¬grasshopper-motion-settings-link: [3.3. Change Motion Settings]{{grasshopper-motion-settings-link-D}}
+
+¬grasshopper-combine-procedures-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#34-combine-procedures-and-the-procedure-browser
+¬grasshopper-combine-procedures-link: [3.4. Combine Procedures]({{grasshopper-combine-procedures-url}})
+
+¬grasshopper-synchronize-motion-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#35-synchronize-motion
+¬grasshopper-synchronize-motion-link-D: ({{grasshopper-synchronize-motion-url}})
+¬grasshopper-synchronize-motion-link: [3.5. Synchronize Motion]{{grasshopper-synchronize-motion-link-D}}
+
+¬grasshopper-coupled-motion-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#36-coupled-motion-and-resolving-targets
+¬grasshopper-coupled-motion-link-D: ({{grasshopper-coupled-motion-url}})
+¬grasshopper-coupled-motion-link: [3.6. Coupled Motion and Resolving Targets]{{grasshopper-coupled-motion-link-D}}
+
+¬grasshopper-change-tool-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#37-change-a-tool-at-runtime
+¬grasshopper-change-tool-link-D: ({{grasshopper-change-tool-url}})
+¬grasshopper-change-tool-link: [3.7. Change a Tool at Runtime]{{grasshopper-change-tool-link-D}}
+¬grasshopper-change-tool-t-link: [Change a Tool at Runtime]{{grasshopper-change-tool-link-D}}
+
+¬grasshopper-target-constraints-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#38-add-target-constraints
+¬grasshopper-target-constraints-link-D: ({{grasshopper-target-constraints-url}})
+¬grasshopper-target-constraints-link: [3.8. Add Target Constraints \[Coming Soon\]]{{grasshopper-target-constraints-link-D}}
+
+¬grasshopper-mechanism-constraints-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#39-add-mechanism-constraints
+¬grasshopper-mechanism-constraints-link-D: ({{grasshopper-mechanism-constraints-url}})
+¬grasshopper-mechanism-constraints-link: [3.9. Add Mechanism Constraints \[Coming Soon\]]{{grasshopper-mechanism-constraints-link-D}}
+
+¬grasshopper-track-url: ../Grasshopper/Ξ 3-Motion/3-Motion.tsmap#310-using-a-track
+¬grasshopper-track-link-D: ({{grasshopper-track-url}})
+¬grasshopper-track-link: [3.10. Using a Track]{{grasshopper-track-link-D}}
+
+
+
+¬grasshopper-io-url: ../Grasshopper/Ξ 4-IO/4-IO.tsmap#4-io
+¬grasshopper-io-link-D: ({{grasshopper-io-url}})
+¬grasshopper-io-link: [4. I/O]{{grasshopper-io-link-D}}
+
+¬grasshopper-create-signal-url: ../Grasshopper/Ξ 4-IO/4-IO.tsmap#41-create-a-signal
+¬grasshopper-create-signal-link-D: ({{grasshopper-create-signal-url}})
+¬grasshopper-create-signal-link: [4.1. Create a Signal]{{grasshopper-create-signal-link-D}}
+
+¬grasshopper-signal-state-url: ../Grasshopper/Ξ 4-IO/4-IO.tsmap#42-change-a-signal-state
+¬grasshopper-signal-state-link: [4.2. Change a Signal State]({{grasshopper-signal-state-url}})
+
+
+
+¬grasshopper-advanced-programming-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#5-advanced-programming
+¬grasshopper-advanced-programming-link-D: ({{grasshopper-advanced-programming-url}})
+¬grasshopper-advanced-programming-link: [5. Advanced Programming]{{grasshopper-advanced-programming-link-D}}
+
+¬grasshopper-wait-time-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#51-wait-for-a-time
+¬grasshopper-wait-time-link: [5.1. Wait for a Time]({{grasshopper-wait-time-url}})
+
+¬grasshopper-wait-synchronization-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#52-wait-for-synchronization
+¬grasshopper-wait-synchronization-link: [5.2. Wait for Synchronization]({{grasshopper-wait-synchronization-url}})
+
+¬grasshopper-create-loop-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#53-create-a-loop
+¬grasshopper-create-loop-link: [5.3. Create a Loop \[Coming Soon\]]({{grasshopper-create-loop-url}})
+
+¬grasshopper-create-condition-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#54-create-a-condition
+¬grasshopper-create-condition-link: [5.4. Create a Condition \[Coming Soon\]]({{grasshopper-create-condition-url}})
+
+¬grasshopper-custom-actions-url: ../Grasshopper/Ξ 5-AdvancedProgramming/5-AdvancedProgramming.tsmap#55-custom-actions
+¬grasshopper-custom-actions-link-D: ({{grasshopper-custom-actions-url}})
+¬grasshopper-custom-actions-link: [5.5. Custom Actions]{{grasshopper-custom-actions-link-D}}
+
+
+
+
+¬grasshopper-control-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#6-control
+¬grasshopper-control-link-D: ({{grasshopper-control-url}})
+¬grasshopper-control-link: [6. Control]{{grasshopper-control-link-D}}
+
+¬grasshopper-virtual-controller-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#61-configure-a-virtual-controller
+¬grasshopper-virtual-controller-link-D: ({{grasshopper-virtual-controller-url}})
+¬grasshopper-virtual-controller-link: [6.1. Configure a Virtual Controller]{{grasshopper-virtual-controller-link-D}}
+
+¬grasshopper-export-procedure-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#62-export-a-procedure
+¬grasshopper-export-procedure-link-D: ({{grasshopper-export-procedure-url}})
+¬grasshopper-export-procedure-link: [6.2. Export a Procedure]{{grasshopper-export-procedure-link-D}}
+
+¬grasshopper-upload-procedure-url: ../Grasshopper/Ξ 6-Control/6-Control.tsmap#63-upload-a-procedure
+¬grasshopper-upload-procedure-link-D: ({{grasshopper-upload-procedure-url}})
+¬grasshopper-upload-procedure-t-link: [Upload a Procedure]{{grasshopper-upload-procedure-link-D}}
+¬grasshopper-upload-procedure-link: [6.3. Upload a Procedure]{{grasshopper-upload-procedure-link-D}}
+
+
+
+
+¬grasshopper-link: [Grasshopper](https://www.rhino3d.com/6/new/grasshopper)
+¬rhino-features-link: [Rhinoceros 3D](https://www.rhino3d.com/6/features)
+¬rhino-link: [McNeel's Rhinoceros 3D and Grasshopper](https://www.rhino3d.com/download)

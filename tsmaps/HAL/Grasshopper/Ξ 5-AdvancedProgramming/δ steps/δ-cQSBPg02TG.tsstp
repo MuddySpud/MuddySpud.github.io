@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+In certain scenarios it may be necessary to have your {{gl.manipulator-link}} {{gl.wait-action-link}} in its current position. This could be because it's taking a measurement, a {{gl.end-effector-link}} is working or simply because something else is happening in the environment. If the time to {{gl.wait-action-link}} is a constant, such as the time required for a gripper to open, then a **Wait Time** {{gl.action-link}} is a good solution.
+
+#### How to:
+
+We can create a {{gl.wait-action-a-link}} from the **HAL Robotics** tab, **Procedure** panel. The only thing required is the _Duration_. We can assign a time, say 2 seconds, and remember, if it's more natural to work in some other unit, the time unit can be changed by right-clicking on the _Duration_ input. The output of this component is an {{gl.action-link}} which can be merged into any other sequence of {{gl.actions-link}} you may have. Once that's merged, we can see in the **Procedure Browser** that we our {{gl.wait-action-a-link}} is listed and when we **Simulate** the {{gl.manipulator-link}} pauses for 2 seconds.
+
+---

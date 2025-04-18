@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import del from "../../../_shared/decodeExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.4. Create a Part
+
+#### Objective:
+
+In this tutorial we'll see how to add {{gl.parts-link}} to your _decode_ scene.
+
+#### Demo Files:
+
+> [{{il.rhFile16-img}}  WobblyBlock.stp]{{del.WobblyBlock-link-D}}{: .icon-link}
+

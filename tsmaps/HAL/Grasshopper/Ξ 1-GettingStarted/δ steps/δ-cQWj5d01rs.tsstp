@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/grasshopperLinks"
+
+
+#### Background:
+
+The HAL Robotics Framework is a modular software library that simplify the modelling, programming and simulation of processes involving industrial machines. The client for McNeel software gives you access to the vast majority of the Framework's functionality from within {{gl.grasshopper-link}}, a visual programming environment that runs within {{gl.rhino-features-link}}.
+

@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+{{gl.procedures-link}} are sequences of atomic {{gl.actions-link}}, such as {{gl.motion-action-move-link}}, {{gl.wait-action-link}} or [Change Signal State]{{gl.signal-action-link-D}}. Each of these are created individually but need to be combined to be executed one after the other by our {{gl.manipulator-link}}. {{gl.procedures-link}} can also be created as reusable sequences of {{gl.actions-link}} for example moving to a home position and opening a gripper.
+

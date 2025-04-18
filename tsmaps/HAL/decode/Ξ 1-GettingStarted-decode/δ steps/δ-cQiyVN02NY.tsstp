@@ -1,0 +1,24 @@
+¬import il from "../../../_shared/imageLinks"
+¬import dl from "../../../_shared/decodeLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 1.4. Variables
+
+#### Objective:
+
+In this tutorial we'll look at the **Variable** manager and how it can help you manage your variables in _decode_.
+
+#### Background:
+
+**Variables** are used to reuse data or values in multiple locations throughout _decode_. For example, they could be used to ensure that the same speed is assigned to multiple {{dl.decode-moves-link}} or that the [blend radius]{{gl.blend-link-D}} matches the spacing of a sanding pattern. **Variables** are always of a specific type, i.e. a length, and are created from a setting which has a link **🔗** symbol. Clicking on that icon will bring up the local **Variable** manager, which will list existing, compatible **Variables**. If none are listed you can set the _Alias_ and _Description_ to create a new one. You can then use the buttons at the bottom of this window to **link** or **unlink** a setting from a **Variable**. You can return to this window after you've linked a **Variable** to a setting by clicking on the same button again. Once a setting has been linked to a **Variable** it will no longer be editable locally.
+
+{{il.programmingMoveMotionSettingsVariable-image}}{: .pad-top}
+<em>Variables make _decode_ extremely flexible and allow changes to be propagated easily.</em>{: .pad-bottom}
+
+The **Variable** manager, the screen with the link **🔗** symbol, allows you to manage all your existing **Variables**. The number of times a **Variable** is linked is shown in the upper corner of the **Variable** and any with `0` links can be deleted. All those with `0` links can be purged in a single click with the **purge** button. 
+By selecting a **Variable**, the _Alias_ and _Description_ can be changed and the value changed in the _Source_ _Value_ by using the **edit** button or setting it directly.
+
+**Variables** are very powerful and can link out to other pieces of software to do data exchange. If you are interested in those more advanced features, please see the {{dl.decode-advanced-programming-t-link}}.
+
+---

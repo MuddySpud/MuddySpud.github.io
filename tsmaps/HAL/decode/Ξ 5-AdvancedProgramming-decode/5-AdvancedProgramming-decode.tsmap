@@ -1,0 +1,91 @@
+{
+    "key": "eGVQJR26Y   ",
+    "token": "5AdvancedProgrammingdecode",
+    "name": "5-AdvancedProgramming-decode",
+    "created": "2025-03-14T11:27:36.617Z",
+    "list": true,
+    "publishFileName": "5-Advanced-Programming",
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap",
+    "iText": "Link to '5-AdvancedProgramming-decode'",
+    "___rΩΩt___": {
+        "key": "eGVQJR2AP",
+        "nodes": [
+            {
+                "key": "eGVQJR0K1",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "eGVQJR0rZ",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "eGVQJR1z2",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQJR0vj",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQJR2Oa",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "eGVQJR1DL",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "isLeaf": true
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-eGVQJR2AP",
+            "relativePath": "./δ steps/δ-cQb9QY0063.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR0K1",
+            "relativePath": "./δ steps/δ-cQbE5p004q.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR0rZ",
+            "relativePath": "./δ steps/δ-cQbFez001e.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR1z2",
+            "relativePath": "./δ steps/δ-cQbHCh01P3.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR0vj",
+            "relativePath": "./δ steps/δ-cQbIaW02Vm.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR2Oa",
+            "relativePath": "./δ steps/δ-cQbJr600ig.tsstp"
+        },
+        {
+            "key": "δ-eGVQJR1DL",
+            "relativePath": "./δ steps/δ-cQbLCf00Xl.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fAL4bu02ZJ",
+        "editorID": "car_89de26c505784110ba15a062db354f19",
+        "ticks": 1744459832086
+    }
+}

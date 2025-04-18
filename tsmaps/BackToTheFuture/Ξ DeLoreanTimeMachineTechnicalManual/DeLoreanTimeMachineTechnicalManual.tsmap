@@ -1,0 +1,204 @@
+{
+    "key": "eGVQJj24d   ",
+    "token": "DeloreanTimeMachineTechnicalManual",
+    "name": "DeLoreanTimeMachineTechnicalManual",
+    "created": "2025-03-31T11:01:12.785Z",
+    "list": true,
+    "publishFileName": "DeLorean-Time-Machine-Technical-Manual",
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/BackToTheFuture/Ξ DeLoreanTimeMachineTechnicalManual/DeLoreanTimeMachineTechnicalManual.tsmap",
+    "iText": "Link to 'DeLoreanTimeMachineTechnicalManual'",
+    "___rΩΩt___": {
+        "key": "f1azJk029r",
+        "nodes": [
+            {
+                "key": "eaoeoB00mC",
+                "order": 1,
+                "option": "Root",
+                "nodes": [
+                    {
+                        "key": "eGVQJj0pW",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "eGVQJj2Jm",
+                                "order": 1,
+                                "option": "The DeLorean exhibits no operational response",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQJj00w",
+                                        "order": 1,
+                                        "option": "The microreactor or fusion unit lacks sufficient energy input",
+                                        "isLeaf": true
+                                    },
+                                    {
+                                        "key": "eGVQJj1Au",
+                                        "order": 2,
+                                        "option": "Energy supply is nominal, yet activation remains absent",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQJj1ZS",
+                                                "order": 1,
+                                                "option": "The flux capacitor exhibits catastrophic failure",
+                                                "isLeaf": true
+                                            },
+                                            {
+                                                "key": "eGVQJj2Ti",
+                                                "order": 2,
+                                                "option": "The flux capacitor functions within parameters",
+                                                "isLeaf": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eGVQJj2Un",
+                                "order": 2,
+                                "option": "She activates but fails to achieve temporal displacement",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQJj17M",
+                                        "order": 1,
+                                        "option": "The time circuit parameters are misconfigured",
+                                        "isLeaf": true
+                                    },
+                                    {
+                                        "key": "eGVQJj2Zm",
+                                        "order": 2,
+                                        "option": "Parameters align, yet displacement eludes us",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQJj1O0",
+                                                "order": 1,
+                                                "option": "The injector manifold is obstructed",
+                                                "isLeaf": true
+                                            },
+                                            {
+                                                "key": "eGVQJj1c4",
+                                                "order": 2,
+                                                "option": "The manifold is clear; external interference is probable",
+                                                "isLeaf": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eGVQJj0rQ",
+                                "order": 3,
+                                "option": "Displacement occurs, but the spatiotemporal coordinates are erroneous",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQJj1o4",
+                                        "order": 1,
+                                        "option": "The time circuit coordinates are misaligned",
+                                        "isLeaf": true
+                                    },
+                                    {
+                                        "key": "eGVQJj1Sy",
+                                        "order": 2,
+                                        "option": "Coordinates are precise, yet the error persists",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQJj1Qu",
+                                                "order": 1,
+                                                "option": "The flux dispersal unit is compromised",
+                                                "isLeaf": true
+                                            },
+                                            {
+                                                "key": "eGVQJj2Bc",
+                                                "order": 2,
+                                                "option": "The unit is intact; turbulence is the culprit",
+                                                "isLeaf": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-eGVQJj0pW",
+            "relativePath": "./δ steps/δ-e1tMEa00NT.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj2Jm",
+            "relativePath": "./δ steps/δ-e1tPtK00iY.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj00w",
+            "relativePath": "./δ steps/δ-e1thSH00jb.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1Au",
+            "relativePath": "./δ steps/δ-e1tlBt01Za.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1ZS",
+            "relativePath": "./δ steps/δ-e1tw1f02S8.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj2Ti",
+            "relativePath": "./δ steps/δ-e1u37601P5.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj2Un",
+            "relativePath": "./δ steps/δ-e1tZom007q.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj17M",
+            "relativePath": "./δ steps/δ-e1uJUl01fx.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj2Zm",
+            "relativePath": "./δ steps/δ-e1uPqF01yh.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1O0",
+            "relativePath": "./δ steps/δ-e1uYL501xY.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1c4",
+            "relativePath": "./δ steps/δ-e1ujRx01TQ.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj0rQ",
+            "relativePath": "./δ steps/δ-e1tc3A01C5.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1o4",
+            "relativePath": "./δ steps/δ-e1uxqR00Zc.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1Sy",
+            "relativePath": "./δ steps/δ-e1v28D01cl.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj1Qu",
+            "relativePath": "./δ steps/δ-e1v9hx02Cc.tsstp"
+        },
+        {
+            "key": "δ-eGVQJj2Bc",
+            "relativePath": "./δ steps/δ-e1vDyS01x3.tsstp"
+        },
+        {
+            "key": "δ-eaoeoB00mC",
+            "relativePath": "./δ steps/δ-eaoeoB00mC.tsstp"
+        },
+        {
+            "key": "δ-f1azJk029r",
+            "relativePath": "./δ steps/δ-f1azJk029r.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "f6waLS01NI",
+        "editorID": "car_03f42a3c15ba47748bf73cbe712da456",
+        "ticks": 1744409666866
+    }
+}

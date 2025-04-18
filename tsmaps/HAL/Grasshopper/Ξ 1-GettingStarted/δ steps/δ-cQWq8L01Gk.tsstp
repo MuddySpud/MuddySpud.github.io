@@ -1,0 +1,5 @@
+
+#### Background:
+
+The HAL Robotics Framework for Grasshopper installs a new tab within the Grasshopper UI called **HAL Robotics**. You will know that the Framework is installed if you can see the **HAL Robotics** tab and a number of blue hexagonal parameters components on the **Params** tab.
+

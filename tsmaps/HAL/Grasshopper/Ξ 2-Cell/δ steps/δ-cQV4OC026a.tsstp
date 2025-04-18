@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+
+
+### 2.2. Create a Reference
+
+#### Objective:
+
+In this tutorial we'll see how to create {{gl.references-link}} in HAL Robotics Framework components in Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}}  Create a Reference.gh]{{gel.createReference-gh-link-D}}{: .icon-link}
+

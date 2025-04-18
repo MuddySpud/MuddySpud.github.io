@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.10. Using a Track
+
+#### Objective:
+
+In this tutorial we'll see how the previous tutorials on [synchronization](#35-synchronize-motion) and [Target Resolvers](#36-coupled-motion-and-resolving-targets) can be used together to program a **Track**, or [Linear Positioner]{{gl.positioner-link-D}}, using the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}} Using a Track.gh]{{gel.usingTrack-gh-link-D}}{: .icon-link}
+

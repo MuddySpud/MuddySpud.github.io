@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Electrical Input and Output (I/O) {{gl.signals-link}} are used to activate or deactivate [Tools]{{gl.end-effector-link-D}}, trigger actions on remote machines or pass data between **Sensors**. The activation of these {{gl.signals-link}} needs to be triggered at the right time during program execution, something we can do easily with {{gl.signal-actions-link}}.
+
+#### How to:
+
+In our previous tutorial, we created a digital output {{gl.signal-link}}, assigned it an appropriate _Alias_ and hooked it up to a {{gl.controller-link}}. We now want to change the state of that {{gl.signal-link}} during the execution of a {{gl.procedure-link}}. To do so we're going to get the **Change Signal State** component from the **HAL Robotics** tab, **Procedure** panel. Just like the **Create Signal** component we can change between digital and analogue with component templates and swap between input or output by changing overloads. We can assign our previously created {{gl.signal-link}} to the component's _Signal_ input and choose what effect we want to have on the {{gl.signal-link}} by right-clicking on the _Effect_ input. In this scenario we're going to `Set` the state. As we're setting the state, we need to pass in a _State_ which, for a digital signal, is a Boolean value where `true` is equivalent to High and `false` is equivalent to Low. The output of this component is an {{gl.action-link}} which can be merged into any other sequence of {{gl.actions-link}} you may have. Once that's merged, we can see in the **Procedure Browser** that we have some {{gl.motion-action-motion-link}}, our `Set DO_01 to high` {{gl.action-link}} and then some more {{gl.motion-action-motion-link}} to finish off the {{gl.procedure-link}}.
+
+---

@@ -1,0 +1,213 @@
+---
+title: null
+mapFolderPath: tsmaps/HAL/Overview/%CE%9E%20Glossary
+fragsFolderPath: HAL/Overview/Glossary_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCPi208","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/Glossary_frags"},"fragment":{"id":"fdLCPi208","topLevelMapKey":"eGXo5y2EQ","mapKeyChain":"eGXo5y2EQ","guideID":"fdLCPi0jg","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Overview/Glossary.tsmap","parentFragmentID":null,"chartKey":"eGXo5y2EQ","options":[]}} -->
+
+## 7. Glossary
+
+[7.1. Cell Setup](#71-cell-setup)  
+[7.2. Programming](#72-programming)  
+[7.3. Simulation](#73-simulation)  
+[7.4. Control](#74-control)  
+
+---
+### 7.1. Cell Setup
+_a.k.a digital model_
+
+the process of virtualizing, or digitally recreating, the work environment including all relevant physical, mechanical and communication systems.
+
+#### cell
+_a.k.a station, layout, session, scene_
+
+a set of simulated objects. A cell is typically built around controlled [mechanisms](#mechanism) and their associated [controller](#controller). [References](#reference) are used to organize the relative positioning of the objects in a cell.
+
+#### controller
+_a.k.a robot computer_
+
+a (virtual or physical) computer controlling the joints of one or more [mechanisms](#mechanism). A [controller](#controller) can share data via electric signals or communication protocols.
+
+#### mechanism
+_a.k.a assembly, kinematic system_
+
+a set of [parts](#part) connected together by [joints](#joint) or [connections](#connection). A mechanism also has sockets on which [parts](#part) can be attached, and one or more end-points, that can be used in kinematic calculations. [Robots](#manipulator), [positioners](#positioner) and [tools](#end-effector) are all types of mechanism.
+
+#### manipulator
+_a.k.a robot_
+
+specific type of [mechanism](#mechanism) which is the primary controlled element of a [controller](#controller). Multiple manipulators can share a single [cell](#cell).
+
+#### end effector
+_a.k.a tool_
+
+specific type of [mechanism](#mechanism) which performs a process e.g. welding torch, spindle, gripper or camera. End effectors can either be mounted onto a [mechanism](#mechanism) or be installed elsewhere in the [cell](#cell), referred to as stationary tools, with a [mechanism](#mechanism) moving a [part](#part) towards the end effector.
+The term end effector is preferred over _tool_ as a an end effector can actually be composed of multiple _tools_, for example a gripper and camera mounted simultaneously to identify objects before picking.
+
+#### positioner
+_a.k.a external axis_
+
+specific type of [mechanism](#mechanism) which supports the work of a [manipulator](#manipulator) by moving its base or [parts](#part) around to facilitate access. Tracks and rotary tables are both examples of positioners. Multiple positioners can be installed in a single [cell](#cell).
+
+#### joint
+_a.k.a articulation, axis_
+
+an articulated link between two [parts](#part). A joint can be _active_ (controlled) or _passive_.
+
+#### joint mapping
+_a.k.a joint index_
+
+the index a [joint](#joint) should be assigned during export. This is typically only required with [external axes](#positioner) to set the index of a [joint](#joint) within a main [program](#procedure).
+
+#### connection
+_a.k.a rigid joint_
+
+a fixed link between [parts](#part).
+
+### endpoint
+_a.k.a tool center point_
+
+tip of a [mechanism](#mechanism) which should attempt to reach any programmed [targets](#target). A single [mechanism](#mechanism) can have multiple endpoints but only one should be active at a time.
+
+#### part
+_a.k.a object, body, link_
+
+a physical body. A part is a reference with a geometry and a mass.
+
+#### reference
+_a.k.a coordinate system, reference frame, basis, work object_
+
+a coordinate system upon which [targets](#target) and other objects can be located. References can be linked to other references and [parts](#part) by connections and be made mobile if they are connected to a [mechanism](#mechanism).
+
+#### signal
+_a.k.a i/o, electrical signal_
+
+signals are used to send electrical data between connected devices. Electrical signals can be either input (receivers) or output (senders), this pairing leads to their common pseudonym i/o (pronounced 'I-O'). Theses signals can also be either digital, with only high or low values, or analog, with values anywhere between their minimum and maximum voltages.
+
+---
+### 7.2. Programming
+_a.k.a telling a machine what to do_
+
+creation of procedures from CAD data or other sources
+
+#### procedure
+_a.k.a program, task, process, job, module, routine_
+
+a set of [actions](#action) to be executed by a [controller](#controller).
+
+#### action
+_a.k.a command, instruction, function, method, operation, nested procedure_
+
+an operation executable by a [controller](#controller). As actions can be nested and combined, a [procedure](#procedure) is a graph of actions.
+
+Typical actions include: motion ([move](#motion-action)), assembly (change tool, pick), signal ([set I/O](#signal-action)) and thread actions ([wait](#wait-action)).
+
+#### motion action
+_a.k.a move_
+
+instructs one or more [mechanisms](#mechanism) to reach a target using specified motion settings.
+
+#### wait action
+_a.k.a wait, pause, halt_
+
+instructs a [controller](#controller) to temporarily pause its execution. Execution can be resumed automatically, e.g. after a fixed period of time, upon a signal change or synchronization, or manually via an operator interaction e.g. by pressing a button.
+
+#### signal action
+_a.k.a set signal_
+
+changes the value of a [signal](#signal) at runtime. This is typically used to trigger the (de)activation of a [tool](#end-effector) or announce a change of state to a connected device.
+
+#### custom action
+_a.k.a function_
+
+[exports](#export) a piece of code to call a function which already exists in the [controller](#controller).
+
+#### target
+_a.k.a waypoint, frame, pose_
+
+a position to be reached by one or more [mechanisms](#mechanism), expressed in [joint space](#joint-space) or [Cartesian space](#cartesian-space).
+
+#### toolpath
+_a.k.a motion sequence_
+
+series of [targets](#target) through which the [endpoint](#endpoint) of [mechanism](#mechanism) will move to perform a process e.g. milling.
+
+#### joint space
+_a.k.a space of the manipulator_
+
+the positions in which a [mechanism](#mechanism) can be by moving its [joints](#joint), expressed as a position for each [joint](#joint).
+
+#### Cartesian space
+_a.k.a operational space, task space, space of the end-effector_
+
+the positions in which [tool](#end-effector) can be, expressed in Cartesian coordinates
+
+#### blend
+_a.k.a approximation, zone, corner path_
+
+depicts tolerances within which a [target](#target) will be considered "reached". Increasing these tolerances allows a [mechanism](#mechanism) to perform continuous motion: it will not stop at each [target](#target).
+
+---
+### 7.3. Simulation
+_a.k.a digital execution_
+
+virtual execution and validation of one or more programmed [procedures](#procedure)
+
+#### solving
+_a.k.a validation_
+
+computing how a [procedure](#procedure) will run when executed and logging any potential issues such as [out of reach](#workspace) [targets](#target) or [singularities](#(kinematic)-singularity).
+
+#### workspace
+_a.k.a accessible space_
+
+the set of points that can be reached by a [mechanism's](#mechanism) [end effector](#end-effector). [Targets](#target) outside a [mechanism's](#mechanism) workspace are _out of reach_.
+
+#### (kinematic) singularity
+_a.k.a degeneracy_
+
+a location in a [mechanism](#mechanism) [workspace](#workspace) where a change of [joint](#joint) position does not result in a change of [end effector](#end-effector) position. This happens when two or more [joints](#joint) line up, meaning the movement of one is canceled out by the other's.
+
+---
+### 7.4. Control
+_a.k.a real-world connection_
+
+any interaction that allows digital information to be passed to real-world [controllers](#controller), sensors or [mechanisms](#mechanism).
+
+#### export
+_a.k.a code generation, post-processing_
+
+process by which [procedures](#procedure) are converted into the relevant programming language for a target [controller](#controller), e.g. ABB RAPID, KUKA KRL or Universal Robots URScript.
+
+#### upload
+_a.k.a transfer_
+
+moving of files from one device to another. Typically exported [procedures](#procedure) can be uploaded to a real [controller](#controller) and, if supported, executed.
+
+#### capabilities
+
+these are how we organize what a [controller](#controller) can do and draw parallels between different manufacturers' [controllers](#controller). _Capabilities_ are things like the ability to [upload](#upload) code to the [controller](#controller) from a PC or the ability to read the values of [signals](#signal) remotely. The standard _capabilities_ are listed below. Extensions may add others but equally, not all will be available for every [controller](#controller), and above all, not all will be of use in every situation.
+
+| Name | Description |
+| ---- | ----------- |
+| File Manager | Edits the files and directories of a remote [controller](#controller) including copying files to and from it. |
+| Upload | Loads any [procedures](#procedure) associated with the [controller](#controller) into the memory of a remote [controller](#controller). |
+| Execution | Executes any [procedures](#procedure) associated with the [controller](#controller) on a remote [controller](#controller). |
+| Execution Monitoring | Monitors the execution status of a remote [controller](#controller). |
+| Monitor | Monitors the [controller](#controller) state. |
+| Stream | Enables state streaming to the [controller](#controller). |
+| Logger | Records events of a [controller](#controller). |
+| Language | [Exports](#export) any [procedures](#procedure) associated with the [controller](#controller) into native robot code. |
+| Read Signals | Reads the state of [signals](#signal) on a remote [controller](#controller). |
+| Write Signals | Writes the state of [signals](#signal) on a remote [controller](#controller). |
+| Backup | Backs up the contents of a remote [controller](#controller). |
+
+#### subsystems
+_a.k.a. options_
+
+these are similar to the options you have in your [controller](#controller). They are the actual software modules that implement different [capabilities](#capabilities). Details of different _subsytems_ can be found in the [manufacturer-specific documentation](/HAL/Manufacturers).
+
+---

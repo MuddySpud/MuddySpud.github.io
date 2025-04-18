@@ -1,0 +1,9 @@
+¬import rp from "./RequirementPoints"
+
+
+#### Requirements to follow along:
+
+{{rp.requirement-1}}
+{{rp.requirement-2}}
+{{rp.requirement-3}}
+{{rp.requirement-4}}

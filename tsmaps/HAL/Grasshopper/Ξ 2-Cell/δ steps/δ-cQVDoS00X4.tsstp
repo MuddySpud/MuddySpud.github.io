@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+
+
+### 2.3. Create a Part
+
+#### Objective:
+
+In this tutorial we'll see how to create {{gl.parts-link}} using HAL Robotics Framework components in Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}}  Create a Part.gh]{{gel.createPart-gh-link-D}}{: .icon-link}
+

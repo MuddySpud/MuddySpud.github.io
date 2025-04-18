@@ -1,0 +1,17 @@
+¬import ol from "../../../_shared/overviewLinks"
+
+
+### 1.1. Projects
+
+#### Objective:
+
+In this tutorial we'll see how to create a HAL Robotics _decode_ Project so we can start programming robots.
+
+#### Requirements to follow along:
+
+- HAL Robotics _decode_ installed on a PC. See {{ol.overview-installation-link}} if you need to install the software.
+
+#### Background:
+
+_decode_ will enable you to prepare a complete robot programming environment and we store all of the data associated to that environment in a **Project**. The **Project** is a folder with a series of files, each of which holds different information about the environment you've created or are using.
+

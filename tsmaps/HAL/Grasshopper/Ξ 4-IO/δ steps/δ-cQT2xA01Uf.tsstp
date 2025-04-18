@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Electrical Input and Output (I/O) {{gl.signals-link}} are used to activate or deactivate [Tools]{{gl.end-effector-link-D}}, trigger actions on remote machines or pass data between **Sensors**.
+
+#### How to:
+
+We can start creating a {{gl.signal-link}} by navigating to the **HAL Robotics** tab, **Cell** panel and selecting **Create Signal**. The templates of this component change between digital and analogue {{gl.signals-link}}, whilst the overloads switch between inputs or outputs. The only compulsory input on the component is the _Alias_ which should exactly match the value assigned in your real {{gl.controller-link}}. If your {{gl.controller-link}} handles aliases then that could be something like `DO_01` but if your controller only handle indices then this _Alias_ could simply be `2`. You can also change the _High_ and _Low_ voltage states of your {{gl.signal-link}} if you so wish or need. Once the {{gl.signal-link}} has been created, we can assign it to our {{gl.controller-link}} by dragging the {{gl.signal-link}} output to the **Controller's** _Signal_ input.
+
+---

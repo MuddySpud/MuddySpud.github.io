@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+
+
+##### Follow Pattern
+
+Both **Follow Pattern** _Creators_ require some means of defining a **Region** to work. _Planar_ requires the selection of _Boundary_ curves from a CAD Model. Those can either be independent closed regions or one inside another which will be treated as holes within the outermost region. _Non-Planar_ regions need a surface or mesh from a CAD Model. It's best to explode complex models into their usable surfaces or meshes in your CAD editor of choice before importing them to make this easier. If you have curves within you CAD Models you can also set these are _Boundaries_ on the _Host_ surfaces but if no _Boundaries_ are specified we'll the edges of those surfaces in their stead.
+
+{{il.programmingFollowPatternNonPlanarSelector-image}}{: .pad-top}
+<em>Managing the separate surfaces in your original CAD file will make selection easier.</em>{: .pad-bottom}
+
+With a **Region** in place, we can **Create a Pattern**. The _Pattern Type_ will determine the settings available so, again, it's worth experimenting to see what they all do. All _Pattern Types_ work well on _Planar_ **Regions** but we only recommend _Concentric_ or _Parallel_ on _Non-Planar_ **Regions**.
+
+{{il.programmingFollowPatternNonPlanarConcentric-image}}{: .pad-top}
+<em>Entire surfaces, including non-planar ones, can be covered in patterns.</em>{: .pad-bottom}
+

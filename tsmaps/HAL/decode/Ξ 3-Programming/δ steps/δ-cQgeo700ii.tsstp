@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+In our previous tutorial, we created a digital output {{gl.signal-link}} within a {{gl.controller-link}} and assigned it an appropriate _Name_.. We now want to change the state of that {{gl.signal-link}} during the execution of a {{gl.procedure-link}}. To do so, from the **Programming** screen, select the [Group](#36-structuring-procedures) into which you want to add your new {{gl.signal-action-link}}, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.actions-link}} onto [Groups](#36-structuring-procedures) or in between other {{gl.actions-link}} to restructure your {{gl.procedure-link}} later. Either of those states will enable the _Item Type_ selector to list [Set Signal]{{gl.signal-action-link-D}} as an option. Click **+** and you'll start creating a {{gl.signal-action-link}}. 
+
+{{il.programmingSetSignalComplete-image}}{: .pad-top}
+<em>Signals can be used to activate or deactivate Tools or trigger actions.</em>{: .pad-bottom}
+
+You'll have a _Creator_ for each type of {{gl.signal-link}} available, e.g. **Set Digital Output** or **Set Analog Output**. Within each you will find a list of the relevant {{gl.signals-link}} in your **Network** and a _Value_ which should be assigned.
+
+Once you are happy with the {{gl.signal-action-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen.
+
+---

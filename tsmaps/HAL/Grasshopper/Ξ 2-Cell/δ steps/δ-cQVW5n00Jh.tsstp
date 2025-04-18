@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+More often than not you will need a {{gl.end-effector-link}} or [End Effector]{{gl.end-effector-link-D}} in your {{gl.cell-link}} to undertake a process. The {{gl.end-effector-link}} could be anything from a welding torch to a spindle or even something as simple as a pen. [Tools]{{gl.end-effector-link-D}} can be attached to the end of a manipulator like a {{gl.manipulator-link}} or stationary with a {{gl.manipulator-link}} bringing the {{gl.part-link}} to the {{gl.end-effector-link}}.
+

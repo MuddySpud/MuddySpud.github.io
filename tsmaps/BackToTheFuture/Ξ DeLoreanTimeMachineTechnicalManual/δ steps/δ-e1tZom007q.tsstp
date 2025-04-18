@@ -1,0 +1,2 @@
+The DeLorean powers up — engine at 4800 RPM, lights aglow — but refuses to pierce the temporal veil. Frustrating! Examine the time circuit interface (three Nixie-tube displays, 5V logic). A malformed input — e.g., a Julian date exceeding 10^6 or geospatial nonsense — trips a failsafe in the 6502 microprocessor. If valid (e.g., 1955-11-05, 34.267°N, 118.413°W), suspect mechanical drag on the stainless-steel chassis (drag coefficient 0.33) or an external chroniton dampening field. Let’s dissect this anomaly.
+

@@ -1,0 +1,2 @@
+You’ve located the control panel — well, I’m mildly impressed. The dish alignment controls use a servo motor with a 0.01-degree precision, driven by a 48V DC supply. Adjust the azimuth first; turn the dial until the signal strength on the panel’s display climbs above -80 dB. It’s a simple trigonometric adjustment, but I won’t bore you with the math — you wouldn’t understand it anyway. Just keep turning until it looks right.
+

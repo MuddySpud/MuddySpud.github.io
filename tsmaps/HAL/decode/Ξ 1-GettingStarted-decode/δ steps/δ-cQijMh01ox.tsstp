@@ -1,0 +1,10 @@
+### 1.0. The Beta
+
+#### Welcome to the _decode_ by HAL Robotics Beta!:
+
+_decode_'s primary purpose is to give operators, those with expert process knowledge, enough agency to adapt a robot's task without burdening them with the complexities of programming. For system integrators and roboticists, however, it serves as a means of quickly setting up complex robotic toolpaths, simulating and validating those procedures, and then sending them as native robot code to your machines.
+
+_decode_ is built on top of the HAL Robotics Framework which has been in use for nearly a decade in different guises within multi-nationals, SMEs, research institutions and academia. So, whilst _decode_ is a new user interface and workflow, the Framework under the hood is stable.
+
+That being said, the interface is new so we know there will be issues and instabilities within it, hence the need for a Beta. As such, we recommend erring on the side of caution when using physical hardware and running simulations in OEM tools wherever possible to ensure everything works as expected. Please also read the next two sections which cover [known limitations](#current-limitations) and [feedback procedures](#feedback).
+

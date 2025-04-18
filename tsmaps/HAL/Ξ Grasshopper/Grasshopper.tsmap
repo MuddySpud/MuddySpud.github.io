@@ -1,0 +1,90 @@
+{
+    "key": "eGVQI90Zm",
+    "token": "Grasshopper",
+    "name": "Grasshopper",
+    "created": "2025-03-14T10:46:55.968Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Ξ Grasshopper/Grasshopper.tsmap",
+    "iText": "Link to 'Grasshopper'",
+    "___rΩΩt___": {
+        "key": "eGVQI92RH",
+        "nodes": [
+            {
+                "key": "eGVQI90PL",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "eGVQI90T5",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "eGVQI91zE",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQI91X8",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQI90Qd",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "eGVQI91tt",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "isLeaf": true
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-eGVQI92RH",
+            "relativePath": "./δ steps/δ-cQQoxR025w.tsstp"
+        },
+        {
+            "key": "δ-eGVQI90PL",
+            "relativePath": "./δ steps/δ-cQQuZA01TM.tsstp"
+        },
+        {
+            "key": "δ-eGVQI90T5",
+            "relativePath": "./δ steps/δ-cQQxGE00aU.tsstp"
+        },
+        {
+            "key": "δ-eGVQI91zE",
+            "relativePath": "./δ steps/δ-cQQye100Mn.tsstp"
+        },
+        {
+            "key": "δ-eGVQI91X8",
+            "relativePath": "./δ steps/δ-cQR0Il01fF.tsstp"
+        },
+        {
+            "key": "δ-eGVQI90Qd",
+            "relativePath": "./δ steps/δ-cQR21a00HY.tsstp"
+        },
+        {
+            "key": "δ-eGVQI91tt",
+            "relativePath": "./δ steps/δ-cQR4BH01jm.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "eDcCcd00SX",
+        "editorID": "me_4c8befcd94c946568829ddb3d7704a2e",
+        "ticks": 1743592110635
+    }
+}

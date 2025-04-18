@@ -1,0 +1,2 @@
+Coordinates are up — X: 4.2 kpc, Y: -0.3 kpc, Z: 0.1 kpc. We’re in the Orion Arm, which is better than than I thought. But the course plotter’s still offline; it’s the subsystem that calculates our delta-v trajectory using a 4th-order Runge-Kutta integration. Check the plotter’s status — it’s in the ‘COURSE’ submenu. If it’s offline, we’re just drifting aimlessly, which Rimmer would probably call a strategy.
+

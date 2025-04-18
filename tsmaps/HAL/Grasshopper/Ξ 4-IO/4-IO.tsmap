@@ -1,0 +1,116 @@
+{
+    "key": "cQSuwS01HV  ",
+    "token": "4IO",
+    "name": "4-IO",
+    "created": "2025-03-14T10:55:24.424Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/Ξ 4-IO/4-IO.tsmap",
+    "iText": "Link to '4-IO'",
+    "___rΩΩt___": {
+        "key": "cQSwAQ0267",
+        "nodes": [
+            {
+                "key": "cQSzQj01g1",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "cQT1Iv00kc",
+                        "order": 1,
+                        "option": "Next",
+                        "sharedAssetKey": "cQT3D901EJ",
+                        "nodes": [
+                            {
+                                "key": "cQT2xA01Uf",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "cQT5q201uE",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "cQT7iM02Yq",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "sharedAssetKey": "cQT9B100HB",
+                                                "nodes": [
+                                                    {
+                                                        "key": "cQT8uj01Sp",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "cQTCab00jK",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "cQTElO02Yg",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "isLeaf": true
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-cQSwAQ0267",
+            "relativePath": "./δ steps/δ-cQSwAQ0267.tsstp"
+        },
+        {
+            "key": "δ-cQSzQj01g1",
+            "relativePath": "./δ steps/δ-cQSzQj01g1.tsstp"
+        },
+        {
+            "key": "cQT3D901EJ",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQT2xA01Uf",
+            "relativePath": "./δ steps/δ-cQT2xA01Uf.tsstp"
+        },
+        {
+            "key": "δ-cQT5q201uE",
+            "relativePath": "./δ steps/δ-cQT5q201uE.tsstp"
+        },
+        {
+            "key": "cQT9B100HB",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQT8uj01Sp",
+            "relativePath": "./δ steps/δ-cQT8uj01Sp.tsstp"
+        },
+        {
+            "key": "δ-cQTCab00jK",
+            "relativePath": "./δ steps/δ-cQTCab00jK.tsstp"
+        },
+        {
+            "key": "δ-cQTElO02Yg",
+            "relativePath": "./δ steps/δ-cQTElO02Yg.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fNTt0u00li",
+        "editorID": "car_039cf081eb4649da9727fdb3f97c1397",
+        "ticks": 1744654024828
+    }
+}

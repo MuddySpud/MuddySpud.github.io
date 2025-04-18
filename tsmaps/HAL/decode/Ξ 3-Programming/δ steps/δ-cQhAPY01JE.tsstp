@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Once your {{gl.procedures-link}} start to get more complex, you will likely find that certain sequences of {{gl.actions-link}} are repeated. That could include moving the {{gl.manipulator-link}} to a home position, (de)activating a {{gl.end-effector-link}} or setting some collection of Signals. Even if those sequences aren't repeated, it may help the legibility of your {{gl.procedures-link}} to create a hierarchy to collect {{gl.actions-link}} into logical groups. We have two ways of doing that in _decode_, **Groups** and {{gl.procedure-link}} Calls.
+

@@ -1,0 +1,9 @@
+¬import gl from "../../_shared/glossaryLinks"
+
+
+### 2. Uploading Code
+
+#### Objective:
+
+In this section we'll explain how to get the {{gl.procedures-link}} you've generated onto your robot. There are two different ways to do this, either [manually](#manual) or [remotely](#remote).
+

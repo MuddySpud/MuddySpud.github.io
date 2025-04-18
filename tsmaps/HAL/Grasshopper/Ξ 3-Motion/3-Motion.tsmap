@@ -1,0 +1,436 @@
+{
+    "key": "cQTP3J01qB  ",
+    "token": "3Motion",
+    "name": "3-Motion",
+    "created": "2025-03-14T10:57:20.169Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/Ξ 3-Motion/3-Motion.tsmap",
+    "iText": "Link to '3-Motion'",
+    "___rΩΩt___": {
+        "key": "cQTQLn01pG",
+        "nodes": [
+            {
+                "key": "cQTTfa02Pc",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "cQTVY600L2",
+                        "order": 1,
+                        "option": "Next",
+                        "sharedAssetKey": "cQTWwn01Jm",
+                        "nodes": [
+                            {
+                                "key": "cQTWXc00Gm",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "cQTZS601KM",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "cQTbCB02XU",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "cQTd6800dr",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "sharedAssetKey": "cQTiQC02GD",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "cQTiBm01wA",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "cQTlpD00Nk",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "cQTng402Kf",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "cQTpW2028g",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "sharedAssetKey": "cQTr7h01QC",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "cQTqoI00z6",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "cQTuH701iq",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "cQTvwI00kt",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "cQTyWu014t",
+                                                                                                                        "order": 1,
+                                                                                                                        "option": "Next",
+                                                                                                                        "sharedAssetKey": "cQU0i800CV",
+                                                                                                                        "nodes": [
+                                                                                                                            {
+                                                                                                                                "key": "cQU0KQ02Od",
+                                                                                                                                "order": 1,
+                                                                                                                                "option": "Next",
+                                                                                                                                "nodes": [
+                                                                                                                                    {
+                                                                                                                                        "key": "cQU3NF01cT",
+                                                                                                                                        "order": 1,
+                                                                                                                                        "option": "Next",
+                                                                                                                                        "nodes": [
+                                                                                                                                            {
+                                                                                                                                                "key": "cQU59i00I4",
+                                                                                                                                                "order": 1,
+                                                                                                                                                "option": "Next",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "cQU7Rr02BS",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "option": "Next",
+                                                                                                                                                        "sharedAssetKey": "cQU9VJ027E",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "cQU94M01Po",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Next",
+                                                                                                                                                                "nodes": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "key": "cQUC8i02W7",
+                                                                                                                                                                        "order": 1,
+                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                        "nodes": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "key": "cQUEFw02L7",
+                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "key": "cQUFyQ00xX",
+                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                        "sharedAssetKey": "cQUHfn02A6",
+                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "key": "cQUHHL00FR",
+                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        "key": "cQUKEe00aT",
+                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "key": "cQUMbT01Ci",
+                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        "key": "cQUOna02OI",
+                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                        "sharedAssetKey": "cQUQ3F00nK",
+                                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                "key": "cQUPoG00PB",
+                                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                        "key": "cQUT95024e",
+                                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                "key": "cQUV0000JU",
+                                                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        "key": "cQUWql022p",
+                                                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                "key": "cQUYS301kC",
+                                                                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                        "key": "cQUa2k01IA",
+                                                                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                                                                        "sharedAssetKey": "cQUbxV0293",
+                                                                                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                "key": "cQUbbw00Tn",
+                                                                                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                        "key": "cQUf9f02H5",
+                                                                                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                                                                                        "nodes": [
+                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                "key": "cQUgyR02Me",
+                                                                                                                                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                                                                                                                                "nodes": [
+                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                        "key": "cQUisA01hK",
+                                                                                                                                                                                                                                                                                                        "order": 1,
+                                                                                                                                                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                                                                                                                                                        "isLeaf": true
+                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                ]
+                                                                                                                                                                            }
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                ]
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-cQTQLn01pG",
+            "relativePath": "./δ steps/δ-cQTQLn01pG.tsstp"
+        },
+        {
+            "key": "δ-cQTTfa02Pc",
+            "relativePath": "./δ steps/δ-cQTTfa02Pc.tsstp"
+        },
+        {
+            "key": "cQTWwn01Jm",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQTWXc00Gm",
+            "relativePath": "./δ steps/δ-cQTWXc00Gm.tsstp"
+        },
+        {
+            "key": "δ-cQTZS601KM",
+            "relativePath": "./δ steps/δ-cQTZS601KM.tsstp"
+        },
+        {
+            "key": "δ-cQTbCB02XU",
+            "relativePath": "./δ steps/δ-cQTbCB02XU.tsstp"
+        },
+        {
+            "key": "cQTiQC02GD",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQTiBm01wA",
+            "relativePath": "./δ steps/δ-cQTiBm01wA.tsstp"
+        },
+        {
+            "key": "δ-cQTlpD00Nk",
+            "relativePath": "./δ steps/δ-cQTlpD00Nk.tsstp"
+        },
+        {
+            "key": "δ-cQTng402Kf",
+            "relativePath": "./δ steps/δ-cQTng402Kf.tsstp"
+        },
+        {
+            "key": "cQTr7h01QC",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQTqoI00z6",
+            "relativePath": "./δ steps/δ-cQTqoI00z6.tsstp"
+        },
+        {
+            "key": "δ-cQTuH701iq",
+            "relativePath": "./δ steps/δ-cQTuH701iq.tsstp"
+        },
+        {
+            "key": "δ-cQTvwI00kt",
+            "relativePath": "./δ steps/δ-cQTvwI00kt.tsstp"
+        },
+        {
+            "key": "cQU0i800CV",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQU0KQ02Od",
+            "relativePath": "./δ steps/δ-cQU0KQ02Od.tsstp"
+        },
+        {
+            "key": "δ-cQU3NF01cT",
+            "relativePath": "./δ steps/δ-cQU3NF01cT.tsstp"
+        },
+        {
+            "key": "δ-cQU59i00I4",
+            "relativePath": "./δ steps/δ-cQU59i00I4.tsstp"
+        },
+        {
+            "key": "cQU9VJ027E",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQU94M01Po",
+            "relativePath": "./δ steps/δ-cQU94M01Po.tsstp"
+        },
+        {
+            "key": "δ-cQUC8i02W7",
+            "relativePath": "./δ steps/δ-cQUC8i02W7.tsstp"
+        },
+        {
+            "key": "δ-cQUEFw02L7",
+            "relativePath": "./δ steps/δ-cQUEFw02L7.tsstp"
+        },
+        {
+            "key": "cQUHfn02A6",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQUHHL00FR",
+            "relativePath": "./δ steps/δ-cQUHHL00FR.tsstp"
+        },
+        {
+            "key": "δ-cQUKEe00aT",
+            "relativePath": "./δ steps/δ-cQUKEe00aT.tsstp"
+        },
+        {
+            "key": "δ-cQUMbT01Ci",
+            "relativePath": "./δ steps/δ-cQUMbT01Ci.tsstp"
+        },
+        {
+            "key": "cQUQ3F00nK",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQUPoG00PB",
+            "relativePath": "./δ steps/δ-cQUPoG00PB.tsstp"
+        },
+        {
+            "key": "δ-cQUT95024e",
+            "relativePath": "./δ steps/δ-cQUT95024e.tsstp"
+        },
+        {
+            "key": "δ-cQUV0000JU",
+            "relativePath": "./δ steps/δ-cQUV0000JU.tsstp"
+        },
+        {
+            "key": "δ-cQUWql022p",
+            "relativePath": "./δ steps/δ-cQUWql022p.tsstp"
+        },
+        {
+            "key": "δ-cQUYS301kC",
+            "relativePath": "./δ steps/δ-cQUYS301kC.tsstp"
+        },
+        {
+            "key": "cQUbxV0293",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-cQUbbw00Tn",
+            "relativePath": "./δ steps/δ-cQUbbw00Tn.tsstp"
+        },
+        {
+            "key": "δ-cQUf9f02H5",
+            "relativePath": "./δ steps/δ-cQUf9f02H5.tsstp"
+        },
+        {
+            "key": "δ-cQUgyR02Me",
+            "relativePath": "./δ steps/δ-cQUgyR02Me.tsstp"
+        },
+        {
+            "key": "δ-cQUisA01hK",
+            "relativePath": "./δ steps/δ-cQUisA01hK.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fNTbGY02Lu",
+        "editorID": "car_a95a44bbb38f4c9da89080805e772fc7",
+        "ticks": 1744653956606
+    }
+}

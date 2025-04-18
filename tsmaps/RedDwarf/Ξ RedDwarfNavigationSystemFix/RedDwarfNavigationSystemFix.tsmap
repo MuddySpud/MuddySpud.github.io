@@ -1,0 +1,258 @@
+{
+    "key": "eRIxS302SP  ",
+    "token": "Reddwarfnavigationsystemfix",
+    "name": "RedDwarfNavigationSystemFix",
+    "created": "2025-04-04T19:19:52.791Z",
+    "list": true,
+    "title": "Holly’s Guide to Fixing the Red Dwarf’s Navigation System (Series I Edition)",
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/RedDwarf/Ξ RedDwarfNavigationSystemFix/RedDwarfNavigationSystemFix.tsmap",
+    "iText": "Link to 'RedDwarfNavigationSystemFix'",
+    "___rΩΩt___": {
+        "key": "f1ZbSz02Uu",
+        "sharedAssetKey": "f1Zc6g01am",
+        "nodes": [
+            {
+                "key": "eb0deK00Ep",
+                "order": 1,
+                "option": "Root",
+                "nodes": [
+                    {
+                        "key": "eRJWaK01FZ",
+                        "order": 1,
+                        "option": "Root",
+                        "nodes": [
+                            {
+                                "key": "eRK5fj01GS",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "eRKCR601kf",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "eRKFRj02KR",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "eRKKR102Ot",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "eRKMJP01FU",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "eRKNrW02Ua",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "eRKPUH02HI",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "eRKR6P0256",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "eRKT3800Ju",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "eRKVig01yk",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "eRKXTB01Ni",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "eRKYmR02YX",
+                                                                                                                        "order": 1,
+                                                                                                                        "option": "Next",
+                                                                                                                        "nodes": [
+                                                                                                                            {
+                                                                                                                                "key": "eRKaG9001j",
+                                                                                                                                "order": 1,
+                                                                                                                                "option": "Next",
+                                                                                                                                "nodes": [
+                                                                                                                                    {
+                                                                                                                                        "key": "eRKbbc01jc",
+                                                                                                                                        "order": 1,
+                                                                                                                                        "option": "Next",
+                                                                                                                                        "nodes": [
+                                                                                                                                            {
+                                                                                                                                                "key": "eRKd5102Af",
+                                                                                                                                                "order": 1,
+                                                                                                                                                "option": "Next",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "eRKeXm00l4",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "option": "Next",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "eRKgAQ00kQ",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Next",
+                                                                                                                                                                "nodes": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "key": "eRKhRB02Bu",
+                                                                                                                                                                        "order": 1,
+                                                                                                                                                                        "option": "Next",
+                                                                                                                                                                        "nodes": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "key": "eRKjUP02ae",
+                                                                                                                                                                                "order": 1,
+                                                                                                                                                                                "option": "Next",
+                                                                                                                                                                                "isLeaf": true
+                                                                                                                                                                            }
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                ]
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-eRJWaK01FZ",
+            "relativePath": "./δ steps/δ-eRJWaK01FZ.tsstp"
+        },
+        {
+            "key": "δ-eRK5fj01GS",
+            "relativePath": "./δ steps/δ-eRK5fj01GS.tsstp"
+        },
+        {
+            "key": "δ-eRKCR601kf",
+            "relativePath": "./δ steps/δ-eRKCR601kf.tsstp"
+        },
+        {
+            "key": "δ-eRKFRj02KR",
+            "relativePath": "./δ steps/δ-eRKFRj02KR.tsstp"
+        },
+        {
+            "key": "δ-eRKKR102Ot",
+            "relativePath": "./δ steps/δ-eRKKR102Ot.tsstp"
+        },
+        {
+            "key": "δ-eRKMJP01FU",
+            "relativePath": "./δ steps/δ-eRKMJP01FU.tsstp"
+        },
+        {
+            "key": "δ-eRKNrW02Ua",
+            "relativePath": "./δ steps/δ-eRKNrW02Ua.tsstp"
+        },
+        {
+            "key": "δ-eRKPUH02HI",
+            "relativePath": "./δ steps/δ-eRKPUH02HI.tsstp"
+        },
+        {
+            "key": "δ-eRKR6P0256",
+            "relativePath": "./δ steps/δ-eRKR6P0256.tsstp"
+        },
+        {
+            "key": "δ-eRKT3800Ju",
+            "relativePath": "./δ steps/δ-eRKT3800Ju.tsstp"
+        },
+        {
+            "key": "δ-eRKVig01yk",
+            "relativePath": "./δ steps/δ-eRKVig01yk.tsstp"
+        },
+        {
+            "key": "δ-eRKXTB01Ni",
+            "relativePath": "./δ steps/δ-eRKXTB01Ni.tsstp"
+        },
+        {
+            "key": "δ-eRKYmR02YX",
+            "relativePath": "./δ steps/δ-eRKYmR02YX.tsstp"
+        },
+        {
+            "key": "δ-eRKaG9001j",
+            "relativePath": "./δ steps/δ-eRKaG9001j.tsstp"
+        },
+        {
+            "key": "δ-eRKbbc01jc",
+            "relativePath": "./δ steps/δ-eRKbbc01jc.tsstp"
+        },
+        {
+            "key": "δ-eRKd5102Af",
+            "relativePath": "./δ steps/δ-eRKd5102Af.tsstp"
+        },
+        {
+            "key": "δ-eRKeXm00l4",
+            "relativePath": "./δ steps/δ-eRKeXm00l4.tsstp"
+        },
+        {
+            "key": "δ-eRKgAQ00kQ",
+            "relativePath": "./δ steps/δ-eRKgAQ00kQ.tsstp"
+        },
+        {
+            "key": "δ-eRKhRB02Bu",
+            "relativePath": "./δ steps/δ-eRKhRB02Bu.tsstp"
+        },
+        {
+            "key": "δ-eRKjUP02ae",
+            "relativePath": "./δ steps/δ-eRKjUP02ae.tsstp"
+        },
+        {
+            "key": "δ-eb0deK00Ep",
+            "relativePath": "./δ steps/δ-eb0deK00Ep.tsstp"
+        },
+        {
+            "key": "f1Zc6g01am",
+            "relativePath": "../shared/RedDwarfIntroduction.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "f1Zja100BE",
+        "editorID": "car_7cfb5ed953534f56bf233633a7e46f82",
+        "ticks": 1744330339141
+    }
+}

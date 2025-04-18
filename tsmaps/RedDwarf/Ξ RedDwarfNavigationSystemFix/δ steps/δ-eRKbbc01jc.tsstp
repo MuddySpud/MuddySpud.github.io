@@ -1,0 +1,2 @@
+Update complete — course plotter’s online. It should now display a trajectory vector, with a thrust profile in Newtons: 10^8 N for 300 seconds to reach 0.1c. But the inertial dampeners are showing a fault; they’re the graviton generators that keep us from turning into paste at high acceleration. Check the dampener status in the ‘INERTIAL’ submenu. If they’re offline, we’re in trouble.
+

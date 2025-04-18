@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.3. Change Motion Settings
+
+#### Objective:
+
+In this tutorial we'll look at how to change the way in which a {{gl.manipulator-link}} moves to you {{gl.targets-link}} using the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}} Change Motion Settings.gh]{{gel.changeMotionSettings-gh-link-D}}{: .icon-link}
+

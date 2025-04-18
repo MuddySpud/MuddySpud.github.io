@@ -1,0 +1,11 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+title: Docs Assembler demo guides
+description: 
+# baseurl:          ""
+markdown_ext: markdown,tsfrg,md
+
+
+

@@ -1,0 +1,11 @@
+Examples:
+
+| Code                 | Description                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------- |
+| `MyTool`             | Regular tool declaration.                                                                     |
+| `MyTool@`            | Forces the declaration of the tool.                                                           |
+| `MyTool@toolData32`  | Forces the declaration of the tool, as a tool variable called toolData32.                     |
+| `MyTool@!`           | No declaration – considers that a "MyTool" tool declaration already exists in the controller. |
+| `MyTool@!toolData32` | No declaration – use the toolData32 tool variable from the controller.                        |
+
+---

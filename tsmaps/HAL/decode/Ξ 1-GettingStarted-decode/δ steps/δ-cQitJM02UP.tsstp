@@ -1,0 +1,31 @@
+¬import il from "../../../_shared/imageLinks"
+¬import dl from "../../../_shared/decodeLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 1.3. Interface Overview
+
+#### Objective:
+
+In this tutorial we'll take a look at the layout of _decode_ and the common patterns you'll find throughout the software.
+
+#### Background:
+
+On the far left hand side of _decode_, there is a set of vertical tabs. Each of these tabs will take you to a new screen with a different purpose, each of which is outlined above in [Structure](#12-structure). To the right of the screens is your 3D viewport. That will show you the {{dl.decode-cell-setup-s-link}} that you've built including all of the components of your {{gl.cell-link}}, your {{gl.procedures-link}} and your [Simulations]{{gl.simulation-link-D}}. You can move around/pan in the viewport by pressing and holding the left mouse button, and rotate/orbit by pressing and holding the right mouse button.
+
+The actual content of each screen will vary depending on what it's designed to configure but as a general rule you'll find a collection of items that can be created, edited, manipulated or deleted. The colour of those items will indicate their state. 
+Let's use the {{dl.decode-cell-setup-s-link}} screen as an example. 
+
+At the top of the screen you'll see the _Item Type_ selector which allows you to specify the kind of item to create. **It's important to note that the options in the selector are contextual, that is to say, they change based on what is selected in the rest of the screen and potentially any existing content.** For example, you can't attach anything but a {{gl.end-effector-link}} to a [Robots]{{gl.manipulator-link-D}} or anything at all to a {{gl.controller-link}}. This is because whatever you add next will be a _child_ of the selected item but you can deselect the current item by clicking in any part of the screen's white space.
+Next to the selector is a **+** which will add that item to {{dl.decode-cell-setup-s-link}} and open it up for editing straight away. Once you've added a few items to the {{dl.decode-cell-setup-s-link}}, you can change their order or who is attached to whom by dragging and dropping the items. Drag and drop behaviours are also contextual, so if you can't drop an item somewhere it's likely for a good reason.
+
+{{il.cellCompleteScene-image}}{: .pad-top}
+<em>The _decode_ scene screen.</em>{: .pad-bottom}
+
+If we add a {{gl.reference-link}} we can see a standard item editor screen. At the very top is the item's _Name_. This can, and should, be changed to identify the item more easily and, in the case of items that get {{gl.export-d-lc-link}} to robot code, will be the {{gl.export-d-lc-link}} name. You can also rename items from the main screens by right-clicking on them or selecting them and pressing _F2_. The **ok** button here finishes editing of the item and closes the editor. You can always return to an editor by double-clicking the item or selecting it and using the _edit_ icon in the top right-hand corner of the screen. 
+Immediately below that top row is a _Creator_ selector. This allows you to choose how you want to create the item. In the case of a {{gl.reference-link}}, the choices are **From Location** or **From Variable**. Each _Creator_ has a _Wizard_ which contains a series of _Steps_ that configure the item. Each _Step_ has a coloured dot on its left which indicates whether running the _Step_ succeeded or not. Its border will also change colour if the data you have input isn't valid. If that's the case, it will need to be fixed before we attempt to run the _Step_ again. Some _Steps_ have default values which means they are valid when created, others don't and will need to be edited before anything can happen.
+Any _Step_ that can be edited has an icon to indicate that fact. Any other _Steps_ are uneditable. You can start editing the _Step_ by clicking anywhere on the _Step_ but only one _Step_ can be edited at a time.
+
+{{il.cellAddReferenceNoSteps-image}}{: .pad-top}
+<em>The _decode_ Reference editor.</em>{: .pad-bottom}
+

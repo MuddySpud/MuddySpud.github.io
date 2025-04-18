@@ -1,0 +1,19 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+##### Follow Curve
+
+There are lots of different ways to assign curves for the **Path** to follow, grouped in the **Source** setting. If you want to follow the edge of a CAD Model you have in your **Scene**, **From Model** lets you select that geometry. In the **From Model** settings you'll find a selector which allows you to add or remove curves to a collection. Click on **select** and then the **+** button in the pop-up to start selecting. Any eligible curves within your model will be highlighted when you hover over them and a single click will add them to the selection. You will see a banner appear above your 3D viewport which has extra information about the next step in the selection process, in this case how to confirm your selection and return to the pop-up. All the curves you selected will be listed here and can be individually removed using the **X** next to each item, or all cleared with the **X** next to he **+** button. You can return to adding or removing curves from the model by clicking the **+** again. When you're happy with your selection click **ok** and you'll be returned to the **Path** editor.
+
+{{il.programmingFollowCurveFromModelSelector-image}}{: .pad-top}
+<em>You can select the edges of CAD Models to get your Robots to follow them.</em>{: .pad-bottom}
+
+The other **Sources** allow you to create curves on any CAD Models you have imported. They will all ask you for one or more **Host** **Locations** which can be selected on any CAD Model in your **Scene**, and then a series of relevant **Settings**. There lots of possibilities here so it's well worth experimenting with all the options to see what can be achieved. For example from the **Spiral** _Source_, setting the _Inner Radius_ and _Outer Radius_ to the same value (maybe even a {{dl.decode-variable-link}}), and deactivating **Flat**, will allow you to create a cylindrical spiral at some point(s) on your CAD Model. Or linking your **Location(s)** to a {{dl.decode-variable-link}} will allow you to apply several different curves to the same locations.
+
+{{il.programmingFollowPatternNonPlanarConcentric-image}}{: .pad-top}
+<em>Complex curves can be generated all over your CAD Models.</em>{: .pad-bottom}
+
+The **Modifiers** then allow you to manipulate those curves, _Flipping_ their direction to control which way the {{gl.manipulator-link}} {{gl.motion-action-moves-link}} along them, _Extending_ them to over shoot (or using negative values to inset the start and end points). For **From Model** curves, _Join_ determines whether curves whose ends touch should be considered as a single joined curve or not and _Preserve Direction_ adds a little extra control over when that joining is applied.
+

@@ -1,0 +1,132 @@
+{
+    "key": "eGVQHy0Js   ",
+    "token": "Abb",
+    "name": "ABB",
+    "created": "2025-03-13T16:10:07.027Z",
+    "list": true,
+    "publishFileName": "ABB",
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Manufacturers/Ξ ABB/ABB.tsmap",
+    "iText": "Link to 'ABB'",
+    "___rΩΩt___": {
+        "key": "eGVQHy0HI",
+        "sharedAssetKey": "cLuNr201UO",
+        "nodes": [
+            {
+                "key": "eGVQHy0Kj",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "eGVQHy1Xk",
+                        "order": 1,
+                        "option": "Next",
+                        "sharedAssetKey": "cLufLU00Ei",
+                        "nodes": [
+                            {
+                                "key": "eGVQHy1z8",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "eGVQHy2D0",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "sharedAssetKey": "cLvAHC01fm",
+                                        "nodes": [
+                                            {
+                                                "key": "eGVQHy0J8",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "eGVQHy1zj",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "sharedAssetKey": "cLvby400bs",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "eGVQHy0Jw",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "eGVQHy1uo",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "eGVQHy0BL",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "isLeaf": true
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "cLuNr201UO",
+            "relativePath": "../_shared/titleContents.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-eGVQHy0Kj",
+            "relativePath": "./δ steps/δ-cLuMfT02Tb.tsstp"
+        },
+        {
+            "key": "cLufLU00Ei",
+            "relativePath": "../_shared/controllerOptions.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-eGVQHy1z8",
+            "relativePath": "./δ steps/δ-cLuezq00Yj.tsstp"
+        },
+        {
+            "key": "cLvAHC01fm",
+            "relativePath": "../_shared/uploadingCode.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "cLvby400bs",
+            "relativePath": "../_shared/remoteInstructionList.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-eGVQHy0Jw",
+            "relativePath": "./δ steps/δ-cLvJci00QF.tsstp"
+        },
+        {
+            "key": "δ-eGVQHy1uo",
+            "relativePath": "./δ steps/δ-cLvMfG00hb.tsstp"
+        },
+        {
+            "key": "δ-eGVQHy0J8",
+            "relativePath": "./δ steps/δ-cLv9pn00s7.tsstp"
+        },
+        {
+            "key": "δ-eGVQHy0BL",
+            "relativePath": "./δ steps/δ-cLvi1J01fK.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fNVmoB01f6",
+        "editorID": "car_ad0956d8baa8436bb22f2efc37a14e03",
+        "ticks": 1744654477631
+    }
+}

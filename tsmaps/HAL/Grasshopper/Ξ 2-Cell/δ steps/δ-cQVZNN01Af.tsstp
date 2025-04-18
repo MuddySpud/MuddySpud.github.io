@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Next:
+
+Take a look at the [tutorial](#26-create-a-multi-part-tool) on creating multi-{{gl.part-link}} [Tools]{{gl.end-effector-link-D}} and the calibrating [Tools]{{gl.end-effector-link-D}} [tutorial](#25-calibrate-a-reference-or-tool) to get a more accurate representation of your cell.
+
+---

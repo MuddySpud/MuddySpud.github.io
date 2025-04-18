@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.6. Structuring Procedures
+
+#### Objective:
+
+In this tutorial we'll see how to simplify your programming by structuring your {{gl.procedures-link}} in _decode_.
+

@@ -1,0 +1,33 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+##### Translation Overrides
+The **Translation Overrides** _Step_ is common amongst items that will be {{gl.export-d-lc-link}} to robot code and shows another setting type, the toggle. You'll find these dotted around the software and they will allow you to activate or deactivate other, optional settings. In this case, whether or not you want to change how the _Name_ of the {{gl.reference-link}} is {{gl.export-d-lc-link}}, and if so, how.
+
+{{il.cellAddReferenceTranslationOverrides-image}}{: .pad-top}
+<em>The _decode_ Reference editor with the Translation Override Step being edited.</em>{: .pad-bottom}
+
+There are a few other settings types that you'll find within the software that are worth being aware of.
+
+* **Catalogue** settings will load a catalogue of presets in a new window. Double clicking on, or selecting, an item will close the catalogue and return you to the editor.
+
+{{il.cellAddRobotCatalogue-image}}{: .pad-top}
+<em>The robot catalogue.</em>{: .pad-bottom}
+
+* **Nested Wizards** are _Wizards_ within _Wizards_. They are mainly used to group _Steps_ or allow you to swap between a different set of _Steps_ for a single operation, and work just like the normal _Wizards_.
+
+{{il.cellCreateToolCreatePart-image}}{: .pad-top}
+<em>A nested Wizard.</em>{: .pad-bottom}
+
+* **Menus** store a few extra commands in certain screens, generally for adding or removing entire collections. Their content changes based on the screen they're on.
+
+{{il.programmingAddSubProcedureMenu-image}}{: .pad-top}
+<em>A menu button.</em>{: .pad-bottom}
+
+* **Selectors** allow you to select items from your 3D viewport. They have their own collection of items which you can add to or remove from but can also have constraints like allowing only a single item. A pop-up at the top of the viewport will give you extra information during the selection process.
+
+{{il.programmingFollowCurveFromModelSelector-image}}{: .pad-top}
+<em>A selector in action.</em>{: .pad-bottom}
+
+--- 

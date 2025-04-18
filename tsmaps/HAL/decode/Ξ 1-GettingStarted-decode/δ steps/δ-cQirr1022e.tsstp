@@ -1,0 +1,27 @@
+¬import il from "../../../_shared/imageLinks"
+¬import dl from "../../../_shared/decodeLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 1.2. Structure
+
+#### Objective:
+
+In this tutorial we'll outline _decode_'s structure to ensure you have a high-level understanding of the steps required to work with it.
+
+#### Background:
+
+_decode_'s ultimate aim is to provide an operator, {{gl.manipulator-link}}(s) and any other peripherals with a set of shared work instructions. These instructions will guide the operator through their task and ask them to make decisions about how the robot's process(es) should be undertaken, combining the operator's intelligence and expert knowledge with the speed, accuracy and tirelessness of the {{gl.manipulator-link}}. To get that setup, there are a few steps you'll need to go through.
+
+{{il.overviewTabLayout-image}}{: .pad-top}
+<em>The _decode_ tabs.</em>{: .pad-bottom}
+
+First is the {{dl.decode-cell-setup-t-link}}. This covers everything you'll need to build up a virtual version, or digital twin, of your robotic {{gl.cell-link}}. This includes selecting your [Robots]{{gl.manipulator-link-D}}, [Tools]{{gl.end-effector-link-D}}, {{gl.references-link}}, and {{gl.parts-link}} as well as set up your [I/O Signals]{{gl.signal-link-D}} and assemble all of these into a complete digital system through a {{gl.controller-link}}. This is done in the **Scene** and **Network** tabs, the first two in the list on the left-hand-side of your screen.
+
+Then comes {{dl.decode-programming-t-link}}. This is the next tab down and will allow you to define the {{gl.procedures-link}} which tell the [Robots]{{gl.manipulator-link-D}} in your {{gl.cell-link}} what to do, and how they should do it.
+
+With a virtual {{gl.cell-link}} and {{gl.procedures-link}} in place, we can start working on the {{dl.decode-operator-workflows-t-link}}. These contain the instructions for the operator and the {{gl.cell-link}} and could include things like asking the operator to load a {{gl.part-link}}, asking the operator how fast the robot should go on the next run, or start the execution of the [Robot's]{{gl.manipulator-link-D}} {{gl.procedures-link}}. {{dl.decode-operator-workflows-t-link}} are created in the **Workflow Editor** tab, and run from the **Workflow Executor** tab which is just after the blue line, and the only one an operator should need.
+
+The two tabs we've glossed over are for the management of [Variables](#14-variables) and [Assets](#15-assets). They aren't part of the core flow but are useful when you need them so it is worth reading up on them below.
+
+---

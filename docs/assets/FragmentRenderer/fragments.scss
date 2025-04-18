@@ -1,0 +1,214 @@
+--- 
+
+---
+
+
+:root {
+    --border-radius: 0.25rem;
+    --button-color: rgba(255, 255, 255, 0.3);
+    --button-hover-color: rgba(255, 255, 255, 0.5);
+    --border-color: rgba(255, 255, 255, 0.25);
+}
+
+#treeSolveFragments {
+
+    .nt-fr-fragment-options {
+        margin: 0;
+        padding: 45px 0;
+
+        .nt-fr-option {
+            border: 0.571429px solid var(--border-color);
+            border-radius: var(--border-radius);
+            box-sizing: border-box;
+            color: var(--button-color);
+            cursor: pointer;
+            display: inline-block;
+            font-size: 20px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            min-width: 400px;
+            margin: 0 0 20px 0;
+
+            &:hover {
+                color: #fff;
+                color: var(--button-hover-color);
+                border-color: rgba(255, 255, 255, 0.4);
+                text-decoration: none;
+            }
+        }
+
+        &.nt-fr-collapsed {
+            margin: 25px 0 10px 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+
+            &:hover {
+                border-color: var(--button-hover-color);
+
+                .nt-fr-option-selected {
+                    color: #fff;
+                }
+            }
+
+            .nt-fr-option-selected {
+                border-radius: 0;
+                border-width: 0.571429px;
+                border-color: var(--border-color);
+                border-style: solid none none none;
+                box-sizing: border-box;
+                color: var(--button-color);
+                margin: 0;
+                padding: 8px 0;
+            }
+        }
+
+        .nt-fr-options-box {
+            border-radius: 0;
+            border-top: 0.571429px solid var(--border-color);
+            padding: 8px 20px 0 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            transition-delay: 0s;
+            transition-property: all;
+            transition-duration: .2s;
+            transition-timing-function: linear;
+            position: absolute;
+            background-color: rgb(30, 30, 30);
+            opacity: 0;
+            height: 0px;
+            width: 0px;
+
+            .nt-fr-option {
+                display: block;
+            }
+
+            &:hover {
+                opacity: 1;
+                height: unset;
+                width: unset;
+            }
+
+            .nt-fr-option-selected {
+                box-sizing: border-box;
+                color: var(--button-color);
+                margin: 0;
+            }
+        }
+    }
+
+    .nt-fr-option a {
+        text-decoration: none;
+    }
+}
+
+#treeSolveGuide,
+#treeSolveFragments {
+
+    .grey {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.hal {
+
+    main {
+        padding: 0;
+    }
+
+    #treeSolveGuide,
+    #treeSolveFragments {
+
+        color: rgba(255, 255, 255, 0.8);
+
+        ul,
+        ol {
+            padding-left: 50px;
+        }
+
+        .grey {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .big-image {
+            margin: 70px 0;
+            display: block;
+        }
+
+        table {
+            margin: 70px 0;
+        }
+
+        .pad-top {
+            margin-top: 70px;
+            display: block;
+        }
+
+        .pad-bottom {
+            margin-bottom: 70px;
+            display: block;
+        }
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: #fff;
+        }
+
+        h3 {
+            margin-top: 4rem;
+            font-size: 2.1rem;
+            color: #fff;
+        }
+
+        h4 {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        h5 {
+            font-size: 1.15rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        h6 {
+            font-size: 1rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        strong {
+            color: #e0e0e0;
+            font-weight: 600;
+        }
+
+        .icon-link {
+            display: flex;
+
+            img {
+                margin: 5px 10px 0 0;
+                align-self: flex-start;
+                border-radius: 0;
+            }
+        }
+
+        .img-invert,
+        .logo {
+            filter: invert(100%);
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    #treeSolveFragments .nt-fr-fragment-options .nt-fr-option {
+        min-width: 350px;
+    }
+}

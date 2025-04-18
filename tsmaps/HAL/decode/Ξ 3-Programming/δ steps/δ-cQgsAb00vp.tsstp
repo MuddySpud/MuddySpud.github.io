@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+##### Target Generation
+
+The **Targets** _Step_ allows you to decide how the geometry we have no selected or created should be subdivided into {{gl.motion-action-moves-link}}. The _Subdivision_ _Method_ allows you to decide how the inputs should be approximated whilst the _Tolerance_ allows you to specify how accurately the input should be followed. A larger _Tolerance_ value will allow greater deviation from the input but will result in fewer {{gl.targets-link}}. Whilst it might seem desirable to make that as low as possible, having too many {{gl.targets-link}} will generate lots of code and may have a negative impact on {{gl.manipulator-link}} performance. The **Guide** settings allow you to automatically orient your {{gl.targets-link}} to follow some geometry. For example if you were applying a _Pattern_ to a surface, the _Guide_ would enable you to keep all your {{gl.targets-link}} normal (perpendicular) to that surface, or if you have selected curves **From Model** you could keep one of the axes tangent to them (_Use Curve As Guide_).
+
+{{il.programmingFollowPatterNonPlanarGuide-image}}{: .pad-top}
+<em>Targets can be aligned to a guide surface to maintain perpendicularity to that surface.</em>{: .pad-bottom}
+
+**Transform {{gl.targets-link}}** allows you to offset your {{gl.targets-link}} uniformly. This is applied relative to the {{gl.target-link}} itself when in _Parent_ or to the _World_ when the Reference is set to the _World_. If for example you had a pattern across a surface with all of your {{gl.targets-link}}' Z-axes facing into that surface, you could moving them all off the surface by 20mm by setting the _Position Z_ value to `-20` (minus because it's in the opposite direction to the Z axis). Or you could rotate all of your {{gl.targets-link}} around their X-axes by changing the _Rotation X_ value.
+
+{{il.programmingFollowPatternNonPlanarTransform-image}}{: .pad-top}
+<em>Targets can be offset to create spacing between a Part and the Tool.</em>{: .pad-bottom}
+

@@ -1,0 +1,20 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+**Operator Workflows** are a set of collaborative work instructions for the operator of a Cell, [Robots]{{gl.motion-action-link-D}} and any other peripheral devices, like sensors, that need to be controlled or feed into the process. The **Operator Workflow Executor** is the only screen that an operator should need to interact with.
+
+#### How to:
+
+The **Operator Workflow Executor** screen has a few buttons at the top and nothing else, yet. The _simulation/production_ mode toggle changes between running the virtual {{gl.manipulator-link}} or the real one. The **Workflow** selector allows the operator to choose which **Workflow** they want to run. The **X** resets the execution of a **Workflow** if for any reason the operator needs to start again or abort the current run. The **play**/**pause** button plays or pauses the execution and the circular arrows activates or deactivates the looping of the **Workflow**.
+
+Once the **Workflow** is started **Notifications**, **Confirmations**, **Inputs** etc. will start appearing for the operator, as programmed in the **Workflow**.
+
+{{il.workflowExecutorSimulationFastExecution-image}}{: .pad-top}
+<em>The operator will continue to get instructions and be able to adjust the process until their Workflow is complete.</em>{: .pad-bottom}
+
+---
+

@@ -1,0 +1,134 @@
+
+
+¬decode-getting-started-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#1-getting-started
+¬decode-getting-started-link-D: ({{decode-getting-started-url}})
+¬decode-getting-started-link: [1. Getting Started]{{decode-getting-started-link-D}}
+
+¬decode-beta-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#10-the-beta
+¬decode-beta-link: [1.0. The Beta]({{decode-beta-url}})
+
+¬decode-locations-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#locations
+¬decode-locations-link: [Location]({{decode-locations-url}})
+
+¬decode-projects-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#11-projects
+¬decode-projects-link-D: ({{decode-projects-url}})
+¬decode-project-link: [project]{{decode-projects-link-D}}
+¬decode-projects-link: [1.1. Projects]{{decode-projects-link-D}}
+
+¬decode-structure-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#12-structure
+¬decode-structure-link: [1.2. Structure]({{decode-structure-url}})
+
+¬decode-interface-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#13-interface-overview
+¬decode-interface-link: [1.3. Interface Overview]({{decode-interface-url}})
+
+¬decode-variables-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#14-variables
+¬decode-variables-link-D: ({{decode-variables-url}})
+¬decode-variables-link: [1.4. Variables]{{decode-variables-link-D}}
+¬decode-variable-link: [Variable]{{decode-variables-link-D}}
+
+¬decode-assets-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#15-assets
+¬decode-assets-link: [1.5. Assets]({{decode-assets-url}})
+
+
+¬decode-cell-setup-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#2-cell-setup
+¬decode-cell-setup-link-D: ({{decode-cell-setup-url}})
+¬decode-cell-setup-link: [2. Cell Setup]{{decode-cell-setup-link-D}}
+¬decode-cell-setup-t-link: [Cell Setup]{{decode-cell-setup-link-D}}
+¬decode-cell-setup-s-link: [scene]{{decode-cell-setup-link-D}}
+
+¬decode-insert-robot-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#21-insert-a-robot
+¬decode-insert-robot-link: [2.1. Insert a Robot]({{decode-insert-robot-url}})
+
+¬decode-create-tool-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#22-create-a-tool
+¬decode-create-tool-link: [2.2. Create a Tool]({{decode-create-tool-url}})
+
+¬decode-create-signal-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#26-create-a-signal
+¬decode-create-signal-link-D: ({{decode-create-signal-url}})
+¬decode-create-signal-link: [Create a Signal]{{decode-create-signal-link-D}}
+¬decode-create-signals-link: [2.6. Create Signals]{{decode-create-signal-link-D}}
+
+¬decode-create-part-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#24-create-a-part
+¬decode-create-part-link-D: ({{decode-create-part-url}})
+¬decode-create-part-link: [CAD Model]{{decode-create-part-link-D}}
+¬decode-insert-part-link: [2.4. Insert a Part]{{decode-create-part-link-D}}
+
+¬decode-create-reference-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#23-create-a-reference
+¬decode-create-reference-link-D: ({{decode-create-reference-url}})
+¬decode-create-reference-link: [2.3. Create a Reference]{{decode-create-reference-link-D}}
+
+¬decode-create-controller-url: ../decode/Ξ 2-Cell-decode/2-Cell-decode.tsmap#25-create-a-controller
+¬decode-create-controller-link: [2.5. Create a Controller]({{decode-create-controller-url}})
+
+
+¬decode-programming-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#3-programming
+¬decode-programming-link-D: ({{decode-programming-url}})
+¬decode-programming-link: [3. Programming]{{decode-programming-link-D}}
+¬decode-programming-t-link: [Programming]{{decode-programming-link-D}}
+
+¬decode-procedures-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#30-procedures
+¬decode-procedures-link: [3.0. Procedures]({{decode-procedures-url}})
+
+¬decode-move-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#31-move
+¬decode-move-link-D: ({{decode-move-url}})
+¬decode-move-link: [3.1. Move]{{decode-move-link-D}}
+¬decode-moves-link: [Moves]{{decode-move-link-D}}
+
+¬decode-wait-time-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#32-wait-for-a-time
+¬decode-wait-time-link: [3.2. Wait for a Time]({{decode-wait-time-url}})
+
+¬decode-set-signal-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#33-set-a-signal
+¬decode-set-signal-link: [3.3. Set a Signal]({{decode-set-signal-url}})
+
+¬decode-paths-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#34-paths
+¬decode-paths-link: [3.4. Paths]({{decode-paths-url}})
+
+¬decode-custom-actions-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#35-custom-actions
+¬decode-custom-actions-link: [3.5. Custom Actions]({{decode-custom-actions-url}})
+
+¬decode-structuring-procedures-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#36-structuring-procedures
+¬decode-structuring-procedures-link: [3.6. Structuring Procedures]({{decode-structuring-procedures-url}})
+
+¬decode-simulation-url: ../decode/Ξ 3-Programming/3-Programming.tsmap#37-validation-and-simulation
+¬decode-simulation-lc-link: [3.7. Validation and Simulation]({{decode-simulation-url}})
+
+
+¬decode-operator-workflows-url: ../decode/Ξ 4-Workflows/4-Workflows.tsmap#4-operator-workflows
+¬decode-operator-workflows-link-D: ({{decode-operator-workflows-url}})
+¬decode-operator-workflows-link: [4. Operator Workflows]{{decode-operator-workflows-link-D}}
+¬decode-operator-workflows-t-link: [Operator Workflows]{{decode-operator-workflows-link-D}}
+
+¬decode-create-workflow-url: ../decode/Ξ 4-Workflows/4-Workflows.tsmap#41-create-a-workflow
+¬decode-create-workflow-link: [4.1. Create a Workflow]({{decode-create-workflow-url}})
+
+¬decode-steps-url: ../decode/Ξ 4-Workflows/4-Workflows.tsmap#42-steps
+¬decode-steps-link: [4.2. Steps]({{decode-steps-url}})
+
+¬decode-run-workflow-url: ../decode/Ξ 4-Workflows/4-Workflows.tsmap#43-run-a-workflow
+¬decode-run-workflow-link: [4.3. Run a Workflow]({{decode-run-workflow-url}})
+
+
+¬decode-advanced-programming-url: ../decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap#5-advanced-programming
+¬decode-advanced-programming-link-D: ({{decode-advanced-programming-url}})
+¬decode-advanced-programming-link: [5. Advanced Programming]{{decode-advanced-programming-link-D}}
+¬decode-advanced-programming-t-link: [Advanced Programming tutorials]{{decode-advanced-programming-link-D}}
+
+¬decode-external-variables-url: ../decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap#51-external-variables
+¬decode-external-variables-link: [5.1. External Variables]({{decode-external-variables-url}})
+
+¬decode-procedures-variables-url: ../decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap#52-procedures-from-variables
+¬decode-procedures-variables-link: [5.2. Procedures from Variables]({{decode-procedures-variables-url}})
+
+¬decode-geometry-url: ../decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap#53-geometry-from-variables
+¬decode-geometry-link: [5.3. Geometry from Variables]({{decode-geometry-url}})
+
+¬decode-resuing-controller-url: ../decode/Ξ 5-AdvancedProgramming-decode/5-AdvancedProgramming-decode.tsmap#54-resuing-controller-data
+¬decode-resuing-controller-link: [5.4. Reusing Controller Data]({{decode-resuing-controller-url}})
+
+¬decode-translation-overrides-url: ../decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap#translation-overrides
+¬decode-translation-overrides-link-D: ({{decode-translation-overrides-url}})
+¬decode-translation-overrides-link: [Translation overrides]{{decode-translation-overrides-link-D}}
+
+
+
+
+

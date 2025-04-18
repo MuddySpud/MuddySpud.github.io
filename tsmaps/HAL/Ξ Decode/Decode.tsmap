@@ -1,0 +1,79 @@
+{
+    "key": "cQXU6R01TZ  ",
+    "token": "Decode",
+    "name": "Decode",
+    "created": "2025-03-14T11:13:32.895Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Ξ Decode/Decode.tsmap",
+    "iText": "Link to 'Decode'",
+    "___rΩΩt___": {
+        "key": "cQXVOp00qG",
+        "nodes": [
+            {
+                "key": "cQXYrC01cz",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "cQXaFF02b2",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "cQXbV400iK",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "cQYAjT012Z",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "cQYCC700Cg",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "isLeaf": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-cQXVOp00qG",
+            "relativePath": "./δ steps/δ-cQXVOp00qG.tsstp"
+        },
+        {
+            "key": "δ-cQXYrC01cz",
+            "relativePath": "./δ steps/δ-cQXYrC01cz.tsstp"
+        },
+        {
+            "key": "δ-cQXaFF02b2",
+            "relativePath": "./δ steps/δ-cQXaFF02b2.tsstp"
+        },
+        {
+            "key": "δ-cQXbV400iK",
+            "relativePath": "./δ steps/δ-cQXbV400iK.tsstp"
+        },
+        {
+            "key": "δ-cQYAjT012Z",
+            "relativePath": "./δ steps/δ-cQYAjT012Z.tsstp"
+        },
+        {
+            "key": "δ-cQYCC700Cg",
+            "relativePath": "./δ steps/δ-cQYCC700Cg.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fdMGLy01gI",
+        "editorID": "car_1fc469b702524830a82e753ff1fd9ecb",
+        "ticks": 1744888629298
+    }
+}

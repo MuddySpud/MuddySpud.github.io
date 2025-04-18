@@ -1,0 +1,7 @@
+
+¬tool-url: ../decode/ExampleFiles/Tool.stl
+¬tool-link-D: ({{tool-url}})
+
+¬WobblyBlock-url: ../decode/ExampleFiles/WobblyBlock.stp
+¬WobblyBlock-link-D: ({{WobblyBlock-url}})
+

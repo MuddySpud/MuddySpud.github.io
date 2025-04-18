@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ml from "../../../_shared/manufacturerLinks"
+
+
+
+#### Background:
+
+[Uploading]{{gl.upload-link-D}} is the logical successor to [Exporting]{{gl.export-link-D}} which we looked at [above](#62-export-a-procedure) which essentially copies any generated code to the remote {{gl.controller-link}} and can even run it for you. This is not available on all supported robots so please check the {{ml.manufacturer-documentation-link}} to see if it's available on your {{gl.manipulator-link}}.
+

@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 5.4. Reuse Controller Data
+
+#### Objective:
+
+In this tutorial we'll explore some advanced syntax which allows you to reference data and variables which are already declared on your {{gl.controller-link}} or rename variables you {{gl.export-link}} using the HAL Robotics Framework.
+
+#### Background:
+
+When your {{gl.manipulator-link}} and, more importantly, its {{gl.controller-link}} were installed, it's possible that certain [Tools]{{gl.end-effector-link-D}} were calibrated and stored in the [Controller's]{{gl.controller-link-D}} system variables or that it would be helpful to name {{gl.signals-link}} so they're immediately identifiable (e.g. _ToolOn_) but that they're named differently in your {{gl.controller-link}} or even that your [Robot's]{{gl.manipulator-link-D}} language doesn't allow you to name {{gl.signals-link}} at all. We have therefore given you the option of overriding the way elements are {{gl.export-d-link}}. These are generally useful for [Tools]{{gl.end-effector-link-D}}, {{gl.references-link}} and {{gl.signals-link}} but can be used for {{gl.targets-link}}, {{gl.motion-action-link}} or any other declarable type.
+

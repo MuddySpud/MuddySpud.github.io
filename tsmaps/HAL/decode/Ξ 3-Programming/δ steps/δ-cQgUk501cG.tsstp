@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+From the **Programming** screen, select the [Group](#36-structuring-procedures) into which you want to add your new {{gl.wait-action-link}}, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.actions-link}} onto [Groups](#36-structuring-procedures) or in between other {{gl.actions-link}} to restructure your {{gl.procedure-link}} later. Either of those states will enable the _Item Type_ selector to list {{gl.wait-action-link}} as an option. Click **+** and you'll start creating a {{gl.wait-action-a-link}}.
+
+{{il.programmingWaitTimeComplete-image}}{: .pad-top}
+<em>Waits allow the Robot to hold in position for a given time.</em>{: .pad-bottom}
+
+The default, **From Time** _Creator_ will allow you to set the time for which the robot should pause. For example, if the _Time_ is set to 2 seconds, when we [Simulate](#37-validation-and-simulation) the {{gl.manipulator-link}} pauses for 2 seconds.
+
+Once you are happy with the {{gl.wait-action-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen.
+
+---

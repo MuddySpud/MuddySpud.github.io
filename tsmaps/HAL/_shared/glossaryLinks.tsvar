@@ -1,0 +1,170 @@
+
+
+¬cell-url: ../Overview/Ξ Glossary/Glossary.tsmap#cell
+¬cell-link-D: ({{cell-url}})
+¬cell-link: [Cell]{{cell-link-D}}
+
+¬controller-url: ../Overview/Ξ Glossary/Glossary.tsmap#controller
+¬controller-link-D: ({{controller-url}})
+¬controller-link: [Controller]{{controller-link-D}}
+¬controller-lc-link: [controller]{{controller-link-D}}
+¬controllers-link: [Controllers]{{controller-link-D}}
+
+¬mechanism-url: ../Overview/Ξ Glossary/Glossary.tsmap#mechanism
+¬mechanism-link-D: ({{mechanism-url}})
+¬mechanism-link: [Mechanism]{{mechanism-link-D}}
+¬mechanisms-link: [Mechanisms]{{mechanism-link-D}}
+
+¬manipulator-url: ../Overview/Ξ Glossary/Glossary.tsmap#manipulator
+¬manipulator-link-D: ({{manipulator-url}})
+¬manipulator-link: [Robot]{{manipulator-link-D}}
+
+¬end-effector-url: ../Overview/Ξ Glossary/Glossary.tsmap#end-effector
+¬end-effector-link-D: ({{end-effector-url}})
+¬end-effector-link: [Tool]{{end-effector-link-D}}
+
+¬positioner-url: ../Overview/Ξ Glossary/Glossary.tsmap#positioner
+¬positioner-link-D: ({{positioner-url}})
+¬positioner-ea-link: [External Axes]{{positioner-link-D}}
+¬positioner-link: [Positioner]{{positioner-link-D}}
+¬positioners-link: [Positioners]{{positioner-link-D}}
+
+¬joint-url: ../Overview/Ξ Glossary/Glossary.tsmap#joint
+¬joint-link-D: ({{joint-url}})
+¬joint-link: [Joint]{{joint-link-D}}
+¬joints-link: [Joints]{{joint-link-D}}
+
+¬joint-mapping-url: ../Overview/Ξ Glossary/Glossary.tsmap#joint-mapping
+¬joint-mapping-link: [Joint Mappings]({{joint-mapping-url}})
+
+¬connection-url: ../Overview/Ξ Glossary/Glossary.tsmap#connection
+¬connection-link-D: ({{connection-url}})
+¬connection-link: [Connection]{{connection-link-D}}
+¬connections-link: [Connections]{{connection-link-D}}
+
+¬endpoint-url: ../Overview/Ξ Glossary/Glossary.tsmap#endpoint
+¬endpoint-link-D: ({{endpoint-url}})
+¬endpoint-link: [Endpoint]{{endpoint-link-D}}
+¬endpoints-link: [Endpoints]{{endpoint-link-D}}
+¬endpoint-tcp-link: [TCP]{{endpoint-link-D}}
+
+¬part-url: ../Overview/Ξ Glossary/Glossary.tsmap#part
+¬part-link-D: ({{part-url}})
+¬part-link: [Part]{{part-link-D}}
+¬parts-link: [Parts]{{part-link-D}}
+
+¬reference-url: ../Overview/Ξ Glossary/Glossary.tsmap#reference
+¬reference-link-D: ({{reference-url}})
+¬reference-link: [Reference]{{reference-link-D}}
+¬references-link: [References]{{reference-link-D}}
+
+¬signal-url: ../Overview/Ξ Glossary/Glossary.tsmap#signal
+¬signal-link-D: ({{signal-url}})
+¬signal-link: [Signal]{{signal-link-D}}
+¬signals-link: [Signals]{{signal-link-D}}
+¬signal-lc-link: [signals]{{signal-link-D}}
+
+¬procedure-url: ../Overview/Ξ Glossary/Glossary.tsmap#procedure
+¬procedure-link-D: ({{procedure-url}})
+¬procedure-link: [Procedure]{{procedure-link-D}}
+¬procedures-link: [Procedures]{{procedure-link-D}}
+
+¬action-url: ../Overview/Ξ Glossary/Glossary.tsmap#action
+¬action-link-D: ({{action-url}})
+¬action-link: [Action]{{action-link-D}}
+¬actions-link: [Actions]{{action-link-D}}
+
+¬motion-action-url: ../Overview/Ξ Glossary/Glossary.tsmap#motion-action
+¬motion-action-link-D: ({{motion-action-url}})
+¬motion-action-link: [Motion Settings]{{motion-action-link-D}}
+¬motion-action-move-link: [Move]{{motion-action-link-D}}
+¬motion-action-moves-link: [Moves]{{motion-action-link-D}}
+¬motion-action-motion-link: [Motion]{{motion-action-link-D}}
+¬motion-action-motions-link: [Motions]{{motion-action-link-D}}
+
+¬wait-action-url: ../Overview/Ξ Glossary/Glossary.tsmap#wait-action
+¬wait-action-link-D: ({{wait-action-url}})
+¬wait-action-link: [Wait]{{wait-action-link-D}}
+¬wait-action-a-link: [Wait Action]{{wait-action-link-D}}
+
+¬signal-action-url: ../Overview/Ξ Glossary/Glossary.tsmap#signal-action
+¬signal-action-link-D: ({{signal-action-url}})
+¬signal-action-link: [Signal Action]{{signal-action-link-D}}
+¬signal-actions-link: [Signal Actions]{{signal-action-link-D}}
+
+¬custom-action-url: ../Overview/Ξ Glossary/Glossary.tsmap#custom-action
+¬custom-action-link-D: ({{custom-action-url}})
+¬custom-action-link: [Custom Action]{{custom-action-link-D}}
+¬custom-actions-link: [Custom Actions]{{custom-action-link-D}}
+
+¬target-url: ../Overview/Ξ Glossary/Glossary.tsmap#target
+¬target-link-D: ({{target-url}})
+¬target-link: [Target]{{target-link-D}}
+¬targets-link: [Targets]{{target-link-D}}
+
+¬toolpath-url: ../Overview/Ξ Glossary/Glossary.tsmap#toolpath
+¬toolpath-link-D: ({{toolpath-url}})
+¬toolpath-link: [Toolpath]{{toolpath-link-D}}
+¬toolpaths-link: [Toolpaths]{{toolpath-link-D}}
+
+¬joint-space-url: ../Overview/Ξ Glossary/Glossary.tsmap#joint-space
+¬joint-space-link-D: ({{joint-space-url}})
+¬joint-space-link: [Joint Space]{{joint-space-link-D}}
+¬joint-space-lc-link: [Joint space]{{joint-space-link-D}}
+
+¬cartesian-space-url: ../Overview/Ξ Glossary/Glossary.tsmap#cartesian-space
+¬cartesian-space-link-D:({{cartesian-space-url}})
+¬cartesian-space-link: [Cartesian]{{cartesian-space-link-D}}
+
+¬blend-url: ../Overview/Ξ Glossary/Glossary.tsmap#blend
+¬blend-link-D: ({{blend-url}})
+¬blend-link: [Blend]{{blend-link-D}}
+¬blends-link: [Blends]{{blend-link-D}}
+
+¬simulation-url: ../Overview/Ξ Glossary/Glossary.tsmap#73-simulation
+¬simulation-link-D: ({{simulation-url}})
+¬simulation-lc-link: [simulation]{{simulation-link-D}}
+¬simulation-link: [Simulation]{{simulation-link-D}}
+
+¬solving-url: ../Overview/Ξ Glossary/Glossary.tsmap#solving
+¬solving-link-D: ({{solving-url}})
+¬solving-link: [Solve]{{solving-link-D}}
+¬solving-d-link: [Solved]{{solving-link-D}}
+
+¬export-url: ../Overview/Ξ Glossary/Glossary.tsmap#export
+¬export-link-D: ({{export-url}})
+¬export-link: [Export]{{export-link-D}}
+¬export-d-link: [Exported]{{export-link-D}}
+¬export-d-lc-link: [exported]{{export-link-D}}
+
+¬upload-url: ../Overview/Ξ Glossary/Glossary.tsmap#upload
+¬upload-link-D: ({{upload-url}})
+¬upload-link: [Upload]{{upload-link-D}}
+¬uploading-link: [Uploading]{{upload-link-D}}
+
+¬capabilities-url: ../Overview/Ξ Glossary/Glossary.tsmap#capabilities
+¬capabilities-link-D: ({{capabilities-url}})
+¬capabilities-link: [Capabilities]{{capabilities-link-D}}
+
+¬subsystems-url: ../Overview/Ξ Glossary/Glossary.tsmap#subsystems
+¬subsystems-link-D: ({{subsystems-url}})
+¬subsystems-link: [Subsystems]{{subsystems-link-D}}
+
+¬control-url: ../Overview/Ξ Glossary/Glossary.tsmap#74-control
+¬control-link-D: ({{control-url}})
+¬control-link: [Exported]{{control-link-D}}
+
+¬flange-url: ../Overview/Ξ Glossary/Glossary.tsmap#flange
+¬flange-link-D: ({{flange-url}})
+¬flange-link: [Flange]{{flange-link-D}}
+
+¬programming-url: ../Overview/Ξ Glossary/Glossary.tsmap#72-programming
+¬programming-link-D: ({{programming-url}})
+¬programming-link: [programme]{{programming-link-D}}
+
+¬singularity-url: ../Overview/Ξ Glossary/Glossary.tsmap#(kinematic)-singularity
+¬singularity-link-D: ({{singularity-url}})
+¬singularity-link: [Singularities]{{singularity-link-D}}
+
+
+

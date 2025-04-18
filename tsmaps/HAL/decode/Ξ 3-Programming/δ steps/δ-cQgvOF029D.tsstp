@@ -1,0 +1,32 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+##### Jumps
+
+It's possible that your **Path** is a single continuous sequence of {{gl.targets-link}}, but if there are breaks in it **Jumps** allow you to specify how the {{gl.manipulator-link}} should get from the end of one sequence to the start of the next. There are 5 phases to the **Jump** _Step_ that can all be controlled by the same settings or specified individually.
+- **Path Entry** specifies where the {{gl.manipulator-link}} should {{gl.motion-action-move-link}} to before the start of the first sequence.
+- **Path Exit** specifies where the {{gl.manipulator-link}} should {{gl.motion-action-move-link}} to after the end of the last sequence.
+- **Jump Start** specifies where the {{gl.manipulator-link}} should {{gl.motion-action-move-link}} to after the end of any other sequence.
+- **Jump End** specifies where the {{gl.manipulator-link}} should {{gl.motion-action-move-link}} to before the start of any other sequence.
+- **Jump Travel** dictates how the {{gl.manipulator-link}} {{gl.motion-action-moves-link}} between **Jump Start** and **Jump End**.
+
+The settings within each of those phases should be familiar by now.
+
+{{il.programmingFollowPatternNonPlanarJumps-image}}{: .pad-top}
+<em>Jumps allow you to control how the Robot gets between segments of your Toolpath.</em>{: .pad-bottom}
+
+**Jump Events** allow you to specify if anything should happen during the **Path** or its **Jumps**. That could include activating or deactivating a Tool, triggering a Signal or a Wait. They are all {{gl.procedure-link}} **Calls** and therefore need to be created within sub-Procedures. See [Structuring Procedures](#36-structuring-procedures) for more details about how those are created.
+
+- **Entry** **On Approach** is called at the **Path Entry** {{gl.target-link}}.
+- **Entry** **On Start** is called at the first {{gl.target-link}} of the first sequence only.
+- **Jumps** **On Departure** is called at the last {{gl.target-link}} of each sequence.
+- **Jumps** **On Retract** is called at the **Jump Start** point of each sequence.
+- **Jumps** **On Travel** is called at the **Jump End** point of each sequence.
+- **Jumps** **On Arrival** is called at the first {{gl.target-link}} of each sequence.
+- **Exit** **On End** is called at the last {{gl.target-link}} of the last sequence only.
+- **Exit** **On Retract** is called at the **Path Exit** {{gl.target-link}}.
+
+Once you are happy with the **Path**'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen.
+
+---

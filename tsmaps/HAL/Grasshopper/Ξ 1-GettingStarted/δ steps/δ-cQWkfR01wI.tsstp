@@ -1,0 +1,67 @@
+¬import il from "../../../_shared/imageLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ol from "../../../_shared/overviewLinks"
+
+
+#### How to:
+
+Once you've opened Grasshopper and logged in to the HAL Robotics Framework to access your licenses you should be presented with a blank Grasshopper canvas and a new **HAL Robotics** tab at the top your screen. There are plenty of tools within this tab to allow you to program just about any process you want, and other tutorials will look at each of them individually as well as the [structure of the interface]{{ghl.grasshopper-interface-overview-link-D}}, but for now, we're just going to get up and running as quickly as possible.
+
+{{il.11GHLogin-image}}{: .pad-top}
+<em>The "Log In" window will allow ou to connect to your HAL user account when Grasshopper starts.</em>{: .pad-bottom}
+
+{{il.11GHBlank-image}}{: .pad-top}
+<em>The new blue HAL parameters should show up in the "Params" tab.</em>{: .pad-bottom}
+
+{{il.11GHBlankTab-image}}{: .pad-top}
+<em>The "HAL Robotics" tab contains the components we will use in this tutorial series.</em>{: .pad-bottom}
+
+The first component we're going to use is the **Robot**. You'll find it inside the **Cell** menu, in the top left of the toolbar. When we place that component on the canvas not much happens. This is because **Robot** is one of a few special types of component that we've developed to extend the default Grasshopper interface. We'll see what each does as we come across them and they are all covered in a [special tutorial]{{ghl.grasshopper-components-link-D}} so feel free to have a look at that for more detail.
+
+This particular component has an interlocking squares icon **⧉** on the name bar. This indicates that it can be double-clicked to get a pop-up window. If we open that window on the **Robot** component then we get the Robot Catalog. You can select any {{gl.manipulator-link}} you want by simply clicking on it and then the "Select" button. I'm going to choose the `IRB 1200 - 0.7m` as that's what I have next to me at the office. Once we've made our selection it will pop up into the scene. If you want to change your choice, you can always double click on the component again.
+
+{{il.11Robot-image}}{: .pad-top}
+<em>Double click on the robot component to open and select a robot preset.</em>{: .pad-bottom} 
+
+{{il.11RobotSearch-image}}{: .pad-top}
+<em>You can also find this component by using the Grasshopper search feature, by double clicking on the canvas and typing "robot".</em>{: .pad-bottom}
+
+{{il.11RobotViaHelp-image}}{: .pad-top}
+<em>As the default Grasshopper search feature is limited, we added our own component browser allowing you to look for keywords in components, and preview filtered results. To access this utility, you can use the **Documentation** component in the **Help** menu, or via the "**HAL**>**Help**>**Documentation**" menu of the Grasshopper window.</em>{: .pad-bottom}
+
+We now have a {{gl.manipulator-link}}, but we're almost always going to need a [Tool, also called end-effector]{{gl.end-effector-link-D}} as well, so I'm going to add a **Tool** component, again from the **Cell** menu. We assume that you will want to create your own [Tools]{{gl.end-effector-link-D}} so this catalog component contains only a few options to get you started. The creation of [Tools]{{gl.end-effector-link-D}} is covered in future tutorials ([1]{{ghl.grasshopper-create-tool-link-D}},[2]{{ghl.grasshopper-calibrate-link-D}},[3]{{ghl.grasshopper-multi-part-tool-link-D}}) so please have a look at those for more information. I'm going to select the `extruder` because I know it's about the right size for this {{gl.manipulator-link}}.
+
+{{il.11Tool-image}}{: .pad-top}
+<em>Double click on the "Tool" component to open and select a tool preset.</em>{: .pad-bottom} 
+
+Once we have a {{gl.manipulator-link}} and a {{gl.end-effector-link}} in the scene, we need to connect the two together. We do that using the **Attach** component. We will see that once we've assigned the **Robot** component as the _Parent_ and **Tool** component as the _Child_, the `extruder` is attached to the end or {{gl.flange-link}} of the {{gl.manipulator-link}}. That's all there is to creating our very simple [Robot Cell]{{gl.cell-link-D}}.
+We're going to hide all the components we've already added to ensure that we can see what we're doing as we proceed.
+
+{{il.11Attach-image}}{: .pad-top}
+<em>Attach the robot and the tool mechanisms together using the "Attach" component, then hide all components to free the viewport for the following programming steps.</em>{: .pad-bottom} 
+
+Now that we have a {{gl.manipulator-link}} in the scene, we need to [program]{{gl.programming-link-D}} it. To get started I'm just going to make it follow a curve that I have drawn in Rhino and referenced in Grasshopper. [Robots]{{gl.manipulator-link-D}} don't inherently understand geometry so we have to convert this curve into a series of {{gl.targets-link}} for the {{gl.manipulator-link}} to follow. We can this with the **Target** component under the **Motion** menu. When we place the component on the canvas you should see that its key input is a list of _Frames_ but this component also has a black band at the bottom which says "Template 1/_n_". This is the second new component type we've come across. Template components can be right-clicked upon and their shape changed. In this case you can see that there are a few different ways of creating {{gl.targets-link}}. We've got a curve as input so we're going to choose **Target from Curve**. There are a number of things we can change here but to keep things simple we'll keep the defaults and just assign the curve in the _Curve_ input. 
+You should see a number of {{gl.targets-link}} appear in the viewport. The exact number and pattern, of course, will vary according to the curve you're using. 
+
+{{il.11TargetsFromCurve-image}}{: .pad-top}
+<em>You can generate curves in Grasshopper or use the "Curve" parameter to register a Rhinoceros curve from which targets will be generated.</em>{: .pad-bottom} 
+
+Please note that {{gl.targets-link}} can be edited and transformed in any way you want, and that you can also use Grasshopper planes to create {{gl.targets-link}} from scratch. Please see the dedicated tutorials in the [Motion section of this documentation]{{ghl.grasshopper-motion-doc-link-D}}).
+
+Now that we have some {{gl.targets-link}}, we need to actually instruct the {{gl.manipulator-link}} to move through them. We do this using the **Move** component which is found in the **Procedure** menu. There are plenty of options to control how a {{gl.manipulator-link}} gets to these {{gl.targets-link}} and they are discussed in detail in future tutorials ([1]{{ghl.grasshopper-motion-settings-link-D}},[2]{{ghl.grasshopper-synchronize-motion-link-D}}). The bare minimum is to assign our **Targets** to **Move** and there we have a {{gl.procedure-link}} ready for [Execution]{{gl.simulation-link-D}}. Again, I'm going to hide the components other than **Move** to keep things simple on screen.
+
+{{il.11Move-image}}{: .pad-top}
+<em>Use the "Move" component to generate a robot motion through the generated targets.</em>{: .pad-bottom} 
+
+Now that we have a {{gl.manipulator-link}} and a {{gl.procedure-link}}, we need to link the two together. In the HAL Robotics Framework, as with your real {{gl.manipulator-link}}, the entity that interprets programming to actuate a machine is a {{gl.controller-link}}. We can get a **Controller** from the **Cell** menu. We can see that this also has the interlocking squares icon **⧉** and therefore can be double-clicked to get a pop-up window. From this Controller Catalog you can choose the {{gl.controller-link}} you are using as you did with the **Robot**. Please note, you will need the extension for any brand installed to be able to load their {{gl.controllers-link}}. If you didn't install any extensions you can continue with the `Generic Controller` for now and install the brand-specific extensions from the [HAL Robotics Framework Installer]{{ol.overview-install-link-D}} later. The {{gl.manipulator-link}} we have here uses an `IRC5 Compact V2` so I'm going to pick that. You can configure the complete setup of your {{gl.controller-link}} and we have a [separate tutorial]{{ghl.grasshopper-virtual-controller-link-D}} on that but for now I'm going to "Configure" with the defaults. The position and visual representation of the **Controller** is of little interest in this case so I'm going to hide it immediately. With the **Controller** in place we can assign the **Robot** and **Procedure** to link the two together.
+
+{{il.11Controller-image}}{: .pad-top}
+<em>Double click on the "Controller" component to open and select a controller preset, then plug the robot and tool as the controlled mechanism, and the motion through targets as the procedure to be assigned to the mechanism.</em>{: .pad-bottom} 
+
+Now, of course, we want to see whether the {{gl.manipulator-link}} can make it round our curve without issue. This is referred to as "Solving" and is done using the **Procedure Solver** component in the **Simulation** menu. With that component in place we can assign the _Controller_ and toggle the _Solve_ Boolean to `true`. This will start the solving and any issues, errors or notification will be output under _Notifications_. If we now want to visualize that solved {{gl.procedure-link}} then we can add the **Execute** component to the end of our chain from, again, the **Simulation** menu. This should come with its **Execution Control** pre-attached but if it doesn't you can find the **Execution Control** under the **Simulation** menu as well. Once the _Solution_ is assigned to the **Execute** component we're ready to hit _Play_ and watch our {{gl.manipulator-link}} make its way around the curve. If your {{gl.manipulator-link}} is moving, congratulations, you've completed your first session with the HAL Robotics Framework for Grasshopper.
+
+{{il.11Simulation-image}}{: .pad-top}
+<em>The simulation is split into two steps: the "Solver" computes the robot behavior, and the "Execute" component displays the computed solution.</em>{: .pad-bottom} 
+
+---

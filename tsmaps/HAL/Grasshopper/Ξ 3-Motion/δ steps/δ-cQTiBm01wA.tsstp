@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+{{gl.targets-link}} are the way we define to where a {{gl.manipulator-link}} should move and defining them correctly is a fundamental step in the programming of a {{gl.procedure-link}}. To facilitate certain recurring cases, we provide inbuilt {{gl.target-link}} modifiers.
+

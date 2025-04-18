@@ -1,0 +1,43 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+#### How to:
+
+From the **Programming** screen, select the [Group](#36-structuring-procedures) into which you want to add your new {{gl.motion-action-move-link}}, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.actions-link}} onto [Groups](#36-structuring-procedures) or in between other {{gl.actions-link}} to restructure your {{gl.procedure-link}} later. Either of those states will enable the _Item Type_ selector to list {{gl.motion-action-move-link}} as an option. Click **+** and you'll start creating a {{gl.motion-action-move-link}}.
+
+There are two _Steps_ here which align with the _where_ and _how_ the {{gl.manipulator-link}} moves mentioned above.
+
+There are 2 main ways of creating {{gl.targets-link}}, both of which are found in the **Target** _Step_.
+
+{{il.programmingMoveTarget-image}}{: .pad-top}
+<em>Targets in _decode_ can be edited in Joint or Cartesian spaces.</em>{: .pad-bottom}
+
+The first way of creating a {{gl.target-link}} is in {{gl.joint-space-lc-link}}, that is by defining the desired position of each active {{gl.joint-link}} of your {{gl.manipulator-link}}. The list of _Positions_ correspond to each active {{gl.manipulator-link}} {{gl.joint-link}}. As you change these values, you can visualize the final position of our {{gl.manipulator-link}} at these {{gl.joint-link}} positions.
+
+The other way of creating a {{gl.target-link}} is a {{gl.cartesian-space-link}} {{gl.target-link}} from a **Frame**. When a {{gl.manipulator-link}} moves to a {{gl.cartesian-space-link}} {{gl.target-link}} the active {{gl.endpoint-tcp-link}} of our {{gl.manipulator-link}} will align with the [Target's]{{gl.target-link-D}} position and orientation. As you change the values of that **Frame** you can see our {{gl.target-link}} move and our {{gl.manipulator-link}} moves with it. A **Frame** is always relative to a {{gl.reference-link}} which can also be set here. Please take a look at the [References tutorial]{{dl.decode-create-reference-link-D}} to see how those work.
+
+At the top of the **Target** _Step_ is a crucial selector. It allows us to specify the [Motion Space]{{gl.joint-space-link-D}} in which we want to store the {{gl.target-link}}. _N.B. This does not affect **how** we move to the {{gl.target-link}}._ 
+Selecting {{gl.joint-space-link}} will mean that we consider only those {{gl.joint-link}} positions and we ignore the {{gl.cartesian-space-link}} **Frame**. If, for example, you were to change the length of your {{gl.end-effector-link}} or the location of a {{gl.reference-link}}, it wouldn't matter because these are fixed values for each {{gl.joint-link}}.
+Selecting [Cartesian Space]{{gl.cartesian-space-link-D}} will mean that we only consider the {{gl.cartesian-space-link}} **Frame**. If, for example, you were to change the length of your {{gl.end-effector-link}} or the location of a {{gl.reference-link}}, we will recompute the values for each {{gl.joint-link}} to get the {{gl.manipulator-link}} into that position.
+
+Either of these {{gl.target-link}} creation options give exactly the same types of {{gl.target-link}} so can be used with any **Motion Settings**.
+
+{{il.programmingMoveMotionSettings-image}}{: .pad-top}
+<em>Motion Settings tell the Robot how to get to the Target.</em>{: .pad-bottom}
+
+_Motion Type_ controls which path the {{gl.manipulator-link}} takes to a {{gl.target-link}}. In `Cartesian` mode the {{gl.endpoint-tcp-link}} moves in a very controlled manner along a straight line or arc. This is probably the easier motion type to visualize but can cause problems when moving between configurations or when trying to optimise cycle times. Moving in {{gl.joint-space-lc-link}} means that each {{gl.joint-link}} will move from one position to the next without consideration for the position of the {{gl.endpoint-tcp-link}}. {{gl.joint-space-lc-link}} {{gl.motion-action-moves-link}} always end in the same configuration and are not liable to [Singularities]{{gl.singularity-link-D}}. It's often useful to start your {{gl.procedures-link}} with a {{gl.motion-action-motion-link}} in {{gl.joint-space-lc-link}} to ensure your {{gl.manipulator-link}} is always initialized to a known position and configuration. It's worth noting that when using {{gl.joint-space-lc-link}} {{gl.motion-action-motions-link}} your {{gl.toolpath-link}} preview will be dotted until the {{gl.procedure-link}} is {{gl.solving-d-link}} because we can't know ahead of time exactly where the {{gl.endpoint-tcp-link}} will go during that {{gl.motion-action-motion-link}}. Once {{gl.solving-d-link}}, you will see the path your {{gl.endpoint-tcp-link}} will actually take in space.
+
+_{{gl.blends-link}}_ sometimes called zones or approximations change how close the {{gl.manipulator-link}} needs to get to a {{gl.target-link}} before moving on to the next. It's useful to consider your _{{gl.blends-link}}_ carefully because increasing their size can drastically improve cycle time by allowing the {{gl.manipulator-link}} to maintain speed instead of coming to a stop at each {{gl.target-link}}. _{{gl.blends-link}}_ are most easily visualized in _Position_. If we set a 100 mm radius {{gl.blend-link}}, we can see a circle appear around our {{gl.target-link}} (unless it's the very first in a Procedure). This indicates that the {{gl.manipulator-link}} will exactly follow our {{gl.toolpath-link}} until it gets within 100 mm of the {{gl.target-link}}, at which point it will start to deviate within that circle to keep its speed up and head towards the subsequent {{gl.target-link}}. It will exactly follow our {{gl.toolpath-link}} again when it leaves the circle. When we solve our {{gl.procedure-link}}, we can see the path our {{gl.endpoint-tcp-link}} will actually take getting close but not actually to all of our {{gl.targets-link}}.
+
+_Speed_ settings, as the name implies, constrain the speed of your {{gl.manipulator-link}}. They can be declared in [Cartesian space]{{gl.cartesian-space-link-D}} to directly limit the position or orientation _Speed_ of the {{gl.endpoint-tcp-link}}. You can also constrain the _Speeds_ of your [Robot's]{{gl.manipulator-link-D}} {{gl.joints-link}} using the second overload or combine the two using the third overload. Please note that not all {{gl.manipulator-link}} manufacturers support programmable [Joint]{{gl.endpoint-link-D}} speed constraints so there may be variations between your simulation and real {{gl.manipulator-link}} when they are used.
+
+_Acceleration_ settings constrain the acceleration of your {{gl.manipulator-link}}. They function in exactly the same way as the _Speeds_, constraining {{gl.cartesian-space-link}} acceleration, [Joint]{{gl.joint-space-link-D}} acceleration or both.
+
+{{il.programmingMoveMotionSettingsVariable-image}}{: .pad-top}
+<em>Linking Motion Settings to Variables helps speed up any changes you might need to make in the future and are necessary if you want an operator to be able to change a value.</em>{: .pad-bottom}
+
+Once you are happy with the {{gl.motion-action-move-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen.
+
+---

@@ -1,0 +1,27 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+These overrides are all done through the naming of objects, by using special syntax in their _Aliases_. There are 3 scenarios we permit:
+1. Forcing the declaration of the element, even in `Inline` mode, e.g. so you can make manual changes to the code later. 
+2. Skipping the declaration of the element, e.g. because it's already in the [Controller's]{{gl.controller-link-D}} system variables and you want to use that data directly.
+3. Renaming the element, e.g. the [Signal]{{gl.signal-link-D}} which you have called _ToolOn_ for legibility is actually called _DO-04_ or is index _3_ on the real {{gl.controller-link}}.
+4. [Bonus] A combination of the above.
+
+The syntax you can use is as follows:
+1. Declare an override - Append `@` to the _Alias_
+2. Skip declaration - Append `!` to the _Alias_
+3. Renaming - Append the new name to the _Alias_
+
+Examples:
+
+| Code | Description |
+| ---- | ----------- |
+| `MyTool` | Regular tool declaration. |
+| `MyTool@` | Forces the declaration of the tool. | 
+| `MyTool@toolData32` | Forces the declaration of the tool, as a tool variable called toolData32. |
+| `MyTool@!` | No declaration – considers that a "MyTool" tool declaration already exists in the controller. |
+| `MyTool@!toolData32` | No declaration – use the toolData32 tool variable from the controller. |
+
+---

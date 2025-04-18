@@ -1,0 +1,23 @@
+
+
+¬overview-administration-setup-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#0-administration-and-setup
+¬overview-administration-setup-link: [0. Administration and Setup]({{overview-administration-setup-url}})
+
+¬overview-install-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#01-install
+¬overview-install-link-D: ({{overview-install-url}})
+¬overview-install-link: [0.1. Install]{{overview-install-link-D}}
+¬overview-installation-link: [Installation]{{overview-install-link-D}}
+
+¬overview-create-admin-org-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#02-create-and-administer-an-organization
+¬overview-create-admin-org-link: [0.2. Create and Administer an Organization]({{overview-create-admin-org-url}})
+
+¬overview-join-org-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#03-join-an-organization
+¬overview-join-org-link: [0.3. Join an Organization]({{overview-join-org-url}})
+
+¬overview-purchase-licenses-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#04-purchase-licenses
+¬overview-purchase-licenses-link: [0.4. Purchase Licenses]({{overview-purchase-licenses-url}})
+
+¬overview-uninstallation-url: ../Overview/Ξ 0-AdministrationAndSetup/0-AdministrationAndSetup.tsmap#05-complete-uninstallation
+¬overview-uninstallation-link: [0.5. Complete Uninstallation]({{overview-uninstallation-url}})
+
+

@@ -1,0 +1,23 @@
+¬import dl from "../../_shared/decodeLinks"
+
+
+### {{dl.decode-programming-link}}
+
+#### {{dl.decode-procedures-link}}
+
+#### {{dl.decode-move-link}}
+
+#### {{dl.decode-wait-time-link}}
+
+#### {{dl.decode-set-signal-link}}
+
+#### {{dl.decode-paths-link}}
+
+#### {{dl.decode-custom-actions-link}}
+
+#### {{dl.decode-structuring-procedures-link}}
+
+#### {{dl.decode-simulation-lc-link}}
+
+---
+

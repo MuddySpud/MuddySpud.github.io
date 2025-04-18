@@ -1,0 +1,52 @@
+¬import hl from "../../../_shared/halRoboticsLinks"
+¬import il from "../../../_shared/imageLinks"
+
+
+### 0.2. Create and Administer an Organization
+
+#### Objective:
+
+This tutorial is aimed at organization administrators who would like to manage licenses and users for their institution from the {{hl.hal-robotics-home-link}}. If you are a user trying to access their organization's licenses please skip forward to the [Join an Organization](#03-join-an-organization) tutorial. Please note that all new organizations need approval from a HAL Robotics team member so please **do not** follow this tutorial unless you represent an organization.
+
+#### Requirements to follow along:
+
+- Internet access.
+
+#### Background:
+
+Creating an organization will allow members to share floating licenses. This maximizes the usage of your licenses and avoids employees or students leaving with access to a license you've paid for.
+
+#### How to:
+
+Start by browsing to the {{hl.hal-robotics-home-link}} and {{hl.hal-robotics-logging-in-link}}. You can then navigate to the {{hl.hal-robotics-organizations-link}}. Here you should see a list of any organizations you are already a member of. It's likely that this list is empty at this stage so let's create an organization for you company or institution.
+
+Click on the "Create" button at the top of the tab. There are a few details that need to be entered here:
+* The name of the organization.
+
+* Your _Company number_ and _VAT number_ are optional but they will need to be set (unless exempt) before you can purchase licenses for this organization online.
+
+* If your organization is an academic institution then you can tick the "Academic" box.
+
+* _Checkout Rights_ define who can temporarily check-out your licenses for offline use. "All" allows any member of your organization to do this. "None" allows nobody to do this. "AdminOnly" allows only the admins of the organization to do this.
+
+* The _Billing Address_ is required and will be used for online license purchases.
+
+* The _Joining Phrase_ is a semi-private phrase which can be used in conjunction with the organization's name to allow members to join your organization without your intervention. This can either be a word, phrase or string that you choose, or by clicking the _refresh_ button, we can generate a 3-word phrase for you. Have a look at the [Join an Organization](#03-join-an-organization) tutorial to see the _Joining Phrase_ in action. 
+
+* All other information is optional but will help to automatically populate information when requesting quotes or purchasing information.
+
+{{il.createOrganization-image}}{: .pad-top}
+<em>Fill the organization creation form then validate using the Create button.</em>{: .pad-bottom}
+
+Click "Request Creation" and you will be redirected to your "Organizations" tab. Once the organization has been confirmed by the HAL Robotics team, you can view the members and licenses of the organization, and purchase licenses on the organization's behalf. You can use the "Members" tab to toggle the admin status of members or remove them. The "Licenses" tab can be used to check which licenses are in use and when they expire.
+
+{{il.organization-image}}{: .pad-top}
+<em>The "Organizations" tab displays your memberships.</em>{: .pad-bottom}
+
+{{il.organizationMembers-image}}{: .pad-top}
+<em>The "Members" tab of an organization displays members and their roles.</em>{: .pad-bottom}
+
+{{il.organizationLicenses-image}}{: .pad-top}
+<em>The "Licenses" tab of an organization displays licenses and their status.</em>{: .pad-bottom}
+
+---

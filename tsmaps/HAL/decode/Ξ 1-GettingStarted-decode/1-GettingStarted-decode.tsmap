@@ -1,0 +1,168 @@
+{
+    "key": "eGWgvI27x   ",
+    "token": "1Gettingstarteddecode",
+    "name": "1-GettingStarted-decode",
+    "created": "2025-03-14T11:57:47.931Z",
+    "list": true,
+    "publishFileName": "1-Getting-Started",
+    "cachedPath": "c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap",
+    "iText": "Link to '1-GettingStarted-decode'",
+    "___rΩΩt___": {
+        "key": "eGWgvI08h",
+        "nodes": [
+            {
+                "key": "eGWgvI0dK",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "eGWgvI0Bt",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "eGWgvI1pu",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "eGWgvI0qN",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "eGWgvI1SJ",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "eGWgvI1Q0",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "eGWgvI02s",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "eGWgvI12o",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "eGWgvI1Qp",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "eGWgvI1uf",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "eGWgvI0kj",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "eGWgvI2C0",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "eGWgvI0j1",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "isLeaf": true
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-eGWgvI08h",
+            "relativePath": "./δ steps/δ-cQieHo00Iv.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI0dK",
+            "relativePath": "./δ steps/δ-cQijMh01ox.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI0Bt",
+            "relativePath": "./δ steps/δ-cQikmm021D.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI1pu",
+            "relativePath": "./δ steps/δ-cQilul00ig.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI0qN",
+            "relativePath": "./δ steps/δ-cQinD7028U.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI1SJ",
+            "relativePath": "./δ steps/δ-cQiooI012Z.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI1Q0",
+            "relativePath": "./δ steps/δ-cQiq73012P.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI02s",
+            "relativePath": "./δ steps/δ-cQirr1022e.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI12o",
+            "relativePath": "./δ steps/δ-cQitJM02UP.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI1Qp",
+            "relativePath": "./δ steps/δ-cQiv9G01xe.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI1uf",
+            "relativePath": "./δ steps/δ-cQixGF015D.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI0kj",
+            "relativePath": "./δ steps/δ-cQiyVN02NY.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI2C0",
+            "relativePath": "./δ steps/δ-cQj03u02HQ.tsstp"
+        },
+        {
+            "key": "δ-eGWgvI0j1",
+            "relativePath": "./δ steps/δ-cQj1Ic02AO.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fAF4WV01F2",
+        "editorID": "car_add20af177164d36bfd8a1a2561ab9b4",
+        "ticks": 1744458401783
+    }
+}

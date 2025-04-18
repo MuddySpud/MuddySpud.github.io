@@ -1,0 +1,23 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+
+#### Background:
+
+Electrical Input and Output (I/O) {{gl.signals-link}} are used to activate or deactivate [Tools]{{gl.end-effector-link-D}}, trigger actions on remote machines or pass data between **Sensors**.
+
+#### How to:
+
+From the **Network** screen, select the **I/O Signals Board** into which you want to add your new [Signal(s)]{{gl.signal-link-D}}. {{gl.signals-link}} can't be moved between **Boards** later. That will enable the _Item Type_ selector to list a number of different {{gl.signals-link}} types. Select whichever you need but **Digital Output**s are very common so we'll use that as our example here. Click **+** and you'll start creating a {{gl.signal-link}} of your selected type.
+
+The **Configuration** _Step_ will allow you to set its upper and lower limits (leave `0` to `24V` if you are unsure). The [Translation Overrides]{{dl.decode-translation-overrides-link-D}} will allow you to use a human readable name within _decode_ but change what's {{gl.export-d-lc-link}}.
+
+Once you are happy with the {{gl.signal-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Network** screen.
+
+{{il.networkCreateSignalTranslationOverrides-image}}{: .pad-top}
+<em>Translation overrides make it easy to identify Signals without breaking the exported code.</em>{: .pad-bottom}
+
+---
+

@@ -1,0 +1,30 @@
+¬import hl from "../../../_shared/halRoboticsLinks"
+¬import il from "../../../_shared/imageLinks"
+
+
+### 0.3. Join an Organization
+
+#### Objective:
+
+This tutorial is aimed at users who want to join their organization on the {{hl.hal-robotics-home-link}} and access the organization's licenses. If you are unsure of whether your company or institution has an organization please talk to your I.T. department or HAL Robotics Framework admin.
+
+#### Requirements to follow along:
+
+- Internet access.
+- Organization name (including capitalization) on the portal.
+- Organization joining phrase.
+
+#### Background:
+
+Joining an organization will allow you to access your organization's licenses.
+
+#### How to:
+
+Start by browsing to the {{hl.hal-robotics-home-link}} and {{hl.hal-robotics-logging-in-link}}. You can then navigate to the {{hl.hal-robotics-organizations-link}}. Here you should see a list of any organizations you are already a member of. It's likely that this list is empty at this stage so let's join the organization for you company or institution.
+
+Click on "Join" at the top of the page. Here you will be asked for the organization's name and passphrase. If you don't know these details for your organization please ask to your I.T. department or HAL Robotics Framework admin as they will have access to these details. If your organization isn't found please check the spacing, punctuation and casing of both entries.
+
+{{il.joinOrganization-image}}{: .pad-top}
+<em>The "Join" tab will allow you to join your organization and access its licenses.</em>{: .pad-bottom}
+
+---

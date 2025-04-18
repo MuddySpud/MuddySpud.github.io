@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.6. Create a Signal
+
+#### Objective:
+
+In this tutorial we'll create a {{gl.signal-link}} that can be programmed in _decode_.
+

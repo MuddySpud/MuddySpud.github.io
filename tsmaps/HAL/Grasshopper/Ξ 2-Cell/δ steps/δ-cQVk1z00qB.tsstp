@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.6. Create a Multi-Part Tool
+
+#### Objective:
+
+In this tutorial we'll look at how we can create more complex [Tools]{{gl.end-effector-link-D}}, e.g. those with multiple {{gl.parts-link}} or {{gl.endpoints-link}}, in the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.rhFile16-img}}  Create a Multi-Part Tool.3dm]{{gel.create-tool-dm-link-D}}{: .icon-link}   
+> [{{il.ghFile16-img}}  Create a Multi-Part Tool.gh]{{gel.create-tool-gh-link-D}}{: .icon-link}
+

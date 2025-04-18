@@ -1,0 +1,17 @@
+¬import il from "../../../_shared/imageLinks"
+¬import el from "../../../_shared/externalLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+#### Current Limitations:
+
+1. We are using {{el.rhino-download-link}} as a visualisation engine within _decode_ and as such it will need to be installed before you can install _decode_. We are working with McNeel to automate this process for you and will be working with them to simplify the licensing of the complete software so that there's a single point of entry, account management etc. when using _decode_.
+2. If you are using Rhino 8 (the latest version) please open Rhino, run the `SetDotNetRuntime` command and select `NETFramework` before running _decode_. Again, we are working with the McNeel team to try and streamline this during installation.
+3. _decode_ currently in Beta, so you will need to ensure the **include beta** box is ticked in the installer before it will be shown. To do this, open the HAL Robotics Framework installer and tick the **include beta** box in the upper right-hand corner:
+{{il.installerPackages-IncludeBeta-image}}{: .big-image}
+4. _Limitation removed in HAL.decode version 1.5.25-beta_ ~~**Save** is currently disabled. We are still working out the final details of how and where we store data which means that we will almost certainly break any previously saved projects. Whilst we know this will be frustrating we hope it will discourage particularly time-consuming development and therefore limit the frustrations of losing that work anyway further down the line. This is a top priority for us and **save** will be coming soon™.~~
+5. Things will be getting fixed and updated very frequently so there will be weekly or maybe even daily updates pushed so please check back in the installer before launching the software on any given day. Once it's stable, the update cadence will slow and this will no longer be necessary, although we will still keep releasing meaningful feature updates, tweaks and fixes as necessary.
+6. We are currently limiting the cells to one robot with one tool and no external axes/positioners. This is temporary to keep things relatively simple but if you need multi-robot or external axis support, please use the {{ghl.grasshopper-contents-link}}.
+7. Whilst you will have to log in to _decode_, the licensing has been deactivated so you will, for now, have free access to everything in there. We will try to ensure you get fair warning before that changes.
+8. As mentioned above, this is a Beta interface so there are likely to be anomalies, a few bugs and maybe even the occasional crash. We would like as much [feedback](#feedback) as you can give.
+

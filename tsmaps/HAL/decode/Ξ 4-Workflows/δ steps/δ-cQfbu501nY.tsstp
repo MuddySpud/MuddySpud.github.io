@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+An **Operator Workflow** is comprised of a sequence of multiple **Steps** which create the collaborative work instructions for the {{gl.cell-link}} and operator. Some **Steps** are informational, others request information from the operator, run computational tasks, or communicate with devices.
+

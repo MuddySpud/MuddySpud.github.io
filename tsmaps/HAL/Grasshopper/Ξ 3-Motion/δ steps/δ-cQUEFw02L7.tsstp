@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.6. Coupled Motion and Resolving Targets
+
+#### Objective:
+
+In this tutorial we'll see how to simplify the programming of multi-{{gl.mechanism-link}} setups using **Target Resolvers** in the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}} Resolve Targets.gh]{{gel.resolveTargets-gh-link-D}}{: .icon-link}
+

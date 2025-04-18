@@ -1,0 +1,17 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ml from "../../../_shared/manufacturerLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+
+#### How to:
+
+All of these different parts are best explored with concrete examples so let's create a {{gl.controller-link}} and look at how we can configure it. We can start by navigating to the **HAL Robotics** tab, **Cell** panel and placing a **Controller**. As this is a windowed component, we can double-click to open the catalog and choose our {{gl.controller-link}} preset. For this example, I'm going to use the `IRC5 Compact V2` but you will find details for any other manufacturer's {{gl.controllers-link}} in the {{ml.manufacturer-documentation-link}}. When we select a {{gl.controller-link}} a configuration page will pop-up.
+
+The first thing we'll see at the top is the system version. In the case of ABB this is the Robotware version but for KUKA this would be KUKA System Software or in Universal Robots it will be the Polyscope version. It's important to note that these are version ranges so don't expect to see every point release listed. By changing the version we'll change which **Subsystems** are available. If I switch down to `5.14`, `EGM` will disappear from the options below because it was only introduced in Robotware 6.
+
+The rest of the window is split in two; on the left is **Subsystem** and **Capability** selection and on the right is parametrization. In the left-hand column we can see the **Capabilities** listed with **Subsystems** that implement that **Capability** in a drop-down alongside. Let's look specifically at `Upload`. By hovering over the name, we can see that the `Upload` **Capability** enables {{gl.procedure-link}} [Uploading]{{gl.upload-link-D}} to a remote {{gl.controller-link}}. We can also see that there are two subsystems that offer this **Capability**, `PCSDK` and `Robot Web Services (RWS)`. `RWS` is built in to the latest Robotware versions but to use the `PCSDK` we need the option "PC Interface" on our {{gl.controller-link}}. If you don't have that option you can change **Subsystem** to ensure we use a compatible method to {{gl.upload-link}} {{gl.procedures-link}} to your {{gl.controller-link}}. There may also be circumstances where we don't have any of the options installed or don't want access to a **Capability** for security purposes. In that case we can deactivate the **Capability** using its toggle. On the right-hand side of the window, we have the inputs to configure our **Subsystems**. Only active **Subsystems** are listed so if we deactivate both `EGM` **Capabilities** the `EGM` parameters will disappear. Once we have changed the relevant properties we can select "Configure" to apply our changes. Closing the window without configuring will leave the {{gl.controller-link}} in an invalid, unconfigured state.
+
+In future tutorials we'll look at some specific uses of our **Capabilities** and **Subsystems** for [exporting]{{ghl.grasshopper-export-procedure-link-D}} and [uploading]{{ghl.grasshopper-upload-procedure-link-D}} code for a real {{gl.controller-link}}.
+
+---

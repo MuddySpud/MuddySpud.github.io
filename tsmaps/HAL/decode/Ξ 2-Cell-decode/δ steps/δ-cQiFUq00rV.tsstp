@@ -1,0 +1,29 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ml from "../../../_shared/manufacturerLinks"
+
+
+#### How to:
+
+All of these different parts are best explored with concrete examples so let's create a {{gl.controller-link}} and look at how we can configure it.
+From the **Scene** screen, select the {{gl.reference-link}} onto which you want to attach your new {{gl.controller-link}}, or click anywhere in the white space to clear your current selection. Either of those states will enable the _Item Type_ selector to list {{gl.controller-link}} as an option. Click **+** and you'll enter the editor.
+
+There is only one _Creator_ available here. Select the **Preset** _Step_ and the {{gl.controller-link}} catalogue will pop-up. Double-click on the {{gl.controller-link}} you want to load to choose it. If the {{gl.controller-link}} you want isn't listed, look for the **Scan Online Content** button in lower left-hand corner which will list all the available {{gl.controllers-link}} and download whichever one you choose. Next time you load the catalogue, your offline {{gl.controllers-link}} will be listed.
+
+{{il.cellAddControllerFromCatalogueMiddle-image}}{: .pad-top}
+<em>There are Controllers from all our supported manufacturers in the Controller catalogue.</em>{: .pad-bottom}
+
+For this example, we're going to use the `IRC5 Compact V2` but you will find details for any other manufacturer's {{gl.controllers-link}} in the {{ml.manufacturer-documentation-link}}. When we select a {{gl.controller-link}}, if there is anything to configure, a configuration page will pop-up.
+
+The first thing we'll see at the top is the system version. In the case of ABB this is the RobotWare version but for KUKA this would be KUKA System Software or in Universal Robots it will be the Polyscope version. It's important to note that these are version ranges so don't expect to see every point release listed. By changing the version we'll change which **Subsystems** are available. If we switch down to `5.14`, `EGM` will disappear from the options below because it was only introduced in Robotware 6.
+
+The rest of the window is split in two; on the left is **Subsystem** and **Capability** selection and on the right is parametrization. In the left-hand column we can see the **Capabilities** listed with **Subsystems** that implement that **Capability** in a drop-down alongside. Let's look specifically at `Upload`. By hovering over the name, we can see that the `Upload` **Capability** enables {{gl.procedure-link}} {{gl.uploading-link}} to a remote {{gl.controller-link}}. We can also see that there are two subsystems that offer this **Capability**, `PCSDK` and `Robot Web Services (RWS)`. `RWS` is built in to the latest Robotware versions but to use the `PCSDK` we need the option "PC Interface" on our {{gl.controller-link}}. If you don't have that option you can change **Subsystem** to ensure we use a compatible method to {{gl.upload-link}} {{gl.procedures-link}} to your {{gl.controller-link}}. There may also be circumstances where we don't have any of the options installed or don't want access to a **Capability** for security purposes. In that case we can deactivate the **Capability** using its toggle. On the right-hand side of the window, we have the inputs to configure our **Subsystems**. Only active **Subsystems** are listed so if we deactivate both `EGM` **Capabilities** the `EGM` parameters will disappear. Once we have changed the relevant properties we can select "Configure" to apply our changes. Closing the window without configuring will leave the {{gl.controller-link}} in an invalid, unconfigured state.
+
+{{il.cellAddControllerConfigured-image}}{: .pad-top}
+<em>The controller configurator allows you to match the capabilities of your real Controller in the virtual Scene.</em>{: .pad-bottom}
+
+If you need to set the _Location_ of the {{gl.controller-link}}, choose that _Step_ and adjust accordingly. The _Reference_ setting can be used to adjust whether you want to define a _Location_ relative to the **Scene**'s origin, or the element to which the {{gl.controller-link}} is attached, its _Parent_.
+
+Once you are happy with the {{gl.controller-link}}'s setup click **ok** in the upper right corner to return to the **Scene** screen. {{gl.controllers-link}} are hidden by default in the **Scene** but can be shown using the _eye_ icon.
+
+---

@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 6.2. Export a Procedure
+
+#### Objective:
+
+In this tutorial we'll [Export]{{gl.export-link-D}} some robot code ready to be run on a real {{gl.controller-link}} using the HAL Robotics Framework for Grasshopper.
+

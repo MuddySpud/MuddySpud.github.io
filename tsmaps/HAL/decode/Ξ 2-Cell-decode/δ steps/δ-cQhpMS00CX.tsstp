@@ -1,0 +1,15 @@
+¬import del from "../../../_shared/decodeExampleLinks"
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.2. Create a Tool
+
+#### Objective:
+
+In this tutorial we'll create a simple {{gl.end-effector-link}} for your _decode_ scene.
+
+#### Demo Files:
+
+> [{{il.rhFile16-img}} Tool.stl]{{del.tool-link-D}}{: .icon-link}
+

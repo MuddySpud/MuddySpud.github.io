@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+When working with a fully integrated {{gl.cell-link}} or using a {{gl.manipulator-link}} with pre-built functionality which isn't natively supported by the HAL Robotics Framework, you may want add code to your export which calls an existing function in the {{gl.controller-link}}. We do this using {{gl.custom-actions-link}}. Common for {{gl.custom-actions-link}} are opening or closing a gripper, running tool change procedures, starting logging, activating collision boxes, popping up messages to the operator etc.
+

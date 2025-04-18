@@ -1,0 +1,31 @@
+¬import dl from "../../../_shared/decodeLinks"
+¬import gl from "../../../_shared/grasshopperLinks"
+
+
+### 0.5. Complete Uninstallation
+
+#### Objective:
+
+In this tutorial you'll learn how to completely uninstall the HAL Robotics Framework.
+
+#### Requirements to follow along:
+
+- A PC with the HAL Robotics Framework installed.
+
+#### Background:
+
+Whilst we make every effort to ensure that our software is stable it may occasionally be necessary to completely remove a version of the HAL Robotics Framework.
+
+#### How to:
+
+Start by opening the HAL Robotics Installer and clicking uninstall. This will uninstall all packages and extensions you added through the installer.
+
+You can then uninstall the Installer itself through the usual Windows uninstall methods. 
+
+Once this is done you can clean up any remnants that the uninstallation process may have missed by deleting the following folders:
+* %ProgramData%\\HAL
+* %LocalAppData%\\HAL
+
+---
+
+Continue to: 1. Getting Started for [_decode_]{{dl.decode-getting-started-link-D}} or the [Grasshopper SDK]{{gl.grasshopper-getting-started-link-D}}

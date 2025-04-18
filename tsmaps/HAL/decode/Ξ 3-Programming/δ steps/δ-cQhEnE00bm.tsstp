@@ -1,0 +1,24 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+From the **Programming** screen, click in some white space to clear your selection. The _Item Type_ selector should now list **Group** and **Call**.
+
+Starting with **Group**, click **+** and we'll enter the **Group** editor. There are no settings in here other than the name so set one that makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen. If you then select your new **Group** you'll see that any {{gl.action-link}} can be created within it or existing {{gl.actions-link}} can be dragged in or out of it. That's all there is to **Groups**, they're there to help you keep {{gl.procedures-link}} organised.
+
+{{il.programmingGroups-image}}{: .pad-top}
+<em>Groups can help to structure longer Procedures.</em>{: .pad-bottom}
+
+{{gl.procedure-link}} Calls, however, are a little more involved. Before we can use one we'll need a sub-{{gl.procedure-link}} to call. In the top right-hand corner you'll see another **+** button and a three bar menu (**☰**). Either of those can be used to add a new Procedure, and the menu can also be used to rename or delete your additional {{gl.procedures-link}}. As usual give this {{gl.procedure-link}} an identifiable name, add some {{gl.actions-link}} and then use the {{gl.procedure-link}} selector to return to your main {{gl.procedure-link}}. 
+
+{{il.programmingSubProceduresComplete-image}}{: .pad-top}
+<em>Sub-Procedures allow you to create reusable blocks of code.</em>{: .pad-bottom}
+
+Once back in your main {{gl.procedure-link}}'s editor, with a **Group** or nothing selected, select **Call** from the _Item Type_ selector and click **+** to add one. The default _Creator_ has a **Configure** _Step_ which will allow you to select which {{gl.procedure-link}} you want to call. This will automatically rename your **Call**. Once you are happy with the **Call**'s setup click **ok** in the upper right corner to return to the **Programming** screen.
+
+{{il.programmingCallProcedure-image}}{: .pad-top}
+<em>Procedure Calls allow you to reuse sub-Procedures e.g. to deactivate a Tool.</em>{: .pad-bottom}
+
+---
