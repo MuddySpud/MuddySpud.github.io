@@ -6,7 +6,7 @@ fragsFolderPath: HAL/decode/3-Programming_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCJo1rc","path":"HAL/decode","fragmentFolderPath":"HAL/decode/3-Programming_frags"},"fragment":{"id":"fdLCJo1rc","topLevelMapKey":"eGWgw90N3","mapKeyChain":"eGWgw90N3","guideID":"fdLCJo0tS","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/3-Programming.tsmap","parentFragmentID":null,"chartKey":"eGWgw90N3","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCJo1rc","path":"HAL/decode","fragmentFolderPath":"HAL/decode/3-Programming_frags"},"fragment":{"id":"fdLCJo1rc","topLevelMapKey":"eGWgw90N3","mapKeyChain":"eGWgw90N3","guideID":"fdLCJo0tS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/3-Programming.tsmap","parentFragmentID":null,"chartKey":"eGWgw90N3","options":[]}} -->
 
 ## 3. Programming
 

@@ -6,7 +6,7 @@ fragsFolderPath: HAL/decode/2-Cell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLBpN1iH","path":"HAL/decode","fragmentFolderPath":"HAL/decode/2-Cell_frags"},"fragment":{"id":"fdLBpN1iH","topLevelMapKey":"cQhegc01qa","mapKeyChain":"cQhegc01qa","guideID":"fdLBpN1BC","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/2-Cell-decode.tsmap","parentFragmentID":null,"chartKey":"cQhegc01qa","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBpN1iH","path":"HAL/decode","fragmentFolderPath":"HAL/decode/2-Cell_frags"},"fragment":{"id":"fdLBpN1iH","topLevelMapKey":"cQhegc01qa","mapKeyChain":"cQhegc01qa","guideID":"fdLBpN1BC","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/2-Cell-decode.tsmap","parentFragmentID":null,"chartKey":"cQhegc01qa","options":[]}} -->
 
 ## 2. Cell Setup
 

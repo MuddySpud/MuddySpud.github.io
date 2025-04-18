@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Decode_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdOksd1Pp","path":"HAL","fragmentFolderPath":"HAL/Decode_frags"},"fragment":{"id":"fdOksd1Pp","topLevelMapKey":"cQXU6R01TZ","mapKeyChain":"cQXU6R01TZ","guideID":"fdOksd2ME","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Decode.tsmap","parentFragmentID":null,"chartKey":"cQXU6R01TZ","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdOksd1Pp","path":"HAL","fragmentFolderPath":"HAL/Decode_frags"},"fragment":{"id":"fdOksd1Pp","topLevelMapKey":"cQXU6R01TZ","mapKeyChain":"cQXU6R01TZ","guideID":"fdOksd2ME","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Decode.tsmap","parentFragmentID":null,"chartKey":"cQXU6R01TZ","options":[]}} -->
 
 <img class="logo" src="/HAL/assets/images/decode/logo.png" height="35">
 

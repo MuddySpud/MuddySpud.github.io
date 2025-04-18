@@ -6,7 +6,7 @@ fragsFolderPath: BackToTheFuture/DeLorean-Time-Machine-Technical-Manual_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCBJ0Bn","path":"BackToTheFuture","fragmentFolderPath":"BackToTheFuture/DeLorean-Time-Machine-Technical-Manual_frags"},"fragment":{"id":"fdLCBJ0Bn","topLevelMapKey":"eGVQJj24d","mapKeyChain":"eGVQJj24d","guideID":"fdLCBJ2Bq","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/BackToTheFuture/DeLoreanTimeMachineTechnicalManual.tsmap","parentFragmentID":null,"chartKey":"eGVQJj24d","options":[{"id":"fdLCBn0pO","option":"The DeLorean exhibits no operational response","isAncillary":false,"order":1},{"id":"fdLCDQ0sN","option":"She activates but fails to achieve temporal displacement","isAncillary":false,"order":2},{"id":"fdLCEd1oU","option":"Displacement occurs, but the spatiotemporal coordinates are erroneous","isAncillary":false,"order":3}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCBJ0Bn","path":"BackToTheFuture","fragmentFolderPath":"BackToTheFuture/DeLorean-Time-Machine-Technical-Manual_frags"},"fragment":{"id":"fdLCBJ0Bn","topLevelMapKey":"eGVQJj24d","mapKeyChain":"eGVQJj24d","guideID":"fdLCBJ2Bq","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/BackToTheFuture/DeLoreanTimeMachineTechnicalManual.tsmap","parentFragmentID":null,"chartKey":"eGVQJj24d","options":[{"id":"fdLCBn0pO","option":"The DeLorean exhibits no operational response","isAncillary":false,"order":1},{"id":"fdLCDQ0sN","option":"She activates but fails to achieve temporal displacement","isAncillary":false,"order":2},{"id":"fdLCEd1oU","option":"Displacement occurs, but the spatiotemporal coordinates are erroneous","isAncillary":false,"order":3}]}} -->
 
 # Back to the Future
 

@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Grasshopper/5-Advanced-Programming_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLC2K0fa","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/5-Advanced-Programming_frags"},"fragment":{"id":"fdLC2K0fa","topLevelMapKey":"eGVQIT27G","mapKeyChain":"eGVQIT27G","guideID":"fdLC2K2av","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/5-AdvancedProgramming.tsmap","parentFragmentID":null,"chartKey":"eGVQIT27G","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC2K0fa","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/5-Advanced-Programming_frags"},"fragment":{"id":"fdLC2K0fa","topLevelMapKey":"eGVQIT27G","mapKeyChain":"eGVQIT27G","guideID":"fdLC2K2av","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/5-AdvancedProgramming.tsmap","parentFragmentID":null,"chartKey":"eGVQIT27G","options":[]}} -->
 
 ## 5. Advanced Programming
 

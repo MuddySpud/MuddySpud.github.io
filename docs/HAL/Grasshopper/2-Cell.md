@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Grasshopper/2-Cell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLC480dF","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/2-Cell_frags"},"fragment":{"id":"fdLC480dF","topLevelMapKey":"eGVQJ60uV","mapKeyChain":"eGVQJ60uV","guideID":"fdLC481xd","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/2-Cell.tsmap","parentFragmentID":null,"chartKey":"eGVQJ60uV","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC480dF","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/2-Cell_frags"},"fragment":{"id":"fdLC480dF","topLevelMapKey":"eGVQJ60uV","mapKeyChain":"eGVQJ60uV","guideID":"fdLC481xd","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/2-Cell.tsmap","parentFragmentID":null,"chartKey":"eGVQJ60uV","options":[]}} -->
 
 ## 2. Cell
 

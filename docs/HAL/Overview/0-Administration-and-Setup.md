@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Overview/0-Administration-and-Setup_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCQD1tX","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/0-Administration-and-Setup_frags"},"fragment":{"id":"fdLCQD1tX","topLevelMapKey":"eGXo6I1ag","mapKeyChain":"eGXo6I1ag","guideID":"fdLCQD08V","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Overview/0-AdministrationAndSetup.tsmap","parentFragmentID":null,"chartKey":"eGXo6I1ag","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCQD1tX","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/0-Administration-and-Setup_frags"},"fragment":{"id":"fdLCQD1tX","topLevelMapKey":"eGXo6I1ag","mapKeyChain":"eGXo6I1ag","guideID":"fdLCQD08V","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Overview/0-AdministrationAndSetup.tsmap","parentFragmentID":null,"chartKey":"eGXo6I1ag","options":[]}} -->
 
 ## 0. Administration and Setup
 

@@ -6,7 +6,7 @@ fragsFolderPath: HAL/decode/1-Getting-Started_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCGN079","path":"HAL/decode","fragmentFolderPath":"HAL/decode/1-Getting-Started_frags"},"fragment":{"id":"fdLCGN079","topLevelMapKey":"eGWgvI27x","mapKeyChain":"eGWgvI27x","guideID":"fdLCGN0fU","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/1-GettingStarted-decode.tsmap","parentFragmentID":null,"chartKey":"eGWgvI27x","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCGN079","path":"HAL/decode","fragmentFolderPath":"HAL/decode/1-Getting-Started_frags"},"fragment":{"id":"fdLCGN079","topLevelMapKey":"eGWgvI27x","mapKeyChain":"eGWgvI27x","guideID":"fdLCGN0fU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/1-GettingStarted-decode.tsmap","parentFragmentID":null,"chartKey":"eGWgvI27x","options":[]}} -->
 
 ## 1. Getting Started
 

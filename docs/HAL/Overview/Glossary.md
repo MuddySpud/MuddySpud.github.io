@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Overview/Glossary_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCPi208","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/Glossary_frags"},"fragment":{"id":"fdLCPi208","topLevelMapKey":"eGXo5y2EQ","mapKeyChain":"eGXo5y2EQ","guideID":"fdLCPi0jg","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Overview/Glossary.tsmap","parentFragmentID":null,"chartKey":"eGXo5y2EQ","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCPi208","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/Glossary_frags"},"fragment":{"id":"fdLCPi208","topLevelMapKey":"eGXo5y2EQ","mapKeyChain":"eGXo5y2EQ","guideID":"fdLCPi0jg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Overview/Glossary.tsmap","parentFragmentID":null,"chartKey":"eGXo5y2EQ","options":[]}} -->
 
 ## 7. Glossary
 

@@ -6,7 +6,7 @@ fragsFolderPath: RedDwarf/RedDwarfNavigationSystemFix_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCRt0pt","path":"RedDwarf","fragmentFolderPath":"RedDwarf/RedDwarfNavigationSystemFix_frags"},"fragment":{"id":"fdLCRt0pt","topLevelMapKey":"eRIxS302SP","mapKeyChain":"eRIxS302SP","guideID":"fdLCRt26s","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/RedDwarf/RedDwarfNavigationSystemFix.tsmap","parentFragmentID":null,"chartKey":"eRIxS302SP","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCRt0pt","path":"RedDwarf","fragmentFolderPath":"RedDwarf/RedDwarfNavigationSystemFix_frags"},"fragment":{"id":"fdLCRt0pt","topLevelMapKey":"eRIxS302SP","mapKeyChain":"eRIxS302SP","guideID":"fdLCRt26s","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/RedDwarf/RedDwarfNavigationSystemFix.tsmap","parentFragmentID":null,"chartKey":"eRIxS302SP","options":[]}} -->
 
 # Red Dwarf
 

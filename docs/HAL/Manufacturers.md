@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Manufacturers_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLCJJ07D","path":"HAL","fragmentFolderPath":"HAL/Manufacturers_frags"},"fragment":{"id":"fdLCJJ07D","topLevelMapKey":"eGWgvq07O","mapKeyChain":"eGWgvq07O","guideID":"fdLCJJ1Yd","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Manufacturers.tsmap","parentFragmentID":null,"chartKey":"eGWgvq07O","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCJJ07D","path":"HAL","fragmentFolderPath":"HAL/Manufacturers_frags"},"fragment":{"id":"fdLCJJ07D","topLevelMapKey":"eGWgvq07O","mapKeyChain":"eGWgvq07O","guideID":"fdLCJJ1Yd","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Manufacturers.tsmap","parentFragmentID":null,"chartKey":"eGWgvq07O","options":[]}} -->
 
 ## Manufacturer Specific Details
 

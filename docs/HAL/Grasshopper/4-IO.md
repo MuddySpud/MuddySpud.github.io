@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Grasshopper/4-IO_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLBcS1Dq","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/4-IO_frags"},"fragment":{"id":"fdLBcS1Dq","topLevelMapKey":"cQSuwS01HV","mapKeyChain":"cQSuwS01HV","guideID":"fdLBcS01L","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/4-IO.tsmap","parentFragmentID":null,"chartKey":"cQSuwS01HV","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBcS1Dq","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/4-IO_frags"},"fragment":{"id":"fdLBcS1Dq","topLevelMapKey":"cQSuwS01HV","mapKeyChain":"cQSuwS01HV","guideID":"fdLBcS01L","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/4-IO.tsmap","parentFragmentID":null,"chartKey":"cQSuwS01HV","options":[]}} -->
 
 ## 4. IO
 

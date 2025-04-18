@@ -6,7 +6,7 @@ fragsFolderPath: HAL/Grasshopper/6-Control_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLC061xn","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/6-Control_frags"},"fragment":{"id":"fdLC061xn","topLevelMapKey":"eGVQIJ0LJ","mapKeyChain":"eGVQIJ0LJ","guideID":"fdLC061ZB","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/Grasshopper/6-Control.tsmap","parentFragmentID":null,"chartKey":"eGVQIJ0LJ","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC061xn","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/6-Control_frags"},"fragment":{"id":"fdLC061xn","topLevelMapKey":"eGVQIJ0LJ","mapKeyChain":"eGVQIJ0LJ","guideID":"fdLC061ZB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/6-Control.tsmap","parentFragmentID":null,"chartKey":"eGVQIJ0LJ","options":[]}} -->
 
 ## 6. Control
 

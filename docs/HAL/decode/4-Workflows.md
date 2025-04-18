@@ -6,7 +6,7 @@ fragsFolderPath: HAL/decode/4-Workflows_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"fdLBn12Cn","path":"HAL/decode","fragmentFolderPath":"HAL/decode/4-Workflows_frags"},"fragment":{"id":"fdLBn12Cn","topLevelMapKey":"cQbYbd02OI","mapKeyChain":"cQbYbd02OI","guideID":"fdLBn1184","guidePath":"c:/GitHub/MuddyTurnip/MuddyTurnip.github.io/tsmaps/HAL/decode/4-Workflows.tsmap","parentFragmentID":null,"chartKey":"cQbYbd02OI","options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBn12Cn","path":"HAL/decode","fragmentFolderPath":"HAL/decode/4-Workflows_frags"},"fragment":{"id":"fdLBn12Cn","topLevelMapKey":"cQbYbd02OI","mapKeyChain":"cQbYbd02OI","guideID":"fdLBn1184","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/4-Workflows.tsmap","parentFragmentID":null,"chartKey":"cQbYbd02OI","options":[]}} -->
 
 ## 4. Operator Workflows
 
