@@ -1,10 +1,10 @@
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
 title: Docs Assembler demo guides
 description: 
-baseurl:          ""
+baseurl: "/"
 markdown_ext: markdown,tsfrg,md
 
 
