@@ -25,6 +25,7 @@
 
       <div class="main-content {{ firstFolder | downcase }}">
 
+        {% if page.isGuide == true %}
         <div class="breadcrumbs">
           <a href="https://github.com/MuddySpud/MuddySpud.github.io/tree/main/docs/{{ breadcrumb }}">
             <span class="breadcrumb-name">guide: </span>
@@ -32,8 +33,7 @@
           </a>
 
           {% if firstFolder == 'BackToTheFuture' %}
-          <a
-            href="https://github.com/MuddySpud/MuddySpud.github.io/tree/main/docs/{{ page.fragsFolderPath }}">
+          <a href="https://github.com/MuddySpud/MuddySpud.github.io/tree/main/docs/{{ page.fragsFolderPath }}">
             <span class="breadcrumb-name">fragments: </span>
             <span class="breadcrumb-value">{{ page.fragsFolderPath }}</span>
           </a>
@@ -61,6 +61,9 @@
         </div>
 
         {% endif %}
+        
+        {% endif %}
+
 
         <main>
 
@@ -85,7 +88,7 @@
   const boxOuter = document.getElementById('boxOuter');
 
   hamburger.addEventListener('click', () => {
-      boxOuter.classList.toggle('show-sidebar');
+    boxOuter.classList.toggle('show-sidebar');
   });
 </script>
 
