@@ -3,7 +3,8 @@ permalink:        pretty
 
 # Setup
 title: Docs Assembler demo guides
-baseurl: "/"
+description: 
+baseurl:          ""
 markdown_ext: markdown,tsfrg,md
 
 
