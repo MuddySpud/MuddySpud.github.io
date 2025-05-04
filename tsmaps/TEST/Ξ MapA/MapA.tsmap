@@ -1,0 +1,74 @@
+{
+    "key": "fjJ49q02OX  ",
+    "token": "Mapa",
+    "name": "MapA",
+    "created": "2025-04-18T11:42:05.451Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapA/MapA.tsmap",
+    "iText": "Link to 'MapA'",
+    "___rΩΩt___": {
+        "key": "fjJ8BS02R2",
+        "nodes": [
+            {
+                "key": "fjJI1o01Z7",
+                "order": 1,
+                "option": "MapA-step-1.1",
+                "isLeaf": true,
+                "iKey": "fjJ9H201oF"
+            },
+            {
+                "key": "fjJcH700sr",
+                "order": 2,
+                "option": "MapA-step-1.2",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-fjJ8BS02R2",
+            "relativePath": "./δ steps/δ-fjJ8BS02R2.tsstp"
+        },
+        {
+            "key": "δ-fjJcH700sr",
+            "relativePath": "./δ steps/δ-fjJcH700sr.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        },
+        {
+            "key": "δ-fjJI1o01Z7",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "flzX9T01AL",
+        "editorID": "car_8093a2d13b1c4696944ac11660d4cfcb",
+        "ticks": 1745016199351
+    }
+}

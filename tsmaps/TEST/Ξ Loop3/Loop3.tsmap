@@ -1,0 +1,36 @@
+{
+    "key": "g2Oc1000Gr  ",
+    "token": "Loop3",
+    "name": "Loop3",
+    "created": "2025-04-21T18:03:17.622Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ Loop3/Loop3.tsmap",
+    "iText": "Link to 'Loop3'",
+    "___rΩΩt___": {
+        "key": "g2Oe6X01w0",
+        "nodes": [
+            {
+                "key": "g2OoQu02RL",
+                "order": 1,
+                "option": "Loop3-step-1.1",
+                "isLeaf": true,
+                "iKey": "g2OTe002K3"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-g2Oe6X01w0",
+            "relativePath": "./δ steps/δ-g2Oe6X01w0.tsstp"
+        },
+        {
+            "key": "δ-g2OoQu02RL",
+            "relativePath": "./δ steps/δ-g2OoQu02RL.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "g2PNMl01nL",
+        "editorID": "car_583315912c944276b7f9d21f4d623dae",
+        "ticks": 1745258779639
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "key": "fugVwq00wh  ",
+    "token": "Mape",
+    "name": "MapE",
+    "created": "2025-04-20T10:24:13.516Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapE/MapE.tsmap",
+    "iText": "Link to  'MapE'",
+    "iExits": [
+        {
+            "key": "fuhBa202EB",
+            "text": "Exit1-MapE-step-1.1",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "fugY3a00wo",
+        "nodes": [
+            {
+                "key": "fugbSj00qZ",
+                "order": 1,
+                "option": "MapE-step-1.1",
+                "exitKey": "fuhBa202EB"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-fugY3a00wo",
+            "relativePath": "./δ steps/δ-fugY3a00wo.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "g0pbbJ01xX",
+        "editorID": "me_63e73e345b7b4574af2578c24f406a8e",
+        "ticks": 1745235478213
+    }
+}

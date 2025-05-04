@@ -1,0 +1,45 @@
+{
+    "key": "fjJ9H201oF  ",
+    "token": "Mapb",
+    "name": "MapB",
+    "created": "2025-04-18T11:42:25.116Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapB/MapB.tsmap",
+    "iText": "Link to 'MapB'",
+    "___rΩΩt___": {
+        "key": "fjJAsz00Og",
+        "nodes": [
+            {
+                "key": "fjK2SP00DS",
+                "order": 1,
+                "option": "MapB-step-1.1",
+                "isLeaf": true
+            },
+            {
+                "key": "fjK9ka00Jy",
+                "order": 2,
+                "option": "MapB-step-1.2",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-fjJAsz00Og",
+            "relativePath": "./δ steps/δ-fjJAsz00Og.tsstp"
+        },
+        {
+            "key": "δ-fjK2SP00DS",
+            "relativePath": "./δ steps/δ-fjK2SP00DS.tsstp"
+        },
+        {
+            "key": "δ-fjK9ka00Jy",
+            "relativePath": "./δ steps/δ-fjK9ka00Jy.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fjKHmh01k2",
+        "editorID": "car_c0ad2e9ff71447b498c11b71d0fabf68",
+        "ticks": 1744976816159
+    }
+}
