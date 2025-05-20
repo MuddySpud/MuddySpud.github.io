@@ -1,0 +1,65 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBcS1Dq","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/4-IO_frags"},"fragment":{"id":"fdLBcS1Dq","topLevelMapKey":"cQSuwS01HV","mapKeyChain":"cQSuwS01HV","guideID":"fdLBcS01L","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/4-IO.tsmap","parentFragmentID":null,"chartKey":"cQSuwS01HV","options":[]}} -->
+
+<h2 id="4-io">4. IO</h2>
+
+<p><a href="#41-create-a-signal">4.1. Create a Signal</a><br />
+<a href="#42-change-a-signal-state">4.2. Change a Signal State</a></p>
+
+<hr />
+<h3 id="41-create-a-signal">4.1. Create a Signal</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll create a <a href="/HAL/Overview/Glossary#signal">Signal</a> that can be programmed in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/4.1%20-%20Create%20a%20Signal.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Create a Signal.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p>Electrical Input and Output (I/O) <a href="/HAL/Overview/Glossary#signal">Signals</a> are used to activate or deactivate <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, trigger actions on remote machines or pass data between <strong>Sensors</strong>.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>We can start creating a <a href="/HAL/Overview/Glossary#signal">Signal</a> by navigating to the <strong>HAL Robotics</strong> tab, <strong>Cell</strong> panel and selecting <strong>Create Signal</strong>. The templates of this component change between digital and analogue <a href="/HAL/Overview/Glossary#signal">Signals</a>, whilst the overloads switch between inputs or outputs. The only compulsory input on the component is the <em>Alias</em> which should exactly match the value assigned in your real <a href="/HAL/Overview/Glossary#controller">Controller</a>. If your <a href="/HAL/Overview/Glossary#controller">Controller</a> handles aliases then that could be something like <code class="language-plaintext highlighter-rouge">DO_01</code> but if your controller only handle indices then this <em>Alias</em> could simply be <code class="language-plaintext highlighter-rouge">2</code>. You can also change the <em>High</em> and <em>Low</em> voltage states of your <a href="/HAL/Overview/Glossary#signal">Signal</a> if you so wish or need. Once the <a href="/HAL/Overview/Glossary#signal">Signal</a> has been created, we can assign it to our <a href="/HAL/Overview/Glossary#controller">Controller</a> by dragging the <a href="/HAL/Overview/Glossary#signal">Signal</a> output to the <strong>Controller’s</strong> <em>Signal</em> input.</p>
+
+<hr />
+<h3 id="42-change-a-signal-state">4.2. Change a Signal State</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll change the state of a <a href="/HAL/Overview/Glossary#signal">Signal</a> at runtime in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-1">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/4.2%20-%20Change%20a%20Signal%20State.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Change a Signal State.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/4-IO#41-create-a-signal">Create a Signal</a> tutorial is highly recommended and this tutorial builds on its output.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>Electrical Input and Output (I/O) <a href="/HAL/Overview/Glossary#signal">Signals</a> are used to activate or deactivate <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, trigger actions on remote machines or pass data between <strong>Sensors</strong>. The activation of these <a href="/HAL/Overview/Glossary#signal">Signals</a> needs to be triggered at the right time during program execution, something we can do easily with <a href="/HAL/Overview/Glossary#signal-action">Signal Actions</a>.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>In our previous tutorial, we created a digital output <a href="/HAL/Overview/Glossary#signal">Signal</a>, assigned it an appropriate <em>Alias</em> and hooked it up to a <a href="/HAL/Overview/Glossary#controller">Controller</a>. We now want to change the state of that <a href="/HAL/Overview/Glossary#signal">Signal</a> during the execution of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. To do so we’re going to get the <strong>Change Signal State</strong> component from the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel. Just like the <strong>Create Signal</strong> component we can change between digital and analogue with component templates and swap between input or output by changing overloads. We can assign our previously created <a href="/HAL/Overview/Glossary#signal">Signal</a> to the component’s <em>Signal</em> input and choose what effect we want to have on the <a href="/HAL/Overview/Glossary#signal">Signal</a> by right-clicking on the <em>Effect</em> input. In this scenario we’re going to <code class="language-plaintext highlighter-rouge">Set</code> the state. As we’re setting the state, we need to pass in a <em>State</em> which, for a digital signal, is a Boolean value where <code class="language-plaintext highlighter-rouge">true</code> is equivalent to High and <code class="language-plaintext highlighter-rouge">false</code> is equivalent to Low. The output of this component is an <a href="/HAL/Overview/Glossary#action">Action</a> which can be merged into any other sequence of <a href="/HAL/Overview/Glossary#action">Actions</a> you may have. Once that’s merged, we can see in the <strong>Procedure Browser</strong> that we have some <a href="/HAL/Overview/Glossary#motion-action">Motion</a>, our <code class="language-plaintext highlighter-rouge">Set DO_01 to high</code> <a href="/HAL/Overview/Glossary#action">Action</a> and then some more <a href="/HAL/Overview/Glossary#motion-action">Motion</a> to finish off the <a href="/HAL/Overview/Glossary#procedure">Procedure</a>.</p>
+
+<hr />
+
+<p><a href="/HAL/Grasshopper/5-Advanced-Programming#5-advanced-programming">Continue to: 5. Advanced Programming</a></p>

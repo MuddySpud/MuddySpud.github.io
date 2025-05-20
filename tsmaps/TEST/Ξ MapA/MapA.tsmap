@@ -12,14 +12,14 @@
             {
                 "key": "fjJI1o01Z7",
                 "order": 1,
-                "option": "MapA-step-1.1",
+                "option": "MapA 1.1",
                 "isLeaf": true,
                 "iKey": "fjJ9H201oF"
             },
             {
                 "key": "fjJcH700sr",
                 "order": 2,
-                "option": "MapA-step-1.2",
+                "option": "MapA 1.2",
                 "isLeaf": true
             }
         ]
@@ -36,39 +36,11 @@
         {
             "key": "δ-fjJI1o01Z7",
             "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
-        },
-        {
-            "key": "δ-fjJI1o01Z7",
-            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "flzX9T01AL",
-        "editorID": "car_8093a2d13b1c4696944ac11660d4cfcb",
-        "ticks": 1745016199351
+        "id": "hzN95e00ZJ",
+        "editorID": "car_6b001a4b71524207b0a0a9079e06aa54",
+        "ticks": 1747046184762
     }
 }

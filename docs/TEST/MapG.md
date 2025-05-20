@@ -1,0 +1,12 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/TEST/%CE%9E%20MapG
+fragsFolderPath: TEST/MapG_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"ikj3xF28h","path":"TEST","fragmentFolderPath":"TEST/MapG_frags"},"fragment":{"id":"ikj3xF28h","topLevelMapKey":"ikfrWA01R7","mapKeyChain":"ikfrWA01R7","guideID":"ikj3xF0nw","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/MapG.tsmap","parentFragmentID":null,"chartKey":"ikfrWA01R7","isLeaf":false,"options":[{"id":"ikj3xR0tE","option":"MapG 1.1\n","isAncillary":false,"order":1},{"id":"ikj3y6045","option":"MapG 1.2\n","isAncillary":false,"order":2}]}} -->
+
+MapG 1

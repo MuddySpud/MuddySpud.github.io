@@ -1,0 +1,190 @@
+:root {
+  --border-radius: 0.25rem;
+  --button-color: rgba(255, 255, 255, 0.3);
+  --button-hover-color: rgba(255, 255, 255, 0.5);
+  --border-color: rgba(255, 255, 255, 0.25);
+}
+
+#treeSolveFragments .nt-fr-fragment-options {
+  margin: 0;
+  padding: 45px 0;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-option {
+  border: 0.571429px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+  color: var(--button-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  min-width: 400px;
+  margin: 0 0 20px 0;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-option:hover {
+  color: #fff;
+  color: var(--button-hover-color);
+  border-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+#treeSolveFragments .nt-fr-fragment-options.nt-fr-collapsed {
+  margin: 25px 0 10px 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+#treeSolveFragments .nt-fr-fragment-options.nt-fr-collapsed:hover {
+  border-color: var(--button-hover-color);
+}
+#treeSolveFragments .nt-fr-fragment-options.nt-fr-collapsed:hover .nt-fr-option-selected {
+  color: #fff;
+}
+#treeSolveFragments .nt-fr-fragment-options.nt-fr-collapsed .nt-fr-option-selected {
+  border-radius: 0;
+  border-width: 0.571429px;
+  border-color: var(--border-color);
+  border-style: solid none none none;
+  box-sizing: border-box;
+  color: var(--button-color);
+  margin: 0;
+  padding: 8px 0;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-options-box {
+  border-radius: 0;
+  border-top: 0.571429px solid var(--border-color);
+  padding: 8px 20px 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  position: absolute;
+  background-color: rgb(30, 30, 30);
+  opacity: 0;
+  height: 0px;
+  width: 0px;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-options-box .nt-fr-option {
+  display: block;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-options-box:hover {
+  opacity: 1;
+  height: unset;
+  width: unset;
+}
+#treeSolveFragments .nt-fr-fragment-options .nt-fr-options-box .nt-fr-option-selected {
+  box-sizing: border-box;
+  color: var(--button-color);
+  margin: 0;
+}
+#treeSolveFragments .nt-fr-option a {
+  text-decoration: none;
+}
+
+#treeSolveGuide .grey,
+#treeSolveFragments .grey {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hal main {
+  padding: 0;
+}
+.hal #treeSolveGuide,
+.hal #treeSolveFragments {
+  color: rgba(255, 255, 255, 0.8);
+}
+.hal #treeSolveGuide ul,
+.hal #treeSolveGuide ol,
+.hal #treeSolveFragments ul,
+.hal #treeSolveFragments ol {
+  padding-left: 50px;
+}
+.hal #treeSolveGuide .grey,
+.hal #treeSolveFragments .grey {
+  color: rgba(255, 255, 255, 0.5);
+}
+.hal #treeSolveGuide .big-image,
+.hal #treeSolveFragments .big-image {
+  margin: 70px 0;
+  display: block;
+}
+.hal #treeSolveGuide table,
+.hal #treeSolveFragments table {
+  margin: 70px 0;
+}
+.hal #treeSolveGuide .pad-top,
+.hal #treeSolveFragments .pad-top {
+  margin-top: 70px;
+  display: block;
+}
+.hal #treeSolveGuide .pad-bottom,
+.hal #treeSolveFragments .pad-bottom {
+  margin-bottom: 70px;
+  display: block;
+}
+.hal #treeSolveGuide h2,
+.hal #treeSolveFragments h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.hal #treeSolveGuide h3,
+.hal #treeSolveFragments h3 {
+  margin-top: 4rem;
+  font-size: 2.1rem;
+  color: #fff;
+}
+.hal #treeSolveGuide h4,
+.hal #treeSolveFragments h4 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.hal #treeSolveGuide h5,
+.hal #treeSolveFragments h5 {
+  font-size: 1.15rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+.hal #treeSolveGuide h6,
+.hal #treeSolveFragments h6 {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+.hal #treeSolveGuide strong,
+.hal #treeSolveFragments strong {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+.hal #treeSolveGuide .icon-link,
+.hal #treeSolveFragments .icon-link {
+  display: flex;
+}
+.hal #treeSolveGuide .icon-link img,
+.hal #treeSolveFragments .icon-link img {
+  margin: 5px 10px 0 0;
+  align-self: flex-start;
+  border-radius: 0;
+}
+.hal #treeSolveGuide .img-invert,
+.hal #treeSolveGuide .logo,
+.hal #treeSolveFragments .img-invert,
+.hal #treeSolveFragments .logo {
+  filter: invert(100%);
+}
+
+@media (max-width: 800px) {
+  #treeSolveFragments .nt-fr-fragment-options .nt-fr-option {
+    min-width: 350px;
+  }
+}
+
+/*# sourceMappingURL=fragments.css.map */

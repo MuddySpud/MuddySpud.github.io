@@ -1,0 +1,104 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC2K0fa","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/5-Advanced-Programming_frags"},"fragment":{"id":"fdLC2K0fa","topLevelMapKey":"eGVQIT27G","mapKeyChain":"eGVQIT27G","guideID":"fdLC2K2av","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/5-AdvancedProgramming.tsmap","parentFragmentID":null,"chartKey":"eGVQIT27G","options":[]}} -->
+
+<h2 id="5-advanced-programming">5. Advanced Programming</h2>
+
+<p><a href="#51-wait-for-a-time">5.1. Wait for a Time</a><br />
+<a href="#52-wait-for-synchronization">5.2. Wait for Synchronization</a><br />
+<a href="#53-create-a-loop">5.3. Create a Loop [Coming Soon]</a><br />
+<a href="#54-create-a-condition">5.4. Create a Condition [Coming Soon]</a><br />
+<a href="#55-custom-actions">5.5. Custom Actions</a></p>
+
+<hr />
+<h3 id="51-wait-for-a-time">5.1. Wait for a Time</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll create a <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a> that pauses <a href="/HAL/Overview/Glossary#manipulator">Robot</a> execution for a fixed period of time using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/5.1%20-%20Wait%20for%20a%20Time.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Wait for a Time.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p>In certain scenarios it may be necessary to have your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#wait-action">Wait</a> in its current position. This could be because it’s taking a measurement, a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is working or simply because something else is happening in the environment. If the time to <a href="/HAL/Overview/Glossary#wait-action">Wait</a> is a constant, such as the time required for a gripper to open, then a <strong>Wait Time</strong> <a href="/HAL/Overview/Glossary#action">Action</a> is a good solution.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>We can create a <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a> from the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel. The only thing required is the <em>Duration</em>. We can assign a time, say 2 seconds, and remember, if it’s more natural to work in some other unit, the time unit can be changed by right-clicking on the <em>Duration</em> input. The output of this component is an <a href="/HAL/Overview/Glossary#action">Action</a> which can be merged into any other sequence of <a href="/HAL/Overview/Glossary#action">Actions</a> you may have. Once that’s merged, we can see in the <strong>Procedure Browser</strong> that we our <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a> is listed and when we <strong>Simulate</strong> the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> pauses for 2 seconds.</p>
+
+<hr />
+<h3 id="52-wait-for-synchronization">5.2. Wait for Synchronization</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll create a <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a> that pauses <a href="/HAL/Overview/Glossary#manipulator">Robot</a> execution to synchronize multiple machines using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-1">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/5.2%20-%20Wait%20for%20Synchronization.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Wait for Synchronization.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>In certain scenarios it may be necessary to have your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#wait-action">Wait</a> in its current position. This could be because it’s taking a measurement, a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is working or simply because something else is happening in the environment. If the <a href="/HAL/Overview/Glossary#wait-action">Wait</a> duration is conditional on another <a href="/HAL/Overview/Glossary#manipulator">Robot</a> reaching a particular point in its <a href="/HAL/Overview/Glossary#procedure">Procedure</a> then a <strong>Wait Sync</strong> <a href="/HAL/Overview/Glossary#action">Action</a> is a good solution.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>We can create a <a href="/HAL/Overview/Glossary#wait-action">Wait</a> <a href="/HAL/Overview/Glossary#action">Action</a> from the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel and switch to the <strong>Wait Sync</strong> overload. The only thing required here are our <strong>Sync Settings</strong>. We can create <strong>Sync Settings</strong> from the <strong>Motion</strong> panel. It’s important to give our <strong>Sync Settings</strong> an identifiable name. The output of this component is an <a href="/HAL/Overview/Glossary#action">Action</a> which can be merged into any other sequence of <a href="/HAL/Overview/Glossary#action">Actions</a> you may have but given that this is a synchronization <a href="/HAL/Overview/Glossary#action">Action</a> it only really makes sense if it’s used in more than one <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. I have prepared a very simple demo here with two <a href="/HAL/Overview/Glossary#manipulator">Robots</a> performing a single <a href="/HAL/Overview/Glossary#motion-action">Move Action</a> each. I’m going to copy and paste my <a href="/HAL/Overview/Glossary#wait-action">Wait</a> to ensure that the same <strong>Sync Settings</strong> is used for both <a href="/HAL/Overview/Glossary#wait-action">Wait Actions</a> and use <a href="/HAL/Overview/Glossary#wait-action">Wait</a> before <a href="/HAL/Overview/Glossary#motion-action">Move</a> in one case and after in the other. Once that’s merged and <strong>Solved</strong>, we can see that the first <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves, the other waits until both synchronized <a href="/HAL/Overview/Glossary#wait-action">Waits</a> are executed and then the second <a href="/HAL/Overview/Glossary#manipulator">Robot</a> follows. This is a simple way to organize multiple <a href="/HAL/Overview/Glossary#manipulator">Robots</a> without synchronizing their <a href="/HAL/Overview/Glossary#motion-action">Motion</a>.</p>
+
+<hr />
+<h3 id="53-create-a-loop">5.3. Create a Loop</h3>
+<h4 id="coming-soon">Coming Soon</h4>
+
+<hr />
+<h3 id="54-create-a-condition">5.4. Create a Condition</h3>
+<h4 id="coming-soon-1">Coming Soon</h4>
+
+<hr />
+<h3 id="55-custom-actions">5.5. Custom Actions</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll use a <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a> to trigger an existing <a href="/HAL/Overview/Glossary#manipulator">Robot</a> function using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-2">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/5.5%20-%20Custom%20Action.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Custom Action.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p>When working with a fully integrated <a href="/HAL/Overview/Glossary#cell">Cell</a> or using a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> with pre-built functionality which isn’t natively supported by the HAL Robotics Framework, you may want add code to your export which calls an existing function in the <a href="/HAL/Overview/Glossary#controller">Controller</a>. We do this using <a href="/HAL/Overview/Glossary#custom-action">Custom Actions</a>. Common for <a href="/HAL/Overview/Glossary#custom-action">Custom Actions</a> are opening or closing a gripper, running tool change procedures, starting logging, activating collision boxes, popping up messages to the operator etc.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>We can create a <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a> from the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel. The only thing required here is our <em>Code</em>. This should just be the textual representation of the code that you want to export. For example if you wanted to create a pop-up message on an ABB robot you could write <em>TPWrite “Hello Robot”;</em> and that exact line of code will be exported within your program.</p>
+
+<p>Other than the <em>Alias</em>, which we recommend always setting, the other input is <em>Simulation</em>. This takes in a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> which will change how this <a href="/HAL/Overview/Glossary#action">Action</a> is simulated but won’t affect how it’s <a href="/HAL/Overview/Glossary#export">Exported</a>. If you know it’s going to take a second for your gripper to close, for example, you could put a <a href="/HAL/Overview/Glossary#wait-action">Wait</a> <a href="/HAL/Overview/Glossary#action">Action</a> in your <em>Simulation</em> and the program will pause when simulated but the code won’t contain any <a href="/HAL/Overview/Glossary#wait-action">Wait</a> instructions.</p>
+
+<hr />
+
+<p><a href="/HAL/Grasshopper/6-Control#6-control">Continue to: 6. Control</a></p>

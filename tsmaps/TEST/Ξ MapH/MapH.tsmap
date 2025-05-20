@@ -1,0 +1,51 @@
+{
+    "key": "ikQcTU01II  ",
+    "token": "Maph",
+    "name": "MapH",
+    "created": "2025-05-20T11:45:00.492Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapH/MapH.tsmap",
+    "iText": "Link to 'MapH'",
+    "___rΩΩt___": {
+        "key": "ikQero006V",
+        "nodes": [
+            {
+                "key": "ikQgcx01l0",
+                "order": 1,
+                "option": "MapH 1.1",
+                "iKey": "fugVwq00wh",
+                "nodes": [
+                    {
+                        "key": "ikQoZQ003K",
+                        "order": 1,
+                        "option": "Exit1 MapE 1.1",
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-ikQero006V",
+            "relativePath": "./δ steps/δ-ikQero006V.tsstp"
+        },
+        {
+            "key": "δ-ikQgcx01l0",
+            "relativePath": "./δ steps/δ-ikQgcx01l0.tsstp"
+        },
+        {
+            "key": "δ-ikQoZQ003K",
+            "relativePath": "./δ steps/δ-ikQoZQ003K.tsstp"
+        },
+        {
+            "key": "δ-ikQoZQ003K",
+            "relativePath": "./δ steps/δ-ikQoZQ003K.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "ikR1Wj01X5",
+        "editorID": "car_87490e73650842498cc98653bfb25ca1",
+        "ticks": 1747741596793
+    }
+}

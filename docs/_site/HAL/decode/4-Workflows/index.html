@@ -1,0 +1,132 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBn12Cn","path":"HAL/decode","fragmentFolderPath":"HAL/decode/4-Workflows_frags"},"fragment":{"id":"fdLBn12Cn","topLevelMapKey":"cQbYbd02OI","mapKeyChain":"cQbYbd02OI","guideID":"fdLBn1184","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/4-Workflows.tsmap","parentFragmentID":null,"chartKey":"cQbYbd02OI","options":[]}} -->
+
+<h2 id="4-operator-workflows">4. Operator Workflows</h2>
+
+<p><a href="#41-create-a-workflow">4.1. Create a Workflow</a><br />
+<a href="#42-steps">4.2. Steps</a> <br />
+<a href="#43-run-a-workflow">4.3. Run a Workflow</a></p>
+
+<hr />
+<h3 id="41-create-a-workflow">4.1. Create a Workflow</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll create an <strong>Operator Workflow</strong> in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p><strong>Operator Workflows</strong> are a set of collaborative work instructions for the operator of a <a href="/HAL/Overview/Glossary#cell">Cell</a>, <a href="/HAL/Overview/Glossary#motion-action">Robots</a> and any other peripheral devices, like sensors, that need to be controlled or feed into the process.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>From the <strong>Workflow Editor</strong> screen, click on the three bar menu icon (<strong>☰</strong>) in the top right-hand corner and <strong>Add a New Workflow</strong>. You can use the same menu to rename the <strong>Workflow</strong>, add other <strong>Workflows</strong> or delete the currently selected <strong>Workflow</strong>.</p>
+
+<p><a href="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-Create.gif" class="pad-top"><img src="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-Create.gif" /></a>
+<em class="pad-bottom">An empty Workflow isn’t very useful but offers a lot of potential.</em></p>
+
+<hr />
+<h3 id="42-steps">4.2. Steps</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll look at the different <strong>Steps</strong> that can be added to an <strong>Operator Workflow</strong> in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+  <li>An <a href="#41-create-a-workflow">Operator Workflow</a></li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>An <strong>Operator Workflow</strong> is comprised of a sequence of multiple <strong>Steps</strong> which create the collaborative work instructions for the <a href="/HAL/Overview/Glossary#cell">Cell</a> and operator. Some <strong>Steps</strong> are informational, others request information from the operator, run computational tasks, or communicate with devices.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p><a href="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-Complete.png" class="pad-top"><img src="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-Complete.png" /></a>
+<em class="pad-bottom">Workflows acts a collaborative work instructions for operators and connected devices.</em></p>
+
+<p>Use the <em>Item Type</em> selector to choose the <strong>Step</strong> type you want to add and click the <strong>+</strong> button to add it. As usual, it is highly recommended to assign a useful <em>Name</em> to any <strong>Step</strong>. The standard <strong>Steps</strong> and their settings are listed below.</p>
+
+<h5 id="operator-interactions">Operator Interactions</h5>
+<ul>
+  <li><strong>Operator Notification</strong> shows a message to the operator which requires no interaction from them. The only setting is the <em>Message</em> they are to be shown. e.g. <em>The robot has finished its process.</em></li>
+  <li><strong>Operator Confirmation</strong> shows a message to the operator with a button to confirm before the <strong>Workflow</strong> proceeds. The settings are a <em>Message</em> to the operator and the <em>Confirm Button Content</em> which is the text on the button they will see. e.g. <em>Load the part into the fixturing and click “Done” once complete.</em> - <em>Done</em></li>
+  <li><strong>Operator Input</strong> builds on <strong>Operator Confirmation</strong> and also asks the operator to set the value of a <a href="/HAL/decode/1-Getting-Started#14-variables">Variable</a>. A selector is shown from which the <a href="/HAL/decode/1-Getting-Started#14-variables">Variable</a> can be chosen, and if <em>Validate on Change</em> is active, then <em>decode</em> will re-<strong>solve</strong> the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> every time the value is changed by the operator. e.g. <em>How fast should the robot go?</em> - <em>MySpeed Variable</em> - <em>OK</em></li>
+  <li><strong>Operator Choice</strong> allows the operator to choose from one or more <strong>Options</strong>, each of which can branch the <strong>Workflow</strong>. The new settings here are <em>Minimum</em> and <em>Maximum</em> which specify the minimum and maximum number of <strong>Options</strong> the operator can select before proceeding. Setting either to <code class="language-plaintext highlighter-rouge">0</code> will allow any number of <strong>Options</strong> to be a valid selection. Once your <strong>Operator Choice</strong> has been created, two <strong>Options</strong> will automatically be generated within it, more can be added by selecting the <strong>Operator Choice</strong> and clicking the <strong>+</strong> with <strong>Option</strong> in the <em>Item Type</em> selector.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-OperatorInput.png" class="pad-top"><img src="/HAL/assets/images/decode/04-WorkflowEditor/WorkflowEditor-OperatorInput.png" /></a>
+<em class="pad-bottom">Workflow Steps can ask the operator for input about how the process should work.</em></p>
+
+<p><a href="/HAL/assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-OperatorInput.png" class="pad-top"><img src="/HAL/assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-OperatorInput.png" /></a>
+<em class="pad-bottom">An editor will be shown to the operator when asking for their input.</em></p>
+
+<h5 id="non-interactive">Non-Interactive</h5>
+<ul>
+  <li><strong>Set Variable</strong> works like an <strong>Operator Input</strong> but does not prompt the operator. These are envisaged to be most useful within <strong>Options</strong> but are not limited to that case. If <strong>Visible To Operator</strong> is activate, the operator will be notified that the value of the <a href="/HAL/decode/1-Getting-Started#14-variables">Variable</a> has been changed, and told what the new value is. The <em>Value</em> to be set can be changed via the <em>Value</em> <strong>edit</strong> button.</li>
+  <li><strong>Validate</strong> will <strong>solve</strong> the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> and has two different <strong>Options</strong> which allow specifying different <strong>Workflow</strong> branches depending on whether the <strong>solve</strong> succeeds or fails. The minimum alert level which counts as a failure can be set in <em>Failure Level</em>.</li>
+</ul>
+
+<h5 id="structural">Structural</h5>
+<ul>
+  <li><strong>Group</strong> allows the logical structuring of <strong>Workflows</strong> but has no inherent behaviour, exactly like <strong>Programming</strong> <strong>Groups</strong>.</li>
+  <li><strong>Option</strong> can only be added to an <strong>Operator Choice</strong> and defines a sub-<strong>Workflow</strong> which can have its own set of <strong>Steps</strong> which will be executed when the operator chooses that <strong>Option</strong>. Each <strong>Option</strong> can be renamed and have a <strong>Description</strong> added to help the operator.</li>
+  <li><strong>On Success</strong> and <strong>On Failure</strong> are essentially <strong>Options</strong> that are hardcoded into the <strong>Validate</strong> <strong>Step</strong>.</li>
+  <li><strong>Go To</strong> allows the <strong>Workflow</strong> to return to a previous point. These should only be used in <strong>Options</strong> to avoid unescapable loops.</li>
+</ul>
+
+<h5 id="ouputs">Ouputs</h5>
+<p><em>N.B. For any of these to run the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> must be validated by <strong>Validate</strong> or _Validate on Change</em> in <strong>Operator Input</strong>.</p>
+<ul>
+  <li><strong>Export Code</strong> allows you to <a href="/HAL/Overview/Glossary#export">Export</a> code to a folder. The Controller, <em>Destination</em> and <em>Mode</em> can be set. <code class="language-plaintext highlighter-rouge">Inline</code> <strong>Mode</strong> will create a dense code file with as little declarative code as possible. <code class="language-plaintext highlighter-rouge">Predeclaration</code> mode will do just the opposite, it will create variables wherever possible to make it easier to change things by hand should you want to. For most scenarios we recommend <code class="language-plaintext highlighter-rouge">Inline</code> as it produces shorter code and is faster. You can also set what happens once the code is <a href="/HAL/Overview/Glossary#export">Exported</a> in <em>On Export</em>.</li>
+  <li><strong>Upload Code</strong> allows you to <a href="/HAL/Overview/Glossary#upload">Upload</a> code directly to a Controller. The same settings as <strong>Export Code</strong> apply but the <strong>Destination</strong> is on the Controller. <em>Run Automatically</em> will, if possible, start executing the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>’s <a href="/HAL/Overview/Glossary#procedure">Procedure</a> once the <a href="/HAL/Overview/Glossary#upload">Upload</a> completes.</li>
+  <li><strong>Set Procedure Execution</strong> works just like <em>Run Automatically</em> in <strong>Upload Code</strong> in <em>Production Mode</em> when set to but will run a <a href="/HAL/Overview/Glossary#73-simulation">simulation</a> in the 3D viewport in <em>Simulation Mode</em>. It will not, however, <a href="/HAL/Overview/Glossary#upload">Upload</a> any code.</li>
+</ul>
+
+<hr />
+<h3 id="43-run-a-workflow">4.3. Run a Workflow</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll see how to run an <strong>Operator Workflow</strong> in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+  <li>An <a href="#41-create-a-workflow">Operator Workflow</a></li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p><strong>Operator Workflows</strong> are a set of collaborative work instructions for the operator of a Cell, <a href="/HAL/Overview/Glossary#motion-action">Robots</a> and any other peripheral devices, like sensors, that need to be controlled or feed into the process. The <strong>Operator Workflow Executor</strong> is the only screen that an operator should need to interact with.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>The <strong>Operator Workflow Executor</strong> screen has a few buttons at the top and nothing else, yet. The <em>simulation/production</em> mode toggle changes between running the virtual <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or the real one. The <strong>Workflow</strong> selector allows the operator to choose which <strong>Workflow</strong> they want to run. The <strong>X</strong> resets the execution of a <strong>Workflow</strong> if for any reason the operator needs to start again or abort the current run. The <strong>play</strong>/<strong>pause</strong> button plays or pauses the execution and the circular arrows activates or deactivates the looping of the <strong>Workflow</strong>.</p>
+
+<p>Once the <strong>Workflow</strong> is started <strong>Notifications</strong>, <strong>Confirmations</strong>, <strong>Inputs</strong> etc. will start appearing for the operator, as programmed in the <strong>Workflow</strong>.</p>
+
+<p><a href="/HAL/assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-Simulation-FastExecution.gif" class="pad-top"><img src="/HAL/assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-Simulation-FastExecution.gif" /></a>
+<em class="pad-bottom">The operator will continue to get instructions and be able to adjust the process until their Workflow is complete.</em></p>
+
+<hr />
+
+<p><a href="/HAL/decode/5-Advanced-Programming#5-advanced-programming">Continue to: 5. Advanced Programming</a></p>

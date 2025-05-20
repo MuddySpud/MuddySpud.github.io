@@ -1,0 +1,71 @@
+{
+    "key": "iUQlhk028g  ",
+    "token": "Mapf",
+    "name": "MapF",
+    "created": "2025-05-17T18:05:14.596Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapF/MapF.tsmap",
+    "iText": "Link to 'MapF'",
+    "___rΩΩt___": {
+        "key": "iUQpyq01jj",
+        "nodes": [
+            {
+                "key": "iUQs3k02Et",
+                "order": 1,
+                "option": "MapF 1.1",
+                "iKey": "fugVwq00wh",
+                "nodes": [
+                    {
+                        "key": "iURBpY02Ka",
+                        "order": 1,
+                        "option": "Exit1 MapE 1.1",
+                        "isLeaf": true,
+                        "iExitKey": "fuhBa202EB"
+                    }
+                ]
+            },
+            {
+                "key": "iUR2un00UY",
+                "order": 2,
+                "option": "MapF 1.2",
+                "iKey": "fugVwq00wh",
+                "nodes": [
+                    {
+                        "key": "iUhpUm00Sc",
+                        "order": 1,
+                        "option": "Exit1 MapE 1.1",
+                        "isLeaf": true,
+                        "iExitKey": "fuhBa202EB"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-iUQpyq01jj",
+            "relativePath": "./δ steps/δ-iUQpyq01jj.tsstp"
+        },
+        {
+            "key": "δ-iUQs3k02Et",
+            "relativePath": "./δ steps/δ-iUQs3k02Et.tsstp"
+        },
+        {
+            "key": "δ-iURBpY02Ka",
+            "relativePath": "./δ steps/δ-iURBpY02Ka.tsstp"
+        },
+        {
+            "key": "δ-iUR2un00UY",
+            "relativePath": "./δ steps/δ-iUR2un00UY.tsstp"
+        },
+        {
+            "key": "δ-iUhpUm00Sc",
+            "relativePath": "./δ steps/δ-iUhpUm00Sc.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "iUjI410217",
+        "editorID": "car_05389341126b4d8387294e8a76ba3fd5",
+        "ticks": 1747509528889
+    }
+}

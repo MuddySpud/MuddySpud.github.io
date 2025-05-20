@@ -13,13 +13,13 @@
             {
                 "key": "fktrA001KS",
                 "order": 1,
-                "option": "MapC-step-1.1",
+                "option": "MapC 1.1",
                 "iKey": "fugVwq00wh",
                 "nodes": [
                     {
-                        "key": "fwrPGl02Yq",
+                        "key": "i8GGZn00Tj",
                         "order": 1,
-                        "option": "Exit1-MapE-step-1.1",
+                        "option": "Exit1 MapE 1.1",
                         "isLeaf": true,
                         "iExitKey": "fuhBa202EB"
                     }
@@ -28,7 +28,7 @@
             {
                 "key": "fkuBWf02T8",
                 "order": 2,
-                "option": "MapC-step-1.2",
+                "option": "MapC 1.2",
                 "isLeaf": true
             }
         ]
@@ -47,13 +47,13 @@
             "relativePath": "./δ steps/δ-fktrA001KS.tsstp"
         },
         {
-            "key": "δ-fwrPGl02Yq",
-            "relativePath": "./δ steps/δ-fwrPGl02Yq.tsstp"
+            "key": "δ-i8GGZn00Tj",
+            "relativePath": "./δ steps/δ-i8GGZn00Tj.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "g0JOQo02RF",
-        "editorID": "car_cd6bdde27f1e4205993feeb54d42053e",
-        "ticks": 1745227801094
+        "id": "i8H60W00tQ",
+        "editorID": "car_943e5b7ab28f48348c9f3d67fd8079cd",
+        "ticks": 1747177729968
     }
 }

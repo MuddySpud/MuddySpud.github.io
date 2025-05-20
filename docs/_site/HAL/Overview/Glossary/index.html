@@ -1,0 +1,246 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCPi208","path":"HAL/Overview","fragmentFolderPath":"HAL/Overview/Glossary_frags"},"fragment":{"id":"fdLCPi208","topLevelMapKey":"eGXo5y2EQ","mapKeyChain":"eGXo5y2EQ","guideID":"fdLCPi0jg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Overview/Glossary.tsmap","parentFragmentID":null,"chartKey":"eGXo5y2EQ","options":[]}} -->
+
+<h2 id="7-glossary">7. Glossary</h2>
+
+<p><a href="#71-cell-setup">7.1. Cell Setup</a><br />
+<a href="#72-programming">7.2. Programming</a><br />
+<a href="#73-simulation">7.3. Simulation</a><br />
+<a href="#74-control">7.4. Control</a></p>
+
+<hr />
+<h3 id="71-cell-setup">7.1. Cell Setup</h3>
+<p><em>a.k.a digital model</em></p>
+
+<p>the process of virtualizing, or digitally recreating, the work environment including all relevant physical, mechanical and communication systems.</p>
+
+<h4 id="cell">cell</h4>
+<p><em>a.k.a station, layout, session, scene</em></p>
+
+<p>a set of simulated objects. A cell is typically built around controlled <a href="#mechanism">mechanisms</a> and their associated <a href="#controller">controller</a>. <a href="#reference">References</a> are used to organize the relative positioning of the objects in a cell.</p>
+
+<h4 id="controller">controller</h4>
+<p><em>a.k.a robot computer</em></p>
+
+<p>a (virtual or physical) computer controlling the joints of one or more <a href="#mechanism">mechanisms</a>. A <a href="#controller">controller</a> can share data via electric signals or communication protocols.</p>
+
+<h4 id="mechanism">mechanism</h4>
+<p><em>a.k.a assembly, kinematic system</em></p>
+
+<p>a set of <a href="#part">parts</a> connected together by <a href="#joint">joints</a> or <a href="#connection">connections</a>. A mechanism also has sockets on which <a href="#part">parts</a> can be attached, and one or more end-points, that can be used in kinematic calculations. <a href="#manipulator">Robots</a>, <a href="#positioner">positioners</a> and <a href="#end-effector">tools</a> are all types of mechanism.</p>
+
+<h4 id="manipulator">manipulator</h4>
+<p><em>a.k.a robot</em></p>
+
+<p>specific type of <a href="#mechanism">mechanism</a> which is the primary controlled element of a <a href="#controller">controller</a>. Multiple manipulators can share a single <a href="#cell">cell</a>.</p>
+
+<h4 id="end-effector">end effector</h4>
+<p><em>a.k.a tool</em></p>
+
+<p>specific type of <a href="#mechanism">mechanism</a> which performs a process e.g. welding torch, spindle, gripper or camera. End effectors can either be mounted onto a <a href="#mechanism">mechanism</a> or be installed elsewhere in the <a href="#cell">cell</a>, referred to as stationary tools, with a <a href="#mechanism">mechanism</a> moving a <a href="#part">part</a> towards the end effector.
+The term end effector is preferred over <em>tool</em> as a an end effector can actually be composed of multiple <em>tools</em>, for example a gripper and camera mounted simultaneously to identify objects before picking.</p>
+
+<h4 id="positioner">positioner</h4>
+<p><em>a.k.a external axis</em></p>
+
+<p>specific type of <a href="#mechanism">mechanism</a> which supports the work of a <a href="#manipulator">manipulator</a> by moving its base or <a href="#part">parts</a> around to facilitate access. Tracks and rotary tables are both examples of positioners. Multiple positioners can be installed in a single <a href="#cell">cell</a>.</p>
+
+<h4 id="joint">joint</h4>
+<p><em>a.k.a articulation, axis</em></p>
+
+<p>an articulated link between two <a href="#part">parts</a>. A joint can be <em>active</em> (controlled) or <em>passive</em>.</p>
+
+<h4 id="joint-mapping">joint mapping</h4>
+<p><em>a.k.a joint index</em></p>
+
+<p>the index a <a href="#joint">joint</a> should be assigned during export. This is typically only required with <a href="#positioner">external axes</a> to set the index of a <a href="#joint">joint</a> within a main <a href="#procedure">program</a>.</p>
+
+<h4 id="connection">connection</h4>
+<p><em>a.k.a rigid joint</em></p>
+
+<p>a fixed link between <a href="#part">parts</a>.</p>
+
+<h3 id="endpoint">endpoint</h3>
+<p><em>a.k.a tool center point</em></p>
+
+<p>tip of a <a href="#mechanism">mechanism</a> which should attempt to reach any programmed <a href="#target">targets</a>. A single <a href="#mechanism">mechanism</a> can have multiple endpoints but only one should be active at a time.</p>
+
+<h4 id="part">part</h4>
+<p><em>a.k.a object, body, link</em></p>
+
+<p>a physical body. A part is a reference with a geometry and a mass.</p>
+
+<h4 id="reference">reference</h4>
+<p><em>a.k.a coordinate system, reference frame, basis, work object</em></p>
+
+<p>a coordinate system upon which <a href="#target">targets</a> and other objects can be located. References can be linked to other references and <a href="#part">parts</a> by connections and be made mobile if they are connected to a <a href="#mechanism">mechanism</a>.</p>
+
+<h4 id="signal">signal</h4>
+<p><em>a.k.a i/o, electrical signal</em></p>
+
+<p>signals are used to send electrical data between connected devices. Electrical signals can be either input (receivers) or output (senders), this pairing leads to their common pseudonym i/o (pronounced ‘I-O’). Theses signals can also be either digital, with only high or low values, or analog, with values anywhere between their minimum and maximum voltages.</p>
+
+<hr />
+<h3 id="72-programming">7.2. Programming</h3>
+<p><em>a.k.a telling a machine what to do</em></p>
+
+<p>creation of procedures from CAD data or other sources</p>
+
+<h4 id="procedure">procedure</h4>
+<p><em>a.k.a program, task, process, job, module, routine</em></p>
+
+<p>a set of <a href="#action">actions</a> to be executed by a <a href="#controller">controller</a>.</p>
+
+<h4 id="action">action</h4>
+<p><em>a.k.a command, instruction, function, method, operation, nested procedure</em></p>
+
+<p>an operation executable by a <a href="#controller">controller</a>. As actions can be nested and combined, a <a href="#procedure">procedure</a> is a graph of actions.</p>
+
+<p>Typical actions include: motion (<a href="#motion-action">move</a>), assembly (change tool, pick), signal (<a href="#signal-action">set I/O</a>) and thread actions (<a href="#wait-action">wait</a>).</p>
+
+<h4 id="motion-action">motion action</h4>
+<p><em>a.k.a move</em></p>
+
+<p>instructs one or more <a href="#mechanism">mechanisms</a> to reach a target using specified motion settings.</p>
+
+<h4 id="wait-action">wait action</h4>
+<p><em>a.k.a wait, pause, halt</em></p>
+
+<p>instructs a <a href="#controller">controller</a> to temporarily pause its execution. Execution can be resumed automatically, e.g. after a fixed period of time, upon a signal change or synchronization, or manually via an operator interaction e.g. by pressing a button.</p>
+
+<h4 id="signal-action">signal action</h4>
+<p><em>a.k.a set signal</em></p>
+
+<p>changes the value of a <a href="#signal">signal</a> at runtime. This is typically used to trigger the (de)activation of a <a href="#end-effector">tool</a> or announce a change of state to a connected device.</p>
+
+<h4 id="custom-action">custom action</h4>
+<p><em>a.k.a function</em></p>
+
+<p><a href="#export">exports</a> a piece of code to call a function which already exists in the <a href="#controller">controller</a>.</p>
+
+<h4 id="target">target</h4>
+<p><em>a.k.a waypoint, frame, pose</em></p>
+
+<p>a position to be reached by one or more <a href="#mechanism">mechanisms</a>, expressed in <a href="#joint-space">joint space</a> or <a href="#cartesian-space">Cartesian space</a>.</p>
+
+<h4 id="toolpath">toolpath</h4>
+<p><em>a.k.a motion sequence</em></p>
+
+<p>series of <a href="#target">targets</a> through which the <a href="#endpoint">endpoint</a> of <a href="#mechanism">mechanism</a> will move to perform a process e.g. milling.</p>
+
+<h4 id="joint-space">joint space</h4>
+<p><em>a.k.a space of the manipulator</em></p>
+
+<p>the positions in which a <a href="#mechanism">mechanism</a> can be by moving its <a href="#joint">joints</a>, expressed as a position for each <a href="#joint">joint</a>.</p>
+
+<h4 id="cartesian-space">Cartesian space</h4>
+<p><em>a.k.a operational space, task space, space of the end-effector</em></p>
+
+<p>the positions in which <a href="#end-effector">tool</a> can be, expressed in Cartesian coordinates</p>
+
+<h4 id="blend">blend</h4>
+<p><em>a.k.a approximation, zone, corner path</em></p>
+
+<p>depicts tolerances within which a <a href="#target">target</a> will be considered “reached”. Increasing these tolerances allows a <a href="#mechanism">mechanism</a> to perform continuous motion: it will not stop at each <a href="#target">target</a>.</p>
+
+<hr />
+<h3 id="73-simulation">7.3. Simulation</h3>
+<p><em>a.k.a digital execution</em></p>
+
+<p>virtual execution and validation of one or more programmed <a href="#procedure">procedures</a></p>
+
+<h4 id="solving">solving</h4>
+<p><em>a.k.a validation</em></p>
+
+<p>computing how a <a href="#procedure">procedure</a> will run when executed and logging any potential issues such as <a href="#workspace">out of reach</a> <a href="#target">targets</a> or <a href="#(kinematic)-singularity">singularities</a>.</p>
+
+<h4 id="workspace">workspace</h4>
+<p><em>a.k.a accessible space</em></p>
+
+<p>the set of points that can be reached by a <a href="#mechanism">mechanism’s</a> <a href="#end-effector">end effector</a>. <a href="#target">Targets</a> outside a <a href="#mechanism">mechanism’s</a> workspace are <em>out of reach</em>.</p>
+
+<h4 id="kinematic-singularity">(kinematic) singularity</h4>
+<p><em>a.k.a degeneracy</em></p>
+
+<p>a location in a <a href="#mechanism">mechanism</a> <a href="#workspace">workspace</a> where a change of <a href="#joint">joint</a> position does not result in a change of <a href="#end-effector">end effector</a> position. This happens when two or more <a href="#joint">joints</a> line up, meaning the movement of one is canceled out by the other’s.</p>
+
+<hr />
+<h3 id="74-control">7.4. Control</h3>
+<p><em>a.k.a real-world connection</em></p>
+
+<p>any interaction that allows digital information to be passed to real-world <a href="#controller">controllers</a>, sensors or <a href="#mechanism">mechanisms</a>.</p>
+
+<h4 id="export">export</h4>
+<p><em>a.k.a code generation, post-processing</em></p>
+
+<p>process by which <a href="#procedure">procedures</a> are converted into the relevant programming language for a target <a href="#controller">controller</a>, e.g. ABB RAPID, KUKA KRL or Universal Robots URScript.</p>
+
+<h4 id="upload">upload</h4>
+<p><em>a.k.a transfer</em></p>
+
+<p>moving of files from one device to another. Typically exported <a href="#procedure">procedures</a> can be uploaded to a real <a href="#controller">controller</a> and, if supported, executed.</p>
+
+<h4 id="capabilities">capabilities</h4>
+
+<p>these are how we organize what a <a href="#controller">controller</a> can do and draw parallels between different manufacturers’ <a href="#controller">controllers</a>. <em>Capabilities</em> are things like the ability to <a href="#upload">upload</a> code to the <a href="#controller">controller</a> from a PC or the ability to read the values of <a href="#signal">signals</a> remotely. The standard <em>capabilities</em> are listed below. Extensions may add others but equally, not all will be available for every <a href="#controller">controller</a>, and above all, not all will be of use in every situation.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>File Manager</td>
+      <td>Edits the files and directories of a remote <a href="#controller">controller</a> including copying files to and from it.</td>
+    </tr>
+    <tr>
+      <td>Upload</td>
+      <td>Loads any <a href="#procedure">procedures</a> associated with the <a href="#controller">controller</a> into the memory of a remote <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Execution</td>
+      <td>Executes any <a href="#procedure">procedures</a> associated with the <a href="#controller">controller</a> on a remote <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Execution Monitoring</td>
+      <td>Monitors the execution status of a remote <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Monitor</td>
+      <td>Monitors the <a href="#controller">controller</a> state.</td>
+    </tr>
+    <tr>
+      <td>Stream</td>
+      <td>Enables state streaming to the <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Logger</td>
+      <td>Records events of a <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Language</td>
+      <td><a href="#export">Exports</a> any <a href="#procedure">procedures</a> associated with the <a href="#controller">controller</a> into native robot code.</td>
+    </tr>
+    <tr>
+      <td>Read Signals</td>
+      <td>Reads the state of <a href="#signal">signals</a> on a remote <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Write Signals</td>
+      <td>Writes the state of <a href="#signal">signals</a> on a remote <a href="#controller">controller</a>.</td>
+    </tr>
+    <tr>
+      <td>Backup</td>
+      <td>Backs up the contents of a remote <a href="#controller">controller</a>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="subsystems">subsystems</h4>
+<p><em>a.k.a. options</em></p>
+
+<p>these are similar to the options you have in your <a href="#controller">controller</a>. They are the actual software modules that implement different <a href="#capabilities">capabilities</a>. Details of different <em>subsytems</em> can be found in the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a>.</p>
+
+<hr />

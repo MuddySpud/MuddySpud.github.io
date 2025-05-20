@@ -1,0 +1,88 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC9m2Xl","path":"HAL/decode","fragmentFolderPath":"HAL/decode/5-Advanced-Programming_frags"},"fragment":{"id":"fdLC9m2Xl","topLevelMapKey":"eGVQJR26Y","mapKeyChain":"eGVQJR26Y","guideID":"fdLC9m0IW","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/5-AdvancedProgramming-decode.tsmap","parentFragmentID":null,"chartKey":"eGVQJR26Y","options":[]}} -->
+
+<h2 id="5-advanced-programming">5. Advanced Programming</h2>
+
+<p><a href="#51-external-variables">5.1. External Variables</a><br />
+<a href="#52-procedures-from-variables">5.2. Procedures from Variables</a><br />
+<a href="#53-geometry-from-variables">5.3. Geometry from Variables</a><br />
+<a href="#54-resuing-controller-data">5.4. Reusing Controller Data</a></p>
+
+<hr />
+<h3 id="51-external-variables">5.1. External Variables</h3>
+<h4 id="coming-soon">Coming Soon</h4>
+
+<hr />
+<h3 id="52-procedures-from-variables">5.2. Procedures from Variables</h3>
+<h4 id="coming-soon-1">Coming Soon</h4>
+
+<hr />
+<h3 id="53-geometry-from-variables">5.3. Geometry from Variables</h3>
+<h4 id="coming-soon-2">Coming Soon</h4>
+
+<hr />
+<h3 id="54-reuse-controller-data">5.4. Reuse Controller Data</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll explore some advanced syntax which allows you to reference data and variables which are already declared on your <a href="/HAL/Overview/Glossary#controller">Controller</a> or rename variables you <a href="/HAL/Overview/Glossary#export">Export</a> using the HAL Robotics Framework.</p>
+
+<h4 id="background">Background:</h4>
+
+<p>When your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and, more importantly, its <a href="/HAL/Overview/Glossary#controller">Controller</a> were installed, it’s possible that certain <a href="/HAL/Overview/Glossary#end-effector">Tools</a> were calibrated and stored in the <a href="/HAL/Overview/Glossary#controller">Controller’s</a> system variables or that it would be helpful to name <a href="/HAL/Overview/Glossary#signal">Signals</a> so they’re immediately identifiable (e.g. <em>ToolOn</em>) but that they’re named differently in your <a href="/HAL/Overview/Glossary#controller">Controller</a> or even that your <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> language doesn’t allow you to name <a href="/HAL/Overview/Glossary#signal">Signals</a> at all. We have therefore given you the option of overriding the way elements are <a href="/HAL/Overview/Glossary#export">Exported</a>. These are generally useful for <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, <a href="/HAL/Overview/Glossary#reference">References</a> and <a href="/HAL/Overview/Glossary#signal">Signals</a> but can be used for <a href="/HAL/Overview/Glossary#target">Targets</a>, <a href="/HAL/Overview/Glossary#motion-action">Motion Settings</a> or any other declarable type.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>These overrides are all done through the naming of objects, by using special syntax in their <em>Aliases</em>, activated or deactivated using the <strong>Translation Overrides</strong> <em>Step</em>. There are 3 scenarios we permit:</p>
+<ol>
+  <li>Forcing the declaration of the element, even in <code class="language-plaintext highlighter-rouge">Inline</code> mode, e.g. so you can make manual changes to the code later.</li>
+  <li>Skipping the declaration of the element, e.g. because it’s already in the <a href="/HAL/Overview/Glossary#controller">Controller’s</a> system variables and you want to use that data directly.</li>
+  <li>Renaming the element, e.g. the <a href="/HAL/Overview/Glossary#signal">Signal</a> which you have called <em>ToolOn</em> for legibility is actually called <em>DO-04</em> or is index <em>3</em> on the real <a href="/HAL/Overview/Glossary#controller">Controller</a>.</li>
+  <li>[Bonus] A combination of the above.</li>
+</ol>
+
+<p>Overriding can be activated in the <strong>Translation Overrides</strong> <em>Step</em> of compatible items by toggling <strong>Override</strong> on. You will then see a few options appear. <strong>Mode</strong> can be set between <strong>Alias</strong> and <strong>Index</strong>. The former will allow you to specify a new name for the item when it’s exported. If the <strong>Alias Override</strong> is left blank, we will reuse the <em>Name</em> specified in the object itself. In <strong>Index</strong> mode, we will try to <a href="/HAL/Overview/Glossary#export">Export</a> the <strong>Index</strong> within an array in the native language e.g. <code class="language-plaintext highlighter-rouge">Tool[3]</code>. If <strong>Skip Declaration</strong> is activated, then we will <em>not</em> <a href="/HAL/Overview/Glossary#export">Export</a> any values for the item and assume that it is defined in your <a href="/HAL/Overview/Glossary#controller">Controller’s</a> system variables.</p>
+
+<p><a href="/HAL/assets/images/decode/02-Network/Signals-AliasOverride.png" class="pad-top"><img src="/HAL/assets/images/decode/02-Network/Signals-AliasOverride.png" /></a>
+<em class="pad-bottom">Translation overrides give you extra control over how items are exported to your robot code.</em></p>
+
+<p>The syntax you will see is as follows:</p>
+<ol>
+  <li>Declare an override - Appends <code class="language-plaintext highlighter-rouge">@</code> to the <em>Alias</em></li>
+  <li>Skip declaration - Appends <code class="language-plaintext highlighter-rouge">!</code> to the <em>Alias</em></li>
+  <li>Renaming - Appends the new name to the <em>Alias</em></li>
+</ol>
+
+<p>Examples:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool</code></td>
+      <td>Regular tool declaration.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@</code></td>
+      <td>Forces the declaration of the tool.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@toolData32</code></td>
+      <td>Forces the declaration of the tool, as a tool variable called toolData32.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@!</code></td>
+      <td>No declaration – considers that a “MyTool” tool declaration already exists in the controller.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@!toolData32</code></td>
+      <td>No declaration – use the toolData32 tool variable from the controller.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />

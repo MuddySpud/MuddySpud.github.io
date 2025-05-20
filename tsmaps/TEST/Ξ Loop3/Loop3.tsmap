@@ -4,7 +4,7 @@
     "name": "Loop3",
     "created": "2025-04-21T18:03:17.622Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ Loop3/Loop3.tsmap",
+    "cachedPath": "c:/GitHub/HAL.Documentation/tsmapsTest/TEST/Ξ Loop3/Loop3.tsmap",
     "iText": "Link to 'Loop3'",
     "___rΩΩt___": {
         "key": "g2Oe6X01w0",
@@ -13,8 +13,7 @@
                 "key": "g2OoQu02RL",
                 "order": 1,
                 "option": "Loop3-step-1.1",
-                "isLeaf": true,
-                "iKey": "g2OTe002K3"
+                "isLeaf": true
             }
         ]
     },
@@ -26,11 +25,15 @@
         {
             "key": "δ-g2OoQu02RL",
             "relativePath": "./δ steps/δ-g2OoQu02RL.tsstp"
+        },
+        {
+            "key": "δ-g2OoQu02RL",
+            "relativePath": "./δ steps/δ-g2OoQu02RL.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "g2PNMl01nL",
-        "editorID": "car_583315912c944276b7f9d21f4d623dae",
-        "ticks": 1745258779639
+        "id": "hQgSnh02YE",
+        "editorID": "car_9107d388de5d404a9bb77dcccd2dc764",
+        "ticks": 1746533617001
     }
 }

@@ -1,0 +1,72 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBtJ12r","path":"","fragmentFolderPath":"index_frags"},"fragment":{"id":"fdLBtJ12r","topLevelMapKey":"e9T3Wy02Xz","mapKeyChain":"e9T3Wy02Xz","guideID":"fdLBtJ03I","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Introduction.tsmap","parentFragmentID":null,"chartKey":"e9T3Wy02Xz","options":[]}} -->
+
+<h1 id="modular-documentation-demos">Modular Documentation Demos</h1>
+
+<p>Docs Assembler, a VS Code extension, transforms documentation into modular “maps”—JSON-based trees that act as reusable, class-like component, letting experts encode interconnected problem-solving pathways without redundancy. Unlike traditional manuals limited to a single linear pathway, these maps mimic the brain’s networked thinking, where knowledge links dynamically across contexts (e.g., a screwdriver’s use applies to all screws, whether in furniture or machinery or electronics). Maps eliminate duplication by referencing shared solutions — like common repairs across lawnmower models — so experts maintain one source, not hundreds. Users start at the root, choosing options to generate precise, custom help articles, without sifting through irrelevant information.</p>
+
+<p>Each step (node) in a map pulls content from a standalone markdown files This structure allows you to:</p>
+
+<ul>
+  <li>Edit documentation in your preferred markdown editor.</li>
+  <li>Reuse markdown across multiple steps or maps.</li>
+  <li>Use variables to inject dynamic content — supported by IntelliSense.</li>
+</ul>
+
+<p>Maps bring object-oriented principles like encapsulation to documentation. How maps work:</p>
+
+<ul>
+  <li>Root step: Entry point.</li>
+  <li>Branches: Decision paths — comprised of steps (if/then, troubleshooting flows)</li>
+  <li>Solutions: Resolution endpoints.</li>
+  <li>Exits: Open paths requiring resolution in parent maps.</li>
+</ul>
+
+<p>Maps and steps are interchangeable components. Substituting a step with a map incorporates all of its contents into that node. Any exits the map has beome options. When a map is published, it recursively expands all nested maps, verifies the output, and generates a guide in Jekyll Markdown format compatible with GitHub Pages. Why it matters:</p>
+
+<p>For Authors:</p>
+
+<ul>
+  <li>Define clear pathways for documentation, and organise into reusable units.</li>
+  <li>Single-source updates propagate everywhere.</li>
+  <li>Complex workflows stay editable.</li>
+</ul>
+
+<p>For Users:</p>
+
+<p>Imagine a mechanic diagnosing a forklift’s hydraulic pump: they don’t need the full manual — just a precise, tailored guide generated from the map’s logic. This linear path of steps becomes a custom article, shareable via URL. It cuts cognitive load and speeds up repairs.</p>
+
+<p>Explorer demos to see maps and guides in action.</p>
+
+<h2 id="demos">Demos</h2>
+
+<h2 id="1-simple-guide">1. Simple Guide</h2>
+
+<p>The simplest guide, with fixed steps presented as an article - like a manual, book, or essay.</p>
+
+<p>Example: <a href="/RedDwarf/RedDwarfFoodDispenserFix">Holly’s Guide To Fix Red Dwarf Food Dispenser</a></p>
+
+<p>Map: <a href="https://github.com/MuddySpud/MuddySpud.github.io/blob/main/tsmaps/RedDwarf/%CE%9E%20RedDwarfFoodDispenserFix">RedDwarfFoodDispenserFix.tsmap</a> <br />
+<em>To view the map clone the <a href="https://github.com/MuddySpud/MuddySpud.github.io">repo</a> and install the <a href="https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler">extension</a>.</em></p>
+
+<h2 id="2-simple-guide--tools">2. Simple Guide + Tools</h2>
+
+<p>Uses markdown, images, reusable steps, variables, and auto-adjusting links.</p>
+
+<p>Example: <a href="/HAL/decode/2-Cell">HAL Robotics decode 2-Cell</a></p>
+
+<p>Map: <a href="https://github.com/MuddySpud/MuddySpud.github.io/blob/main/tsmaps/HAL/decode/%CE%9E%202-Cell-decode">2-Cell-decode.tsmap</a> <br />
+<em>To view the map clone the <a href="https://github.com/MuddySpud/MuddySpud.github.io">repo</a> and install the <a href="https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler">extension</a>.</em></p>
+
+<h2 id="3-adaptive-guide">3. Adaptive Guide</h2>
+
+<p>Adapts to your specific situation, generating a custom article with only the relevant steps.</p>
+
+<p>Example: <a href="/BackToTheFuture/DeLorean-Time-Machine-Technical-Manual">DeLorean Time Machine Technical Manual</a></p>
+
+<p>Map: <a href="https://github.com/MuddySpud/MuddySpud.github.io/blob/main/tsmaps/BackToTheFuture/%CE%9E%20DeLoreanTimeMachineTechnicalManual">DeLoreanTimeMachineTechnicalManual.tsmap</a> <br />
+<em>To view the map clone the <a href="https://github.com/MuddySpud/MuddySpud.github.io">repo</a> and install the <a href="https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler">extension</a>.</em></p>
+
+<h2 id="guides-within-guides">Guides within guides</h2>
+
+<p>Example: Coming soon…</p>
+
