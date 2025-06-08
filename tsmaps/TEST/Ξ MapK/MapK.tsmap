@@ -1,0 +1,62 @@
+{
+    "key": "jrpVh901b8  ",
+    "token": "Mapk",
+    "name": "MapK",
+    "created": "2025-06-01T08:36:39.815Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapK/MapK.tsmap",
+    "iText": "Link to 'MapK'",
+    "iExits": [
+        {
+            "key": "jrqkdR01n8",
+            "text": "Exit 1",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "jrpYFa00Hh",
+        "nodes": [
+            {
+                "key": "jrqMvz01JI",
+                "order": 1,
+                "option": "MapK 1.1\n",
+                "nodes": [
+                    {
+                        "key": "jrqSKl00s5",
+                        "order": 1,
+                        "option": "MapK 1.1-2.1\n",
+                        "iKey": "fugVwq00wh",
+                        "nodes": [
+                            {
+                                "key": "jrqhdM01QU",
+                                "order": 1,
+                                "option": "Exit1 MapE 1.1",
+                                "iExitKey": "fuhBa202EB",
+                                "exitKey": "jrqkdR01n8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-jrpYFa00Hh",
+            "relativePath": "./δ steps/δ-jrpYFa00Hh.tsstp"
+        },
+        {
+            "key": "δ-jrqMvz01JI",
+            "relativePath": "./δ steps/δ-jrqMvz01JI.tsstp"
+        },
+        {
+            "key": "δ-jrqSKl00s5",
+            "relativePath": "./δ steps/δ-jrqSKl00s5.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "jrvLnD00OM",
+        "editorID": "car_e90b9a7f9b1e4515bdc079f38b6aec6c",
+        "ticks": 1748768391719
+    }
+}

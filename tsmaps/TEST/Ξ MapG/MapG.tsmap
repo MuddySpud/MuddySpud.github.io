@@ -34,7 +34,7 @@
                     {
                         "key": "ikh3jL00g2",
                         "order": 2,
-                        "option": "Exit1-MapD-step-1.2",
+                        "option": "Exit2-MapD-step-1.2",
                         "isLeaf": true,
                         "iKey": "fjJ9H201oF",
                         "iExitKey": "g0lsqN02AV"
@@ -47,6 +47,67 @@
                 "option": "MapG 1.2\n",
                 "isLeaf": true,
                 "iKey": "iUQlhk028g"
+            },
+            {
+                "key": "j17dCf0078",
+                "order": 3,
+                "option": "MapG 1.3",
+                "iKey": "j16ALz00rY",
+                "nodes": [
+                    {
+                        "key": "j17m75012j",
+                        "order": 1,
+                        "option": "Exit1 MapI 1.1-2.1",
+                        "isLeaf": true,
+                        "iExitKey": "j16dIi01kJ"
+                    }
+                ]
+            },
+            {
+                "key": "j2WD6h00wb",
+                "order": 4,
+                "option": "MapG 1.4",
+                "iKey": "j2V4r100rS",
+                "nodes": [
+                    {
+                        "key": "j2WLBK01P5",
+                        "order": 1,
+                        "option": "Exit1",
+                        "isLeaf": true,
+                        "iExitKey": "j2W3Qx01CV"
+                    }
+                ]
+            },
+            {
+                "key": "jrqqes02DF",
+                "order": 5,
+                "option": "MapG 1.5",
+                "iKey": "jrpVh901b8",
+                "nodes": [
+                    {
+                        "key": "jrqv3c001B",
+                        "order": 1,
+                        "option": "Exit 1",
+                        "isLeaf": true,
+                        "iExitKey": "jrqkdR01n8"
+                    }
+                ]
+            },
+            {
+                "key": "jrvgHE0204",
+                "order": 6,
+                "option": "MapG 1.6\n",
+                "iKey": "jrv6xM00Hj",
+                "nodes": [
+                    {
+                        "key": "jrvl9a01Mm",
+                        "order": 1,
+                        "option": "Exit 1",
+                        "isLeaf": true,
+                        "iKey": "fjJ9H201oF",
+                        "iExitKey": "jrvR2500Hb"
+                    }
+                ]
             }
         ]
     },
@@ -68,25 +129,49 @@
             "relativePath": "./δ steps/δ-ikh3jL0148.tsstp"
         },
         {
-            "key": "δ-ikh3jL0148",
-            "relativePath": "./δ steps/δ-ikh3jL0148.tsstp"
-        },
-        {
-            "key": "δ-ikilQT00z1",
-            "relativePath": "./δ steps/δ-ikilQT00z1.tsstp"
-        },
-        {
-            "key": "δ-ikilQT00z1",
-            "relativePath": "./δ steps/δ-ikilQT00z1.tsstp"
-        },
-        {
             "key": "δ-ikh3jL00g2",
             "relativePath": "./δ steps/δ-ikh3jL00g2.tsstp"
+        },
+        {
+            "key": "δ-ikilQT00z1",
+            "relativePath": "./δ steps/δ-ikilQT00z1.tsstp"
+        },
+        {
+            "key": "δ-j17dCf0078",
+            "relativePath": "./δ steps/δ-j17dCf0078.tsstp"
+        },
+        {
+            "key": "δ-j17m75012j",
+            "relativePath": "./δ steps/δ-j17m75012j.tsstp"
+        },
+        {
+            "key": "δ-j2WD6h00wb",
+            "relativePath": "./δ steps/δ-j2WD6h00wb.tsstp"
+        },
+        {
+            "key": "δ-j2WLBK01P5",
+            "relativePath": "./δ steps/δ-j2WLBK01P5.tsstp"
+        },
+        {
+            "key": "δ-jrqqes02DF",
+            "relativePath": "./δ steps/δ-jrqqes02DF.tsstp"
+        },
+        {
+            "key": "δ-jrqv3c001B",
+            "relativePath": "./δ steps/δ-jrqv3c001B.tsstp"
+        },
+        {
+            "key": "δ-jrvgHE0204",
+            "relativePath": "./δ steps/δ-jrvgHE0204.tsstp"
+        },
+        {
+            "key": "δ-jrvl9a01Mm",
+            "relativePath": "./δ steps/δ-jrvl9a01Mm.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "ikj1xa00sA",
-        "editorID": "car_fd45847ee33e44f395a3b59f98e5d19b",
-        "ticks": 1747745888362
+        "id": "jrvvBi01OB",
+        "editorID": "car_699e47fdfd65415ead94b19b6ce4b686",
+        "ticks": 1748768527778
     }
 }

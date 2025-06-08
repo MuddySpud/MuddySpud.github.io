@@ -1,0 +1,66 @@
+{
+    "key": "j2V4r100rS  ",
+    "token": "Mapj",
+    "name": "MapJ",
+    "created": "2025-05-23T13:55:36.943Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapJ/MapJ.tsmap",
+    "iText": "Link to 'MapJ'",
+    "iExits": [
+        {
+            "key": "j2W3Qx01CV",
+            "text": "Exit1",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "j2V7D9022y",
+        "nodes": [
+            {
+                "key": "j2V9Fx01XL",
+                "order": 1,
+                "option": "MapJ 1.1",
+                "nodes": [
+                    {
+                        "key": "j2VIZ401mT",
+                        "order": 1,
+                        "option": "MapJ 1.1-2.1",
+                        "exitKey": "j2W3Qx01CV"
+                    },
+                    {
+                        "key": "j2VMEr02RW",
+                        "order": 2,
+                        "option": "MapJ 1.1-2.2\n",
+                        "nodes": [
+                            {
+                                "key": "j2VwGP00a8",
+                                "order": 1,
+                                "option": "MapJ 1.1-2.2-3.1",
+                                "exitKey": "j2W3Qx01CV"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-j2V7D9022y",
+            "relativePath": "./δ steps/δ-j2V7D9022y.tsstp"
+        },
+        {
+            "key": "δ-j2V9Fx01XL",
+            "relativePath": "./δ steps/δ-j2V9Fx01XL.tsstp"
+        },
+        {
+            "key": "δ-j2VMEr02RW",
+            "relativePath": "./δ steps/δ-j2VMEr02RW.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "j2brta01G8",
+        "editorID": "me_2880b47327a44bbc9db90adc6e7c76d0",
+        "ticks": 1748010155426
+    }
+}
