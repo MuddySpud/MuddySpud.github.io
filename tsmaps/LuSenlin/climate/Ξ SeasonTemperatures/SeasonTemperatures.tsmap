@@ -1,0 +1,95 @@
+{
+    "key": "pN6YLD00G4  ",
+    "token": "Seasontemperatures",
+    "name": "SeasonTemperatures",
+    "created": "2025-07-29T17:23:12.139Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/climate/Ξ SeasonTemperatures/SeasonTemperatures.tsmap",
+    "iText": "Link to 'SeasonTemperatures'",
+    "iExits": [
+        {
+            "key": "pN9JCa00D3",
+            "text": "Temperatures can rise above 25°C and fall below 10°C",
+            "order": 1
+        },
+        {
+            "key": "pN9S4201w3",
+            "text": "Temperatures can rise above 25°C but never fall below 10°C",
+            "order": 2
+        },
+        {
+            "key": "pN9W7s02Kc",
+            "text": "Temperatures never rise above 25°C and can fall below 10°C",
+            "order": 3
+        },
+        {
+            "key": "pN9WbU00sh",
+            "text": "Temperatures never rise above 25°C and never fall below 10°C",
+            "order": 4
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "pN6b7e019F",
+        "nodes": [
+            {
+                "key": "pN6fe200vy",
+                "order": 1,
+                "option": "Yes they can get above 25°C",
+                "iKey": "pLv0gR02Un",
+                "nodes": [
+                    {
+                        "key": "pN94ox00JD",
+                        "order": 1,
+                        "option": "Temperatures can fall below 10°C",
+                        "exitKey": "pN9JCa00D3"
+                    },
+                    {
+                        "key": "pN94ox01al",
+                        "order": 2,
+                        "option": "Temperatures never fall below 10°C",
+                        "exitKey": "pN9S4201w3"
+                    }
+                ]
+            },
+            {
+                "key": "pN74nI00Vo",
+                "order": 2,
+                "option": "No it never gets higher than 25°C",
+                "iKey": "pLv0gR02Un",
+                "nodes": [
+                    {
+                        "key": "pN9FlU01Rv",
+                        "order": 1,
+                        "option": "Temperatures can fall below 10°C",
+                        "exitKey": "pN9W7s02Kc"
+                    },
+                    {
+                        "key": "pN9FlU001Z",
+                        "order": 2,
+                        "option": "Temperatures never fall below 10°C",
+                        "exitKey": "pN9WbU00sh"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pN6b7e019F",
+            "relativePath": "./δ steps/δ-pN6b7e019F.tsstp"
+        },
+        {
+            "key": "δ-pN6fe200vy",
+            "relativePath": "./δ steps/δ-pN6fe200vy.tsstp"
+        },
+        {
+            "key": "δ-pN74nI00Vo",
+            "relativePath": "./δ steps/δ-pN74nI00Vo.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "pdA0Xf00Dz",
+        "editorID": "car_6ed14951ef0f43dc82e5cdcd6e5090fe",
+        "ticks": 1754047036903
+    }
+}

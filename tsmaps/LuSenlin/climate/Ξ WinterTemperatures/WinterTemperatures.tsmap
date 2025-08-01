@@ -1,0 +1,49 @@
+{
+    "key": "pLv0gR02Un  ",
+    "token": "Wintertemperatures",
+    "name": "WinterTemperatures",
+    "created": "2025-07-29T12:31:04.815Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/climate/Ξ WinterTemperatures/WinterTemperatures.tsmap",
+    "iText": "Link to 'WinterTemperatures'",
+    "iExits": [
+        {
+            "key": "pN8iRZ00As",
+            "text": "Temperatures can fall below 10°C",
+            "order": 1
+        },
+        {
+            "key": "pN8unQ0070",
+            "text": "Temperatures never fall below 10°C",
+            "order": 2
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "pLv2tN01Bh",
+        "nodes": [
+            {
+                "key": "pN5MOP02Yo",
+                "order": 1,
+                "option": "Yes temperatures can fall below 10°C",
+                "exitKey": "pN8iRZ00As"
+            },
+            {
+                "key": "pN5a3602WW",
+                "order": 2,
+                "option": "No temperatures never drop below 10°C",
+                "exitKey": "pN8unQ0070"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pLv2tN01Bh",
+            "relativePath": "./δ steps/δ-pLv2tN01Bh.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "pd9oL3014H",
+        "editorID": "car_8ce47b558b4c44418cd6e18f2be8293c",
+        "ticks": 1754046989993
+    }
+}
