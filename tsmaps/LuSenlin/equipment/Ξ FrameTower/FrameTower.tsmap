@@ -1,0 +1,82 @@
+{
+    "key": "pv7P9500YG  ",
+    "token": "Frametower",
+    "name": "FrameTower",
+    "created": "2025-08-04T12:59:50.543Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ FrameTower/FrameTower.tsmap",
+    "iText": "Link to 'FrameTower'",
+    "iExits": [
+        {
+            "key": "pvqcw201wo",
+            "text": "1 frame tower",
+            "order": 1
+        },
+        {
+            "key": "pvqdJd020D",
+            "text": "2 frame tower",
+            "order": 2
+        },
+        {
+            "key": "pvqdc9004d",
+            "text": "4 frame tower",
+            "order": 3
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "pvaPOf01P0",
+        "nodes": [
+            {
+                "key": "pvaXi201td",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "pv7Tr400j0",
+                        "order": 1,
+                        "option": "Root",
+                        "nodes": [
+                            {
+                                "key": "pv7aq201Z4",
+                                "order": 1,
+                                "option": "1-Frame Tower - perfect entry-level",
+                                "exitKey": "pvqcw201wo"
+                            },
+                            {
+                                "key": "pva7YY00Fz",
+                                "order": 2,
+                                "option": "2-Frame Tower - supports hybrid setups",
+                                "exitKey": "pvqdJd020D"
+                            },
+                            {
+                                "key": "pva7t100Lv",
+                                "order": 3,
+                                "option": "4-Frame Tower - maximum yield in minimal space",
+                                "exitKey": "pvqdc9004d"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pvaPOf01P0",
+            "relativePath": "./δ steps/δ-pvaPOf01P0.tsstp"
+        },
+        {
+            "key": "δ-pvaXi201td",
+            "relativePath": "./δ steps/δ-pvaXi201td.tsstp"
+        },
+        {
+            "key": "δ-pv7Tr400j0",
+            "relativePath": "./δ steps/δ-pv7Tr400j0.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "pvqoEW00i0",
+        "editorID": "car_687910ac901c41298a5d9211f0f78895",
+        "ticks": 1754323211740
+    }
+}

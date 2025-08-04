@@ -31,16 +31,16 @@
                     {
                         "key": "pLpYRk02Jf",
                         "order": 3,
-                        "option": "Spare room without windows",
+                        "option": "Windowless indoor space - large cupboard or cellar",
                         "isLeaf": true,
                         "iKey": "pRcY3p02al"
                     },
                     {
                         "key": "pLpaP30230",
                         "order": 4,
-                        "option": "Spare room with windows",
+                        "option": "Sunlit room with large windows",
                         "isLeaf": true,
-                        "iKey": "pRcboU002O"
+                        "iKey": "puD8ev02GS"
                     },
                     {
                         "key": "pLpbZ901Cm",
@@ -84,8 +84,8 @@
         }
     ],
     "___εdit___": {
-        "id": "peUWF5022L",
-        "editorID": "car_5de902f1e9c449b2af15fcfc505017c3",
-        "ticks": 1754066701655
+        "id": "puDKvv02Br",
+        "editorID": "car_9cdfdfe05ee248dfa631fc301fb3afcd",
+        "ticks": 1754299027983
     }
 }

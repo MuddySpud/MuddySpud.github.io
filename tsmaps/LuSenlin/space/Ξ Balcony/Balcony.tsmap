@@ -10,43 +10,33 @@
         "key": "pRcLec01Z2",
         "nodes": [
             {
-                "key": "pdqZ5m02Uh",
+                "key": "pugiLF02It",
                 "order": 1,
-                "option": "Next",
+                "option": "Next\n",
                 "nodes": [
                     {
-                        "key": "pe6fTV01wH",
+                        "key": "pugd7N01MP",
                         "order": 1,
                         "option": "Next",
+                        "iKey": "puJoyS00J4",
                         "nodes": [
                             {
-                                "key": "pe6lR600Vk",
+                                "key": "puhQmC01qP",
                                 "order": 1,
-                                "option": "Next",
-                                "nodes": [
-                                    {
-                                        "key": "pe6rDB02Dq",
-                                        "order": 1,
-                                        "option": "Next",
-                                        "nodes": [
-                                            {
-                                                "key": "pe70zk00mj",
-                                                "order": 1,
-                                                "option": "Low effort - for effortless harvesting"
-                                            },
-                                            {
-                                                "key": "pe9YS5019K",
-                                                "order": 2,
-                                                "option": "Moderate Effort – For guided involvement"
-                                            },
-                                            {
-                                                "key": "pe9dtk01hA",
-                                                "order": 3,
-                                                "option": "High Effort – For hands-on mastery"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                "option": "Low effort",
+                                "iExitKey": "pugrVO012i"
+                            },
+                            {
+                                "key": "puhQmC00k6",
+                                "order": 2,
+                                "option": "Moderate effort",
+                                "iExitKey": "pugro900Ku"
+                            },
+                            {
+                                "key": "puhQmC01fa",
+                                "order": 3,
+                                "option": "High effort\n",
+                                "iExitKey": "pugs3O02N7"
                             }
                         ]
                     }
@@ -60,25 +50,17 @@
             "relativePath": "./δ steps/δ-pRcLec01Z2.tsstp"
         },
         {
-            "key": "δ-pdqZ5m02Uh",
-            "relativePath": "./δ steps/δ-pdqZ5m02Uh.tsstp"
+            "key": "δ-pugiLF02It",
+            "relativePath": "./δ steps/δ-pugiLF02It.tsstp"
         },
         {
-            "key": "δ-pe6fTV01wH",
-            "relativePath": "./δ steps/δ-pe6fTV01wH.tsstp"
-        },
-        {
-            "key": "δ-pe6lR600Vk",
-            "relativePath": "./δ steps/δ-pe6lR600Vk.tsstp"
-        },
-        {
-            "key": "δ-pe6rDB02Dq",
-            "relativePath": "./δ steps/δ-pe6rDB02Dq.tsstp"
+            "key": "δ-pugd7N01MP",
+            "relativePath": "./δ steps/δ-pugd7N01MP.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "pe9fXU019m",
-        "editorID": "car_3021ed6e712e48029e227aebfbededb6",
-        "ticks": 1754061732504
+        "id": "puhQmC02SD",
+        "editorID": "car_8b67c993028b47d996c311b72d51e321",
+        "ticks": 1754306200284
     }
 }
