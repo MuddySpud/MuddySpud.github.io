@@ -450,12 +450,178 @@
             {
                 "key": "pwqt7W02Yx",
                 "order": 6,
-                "option": "Aquatic plants & algae"
+                "option": "Aquatic plants & algae",
+                "nodes": [
+                    {
+                        "key": "q2LHFl02Mf",
+                        "order": 1,
+                        "option": "Dwarf Watercress ‘Hydro-Pepper’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2Ly9s00zX",
+                        "order": 2,
+                        "option": "Duckweed Protein Blend - Lemna × Wolffia hybrid mix",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2M13Q026q",
+                        "order": 3,
+                        "option": "Azolla ‘Nitro-Fern Nano’ - floating N-fixing fern",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2M7m802WU",
+                        "order": 4,
+                        "option": "Red Macro-Algae ‘Sachi-Nori’ - Porphyra sp. — mini nori sheets",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MAHj028m",
+                        "order": 5,
+                        "option": "Spirulina Mat ‘BlueCore’ - edible cyanobacteria",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MBsK00Wr",
+                        "order": 6,
+                        "option": "Sea Lettuce ‘Urban Ulva’ - chlorophyte algae strips",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MNJg005y",
+                        "order": 7,
+                        "option": "Micro-Kelp ‘Baby Kombu’ - Laminaria micro-cultivar",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MPFK01Gi",
+                        "order": 8,
+                        "option": "Salicornia ‘Mini-Marsh’ - salt-tolerant “sea asparagus”",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MQr902Wj",
+                        "order": 9,
+                        "option": "Water Spinach ‘Aqua-Morning’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MSBv01Md",
+                        "order": 10,
+                        "option": "Frogbit ‘Tiny Shield’ - Limnobium dwarf",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MTp201gE",
+                        "order": 11,
+                        "option": "Red Ogo ‘Metro-Ogo’ - Gracilaria cultivar for salads",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2MV9a01bj",
+                        "order": 12,
+                        "option": "Micro Lotus ‘Lilypad-8’ - edible shoots & decorative pads",
+                        "exitKey": "pxlcBc01Ke"
+                    }
+                ]
             },
             {
                 "key": "pwqvZa01sx",
                 "order": 7,
-                "option": "Mushrooms and fungi"
+                "option": "Mushrooms and fungi",
+                "nodes": [
+                    {
+                        "key": "q2OSqL00m8",
+                        "order": 1,
+                        "option": "Oyster ‘Pearl-Fog’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2P6XU00BQ",
+                        "order": 2,
+                        "option": "Pink Oyster ‘Candy-Cap’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2P8m701q6",
+                        "order": 3,
+                        "option": "Lion’s Mane ‘BrainFood L-2’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PAIi01mD",
+                        "order": 4,
+                        "option": "Shiitake ‘Urban Log’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PC4D002c",
+                        "order": 5,
+                        "option": "Black King Trumpet ‘BK-Mini’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PE0q02UP",
+                        "order": 6,
+                        "option": "Enoki ‘Metro-Needle’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PFLA00uO",
+                        "order": 7,
+                        "option": "Chestnut Mushroom ‘City-Top’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PGo202Y9",
+                        "order": 8,
+                        "option": "Nameko ‘Amber Slick’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PI8801Se",
+                        "order": 9,
+                        "option": "Pioppino ‘Brown Beech Nano’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PJm000jc",
+                        "order": 10,
+                        "option": "Reishi ‘Micro-Lingzhi’ - functional tonic slices",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PLmN00zx",
+                        "order": 11,
+                        "option": "Maitake ‘Fractal Feathers’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PNcG01kU",
+                        "order": 12,
+                        "option": "Cordyceps Militaris ‘Gold Thread’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2POrA00QT",
+                        "order": 13,
+                        "option": "Shimeji ‘Snow Cluster’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PRhq00DD",
+                        "order": 14,
+                        "option": "King Oyster ‘Stubby-King’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "q2PVus02Ow",
+                        "order": 15,
+                        "option": "Truffle-Inoculated Herb Pod ‘Nano-Truff’ - white truffle mycorrhiza",
+                        "exitKey": "pxlcBc01Ke"
+                    }
+                ]
             },
             {
                 "key": "pwqxYb02He",
@@ -503,11 +669,19 @@
         {
             "key": "δ-pwqjT402Fp",
             "relativePath": "./δ steps/δ-pwqjT402Fp.tsstp"
+        },
+        {
+            "key": "δ-pwqt7W02Yx",
+            "relativePath": "./δ steps/δ-pwqt7W02Yx.tsstp"
+        },
+        {
+            "key": "δ-pwqvZa01sx",
+            "relativePath": "./δ steps/δ-pwqvZa01sx.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q2Kl5601Xc",
+        "id": "q2PqEW00IC",
         "editorID": "car_ac2ad68a6449453394e83b595cf91e5a",
-        "ticks": 1754419007480
+        "ticks": 1754420218924
     }
 }
