@@ -1,0 +1,261 @@
+{
+    "key": "pvsj6Y01H7  ",
+    "token": "Producetypes",
+    "name": "ProduceTypes",
+    "created": "2025-08-04T16:07:48.683Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ ProduceTypes/ProduceTypes.tsmap",
+    "iText": "Link to 'ProduceTypes'",
+    "iExits": [
+        {
+            "key": "pxlcBc01Ke",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "pvssh200Qc",
+        "nodes": [
+            {
+                "key": "pvt6ay026S",
+                "order": 1,
+                "option": "Aromatic herbs",
+                "nodes": [
+                    {
+                        "key": "pwsG4d01h5",
+                        "order": 1,
+                        "option": "Mini-Sweet Basil 4.1",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkH0P01Lk",
+                        "order": 2,
+                        "option": "Purple Holy Basil Duo - green & deep-violet pair",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkV1800Gk",
+                        "order": 3,
+                        "option": "Genovese Pesto Mint™ - low-menthol, pesto-friendly",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkbWy012I",
+                        "order": 4,
+                        "option": "Citro-Mint - lemon-scented dwarf spearmint",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkhtH00HY",
+                        "order": 5,
+                        "option": "Micro-Shiso Mix - green & red perilla",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkk8t00LY",
+                        "order": 6,
+                        "option": "Dwarf Thai Coriander ‘Metro-Pak Chee’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkq3L01kB",
+                        "order": 7,
+                        "option": "Low-Light Chive / Garlic-Chive Blend",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxktT501CV",
+                        "order": 8,
+                        "option": "Lemon Balm ‘Citro-Edge’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkvk400lf",
+                        "order": 9,
+                        "option": "Urban Greek Oregano ‘OG-35’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkwPK00DS",
+                        "order": 10,
+                        "option": "Creeping Thyme ‘Tiny-Thymus’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxkyfs01K5",
+                        "order": 11,
+                        "option": "Sweet Marjoram ‘Marj-Mini’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxl2jl00kO",
+                        "order": 12,
+                        "option": "Patio Rosemary ‘AromiStax’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxl5DP01wY",
+                        "order": 13,
+                        "option": "Compact Purple Sage ‘Plum-Sage’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxl7nE01ez",
+                        "order": 14,
+                        "option": "Balcony Dill ‘Frond-Flash’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxlAjD00XR",
+                        "order": 15,
+                        "option": "French Tarragon ‘Narrow-Leaf Nano’",
+                        "exitKey": "pxlcBc01Ke"
+                    }
+                ]
+            },
+            {
+                "key": "pwqi4M01Ij",
+                "order": 2,
+                "option": "Leafy greens",
+                "nodes": [
+                    {
+                        "key": "pxmO1u01oi",
+                        "order": 1,
+                        "option": "Skyline Romaine",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnQ9H00CK",
+                        "order": 2,
+                        "option": "Nano-Kale ‘BlueFin’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnSgg00xT",
+                        "order": 3,
+                        "option": "Dwarf Bok-Choy ‘Pearl’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnUOO00Yw",
+                        "order": 4,
+                        "option": "Butterhead Lettuce ‘Silk-Butter’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnVta02QU",
+                        "order": 5,
+                        "option": "Tatsoi ‘Sprint’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnXdB01nU",
+                        "order": 6,
+                        "option": "Komatsuna ‘Metro-Spin’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnZ1C00hJ",
+                        "order": 7,
+                        "option": "Rainbow Swiss Chard ‘Pixel-Stem’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnagy027X",
+                        "order": 8,
+                        "option": "Spinach ‘HeatGuard’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxncA0024s",
+                        "order": 9,
+                        "option": "Mizuna ‘Fringe’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxndo2024I",
+                        "order": 10,
+                        "option": "Arugula ‘Rocket-Flash’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnfDd00PN",
+                        "order": 11,
+                        "option": "Red Leaf Lettuce ‘Ruby Drift’",
+                        "exitKey": "pxlcBc01Ke"
+                    },
+                    {
+                        "key": "pxnghu00n2",
+                        "order": 12,
+                        "option": "Watercress ‘Hydro-Pepper’",
+                        "exitKey": "pxlcBc01Ke"
+                    }
+                ]
+            },
+            {
+                "key": "pwqiRD00HJ",
+                "order": 3,
+                "option": "Fruiting veg"
+            },
+            {
+                "key": "pwqiu400wq",
+                "order": 4,
+                "option": "Roots & stems"
+            },
+            {
+                "key": "pwqjT402Fp",
+                "order": 5,
+                "option": "Edible flowers & specialty greens"
+            },
+            {
+                "key": "pwqt7W02Yx",
+                "order": 6,
+                "option": "Aquatic plants & algae"
+            },
+            {
+                "key": "pwqvZa01sx",
+                "order": 7,
+                "option": "Mushrooms and fungi"
+            },
+            {
+                "key": "pwqxYb02He",
+                "order": 8,
+                "option": "Fish"
+            },
+            {
+                "key": "pwr4Nv00RI",
+                "order": 9,
+                "option": "Crustaceans"
+            },
+            {
+                "key": "pwr5th01eH",
+                "order": 10,
+                "option": "Molluscs"
+            },
+            {
+                "key": "pwr8vK01oY",
+                "order": 11,
+                "option": "Snails"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pvssh200Qc",
+            "relativePath": "./δ steps/δ-pvssh200Qc.tsstp"
+        },
+        {
+            "key": "δ-pvt6ay026S",
+            "relativePath": "./δ steps/δ-pvt6ay026S.tsstp"
+        },
+        {
+            "key": "δ-pwqi4M01Ij",
+            "relativePath": "./δ steps/δ-pwqi4M01Ij.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "pxnwjA01U2",
+        "editorID": "car_10232f4b444144f79ab5cdae87a81fab",
+        "ticks": 1754352082080
+    }
+}
