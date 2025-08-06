@@ -6,6 +6,13 @@
     "list": true,
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ Frame/Frame.tsmap",
     "iText": "Link to 'Frame'",
+    "iExits": [
+        {
+            "key": "q77eNC003a",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "q6htvc02LO",
         "iKey": "q6ciG80241",
@@ -14,13 +21,46 @@
                 "key": "q6i2Ta00Bt",
                 "order": 1,
                 "option": "1 module",
-                "iExitKey": "q6e5Xy00dF"
+                "iExitKey": "q6e5Xy00dF",
+                "nodes": [
+                    {
+                        "key": "q6imCX01qm",
+                        "order": 1,
+                        "option": "Next",
+                        "iKey": "pvsj6Y01H7",
+                        "nodes": [
+                            {
+                                "key": "q73NVB02SX",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "pxlcBc01Ke",
+                                "exitKey": "q77eNC003a"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "key": "q6i2Ta02M5",
                 "order": 2,
                 "option": "2 modules",
-                "iExitKey": "q6e6nI00dw"
+                "iExitKey": "q6e6nI00dw",
+                "nodes": [
+                    {
+                        "key": "q746iw01l6",
+                        "order": 1,
+                        "option": "Next",
+                        "iKey": "pvsj6Y01H7",
+                        "nodes": [
+                            {
+                                "key": "q74wBv00c7",
+                                "order": 1,
+                                "option": "Next",
+                                "iExitKey": "pxlcBc01Ke"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -28,11 +68,27 @@
         {
             "key": "δ-q6htvc02LO",
             "relativePath": "./δ steps/δ-q6htvc02LO.tsstp"
+        },
+        {
+            "key": "δ-q6i2Ta00Bt",
+            "relativePath": "./δ steps/δ-q6i2Ta00Bt.tsstp"
+        },
+        {
+            "key": "δ-q6i2Ta02M5",
+            "relativePath": "./δ steps/δ-q6i2Ta02M5.tsstp"
+        },
+        {
+            "key": "δ-q6imCX01qm",
+            "relativePath": "./δ steps/δ-q6imCX01qm.tsstp"
+        },
+        {
+            "key": "δ-q746iw01l6",
+            "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q6i2Ta00YE",
-        "editorID": "car_4006a058221b4d34bc4f65a9966152a2",
-        "ticks": 1754483661234
+        "id": "q77h8J00Dr",
+        "editorID": "car_f7b5e71cbde043a7becbcad5d48aae73",
+        "ticks": 1754489775719
     }
 }

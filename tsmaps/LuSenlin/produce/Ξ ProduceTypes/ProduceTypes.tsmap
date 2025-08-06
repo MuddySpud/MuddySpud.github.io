@@ -14,880 +14,893 @@
         }
     ],
     "___rΩΩt___": {
-        "key": "pvssh200Qc",
+        "key": "q75a3J00zk",
         "nodes": [
             {
-                "key": "pvt6ay026S",
+                "key": "q7679u010e",
                 "order": 1,
-                "option": "Aromatic herbs",
                 "nodes": [
                     {
-                        "key": "pwsG4d01h5",
+                        "key": "pvssh200Qc",
                         "order": 1,
-                        "option": "Mini-Sweet Basil 4.1",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkH0P01Lk",
-                        "order": 2,
-                        "option": "Purple Holy Basil Duo - green & deep-violet pair",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkV1800Gk",
-                        "order": 3,
-                        "option": "Genovese Pesto Mint™ - low-menthol, pesto-friendly",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkbWy012I",
-                        "order": 4,
-                        "option": "Citro-Mint - lemon-scented dwarf spearmint",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkhtH00HY",
-                        "order": 5,
-                        "option": "Micro-Shiso Mix - green & red perilla",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkk8t00LY",
-                        "order": 6,
-                        "option": "Dwarf Thai Coriander ‘Metro-Pak Chee’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkq3L01kB",
-                        "order": 7,
-                        "option": "Low-Light Chive / Garlic-Chive Blend",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxktT501CV",
-                        "order": 8,
-                        "option": "Lemon Balm ‘Citro-Edge’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkvk400lf",
-                        "order": 9,
-                        "option": "Urban Greek Oregano ‘OG-35’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkwPK00DS",
-                        "order": 10,
-                        "option": "Creeping Thyme ‘Tiny-Thymus’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxkyfs01K5",
-                        "order": 11,
-                        "option": "Sweet Marjoram ‘Marj-Mini’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxl2jl00kO",
-                        "order": 12,
-                        "option": "Patio Rosemary ‘AromiStax’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxl5DP01wY",
-                        "order": 13,
-                        "option": "Compact Purple Sage ‘Plum-Sage’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxl7nE01ez",
-                        "order": 14,
-                        "option": "Balcony Dill ‘Frond-Flash’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxlAjD00XR",
-                        "order": 15,
-                        "option": "French Tarragon ‘Narrow-Leaf Nano’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqi4M01Ij",
-                "order": 2,
-                "option": "Leafy greens",
-                "nodes": [
-                    {
-                        "key": "pxmO1u01oi",
-                        "order": 1,
-                        "option": "Skyline Romaine",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnQ9H00CK",
-                        "order": 2,
-                        "option": "Nano-Kale ‘BlueFin’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnSgg00xT",
-                        "order": 3,
-                        "option": "Dwarf Bok-Choy ‘Pearl’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnUOO00Yw",
-                        "order": 4,
-                        "option": "Butterhead Lettuce ‘Silk-Butter’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnVta02QU",
-                        "order": 5,
-                        "option": "Tatsoi ‘Sprint’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnXdB01nU",
-                        "order": 6,
-                        "option": "Komatsuna ‘Metro-Spin’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnZ1C00hJ",
-                        "order": 7,
-                        "option": "Rainbow Swiss Chard ‘Pixel-Stem’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnagy027X",
-                        "order": 8,
-                        "option": "Spinach ‘HeatGuard’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxncA0024s",
-                        "order": 9,
-                        "option": "Mizuna ‘Fringe’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxndo2024I",
-                        "order": 10,
-                        "option": "Arugula ‘Rocket-Flash’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnfDd00PN",
-                        "order": 11,
-                        "option": "Red Leaf Lettuce ‘Ruby Drift’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "pxnghu00n2",
-                        "order": 12,
-                        "option": "Watercress ‘Hydro-Pepper’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqiRD00HJ",
-                "order": 3,
-                "option": "Fruiting veg",
-                "nodes": [
-                    {
-                        "key": "q2EDLU0011",
-                        "order": 1,
-                        "option": "Patio Cherry Tomato ‘Sun-Dot’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2F4ty01HE",
-                        "order": 2,
-                        "option": "Micro Roma Tomato ‘Pixel-Plum’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2F7OW00ib",
-                        "order": 3,
-                        "option": "Snack Pepper ‘Metro-Sweet’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2F83L02ZL",
-                        "order": 4,
-                        "option": "City Chili ‘FireDot’ - compact hot pepper",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FC7V007L",
-                        "order": 5,
-                        "option": "Mini Cucumber ‘Rail-Runner’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FDn201dR",
-                        "order": 6,
-                        "option": "Dwarf Zucchini ‘City-Zuke’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FFkV00sJ",
-                        "order": 7,
-                        "option": "Micro Eggplant ‘Metro-Sakura’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FHJS00Yh",
-                        "order": 8,
-                        "option": "Alpine Strawberry ‘EverPink’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FJC400tQ",
-                        "order": 9,
-                        "option": "Balcony Melon ‘Honey-Drop’ - mini honeydew",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FKiN029C",
-                        "order": 10,
-                        "option": "Snap Pea ‘Skyline Sugar’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FNgq01Ol",
-                        "order": 11,
-                        "option": "Dwarf Yard-Long Bean ‘Short-Long’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2FPSc00iq",
-                        "order": 12,
-                        "option": "Ground Cherry ‘Urban Lantern’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqiu400wq",
-                "order": 4,
-                "option": "Roots & stems",
-                "nodes": [
-                    {
-                        "key": "q2FzPU016K",
-                        "order": 1,
-                        "option": "Finger Carrot ‘Neon 5’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2GTEl026r",
-                        "order": 2,
-                        "option": "Baby Beet ‘Ruby 2’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2GVYM015u",
-                        "order": 3,
-                        "option": "Radish ‘Flash-40’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2GXEY00I1",
-                        "order": 4,
-                        "option": "Mini Daikon ‘Metro-White’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2GYd000aB",
-                        "order": 5,
-                        "option": "Tokyo Turnip ‘Tiny Kabu’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Gaiu00au",
-                        "order": 6,
-                        "option": "Baby Sweet Potato ‘Pocket Yama’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2HhsK0235",
-                        "order": 7,
-                        "option": "Water Spinach Stem ‘WS-Lite’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Hjhs01mX",
-                        "order": 8,
-                        "option": "Baby Ginger ‘Zingy Core’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Hl7v00yM",
-                        "order": 9,
-                        "option": "Young Lotus Root ‘Urban Lotus’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2HmX201cg",
-                        "order": 10,
-                        "option": "Dwarf Taro ‘Taro-Tiny’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2HnjE01dk",
-                        "order": 11,
-                        "option": "Baby Kohlrabi ‘Mini Stem’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2HpCf018S",
-                        "order": 12,
-                        "option": "Compact Celery ‘Stalk-Short’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqjT402Fp",
-                "order": 5,
-                "option": "Edible flowers & specialty greens",
-                "nodes": [
-                    {
-                        "key": "q2IbMY00C2",
-                        "order": 1,
-                        "option": "Nasturtium ‘Citrus Wheel’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2K3mt021x",
-                        "order": 2,
-                        "option": "Pansy ‘Urban-Violet’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2K5NO00Im",
-                        "order": 3,
-                        "option": "Calendula ‘Golden Byte’ - pot marigold",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2K6od016G",
-                        "order": 4,
-                        "option": "Borage ‘Sky-Blue’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2K7Es02Lp",
-                        "order": 5,
-                        "option": "Red Amaranth Micro ‘Ruby Veil’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2K8tO00uc",
-                        "order": 6,
-                        "option": "Wasabi Arugula ‘Nano-Wasabi’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KCHc01CY",
-                        "order": 7,
-                        "option": "Shungiku ‘Chop-Chop’ - garland chrysanthemum greens",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KEeF01wj",
-                        "order": 8,
-                        "option": "Sorrel ‘Lemon Arrow’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KFr600yJ",
-                        "order": 9,
-                        "option": "Ice Plant ‘Crystal Leaf’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KGax003V",
-                        "order": 10,
-                        "option": "Salad Burnet ‘Cucumber Drop’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KJRY00un",
-                        "order": 11,
-                        "option": "Malabar Spinach ‘Ruby Vine’ - vining",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KKw100Lz",
-                        "order": 12,
-                        "option": "Purple Oxalis ‘TriStar’ - tangy “sorrel” notes",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KLfB01KB",
-                        "order": 13,
-                        "option": "Micro Fenugreek ‘Methi-Micro’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KOHF01t9",
-                        "order": 14,
-                        "option": "Rainbow Swiss Chard ‘Pixel-Stem’ - multi-colour stems",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2KOw101mg",
-                        "order": 15,
-                        "option": "Edible Viola ‘Midnight Kiss’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqt7W02Yx",
-                "order": 6,
-                "option": "Aquatic plants & algae",
-                "nodes": [
-                    {
-                        "key": "q2LHFl02Mf",
-                        "order": 1,
-                        "option": "Dwarf Watercress ‘Hydro-Pepper’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Ly9s00zX",
-                        "order": 2,
-                        "option": "Duckweed Protein Blend - Lemna × Wolffia hybrid mix",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2M13Q026q",
-                        "order": 3,
-                        "option": "Azolla ‘Nitro-Fern Nano’ - floating N-fixing fern",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2M7m802WU",
-                        "order": 4,
-                        "option": "Red Macro-Algae ‘Sachi-Nori’ - Porphyra sp. — mini nori sheets",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MAHj028m",
-                        "order": 5,
-                        "option": "Spirulina Mat ‘BlueCore’ - edible cyanobacteria",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MBsK00Wr",
-                        "order": 6,
-                        "option": "Sea Lettuce ‘Urban Ulva’ - chlorophyte algae strips",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MNJg005y",
-                        "order": 7,
-                        "option": "Micro-Kelp ‘Baby Kombu’ - Laminaria micro-cultivar",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MPFK01Gi",
-                        "order": 8,
-                        "option": "Salicornia ‘Mini-Marsh’ - salt-tolerant “sea asparagus”",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MQr902Wj",
-                        "order": 9,
-                        "option": "Water Spinach ‘Aqua-Morning’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MSBv01Md",
-                        "order": 10,
-                        "option": "Frogbit ‘Tiny Shield’ - Limnobium dwarf",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MTp201gE",
-                        "order": 11,
-                        "option": "Red Ogo ‘Metro-Ogo’ - Gracilaria cultivar for salads",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2MV9a01bj",
-                        "order": 12,
-                        "option": "Micro Lotus ‘Lilypad-8’ - edible shoots & decorative pads",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqvZa01sx",
-                "order": 7,
-                "option": "Mushrooms and fungi",
-                "nodes": [
-                    {
-                        "key": "q2OSqL00m8",
-                        "order": 1,
-                        "option": "Oyster ‘Pearl-Fog’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2P6XU00BQ",
-                        "order": 2,
-                        "option": "Pink Oyster ‘Candy-Cap’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2P8m701q6",
-                        "order": 3,
-                        "option": "Lion’s Mane ‘BrainFood L-2’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PAIi01mD",
-                        "order": 4,
-                        "option": "Shiitake ‘Urban Log’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PC4D002c",
-                        "order": 5,
-                        "option": "Black King Trumpet ‘BK-Mini’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PE0q02UP",
-                        "order": 6,
-                        "option": "Enoki ‘Metro-Needle’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PFLA00uO",
-                        "order": 7,
-                        "option": "Chestnut Mushroom ‘City-Top’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PGo202Y9",
-                        "order": 8,
-                        "option": "Nameko ‘Amber Slick’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PI8801Se",
-                        "order": 9,
-                        "option": "Pioppino ‘Brown Beech Nano’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PJm000jc",
-                        "order": 10,
-                        "option": "Reishi ‘Micro-Lingzhi’ - functional tonic slices",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PLmN00zx",
-                        "order": 11,
-                        "option": "Maitake ‘Fractal Feathers’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PNcG01kU",
-                        "order": 12,
-                        "option": "Cordyceps Militaris ‘Gold Thread’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2POrA00QT",
-                        "order": 13,
-                        "option": "Shimeji ‘Snow Cluster’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PRhq00DD",
-                        "order": 14,
-                        "option": "King Oyster ‘Stubby-King’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2PVus02Ow",
-                        "order": 15,
-                        "option": "Truffle-Inoculated Herb Pod ‘Nano-Truff’ - white truffle mycorrhiza",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwqxYb02He",
-                "order": 8,
-                "option": "Fish",
-                "nodes": [
-                    {
-                        "key": "q2QFTn02UO",
-                        "order": 1,
-                        "option": "Nano-Tilapia ‘T-Civic’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SK2m00DH",
-                        "order": 2,
-                        "option": "Blue Nile Tilapia ‘BlueBite’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SMff00Q2",
-                        "order": 3,
-                        "option": "City Catfish ‘Air-Breather Mini’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SPJJ01ME",
-                        "order": 4,
-                        "option": "Mini Channel Catfish ‘Pocket Stripe’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SQlx00v1",
-                        "order": 5,
-                        "option": "Herbivore Goldfish ‘FoodFin’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SSRl00F6",
-                        "order": 6,
-                        "option": "Golden Barb ‘Edible-3’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2STjB01sr",
-                        "order": 7,
-                        "option": "Urban Koi ‘Quick-Koi’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SVHl01BK",
-                        "order": 8,
-                        "option": "Dwarf Rainbow Trout ‘CoolStream’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SWcz025n",
-                        "order": 9,
-                        "option": "Nano Carp ‘Silver Byte’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2SYAT02Hc",
-                        "order": 10,
-                        "option": "Micro Gourami ‘Protein Pearl’",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwr4Nv00RI",
-                "order": 9,
-                "option": "Crustaceans",
-                "nodes": [
-                    {
-                        "key": "q2T04e02RH",
-                        "order": 1,
-                        "option": "Freshwater Prawn ‘Pearl-King’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TYHq00JO",
-                        "order": 2,
-                        "option": "Red-Cherry Shrimp ‘Dual-Bite’ - cleanup + protein",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Tapm025o",
-                        "order": 3,
-                        "option": "Amano Shrimp ‘CleanSweep Urban’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TcLf02Iq",
-                        "order": 4,
-                        "option": "Blue Ghost Shrimp ‘Spectra’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TdfX00mn",
-                        "order": 5,
-                        "option": "Mini Crayfish ‘Green-Marble’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TfDw0175",
-                        "order": 6,
-                        "option": "Dwarf Redclaw Crayfish ‘Crimson Pinch’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Tgbo01ED",
-                        "order": 7,
-                        "option": "Nano Lobster ‘Pocket-Lob’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Ti5C001I",
-                        "order": 8,
-                        "option": "Urban Mud Crab ‘Soft-Shell Micro’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TjIU005P",
-                        "order": 9,
-                        "option": "Mini Marron ‘Blue Marronette’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2TklQ00GY",
-                        "order": 10,
-                        "option": "Macrobrachium “Giant Prawn Jr.”",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwr5th01eH",
-                "order": 10,
-                "option": "Molluscs",
-                "nodes": [
-                    {
-                        "key": "q2U23a00y5",
-                        "order": 1,
-                        "option": "Urban Mussel ‘Closed-Sea’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UcfE011r",
-                        "order": 2,
-                        "option": "Manila Clam ‘Metro-Gold’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Uerc01dH",
-                        "order": 3,
-                        "option": "Micro Scallop ‘Sweet-Dot’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UgWi01n3",
-                        "order": 4,
-                        "option": "Pocket Oyster ‘Balconia’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UhtN01Od",
-                        "order": 5,
-                        "option": "Dwarf Razor Clam ‘Nano-Razor’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UjPN01Ek",
-                        "order": 6,
-                        "option": "Hard-Shell Cockle ‘City Cockle’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UkhA005h",
-                        "order": 7,
-                        "option": "Mini Abalone ‘Blue-Ear’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UmCU00N8",
-                        "order": 8,
-                        "option": "Micro Geoduck ‘Short-Duck’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2UnVF02Db",
-                        "order": 9,
-                        "option": "Skyline Surf Clam ‘Surf-Sky’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Uoxt008U",
-                        "order": 10,
-                        "option": "Butter Clam ‘Cream-Dot’\n",
-                        "exitKey": "pxlcBc01Ke"
-                    }
-                ]
-            },
-            {
-                "key": "pwr8vK01oY",
-                "order": 11,
-                "option": "Snails",
-                "nodes": [
-                    {
-                        "key": "q2V8N701nh",
-                        "order": 1,
-                        "option": "Table Snail ‘Helix Max-Mini’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VpeY020L",
-                        "order": 2,
-                        "option": "Burgundy Snail ‘Petit Bourguignon’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VqqF024a",
-                        "order": 3,
-                        "option": "Garden Stripe Snail ‘Brown-Line Nano’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VsI700zT",
-                        "order": 4,
-                        "option": "Dwarf Giant African Snail ‘Chef-Shell’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VtSI02UB",
-                        "order": 5,
-                        "option": "Milk Snail ‘Lactea Urban’",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Vv8y02AF",
-                        "order": 6,
-                        "option": "Golden Apple Snail ‘Gilt Apple Mini’ - semi-aquatic",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VweJ00iW",
-                        "order": 7,
-                        "option": "Mystery Snail ‘Protein Pearl’ - fresh-water cleanup + food",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2Vy2801lP",
-                        "order": 8,
-                        "option": "City Periwinkle ‘Peri-Pocket’ - haloponic, marine",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2VzLh02aI",
-                        "order": 9,
-                        "option": "Mini Whelk ‘Spiral Bite’* - brackish",
-                        "exitKey": "pxlcBc01Ke"
-                    },
-                    {
-                        "key": "q2W0Ss02PH",
-                        "order": 10,
-                        "option": "Striped Nerite ‘Neri-Snack’ - algae grazer & garnish",
-                        "exitKey": "pxlcBc01Ke"
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "pvt6ay026S",
+                                "order": 1,
+                                "option": "Aromatic herbs",
+                                "nodes": [
+                                    {
+                                        "key": "pwsG4d01h5",
+                                        "order": 1,
+                                        "option": "Mini-Sweet Basil 4.1",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkH0P01Lk",
+                                        "order": 2,
+                                        "option": "Purple Holy Basil Duo - green & deep-violet pair",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkV1800Gk",
+                                        "order": 3,
+                                        "option": "Genovese Pesto Mint™ - low-menthol, pesto-friendly",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkbWy012I",
+                                        "order": 4,
+                                        "option": "Citro-Mint - lemon-scented dwarf spearmint",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkhtH00HY",
+                                        "order": 5,
+                                        "option": "Micro-Shiso Mix - green & red perilla",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkk8t00LY",
+                                        "order": 6,
+                                        "option": "Dwarf Thai Coriander ‘Metro-Pak Chee’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkq3L01kB",
+                                        "order": 7,
+                                        "option": "Low-Light Chive / Garlic-Chive Blend",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxktT501CV",
+                                        "order": 8,
+                                        "option": "Lemon Balm ‘Citro-Edge’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkvk400lf",
+                                        "order": 9,
+                                        "option": "Urban Greek Oregano ‘OG-35’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkwPK00DS",
+                                        "order": 10,
+                                        "option": "Creeping Thyme ‘Tiny-Thymus’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxkyfs01K5",
+                                        "order": 11,
+                                        "option": "Sweet Marjoram ‘Marj-Mini’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxl2jl00kO",
+                                        "order": 12,
+                                        "option": "Patio Rosemary ‘AromiStax’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxl5DP01wY",
+                                        "order": 13,
+                                        "option": "Compact Purple Sage ‘Plum-Sage’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxl7nE01ez",
+                                        "order": 14,
+                                        "option": "Balcony Dill ‘Frond-Flash’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxlAjD00XR",
+                                        "order": 15,
+                                        "option": "French Tarragon ‘Narrow-Leaf Nano’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqi4M01Ij",
+                                "order": 2,
+                                "option": "Leafy greens",
+                                "nodes": [
+                                    {
+                                        "key": "pxmO1u01oi",
+                                        "order": 1,
+                                        "option": "Skyline Romaine",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnQ9H00CK",
+                                        "order": 2,
+                                        "option": "Nano-Kale ‘BlueFin’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnSgg00xT",
+                                        "order": 3,
+                                        "option": "Dwarf Bok-Choy ‘Pearl’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnUOO00Yw",
+                                        "order": 4,
+                                        "option": "Butterhead Lettuce ‘Silk-Butter’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnVta02QU",
+                                        "order": 5,
+                                        "option": "Tatsoi ‘Sprint’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnXdB01nU",
+                                        "order": 6,
+                                        "option": "Komatsuna ‘Metro-Spin’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnZ1C00hJ",
+                                        "order": 7,
+                                        "option": "Rainbow Swiss Chard ‘Pixel-Stem’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnagy027X",
+                                        "order": 8,
+                                        "option": "Spinach ‘HeatGuard’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxncA0024s",
+                                        "order": 9,
+                                        "option": "Mizuna ‘Fringe’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxndo2024I",
+                                        "order": 10,
+                                        "option": "Arugula ‘Rocket-Flash’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnfDd00PN",
+                                        "order": 11,
+                                        "option": "Red Leaf Lettuce ‘Ruby Drift’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "pxnghu00n2",
+                                        "order": 12,
+                                        "option": "Watercress ‘Hydro-Pepper’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqiRD00HJ",
+                                "order": 3,
+                                "option": "Fruiting veg",
+                                "nodes": [
+                                    {
+                                        "key": "q2EDLU0011",
+                                        "order": 1,
+                                        "option": "Patio Cherry Tomato ‘Sun-Dot’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2F4ty01HE",
+                                        "order": 2,
+                                        "option": "Micro Roma Tomato ‘Pixel-Plum’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2F7OW00ib",
+                                        "order": 3,
+                                        "option": "Snack Pepper ‘Metro-Sweet’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2F83L02ZL",
+                                        "order": 4,
+                                        "option": "City Chili ‘FireDot’ - compact hot pepper",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FC7V007L",
+                                        "order": 5,
+                                        "option": "Mini Cucumber ‘Rail-Runner’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FDn201dR",
+                                        "order": 6,
+                                        "option": "Dwarf Zucchini ‘City-Zuke’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FFkV00sJ",
+                                        "order": 7,
+                                        "option": "Micro Eggplant ‘Metro-Sakura’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FHJS00Yh",
+                                        "order": 8,
+                                        "option": "Alpine Strawberry ‘EverPink’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FJC400tQ",
+                                        "order": 9,
+                                        "option": "Balcony Melon ‘Honey-Drop’ - mini honeydew",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FKiN029C",
+                                        "order": 10,
+                                        "option": "Snap Pea ‘Skyline Sugar’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FNgq01Ol",
+                                        "order": 11,
+                                        "option": "Dwarf Yard-Long Bean ‘Short-Long’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2FPSc00iq",
+                                        "order": 12,
+                                        "option": "Ground Cherry ‘Urban Lantern’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqiu400wq",
+                                "order": 4,
+                                "option": "Roots & stems",
+                                "nodes": [
+                                    {
+                                        "key": "q2FzPU016K",
+                                        "order": 1,
+                                        "option": "Finger Carrot ‘Neon 5’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2GTEl026r",
+                                        "order": 2,
+                                        "option": "Baby Beet ‘Ruby 2’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2GVYM015u",
+                                        "order": 3,
+                                        "option": "Radish ‘Flash-40’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2GXEY00I1",
+                                        "order": 4,
+                                        "option": "Mini Daikon ‘Metro-White’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2GYd000aB",
+                                        "order": 5,
+                                        "option": "Tokyo Turnip ‘Tiny Kabu’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Gaiu00au",
+                                        "order": 6,
+                                        "option": "Baby Sweet Potato ‘Pocket Yama’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2HhsK0235",
+                                        "order": 7,
+                                        "option": "Water Spinach Stem ‘WS-Lite’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Hjhs01mX",
+                                        "order": 8,
+                                        "option": "Baby Ginger ‘Zingy Core’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Hl7v00yM",
+                                        "order": 9,
+                                        "option": "Young Lotus Root ‘Urban Lotus’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2HmX201cg",
+                                        "order": 10,
+                                        "option": "Dwarf Taro ‘Taro-Tiny’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2HnjE01dk",
+                                        "order": 11,
+                                        "option": "Baby Kohlrabi ‘Mini Stem’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2HpCf018S",
+                                        "order": 12,
+                                        "option": "Compact Celery ‘Stalk-Short’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqjT402Fp",
+                                "order": 5,
+                                "option": "Edible flowers & specialty greens",
+                                "nodes": [
+                                    {
+                                        "key": "q2IbMY00C2",
+                                        "order": 1,
+                                        "option": "Nasturtium ‘Citrus Wheel’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2K3mt021x",
+                                        "order": 2,
+                                        "option": "Pansy ‘Urban-Violet’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2K5NO00Im",
+                                        "order": 3,
+                                        "option": "Calendula ‘Golden Byte’ - pot marigold",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2K6od016G",
+                                        "order": 4,
+                                        "option": "Borage ‘Sky-Blue’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2K7Es02Lp",
+                                        "order": 5,
+                                        "option": "Red Amaranth Micro ‘Ruby Veil’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2K8tO00uc",
+                                        "order": 6,
+                                        "option": "Wasabi Arugula ‘Nano-Wasabi’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KCHc01CY",
+                                        "order": 7,
+                                        "option": "Shungiku ‘Chop-Chop’ - garland chrysanthemum greens",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KEeF01wj",
+                                        "order": 8,
+                                        "option": "Sorrel ‘Lemon Arrow’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KFr600yJ",
+                                        "order": 9,
+                                        "option": "Ice Plant ‘Crystal Leaf’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KGax003V",
+                                        "order": 10,
+                                        "option": "Salad Burnet ‘Cucumber Drop’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KJRY00un",
+                                        "order": 11,
+                                        "option": "Malabar Spinach ‘Ruby Vine’ - vining",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KKw100Lz",
+                                        "order": 12,
+                                        "option": "Purple Oxalis ‘TriStar’ - tangy “sorrel” notes",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KLfB01KB",
+                                        "order": 13,
+                                        "option": "Micro Fenugreek ‘Methi-Micro’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KOHF01t9",
+                                        "order": 14,
+                                        "option": "Rainbow Swiss Chard ‘Pixel-Stem’ - multi-colour stems",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2KOw101mg",
+                                        "order": 15,
+                                        "option": "Edible Viola ‘Midnight Kiss’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqt7W02Yx",
+                                "order": 6,
+                                "option": "Aquatic plants & algae",
+                                "nodes": [
+                                    {
+                                        "key": "q2LHFl02Mf",
+                                        "order": 1,
+                                        "option": "Dwarf Watercress ‘Hydro-Pepper’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Ly9s00zX",
+                                        "order": 2,
+                                        "option": "Duckweed Protein Blend - Lemna × Wolffia hybrid mix",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2M13Q026q",
+                                        "order": 3,
+                                        "option": "Azolla ‘Nitro-Fern Nano’ - floating N-fixing fern",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2M7m802WU",
+                                        "order": 4,
+                                        "option": "Red Macro-Algae ‘Sachi-Nori’ - Porphyra sp. — mini nori sheets",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MAHj028m",
+                                        "order": 5,
+                                        "option": "Spirulina Mat ‘BlueCore’ - edible cyanobacteria",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MBsK00Wr",
+                                        "order": 6,
+                                        "option": "Sea Lettuce ‘Urban Ulva’ - chlorophyte algae strips",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MNJg005y",
+                                        "order": 7,
+                                        "option": "Micro-Kelp ‘Baby Kombu’ - Laminaria micro-cultivar",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MPFK01Gi",
+                                        "order": 8,
+                                        "option": "Salicornia ‘Mini-Marsh’ - salt-tolerant “sea asparagus”",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MQr902Wj",
+                                        "order": 9,
+                                        "option": "Water Spinach ‘Aqua-Morning’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MSBv01Md",
+                                        "order": 10,
+                                        "option": "Frogbit ‘Tiny Shield’ - Limnobium dwarf",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MTp201gE",
+                                        "order": 11,
+                                        "option": "Red Ogo ‘Metro-Ogo’ - Gracilaria cultivar for salads",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2MV9a01bj",
+                                        "order": 12,
+                                        "option": "Micro Lotus ‘Lilypad-8’ - edible shoots & decorative pads",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqvZa01sx",
+                                "order": 7,
+                                "option": "Mushrooms and fungi",
+                                "nodes": [
+                                    {
+                                        "key": "q2OSqL00m8",
+                                        "order": 1,
+                                        "option": "Oyster ‘Pearl-Fog’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2P6XU00BQ",
+                                        "order": 2,
+                                        "option": "Pink Oyster ‘Candy-Cap’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2P8m701q6",
+                                        "order": 3,
+                                        "option": "Lion’s Mane ‘BrainFood L-2’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PAIi01mD",
+                                        "order": 4,
+                                        "option": "Shiitake ‘Urban Log’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PC4D002c",
+                                        "order": 5,
+                                        "option": "Black King Trumpet ‘BK-Mini’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PE0q02UP",
+                                        "order": 6,
+                                        "option": "Enoki ‘Metro-Needle’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PFLA00uO",
+                                        "order": 7,
+                                        "option": "Chestnut Mushroom ‘City-Top’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PGo202Y9",
+                                        "order": 8,
+                                        "option": "Nameko ‘Amber Slick’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PI8801Se",
+                                        "order": 9,
+                                        "option": "Pioppino ‘Brown Beech Nano’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PJm000jc",
+                                        "order": 10,
+                                        "option": "Reishi ‘Micro-Lingzhi’ - functional tonic slices",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PLmN00zx",
+                                        "order": 11,
+                                        "option": "Maitake ‘Fractal Feathers’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PNcG01kU",
+                                        "order": 12,
+                                        "option": "Cordyceps Militaris ‘Gold Thread’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2POrA00QT",
+                                        "order": 13,
+                                        "option": "Shimeji ‘Snow Cluster’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PRhq00DD",
+                                        "order": 14,
+                                        "option": "King Oyster ‘Stubby-King’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2PVus02Ow",
+                                        "order": 15,
+                                        "option": "Truffle-Inoculated Herb Pod ‘Nano-Truff’ - white truffle mycorrhiza",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwqxYb02He",
+                                "order": 8,
+                                "option": "Fish",
+                                "nodes": [
+                                    {
+                                        "key": "q2QFTn02UO",
+                                        "order": 1,
+                                        "option": "Nano-Tilapia ‘T-Civic’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SK2m00DH",
+                                        "order": 2,
+                                        "option": "Blue Nile Tilapia ‘BlueBite’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SMff00Q2",
+                                        "order": 3,
+                                        "option": "City Catfish ‘Air-Breather Mini’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SPJJ01ME",
+                                        "order": 4,
+                                        "option": "Mini Channel Catfish ‘Pocket Stripe’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SQlx00v1",
+                                        "order": 5,
+                                        "option": "Herbivore Goldfish ‘FoodFin’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SSRl00F6",
+                                        "order": 6,
+                                        "option": "Golden Barb ‘Edible-3’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2STjB01sr",
+                                        "order": 7,
+                                        "option": "Urban Koi ‘Quick-Koi’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SVHl01BK",
+                                        "order": 8,
+                                        "option": "Dwarf Rainbow Trout ‘CoolStream’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SWcz025n",
+                                        "order": 9,
+                                        "option": "Nano Carp ‘Silver Byte’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2SYAT02Hc",
+                                        "order": 10,
+                                        "option": "Micro Gourami ‘Protein Pearl’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwr4Nv00RI",
+                                "order": 9,
+                                "option": "Crustaceans",
+                                "nodes": [
+                                    {
+                                        "key": "q2T04e02RH",
+                                        "order": 1,
+                                        "option": "Freshwater Prawn ‘Pearl-King’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TYHq00JO",
+                                        "order": 2,
+                                        "option": "Red-Cherry Shrimp ‘Dual-Bite’ - cleanup + protein",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Tapm025o",
+                                        "order": 3,
+                                        "option": "Amano Shrimp ‘CleanSweep Urban’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TcLf02Iq",
+                                        "order": 4,
+                                        "option": "Blue Ghost Shrimp ‘Spectra’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TdfX00mn",
+                                        "order": 5,
+                                        "option": "Mini Crayfish ‘Green-Marble’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TfDw0175",
+                                        "order": 6,
+                                        "option": "Dwarf Redclaw Crayfish ‘Crimson Pinch’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Tgbo01ED",
+                                        "order": 7,
+                                        "option": "Nano Lobster ‘Pocket-Lob’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Ti5C001I",
+                                        "order": 8,
+                                        "option": "Urban Mud Crab ‘Soft-Shell Micro’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TjIU005P",
+                                        "order": 9,
+                                        "option": "Mini Marron ‘Blue Marronette’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2TklQ00GY",
+                                        "order": 10,
+                                        "option": "Macrobrachium “Giant Prawn Jr.”",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwr5th01eH",
+                                "order": 10,
+                                "option": "Molluscs",
+                                "nodes": [
+                                    {
+                                        "key": "q2U23a00y5",
+                                        "order": 1,
+                                        "option": "Urban Mussel ‘Closed-Sea’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UcfE011r",
+                                        "order": 2,
+                                        "option": "Manila Clam ‘Metro-Gold’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Uerc01dH",
+                                        "order": 3,
+                                        "option": "Micro Scallop ‘Sweet-Dot’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UgWi01n3",
+                                        "order": 4,
+                                        "option": "Pocket Oyster ‘Balconia’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UhtN01Od",
+                                        "order": 5,
+                                        "option": "Dwarf Razor Clam ‘Nano-Razor’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UjPN01Ek",
+                                        "order": 6,
+                                        "option": "Hard-Shell Cockle ‘City Cockle’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UkhA005h",
+                                        "order": 7,
+                                        "option": "Mini Abalone ‘Blue-Ear’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UmCU00N8",
+                                        "order": 8,
+                                        "option": "Micro Geoduck ‘Short-Duck’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2UnVF02Db",
+                                        "order": 9,
+                                        "option": "Skyline Surf Clam ‘Surf-Sky’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Uoxt008U",
+                                        "order": 10,
+                                        "option": "Butter Clam ‘Cream-Dot’\n",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pwr8vK01oY",
+                                "order": 11,
+                                "option": "Snails",
+                                "nodes": [
+                                    {
+                                        "key": "q2V8N701nh",
+                                        "order": 1,
+                                        "option": "Table Snail ‘Helix Max-Mini’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VpeY020L",
+                                        "order": 2,
+                                        "option": "Burgundy Snail ‘Petit Bourguignon’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VqqF024a",
+                                        "order": 3,
+                                        "option": "Garden Stripe Snail ‘Brown-Line Nano’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VsI700zT",
+                                        "order": 4,
+                                        "option": "Dwarf Giant African Snail ‘Chef-Shell’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VtSI02UB",
+                                        "order": 5,
+                                        "option": "Milk Snail ‘Lactea Urban’",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Vv8y02AF",
+                                        "order": 6,
+                                        "option": "Golden Apple Snail ‘Gilt Apple Mini’ - semi-aquatic",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VweJ00iW",
+                                        "order": 7,
+                                        "option": "Mystery Snail ‘Protein Pearl’ - fresh-water cleanup + food",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2Vy2801lP",
+                                        "order": 8,
+                                        "option": "City Periwinkle ‘Peri-Pocket’ - haloponic, marine",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2VzLh02aI",
+                                        "order": 9,
+                                        "option": "Mini Whelk ‘Spiral Bite’* - brackish",
+                                        "exitKey": "pxlcBc01Ke"
+                                    },
+                                    {
+                                        "key": "q2W0Ss02PH",
+                                        "order": 10,
+                                        "option": "Striped Nerite ‘Neri-Snack’ - algae grazer & garnish",
+                                        "exitKey": "pxlcBc01Ke"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -941,11 +954,15 @@
         {
             "key": "δ-pwr4Nv00RI",
             "relativePath": "./δ steps/δ-pwr4Nv00RI.tsstp"
+        },
+        {
+            "key": "δ-q75a3J00zk",
+            "relativePath": "./δ steps/δ-q75a3J00zk.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q2W9oR012L",
-        "editorID": "car_ac2ad68a6449453394e83b595cf91e5a",
-        "ticks": 1754421724155
+        "id": "q7679u00u3",
+        "editorID": "car_a56e863c98e34996b0aa72d53ab18ed8",
+        "ticks": 1754489399106
     }
 }
