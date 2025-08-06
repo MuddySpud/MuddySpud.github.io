@@ -4,7 +4,7 @@
     "name": "OutdoorClimate",
     "created": "2025-07-28T22:31:48.691Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/Ξ OutdoorClimate/OutdoorClimate.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/climate/Ξ OutdoorClimate/OutdoorClimate.tsmap",
     "iText": "Link to 'OutdoorClimate'",
     "iExits": [
         {
@@ -86,8 +86,8 @@
         }
     ],
     "___εdit___": {
-        "id": "pLrL4d1I0",
+        "id": "q7u0Xc2MN",
         "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1753791389883
+        "ticks": 1754501290068
     }
 }

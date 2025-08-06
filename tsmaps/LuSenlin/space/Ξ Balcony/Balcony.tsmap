@@ -10,33 +10,58 @@
         "key": "pRcLec01Z2",
         "nodes": [
             {
-                "key": "pugiLF02It",
+                "key": "q944wV00LG",
                 "order": 1,
-                "option": "Next\n",
+                "option": "Next",
+                "iKey": "q93IOC2Uy",
                 "nodes": [
                     {
-                        "key": "pugd7N01MP",
+                        "key": "q94B4N00RT",
                         "order": 1,
                         "option": "Next",
-                        "iKey": "puJoyS00J4",
+                        "iExitKey": "q93t7602CB",
                         "nodes": [
                             {
-                                "key": "puhQmC01qP",
+                                "key": "q978FU01dZ",
                                 "order": 1,
-                                "option": "Low effort",
-                                "iExitKey": "pugrVO012i"
-                            },
-                            {
-                                "key": "puhQmC00k6",
-                                "order": 2,
-                                "option": "Moderate effort",
-                                "iExitKey": "pugro900Ku"
-                            },
-                            {
-                                "key": "puhQmC01fa",
-                                "order": 3,
-                                "option": "High effort\n",
-                                "iExitKey": "pugs3O02N7"
+                                "option": "Next",
+                                "iKey": "puJoyS00J4",
+                                "nodes": [
+                                    {
+                                        "key": "q97Db700Yt",
+                                        "order": 1,
+                                        "option": "Low effort",
+                                        "iExitKey": "pugrVO012i",
+                                        "nodes": [
+                                            {
+                                                "key": "q97KCH000w",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "iKey": "pv7P9500YG",
+                                                "nodes": [
+                                                    {
+                                                        "key": "q97OPN010C",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "iExitKey": "q7U9Fi02VL"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "q97Db702HW",
+                                        "order": 2,
+                                        "option": "Moderate effort",
+                                        "iExitKey": "pugro900Ku"
+                                    },
+                                    {
+                                        "key": "q97Db702FS",
+                                        "order": 3,
+                                        "option": "High effort\n",
+                                        "iExitKey": "pugs3O02N7"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -50,17 +75,29 @@
             "relativePath": "./δ steps/δ-pRcLec01Z2.tsstp"
         },
         {
-            "key": "δ-pugiLF02It",
-            "relativePath": "./δ steps/δ-pugiLF02It.tsstp"
+            "key": "δ-q944wV00LG",
+            "relativePath": "./δ steps/δ-q944wV00LG.tsstp"
         },
         {
-            "key": "δ-pugd7N01MP",
-            "relativePath": "./δ steps/δ-pugd7N01MP.tsstp"
+            "key": "δ-q94B4N00RT",
+            "relativePath": "./δ steps/δ-q94B4N00RT.tsstp"
+        },
+        {
+            "key": "δ-q978FU01dZ",
+            "relativePath": "./δ steps/δ-q978FU01dZ.tsstp"
+        },
+        {
+            "key": "δ-q97Db700Yt",
+            "relativePath": "./δ steps/δ-q97Db700Yt.tsstp"
+        },
+        {
+            "key": "δ-q97KCH000w",
+            "relativePath": "./δ steps/δ-q97KCH000w.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "puhQmC02SD",
-        "editorID": "car_8b67c993028b47d996c311b72d51e321",
-        "ticks": 1754306200284
+        "id": "q97OPN02b5",
+        "editorID": "car_bf8679c4904c4c88adb42b64ab913ad5",
+        "ticks": 1754519256413
     }
 }

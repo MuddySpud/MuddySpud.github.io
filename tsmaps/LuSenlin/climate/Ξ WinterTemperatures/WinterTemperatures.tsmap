@@ -9,13 +9,8 @@
     "iExits": [
         {
             "key": "pN8iRZ00As",
-            "text": "Temperatures can fall below 10°C",
+            "text": "Next",
             "order": 1
-        },
-        {
-            "key": "pN8unQ0070",
-            "text": "Temperatures never fall below 10°C",
-            "order": 2
         }
     ],
     "___rΩΩt___": {
@@ -24,14 +19,20 @@
             {
                 "key": "pN5MOP02Yo",
                 "order": 1,
-                "option": "Yes temperatures can fall below 10°C",
+                "option": "0°C",
                 "exitKey": "pN8iRZ00As"
             },
             {
                 "key": "pN5a3602WW",
                 "order": 2,
-                "option": "No temperatures never drop below 10°C",
-                "exitKey": "pN8unQ0070"
+                "option": "-10°C",
+                "exitKey": "pN8iRZ00As"
+            },
+            {
+                "key": "q8vEsO01fp",
+                "order": 3,
+                "option": "-20°C",
+                "exitKey": "pN8iRZ00As"
             }
         ]
     },
@@ -42,8 +43,8 @@
         }
     ],
     "___εdit___": {
-        "id": "pd9oL3014H",
-        "editorID": "car_8ce47b558b4c44418cd6e18f2be8293c",
-        "ticks": 1754046989993
+        "id": "q8wcdg02O0",
+        "editorID": "car_a5cf10750a3444ca94b3cbb1775822f3",
+        "ticks": 1754516689508
     }
 }
