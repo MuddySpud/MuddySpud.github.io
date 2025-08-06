@@ -41,22 +41,47 @@
                 ]
             },
             {
-                "key": "q6i2Ta02M5",
+                "key": "q79JOK02QB",
                 "order": 2,
                 "option": "2 modules",
                 "iExitKey": "q6e6nI00dw",
                 "nodes": [
                     {
-                        "key": "q746iw01l6",
+                        "key": "q6i2Ta02M5",
                         "order": 1,
                         "option": "Next",
-                        "iKey": "pvsj6Y01H7",
+                        "iExitKey": "q6e6nI00dw",
                         "nodes": [
                             {
-                                "key": "q74wBv00c7",
+                                "key": "q746iw01l6",
                                 "order": 1,
-                                "option": "Next",
-                                "iExitKey": "pxlcBc01Ke"
+                                "option": "Module 1 product type",
+                                "iKey": "pvsj6Y01H7",
+                                "nodes": [
+                                    {
+                                        "key": "q74wBv00c7",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "iExitKey": "pxlcBc01Ke",
+                                        "nodes": [
+                                            {
+                                                "key": "q78x3J00ED",
+                                                "order": 1,
+                                                "option": "Module 2 product type",
+                                                "iKey": "pvsj6Y01H7",
+                                                "nodes": [
+                                                    {
+                                                        "key": "q798oy01pw",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "iExitKey": "pxlcBc01Ke",
+                                                        "exitKey": "q77eNC003a"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -84,11 +109,23 @@
         {
             "key": "δ-q746iw01l6",
             "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
+        },
+        {
+            "key": "δ-q74wBv00c7",
+            "relativePath": "./δ steps/δ-q74wBv00c7.tsstp"
+        },
+        {
+            "key": "δ-q78x3J00ED",
+            "relativePath": "./δ steps/δ-q78x3J00ED.tsstp"
+        },
+        {
+            "key": "δ-q79JOK02QB",
+            "relativePath": "./δ steps/δ-q79JOK02QB.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q77h8J00Dr",
-        "editorID": "car_f7b5e71cbde043a7becbcad5d48aae73",
-        "ticks": 1754489775719
+        "id": "q7AS5R00gO",
+        "editorID": "me_45efd47a43094d678ffc938516b190e5",
+        "ticks": 1754490432865
     }
 }

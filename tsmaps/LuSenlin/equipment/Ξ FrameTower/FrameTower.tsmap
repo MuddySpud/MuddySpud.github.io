@@ -6,6 +6,13 @@
     "list": true,
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ FrameTower/FrameTower.tsmap",
     "iText": "Link to 'FrameTower'",
+    "iExits": [
+        {
+            "key": "q7U9Fi02VL",
+            "text": "Next",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "pvaPOf01P0",
         "nodes": [
@@ -28,19 +35,14 @@
                                         "key": "q6eQvr026U",
                                         "order": 1,
                                         "option": "Next",
-                                        "iKey": "q6ciG80241",
+                                        "iKey": "q6hsC700VU",
                                         "nodes": [
                                             {
-                                                "key": "q6f7cx00VV",
+                                                "key": "q7Gl6E003t",
                                                 "order": 1,
-                                                "option": "1 module",
-                                                "iExitKey": "q6e5Xy00dF"
-                                            },
-                                            {
-                                                "key": "q6f7cx004R",
-                                                "order": 2,
-                                                "option": "2 modules",
-                                                "iExitKey": "q6e6nI00dw"
+                                                "option": "Next",
+                                                "iExitKey": "q77eNC003a",
+                                                "exitKey": "q7U9Fi02VL"
                                             }
                                         ]
                                     }
@@ -55,19 +57,37 @@
                                         "key": "q6g0hC027l",
                                         "order": 1,
                                         "option": "Next",
-                                        "iKey": "q6ciG80241",
                                         "nodes": [
                                             {
-                                                "key": "q6hCtu01ct",
+                                                "key": "q7Hysw01m9",
                                                 "order": 1,
-                                                "option": "1 module",
-                                                "iExitKey": "q6e5Xy00dF"
-                                            },
-                                            {
-                                                "key": "q6hCtu00TN",
-                                                "order": 2,
-                                                "option": "2 modules",
-                                                "iExitKey": "q6e6nI00dw"
+                                                "option": "Next",
+                                                "iKey": "q6hsC700VU",
+                                                "nodes": [
+                                                    {
+                                                        "key": "q7KmkG02Mw",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "iExitKey": "q77eNC003a",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "q7NdL200Mc",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "iKey": "q6hsC700VU",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "q7ShAk01bP",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iExitKey": "q77eNC003a",
+                                                                        "exitKey": "q7U9Fi02VL"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
@@ -81,7 +101,72 @@
                                     {
                                         "key": "q6hS8n006q",
                                         "order": 1,
-                                        "option": "Next"
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "q7NZCN020x",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "iKey": "q6hsC700VU",
+                                                "nodes": [
+                                                    {
+                                                        "key": "q7SpZb02S1",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "iExitKey": "q77eNC003a",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "q7TKTu01lO",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "iKey": "q6hsC700VU",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "q7Tgit00Uo",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iExitKey": "q77eNC003a",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "q7TkiR019Q",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "iKey": "q6hsC700VU",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "q7Tv8T01DH",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "iExitKey": "q77eNC003a",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "q7TwZn00F1",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "iKey": "q6hsC700VU",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "q7U3Rk00xE",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "iExitKey": "q77eNC003a",
+                                                                                                        "exitKey": "q7U9Fi02VL"
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -123,11 +208,55 @@
         {
             "key": "δ-pva7t100Lv",
             "relativePath": "./δ steps/δ-pva7t100Lv.tsstp"
+        },
+        {
+            "key": "δ-q7Hysw01m9",
+            "relativePath": "./δ steps/δ-q7Hysw01m9.tsstp"
+        },
+        {
+            "key": "δ-q6hS8n006q",
+            "relativePath": "./δ steps/δ-q6hS8n006q.tsstp"
+        },
+        {
+            "key": "δ-q7KmkG02Mw",
+            "relativePath": "./δ steps/δ-q7KmkG02Mw.tsstp"
+        },
+        {
+            "key": "δ-q7NdL200Mc",
+            "relativePath": "./δ steps/δ-q7NdL200Mc.tsstp"
+        },
+        {
+            "key": "δ-q7NZCN020x",
+            "relativePath": "./δ steps/δ-q7NZCN020x.tsstp"
+        },
+        {
+            "key": "δ-q7SpZb02S1",
+            "relativePath": "./δ steps/δ-q7SpZb02S1.tsstp"
+        },
+        {
+            "key": "δ-q7TKTu01lO",
+            "relativePath": "./δ steps/δ-q7TKTu01lO.tsstp"
+        },
+        {
+            "key": "δ-q7Tgit00Uo",
+            "relativePath": "./δ steps/δ-q7Tgit00Uo.tsstp"
+        },
+        {
+            "key": "δ-q7TkiR019Q",
+            "relativePath": "./δ steps/δ-q7TkiR019Q.tsstp"
+        },
+        {
+            "key": "δ-q7Tv8T01DH",
+            "relativePath": "./δ steps/δ-q7Tv8T01DH.tsstp"
+        },
+        {
+            "key": "δ-q7TwZn00F1",
+            "relativePath": "./δ steps/δ-q7TwZn00F1.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q6hSwH02QM",
-        "editorID": "car_fed8207a007a44d1a2999d463b8ce4cf",
-        "ticks": 1754483524629
+        "id": "q7UCrj015K",
+        "editorID": "car_763e08ea1b144f17b11940de8785a962",
+        "ticks": 1754495140915
     }
 }

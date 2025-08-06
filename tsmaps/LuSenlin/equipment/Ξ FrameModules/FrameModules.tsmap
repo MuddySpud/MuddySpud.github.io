@@ -14,7 +14,7 @@
         },
         {
             "key": "q6e6nI00dw",
-            "text": "2 modules",
+            "text": "2 mode",
             "order": 2
         }
     ],
@@ -24,14 +24,12 @@
             {
                 "key": "q6cyYC01gK",
                 "order": 1,
-                "option": "1 Module",
-                "exitKey": "q6e5Xy00dF"
+                "option": "1 Module"
             },
             {
                 "key": "q6ddI0024d",
                 "order": 2,
-                "option": "2 Modules",
-                "exitKey": "q6e6nI00dw"
+                "option": "2 Modules"
             }
         ]
     },
@@ -42,8 +40,8 @@
         }
     ],
     "___εdit___": {
-        "id": "q6e9Ow01vt",
+        "id": "q6e7IG007H",
         "editorID": "car_bd0de098768d49ecadd6eb84c2c92b65",
-        "ticks": 1754482734542
+        "ticks": 1754482726440
     }
 }
