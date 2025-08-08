@@ -15,6 +15,9 @@
     ],
     "___rΩΩt___": {
         "key": "q93IOD0G4",
+        "variable": [
+            "maxTemp"
+        ],
         "nodes": [
             {
                 "key": "q93Lp201zk",
@@ -120,8 +123,8 @@
         }
     ],
     "___εdit___": {
-        "id": "q93wbc01pu",
-        "editorID": "car_017848a4281c486eab443a9ed278bee6",
-        "ticks": 1754518434556
+        "id": "qDJcq601PD",
+        "editorID": "car_cc2efde5fd1a46dabe787d012c944d05",
+        "ticks": 1754581277166
     }
 }

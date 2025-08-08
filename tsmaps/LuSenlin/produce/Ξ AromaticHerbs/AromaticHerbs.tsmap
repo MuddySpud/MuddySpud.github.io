@@ -1,0 +1,38 @@
+{
+    "key": "qHV1iL01dr  ",
+    "token": "Aromaticherbs",
+    "name": "AromaticHerbs",
+    "created": "2025-08-08T08:51:39.737Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ AromaticHerbs/AromaticHerbs.tsmap",
+    "iText": "Link to 'AromaticHerbs'",
+    "iExits": [
+        {
+            "key": "qHVdQu00gQ",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "qHV40G02It",
+        "nodes": [
+            {
+                "key": "qHVFEQ02Ca",
+                "order": 1,
+                "option": "Next",
+                "exitKey": "qHVdQu00gQ"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-qHV40G02It",
+            "relativePath": "./δ steps/δ-qHV40G02It.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qHe9O000HB",
+        "editorID": "car_990117153f064cc9aa53d0cd82aaf7b5",
+        "ticks": 1754645274180
+    }
+}

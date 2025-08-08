@@ -1,0 +1,119 @@
+{
+    "key": "qHd4Ms02JH  ",
+    "token": "Herbselection",
+    "name": "HerbSelection",
+    "created": "2025-08-08T08:51:39.737Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ HerbSelection/HerbSelection.tsmap",
+    "iText": "Link to 'HerbSelection'",
+    "iExits": [
+        {
+            "key": "qHd7uI0AL",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "qHd7uI1Y9",
+        "variable": [
+            "Herb"
+        ],
+        "nodes": [
+            {
+                "key": "qHd7uJ02z",
+                "order": 1,
+                "option": "Mini-Sweet Basil 4.1",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ0Hn",
+                "order": 2,
+                "option": "Purple Holy Basil Duo - green & deep-violet pair",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ1yr",
+                "order": 3,
+                "option": "Genovese Pesto Mint™ - low-menthol, pesto-friendly",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ0uq",
+                "order": 4,
+                "option": "Citro-Mint - lemon-scented dwarf spearmint",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ1Iq",
+                "order": 5,
+                "option": "Micro-Shiso Mix - green & red perilla",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ1S4",
+                "order": 6,
+                "option": "Dwarf Thai Coriander ‘Metro-Pak Chee’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ0wi",
+                "order": 7,
+                "option": "Low-Light Chive / Garlic-Chive Blend",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ2Pm",
+                "order": 8,
+                "option": "Lemon Balm ‘Citro-Edge’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ2F6",
+                "order": 9,
+                "option": "Urban Greek Oregano ‘OG-35’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ14w",
+                "order": 10,
+                "option": "Sweet Marjoram ‘Marj-Mini’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ1tI",
+                "order": 11,
+                "option": "Patio Rosemary ‘AromiStax’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ1RW",
+                "order": 12,
+                "option": "Compact Purple Sage ‘Plum-Sage’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ2BJ",
+                "order": 13,
+                "option": "Balcony Dill ‘Frond-Flash’",
+                "exitKey": "qHd7uI0AL"
+            },
+            {
+                "key": "qHd7uJ2PZ",
+                "order": 14,
+                "option": "French Tarragon ‘Narrow-Leaf Nano’",
+                "exitKey": "qHd7uI0AL"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-qHd7uI1Y9",
+            "relativePath": "./δ steps/δ-qHd7uI1Y9.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qHrvsQ00Ls",
+        "editorID": "car_2a3a6738c8374a308da8b717e35b6bda",
+        "ticks": 1754648558842
+    }
+}

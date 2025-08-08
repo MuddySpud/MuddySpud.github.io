@@ -40,6 +40,9 @@
                                 "key": "puKEWg00dZ",
                                 "order": 1,
                                 "option": "Next",
+                                "variable": [
+                                    "Effort"
+                                ],
                                 "nodes": [
                                     {
                                         "key": "puKHKP01dr",
@@ -86,8 +89,8 @@
         }
     ],
     "___εdit___": {
-        "id": "puh0Ga00J2",
-        "editorID": "car_463bedfb376a42e587cfb3225a738cd2",
-        "ticks": 1754306098380
+        "id": "qDL42Q01vI",
+        "editorID": "car_e39fc44101874b1e8c20363375bbe83b",
+        "ticks": 1754581620046
     }
 }

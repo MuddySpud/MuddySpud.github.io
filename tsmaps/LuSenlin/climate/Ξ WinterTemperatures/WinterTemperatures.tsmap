@@ -15,6 +15,9 @@
     ],
     "___rΩΩt___": {
         "key": "pLv2tN01Bh",
+        "variable": [
+            "minTemp"
+        ],
         "nodes": [
             {
                 "key": "pN5MOP02Yo",
@@ -43,8 +46,8 @@
         }
     ],
     "___εdit___": {
-        "id": "q8wcdg02O0",
-        "editorID": "car_a5cf10750a3444ca94b3cbb1775822f3",
-        "ticks": 1754516689508
+        "id": "qD3hSX01qu",
+        "editorID": "car_b6b2d1fc0fa243aeb593d335660cae89",
+        "ticks": 1754577481677
     }
 }

@@ -22,18 +22,21 @@
                 "order": 1,
                 "option": "1 module",
                 "iExitKey": "q6e5Xy00dF",
+                "variable": [
+                    "Module1"
+                ],
                 "nodes": [
                     {
                         "key": "q6imCX01qm",
                         "order": 1,
                         "option": "Next",
-                        "iKey": "pvsj6Y01H7",
+                        "iKey": "qEBGyN02IY",
                         "nodes": [
                             {
-                                "key": "q73NVB02SX",
+                                "key": "qHtVCf008l",
                                 "order": 1,
                                 "option": "Next",
-                                "iExitKey": "pxlcBc01Ke",
+                                "iExitKey": "qEBLiW03q",
                                 "exitKey": "q77eNC003a"
                             }
                         ]
@@ -51,30 +54,33 @@
                         "order": 1,
                         "option": "Next",
                         "iExitKey": "q6e6nI00dw",
+                        "variable": [
+                            "Module1"
+                        ],
                         "nodes": [
                             {
                                 "key": "q746iw01l6",
                                 "order": 1,
                                 "option": "Module 1 product type",
-                                "iKey": "pvsj6Y01H7",
+                                "iKey": "qEB3Dv007Y",
                                 "nodes": [
                                     {
-                                        "key": "q74wBv00c7",
+                                        "key": "qHviHf02UO",
                                         "order": 1,
                                         "option": "Next",
-                                        "iExitKey": "pxlcBc01Ke",
+                                        "iExitKey": "qEBAUH1Gz",
                                         "nodes": [
                                             {
-                                                "key": "q78x3J00ED",
+                                                "key": "qHvj8N02TX",
                                                 "order": 1,
-                                                "option": "Module 2 product type",
-                                                "iKey": "pvsj6Y01H7",
+                                                "option": "Next",
+                                                "iKey": "qEB3Dv007Y",
                                                 "nodes": [
                                                     {
-                                                        "key": "q798oy01pw",
+                                                        "key": "qHvnBh00in",
                                                         "order": 1,
                                                         "option": "Next",
-                                                        "iExitKey": "pxlcBc01Ke",
+                                                        "iExitKey": "qEBAUH1Gz",
                                                         "exitKey": "q77eNC003a"
                                                     }
                                                 ]
@@ -111,21 +117,21 @@
             "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
         },
         {
-            "key": "δ-q74wBv00c7",
-            "relativePath": "./δ steps/δ-q74wBv00c7.tsstp"
-        },
-        {
-            "key": "δ-q78x3J00ED",
-            "relativePath": "./δ steps/δ-q78x3J00ED.tsstp"
-        },
-        {
             "key": "δ-q79JOK02QB",
             "relativePath": "./δ steps/δ-q79JOK02QB.tsstp"
+        },
+        {
+            "key": "δ-qHviHf02UO",
+            "relativePath": "./δ steps/δ-qHviHf02UO.tsstp"
+        },
+        {
+            "key": "δ-qHvj8N02TX",
+            "relativePath": "./δ steps/δ-qHvj8N02TX.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q7AS5R00gO",
-        "editorID": "me_45efd47a43094d678ffc938516b190e5",
-        "ticks": 1754490432865
+        "id": "qHvoeX01eZ",
+        "editorID": "car_7ff20dd119ee4e80bf9dc3f13ec266ca",
+        "ticks": 1754649484385
     }
 }
