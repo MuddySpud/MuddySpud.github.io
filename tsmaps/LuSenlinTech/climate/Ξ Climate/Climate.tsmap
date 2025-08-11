@@ -9,15 +9,12 @@
     "iExits": [
         {
             "key": "q93t7602CB",
-            "text": "Next (from climate)",
+            "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
         "key": "q93IOD0G4",
-        "variable": [
-            "maxTemp"
-        ],
         "nodes": [
             {
                 "key": "q93Lp201zk",
@@ -123,8 +120,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qaKtcb02EG",
-        "editorID": "car_6fa4c3d46c7b4797868d81dd639b56ae",
-        "ticks": 1754921435733
+        "id": "qbYagN00Gm",
+        "editorID": "car_4f9ea989bb704458b014acf508410b21",
+        "ticks": 1754939475859
     }
 }
