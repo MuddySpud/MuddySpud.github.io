@@ -1,0 +1,96 @@
+{
+    "key": "puJoyS00J4  ",
+    "token": "Clienteffort",
+    "name": "ClientEffort",
+    "created": "2025-08-04T09:42:53.428Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/preferences/Ξ ClientEffort/ClientEffort.tsmap",
+    "iText": "Link to 'ClientEffort'",
+    "iExits": [
+        {
+            "key": "pugrVO012i",
+            "text": "Low effort",
+            "order": 1
+        },
+        {
+            "key": "pugro900Ku",
+            "text": "Moderate effort",
+            "order": 2
+        },
+        {
+            "key": "pugs3O02N7",
+            "text": "High effort\n",
+            "order": 3
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "puJuqN00SE",
+        "nodes": [
+            {
+                "key": "puK8MS00X5",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "puKCZG02KQ",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "puKEWg00dZ",
+                                "order": 1,
+                                "option": "Next",
+                                "variable": [
+                                    "Effort"
+                                ],
+                                "nodes": [
+                                    {
+                                        "key": "puKHKP01dr",
+                                        "order": 1,
+                                        "option": "Low effort - for effortless harvesting",
+                                        "exitKey": "pugrVO012i"
+                                    },
+                                    {
+                                        "key": "puKJO200i0",
+                                        "order": 2,
+                                        "option": "Moderate Effort – For guided involvement",
+                                        "exitKey": "pugro900Ku"
+                                    },
+                                    {
+                                        "key": "puKLE001K5",
+                                        "order": 3,
+                                        "option": "High Effort – For hands-on mastery",
+                                        "exitKey": "pugs3O02N7"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-puJuqN00SE",
+            "relativePath": "./δ steps/δ-puJuqN00SE.tsstp"
+        },
+        {
+            "key": "δ-puK8MS00X5",
+            "relativePath": "./δ steps/δ-puK8MS00X5.tsstp"
+        },
+        {
+            "key": "δ-puKCZG02KQ",
+            "relativePath": "./δ steps/δ-puKCZG02KQ.tsstp"
+        },
+        {
+            "key": "δ-puKEWg00dZ",
+            "relativePath": "./δ steps/δ-puKEWg00dZ.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qa8tdc24E",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1754918575860
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "key": "pRcHa502ST  ",
+    "token": "Balcony",
+    "name": "Balcony",
+    "created": "2025-07-30T11:54:19.553Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
+    "iText": "Link to 'Balcony'",
+    "___rΩΩt___": {
+        "key": "pRcLec01Z2",
+        "nodes": [
+            {
+                "key": "q944wV00LG",
+                "order": 1,
+                "option": "Next",
+                "iKey": "q93IOC2Uy",
+                "nodes": [
+                    {
+                        "key": "q94B4N00RT",
+                        "order": 1,
+                        "option": "Next (from climate)",
+                        "iExitKey": "q93t7602CB",
+                        "nodes": [
+                            {
+                                "key": "q978FU01dZ",
+                                "order": 1,
+                                "option": "Next",
+                                "iKey": "puJoyS00J4",
+                                "nodes": [
+                                    {
+                                        "key": "q97Db700Yt",
+                                        "order": 1,
+                                        "option": "Low effort",
+                                        "iExitKey": "pugrVO012i",
+                                        "nodes": [
+                                            {
+                                                "key": "q97KCH000w",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "iKey": "pv7P9500YG",
+                                                "nodes": [
+                                                    {
+                                                        "key": "q97OPN010C",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "isLeaf": true,
+                                                        "iExitKey": "q7U9Fi02VL"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "q97Db702HW",
+                                        "order": 2,
+                                        "option": "Moderate effort",
+                                        "isLeaf": true,
+                                        "iExitKey": "pugro900Ku"
+                                    },
+                                    {
+                                        "key": "q97Db702FS",
+                                        "order": 3,
+                                        "option": "High effort\n",
+                                        "isLeaf": true,
+                                        "iExitKey": "pugs3O02N7"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pRcLec01Z2",
+            "relativePath": "./δ steps/δ-pRcLec01Z2.tsstp"
+        },
+        {
+            "key": "δ-q944wV00LG",
+            "relativePath": "./δ steps/δ-q944wV00LG.tsstp"
+        },
+        {
+            "key": "δ-q94B4N00RT",
+            "relativePath": "./δ steps/δ-q94B4N00RT.tsstp"
+        },
+        {
+            "key": "δ-q978FU01dZ",
+            "relativePath": "./δ steps/δ-q978FU01dZ.tsstp"
+        },
+        {
+            "key": "δ-q97Db700Yt",
+            "relativePath": "./δ steps/δ-q97Db700Yt.tsstp"
+        },
+        {
+            "key": "δ-q97KCH000w",
+            "relativePath": "./δ steps/δ-q97KCH000w.tsstp"
+        },
+        {
+            "key": "δ-q97OPN010C",
+            "relativePath": "./δ steps/δ-q97OPN010C.tsstp"
+        },
+        {
+            "key": "δ-q97Db702HW",
+            "relativePath": "./δ steps/δ-q97Db702HW.tsstp"
+        },
+        {
+            "key": "δ-q97Db702FS",
+            "relativePath": "./δ steps/δ-q97Db702FS.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qaLnij02OI",
+        "editorID": "me_3fb037ec67294fb783cdfebe2a8fe22f",
+        "ticks": 1754921651377
+    }
+}
