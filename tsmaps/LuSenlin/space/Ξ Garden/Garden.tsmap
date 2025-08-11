@@ -4,9 +4,21 @@
     "name": "Garden",
     "created": "2025-07-30T11:55:08.690Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/location/Ξ Garden/Garden.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/space/Ξ Garden/Garden.tsmap",
     "iText": "Link to 'Garden'",
     "___rΩΩt___": {
-        "key": "pRcWHw02WJ"
+        "key": "pRcWHw02WJ",
+        "isLeaf": true
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pRcWHw02WJ",
+            "relativePath": "./δ steps/δ-pRcWHw02WJ.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qJz4du00fO",
+        "editorID": "car_bb4dc3ac3a5c492bad4ea78b2d4f4969",
+        "ticks": 1754679813506
     }
 }

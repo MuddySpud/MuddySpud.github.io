@@ -1,0 +1,56 @@
+{
+    "v": "1",
+    "r": {
+        "i": "qZgpUy04g",
+        "n": "pRcLec01Z2",
+        "c": 0,
+        "o": [
+            {
+                "i": "qZgpVC29v",
+                "n": "q94B4N00RT",
+                "x": "q93t7602CB",
+                "c": 1,
+                "o": [
+                    {
+                        "i": "qZgpVO0JC",
+                        "n": "q97Db700Yt",
+                        "x": "pugrVO012i",
+                        "c": 2,
+                        "o": [
+                            {
+                                "i": "qZgpVZ2Kj",
+                                "n": "q97OPN010C",
+                                "x": "q7U9Fi02VL"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "qZgpWF15W",
+                        "n": "q97Db702HW",
+                        "x": "pugro900Ku"
+                    },
+                    {
+                        "i": "qZgpWc1Sq",
+                        "n": "q97Db702FS",
+                        "x": "pugs3O02N7"
+                    }
+                ]
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "q93IOC2Uy",
+            "p": "LuSenlin/climate/Climate_frags"
+        },
+        {
+            "i": "puJoyS00J4",
+            "p": "LuSenlin/preferences/ClientEffort_frags"
+        },
+        {
+            "i": "pv7P9500YG",
+            "p": "LuSenlin/equipment/FrameTower_frags"
+        }
+    ],
+    "e": 0
+}

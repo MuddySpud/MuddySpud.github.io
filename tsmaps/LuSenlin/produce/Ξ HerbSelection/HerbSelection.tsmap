@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "qHd7uI1Y9",
+        "isHeadless": true,
         "variable": [
             "Herb"
         ],
@@ -22,7 +23,7 @@
             {
                 "key": "qHd7uJ02z",
                 "order": 1,
-                "option": "Mini-Sweet Basil 4.1",
+                "option": "Mini-Sweet Basil 4.1x",
                 "exitKey": "qHd7uI0AL"
             },
             {
@@ -105,15 +106,10 @@
             }
         ]
     },
-    "___αssεts___": [
-        {
-            "key": "δ-qHd7uI1Y9",
-            "relativePath": "./δ steps/δ-qHd7uI1Y9.tsstp"
-        }
-    ],
+    "___αssεts___": [],
     "___εdit___": {
-        "id": "qHrvsQ00Ls",
-        "editorID": "car_2a3a6738c8374a308da8b717e35b6bda",
-        "ticks": 1754648558842
+        "id": "qZaCKj01te",
+        "editorID": "me_bc0402ead9a24e7ba1fa5fa18bb60d97",
+        "ticks": 1754910306245
     }
 }

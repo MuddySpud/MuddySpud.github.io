@@ -4,9 +4,21 @@
     "name": "WindowlessRoom",
     "created": "2025-07-30T11:55:22.901Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/location/Ξ WindowlessRoom/WindowlessRoom.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/space/Ξ WindowlessRoom/WindowlessRoom.tsmap",
     "iText": "Link to 'WindowlessRoom'",
     "___rΩΩt___": {
-        "key": "pRcaWg02DR"
+        "key": "pRcaWg02DR",
+        "isLeaf": true
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pRcaWg02DR",
+            "relativePath": "./δ steps/δ-pRcaWg02DR.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qJzAKW00hz",
+        "editorID": "car_41cd443c5064473caa0e3180a0e042b5",
+        "ticks": 1754679835368
     }
 }

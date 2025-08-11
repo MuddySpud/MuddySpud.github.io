@@ -54,12 +54,14 @@
                                         "key": "q97Db702HW",
                                         "order": 2,
                                         "option": "Moderate effort",
+                                        "isLeaf": true,
                                         "iExitKey": "pugro900Ku"
                                     },
                                     {
                                         "key": "q97Db702FS",
                                         "order": 3,
                                         "option": "High effort\n",
+                                        "isLeaf": true,
                                         "iExitKey": "pugs3O02N7"
                                     }
                                 ]
@@ -98,11 +100,19 @@
         {
             "key": "δ-q97OPN010C",
             "relativePath": "./δ steps/δ-q97OPN010C.tsstp"
+        },
+        {
+            "key": "δ-q97Db702HW",
+            "relativePath": "./δ steps/δ-q97Db702HW.tsstp"
+        },
+        {
+            "key": "δ-q97Db702FS",
+            "relativePath": "./δ steps/δ-q97Db702FS.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "q97fPf00Du",
-        "editorID": "car_bf8679c4904c4c88adb42b64ab913ad5",
-        "ticks": 1754519321779
+        "id": "qJq1qA01UK",
+        "editorID": "car_72a27eb14319414a8d1988cc5d102928",
+        "ticks": 1754677657782
     }
 }

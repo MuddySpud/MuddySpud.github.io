@@ -7,6 +7,18 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/space/Ξ SunlitRoom/SunlitRoom.tsmap",
     "iText": "Link to 'SunlitRoom'",
     "___rΩΩt___": {
-        "key": "puDAYy00Hw"
+        "key": "puDAYy00Hw",
+        "isLeaf": true
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-puDAYy00Hw",
+            "relativePath": "./δ steps/δ-puDAYy00Hw.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qJz7mK01j0",
+        "editorID": "car_81e539c9a345410597daec17efa29f53",
+        "ticks": 1754679825560
     }
 }

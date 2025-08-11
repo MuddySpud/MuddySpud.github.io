@@ -4,9 +4,21 @@
     "name": "Field",
     "created": "2025-07-30T11:56:45.174Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/location/Ξ Field/Field.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/space/Ξ Field/Field.tsmap",
     "iText": "Link to 'Field'",
     "___rΩΩt___": {
-        "key": "pRcucO02IO"
+        "key": "pRcucO02IO",
+        "isLeaf": true
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-pRcucO02IO",
+            "relativePath": "./δ steps/δ-pRcucO02IO.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qJz1PE02Cy",
+        "editorID": "car_8d4c6ef5a2d54022915416f86e0c8259",
+        "ticks": 1754679801064
     }
 }
