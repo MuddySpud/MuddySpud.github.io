@@ -7,9 +7,9 @@ fragsFolderPath: LuSenlinTech/FoodGrowingSpacePlan_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"qaLtDh0sP","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"qaLtDh0sP","topLevelMapKey":"pLpEsh00Da","mapKeyChain":"pLpEsh00Da","guideID":"qaLtDh1CN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"pLpEsh00Da","isLeaf":false,"options":[{"id":"qaLtEH0Yz","option":"Tiny patio or balcony","isAncillary":false,"order":1},{"id":"qaLtEa2Cn","option":"Garden or small outdoor plot","isAncillary":false,"order":2},{"id":"qaLtEj0k7","option":"Windowless indoor space - large cupboard or cellar","isAncillary":false,"order":3},{"id":"qaLtEv0Sc","option":"Sunlit room with large windows","isAncillary":false,"order":4},{"id":"qaLtF60Hn","option":"Field or small farm","isAncillary":false,"order":5}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"qlz3gR1LW","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"qlz3gR1LW","topLevelMapKey":"pLpEsh00Da","mapKeyChain":"pLpEsh00Da","guideID":"qlz3gR1SQ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"pLpEsh00Da","isLeaf":false,"options":[{"id":"qlzZV00xA","option":"Next","order":1},{"id":"qlznHe0vT","option":"Ancillary","order":2,"isAncillary":true}]}} -->
 
-[<img src="/LuSenlinTech/assets/images/LuSenlin.png">](/LuSenlinTech/assets/images/LuSenlin_white.png){: .pad-top}
+[<img src="/LuSenlinTech/assets/images/LuSenlin_white.png">](/LuSenlinTech/assets/images/LuSenlin_white.png){: .pad-top}
 
 # Lǜ Sēnlín Technologies
 
@@ -23,18 +23,4 @@ Lǜ Sēnlín Technologies empowers millions to grow fresh, nutritious food at ho
  - HarvestSage™ - neural network algorithms that predict and automate growth cycles based on real-time environmental data (e.g., integrating with global weather APIs and local air quality sensors). 
  
  Compact, stackable, energy-efficient, powered by integrated solar microfiber panels or compact fusion-cell batteries. We focus on edible produce inspired by global cuisines—from Beijing’s fresh herbs in hotpots to Tokyo’s shiitake in ramen, Paris’s escargot, or New York’s fusion salads with microgreens and seafood. All our offerings are non-GMO, ethically sourced, and compliant with international biosafety standards. 
-
-## Welcome to Plan Your Food Growing Space with Lǜ Sēnlín
-
-Transform any space into a productive food growing environment with our advanced, modular growing systems. Whether you have a dark apartment, a sunlit balcony, a garden, or a large field, we’ll help you design the perfect setup for fresh vegetables, herbs, mushrooms, fish, and more.
-
-In a few quick choices we’ll match your space, enthusiasm and taste to the ideal modular system. 
-
-**What you'll discover:**
-- Perfect growing methods for your space and climate
-- Optimal plant and aquaculture combinations
-- Smart automation levels that fit your lifestyle
-- Complete system recommendations with pricing
-
-### Let’s start by understanding your available space:
 
