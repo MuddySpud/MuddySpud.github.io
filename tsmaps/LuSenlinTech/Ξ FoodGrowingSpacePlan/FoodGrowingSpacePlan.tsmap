@@ -54,9 +54,41 @@
             {
                 "key": "qkr2ET019d",
                 "order": 2,
-                "option": "Ancillary",
+                "option": "Ancillary solution",
                 "isLeaf": true,
                 "isAncillary": true
+            },
+            {
+                "key": "qsNkx401gn",
+                "order": 3,
+                "option": "Ancillary chain",
+                "nodes": [
+                    {
+                        "key": "qsNtJr00d5",
+                        "order": 1,
+                        "option": "Ancillary chain option 1",
+                        "nodes": [
+                            {
+                                "key": "qxE5jD00eJ",
+                                "order": 1,
+                                "option": "Next"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "qsOGWP02Wv",
+                        "order": 2,
+                        "option": "Ancillary chain option 2",
+                        "isHeadless": true,
+                        "nodes": [
+                            {
+                                "key": "qxFdLM011g",
+                                "order": 1,
+                                "option": "Next"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -92,11 +124,19 @@
         {
             "key": "δ-qkr2ET019d",
             "relativePath": "./δ steps/δ-qkr2ET019d.tsstp"
+        },
+        {
+            "key": "δ-qsNkx401gn",
+            "relativePath": "./δ steps/δ-qsNkx401gn.tsstp"
+        },
+        {
+            "key": "δ-qsNtJr00d5",
+            "relativePath": "./δ steps/δ-qsNtJr00d5.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qlsNOO0208",
-        "editorID": "car_9816c787ad7d45b28544eec31408851f",
-        "ticks": 1755091954692
+        "id": "qxGg6c00FU",
+        "editorID": "car_149d3324a40540578aa84e11a5887294",
+        "ticks": 1755260286194
     }
 }

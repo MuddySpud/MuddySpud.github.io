@@ -4,7 +4,7 @@
     "name": "Frame",
     "created": "2025-08-06T12:33:41.711Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ Frame/Frame.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/Ξ Frame/Frame.tsmap",
     "iText": "Link to 'Frame'",
     "iExits": [
         {
@@ -104,20 +104,20 @@
             "relativePath": "./δ steps/δ-q6i2Ta00Bt.tsstp"
         },
         {
-            "key": "δ-q6i2Ta02M5",
-            "relativePath": "./δ steps/δ-q6i2Ta02M5.tsstp"
-        },
-        {
             "key": "δ-q6imCX01qm",
             "relativePath": "./δ steps/δ-q6imCX01qm.tsstp"
         },
         {
-            "key": "δ-q746iw01l6",
-            "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
-        },
-        {
             "key": "δ-q79JOK02QB",
             "relativePath": "./δ steps/δ-q79JOK02QB.tsstp"
+        },
+        {
+            "key": "δ-q6i2Ta02M5",
+            "relativePath": "./δ steps/δ-q6i2Ta02M5.tsstp"
+        },
+        {
+            "key": "δ-q746iw01l6",
+            "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
         },
         {
             "key": "δ-qHviHf02UO",
@@ -129,8 +129,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qZgleg00zi",
-        "editorID": "me_83311bd5845d4d8285c313f34cbc577f",
-        "ticks": 1754911871990
+        "id": "qwq5ks1Pz",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1755253949934
     }
 }
