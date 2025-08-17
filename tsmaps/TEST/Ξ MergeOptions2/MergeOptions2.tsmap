@@ -1,0 +1,66 @@
+{
+    "key": "qypFxM02XQ  ",
+    "token": "Mergeoptions2",
+    "name": "MergeOptions2",
+    "created": "2025-08-15T18:41:43.492Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MergeOptions2/MergeOptions2.tsmap",
+    "iText": "Link to 'MergeOptions2'",
+    "___rΩΩt___": {
+        "key": "qypH8G00D0",
+        "nodes": [
+            {
+                "key": "qypNxO01PO",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "qypV7K00BY",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "qypaKC00SU",
+                                "order": 1,
+                                "option": "Next",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "qypivY0291",
+                "order": 2,
+                "option": "Next 2",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-qypH8G00D0",
+            "relativePath": "./δ steps/δ-qypH8G00D0.tsstp"
+        },
+        {
+            "key": "δ-qypNxO01PO",
+            "relativePath": "./δ steps/δ-qypNxO01PO.tsstp"
+        },
+        {
+            "key": "δ-qypV7K00BY",
+            "relativePath": "./δ steps/δ-qypV7K00BY.tsstp"
+        },
+        {
+            "key": "δ-qypaKC00SU",
+            "relativePath": "./δ steps/δ-qypaKC00SU.tsstp"
+        },
+        {
+            "key": "δ-qypivY0291",
+            "relativePath": "./δ steps/δ-qypivY0291.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "qyplxn01Ik",
+        "editorID": "car_32d176aa1e984a729a9aa850fdf48769",
+        "ticks": 1755283426527
+    }
+}

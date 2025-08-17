@@ -62,31 +62,19 @@
                 "key": "qsNkx401gn",
                 "order": 3,
                 "option": "Ancillary chain",
+                "isAncillary": true,
                 "nodes": [
                     {
                         "key": "qsNtJr00d5",
                         "order": 1,
                         "option": "Ancillary chain option 1",
-                        "nodes": [
-                            {
-                                "key": "qxE5jD00eJ",
-                                "order": 1,
-                                "option": "Next"
-                            }
-                        ]
+                        "isLeaf": true
                     },
                     {
                         "key": "qsOGWP02Wv",
                         "order": 2,
                         "option": "Ancillary chain option 2",
-                        "isHeadless": true,
-                        "nodes": [
-                            {
-                                "key": "qxFdLM011g",
-                                "order": 1,
-                                "option": "Next"
-                            }
-                        ]
+                        "isLeaf": true
                     }
                 ]
             }
@@ -132,11 +120,15 @@
         {
             "key": "δ-qsNtJr00d5",
             "relativePath": "./δ steps/δ-qsNtJr00d5.tsstp"
+        },
+        {
+            "key": "δ-qsOGWP02Wv",
+            "relativePath": "./δ steps/δ-qsOGWP02Wv.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qxGg6c00FU",
-        "editorID": "car_149d3324a40540578aa84e11a5887294",
-        "ticks": 1755260286194
+        "id": "qxpBSS00Ms",
+        "editorID": "car_64170cf18ed14a559c601bbe9befc1d3",
+        "ticks": 1755268509864
     }
 }
