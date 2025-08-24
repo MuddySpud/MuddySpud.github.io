@@ -4,7 +4,7 @@
     "name": "ProductTypes1000",
     "created": "2025-08-04T16:07:48.683Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ ProductTypes1000/ProductTypes1000.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ ProductTypes1000/ProductTypes1000.tsmap",
     "iText": "Link to 'ProduceTypes1000'",
     "iExits": [
         {
@@ -977,46 +977,6 @@
             "relativePath": "./δ steps/δ-qEBLiW29v.tsstp"
         },
         {
-            "key": "δ-qEBLiW1gW",
-            "relativePath": "./δ steps/δ-qEBLiW1gW.tsstp"
-        },
-        {
-            "key": "δ-qEBLiW0ev",
-            "relativePath": "./δ steps/δ-qEBLiW0ev.tsstp"
-        },
-        {
-            "key": "δ-qEBLiW0CP",
-            "relativePath": "./δ steps/δ-qEBLiW0CP.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX0e8",
-            "relativePath": "./δ steps/δ-qEBLiX0e8.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX0qR",
-            "relativePath": "./δ steps/δ-qEBLiX0qR.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX0fe",
-            "relativePath": "./δ steps/δ-qEBLiX0fe.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX1mX",
-            "relativePath": "./δ steps/δ-qEBLiX1mX.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX2Dk",
-            "relativePath": "./δ steps/δ-qEBLiX2Dk.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX1WD",
-            "relativePath": "./δ steps/δ-qEBLiX1WD.tsstp"
-        },
-        {
-            "key": "δ-qEBLiX1Hy",
-            "relativePath": "./δ steps/δ-qEBLiX1Hy.tsstp"
-        },
-        {
             "key": "δ-qEC3bj01tr",
             "relativePath": "./δ steps/δ-qEC3bj01tr.tsstp"
         },
@@ -1071,11 +1031,51 @@
         {
             "key": "δ-qHrGgP014I",
             "relativePath": "./δ steps/δ-qHrGgP014I.tsstp"
+        },
+        {
+            "key": "δ-qEBLiW1gW",
+            "relativePath": "./δ steps/δ-qEBLiW1gW.tsstp"
+        },
+        {
+            "key": "δ-qEBLiW0ev",
+            "relativePath": "./δ steps/δ-qEBLiW0ev.tsstp"
+        },
+        {
+            "key": "δ-qEBLiW0CP",
+            "relativePath": "./δ steps/δ-qEBLiW0CP.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX0e8",
+            "relativePath": "./δ steps/δ-qEBLiX0e8.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX0qR",
+            "relativePath": "./δ steps/δ-qEBLiX0qR.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX0fe",
+            "relativePath": "./δ steps/δ-qEBLiX0fe.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX1mX",
+            "relativePath": "./δ steps/δ-qEBLiX1mX.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX2Dk",
+            "relativePath": "./δ steps/δ-qEBLiX2Dk.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX1WD",
+            "relativePath": "./δ steps/δ-qEBLiX1WD.tsstp"
+        },
+        {
+            "key": "δ-qEBLiX1Hy",
+            "relativePath": "./δ steps/δ-qEBLiX1Hy.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qZbfxR00GR",
-        "editorID": "me_13683753fd464ecb85235f0869b5c525",
-        "ticks": 1754910658449
+        "id": "rR0ew30BU",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1755699758527
     }
 }

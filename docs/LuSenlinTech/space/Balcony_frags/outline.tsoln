@@ -1,38 +1,56 @@
 {
     "v": "1",
     "r": {
-        "i": "qxpa8i1KE",
+        "i": "rT7JqF23E",
         "n": "pRcLec01Z2",
-        "c": 0,
         "o": [
             {
-                "i": "qxpa8p27Q",
-                "n": "q94B4N00RT",
-                "x": "q93t7602CB",
-                "c": 1,
+                "i": "rT7JqL1wm",
+                "n": "q944wV00LG",
+                "c": 0,
                 "o": [
                     {
-                        "i": "qxpa8v2Bn",
-                        "n": "q97Db700Yt",
-                        "x": "pugrVO012i",
-                        "c": 2,
+                        "i": "rT7JqL03S",
+                        "n": "q94B4N00RT",
+                        "x": "q93t7602CB",
                         "o": [
                             {
-                                "i": "qxpa972Ru",
-                                "n": "q97OPN010C",
-                                "x": "q7U9Fi02VL"
+                                "i": "rT7JqQ1gm",
+                                "n": "q978FU01dZ",
+                                "c": 1,
+                                "o": [
+                                    {
+                                        "i": "rT7JqR1Pa",
+                                        "n": "q97Db700Yt",
+                                        "x": "pugrVO012i",
+                                        "o": [
+                                            {
+                                                "i": "rT7JqV04E",
+                                                "n": "q97KCH000w",
+                                                "c": 2,
+                                                "o": [
+                                                    {
+                                                        "i": "rT7JqV0qZ",
+                                                        "n": "q97OPN010C",
+                                                        "x": "q7U9Fi02VL"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "i": "rT7Jr10zL",
+                                        "n": "q97Db702HW",
+                                        "x": "pugro900Ku"
+                                    },
+                                    {
+                                        "i": "rT7JrJ10y",
+                                        "n": "q97Db702FS",
+                                        "x": "pugs3O02N7"
+                                    }
+                                ]
                             }
                         ]
-                    },
-                    {
-                        "i": "qxpa9b1Y7",
-                        "n": "q97Db702HW",
-                        "x": "pugro900Ku"
-                    },
-                    {
-                        "i": "qxpaA92J7",
-                        "n": "q97Db702FS",
-                        "x": "pugs3O02N7"
                     }
                 ]
             }
@@ -52,5 +70,11 @@
             "p": "LuSenlinTech/equipment/FrameTower_frags"
         }
     ],
-    "e": 0
+    "e": 0,
+    "mv": {
+        "spaceDisplayText": "patio  or balcony",
+        "lowEffortPriceStart": "¥800/month",
+        "moderateEffortPriceStart": "¥600/month",
+        "highEffortPriceStart": "¥400/month"
+    }
 }

@@ -29,17 +29,14 @@
             {
                 "key": "puK8MS00X5",
                 "order": 1,
-                "option": "Next",
                 "nodes": [
                     {
                         "key": "puKCZG02KQ",
                         "order": 1,
-                        "option": "Next",
                         "nodes": [
                             {
                                 "key": "puKEWg00dZ",
                                 "order": 1,
-                                "option": "Next",
                                 "variable": [
                                     "Effort"
                                 ],
@@ -63,8 +60,37 @@
                                         "exitKey": "pugs3O02N7"
                                     }
                                 ]
+                            },
+                            {
+                                "key": "rQ9R3q01Qn",
+                                "order": 2,
+                                "option": "Details",
+                                "isLeaf": true,
+                                "isAncillary": true
                             }
                         ]
+                    },
+                    {
+                        "key": "rQ9Dmv0024",
+                        "order": 2,
+                        "option": "Details",
+                        "isLeaf": true,
+                        "isAncillary": true
+                    }
+                ]
+            },
+            {
+                "key": "rQ8n0W018f",
+                "order": 2,
+                "option": "Details",
+                "isAncillary": true,
+                "nodes": [
+                    {
+                        "key": "rQALQD02W0",
+                        "order": 1,
+                        "option": "PureLight™",
+                        "isLeaf": true,
+                        "isAncillary": true
                     }
                 ]
             }
@@ -86,11 +112,27 @@
         {
             "key": "δ-puKEWg00dZ",
             "relativePath": "./δ steps/δ-puKEWg00dZ.tsstp"
+        },
+        {
+            "key": "δ-rQ8n0W018f",
+            "relativePath": "./δ steps/δ-rQ8n0W018f.tsstp"
+        },
+        {
+            "key": "δ-rQ9Dmv0024",
+            "relativePath": "./δ steps/δ-rQ9Dmv0024.tsstp"
+        },
+        {
+            "key": "δ-rQ9R3q01Qn",
+            "relativePath": "./δ steps/δ-rQ9R3q01Qn.tsstp"
+        },
+        {
+            "key": "δ-rQALQD02W0",
+            "relativePath": "./δ steps/δ-rQALQD02W0.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qa8tdc24E",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1754918575860
+        "id": "rQmKlc01MQ",
+        "editorID": "car_4441dd08e1c749f08232dda88dea7062",
+        "ticks": 1755696344408
     }
 }

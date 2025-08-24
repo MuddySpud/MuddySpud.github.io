@@ -4,7 +4,7 @@
     "name": "FrameTower",
     "created": "2025-08-04T12:59:50.543Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ FrameTower/FrameTower.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/Ξ FrameTower/FrameTower.tsmap",
     "iText": "Link to 'FrameTower'",
     "iExits": [
         {
@@ -197,28 +197,20 @@
             "relativePath": "./δ steps/δ-pv7aq201Z4.tsstp"
         },
         {
-            "key": "δ-pva7YY00Fz",
-            "relativePath": "./δ steps/δ-pva7YY00Fz.tsstp"
-        },
-        {
             "key": "δ-q6eQvr026U",
             "relativePath": "./δ steps/δ-q6eQvr026U.tsstp"
+        },
+        {
+            "key": "δ-pva7YY00Fz",
+            "relativePath": "./δ steps/δ-pva7YY00Fz.tsstp"
         },
         {
             "key": "δ-q6g0hC027l",
             "relativePath": "./δ steps/δ-q6g0hC027l.tsstp"
         },
         {
-            "key": "δ-pva7t100Lv",
-            "relativePath": "./δ steps/δ-pva7t100Lv.tsstp"
-        },
-        {
             "key": "δ-q7Hysw01m9",
             "relativePath": "./δ steps/δ-q7Hysw01m9.tsstp"
-        },
-        {
-            "key": "δ-q6hS8n006q",
-            "relativePath": "./δ steps/δ-q6hS8n006q.tsstp"
         },
         {
             "key": "δ-q7KmkG02Mw",
@@ -227,6 +219,14 @@
         {
             "key": "δ-q7NdL200Mc",
             "relativePath": "./δ steps/δ-q7NdL200Mc.tsstp"
+        },
+        {
+            "key": "δ-pva7t100Lv",
+            "relativePath": "./δ steps/δ-pva7t100Lv.tsstp"
+        },
+        {
+            "key": "δ-q6hS8n006q",
+            "relativePath": "./δ steps/δ-q6hS8n006q.tsstp"
         },
         {
             "key": "δ-q7NZCN020x",
@@ -258,8 +258,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qDKqmK00HK",
-        "editorID": "car_fe590e7158bf495c817d97c09287ac88",
-        "ticks": 1754581569076
+        "id": "r8ugci2C5",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1755432361000
     }
 }

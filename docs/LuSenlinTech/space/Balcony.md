@@ -7,6 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Balcony_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"qxpa8i1KE","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"qxpa8i1KE","topLevelMapKey":"pRcHa502ST","mapKeyChain":"pRcHa502ST","guideID":"qxpa8i0gk","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"pRcHa502ST","isLeaf":false,"options":[{"id":"qxpa8p27Q","option":"Next","iExitKey":"q93t7602CB","order":1}],"iKey":"q93IOC2Uy"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"rT7JqF23E","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"rT7JqF23E","topLevelMapKey":"pRcHa502ST","mapKeyChain":"pRcHa502ST","guideID":"rT7JqF2ak","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"pRcHa502ST","isLeaf":false,"options":[{"id":"rT7JqL1wm","order":1}]}} -->
 
-TODO
+### The Tiny Patio or Balcony Climate
+

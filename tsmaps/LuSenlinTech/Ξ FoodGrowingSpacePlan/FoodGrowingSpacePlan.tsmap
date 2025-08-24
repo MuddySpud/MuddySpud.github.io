@@ -12,7 +12,6 @@
             {
                 "key": "pLpL1601oU",
                 "order": 1,
-                "option": "Next",
                 "nodes": [
                     {
                         "key": "pLpNrN01Ad",
@@ -54,29 +53,9 @@
             {
                 "key": "qkr2ET019d",
                 "order": 2,
-                "option": "Ancillary solution",
+                "option": "About Lǜ Sēnlín technologies",
                 "isLeaf": true,
                 "isAncillary": true
-            },
-            {
-                "key": "qsNkx401gn",
-                "order": 3,
-                "option": "Ancillary chain",
-                "isAncillary": true,
-                "nodes": [
-                    {
-                        "key": "qsNtJr00d5",
-                        "order": 1,
-                        "option": "Ancillary chain option 1",
-                        "isLeaf": true
-                    },
-                    {
-                        "key": "qsOGWP02Wv",
-                        "order": 2,
-                        "option": "Ancillary chain option 2",
-                        "isLeaf": true
-                    }
-                ]
             }
         ]
     },
@@ -112,23 +91,11 @@
         {
             "key": "δ-qkr2ET019d",
             "relativePath": "./δ steps/δ-qkr2ET019d.tsstp"
-        },
-        {
-            "key": "δ-qsNkx401gn",
-            "relativePath": "./δ steps/δ-qsNkx401gn.tsstp"
-        },
-        {
-            "key": "δ-qsNtJr00d5",
-            "relativePath": "./δ steps/δ-qsNtJr00d5.tsstp"
-        },
-        {
-            "key": "δ-qsOGWP02Wv",
-            "relativePath": "./δ steps/δ-qsOGWP02Wv.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qxpBSS00Ms",
-        "editorID": "car_64170cf18ed14a559c601bbe9befc1d3",
-        "ticks": 1755268509864
+        "id": "r8rFjJ002o",
+        "editorID": "car_92adfe70302c4baebc4afcf88974c8fe",
+        "ticks": 1755431542637
     }
 }
