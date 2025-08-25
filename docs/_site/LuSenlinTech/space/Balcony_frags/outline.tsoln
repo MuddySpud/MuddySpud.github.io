@@ -1,51 +1,58 @@
 {
     "v": "1",
     "r": {
-        "i": "rT7JqF23E",
+        "i": "rqZtxx157",
         "n": "pRcLec01Z2",
         "o": [
             {
-                "i": "rT7JqL1wm",
+                "i": "rqZty311b",
                 "n": "q944wV00LG",
                 "c": 0,
                 "o": [
                     {
-                        "i": "rT7JqL03S",
+                        "i": "rqZty30vE",
                         "n": "q94B4N00RT",
                         "x": "q93t7602CB",
                         "o": [
                             {
-                                "i": "rT7JqQ1gm",
-                                "n": "q978FU01dZ",
+                                "i": "rqZtyG1gh",
+                                "n": "rqVv4l00yw",
                                 "c": 1,
                                 "o": [
                                     {
-                                        "i": "rT7JqR1Pa",
-                                        "n": "q97Db700Yt",
+                                        "i": "rqZtyG1Qn",
+                                        "n": "rqW3KW00sS",
                                         "x": "pugrVO012i",
+                                        "c": 2,
                                         "o": [
                                             {
-                                                "i": "rT7JqV04E",
-                                                "n": "q97KCH000w",
-                                                "c": 2,
+                                                "i": "rqZtyG1xN",
+                                                "n": "rqWKYC01gw",
+                                                "x": "q7U9Fi02VL",
+                                                "c": 3,
                                                 "o": [
                                                     {
-                                                        "i": "rT7JqV0qZ",
-                                                        "n": "q97OPN010C",
-                                                        "x": "q7U9Fi02VL"
+                                                        "i": "rqZtyG0ww",
+                                                        "n": "rqWOiE012L",
+                                                        "x": "rpvlz60226"
+                                                    },
+                                                    {
+                                                        "i": "rqZtyW0fk",
+                                                        "n": "rqWOiE02Ng",
+                                                        "x": "rpvtlF00EO"
                                                     }
                                                 ]
                                             }
                                         ]
                                     },
                                     {
-                                        "i": "rT7Jr10zL",
-                                        "n": "q97Db702HW",
+                                        "i": "rqZtz20Qv",
+                                        "n": "rqW3KW01X5",
                                         "x": "pugro900Ku"
                                     },
                                     {
-                                        "i": "rT7JrJ10y",
-                                        "n": "q97Db702FS",
+                                        "i": "rqZtzF2Y1",
+                                        "n": "rqW3KW015m",
                                         "x": "pugs3O02N7"
                                     }
                                 ]
@@ -68,6 +75,10 @@
         {
             "i": "pv7P9500YG",
             "p": "LuSenlinTech/equipment/FrameTower_frags"
+        },
+        {
+            "i": "rp5C2001Xy",
+            "p": "LuSenlinTech/equipment/Power_frags"
         }
     ],
     "e": 0,

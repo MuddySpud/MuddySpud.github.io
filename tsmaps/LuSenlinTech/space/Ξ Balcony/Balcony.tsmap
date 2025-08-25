@@ -21,43 +21,57 @@
                         "iExitKey": "q93t7602CB",
                         "nodes": [
                             {
-                                "key": "q978FU01dZ",
+                                "key": "rqVv4l00yw",
                                 "order": 1,
-                                "option": "Next",
                                 "iKey": "puJoyS00J4",
                                 "nodes": [
                                     {
-                                        "key": "q97Db700Yt",
+                                        "key": "rqW3KW00sS",
                                         "order": 1,
                                         "option": "Low effort",
                                         "iExitKey": "pugrVO012i",
                                         "nodes": [
                                             {
-                                                "key": "q97KCH000w",
+                                                "key": "rqosUK01Bl",
                                                 "order": 1,
-                                                "option": "Next",
                                                 "iKey": "pv7P9500YG",
                                                 "nodes": [
                                                     {
-                                                        "key": "q97OPN010C",
+                                                        "key": "rqpliI019O",
                                                         "order": 1,
                                                         "option": "Next",
-                                                        "isLeaf": true,
-                                                        "iExitKey": "q7U9Fi02VL"
+                                                        "iKey": "rp5C2001Xy",
+                                                        "iExitKey": "q7U9Fi02VL",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "rqpprh009d",
+                                                                "order": 1,
+                                                                "option": "Has power supply",
+                                                                "isLeaf": true,
+                                                                "iExitKey": "rpvlz60226"
+                                                            },
+                                                            {
+                                                                "key": "rqpprh00ab",
+                                                                "order": 2,
+                                                                "option": "No power supply",
+                                                                "isLeaf": true,
+                                                                "iExitKey": "rpvtlF00EO"
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
                                         ]
                                     },
                                     {
-                                        "key": "q97Db702HW",
+                                        "key": "rqW3KW01X5",
                                         "order": 2,
                                         "option": "Moderate effort",
                                         "isLeaf": true,
                                         "iExitKey": "pugro900Ku"
                                     },
                                     {
-                                        "key": "q97Db702FS",
+                                        "key": "rqW3KW015m",
                                         "order": 3,
                                         "option": "High effort\n",
                                         "isLeaf": true,
@@ -85,33 +99,41 @@
             "relativePath": "./δ steps/δ-q94B4N00RT.tsstp"
         },
         {
-            "key": "δ-q978FU01dZ",
-            "relativePath": "./δ steps/δ-q978FU01dZ.tsstp"
+            "key": "δ-rqVv4l00yw",
+            "relativePath": "./δ steps/δ-rqVv4l00yw.tsstp"
         },
         {
-            "key": "δ-q97Db700Yt",
-            "relativePath": "./δ steps/δ-q97Db700Yt.tsstp"
+            "key": "δ-rqW3KW00sS",
+            "relativePath": "./δ steps/δ-rqW3KW00sS.tsstp"
         },
         {
-            "key": "δ-q97KCH000w",
-            "relativePath": "./δ steps/δ-q97KCH000w.tsstp"
+            "key": "δ-rqW3KW01X5",
+            "relativePath": "./δ steps/δ-rqW3KW01X5.tsstp"
         },
         {
-            "key": "δ-q97OPN010C",
-            "relativePath": "./δ steps/δ-q97OPN010C.tsstp"
+            "key": "δ-rqW3KW015m",
+            "relativePath": "./δ steps/δ-rqW3KW015m.tsstp"
         },
         {
-            "key": "δ-q97Db702HW",
-            "relativePath": "./δ steps/δ-q97Db702HW.tsstp"
+            "key": "δ-rqosUK01Bl",
+            "relativePath": "./δ steps/δ-rqosUK01Bl.tsstp"
         },
         {
-            "key": "δ-q97Db702FS",
-            "relativePath": "./δ steps/δ-q97Db702FS.tsstp"
+            "key": "δ-rqpliI019O",
+            "relativePath": "./δ steps/δ-rqpliI019O.tsstp"
+        },
+        {
+            "key": "δ-rqpprh009d",
+            "relativePath": "./δ steps/δ-rqpprh009d.tsstp"
+        },
+        {
+            "key": "δ-rqpprh00ab",
+            "relativePath": "./δ steps/δ-rqpprh00ab.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "rQ5pcX007K",
-        "editorID": "car_908c47c5cac7459ab513c767032ff3eb",
-        "ticks": 1755686214905
+        "id": "rqptha010w",
+        "editorID": "car_1f09b3b03a1e4bcdbcd73e16e9725dc4",
+        "ticks": 1756081378418
     }
 }

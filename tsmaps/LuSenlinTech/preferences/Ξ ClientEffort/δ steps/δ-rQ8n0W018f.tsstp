@@ -1,5 +1,13 @@
-| Low Effort | Moderate Effort | High effort  |
-|----------|----------|---------|
-| <h3>Key Features:</h3><ul><li>Fully automated stackable PureLight™ units.</li><li>Self-regulating water, lighting, feeding, climate and ventilation/air filtration.</li><li>Plug-and-play setup</li><li>Neural AI handling seeding, watering, pest control, and harvesting cues.</li><li>Community Hub - share recipes and trade produce with neighbors.</li><li>Time Needed **< 5 min / week** </li> | <h3>Key Features:</h3><ul><li>Core Automation - same robotics and app-integrated sensors as Low-Effort tier.</li><li>AI suggested actions, but you can override for personalization (e.g., via AR tutorials).</li><li>Your Touch - weekly nutrient-pod refill, quick pruning, optional reseeding.</li><li>Effort-scaling modes let you dial automation up or down.</li><li>Community Hub - share recipes and trade produce with neighbors.</li><li>Time Needed **≈ 30 min / week** <br> | #### Key Features: </li><li>Core Automation - same robotics and app-integrated sensors as Low-Effort tier.</li><li>Customizable kits (e.g., manual-override water pumps, build-your-own LED arrays, and open-source AI firmware)</li><li>Add-ons like bio-printers for seeds or genetic scanners for hybrids.</li><li>Effort-scaling modes let you dial automation up or down.</li><li>Community Hub - share recipes and trade produce with neighbours.</li><li>Time Needed **2–5 hrs / week** (or as deep as you want)</li></ul> |
-| <h3>Service Model:</h3><ul><li>Our expert team delivers and installs the full system at your home for zero-effort setup.</li><li>Fortnightly drone swap-outs of pre-seeded, pre-cycled modules (e.g., hydroponic herb pods or aquaponic shrimp tanks). We handle swaps, cleaning, and reseeding — you get alerts for zero-effort maintenance.</li></ul> | <h3>Service Model:</h3><ul><li>Self-assembly stackable PureLight™ units.</li><li>Monthly consumable deliveries (e.g., nutrient packs or juvenile crayfish).</li><li>Monthly virtual agronomist consultations.</li></ul> | <h3>Service Model:</h3><ul><li>Flat-pack frames, 4D-printed plumbing, open firmware.</li><li>Sensor Suite - nitrate, ORP, VOC, spore, CO₂ — all exposed via API.</li><li>Bio-Bank Access - Seed & brood-stock library; CRISPR-ready lines (where legal).</li><li>Training & Cert - On-site or VR workshops; “Balcony Agronomist” certificate path.</li><li>Beta Privileges - Early hardware drops at cost; community marketplace for mods.</li><li>Initial kits via courier, plus bulk supplies and access to our "Innovation Hub" (tutorials, 3D-printable parts, peer challenges).</li><li>Quarterly upgrade swaps for new prototypes.</li></ul> |
+###### Key Features: 
 
+- Fully automated stackable PureLight™ units.
+- Self-regulating water, lighting, feeding, climate and ventilation/air filtration.
+- Plug-and-play setup.
+- Neural AI handling seeding, watering, pest control, and harvesting cues.
+- Community Hub - share recipes and trade produce with neighbours.
+- Time Needed **< 5 min / week**.
+
+###### Service Model: 
+
+- Our expert team delivers and installs the full system at your home for zero-effort setup.
+- Fortnightly drone swap-outs of pre-seeded, pre-cycled modules (e.g., hydroponic herb pods or aquaponic shrimp tanks). We handle swaps, cleaning, and reseeding — you get alerts for zero-effort maintenance.

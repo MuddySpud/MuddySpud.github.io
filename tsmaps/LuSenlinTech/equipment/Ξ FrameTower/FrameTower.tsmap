@@ -17,76 +17,64 @@
         "key": "pvaPOf01P0",
         "nodes": [
             {
-                "key": "pvaXi201td",
+                "key": "pv7Tr400j0",
                 "order": 1,
-                "option": "Next",
+                "variable": [
+                    "FrameCount"
+                ],
                 "nodes": [
                     {
-                        "key": "pv7Tr400j0",
+                        "key": "pv7aq201Z4",
                         "order": 1,
-                        "option": "Next",
-                        "variable": [
-                            "FrameCount"
-                        ],
+                        "option": "1-Frame Tower - great for beginners or testing",
                         "nodes": [
                             {
-                                "key": "pv7aq201Z4",
+                                "key": "q6eQvr026U",
                                 "order": 1,
-                                "option": "1-Frame Tower - great for beginners or testing",
+                                "iKey": "q6hsC700VU",
                                 "nodes": [
                                     {
-                                        "key": "q6eQvr026U",
+                                        "key": "q7Gl6E003t",
                                         "order": 1,
                                         "option": "Next",
+                                        "iExitKey": "q77eNC003a",
+                                        "exitKey": "q7U9Fi02VL"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pva7YY00Fz",
+                        "order": 2,
+                        "option": "2-Frame Tower - supports hybrid setups",
+                        "nodes": [
+                            {
+                                "key": "q6g0hC027l",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "q7Hysw01m9",
+                                        "order": 1,
                                         "iKey": "q6hsC700VU",
                                         "nodes": [
                                             {
-                                                "key": "q7Gl6E003t",
+                                                "key": "q7KmkG02Mw",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "iExitKey": "q77eNC003a",
-                                                "exitKey": "q7U9Fi02VL"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "key": "pva7YY00Fz",
-                                "order": 2,
-                                "option": "2-Frame Tower - supports hybrid setups",
-                                "nodes": [
-                                    {
-                                        "key": "q6g0hC027l",
-                                        "order": 1,
-                                        "option": "Next",
-                                        "nodes": [
-                                            {
-                                                "key": "q7Hysw01m9",
-                                                "order": 1,
-                                                "option": "Next",
-                                                "iKey": "q6hsC700VU",
                                                 "nodes": [
                                                     {
-                                                        "key": "q7KmkG02Mw",
+                                                        "key": "q7NdL200Mc",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iExitKey": "q77eNC003a",
+                                                        "iKey": "q6hsC700VU",
                                                         "nodes": [
                                                             {
-                                                                "key": "q7NdL200Mc",
+                                                                "key": "q7ShAk01bP",
                                                                 "order": 1,
                                                                 "option": "Next",
-                                                                "iKey": "q6hsC700VU",
-                                                                "nodes": [
-                                                                    {
-                                                                        "key": "q7ShAk01bP",
-                                                                        "order": 1,
-                                                                        "option": "Next",
-                                                                        "iExitKey": "q77eNC003a",
-                                                                        "exitKey": "q7U9Fi02VL"
-                                                                    }
-                                                                ]
+                                                                "iExitKey": "q77eNC003a",
+                                                                "exitKey": "q7U9Fi02VL"
                                                             }
                                                         ]
                                                     }
@@ -95,67 +83,62 @@
                                         ]
                                     }
                                 ]
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pva7t100Lv",
+                        "order": 3,
+                        "option": "4-Frame Tower - maximum yield in minimal space",
+                        "nodes": [
                             {
-                                "key": "pva7t100Lv",
-                                "order": 3,
-                                "option": "4-Frame Tower - maximum yield in minimal space",
+                                "key": "q6hS8n006q",
+                                "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "q6hS8n006q",
+                                        "key": "q7NZCN020x",
                                         "order": 1,
-                                        "option": "Next",
+                                        "iKey": "q6hsC700VU",
                                         "nodes": [
                                             {
-                                                "key": "q7NZCN020x",
+                                                "key": "q7SpZb02S1",
                                                 "order": 1,
                                                 "option": "Next",
-                                                "iKey": "q6hsC700VU",
+                                                "iExitKey": "q77eNC003a",
                                                 "nodes": [
                                                     {
-                                                        "key": "q7SpZb02S1",
+                                                        "key": "q7TKTu01lO",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iExitKey": "q77eNC003a",
+                                                        "iKey": "q6hsC700VU",
                                                         "nodes": [
                                                             {
-                                                                "key": "q7TKTu01lO",
+                                                                "key": "q7Tgit00Uo",
                                                                 "order": 1,
                                                                 "option": "Next",
-                                                                "iKey": "q6hsC700VU",
+                                                                "iExitKey": "q77eNC003a",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "q7Tgit00Uo",
+                                                                        "key": "q7TkiR019Q",
                                                                         "order": 1,
-                                                                        "option": "Next",
-                                                                        "iExitKey": "q77eNC003a",
+                                                                        "iKey": "q6hsC700VU",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "q7TkiR019Q",
+                                                                                "key": "q7Tv8T01DH",
                                                                                 "order": 1,
                                                                                 "option": "Next",
-                                                                                "iKey": "q6hsC700VU",
+                                                                                "iExitKey": "q77eNC003a",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "q7Tv8T01DH",
+                                                                                        "key": "q7TwZn00F1",
                                                                                         "order": 1,
-                                                                                        "option": "Next",
-                                                                                        "iExitKey": "q77eNC003a",
+                                                                                        "iKey": "q6hsC700VU",
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "q7TwZn00F1",
+                                                                                                "key": "q7U3Rk00xE",
                                                                                                 "order": 1,
                                                                                                 "option": "Next",
-                                                                                                "iKey": "q6hsC700VU",
-                                                                                                "nodes": [
-                                                                                                    {
-                                                                                                        "key": "q7U3Rk00xE",
-                                                                                                        "order": 1,
-                                                                                                        "option": "Next",
-                                                                                                        "iExitKey": "q77eNC003a",
-                                                                                                        "exitKey": "q7U9Fi02VL"
-                                                                                                    }
-                                                                                                ]
+                                                                                                "iExitKey": "q77eNC003a",
+                                                                                                "exitKey": "q7U9Fi02VL"
                                                                                             }
                                                                                         ]
                                                                                     }
@@ -176,6 +159,13 @@
                         ]
                     }
                 ]
+            },
+            {
+                "key": "rqXbd500LJ",
+                "order": 2,
+                "option": "mode details...",
+                "isLeaf": true,
+                "isAncillary": true
             }
         ]
     },
@@ -183,10 +173,6 @@
         {
             "key": "δ-pvaPOf01P0",
             "relativePath": "./δ steps/δ-pvaPOf01P0.tsstp"
-        },
-        {
-            "key": "δ-pvaXi201td",
-            "relativePath": "./δ steps/δ-pvaXi201td.tsstp"
         },
         {
             "key": "δ-pv7Tr400j0",
@@ -255,11 +241,15 @@
         {
             "key": "δ-q7TwZn00F1",
             "relativePath": "./δ steps/δ-q7TwZn00F1.tsstp"
+        },
+        {
+            "key": "δ-rqXbd500LJ",
+            "relativePath": "./δ steps/δ-rqXbd500LJ.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "r8ugci2C5",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1755432361000
+        "id": "rqYBfb013C",
+        "editorID": "car_50c5151a97e443339533f803c27817aa",
+        "ticks": 1756077157583
     }
 }

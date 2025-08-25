@@ -27,53 +27,50 @@
         "key": "puJuqN00SE",
         "nodes": [
             {
-                "key": "puK8MS00X5",
+                "key": "rneO8R01le",
                 "order": 1,
                 "nodes": [
                     {
-                        "key": "puKCZG02KQ",
+                        "key": "rngRKh02Zd",
                         "order": 1,
                         "nodes": [
                             {
-                                "key": "puKEWg00dZ",
+                                "key": "puKCZG02KQ",
                                 "order": 1,
-                                "variable": [
-                                    "Effort"
-                                ],
                                 "nodes": [
                                     {
                                         "key": "puKHKP01dr",
                                         "order": 1,
-                                        "option": "Low effort - for effortless harvesting",
+                                        "option": "Low effort - for harvest only",
                                         "exitKey": "pugrVO012i"
                                     },
                                     {
                                         "key": "puKJO200i0",
                                         "order": 2,
-                                        "option": "Moderate Effort – For guided involvement",
+                                        "option": "Moderate Effort – for guided involvement",
                                         "exitKey": "pugro900Ku"
                                     },
                                     {
                                         "key": "puKLE001K5",
                                         "order": 3,
-                                        "option": "High Effort – For hands-on mastery",
+                                        "option": "High Effort – for hands-on mastery",
                                         "exitKey": "pugs3O02N7"
                                     }
                                 ]
                             },
                             {
-                                "key": "rQ9R3q01Qn",
+                                "key": "rngpxv01l9",
                                 "order": 2,
-                                "option": "Details",
+                                "option": "more details...",
                                 "isLeaf": true,
                                 "isAncillary": true
                             }
                         ]
                     },
                     {
-                        "key": "rQ9Dmv0024",
+                        "key": "rnhdYu00dj",
                         "order": 2,
-                        "option": "Details",
+                        "option": "more details...",
                         "isLeaf": true,
                         "isAncillary": true
                     }
@@ -82,7 +79,7 @@
             {
                 "key": "rQ8n0W018f",
                 "order": 2,
-                "option": "Details",
+                "option": "more details...",
                 "isAncillary": true,
                 "nodes": [
                     {
@@ -102,37 +99,37 @@
             "relativePath": "./δ steps/δ-puJuqN00SE.tsstp"
         },
         {
-            "key": "δ-puK8MS00X5",
-            "relativePath": "./δ steps/δ-puK8MS00X5.tsstp"
-        },
-        {
-            "key": "δ-puKCZG02KQ",
-            "relativePath": "./δ steps/δ-puKCZG02KQ.tsstp"
-        },
-        {
-            "key": "δ-puKEWg00dZ",
-            "relativePath": "./δ steps/δ-puKEWg00dZ.tsstp"
-        },
-        {
             "key": "δ-rQ8n0W018f",
             "relativePath": "./δ steps/δ-rQ8n0W018f.tsstp"
         },
         {
-            "key": "δ-rQ9Dmv0024",
-            "relativePath": "./δ steps/δ-rQ9Dmv0024.tsstp"
-        },
-        {
-            "key": "δ-rQ9R3q01Qn",
-            "relativePath": "./δ steps/δ-rQ9R3q01Qn.tsstp"
-        },
-        {
             "key": "δ-rQALQD02W0",
             "relativePath": "./δ steps/δ-rQALQD02W0.tsstp"
+        },
+        {
+            "key": "δ-rneO8R01le",
+            "relativePath": "./δ steps/δ-rneO8R01le.tsstp"
+        },
+        {
+            "key": "δ-rngRKh02Zd",
+            "relativePath": "./δ steps/δ-rngRKh02Zd.tsstp"
+        },
+        {
+            "key": "δ-rngpxv01l9",
+            "relativePath": "./δ steps/δ-rngpxv01l9.tsstp"
+        },
+        {
+            "key": "δ-rnhdYu00dj",
+            "relativePath": "./δ steps/δ-rnhdYu00dj.tsstp"
+        },
+        {
+            "key": "δ-puKCZG02KQ",
+            "relativePath": "./δ steps/δ-puKCZG02KQ.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "rQmKlc01MQ",
-        "editorID": "car_4441dd08e1c749f08232dda88dea7062",
-        "ticks": 1755696344408
+        "id": "rqbuUB00ec",
+        "editorID": "car_0afebf64e1ca4e93b0b02734ac78c905",
+        "ticks": 1756078044839
     }
 }
