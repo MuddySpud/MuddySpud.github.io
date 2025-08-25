@@ -1,11 +1,13 @@
-### Fauna Options (Aquatic and Terrestrial Animals)
+¬import g from "../../../_shared/glossary"
 
-- **Fish:** - small, freshwater, raised filtered water systems to produce lean proteins ideal for various light dishes.
-- **Crustaceans:** - dwarf freshwater breeds raised in compact tanks for fast-turnaround harvests.
-- **Molluscs (Bivalves):** - freshwater, perfect for creating hearty, steamed or soup-based meals.
-- **Snails (Gastropods):** - terrestrial, thrive in simple enclosures, offering a gourmet protein option with minimal care required.
 
+- **Fauna** - *aquatic and terrestrial animals*
+   - {{g.fish_short}}
+   - {{g.crustaceans_short}}
+   - {{g.molluscs_short}}
+   - {{g.snails_short}}
+   
 All our flora and fauna are non-GMO, with plants bred through traditional selective methods for natural, high-quality yields. GMO stands for Genetically Modified Organisms, which involve direct lab-based alterations to an organism's DNA.
 
-### Select just one category below to focus your initial setup.
+##### *Select a crop category below*
 
