@@ -4,17 +4,17 @@
     "name": "FrameModules",
     "created": "2025-08-06T12:13:11.880Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/equipment/Ξ FrameModules/FrameModules.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/Ξ FrameModules/FrameModules.tsmap",
     "iText": "Link to 'FrameModules'",
     "iExits": [
         {
             "key": "q6e5Xy00dF",
-            "text": "1 module",
+            "text": "Solo module",
             "order": 1
         },
         {
             "key": "q6e6nI00dw",
-            "text": "2 modules",
+            "text": "Dual modules",
             "order": 2
         }
     ],
@@ -27,13 +27,13 @@
             {
                 "key": "q6cyYC01gK",
                 "order": 1,
-                "option": "1 Module",
+                "option": "Solo module",
                 "exitKey": "q6e5Xy00dF"
             },
             {
                 "key": "q6ddI0024d",
                 "order": 2,
-                "option": "2 Modules",
+                "option": "Dual modules",
                 "exitKey": "q6e6nI00dw"
             }
         ]
@@ -45,8 +45,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qZcouU00KS",
-        "editorID": "car_392565cd03214c05a56e326b3aa2e93a",
-        "ticks": 1754910931190
+        "id": "rvwm3u00b0",
+        "editorID": "car_7931bed7a7bb43368c361a14b9c24341",
+        "ticks": 1756156899026
     }
 }

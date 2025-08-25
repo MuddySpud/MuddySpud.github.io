@@ -47,13 +47,13 @@
                                     {
                                         "key": "puKJO200i0",
                                         "order": 2,
-                                        "option": "Moderate Effort – for guided involvement",
+                                        "option": "Moderate effort - for guided involvement",
                                         "exitKey": "pugro900Ku"
                                     },
                                     {
                                         "key": "puKLE001K5",
                                         "order": 3,
-                                        "option": "High Effort – for hands-on mastery",
+                                        "option": "High effort - for hands-on mastery",
                                         "exitKey": "pugs3O02N7"
                                     }
                                 ]
@@ -71,8 +71,16 @@
                         "key": "rnhdYu00dj",
                         "order": 2,
                         "option": "more details...",
-                        "isLeaf": true,
-                        "isAncillary": true
+                        "isAncillary": true,
+                        "nodes": [
+                            {
+                                "key": "rv4Fvv02YA",
+                                "order": 1,
+                                "option": "PureLight™",
+                                "isLeaf": true,
+                                "isAncillary": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -125,11 +133,15 @@
         {
             "key": "δ-puKCZG02KQ",
             "relativePath": "./δ steps/δ-puKCZG02KQ.tsstp"
+        },
+        {
+            "key": "δ-rv4Fvv02YA",
+            "relativePath": "./δ steps/δ-rv4Fvv02YA.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "rqbuUB00ec",
-        "editorID": "car_0afebf64e1ca4e93b0b02734ac78c905",
-        "ticks": 1756078044839
+        "id": "rvwNrO002D",
+        "editorID": "me_8da81d3faac04d4488bdd604b3a2e1ce",
+        "ticks": 1756156805994
     }
 }

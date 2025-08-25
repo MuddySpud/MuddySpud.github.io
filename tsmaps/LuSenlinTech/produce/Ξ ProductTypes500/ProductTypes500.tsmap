@@ -4,7 +4,7 @@
     "name": "ProductTypes500",
     "created": "2025-08-04T16:07:48.683Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ ProductTypes500/ProductTypes500.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ ProductTypes500/ProductTypes500.tsmap",
     "iText": "Link to 'ProduceTypes500'",
     "iExits": [
         {
@@ -19,12 +19,10 @@
             {
                 "key": "qEBAUH0l3",
                 "order": 1,
-                "option": "Next",
                 "nodes": [
                     {
                         "key": "qEBAUI1f2",
                         "order": 1,
-                        "option": "Next",
                         "nodes": [
                             {
                                 "key": "qEBAUI1rG",
@@ -46,7 +44,6 @@
                                                     {
                                                         "key": "qHsopS0094",
                                                         "order": 1,
-                                                        "option": "Next",
                                                         "iKey": "qHd4Ms02JH",
                                                         "nodes": [
                                                             {
@@ -58,7 +55,6 @@
                                                                     {
                                                                         "key": "qHsyrb016W",
                                                                         "order": 1,
-                                                                        "option": "Next",
                                                                         "iKey": "qHd4Ms02JH",
                                                                         "nodes": [
                                                                             {
@@ -70,7 +66,6 @@
                                                                                     {
                                                                                         "key": "qHt3ZV020m",
                                                                                         "order": 1,
-                                                                                        "option": "Next",
                                                                                         "iKey": "qHd4Ms02JH",
                                                                                         "nodes": [
                                                                                             {
@@ -898,6 +893,34 @@
             "relativePath": "./δ steps/δ-qEBAUI1rG.tsstp"
         },
         {
+            "key": "δ-qEBAUI0sX",
+            "relativePath": "./δ steps/δ-qEBAUI0sX.tsstp"
+        },
+        {
+            "key": "δ-qHsnoT01Yd",
+            "relativePath": "./δ steps/δ-qHsnoT01Yd.tsstp"
+        },
+        {
+            "key": "δ-qHsopS0094",
+            "relativePath": "./δ steps/δ-qHsopS0094.tsstp"
+        },
+        {
+            "key": "δ-qHsxAx01uJ",
+            "relativePath": "./δ steps/δ-qHsxAx01uJ.tsstp"
+        },
+        {
+            "key": "δ-qHsyrb016W",
+            "relativePath": "./δ steps/δ-qHsyrb016W.tsstp"
+        },
+        {
+            "key": "δ-qHt2gq00rO",
+            "relativePath": "./δ steps/δ-qHt2gq00rO.tsstp"
+        },
+        {
+            "key": "δ-qHt3ZV020m",
+            "relativePath": "./δ steps/δ-qHt3ZV020m.tsstp"
+        },
+        {
             "key": "δ-qEBAUI2UZ",
             "relativePath": "./δ steps/δ-qEBAUI2UZ.tsstp"
         },
@@ -936,39 +959,11 @@
         {
             "key": "δ-qEBAUL1VA",
             "relativePath": "./δ steps/δ-qEBAUL1VA.tsstp"
-        },
-        {
-            "key": "δ-qEBAUI0sX",
-            "relativePath": "./δ steps/δ-qEBAUI0sX.tsstp"
-        },
-        {
-            "key": "δ-qHsnoT01Yd",
-            "relativePath": "./δ steps/δ-qHsnoT01Yd.tsstp"
-        },
-        {
-            "key": "δ-qHsopS0094",
-            "relativePath": "./δ steps/δ-qHsopS0094.tsstp"
-        },
-        {
-            "key": "δ-qHsxAx01uJ",
-            "relativePath": "./δ steps/δ-qHsxAx01uJ.tsstp"
-        },
-        {
-            "key": "δ-qHsyrb016W",
-            "relativePath": "./δ steps/δ-qHsyrb016W.tsstp"
-        },
-        {
-            "key": "δ-qHt2gq00rO",
-            "relativePath": "./δ steps/δ-qHt2gq00rO.tsstp"
-        },
-        {
-            "key": "δ-qHt3ZV020m",
-            "relativePath": "./δ steps/δ-qHt3ZV020m.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "qHtAzx01Ru",
-        "editorID": "car_0711db77142f4fa29c0170a80b9da1fb",
-        "ticks": 1754648855297
+        "id": "rw2L2z02aU",
+        "editorID": "car_e14ddac992834c01b9f8666e3bbe727b",
+        "ticks": 1756158225149
     }
 }

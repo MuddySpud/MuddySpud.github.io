@@ -20,16 +20,15 @@
             {
                 "key": "q6i2Ta00Bt",
                 "order": 1,
-                "option": "1 module",
+                "option": "Solo module",
                 "iExitKey": "q6e5Xy00dF",
                 "variable": [
-                    "Module1"
+                    "SoloModule"
                 ],
                 "nodes": [
                     {
                         "key": "q6imCX01qm",
                         "order": 1,
-                        "option": "Next",
                         "iKey": "qEBGyN02IY",
                         "nodes": [
                             {
@@ -46,13 +45,15 @@
             {
                 "key": "q79JOK02QB",
                 "order": 2,
-                "option": "2 modules",
+                "option": "Dual modules",
                 "iExitKey": "q6e6nI00dw",
+                "variable": [
+                    "DualMod"
+                ],
                 "nodes": [
                     {
                         "key": "q6i2Ta02M5",
                         "order": 1,
-                        "option": "Next",
                         "variable": [
                             "Module1"
                         ],
@@ -60,7 +61,6 @@
                             {
                                 "key": "q746iw01l6",
                                 "order": 1,
-                                "option": "Module 1 product type",
                                 "iKey": "qEB3Dv007Y",
                                 "nodes": [
                                     {
@@ -72,7 +72,6 @@
                                             {
                                                 "key": "qHvj8N02TX",
                                                 "order": 1,
-                                                "option": "Next",
                                                 "iKey": "qEB3Dv007Y",
                                                 "nodes": [
                                                     {
@@ -129,8 +128,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qwq5ks1Pz",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1755253949934
+        "id": "rw1eoW00BX",
+        "editorID": "car_cb782aae347c49409c93881a68a3f3d6",
+        "ticks": 1756158062804
     }
 }

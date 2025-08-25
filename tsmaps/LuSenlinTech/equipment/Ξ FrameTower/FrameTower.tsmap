@@ -26,7 +26,7 @@
                     {
                         "key": "pv7aq201Z4",
                         "order": 1,
-                        "option": "1-Frame Tower - great for beginners or testing",
+                        "option": "One Frame Tower - great for beginners or testing",
                         "nodes": [
                             {
                                 "key": "q6eQvr026U",
@@ -47,7 +47,7 @@
                     {
                         "key": "pva7YY00Fz",
                         "order": 2,
-                        "option": "2-Frame Tower - supports hybrid setups",
+                        "option": "Two Frame Tower - supports hybrid setups",
                         "nodes": [
                             {
                                 "key": "q6g0hC027l",
@@ -89,7 +89,7 @@
                     {
                         "key": "pva7t100Lv",
                         "order": 3,
-                        "option": "4-Frame Tower - maximum yield in minimal space",
+                        "option": "Four Frame Tower - maximum yield in minimal space",
                         "nodes": [
                             {
                                 "key": "q6hS8n006q",
@@ -248,8 +248,8 @@
         }
     ],
     "___εdit___": {
-        "id": "rqYBfb013C",
-        "editorID": "car_50c5151a97e443339533f803c27817aa",
-        "ticks": 1756077157583
+        "id": "rvN5aw02JE",
+        "editorID": "car_cb62a3226ace442389625117cc31355e",
+        "ticks": 1756148394302
     }
 }

@@ -19,12 +19,10 @@
             {
                 "key": "qEBLiW0sa",
                 "order": 1,
-                "option": "Next",
                 "nodes": [
                     {
                         "key": "qEBLiW15M",
                         "order": 1,
-                        "option": "Next",
                         "nodes": [
                             {
                                 "key": "qEBLiW29v",
@@ -37,7 +35,6 @@
                                     {
                                         "key": "qEC3bj01tr",
                                         "order": 1,
-                                        "option": "Next",
                                         "iKey": "qHd4Ms02JH",
                                         "nodes": [
                                             {
@@ -52,7 +49,6 @@
                                                     {
                                                         "key": "qHeLsW01nD",
                                                         "order": 1,
-                                                        "option": "Next",
                                                         "iKey": "qHd4Ms02JH",
                                                         "nodes": [
                                                             {
@@ -67,7 +63,6 @@
                                                                     {
                                                                         "key": "qHkw6u01H2",
                                                                         "order": 1,
-                                                                        "option": "Next",
                                                                         "iKey": "qHd4Ms02JH",
                                                                         "nodes": [
                                                                             {
@@ -82,7 +77,6 @@
                                                                                     {
                                                                                         "key": "qHoDzi01dX",
                                                                                         "order": 1,
-                                                                                        "option": "Next",
                                                                                         "iKey": "qHd4Ms02JH",
                                                                                         "nodes": [
                                                                                             {
@@ -97,7 +91,6 @@
                                                                                                     {
                                                                                                         "key": "qHr0Ex00Fy",
                                                                                                         "order": 1,
-                                                                                                        "option": "Next",
                                                                                                         "iKey": "qHd4Ms02JH",
                                                                                                         "nodes": [
                                                                                                             {
@@ -112,7 +105,6 @@
                                                                                                                     {
                                                                                                                         "key": "qHr7kf02Zw",
                                                                                                                         "order": 1,
-                                                                                                                        "option": "Next",
                                                                                                                         "iKey": "qHd4Ms02JH",
                                                                                                                         "nodes": [
                                                                                                                             {
@@ -127,7 +119,6 @@
                                                                                                                                     {
                                                                                                                                         "key": "qHrD6j002Q",
                                                                                                                                         "order": 1,
-                                                                                                                                        "option": "Next",
                                                                                                                                         "iKey": "qHd4Ms02JH",
                                                                                                                                         "nodes": [
                                                                                                                                             {
@@ -1074,8 +1065,8 @@
         }
     ],
     "___εdit___": {
-        "id": "rR0ew30BU",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1755699758527
+        "id": "rw22vg01ZE",
+        "editorID": "car_485a31debb984afd957748a9f3a50f41",
+        "ticks": 1756158155504
     }
 }
