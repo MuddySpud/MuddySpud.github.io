@@ -1,2 +1,10 @@
+*.local
+
+/zz temp/
+
+/.vs/
+
+/.cache/
+
 pub/
 .bin/
