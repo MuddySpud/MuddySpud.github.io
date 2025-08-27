@@ -1,5 +1,5 @@
 {
-    "key": "fugVwq00wh  ",
+    "key": "s7SMDs0IG",
     "token": "Mape",
     "name": "MapE",
     "created": "2025-04-20T10:24:13.516Z",
@@ -8,25 +8,25 @@
     "iText": "Link to  'MapE'",
     "iExits": [
         {
-            "key": "fuhBa202EB",
+            "key": "s7SMDs0lM",
             "text": "Exit1 MapE 1.1",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "fugY3a00wo",
+        "key": "s7SMDs23W",
         "nodes": [
             {
-                "key": "fugbSj00qZ",
+                "key": "s7SMDs0BX",
                 "order": 1,
                 "option": "MapE-step-1.1",
-                "exitKey": "fuhBa202EB"
+                "exitKey": "s7SMDs0lM"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-fugY3a00wo",
+            "key": "δ-s7SMDs23W",
             "relativePath": "./δ steps/δ-fugY3a00wo.tsstp"
         }
     ],

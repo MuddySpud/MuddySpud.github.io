@@ -1,5 +1,5 @@
 {
-    "key": "qHd4Ms02JH  ",
+    "key": "s7LPsx1UQ",
     "token": "Herbselection",
     "name": "HerbSelection",
     "created": "2025-08-08T08:51:39.737Z",
@@ -8,101 +8,101 @@
     "iText": "Link to 'HerbSelection'",
     "iExits": [
         {
-            "key": "qHd7uI0AL",
+            "key": "s7LPsx14a",
             "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "qHd7uI1Y9",
+        "key": "s7LPsx2NN",
         "isHeadless": true,
         "variable": [
             "Herb"
         ],
         "nodes": [
             {
-                "key": "qHd7uJ02z",
+                "key": "s7LPsx0Fk",
                 "order": 1,
                 "option": "Mini-Sweet Basil 4.1x",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ0Hn",
+                "key": "s7LPsx2Oq",
                 "order": 2,
                 "option": "Purple Holy Basil Duo - green & deep-violet pair",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ1yr",
+                "key": "s7LPsx0f9",
                 "order": 3,
                 "option": "Genovese Pesto Mint™ - low-menthol, pesto-friendly",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ0uq",
+                "key": "s7LPsx2Ar",
                 "order": 4,
                 "option": "Citro-Mint - lemon-scented dwarf spearmint",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ1Iq",
+                "key": "s7LPsx1Ls",
                 "order": 5,
                 "option": "Micro-Shiso Mix - green & red perilla",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ1S4",
+                "key": "s7LPsx0Sn",
                 "order": 6,
                 "option": "Dwarf Thai Coriander ‘Metro-Pak Chee’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ0wi",
+                "key": "s7LPsx1io",
                 "order": 7,
                 "option": "Low-Light Chive / Garlic-Chive Blend",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ2Pm",
+                "key": "s7LPsx1or",
                 "order": 8,
                 "option": "Lemon Balm ‘Citro-Edge’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ2F6",
+                "key": "s7LPsx0LU",
                 "order": 9,
                 "option": "Urban Greek Oregano ‘OG-35’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ14w",
+                "key": "s7LPsx094",
                 "order": 10,
                 "option": "Sweet Marjoram ‘Marj-Mini’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ1tI",
+                "key": "s7LPsx1vL",
                 "order": 11,
                 "option": "Patio Rosemary ‘AromiStax’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ1RW",
+                "key": "s7LPsx07e",
                 "order": 12,
                 "option": "Compact Purple Sage ‘Plum-Sage’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ2BJ",
+                "key": "s7LPsx2HB",
                 "order": 13,
                 "option": "Balcony Dill ‘Frond-Flash’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             },
             {
-                "key": "qHd7uJ2PZ",
+                "key": "s7LPsx1SJ",
                 "order": 14,
                 "option": "French Tarragon ‘Narrow-Leaf Nano’",
-                "exitKey": "qHd7uI0AL"
+                "exitKey": "s7LPsx14a"
             }
         ]
     },

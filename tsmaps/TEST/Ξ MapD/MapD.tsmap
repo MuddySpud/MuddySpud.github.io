@@ -1,5 +1,5 @@
 {
-    "key": "fjJE5v023K  ",
+    "key": "s7LPfP1td",
     "token": "Mapd",
     "name": "MapD",
     "created": "2025-04-18T11:42:43.647Z",
@@ -8,36 +8,36 @@
     "iText": "Link to 'MapD'",
     "iExits": [
         {
-            "key": "g0ll0B019c",
+            "key": "s7LPfP07x",
             "text": "Exit1-MapD-step-1.1",
             "order": 1
         },
         {
-            "key": "g0lsqN02AV",
+            "key": "s7LPfP0vm",
             "text": "Exit2-MapD-step-1.2",
             "order": 2
         }
     ],
     "___rΩΩt___": {
-        "key": "fjJFjx01a6",
+        "key": "s7LPfP1LG",
         "nodes": [
             {
-                "key": "fkuFtr01aR",
+                "key": "s7LPfP1BP",
                 "order": 1,
                 "option": "MapD-step-1.1",
-                "exitKey": "g0ll0B019c"
+                "exitKey": "s7LPfP07x"
             },
             {
-                "key": "fkuLKX00RG",
+                "key": "s7LPfP0gO",
                 "order": 2,
                 "option": "MapD-step-1.2",
-                "exitKey": "g0lsqN02AV"
+                "exitKey": "s7LPfP0vm"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-fjJFjx01a6",
+            "key": "δ-s7LPfP1LG",
             "relativePath": "./δ steps/δ-fjJFjx01a6.tsstp"
         }
     ],

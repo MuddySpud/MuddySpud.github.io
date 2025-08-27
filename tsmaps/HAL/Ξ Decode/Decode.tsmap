@@ -1,5 +1,5 @@
 {
-    "key": "cQXU6R01TZ  ",
+    "key": "s7SM6B1Xn",
     "token": "Decode",
     "name": "Decode",
     "created": "2025-03-14T11:13:32.895Z",
@@ -7,30 +7,30 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Ξ Decode/Decode.tsmap",
     "iText": "Link to 'Decode'",
     "___rΩΩt___": {
-        "key": "cQXVOp00qG",
+        "key": "s7SM6B2OD",
         "nodes": [
             {
-                "key": "cQXYrC01cz",
+                "key": "s7SM6B12B",
                 "order": 1,
                 "option": "Next",
                 "nodes": [
                     {
-                        "key": "cQXaFF02b2",
+                        "key": "s7SM6B0wm",
                         "order": 1,
                         "option": "Next",
                         "nodes": [
                             {
-                                "key": "cQXbV400iK",
+                                "key": "s7SM6B1NH",
                                 "order": 1,
                                 "option": "Next",
                                 "nodes": [
                                     {
-                                        "key": "cQYAjT012Z",
+                                        "key": "s7SM6B2RL",
                                         "order": 1,
                                         "option": "Next",
                                         "nodes": [
                                             {
-                                                "key": "cQYCC700Cg",
+                                                "key": "s7SM6B146",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "isLeaf": true
@@ -47,27 +47,27 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-cQXVOp00qG",
+            "key": "δ-s7SM6B2OD",
             "relativePath": "./δ steps/δ-cQXVOp00qG.tsstp"
         },
         {
-            "key": "δ-cQXYrC01cz",
+            "key": "δ-s7SM6B12B",
             "relativePath": "./δ steps/δ-cQXYrC01cz.tsstp"
         },
         {
-            "key": "δ-cQXaFF02b2",
+            "key": "δ-s7SM6B0wm",
             "relativePath": "./δ steps/δ-cQXaFF02b2.tsstp"
         },
         {
-            "key": "δ-cQXbV400iK",
+            "key": "δ-s7SM6B1NH",
             "relativePath": "./δ steps/δ-cQXbV400iK.tsstp"
         },
         {
-            "key": "δ-cQYAjT012Z",
+            "key": "δ-s7SM6B2RL",
             "relativePath": "./δ steps/δ-cQYAjT012Z.tsstp"
         },
         {
-            "key": "δ-cQYCC700Cg",
+            "key": "δ-s7SM6B146",
             "relativePath": "./δ steps/δ-cQYCC700Cg.tsstp"
         }
     ],

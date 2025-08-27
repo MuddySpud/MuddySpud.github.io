@@ -1,5 +1,5 @@
 {
-    "key": "pv7P9500YG  ",
+    "key": "s7SMOZ0AN",
     "token": "Frametower",
     "name": "FrameTower",
     "created": "2025-08-04T12:59:50.543Z",
@@ -8,73 +8,73 @@
     "iText": "Link to 'FrameTower'",
     "iExits": [
         {
-            "key": "q7U9Fi02VL",
+            "key": "s7SMOZ0VN",
             "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "pvaPOf01P0",
+        "key": "s7SMOZ0WV",
         "nodes": [
             {
-                "key": "pv7Tr400j0",
+                "key": "s7SMOZ04o",
                 "order": 1,
                 "variable": [
                     "FrameCount"
                 ],
                 "nodes": [
                     {
-                        "key": "pv7aq201Z4",
+                        "key": "s7SMOZ1be",
                         "order": 1,
                         "option": "One Frame Tower - great for beginners or testing",
                         "nodes": [
                             {
-                                "key": "q6eQvr026U",
+                                "key": "s7SMOZ0CT",
                                 "order": 1,
                                 "iKey": "q6hsC700VU",
                                 "nodes": [
                                     {
-                                        "key": "q7Gl6E003t",
+                                        "key": "s7SMOZ08O",
                                         "order": 1,
                                         "option": "Next",
                                         "iExitKey": "q77eNC003a",
-                                        "exitKey": "q7U9Fi02VL"
+                                        "exitKey": "s7SMOZ0VN"
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "key": "pva7YY00Fz",
+                        "key": "s7SMOZ0e6",
                         "order": 2,
                         "option": "Two Frame Tower - supports hybrid setups",
                         "nodes": [
                             {
-                                "key": "q6g0hC027l",
+                                "key": "s7SMOZ2Yf",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "q7Hysw01m9",
+                                        "key": "s7SMOZ047",
                                         "order": 1,
                                         "iKey": "q6hsC700VU",
                                         "nodes": [
                                             {
-                                                "key": "q7KmkG02Mw",
+                                                "key": "s7SMOZ1EP",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "iExitKey": "q77eNC003a",
                                                 "nodes": [
                                                     {
-                                                        "key": "q7NdL200Mc",
+                                                        "key": "s7SMOZ2XE",
                                                         "order": 1,
                                                         "iKey": "q6hsC700VU",
                                                         "nodes": [
                                                             {
-                                                                "key": "q7ShAk01bP",
+                                                                "key": "s7SMOZ27C",
                                                                 "order": 1,
                                                                 "option": "Next",
                                                                 "iExitKey": "q77eNC003a",
-                                                                "exitKey": "q7U9Fi02VL"
+                                                                "exitKey": "s7SMOZ0VN"
                                                             }
                                                         ]
                                                     }
@@ -87,58 +87,58 @@
                         ]
                     },
                     {
-                        "key": "pva7t100Lv",
+                        "key": "s7SMOZ2KF",
                         "order": 3,
                         "option": "Four Frame Tower - maximum yield in minimal space",
                         "nodes": [
                             {
-                                "key": "q6hS8n006q",
+                                "key": "s7SMOZ0nF",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "q7NZCN020x",
+                                        "key": "s7SMOZ0y7",
                                         "order": 1,
                                         "iKey": "q6hsC700VU",
                                         "nodes": [
                                             {
-                                                "key": "q7SpZb02S1",
+                                                "key": "s7SMOZ0S7",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "iExitKey": "q77eNC003a",
                                                 "nodes": [
                                                     {
-                                                        "key": "q7TKTu01lO",
+                                                        "key": "s7SMOZ0uH",
                                                         "order": 1,
                                                         "iKey": "q6hsC700VU",
                                                         "nodes": [
                                                             {
-                                                                "key": "q7Tgit00Uo",
+                                                                "key": "s7SMOZ0ZO",
                                                                 "order": 1,
                                                                 "option": "Next",
                                                                 "iExitKey": "q77eNC003a",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "q7TkiR019Q",
+                                                                        "key": "s7SMOZ0Js",
                                                                         "order": 1,
                                                                         "iKey": "q6hsC700VU",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "q7Tv8T01DH",
+                                                                                "key": "s7SMOZ1kQ",
                                                                                 "order": 1,
                                                                                 "option": "Next",
                                                                                 "iExitKey": "q77eNC003a",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "q7TwZn00F1",
+                                                                                        "key": "s7SMOZ1TT",
                                                                                         "order": 1,
                                                                                         "iKey": "q6hsC700VU",
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "q7U3Rk00xE",
+                                                                                                "key": "s7SMOZ1VR",
                                                                                                 "order": 1,
                                                                                                 "option": "Next",
                                                                                                 "iExitKey": "q77eNC003a",
-                                                                                                "exitKey": "q7U9Fi02VL"
+                                                                                                "exitKey": "s7SMOZ0VN"
                                                                                             }
                                                                                         ]
                                                                                     }
@@ -161,7 +161,7 @@
                 ]
             },
             {
-                "key": "rqXbd500LJ",
+                "key": "s7SMOZ09D",
                 "order": 2,
                 "option": "mode details...",
                 "isLeaf": true,
@@ -171,79 +171,79 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-pvaPOf01P0",
+            "key": "δ-s7SMOZ0WV",
             "relativePath": "./δ steps/δ-pvaPOf01P0.tsstp"
         },
         {
-            "key": "δ-pv7Tr400j0",
+            "key": "δ-s7SMOZ04o",
             "relativePath": "./δ steps/δ-pv7Tr400j0.tsstp"
         },
         {
-            "key": "δ-pv7aq201Z4",
+            "key": "δ-s7SMOZ1be",
             "relativePath": "./δ steps/δ-pv7aq201Z4.tsstp"
         },
         {
-            "key": "δ-q6eQvr026U",
+            "key": "δ-s7SMOZ0CT",
             "relativePath": "./δ steps/δ-q6eQvr026U.tsstp"
         },
         {
-            "key": "δ-pva7YY00Fz",
+            "key": "δ-s7SMOZ0e6",
             "relativePath": "./δ steps/δ-pva7YY00Fz.tsstp"
         },
         {
-            "key": "δ-q6g0hC027l",
+            "key": "δ-s7SMOZ2Yf",
             "relativePath": "./δ steps/δ-q6g0hC027l.tsstp"
         },
         {
-            "key": "δ-q7Hysw01m9",
+            "key": "δ-s7SMOZ047",
             "relativePath": "./δ steps/δ-q7Hysw01m9.tsstp"
         },
         {
-            "key": "δ-q7KmkG02Mw",
+            "key": "δ-s7SMOZ1EP",
             "relativePath": "./δ steps/δ-q7KmkG02Mw.tsstp"
         },
         {
-            "key": "δ-q7NdL200Mc",
+            "key": "δ-s7SMOZ2XE",
             "relativePath": "./δ steps/δ-q7NdL200Mc.tsstp"
         },
         {
-            "key": "δ-pva7t100Lv",
+            "key": "δ-s7SMOZ2KF",
             "relativePath": "./δ steps/δ-pva7t100Lv.tsstp"
         },
         {
-            "key": "δ-q6hS8n006q",
+            "key": "δ-s7SMOZ0nF",
             "relativePath": "./δ steps/δ-q6hS8n006q.tsstp"
         },
         {
-            "key": "δ-q7NZCN020x",
+            "key": "δ-s7SMOZ0y7",
             "relativePath": "./δ steps/δ-q7NZCN020x.tsstp"
         },
         {
-            "key": "δ-q7SpZb02S1",
+            "key": "δ-s7SMOZ0S7",
             "relativePath": "./δ steps/δ-q7SpZb02S1.tsstp"
         },
         {
-            "key": "δ-q7TKTu01lO",
+            "key": "δ-s7SMOZ0uH",
             "relativePath": "./δ steps/δ-q7TKTu01lO.tsstp"
         },
         {
-            "key": "δ-q7Tgit00Uo",
+            "key": "δ-s7SMOZ0ZO",
             "relativePath": "./δ steps/δ-q7Tgit00Uo.tsstp"
         },
         {
-            "key": "δ-q7TkiR019Q",
+            "key": "δ-s7SMOZ0Js",
             "relativePath": "./δ steps/δ-q7TkiR019Q.tsstp"
         },
         {
-            "key": "δ-q7Tv8T01DH",
+            "key": "δ-s7SMOZ1kQ",
             "relativePath": "./δ steps/δ-q7Tv8T01DH.tsstp"
         },
         {
-            "key": "δ-q7TwZn00F1",
+            "key": "δ-s7SMOZ1TT",
             "relativePath": "./δ steps/δ-q7TwZn00F1.tsstp"
         },
         {
-            "key": "δ-rqXbd500LJ",
+            "key": "δ-s7SMOZ09D",
             "relativePath": "./δ steps/δ-rqXbd500LJ.tsstp"
         }
     ],

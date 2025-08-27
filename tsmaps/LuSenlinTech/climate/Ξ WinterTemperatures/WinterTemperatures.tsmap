@@ -1,5 +1,5 @@
 {
-    "key": "pLv0gR02Un  ",
+    "key": "s7LPkr2IB",
     "token": "Wintertemperatures",
     "name": "WinterTemperatures",
     "created": "2025-07-29T12:31:04.815Z",
@@ -8,40 +8,40 @@
     "iText": "Link to 'WinterTemperatures'",
     "iExits": [
         {
-            "key": "pN8iRZ00As",
+            "key": "s7LPkr1rO",
             "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "pLv2tN01Bh",
+        "key": "s7LPkr1pv",
         "variable": [
             "minTemp"
         ],
         "nodes": [
             {
-                "key": "pN5MOP02Yo",
+                "key": "s7LPkr1GS",
                 "order": 1,
                 "option": "0°C",
-                "exitKey": "pN8iRZ00As"
+                "exitKey": "s7LPkr1rO"
             },
             {
-                "key": "pN5a3602WW",
+                "key": "s7LPkr2MR",
                 "order": 2,
                 "option": "-10°C",
-                "exitKey": "pN8iRZ00As"
+                "exitKey": "s7LPkr1rO"
             },
             {
-                "key": "q8vEsO01fp",
+                "key": "s7LPkr0Wo",
                 "order": 3,
                 "option": "-20°C",
-                "exitKey": "pN8iRZ00As"
+                "exitKey": "s7LPkr1rO"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-pLv2tN01Bh",
+            "key": "δ-s7LPkr1pv",
             "relativePath": "./δ steps/δ-pLv2tN01Bh.tsstp"
         }
     ],

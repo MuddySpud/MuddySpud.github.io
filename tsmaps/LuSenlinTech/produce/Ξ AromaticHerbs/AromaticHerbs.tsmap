@@ -1,5 +1,5 @@
 {
-    "key": "qHV1iL01dr  ",
+    "key": "s7LPsF0EH",
     "token": "Aromaticherbs",
     "name": "AromaticHerbs",
     "created": "2025-08-08T08:51:39.737Z",
@@ -8,25 +8,25 @@
     "iText": "Link to 'AromaticHerbs'",
     "iExits": [
         {
-            "key": "qHVdQu00gQ",
+            "key": "s7LPsF0pK",
             "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "qHV40G02It",
+        "key": "s7LPsF13v",
         "nodes": [
             {
-                "key": "qHVFEQ02Ca",
+                "key": "s7LPsF16t",
                 "order": 1,
                 "option": "Next",
-                "exitKey": "qHVdQu00gQ"
+                "exitKey": "s7LPsF0pK"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-qHV40G02It",
+            "key": "δ-s7LPsF13v",
             "relativePath": "./δ steps/δ-qHV40G02It.tsstp"
         }
     ],

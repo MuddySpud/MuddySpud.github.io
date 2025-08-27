@@ -1,5 +1,5 @@
 {
-    "key": "j16ALz00rY  ",
+    "key": "s7SML31ls",
     "token": "Mapi",
     "name": "MapI",
     "created": "2025-05-23T08:10:23.547Z",
@@ -8,29 +8,29 @@
     "iText": "Link to 'MapI'",
     "iExits": [
         {
-            "key": "j16dIi01kJ",
+            "key": "s7SML30zb",
             "text": "Exit1 MapI 1.1-2.1",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "j16D2O01Tj",
+        "key": "s7SML30ld",
         "nodes": [
             {
-                "key": "j16F8T01AC",
+                "key": "s7SML31Q9",
                 "order": 1,
                 "option": "MapI 1.1",
                 "nodes": [
                     {
-                        "key": "j17DG200F4",
+                        "key": "s7SML31DI",
                         "order": 1,
                         "option": "MapI 1.1-2.1",
-                        "exitKey": "j16dIi01kJ"
+                        "exitKey": "s7SML30zb"
                     }
                 ]
             },
             {
-                "key": "j16NcW01e4",
+                "key": "s7SML30xx",
                 "order": 2,
                 "option": "MapI 1.2",
                 "isLeaf": true,
@@ -40,15 +40,15 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-j16D2O01Tj",
+            "key": "δ-s7SML30ld",
             "relativePath": "./δ steps/δ-j16D2O01Tj.tsstp"
         },
         {
-            "key": "δ-j16F8T01AC",
+            "key": "δ-s7SML31Q9",
             "relativePath": "./δ steps/δ-j16F8T01AC.tsstp"
         },
         {
-            "key": "δ-j16NcW01e4",
+            "key": "δ-s7SML30xx",
             "relativePath": "./δ steps/δ-j16NcW01e4.tsstp"
         }
     ],

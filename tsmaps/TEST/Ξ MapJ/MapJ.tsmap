@@ -1,5 +1,5 @@
 {
-    "key": "j2V4r100rS  ",
+    "key": "s7SMLc2Ub",
     "token": "Mapj",
     "name": "MapJ",
     "created": "2025-05-23T13:55:36.943Z",
@@ -8,35 +8,35 @@
     "iText": "Link to 'MapJ'",
     "iExits": [
         {
-            "key": "j2W3Qx01CV",
+            "key": "s7SMLc03A",
             "text": "Exit1",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "j2V7D9022y",
+        "key": "s7SMLc1hz",
         "nodes": [
             {
-                "key": "j2V9Fx01XL",
+                "key": "s7SMLc0Fu",
                 "order": 1,
                 "option": "MapJ 1.1",
                 "nodes": [
                     {
-                        "key": "j2VIZ401mT",
+                        "key": "s7SMLc0JL",
                         "order": 1,
                         "option": "MapJ 1.1-2.1",
-                        "exitKey": "j2W3Qx01CV"
+                        "exitKey": "s7SMLc03A"
                     },
                     {
-                        "key": "j2VMEr02RW",
+                        "key": "s7SMLc1E0",
                         "order": 2,
                         "option": "MapJ 1.1-2.2\n",
                         "nodes": [
                             {
-                                "key": "j2VwGP00a8",
+                                "key": "s7SMLc0wB",
                                 "order": 1,
                                 "option": "MapJ 1.1-2.2-3.1",
-                                "exitKey": "j2W3Qx01CV"
+                                "exitKey": "s7SMLc03A"
                             }
                         ]
                     }
@@ -46,15 +46,15 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-j2V7D9022y",
+            "key": "δ-s7SMLc1hz",
             "relativePath": "./δ steps/δ-j2V7D9022y.tsstp"
         },
         {
-            "key": "δ-j2V9Fx01XL",
+            "key": "δ-s7SMLc0Fu",
             "relativePath": "./δ steps/δ-j2V9Fx01XL.tsstp"
         },
         {
-            "key": "δ-j2VMEr02RW",
+            "key": "δ-s7SMLc1E0",
             "relativePath": "./δ steps/δ-j2VMEr02RW.tsstp"
         }
     ],

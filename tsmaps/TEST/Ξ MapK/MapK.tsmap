@@ -1,5 +1,5 @@
 {
-    "key": "jrpVh901b8  ",
+    "key": "s7SMMM1yj",
     "token": "Mapk",
     "name": "MapK",
     "created": "2025-06-01T08:36:39.815Z",
@@ -8,31 +8,31 @@
     "iText": "Link to 'MapK'",
     "iExits": [
         {
-            "key": "jrqkdR01n8",
+            "key": "s7SMMM1Hz",
             "text": "Exit 1",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "jrpYFa00Hh",
+        "key": "s7SMMM1v7",
         "nodes": [
             {
-                "key": "jrqMvz01JI",
+                "key": "s7SMMM0u3",
                 "order": 1,
                 "option": "MapK 1.1\n",
                 "nodes": [
                     {
-                        "key": "jrqSKl00s5",
+                        "key": "s7SMMM2J5",
                         "order": 1,
                         "option": "MapK 1.1-2.1\n",
                         "iKey": "fugVwq00wh",
                         "nodes": [
                             {
-                                "key": "jrqhdM01QU",
+                                "key": "s7SMMM22J",
                                 "order": 1,
                                 "option": "Exit1 MapE 1.1",
                                 "iExitKey": "fuhBa202EB",
-                                "exitKey": "jrqkdR01n8"
+                                "exitKey": "s7SMMM1Hz"
                             }
                         ]
                     }
@@ -42,15 +42,15 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-jrpYFa00Hh",
+            "key": "δ-s7SMMM1v7",
             "relativePath": "./δ steps/δ-jrpYFa00Hh.tsstp"
         },
         {
-            "key": "δ-jrqMvz01JI",
+            "key": "δ-s7SMMM0u3",
             "relativePath": "./δ steps/δ-jrqMvz01JI.tsstp"
         },
         {
-            "key": "δ-jrqSKl00s5",
+            "key": "δ-s7SMMM2J5",
             "relativePath": "./δ steps/δ-jrqSKl00s5.tsstp"
         }
     ],

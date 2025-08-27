@@ -1,5 +1,5 @@
 {
-    "key": "cQTP3J01qB  ",
+    "key": "s7S97L0zb",
     "token": "3Motion",
     "name": "3-Motion",
     "created": "2025-03-14T10:57:20.169Z",
@@ -7,193 +7,193 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/Ξ 3-Motion/3-Motion.tsmap",
     "iText": "Link to '3-Motion'",
     "___rΩΩt___": {
-        "key": "cQTQLn01pG",
+        "key": "s7S97L0xk",
         "nodes": [
             {
-                "key": "cQTTfa02Pc",
+                "key": "s7S97L2Cr",
                 "order": 1,
                 "option": "Next",
                 "nodes": [
                     {
-                        "key": "cQTVY600L2",
+                        "key": "s7S97L14M",
                         "order": 1,
                         "option": "Next",
                         "sharedAssetKey": "cQTWwn01Jm",
                         "nodes": [
                             {
-                                "key": "cQTWXc00Gm",
+                                "key": "s7S97L1nC",
                                 "order": 1,
                                 "option": "Next",
                                 "nodes": [
                                     {
-                                        "key": "cQTZS601KM",
+                                        "key": "s7S97L17Z",
                                         "order": 1,
                                         "option": "Next",
                                         "nodes": [
                                             {
-                                                "key": "cQTbCB02XU",
+                                                "key": "s7S97L1RX",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "nodes": [
                                                     {
-                                                        "key": "cQTd6800dr",
+                                                        "key": "s7S97L2Gp",
                                                         "order": 1,
                                                         "option": "Next",
                                                         "sharedAssetKey": "cQTiQC02GD",
                                                         "nodes": [
                                                             {
-                                                                "key": "cQTiBm01wA",
+                                                                "key": "s7S97L2Aa",
                                                                 "order": 1,
                                                                 "option": "Next",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "cQTlpD00Nk",
+                                                                        "key": "s7S97L0B0",
                                                                         "order": 1,
                                                                         "option": "Next",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "cQTng402Kf",
+                                                                                "key": "s7S97L1Ga",
                                                                                 "order": 1,
                                                                                 "option": "Next",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "cQTpW2028g",
+                                                                                        "key": "s7S97L2MK",
                                                                                         "order": 1,
                                                                                         "option": "Next",
                                                                                         "sharedAssetKey": "cQTr7h01QC",
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "cQTqoI00z6",
+                                                                                                "key": "s7S97L0e9",
                                                                                                 "order": 1,
                                                                                                 "option": "Next",
                                                                                                 "nodes": [
                                                                                                     {
-                                                                                                        "key": "cQTuH701iq",
+                                                                                                        "key": "s7S97L1eA",
                                                                                                         "order": 1,
                                                                                                         "option": "Next",
                                                                                                         "nodes": [
                                                                                                             {
-                                                                                                                "key": "cQTvwI00kt",
+                                                                                                                "key": "s7S97L18S",
                                                                                                                 "order": 1,
                                                                                                                 "option": "Next",
                                                                                                                 "nodes": [
                                                                                                                     {
-                                                                                                                        "key": "cQTyWu014t",
+                                                                                                                        "key": "s7S97L1Xo",
                                                                                                                         "order": 1,
                                                                                                                         "option": "Next",
                                                                                                                         "sharedAssetKey": "cQU0i800CV",
                                                                                                                         "nodes": [
                                                                                                                             {
-                                                                                                                                "key": "cQU0KQ02Od",
+                                                                                                                                "key": "s7S97L1wi",
                                                                                                                                 "order": 1,
                                                                                                                                 "option": "Next",
                                                                                                                                 "nodes": [
                                                                                                                                     {
-                                                                                                                                        "key": "cQU3NF01cT",
+                                                                                                                                        "key": "s7S97L1db",
                                                                                                                                         "order": 1,
                                                                                                                                         "option": "Next",
                                                                                                                                         "nodes": [
                                                                                                                                             {
-                                                                                                                                                "key": "cQU59i00I4",
+                                                                                                                                                "key": "s7S97L1Sd",
                                                                                                                                                 "order": 1,
                                                                                                                                                 "option": "Next",
                                                                                                                                                 "nodes": [
                                                                                                                                                     {
-                                                                                                                                                        "key": "cQU7Rr02BS",
+                                                                                                                                                        "key": "s7S97L1jV",
                                                                                                                                                         "order": 1,
                                                                                                                                                         "option": "Next",
                                                                                                                                                         "sharedAssetKey": "cQU9VJ027E",
                                                                                                                                                         "nodes": [
                                                                                                                                                             {
-                                                                                                                                                                "key": "cQU94M01Po",
+                                                                                                                                                                "key": "s7S97L26Z",
                                                                                                                                                                 "order": 1,
                                                                                                                                                                 "option": "Next",
                                                                                                                                                                 "nodes": [
                                                                                                                                                                     {
-                                                                                                                                                                        "key": "cQUC8i02W7",
+                                                                                                                                                                        "key": "s7S97L0p3",
                                                                                                                                                                         "order": 1,
                                                                                                                                                                         "option": "Next",
                                                                                                                                                                         "nodes": [
                                                                                                                                                                             {
-                                                                                                                                                                                "key": "cQUEFw02L7",
+                                                                                                                                                                                "key": "s7S97L2Xv",
                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                     {
-                                                                                                                                                                                        "key": "cQUFyQ00xX",
+                                                                                                                                                                                        "key": "s7S97L04J",
                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                         "sharedAssetKey": "cQUHfn02A6",
                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                             {
-                                                                                                                                                                                                "key": "cQUHHL00FR",
+                                                                                                                                                                                                "key": "s7S97L0r2",
                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                     {
-                                                                                                                                                                                                        "key": "cQUKEe00aT",
+                                                                                                                                                                                                        "key": "s7S97L18q",
                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                             {
-                                                                                                                                                                                                                "key": "cQUMbT01Ci",
+                                                                                                                                                                                                                "key": "s7S97L0KL",
                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                        "key": "cQUOna02OI",
+                                                                                                                                                                                                                        "key": "s7S97L1j8",
                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                         "sharedAssetKey": "cQUQ3F00nK",
                                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                "key": "cQUPoG00PB",
+                                                                                                                                                                                                                                "key": "s7S97L0G1",
                                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                        "key": "cQUT95024e",
+                                                                                                                                                                                                                                        "key": "s7S97L1C9",
                                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                                "key": "cQUV0000JU",
+                                                                                                                                                                                                                                                "key": "s7S97L0Hg",
                                                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                                        "key": "cQUWql022p",
+                                                                                                                                                                                                                                                        "key": "s7S97L2PL",
                                                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                                                "key": "cQUYS301kC",
+                                                                                                                                                                                                                                                                "key": "s7S97L0dV",
                                                                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                                                        "key": "cQUa2k01IA",
+                                                                                                                                                                                                                                                                        "key": "s7S97L2C8",
                                                                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                                                                         "sharedAssetKey": "cQUbxV0293",
                                                                                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                                                                "key": "cQUbbw00Tn",
+                                                                                                                                                                                                                                                                                "key": "s7S97L2Q5",
                                                                                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                                                                        "key": "cQUf9f02H5",
+                                                                                                                                                                                                                                                                                        "key": "s7S97L0yt",
                                                                                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                                                                                         "nodes": [
                                                                                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                                                                                "key": "cQUgyR02Me",
+                                                                                                                                                                                                                                                                                                "key": "s7S97L0M4",
                                                                                                                                                                                                                                                                                                 "order": 1,
                                                                                                                                                                                                                                                                                                 "option": "Next",
                                                                                                                                                                                                                                                                                                 "nodes": [
                                                                                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                                                                                        "key": "cQUisA01hK",
+                                                                                                                                                                                                                                                                                                        "key": "s7S97L2OH",
                                                                                                                                                                                                                                                                                                         "order": 1,
                                                                                                                                                                                                                                                                                                         "option": "Next",
                                                                                                                                                                                                                                                                                                         "isLeaf": true
@@ -272,11 +272,11 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-cQTQLn01pG",
+            "key": "δ-s7S97L0xk",
             "relativePath": "./δ steps/δ-cQTQLn01pG.tsstp"
         },
         {
-            "key": "δ-cQTTfa02Pc",
+            "key": "δ-s7S97L2Cr",
             "relativePath": "./δ steps/δ-cQTTfa02Pc.tsstp"
         },
         {
@@ -285,15 +285,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQTWXc00Gm",
+            "key": "δ-s7S97L1nC",
             "relativePath": "./δ steps/δ-cQTWXc00Gm.tsstp"
         },
         {
-            "key": "δ-cQTZS601KM",
+            "key": "δ-s7S97L17Z",
             "relativePath": "./δ steps/δ-cQTZS601KM.tsstp"
         },
         {
-            "key": "δ-cQTbCB02XU",
+            "key": "δ-s7S97L1RX",
             "relativePath": "./δ steps/δ-cQTbCB02XU.tsstp"
         },
         {
@@ -302,15 +302,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQTiBm01wA",
+            "key": "δ-s7S97L2Aa",
             "relativePath": "./δ steps/δ-cQTiBm01wA.tsstp"
         },
         {
-            "key": "δ-cQTlpD00Nk",
+            "key": "δ-s7S97L0B0",
             "relativePath": "./δ steps/δ-cQTlpD00Nk.tsstp"
         },
         {
-            "key": "δ-cQTng402Kf",
+            "key": "δ-s7S97L1Ga",
             "relativePath": "./δ steps/δ-cQTng402Kf.tsstp"
         },
         {
@@ -319,15 +319,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQTqoI00z6",
+            "key": "δ-s7S97L0e9",
             "relativePath": "./δ steps/δ-cQTqoI00z6.tsstp"
         },
         {
-            "key": "δ-cQTuH701iq",
+            "key": "δ-s7S97L1eA",
             "relativePath": "./δ steps/δ-cQTuH701iq.tsstp"
         },
         {
-            "key": "δ-cQTvwI00kt",
+            "key": "δ-s7S97L18S",
             "relativePath": "./δ steps/δ-cQTvwI00kt.tsstp"
         },
         {
@@ -336,15 +336,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQU0KQ02Od",
+            "key": "δ-s7S97L1wi",
             "relativePath": "./δ steps/δ-cQU0KQ02Od.tsstp"
         },
         {
-            "key": "δ-cQU3NF01cT",
+            "key": "δ-s7S97L1db",
             "relativePath": "./δ steps/δ-cQU3NF01cT.tsstp"
         },
         {
-            "key": "δ-cQU59i00I4",
+            "key": "δ-s7S97L1Sd",
             "relativePath": "./δ steps/δ-cQU59i00I4.tsstp"
         },
         {
@@ -353,15 +353,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQU94M01Po",
+            "key": "δ-s7S97L26Z",
             "relativePath": "./δ steps/δ-cQU94M01Po.tsstp"
         },
         {
-            "key": "δ-cQUC8i02W7",
+            "key": "δ-s7S97L0p3",
             "relativePath": "./δ steps/δ-cQUC8i02W7.tsstp"
         },
         {
-            "key": "δ-cQUEFw02L7",
+            "key": "δ-s7S97L2Xv",
             "relativePath": "./δ steps/δ-cQUEFw02L7.tsstp"
         },
         {
@@ -370,15 +370,15 @@
             "isShared": true
         },
         {
-            "key": "δ-cQUHHL00FR",
+            "key": "δ-s7S97L0r2",
             "relativePath": "./δ steps/δ-cQUHHL00FR.tsstp"
         },
         {
-            "key": "δ-cQUKEe00aT",
+            "key": "δ-s7S97L18q",
             "relativePath": "./δ steps/δ-cQUKEe00aT.tsstp"
         },
         {
-            "key": "δ-cQUMbT01Ci",
+            "key": "δ-s7S97L0KL",
             "relativePath": "./δ steps/δ-cQUMbT01Ci.tsstp"
         },
         {
@@ -387,23 +387,23 @@
             "isShared": true
         },
         {
-            "key": "δ-cQUPoG00PB",
+            "key": "δ-s7S97L0G1",
             "relativePath": "./δ steps/δ-cQUPoG00PB.tsstp"
         },
         {
-            "key": "δ-cQUT95024e",
+            "key": "δ-s7S97L1C9",
             "relativePath": "./δ steps/δ-cQUT95024e.tsstp"
         },
         {
-            "key": "δ-cQUV0000JU",
+            "key": "δ-s7S97L0Hg",
             "relativePath": "./δ steps/δ-cQUV0000JU.tsstp"
         },
         {
-            "key": "δ-cQUWql022p",
+            "key": "δ-s7S97L2PL",
             "relativePath": "./δ steps/δ-cQUWql022p.tsstp"
         },
         {
-            "key": "δ-cQUYS301kC",
+            "key": "δ-s7S97L0dV",
             "relativePath": "./δ steps/δ-cQUYS301kC.tsstp"
         },
         {
@@ -412,19 +412,19 @@
             "isShared": true
         },
         {
-            "key": "δ-cQUbbw00Tn",
+            "key": "δ-s7S97L2Q5",
             "relativePath": "./δ steps/δ-cQUbbw00Tn.tsstp"
         },
         {
-            "key": "δ-cQUf9f02H5",
+            "key": "δ-s7S97L0yt",
             "relativePath": "./δ steps/δ-cQUf9f02H5.tsstp"
         },
         {
-            "key": "δ-cQUgyR02Me",
+            "key": "δ-s7S97L0M4",
             "relativePath": "./δ steps/δ-cQUgyR02Me.tsstp"
         },
         {
-            "key": "δ-cQUisA01hK",
+            "key": "δ-s7S97L2OH",
             "relativePath": "./δ steps/δ-cQUisA01hK.tsstp"
         }
     ],

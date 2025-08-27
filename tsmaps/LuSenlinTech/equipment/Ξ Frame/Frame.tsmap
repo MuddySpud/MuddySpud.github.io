@@ -1,5 +1,5 @@
 {
-    "key": "q6hsC700VU  ",
+    "key": "s7SMPh1IK",
     "token": "Frame",
     "name": "Frame",
     "created": "2025-08-06T12:33:41.711Z",
@@ -8,17 +8,17 @@
     "iText": "Link to 'Frame'",
     "iExits": [
         {
-            "key": "q77eNC003a",
+            "key": "s7SMPh1IZ",
             "text": "Next",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "q6htvc02LO",
+        "key": "s7SMPh1bm",
         "iKey": "q6ciG80241",
         "nodes": [
             {
-                "key": "q6i2Ta00Bt",
+                "key": "s7SMPh1x2",
                 "order": 1,
                 "option": "Solo module",
                 "iExitKey": "q6e5Xy00dF",
@@ -27,23 +27,23 @@
                 ],
                 "nodes": [
                     {
-                        "key": "q6imCX01qm",
+                        "key": "s7SMPh1Os",
                         "order": 1,
                         "iKey": "qEBGyN02IY",
                         "nodes": [
                             {
-                                "key": "qHtVCf008l",
+                                "key": "s7SMPh0sD",
                                 "order": 1,
                                 "option": "Next",
                                 "iExitKey": "qEBLiW03q",
-                                "exitKey": "q77eNC003a"
+                                "exitKey": "s7SMPh1IZ"
                             }
                         ]
                     }
                 ]
             },
             {
-                "key": "q79JOK02QB",
+                "key": "s7SMPh0nr",
                 "order": 2,
                 "option": "Dual modules",
                 "iExitKey": "q6e6nI00dw",
@@ -52,34 +52,34 @@
                 ],
                 "nodes": [
                     {
-                        "key": "q6i2Ta02M5",
+                        "key": "s7SMPh2Y4",
                         "order": 1,
                         "variable": [
                             "Module1"
                         ],
                         "nodes": [
                             {
-                                "key": "q746iw01l6",
+                                "key": "s7SMPh1H4",
                                 "order": 1,
                                 "iKey": "qEB3Dv007Y",
                                 "nodes": [
                                     {
-                                        "key": "qHviHf02UO",
+                                        "key": "s7SMPh0J5",
                                         "order": 1,
                                         "option": "Next",
                                         "iExitKey": "qEBAUH1Gz",
                                         "nodes": [
                                             {
-                                                "key": "qHvj8N02TX",
+                                                "key": "s7SMPh2Wn",
                                                 "order": 1,
                                                 "iKey": "qEB3Dv007Y",
                                                 "nodes": [
                                                     {
-                                                        "key": "qHvnBh00in",
+                                                        "key": "s7SMPh1GB",
                                                         "order": 1,
                                                         "option": "Next",
                                                         "iExitKey": "qEBAUH1Gz",
-                                                        "exitKey": "q77eNC003a"
+                                                        "exitKey": "s7SMPh1IZ"
                                                     }
                                                 ]
                                             }
@@ -95,35 +95,35 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-q6htvc02LO",
+            "key": "δ-s7SMPh1bm",
             "relativePath": "./δ steps/δ-q6htvc02LO.tsstp"
         },
         {
-            "key": "δ-q6i2Ta00Bt",
+            "key": "δ-s7SMPh1x2",
             "relativePath": "./δ steps/δ-q6i2Ta00Bt.tsstp"
         },
         {
-            "key": "δ-q6imCX01qm",
+            "key": "δ-s7SMPh1Os",
             "relativePath": "./δ steps/δ-q6imCX01qm.tsstp"
         },
         {
-            "key": "δ-q79JOK02QB",
+            "key": "δ-s7SMPh0nr",
             "relativePath": "./δ steps/δ-q79JOK02QB.tsstp"
         },
         {
-            "key": "δ-q6i2Ta02M5",
+            "key": "δ-s7SMPh2Y4",
             "relativePath": "./δ steps/δ-q6i2Ta02M5.tsstp"
         },
         {
-            "key": "δ-q746iw01l6",
+            "key": "δ-s7SMPh1H4",
             "relativePath": "./δ steps/δ-q746iw01l6.tsstp"
         },
         {
-            "key": "δ-qHviHf02UO",
+            "key": "δ-s7SMPh0J5",
             "relativePath": "./δ steps/δ-qHviHf02UO.tsstp"
         },
         {
-            "key": "δ-qHvj8N02TX",
+            "key": "δ-s7SMPh2Wn",
             "relativePath": "./δ steps/δ-qHvj8N02TX.tsstp"
         }
     ],

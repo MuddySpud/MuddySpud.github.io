@@ -1,0 +1,18 @@
+# Permalinks
+permalink: pretty
+
+# Setup
+title: Docs Assembler demo guides
+markdown_ext: markdown,tsfrg,md
+source: docs
+destination: root/_site
+sass:
+  sass_dir: docs/assets/scss
+  style: compressed
+defaults:
+  -
+    scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: default

@@ -1,5 +1,5 @@
 {
-    "key": "eGVQI90Zm",
+    "key": "s7SM6y0Nr",
     "token": "Grasshopper",
     "name": "Grasshopper",
     "created": "2025-03-14T10:46:55.968Z",
@@ -7,35 +7,35 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Ξ Grasshopper/Grasshopper.tsmap",
     "iText": "Link to 'Grasshopper'",
     "___rΩΩt___": {
-        "key": "eGVQI92RH",
+        "key": "s7SM6y0HN",
         "nodes": [
             {
-                "key": "eGVQI90PL",
+                "key": "s7SM6y12r",
                 "order": 1,
                 "option": "Next",
                 "nodes": [
                     {
-                        "key": "eGVQI90T5",
+                        "key": "s7SM6y1Ul",
                         "order": 1,
                         "option": "Next",
                         "nodes": [
                             {
-                                "key": "eGVQI91zE",
+                                "key": "s7SM6y1GT",
                                 "order": 1,
                                 "option": "Next",
                                 "nodes": [
                                     {
-                                        "key": "eGVQI91X8",
+                                        "key": "s7SM6y09l",
                                         "order": 1,
                                         "option": "Next",
                                         "nodes": [
                                             {
-                                                "key": "eGVQI90Qd",
+                                                "key": "s7SM6y0T9",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "nodes": [
                                                     {
-                                                        "key": "eGVQI91tt",
+                                                        "key": "s7SM6y1Pq",
                                                         "order": 1,
                                                         "option": "Next",
                                                         "isLeaf": true
@@ -54,31 +54,31 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-eGVQI92RH",
+            "key": "δ-s7SM6y0HN",
             "relativePath": "./δ steps/δ-cQQoxR025w.tsstp"
         },
         {
-            "key": "δ-eGVQI90PL",
+            "key": "δ-s7SM6y12r",
             "relativePath": "./δ steps/δ-cQQuZA01TM.tsstp"
         },
         {
-            "key": "δ-eGVQI90T5",
+            "key": "δ-s7SM6y1Ul",
             "relativePath": "./δ steps/δ-cQQxGE00aU.tsstp"
         },
         {
-            "key": "δ-eGVQI91zE",
+            "key": "δ-s7SM6y1GT",
             "relativePath": "./δ steps/δ-cQQye100Mn.tsstp"
         },
         {
-            "key": "δ-eGVQI91X8",
+            "key": "δ-s7SM6y09l",
             "relativePath": "./δ steps/δ-cQR0Il01fF.tsstp"
         },
         {
-            "key": "δ-eGVQI90Qd",
+            "key": "δ-s7SM6y0T9",
             "relativePath": "./δ steps/δ-cQR21a00HY.tsstp"
         },
         {
-            "key": "δ-eGVQI91tt",
+            "key": "δ-s7SM6y1Pq",
             "relativePath": "./δ steps/δ-cQR4BH01jm.tsstp"
         }
     ],

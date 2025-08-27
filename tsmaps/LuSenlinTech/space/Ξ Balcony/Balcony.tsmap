@@ -1,5 +1,5 @@
 {
-    "key": "pRcHa502ST  ",
+    "key": "s7LPkv1Gh",
     "token": "Balcony",
     "name": "Balcony",
     "created": "2025-07-30T11:54:19.553Z",
@@ -7,51 +7,51 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
     "iText": "Link to 'Balcony'",
     "___rΩΩt___": {
-        "key": "pRcLec01Z2",
+        "key": "s7LPkv17x",
         "nodes": [
             {
-                "key": "q944wV00LG",
+                "key": "s7LPkv07Q",
                 "order": 1,
                 "iKey": "q93IOC2Uy",
                 "nodes": [
                     {
-                        "key": "q94B4N00RT",
+                        "key": "s7LPkv0T6",
                         "order": 1,
                         "option": "Next",
                         "iExitKey": "q93t7602CB",
                         "nodes": [
                             {
-                                "key": "rqVv4l00yw",
+                                "key": "s7LPkv1yE",
                                 "order": 1,
                                 "iKey": "puJoyS00J4",
                                 "nodes": [
                                     {
-                                        "key": "rqW3KW00sS",
+                                        "key": "s7LPkv1Np",
                                         "order": 1,
                                         "option": "Low effort",
                                         "iExitKey": "pugrVO012i",
                                         "nodes": [
                                             {
-                                                "key": "rqosUK01Bl",
+                                                "key": "s7LPkv01W",
                                                 "order": 1,
                                                 "iKey": "pv7P9500YG",
                                                 "nodes": [
                                                     {
-                                                        "key": "rqpliI019O",
+                                                        "key": "s7LPkv0FM",
                                                         "order": 1,
                                                         "option": "Next",
                                                         "iKey": "rp5C2001Xy",
                                                         "iExitKey": "q7U9Fi02VL",
                                                         "nodes": [
                                                             {
-                                                                "key": "rqpprh009d",
+                                                                "key": "s7LPkv1H7",
                                                                 "order": 1,
                                                                 "option": "Has power supply",
                                                                 "isLeaf": true,
                                                                 "iExitKey": "rpvlz60226"
                                                             },
                                                             {
-                                                                "key": "rqpprh00ab",
+                                                                "key": "s7LPkv2U6",
                                                                 "order": 2,
                                                                 "option": "No power supply",
                                                                 "isLeaf": true,
@@ -64,14 +64,14 @@
                                         ]
                                     },
                                     {
-                                        "key": "rqW3KW01X5",
+                                        "key": "s7LPkv1Ye",
                                         "order": 2,
                                         "option": "Moderate effort",
                                         "isLeaf": true,
                                         "iExitKey": "pugro900Ku"
                                     },
                                     {
-                                        "key": "rqW3KW015m",
+                                        "key": "s7LPkv2b0",
                                         "order": 3,
                                         "option": "High effort\n",
                                         "isLeaf": true,
@@ -87,47 +87,47 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-pRcLec01Z2",
+            "key": "δ-s7LPkv17x",
             "relativePath": "./δ steps/δ-pRcLec01Z2.tsstp"
         },
         {
-            "key": "δ-q944wV00LG",
+            "key": "δ-s7LPkv07Q",
             "relativePath": "./δ steps/δ-q944wV00LG.tsstp"
         },
         {
-            "key": "δ-q94B4N00RT",
+            "key": "δ-s7LPkv0T6",
             "relativePath": "./δ steps/δ-q94B4N00RT.tsstp"
         },
         {
-            "key": "δ-rqVv4l00yw",
+            "key": "δ-s7LPkv1yE",
             "relativePath": "./δ steps/δ-rqVv4l00yw.tsstp"
         },
         {
-            "key": "δ-rqW3KW00sS",
+            "key": "δ-s7LPkv1Np",
             "relativePath": "./δ steps/δ-rqW3KW00sS.tsstp"
         },
         {
-            "key": "δ-rqW3KW01X5",
+            "key": "δ-s7LPkv1Ye",
             "relativePath": "./δ steps/δ-rqW3KW01X5.tsstp"
         },
         {
-            "key": "δ-rqW3KW015m",
+            "key": "δ-s7LPkv2b0",
             "relativePath": "./δ steps/δ-rqW3KW015m.tsstp"
         },
         {
-            "key": "δ-rqosUK01Bl",
+            "key": "δ-s7LPkv01W",
             "relativePath": "./δ steps/δ-rqosUK01Bl.tsstp"
         },
         {
-            "key": "δ-rqpliI019O",
+            "key": "δ-s7LPkv0FM",
             "relativePath": "./δ steps/δ-rqpliI019O.tsstp"
         },
         {
-            "key": "δ-rqpprh009d",
+            "key": "δ-s7LPkv1H7",
             "relativePath": "./δ steps/δ-rqpprh009d.tsstp"
         },
         {
-            "key": "δ-rqpprh00ab",
+            "key": "δ-s7LPkv2U6",
             "relativePath": "./δ steps/δ-rqpprh00ab.tsstp"
         }
     ],

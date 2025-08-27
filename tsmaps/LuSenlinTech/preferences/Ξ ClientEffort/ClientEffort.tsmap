@@ -1,5 +1,5 @@
 {
-    "key": "puJoyS00J4  ",
+    "key": "s7LPoO1sh",
     "token": "Clienteffort",
     "name": "ClientEffort",
     "created": "2025-08-04T09:42:53.428Z",
@@ -8,58 +8,58 @@
     "iText": "Link to 'ClientEffort'",
     "iExits": [
         {
-            "key": "pugrVO012i",
+            "key": "s7LPoO19j",
             "text": "Low effort",
             "order": 1
         },
         {
-            "key": "pugro900Ku",
+            "key": "s7LPoO04R",
             "text": "Moderate effort",
             "order": 2
         },
         {
-            "key": "pugs3O02N7",
+            "key": "s7LPoO2Y3",
             "text": "High effort\n",
             "order": 3
         }
     ],
     "___rΩΩt___": {
-        "key": "puJuqN00SE",
+        "key": "s7LPoO0qp",
         "nodes": [
             {
-                "key": "rneO8R01le",
+                "key": "s7LPoO0VY",
                 "order": 1,
                 "nodes": [
                     {
-                        "key": "rngRKh02Zd",
+                        "key": "s7LPoO2B5",
                         "order": 1,
                         "nodes": [
                             {
-                                "key": "puKCZG02KQ",
+                                "key": "s7LPoO11x",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "puKHKP01dr",
+                                        "key": "s7LPoO05F",
                                         "order": 1,
                                         "option": "Low effort - for harvest only",
-                                        "exitKey": "pugrVO012i"
+                                        "exitKey": "s7LPoO19j"
                                     },
                                     {
-                                        "key": "puKJO200i0",
+                                        "key": "s7LPoO09a",
                                         "order": 2,
                                         "option": "Moderate effort - for guided involvement",
-                                        "exitKey": "pugro900Ku"
+                                        "exitKey": "s7LPoO04R"
                                     },
                                     {
-                                        "key": "puKLE001K5",
+                                        "key": "s7LPoO0o9",
                                         "order": 3,
                                         "option": "High effort - for hands-on mastery",
-                                        "exitKey": "pugs3O02N7"
+                                        "exitKey": "s7LPoO2Y3"
                                     }
                                 ]
                             },
                             {
-                                "key": "rngpxv01l9",
+                                "key": "s7LPoO0I7",
                                 "order": 2,
                                 "option": "more details...",
                                 "isLeaf": true,
@@ -68,13 +68,13 @@
                         ]
                     },
                     {
-                        "key": "rnhdYu00dj",
+                        "key": "s7LPoO25V",
                         "order": 2,
                         "option": "more details...",
                         "isAncillary": true,
                         "nodes": [
                             {
-                                "key": "rv4Fvv02YA",
+                                "key": "s7LPoO0j7",
                                 "order": 1,
                                 "option": "PureLight™",
                                 "isLeaf": true,
@@ -85,13 +85,13 @@
                 ]
             },
             {
-                "key": "rQ8n0W018f",
+                "key": "s7LPoO1n7",
                 "order": 2,
                 "option": "more details...",
                 "isAncillary": true,
                 "nodes": [
                     {
-                        "key": "rQALQD02W0",
+                        "key": "s7LPoO1QC",
                         "order": 1,
                         "option": "PureLight™",
                         "isLeaf": true,
@@ -103,39 +103,39 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-puJuqN00SE",
+            "key": "δ-s7LPoO0qp",
             "relativePath": "./δ steps/δ-puJuqN00SE.tsstp"
         },
         {
-            "key": "δ-rQ8n0W018f",
+            "key": "δ-s7LPoO1n7",
             "relativePath": "./δ steps/δ-rQ8n0W018f.tsstp"
         },
         {
-            "key": "δ-rQALQD02W0",
+            "key": "δ-s7LPoO1QC",
             "relativePath": "./δ steps/δ-rQALQD02W0.tsstp"
         },
         {
-            "key": "δ-rneO8R01le",
+            "key": "δ-s7LPoO0VY",
             "relativePath": "./δ steps/δ-rneO8R01le.tsstp"
         },
         {
-            "key": "δ-rngRKh02Zd",
+            "key": "δ-s7LPoO2B5",
             "relativePath": "./δ steps/δ-rngRKh02Zd.tsstp"
         },
         {
-            "key": "δ-rngpxv01l9",
+            "key": "δ-s7LPoO0I7",
             "relativePath": "./δ steps/δ-rngpxv01l9.tsstp"
         },
         {
-            "key": "δ-rnhdYu00dj",
+            "key": "δ-s7LPoO25V",
             "relativePath": "./δ steps/δ-rnhdYu00dj.tsstp"
         },
         {
-            "key": "δ-puKCZG02KQ",
+            "key": "δ-s7LPoO11x",
             "relativePath": "./δ steps/δ-puKCZG02KQ.tsstp"
         },
         {
-            "key": "δ-rv4Fvv02YA",
+            "key": "δ-s7LPoO0j7",
             "relativePath": "./δ steps/δ-rv4Fvv02YA.tsstp"
         }
     ],

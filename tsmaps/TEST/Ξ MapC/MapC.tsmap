@@ -1,5 +1,5 @@
 {
-    "key": "fjJBWe00Bt  ",
+    "key": "s7SMDC0Tc",
     "token": "Mapc",
     "name": "MapC",
     "created": "2025-04-18T11:42:33.772Z",
@@ -8,16 +8,16 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapC/MapC.tsmap",
     "iText": "Link to 'MapC'",
     "___rΩΩt___": {
-        "key": "fjJD4x00Kf",
+        "key": "s7SMDC2KG",
         "nodes": [
             {
-                "key": "fktrA001KS",
+                "key": "s7SMDC17m",
                 "order": 1,
                 "option": "MapC 1.1",
                 "iKey": "fugVwq00wh",
                 "nodes": [
                     {
-                        "key": "i8GGZn00Tj",
+                        "key": "s7SMDC26b",
                         "order": 1,
                         "option": "Exit1 MapE 1.1",
                         "isLeaf": true,
@@ -26,7 +26,7 @@
                 ]
             },
             {
-                "key": "fkuBWf02T8",
+                "key": "s7SMDC0Bl",
                 "order": 2,
                 "option": "MapC 1.2",
                 "isLeaf": true
@@ -35,19 +35,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-fjJD4x00Kf",
+            "key": "δ-s7SMDC2KG",
             "relativePath": "./δ steps/δ-fjJD4x00Kf.tsstp"
         },
         {
-            "key": "δ-fkuBWf02T8",
+            "key": "δ-s7SMDC0Bl",
             "relativePath": "./δ steps/δ-fkuBWf02T8.tsstp"
         },
         {
-            "key": "δ-fktrA001KS",
+            "key": "δ-s7SMDC17m",
             "relativePath": "./δ steps/δ-fktrA001KS.tsstp"
         },
         {
-            "key": "δ-i8GGZn00Tj",
+            "key": "δ-s7SMDC26b",
             "relativePath": "./δ steps/δ-i8GGZn00Tj.tsstp"
         }
     ],

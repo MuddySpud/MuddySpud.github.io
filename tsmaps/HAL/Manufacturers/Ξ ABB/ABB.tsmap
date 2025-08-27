@@ -1,5 +1,5 @@
 {
-    "key": "eGVQHy0Js   ",
+    "key": "s7S97z2NP",
     "token": "Abb",
     "name": "ABB",
     "created": "2025-03-13T16:10:07.027Z",
@@ -8,54 +8,54 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Manufacturers/Ξ ABB/ABB.tsmap",
     "iText": "Link to 'ABB'",
     "___rΩΩt___": {
-        "key": "eGVQHy0HI",
+        "key": "s7S97z05l",
         "sharedAssetKey": "cLuNr201UO",
         "nodes": [
             {
-                "key": "eGVQHy0Kj",
+                "key": "s7S97z2R5",
                 "order": 1,
                 "option": "Next",
                 "nodes": [
                     {
-                        "key": "eGVQHy1Xk",
+                        "key": "s7S97z0hS",
                         "order": 1,
                         "option": "Next",
                         "sharedAssetKey": "cLufLU00Ei",
                         "nodes": [
                             {
-                                "key": "eGVQHy1z8",
+                                "key": "s7S97z1WU",
                                 "order": 1,
                                 "option": "Next",
                                 "nodes": [
                                     {
-                                        "key": "eGVQHy2D0",
+                                        "key": "s7S97z0Lk",
                                         "order": 1,
                                         "option": "Next",
                                         "sharedAssetKey": "cLvAHC01fm",
                                         "nodes": [
                                             {
-                                                "key": "eGVQHy0J8",
+                                                "key": "s7S97z2a4",
                                                 "order": 1,
                                                 "option": "Next",
                                                 "nodes": [
                                                     {
-                                                        "key": "eGVQHy1zj",
+                                                        "key": "s7S97z0NP",
                                                         "order": 1,
                                                         "option": "Next",
                                                         "sharedAssetKey": "cLvby400bs",
                                                         "nodes": [
                                                             {
-                                                                "key": "eGVQHy0Jw",
+                                                                "key": "s7S97z1pa",
                                                                 "order": 1,
                                                                 "option": "Next",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "eGVQHy1uo",
+                                                                        "key": "s7S97z1RE",
                                                                         "order": 1,
                                                                         "option": "Next",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "eGVQHy0BL",
+                                                                                "key": "s7S97z17u",
                                                                                 "order": 1,
                                                                                 "option": "Next",
                                                                                 "isLeaf": true
@@ -85,7 +85,7 @@
             "isShared": true
         },
         {
-            "key": "δ-eGVQHy0Kj",
+            "key": "δ-s7S97z2R5",
             "relativePath": "./δ steps/δ-cLuMfT02Tb.tsstp"
         },
         {
@@ -94,7 +94,7 @@
             "isShared": true
         },
         {
-            "key": "δ-eGVQHy1z8",
+            "key": "δ-s7S97z1WU",
             "relativePath": "./δ steps/δ-cLuezq00Yj.tsstp"
         },
         {
@@ -108,19 +108,19 @@
             "isShared": true
         },
         {
-            "key": "δ-eGVQHy0Jw",
+            "key": "δ-s7S97z1pa",
             "relativePath": "./δ steps/δ-cLvJci00QF.tsstp"
         },
         {
-            "key": "δ-eGVQHy1uo",
+            "key": "δ-s7S97z1RE",
             "relativePath": "./δ steps/δ-cLvMfG00hb.tsstp"
         },
         {
-            "key": "δ-eGVQHy0J8",
+            "key": "δ-s7S97z2a4",
             "relativePath": "./δ steps/δ-cLv9pn00s7.tsstp"
         },
         {
-            "key": "δ-eGVQHy0BL",
+            "key": "δ-s7S97z17u",
             "relativePath": "./δ steps/δ-cLvi1J01fK.tsstp"
         }
     ],

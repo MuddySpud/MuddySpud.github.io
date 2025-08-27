@@ -8,9 +8,29 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome localhost",
-            "url": "https://localhost:1226/index.html",
-            // "url": "https://localhost:1226/docs/_site/LuSenlinTech/FoodGrowingSpacePlan/",
+            "url": "https://localhost:1226/_site/LuSenlinTech/FoodGrowingSpacePlan/",
             "webRoot": "${workspaceFolder}/root"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug modify-html.js",
+            "program": "${workspaceFolder}/modify-html.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Yarn build",
+            "program": "${workspaceFolder}/node_modules/.bin/yarn",
+            "args": [
+                "build"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
         }
     ]
 }

@@ -1,4 +1,11 @@
+node_modules
+dist
+dist-ssr
+build-ssr
 *.local
+public
+
+dist/
 
 /zz temp/
 
@@ -6,5 +13,6 @@
 
 /.cache/
 
+/build/
 pub/
 .bin/

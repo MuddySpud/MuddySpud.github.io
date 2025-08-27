@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/FoodGrowingSpacePlan_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"rwTCdp0Yx","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"rwTCdp0Yx","topLevelMapKey":"pLpEsh00Da","mapKeyChain":"pLpEsh00Da","guideID":"rwTCdp18o","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"pLpEsh00Da","isLeaf":false,"options":[{"id":"rwTCe32Cq","order":1},{"id":"rwTCfN1p2","option":"About Lǜ Sēnlín technologies","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"s7Jxq82Ox","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"s7Jxq82Ox","topLevelMapKey":"pLpEsh00Da","mapKeyChain":"pLpEsh00Da","guideID":"s7Jxq81fo","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"pLpEsh00Da","isLeaf":false,"options":[{"id":"s7JxqK0ER","order":1},{"id":"s7JxrR1Kh","option":"About Lǜ Sēnlín technologies","order":2,"isAncillary":true}]}} -->
 
 [<img src="/LuSenlinTech/assets/images/LuSenlin_white.png">](/LuSenlinTech/assets/images/LuSenlin_white.png){: .main-logo}
 

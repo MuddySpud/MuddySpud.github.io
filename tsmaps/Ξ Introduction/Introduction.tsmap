@@ -1,5 +1,5 @@
 {
-    "key": "e9T3Wy02Xz  ",
+    "key": "s7SMBI136",
     "token": "Introduction",
     "name": "Introduction",
     "created": "2025-04-01T18:07:05.393Z",
@@ -8,25 +8,25 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ Introduction/Introduction.tsmap",
     "iText": "Link to 'Introduction'",
     "___rΩΩt___": {
-        "key": "e9Uu6n02EN",
+        "key": "s7SMBI0uZ",
         "nodes": [
             {
-                "key": "eUisy401Ok",
+                "key": "s7SMBI0ME",
                 "order": 1,
                 "option": "Next",
                 "nodes": [
                     {
-                        "key": "eUixOe02UD",
+                        "key": "s7SMBI1Ex",
                         "order": 1,
                         "option": "Next",
                         "nodes": [
                             {
-                                "key": "eUj4o400j9",
+                                "key": "s7SMBI2By",
                                 "order": 1,
                                 "option": "Next",
                                 "nodes": [
                                     {
-                                        "key": "epuMRh00si",
+                                        "key": "s7SMBI0yd",
                                         "order": 1,
                                         "option": "Next",
                                         "isLeaf": true
@@ -41,23 +41,23 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-e9Uu6n02EN",
+            "key": "δ-s7SMBI0uZ",
             "relativePath": "./δ steps/δ-e9Uu6n02EN.tsstp"
         },
         {
-            "key": "δ-eUisy401Ok",
+            "key": "δ-s7SMBI0ME",
             "relativePath": "./δ steps/δ-eUisy401Ok.tsstp"
         },
         {
-            "key": "δ-eUixOe02UD",
+            "key": "δ-s7SMBI1Ex",
             "relativePath": "./δ steps/δ-eUixOe02UD.tsstp"
         },
         {
-            "key": "δ-eUj4o400j9",
+            "key": "δ-s7SMBI2By",
             "relativePath": "./δ steps/δ-eUj4o400j9.tsstp"
         },
         {
-            "key": "δ-epuMRh00si",
+            "key": "δ-s7SMBI0yd",
             "relativePath": "./δ steps/δ-epuMRh00si.tsstp"
         }
     ],

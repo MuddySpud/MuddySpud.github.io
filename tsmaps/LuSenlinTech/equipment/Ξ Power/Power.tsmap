@@ -1,5 +1,5 @@
 {
-    "key": "rp5C2001Xy  ",
+    "key": "s7SMXt0ol",
     "token": "Power",
     "name": "Power",
     "created": "2025-08-24T17:11:11.124Z",
@@ -8,50 +8,50 @@
     "iText": "Link to 'Power'",
     "iExits": [
         {
-            "key": "rpvlz60226",
+            "key": "s7SMXt1dV",
             "text": "Has power supply",
             "order": 1
         },
         {
-            "key": "rpvtlF00EO",
+            "key": "s7SMXt0Xu",
             "text": "No power supply",
             "order": 2
         }
     ],
     "___rΩΩt___": {
-        "key": "rp5DqE01uW",
+        "key": "s7SMXt0LX",
         "nodes": [
             {
-                "key": "rp5Hjm01cb",
+                "key": "s7SMXt1Q2",
                 "order": 1,
                 "option": "Yes",
-                "exitKey": "rpvlz60226"
+                "exitKey": "s7SMXt1dV"
             },
             {
-                "key": "rp5jwF00iO",
+                "key": "s7SMXt10X",
                 "order": 2,
                 "option": "No",
                 "nodes": [
                     {
-                        "key": "rpatdV01Z4",
+                        "key": "s7SMXt1yC",
                         "order": 1,
                         "option": "SolisCell™",
                         "isLeaf": true,
                         "isAncillary": true
                     },
                     {
-                        "key": "rpmUDR01oz",
+                        "key": "s7SMXt1VA",
                         "order": 2,
                         "nodes": [
                             {
-                                "key": "rpnFwa01HC",
+                                "key": "s7SMXt1DT",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "rptyz800QJ",
+                                        "key": "s7SMXt2Ou",
                                         "order": 1,
                                         "option": "No power supply - needs battery etc.",
-                                        "exitKey": "rpvtlF00EO"
+                                        "exitKey": "s7SMXt0Xu"
                                     }
                                 ]
                             }
@@ -63,23 +63,23 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-rp5DqE01uW",
+            "key": "δ-s7SMXt0LX",
             "relativePath": "./δ steps/δ-rp5DqE01uW.tsstp"
         },
         {
-            "key": "δ-rp5jwF00iO",
+            "key": "δ-s7SMXt10X",
             "relativePath": "./δ steps/δ-rp5jwF00iO.tsstp"
         },
         {
-            "key": "δ-rpatdV01Z4",
+            "key": "δ-s7SMXt1yC",
             "relativePath": "./δ steps/δ-rpatdV01Z4.tsstp"
         },
         {
-            "key": "δ-rpmUDR01oz",
+            "key": "δ-s7SMXt1VA",
             "relativePath": "./δ steps/δ-rpmUDR01oz.tsstp"
         },
         {
-            "key": "δ-rpnFwa01HC",
+            "key": "δ-s7SMXt1DT",
             "relativePath": "./δ steps/δ-rpnFwa01HC.tsstp"
         }
     ],

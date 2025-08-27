@@ -1,5 +1,5 @@
 {
-    "key": "q6ciG80241  ",
+    "key": "s7LPpx1UH",
     "token": "Framemodules",
     "name": "FrameModules",
     "created": "2025-08-06T12:13:11.880Z",
@@ -8,39 +8,39 @@
     "iText": "Link to 'FrameModules'",
     "iExits": [
         {
-            "key": "q6e5Xy00dF",
+            "key": "s7LPpx0rd",
             "text": "Solo module",
             "order": 1
         },
         {
-            "key": "q6e6nI00dw",
+            "key": "s7LPpx09N",
             "text": "Dual modules",
             "order": 2
         }
     ],
     "___rΩΩt___": {
-        "key": "q6coXJ01le",
+        "key": "s7LPpx2Ln",
         "variable": [
             "ModuleCount"
         ],
         "nodes": [
             {
-                "key": "q6cyYC01gK",
+                "key": "s7LPpx1Hw",
                 "order": 1,
                 "option": "Solo module",
-                "exitKey": "q6e5Xy00dF"
+                "exitKey": "s7LPpx0rd"
             },
             {
-                "key": "q6ddI0024d",
+                "key": "s7LPpx1Fx",
                 "order": 2,
                 "option": "Dual modules",
-                "exitKey": "q6e6nI00dw"
+                "exitKey": "s7LPpx09N"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-q6coXJ01le",
+            "key": "δ-s7LPpx2Ln",
             "relativePath": "./δ steps/δ-q6coXJ01le.tsstp"
         }
     ],

@@ -1,5 +1,5 @@
 {
-    "key": "jrv6xM00Hj  ",
+    "key": "s7SMMh0AC",
     "token": "Mapl",
     "name": "MapL",
     "created": "2025-06-01T08:58:54.689Z",
@@ -8,26 +8,26 @@
     "iText": "Link to 'MapL'",
     "iExits": [
         {
-            "key": "jrvR2500Hb",
+            "key": "s7SMMh01I",
             "text": "Exit 1",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "jrv8gQ00eU",
+        "key": "s7SMMh1R6",
         "nodes": [
             {
-                "key": "jrvAWg00Fu",
+                "key": "s7SMMh2Rk",
                 "order": 1,
                 "option": "MapL 1.1\n",
                 "iKey": "fugVwq00wh",
                 "nodes": [
                     {
-                        "key": "jrvX7j01oI",
+                        "key": "s7SMMh0fa",
                         "order": 1,
                         "option": "Exit1 MapE 1.1",
                         "iExitKey": "fuhBa202EB",
-                        "exitKey": "jrvR2500Hb"
+                        "exitKey": "s7SMMh01I"
                     }
                 ]
             }
@@ -35,11 +35,11 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-jrv8gQ00eU",
+            "key": "δ-s7SMMh1R6",
             "relativePath": "./δ steps/δ-jrv8gQ00eU.tsstp"
         },
         {
-            "key": "δ-jrvAWg00Fu",
+            "key": "δ-s7SMMh2Rk",
             "relativePath": "./δ steps/δ-jrvAWg00Fu.tsstp"
         }
     ],
