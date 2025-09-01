@@ -1,69 +1,51 @@
 {
     "v": "1",
     "r": {
-        "i": "s7Jxs90AA",
-        "n": "pRcLec01Z2",
+        "i": "sVhmNl1R6",
+        "n": "s7LPkv17x",
+        "c": 0,
         "o": [
             {
-                "i": "s7Jxsc23R",
-                "n": "q944wV00LG",
-                "c": 0,
+                "i": "sVhmOE0Ez",
+                "n": "s7LPkv0T6",
+                "x": "s7LPr60ZH",
+                "c": 1,
                 "o": [
                     {
-                        "i": "s7Jxsc1n9",
-                        "n": "q94B4N00RT",
-                        "x": "q93t7602CB",
+                        "i": "sVhmON1Sr",
+                        "n": "s7LPkv1Np",
+                        "x": "s7LPoO19j",
+                        "c": 2,
                         "o": [
                             {
-                                "i": "s7Jxsn0IB",
-                                "n": "rqVv4l00yw",
-                                "c": 1,
+                                "i": "sVhmOY0jN",
+                                "n": "s7LPkv0FM",
+                                "x": "s7SMOZ0VN",
+                                "c": 3,
                                 "o": [
                                     {
-                                        "i": "s7Jxsn0wb",
-                                        "n": "rqW3KW00sS",
-                                        "x": "pugrVO012i",
-                                        "o": [
-                                            {
-                                                "i": "s7Jxsx28U",
-                                                "n": "rqosUK01Bl",
-                                                "c": 2,
-                                                "o": [
-                                                    {
-                                                        "i": "s7Jxsx1Ro",
-                                                        "n": "rqpliI019O",
-                                                        "x": "q7U9Fi02VL",
-                                                        "c": 3,
-                                                        "o": [
-                                                            {
-                                                                "i": "s7Jxsx1Qu",
-                                                                "n": "rqpprh009d",
-                                                                "x": "rpvlz60226"
-                                                            },
-                                                            {
-                                                                "i": "s7JxtM1BO",
-                                                                "n": "rqpprh00ab",
-                                                                "x": "rpvtlF00EO"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "i": "sVhmOY08F",
+                                        "n": "s7LPkv1H7",
+                                        "x": "s7SMXt1dV"
                                     },
                                     {
-                                        "i": "s7Jxu12Xa",
-                                        "n": "rqW3KW01X5",
-                                        "x": "pugro900Ku"
-                                    },
-                                    {
-                                        "i": "s7JxuK0Jn",
-                                        "n": "rqW3KW015m",
-                                        "x": "pugs3O02N7"
+                                        "i": "sVhmOw1Cf",
+                                        "n": "s7LPkv2U6",
+                                        "x": "s7SMXt0Xu"
                                     }
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "i": "sVhmPV21z",
+                        "n": "s7LPkv1Ye",
+                        "x": "s7LPoO04R"
+                    },
+                    {
+                        "i": "sVhmPm1My",
+                        "n": "s7LPkv2b0",
+                        "x": "s7LPoO2Y3"
                     }
                 ]
             }
@@ -71,19 +53,19 @@
     },
     "c": [
         {
-            "i": "q93IOC2Uy",
+            "i": "s7LPr60IG",
             "p": "LuSenlinTech/climate/Climate_frags"
         },
         {
-            "i": "puJoyS00J4",
+            "i": "s7LPoO1sh",
             "p": "LuSenlinTech/preferences/ClientEffort_frags"
         },
         {
-            "i": "pv7P9500YG",
+            "i": "s7SMOZ0AN",
             "p": "LuSenlinTech/equipment/FrameTower_frags"
         },
         {
-            "i": "rp5C2001Xy",
+            "i": "s7SMXt0ol",
             "p": "LuSenlinTech/equipment/Power_frags"
         }
     ],

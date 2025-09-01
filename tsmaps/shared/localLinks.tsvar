@@ -11,9 +11,4 @@
 ¬redDwarfNavigationSystemFix_map_url: ../RedDwarf/Ξ RedDwarfNavigationSystemFix/RedDwarfNavigationSystemFix.tsmap
 ¬redDwarfNavigationSystemFix_map_link: ({{¬redDwarfNavigationSystemFix_map_url}})
 
-¬logo_url: ../assets/images/netOfTreesIcon.png
-¬logo_image: [<img class="nt-fr-logo" src="{{logo_url}}">]({{logo_url}})
-
-¬logo_outline_url: ../assets/images/netOfTreesIconOutline.png
-¬logo_outline_image: [<img class="nt-fr-logo" src="{{logo_outline_url}}">]({{logo_outline_url}})
 

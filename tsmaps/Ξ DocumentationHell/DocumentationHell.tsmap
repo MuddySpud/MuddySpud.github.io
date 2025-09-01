@@ -1,0 +1,108 @@
+{
+    "key": "sIhxfx02EB  ",
+    "token": "Documentationhell",
+    "name": "DocumentationHell",
+    "created": "2025-08-29T18:47:04.477Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
+    "iText": "Link to 'DocumentationHell'",
+    "___rΩΩt___": {
+        "key": "sIi16r00h6",
+        "nodes": [
+            {
+                "key": "sJQdSK00AY",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "sPjJaF00Gq",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "sPekVJ00fk",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "sPilio00TB",
+                                        "order": 1,
+                                        "nodes": [
+                                            {
+                                                "key": "sPjcTq02Nd",
+                                                "order": 1,
+                                                "nodes": [
+                                                    {
+                                                        "key": "sSjdwd00Yd",
+                                                        "order": 1,
+                                                        "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
+                                                        "isLeaf": true,
+                                                        "iKey": "s7SMNM05c"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "sSWMtK01cF",
+                                                "order": 2,
+                                                "option": "show the step...",
+                                                "isLeaf": true,
+                                                "isAncillary": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "sVWLU302Mk",
+                                        "order": 2,
+                                        "option": "show this step...",
+                                        "isLeaf": true,
+                                        "isAncillary": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-sIi16r00h6",
+            "relativePath": "./δ steps/δ-sIi16r00h6.tsstp"
+        },
+        {
+            "key": "δ-sJQdSK00AY",
+            "relativePath": "./δ steps/δ-sJQdSK00AY.tsstp"
+        },
+        {
+            "key": "δ-sPekVJ00fk",
+            "relativePath": "./δ steps/δ-sPekVJ00fk.tsstp"
+        },
+        {
+            "key": "δ-sPilio00TB",
+            "relativePath": "./δ steps/δ-sPilio00TB.tsstp"
+        },
+        {
+            "key": "δ-sPjJaF00Gq",
+            "relativePath": "./δ steps/δ-sPjJaF00Gq.tsstp"
+        },
+        {
+            "key": "δ-sSWMtK01cF",
+            "relativePath": "./δ steps/δ-sSWMtK01cF.tsstp"
+        },
+        {
+            "key": "δ-sPjcTq02Nd",
+            "relativePath": "./δ steps/δ-sPjcTq02Nd.tsstp"
+        },
+        {
+            "key": "δ-sSjdwd00Yd",
+            "relativePath": "./δ steps/δ-sSjdwd00Yd.tsstp"
+        },
+        {
+            "key": "δ-sVWLU302Mk",
+            "relativePath": "./δ steps/δ-sVWLU302Mk.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "sVWSze006h",
+        "editorID": "car_08c23cbf8ebe48b68689d33011db38ce",
+        "ticks": 1756682577294
+    }
+}

@@ -1,0 +1,8 @@
+## This Website *One* Guide
+
+This website is not just talking about Docs Assembler — it is a live demonstration of it. Every page, every word you're reading has been dynamically assembled from a complex structure of interconnected maps. It demonstrates that you can create and maintain an expansive documentation system with a similar ease to how you maintain your codebase.
+
+To see the mechanics: Look at the section above 'What is the ultimate aim?' It is a single step in the opening map. Click the ancillary button at the end of that section: 'show the step' to see a screenshot of that exact step open in VS Code and drill into the features behind it. An ancillary is Docs Assembler's way of letting you expand information on-demand, without cluttering the main path for those who don't need it.
+
+This is the proof. This is what treating docs like code looks like.
+

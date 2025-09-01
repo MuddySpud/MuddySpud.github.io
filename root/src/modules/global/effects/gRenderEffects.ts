@@ -18,9 +18,7 @@ const getGuideOutline = (
     loadDelegate: (state: IState, outlineResponse: any) => IStateAnyArray
 ): IHttpFetchItem | undefined => {
 
-    if (!state.renderState.displayGuide?.guide.path
-        || U.isNullOrWhiteSpace(fragmentFolderUrl) === true
-    ) {
+    if (U.isNullOrWhiteSpace(fragmentFolderUrl) === true) {
         return;
     }
 

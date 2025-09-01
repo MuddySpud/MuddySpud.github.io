@@ -1,5 +1,5 @@
 {
-    "key": "s7SMPh1IK",
+    "key": "s7SMPh1IK   ",
     "token": "Frame",
     "name": "Frame",
     "created": "2025-08-06T12:33:41.711Z",
@@ -15,13 +15,13 @@
     ],
     "___rΩΩt___": {
         "key": "s7SMPh1bm",
-        "iKey": "q6ciG80241",
+        "iKey": "s7LPpx1UH",
         "nodes": [
             {
                 "key": "s7SMPh1x2",
                 "order": 1,
                 "option": "Solo module",
-                "iExitKey": "q6e5Xy00dF",
+                "iExitKey": "s7LPpx0rd",
                 "variable": [
                     "SoloModule"
                 ],
@@ -29,13 +29,13 @@
                     {
                         "key": "s7SMPh1Os",
                         "order": 1,
-                        "iKey": "qEBGyN02IY",
+                        "iKey": "s7SMQM0ki",
                         "nodes": [
                             {
                                 "key": "s7SMPh0sD",
                                 "order": 1,
                                 "option": "Next",
-                                "iExitKey": "qEBLiW03q",
+                                "iExitKey": "s7SMQM2ZQ",
                                 "exitKey": "s7SMPh1IZ"
                             }
                         ]
@@ -46,7 +46,7 @@
                 "key": "s7SMPh0nr",
                 "order": 2,
                 "option": "Dual modules",
-                "iExitKey": "q6e6nI00dw",
+                "iExitKey": "s7LPpx09N",
                 "variable": [
                     "DualMod"
                 ],
@@ -61,24 +61,24 @@
                             {
                                 "key": "s7SMPh1H4",
                                 "order": 1,
-                                "iKey": "qEB3Dv007Y",
+                                "iKey": "s7SMPw0xn",
                                 "nodes": [
                                     {
                                         "key": "s7SMPh0J5",
                                         "order": 1,
                                         "option": "Next",
-                                        "iExitKey": "qEBAUH1Gz",
+                                        "iExitKey": "s7SMPw1Te",
                                         "nodes": [
                                             {
                                                 "key": "s7SMPh2Wn",
                                                 "order": 1,
-                                                "iKey": "qEB3Dv007Y",
+                                                "iKey": "s7SMPw0xn",
                                                 "nodes": [
                                                     {
                                                         "key": "s7SMPh1GB",
                                                         "order": 1,
                                                         "option": "Next",
-                                                        "iExitKey": "qEBAUH1Gz",
+                                                        "iExitKey": "s7SMPw1Te",
                                                         "exitKey": "s7SMPh1IZ"
                                                     }
                                                 ]
@@ -128,8 +128,8 @@
         }
     ],
     "___εdit___": {
-        "id": "rw1eoW00BX",
-        "editorID": "car_cb782aae347c49409c93881a68a3f3d6",
-        "ticks": 1756158062804
+        "id": "sTzwzT02WG",
+        "editorID": "me_1d60f67aabd747db80e87092f9737a31",
+        "ticks": 1756660051443
     }
 }

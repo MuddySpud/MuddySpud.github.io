@@ -180,7 +180,7 @@ async function processFindAndReplaceFiles() {
 
   try {
     // Get all HTML files recursively
-    const htmlFiles = await getFindAndReplaceFiles('root\\_site\\LuSenlinTech');
+    const htmlFiles = await getFindAndReplaceFiles('root\\_site');
 
     // Process each file
     for (const file of htmlFiles) {
