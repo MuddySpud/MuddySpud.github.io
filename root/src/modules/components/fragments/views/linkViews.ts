@@ -8,21 +8,27 @@ import optionsViews from "./optionsViews";
 
 
 const buildLinkDiscussionView = (
-    prior: IRenderFragment | null,
     fragment: IRenderFragment,
-    view: Children[]
+    views: Children[]
 ): void => {
 
     let adjustForCollapsedOptions = false;
+    const viewsLength = views.length;
 
-    if (prior?.ui.priorCollapsedOptions === true) {
+    if (viewsLength > 0) {
 
-        adjustForCollapsedOptions = gFragmentCode.elementIsParagraph(fragment.value);
+        const lastView: any = views[viewsLength - 1];
+
+        if (lastView?.ui?.isCollapsed === true) {
+
+            adjustForCollapsedOptions = true;
+        }
     }
 
     const linkELementID = gFragmentCode.getLinkElementID(fragment.id);
+    const results: { views: Children[], optionsCollapsed: boolean } = optionsViews.buildView(fragment);
 
-    view.push(
+    const view =
 
         h("div",
             {
@@ -41,10 +47,18 @@ const buildLinkDiscussionView = (
                     ""
                 ),
 
-                optionsViews.buildView(fragment)
+                results.views
             ]
-        )
-    );
+        );
+
+    if (results.optionsCollapsed === true) {
+
+        view.ui = {
+            isCollapsed: true
+        };
+    }
+
+    views.push(view);
 };
 
 const buildLinkExitsView = (
@@ -83,37 +97,31 @@ const buildLinkExitsView = (
 const linkViews = {
 
     buildView: (
-        prior: IRenderFragment | null,
         fragment: IRenderFragment,
-        view: Children[]
+        views: Children[]
     ): void => {
 
-        fragment.ui.priorCollapsedOptions = false;
-
         buildLinkDiscussionView(
-            prior,
             fragment,
-            view
+            views
         );
 
         if (fragment.link?.root) {
 
             linkViews.buildView(
-                prior,
                 fragment.link.root,
-                view
+                views
             );
         }
 
         buildLinkExitsView(
             fragment,
-            view
+            views
         );
 
         fragmentViews.buildView(
-            fragment,
             fragment.selected,
-            view
+            views
         );
     }
 };

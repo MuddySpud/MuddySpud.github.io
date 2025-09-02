@@ -4,7 +4,7 @@ import { JSDOM } from 'jsdom';
 
 // Configuration
 const folderPath = 'root\\_site'; // Path to Jekyll output
-const templatePath = 'template.html'; // Path to HTML template in repo root
+const templatePath = 'template2.html'; // Path to HTML template in repo root
 const treeSolveGuideSelector = '#treeSolveGuide'; // CSS selector for insertion
 
 
@@ -185,7 +185,7 @@ async function processFindAndReplaceFiles() {
     // Process each file
     for (const file of htmlFiles) {
 
-      const  oldContent = await fs.readFile(file, 'utf8');
+      const oldContent = await fs.readFile(file, 'utf8');
 
       const newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
 
@@ -202,5 +202,38 @@ async function processFindAndReplaceFiles() {
   }
 }
 
-processHtmlFiles();
-processFindAndReplaceFiles();
+async function processDocumentationHellMap() {
+
+  try {
+    // Get all HTML files recursively
+    const documentationHellFilePath = 'root\\_site\\DocumentationHell\\index.html';
+
+    const oldContent = await fs.readFile(documentationHellFilePath, 'utf8');
+
+    // let newContent = oldContent.replaceAll('../../', '../');
+    let newContent = oldContent;
+    const pattern = ',"path":"","fragmentFolderPath":"DocumentationHell_frags"},';
+    const index = newContent.indexOf(pattern);
+
+    if (index > -1) {
+
+      let start = newContent.substring(0, index);
+      let end = newContent.substring(index + pattern.length);
+      newContent = `${start},"path":"_site","fragmentFolderPath":"_site/DocumentationHell_frags"},${end}`;
+    }
+
+    // Write modified text back
+    await fs.writeFile(documentationHellFilePath, newContent, 'utf8');
+
+    console.log(`^^^^^^^^^^^^^^^^^^^^^^^^Modified ${documentationHellFilePath}`);
+  }
+  catch (error) {
+
+    console.error('Error processing find and replace files:', error);
+    process.exit(1); // Exit with error code for Yarn
+  }
+}
+
+await processHtmlFiles();
+await processFindAndReplaceFiles();
+await processDocumentationHellMap();

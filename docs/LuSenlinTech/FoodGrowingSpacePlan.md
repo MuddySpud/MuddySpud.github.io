@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/FoodGrowingSpacePlan_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"sVhmLv2Jr","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"sVhmLv2Jr","topLevelMapKey":"s7SMNM05c","mapKeyChain":"s7SMNM05c","guideID":"sVhmLv2Tq","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"s7SMNM05c","isLeaf":false,"options":[{"id":"sVhmMD2Y1","option":"Tiny patio or balcony","order":1},{"id":"sVhmMP1XB","option":"Garden or small outdoor plot","order":2},{"id":"sVhmMb0Up","option":"Windowless indoor space - large cupboard or cellar","order":3},{"id":"sVhmMk1nJ","option":"Sunlit room with large windows","order":4},{"id":"sVhmMu1F4","option":"Field or small farm","order":5}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"sZPlDj131","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"sZPlDj131","topLevelMapKey":"s7SMNM05c","mapKeyChain":"s7SMNM05c","guideID":"sZPlDj0W7","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"s7SMNM05c","isLeaf":false,"options":[{"id":"sZPlEB04J","option":"Tiny patio or balcony","order":1},{"id":"sZPlER1r1","option":"Garden or small outdoor plot","order":2},{"id":"sZPlEb1fR","option":"Windowless indoor space - large cupboard or cellar","order":3},{"id":"sZPlEj0g9","option":"Sunlit room with large windows","order":4},{"id":"sZPlEr1d5","option":"Field or small farm","order":5}]}} -->
 
 [<img src="/LuSenlinTech/assets/images/LuSenlin_white.png">](/LuSenlinTech/assets/images/LuSenlin_white.png){: .main-logo}
 

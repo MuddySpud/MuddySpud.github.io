@@ -2,3 +2,10 @@
 ¬docsAssemblerPagesRepo_url: https://github.com/MuddySpud/MuddySpud.github.io
 ¬docsAssemblerExtension_url: https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler
 
+
+¬halRobtics_url: https://hal-robotics.com
+¬halRobotics_link: [HAL Robotics]({{halRobtics_url}})
+
+¬docsAssemblerDemoRepo_url: https://github.com/CompositeFlows/DocsAssemblerDemo
+¬docsAssemblerDemoRepo_link: [Docs Assembler Demo repo]({{docsAssemblerDemoRepo_url}})
+

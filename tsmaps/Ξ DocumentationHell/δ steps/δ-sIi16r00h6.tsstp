@@ -1,15 +1,7 @@
-*This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
+¬import el from "../../shared/externalLinks"
 
-# Tame Documentation Hell: Treat Your Docs Like Code
 
-If you’re a developer, you know the pain of "documentation hell." It’s not just about writing docs—it’s about maintaining them. You’re likely all too familiar with the symptoms:
+*This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - {{el.halRobotics_link}}.*
 
-*   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
-*   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in ten other files, instantly introducing inconsistencies.
-*   **Brittle, unmanageable docs** that collapse under their own weight when you try to document complex, branching real-world scenarios.
-*   **Wasting precious time** wrestling with static site generators and build scripts instead of writing code and building features.
-
-What if you could solve this by applying the proven principles of software engineering directly to your documentation?
-
-That’s the core idea behind **Docs Assembler**, a VS Code extension designed to help you build documentation systems with **modular, reusable components**. Think of it as **React for tech docs** or bringing **class-based inheritance** to your content. It allows you to finally create a system where your documentation is as maintainable and scalable as your codebase.
+This website is running on GitHub Pages, the repo is here: {{el.docsAssemblerDemoRepo_link}}
 

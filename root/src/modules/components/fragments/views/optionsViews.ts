@@ -9,10 +9,7 @@ import fragmentViews from "./fragmentViews";
 import gFragmentCode from "../../../global/code/gFragmentCode";
 
 
-const buildAncillaryDiscussionView = (
-    parent: IRenderFragment,
-    ancillary: IRenderFragment
-): Children[] => {
+const buildAncillaryDiscussionView = (ancillary: IRenderFragment): Children[] => {
 
     if (!ancillary.ui.ancillaryExpanded) {
 
@@ -22,7 +19,6 @@ const buildAncillaryDiscussionView = (
     const view: Children[] = [];
 
     fragmentViews.buildView(
-        parent,
         ancillary,
         view
     );
@@ -64,10 +60,7 @@ const buildExpandedAncillaryView = (
                 )
             ]),
 
-            buildAncillaryDiscussionView(
-                parent,
-                ancillary
-            )
+            buildAncillaryDiscussionView(ancillary)
         ]);
 
     return view;
@@ -177,7 +170,7 @@ const BuildExpandedOptionView = (
 const buildExpandedOptionsView = (
     fragment: IRenderFragment,
     options: Array<IRenderFragment>
-): VNode | null => {
+): { view: VNode, isCollapsed: boolean } | null => {
 
     const optionViews: Children[] = [];
     let optionVew: VNode | null;
@@ -217,10 +210,43 @@ const buildExpandedOptionsView = (
             optionViews
         );
 
-    return view;
+    return {
+        view,
+        isCollapsed: false
+    };
 };
 
-const buildCollapsedOptionsView = (fragment: IRenderFragment): VNode | null => {
+const buildExpandedOptionsBoxView = (
+    fragment: IRenderFragment,
+    options: Array<IRenderFragment>,
+    fragmentELementID: string,
+    views: Children[]
+): void => {
+
+    const optionsView = buildExpandedOptionsView(
+        fragment,
+        options
+    );
+
+    if (!optionsView) {
+        return;
+    }
+
+    views.push(
+
+        h("div",
+            {
+                id: `${fragmentELementID}_eo`,
+                class: "nt-fr-fragment-box"
+            },
+            [
+                optionsView.view
+            ]
+        )
+    );
+};
+
+const buildCollapsedOptionsView = (fragment: IRenderFragment): VNode => {
 
     const view: VNode =
 
@@ -240,6 +266,33 @@ const buildCollapsedOptionsView = (fragment: IRenderFragment): VNode | null => {
     return view;
 };
 
+const buildCollapsedOptionsBoxView = (
+    fragment: IRenderFragment,
+    fragmentELementID: string,
+    views: Children[]
+): void => {
+
+    const optionView = buildCollapsedOptionsView(fragment);
+
+    const view =
+
+        h("div",
+            {
+                id: `${fragmentELementID}_co`,
+                class: "nt-fr-fragment-box"
+            },
+            [
+                optionView
+            ]
+        );
+
+    view.ui = {
+        isCollapsed: true
+    };
+
+    views.push(view);
+};
+
 const buildAncillariesView = (
     fragment: IRenderFragment,
     ancillaries: Array<IRenderFragment>
@@ -250,7 +303,6 @@ const buildAncillariesView = (
         return null;
     }
 
-    fragment.ui.priorCollapsedOptions = true;
     const ancillariesViews: Children[] = [];
     let ancillaryView: VNode | null;
 
@@ -297,10 +349,40 @@ const buildAncillariesView = (
     return view;
 };
 
+const buildAncillariesBoxView = (
+    fragment: IRenderFragment,
+    ancillaries: Array<IRenderFragment>,
+    fragmentELementID: string,
+    views: Children[]
+): void => {
+
+    const ancillariesView = buildAncillariesView(
+        fragment,
+        ancillaries
+    );
+
+    if (!ancillariesView) {
+        return;
+    }
+
+    views.push(
+
+        h("div",
+            {
+                id: `${fragmentELementID}_a`,
+                class: "nt-fr-fragment-box"
+            },
+            [
+                ancillariesView
+            ]
+        )
+    );
+};
+
 const buildOptionsView = (
     fragment: IRenderFragment,
     options: Array<IRenderFragment>
-): VNode | null => {
+): { view: VNode, isCollapsed: boolean } | null => {
 
     if (options.length === 0) {
 
@@ -313,12 +395,15 @@ const buildOptionsView = (
         return null;
     }
 
-    fragment.ui.priorCollapsedOptions = true;
-
     if (fragment.selected
         && !fragment.ui.fragmentOptionsExpanded) {
 
-        return buildCollapsedOptionsView(fragment);
+        const view = buildCollapsedOptionsView(fragment);
+
+        return {
+            view,
+            isCollapsed: true
+        };
     }
 
     return buildExpandedOptionsView(
@@ -327,40 +412,127 @@ const buildOptionsView = (
     );
 };
 
+const buildOptionsBoxView = (
+    fragment: IRenderFragment,
+    options: Array<IRenderFragment>,
+    fragmentELementID: string,
+    views: Children[]
+): void => {
+
+    if (options.length === 0) {
+        return;
+    }
+
+    if (options.length === 1
+        && options[0].option === ''
+    ) {
+        return;
+    }
+
+    if (fragment.selected
+        && !fragment.ui.fragmentOptionsExpanded) {
+
+        buildCollapsedOptionsBoxView(
+            fragment,
+            fragmentELementID,
+            views
+        );
+
+        return;
+    }
+
+    buildExpandedOptionsBoxView(
+        fragment,
+        options,
+        fragmentELementID,
+        views
+    );
+};
+
 
 const optionsViews = {
 
-    buildView: (fragment: IRenderFragment): Children[] => {
+    buildView: (fragment: IRenderFragment): { views: Children[], optionsCollapsed: boolean } => {
 
         if (!fragment.options
             || fragment.options.length === 0
             || !U.isNullOrWhiteSpace(fragment.iKey) // Don't draw options of links
         ) {
-            return [];
+            return {
+                views: [],
+                optionsCollapsed: false
+            };
         }
 
         if (fragment.options.length === 1
             && fragment.options[0].option === ''
         ) {
-            return [];
+            return {
+                views: [],
+                optionsCollapsed: false
+            };
         }
 
         const optionsAndAncillaries = gFragmentCode.splitOptionsAndAncillaries(fragment.options);
 
-        const view: Children[] = [
+        const views: Children[] = [
 
             buildAncillariesView(
                 fragment,
                 optionsAndAncillaries.ancillaries
             ),
-
-            buildOptionsView(
-                fragment,
-                optionsAndAncillaries.options
-            )
         ];
 
-        return view;
+        const optionsViewResults = buildOptionsView(
+            fragment,
+            optionsAndAncillaries.options
+        );
+
+        if (optionsViewResults) {
+
+            views.push(optionsViewResults.view);
+        }
+
+        return {
+            views,
+            optionsCollapsed: optionsViewResults?.isCollapsed ?? false
+        };
+    },
+
+    buildView2: (
+        fragment: IRenderFragment,
+        views: Children[]
+    ): void => {
+
+        if (!fragment.options
+            || fragment.options.length === 0
+            || !U.isNullOrWhiteSpace(fragment.iKey) // Don't draw options of links
+        ) {
+            return;
+        }
+
+        if (fragment.options.length === 1
+            && fragment.options[0].option === ''
+        ) {
+            return;
+        }
+
+        const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
+        const optionsAndAncillaries = gFragmentCode.splitOptionsAndAncillaries(fragment.options);
+
+        buildAncillariesBoxView(
+            fragment,
+            optionsAndAncillaries.ancillaries,
+            fragmentELementID,
+            views
+        );
+
+        buildOptionsBoxView(
+            fragment,
+            optionsAndAncillaries.options,
+            fragmentELementID,
+            views
+        );
     }
 };
 

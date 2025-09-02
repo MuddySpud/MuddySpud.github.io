@@ -22,5 +22,5 @@
       "es2022"
     ]
   },
-  "include": ["root/src", "../webview/root/src/modules/interfaces/state/output"]
+  "include": ["root/src", "../webview/root/src/modules/interfaces/state/output", "root/src2/HookRegistry.ts"]
 }

@@ -75,7 +75,6 @@ const fragmentActions = {
     ): IStateAnyArray => {
 
         if (!state
-            || !payload?.parentFragment
             || !payload?.option
         ) {
             return state;

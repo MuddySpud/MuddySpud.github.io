@@ -1,3 +1,4 @@
+import IHookRegistry from "./IHookRegistry";
 import IShortTerm from "./IShortTerm";
 import ITreeSolve from "./ITreeSolve";
 
@@ -9,5 +10,6 @@ declare global {
 
         TreeSolve: ITreeSolve;
         ShortTerm: IShortTerm;
+        HookRegistry: IHookRegistry
     }
 }

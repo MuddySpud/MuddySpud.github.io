@@ -11,6 +11,7 @@ import gFragmentActions from "../actions/gFragmentActions";
 import gFileConstants from "../gFileConstants";
 import U from "../gUtilities";
 import gHistoryCode from "./gHistoryCode";
+import gHookRegistryCode from "./gHookRegistryCode";
 import gOutlineCode from "./gOutlineCode";
 import gSegmentCode from "./gSegmentCode";
 import gStateCode from "./gStateCode";
@@ -650,7 +651,7 @@ const gFragmentCode = {
 
             return true;
         }
-        
+
         return false;
     },
 
@@ -705,7 +706,6 @@ const gFragmentCode = {
         if (rawFragment.options
             && Array.isArray(rawFragment.options)
         ) {
-
             for (const rawOption of rawFragment.options) {
 
                 option = loadOption(
@@ -721,7 +721,10 @@ const gFragmentCode = {
             }
         }
 
-        console.log(`loadFragment ${fragment.id}, ${fragment.exitKey}, ${fragment.iExitKey}`);
+        gHookRegistryCode.executeStepHook(
+            state,
+            fragment
+        );
     },
 
     parseFragment: (response: string): any => {

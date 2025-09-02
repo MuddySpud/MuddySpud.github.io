@@ -9,9 +9,8 @@ import U from "../../../global/gUtilities";
 
 
 const buildDiscussionView = (
-    prior: IRenderFragment | null,
     fragment: IRenderFragment,
-    view: Children[]
+    views: Children[]
 ): void => {
 
     if (U.isNullOrWhiteSpace(fragment.value) === true) {
@@ -19,15 +18,21 @@ const buildDiscussionView = (
     }
 
     let adjustForCollapsedOptions = false;
+    const viewsLength = views.length;
 
-    if (prior?.ui.priorCollapsedOptions === true) {
+    if (viewsLength > 0) {
 
-        adjustForCollapsedOptions = gFragmentCode.elementIsParagraph(fragment.value);
+        const lastView: any = views[viewsLength - 1];
+
+        if (lastView?.ui?.isCollapsed === true) {
+
+            adjustForCollapsedOptions = true;
+        }
     }
 
     const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
 
-    view.push(
+    views.push(
 
         h("div",
             {
@@ -50,70 +55,69 @@ const buildDiscussionView = (
     );
 };
 
-const buildOptionsView = (
-    fragment: IRenderFragment,
-    view: Children[]
-): void => {
+// const buildOptionsView = (
+//     fragment: IRenderFragment,
+//     view: Children[]
+// ): void => {
 
-    const optionViews = optionsViews.buildView(fragment);
+//     const optionViews = optionsViews.buildView2(fragment);
 
-    if (optionViews.length === 0) {
-        return;
-    }
+//     if (optionViews.length === 0) {
+//         return;
+//     }
 
-    const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
+//     const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
 
-    view.push(
+//     view.push(
 
-        h("div",
-            {
-                id: `${fragmentELementID}_o`,
-                class: "nt-fr-fragment-box"
-            },
+//         h("div",
+//             {
+//                 id: `${fragmentELementID}_o`,
+//                 class: "nt-fr-fragment-box"
+//             },
 
-            optionViews
-        )
-    );
-};
+//             optionViews
+//         )
+//     );
+// };
 
 const fragmentViews = {
 
     buildView: (
-        prior: IRenderFragment | null,
         fragment: IRenderFragment | null | undefined,
-        view: Children[]
+        views: Children[]
     ): void => {
 
         if (!fragment) {
             return;
         }
 
-        fragment.ui.priorCollapsedOptions = false;
-
         buildDiscussionView(
-            prior,
             fragment,
-            view
+            views
         );
 
         if (fragment.link?.root) {
 
             linkViews.buildView(
-                prior,
                 fragment.link.root,
-                view
+                views
             );
         }
 
-        buildOptionsView(
+        optionsViews.buildView2(
             fragment,
-            view
+            views
         );
 
+        // buildOptionsView(
+        //     fragment,
+        //     views
+        // );
+
         fragmentViews.buildView(
-            fragment,
             fragment.selected,
-            view
+            views
         );
     }
 };

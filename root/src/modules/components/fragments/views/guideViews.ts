@@ -15,7 +15,6 @@ const guideViews = {
         const innerViews: Children[] = [];
 
         fragmentViews.buildView(
-            null,
             state.renderState.displayGuide?.root,
             innerViews
         )

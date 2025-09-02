@@ -10,49 +10,55 @@
         "key": "sIi16r00h6",
         "nodes": [
             {
-                "key": "sJQdSK00AY",
+                "key": "sYNvVu009z",
                 "order": 1,
                 "nodes": [
                     {
-                        "key": "sPjJaF00Gq",
+                        "key": "sJQdSK00AY",
                         "order": 1,
                         "nodes": [
                             {
-                                "key": "sPekVJ00fk",
+                                "key": "sPjJaF00Gq",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "sPilio00TB",
+                                        "key": "sPekVJ00fk",
                                         "order": 1,
                                         "nodes": [
                                             {
-                                                "key": "sPjcTq02Nd",
+                                                "key": "sPilio00TB",
                                                 "order": 1,
                                                 "nodes": [
                                                     {
-                                                        "key": "sSjdwd00Yd",
+                                                        "key": "sPjcTq02Nd",
                                                         "order": 1,
-                                                        "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "sSjdwd00Yd",
+                                                                "order": 1,
+                                                                "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
+                                                                "isLeaf": true,
+                                                                "iKey": "s7SMNM05c"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "sSWMtK01cF",
+                                                        "order": 2,
+                                                        "option": "show the step...",
                                                         "isLeaf": true,
-                                                        "iKey": "s7SMNM05c"
+                                                        "isAncillary": true
                                                     }
                                                 ]
                                             },
                                             {
-                                                "key": "sSWMtK01cF",
+                                                "key": "sVWLU302Mk",
                                                 "order": 2,
-                                                "option": "show the step...",
+                                                "option": "show this step...",
                                                 "isLeaf": true,
                                                 "isAncillary": true
                                             }
                                         ]
-                                    },
-                                    {
-                                        "key": "sVWLU302Mk",
-                                        "order": 2,
-                                        "option": "show this step...",
-                                        "isLeaf": true,
-                                        "isAncillary": true
                                     }
                                 ]
                             }
@@ -98,11 +104,15 @@
         {
             "key": "δ-sVWLU302Mk",
             "relativePath": "./δ steps/δ-sVWLU302Mk.tsstp"
+        },
+        {
+            "key": "δ-sYNvVu009z",
+            "relativePath": "./δ steps/δ-sYNvVu009z.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "sVWSze006h",
-        "editorID": "car_08c23cbf8ebe48b68689d33011db38ce",
-        "ticks": 1756682577294
+        "id": "sYO0VV00ud",
+        "editorID": "car_9210f33d0b98480cb32909758cc7192a",
+        "ticks": 1756724890177
     }
 }
