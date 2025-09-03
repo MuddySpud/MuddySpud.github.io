@@ -1,0 +1,61 @@
+{
+    "v": "1",
+    "r": {
+        "i": "smgeVy05N",
+        "n": "s7SMNM0Om",
+        "o": [
+            {
+                "i": "smgeWc11k",
+                "n": "s7SMNM0ZL",
+                "c": 0
+            },
+            {
+                "i": "smgeWm1Pw",
+                "n": "s7SMNM2ZU",
+                "c": 1
+            },
+            {
+                "i": "smgeWu0iU",
+                "n": "s7SMNM0bU",
+                "c": 2
+            },
+            {
+                "i": "smgeX30ov",
+                "n": "s7SMNM012",
+                "c": 3
+            },
+            {
+                "i": "smgeXB0EP",
+                "n": "s7SMNM04k",
+                "c": 4
+            },
+            {
+                "i": "smgeXb0eX",
+                "n": "s7SMNM0bC"
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7LPkv1Gh",
+            "p": "LuSenlinTech/space/Balcony_frags"
+        },
+        {
+            "i": "s7LPlH16Y",
+            "p": "LuSenlinTech/space/Garden_frags"
+        },
+        {
+            "i": "s7SMNu079",
+            "p": "LuSenlinTech/space/WindowlessRoom_frags"
+        },
+        {
+            "i": "s7LPoI1Jr",
+            "p": "LuSenlinTech/space/SunlitRoom_frags"
+        },
+        {
+            "i": "s7LPnd2Oy",
+            "p": "LuSenlinTech/space/Field_frags"
+        }
+    ],
+    "e": 0
+}

@@ -1,4 +1,5 @@
 --- ---:root {
+    --border-style: solid;
     --border-radius: 0.25rem;
     --button-color: rgba(255, 255, 255, 0.3);
     --button-hover-color: rgba(255, 255, 255, 0.5);
@@ -127,6 +128,7 @@
                     color: #fff;
                     color: var(--button-hover-color);
                     border-color: rgba(255, 255, 255, 0.4);
+                    text-decoration-line: none;
                 }
             }
 

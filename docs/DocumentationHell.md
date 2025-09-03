@@ -1,5 +1,4 @@
 ---
-layout: simple
 title: null
 isGuide: true
 mapFolderPath: tsmaps/%CE%9E%20DocumentationHell
@@ -8,9 +7,11 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"sVhmJH1Mp","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"sVhmJH1Mp","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"sVhmJH0vp","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"sVhmKY1no","option":"Start the Lǜ Sēnlín Vertical Kitchen Garden Planner","order":1}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"smgeTb1ti","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"smgeTb1ti","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"smgeTb2GE","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"smgeUs2XX","option":"Start the Lǜ Sēnlín Vertical Kitchen Garden Planner","order":1}]}} -->
 
 *This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
+
+This website is running on GitHub Pages, the repo is here: [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo)
 
 # Tame Documentation Hell: Treat Your Docs Like Code
 
@@ -57,7 +58,7 @@ This structured knowledge base is also the perfect foundation for the future. On
 
 **This is the destination: turning trapped expertise into a dynamic, accurate, and actionable intelligent asset.**
 
-## This Website *One* Guide
+## This Website is *One* Guide
 
 This website is not just talking about Docs Assembler — it is a live demonstration of it. Every page, every word you're reading has been dynamically assembled from a complex structure of interconnected maps. It demonstrates that you can create and maintain an expansive documentation system with a similar ease to how you maintain your codebase.
 
