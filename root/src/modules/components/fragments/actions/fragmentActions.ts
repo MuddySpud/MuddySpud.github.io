@@ -7,13 +7,19 @@ import IRenderFragment from "../../../interfaces/state/render/IRenderFragment";
 import IFragmentPayload from "../../../interfaces/state/ui/payloads/IFragmentPayload";
 
 
-const hideSelected = (fragment: IRenderFragment): void => {
+const hideSelected = (
+    fragment: IRenderFragment,
+    hide: boolean
+): void => {
 
-    fragment.ui.hideSelected = true;
+    fragment.ui.hideSelected = hide;
 
     if (fragment.link?.root) {
 
-        hideSelected(fragment.link?.root);
+        hideSelected(
+            fragment.link?.root,
+            hide
+        );
     }
 }
 
@@ -35,7 +41,11 @@ const fragmentActions = {
         const expanded = fragment.ui.fragmentOptionsExpanded !== true;
         state.renderState.ui.optionsExpanded = expanded;
         fragment.ui.fragmentOptionsExpanded = expanded;
-        hideSelected(fragment);
+
+        hideSelected(
+            fragment,
+            true
+        );
 
         return gStateCode.cloneState(state);
     },
@@ -55,6 +65,11 @@ const fragmentActions = {
         gFragmentCode.resetFragmentUis(state);
         fragment.ui.fragmentOptionsExpanded = false;
         state.renderState.ui.optionsExpanded = false;
+
+        hideSelected(
+            fragment,
+            false
+        );
 
         return gStateCode.cloneState(state);
     },

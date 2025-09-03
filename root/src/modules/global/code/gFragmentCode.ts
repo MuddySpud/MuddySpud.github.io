@@ -736,6 +736,8 @@ const gFragmentCode = {
                     option.parentFragmentID = fragment.id;
                     option.segmentIndex = fragment.segmentIndex;
                 }
+
+                option.ui.discussionLoaded = false;
             }
         }
 
