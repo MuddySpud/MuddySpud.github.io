@@ -5,210 +5,252 @@
 
 :root {
     --border-radius: 0.25rem;
+}
+
+[data-theme="dark-poole"] {
     --button-color: rgba(255, 255, 255, 0.3);
     --button-hover-color: rgba(255, 255, 255, 0.5);
     --border-color: rgba(255, 255, 255, 0.25);
 }
 
-#treeSolveFragments {
+#treeSolve {
 
-    .nt-fr-fragment-options {
-        margin: 0;
-        padding: 45px 0;
+    strong {
+        font-weight: 600;
+        letter-spacing: 0.25px;
+    }
 
-        .nt-fr-option {
-            border: 0.571429px solid var(--border-color);
-            border-radius: var(--border-radius);
-            box-sizing: border-box;
-            color: var(--button-color);
-            cursor: pointer;
-            display: inline-block;
-            font-size: 20px;
-            padding-bottom: 16px;
-            padding-left: 16px;
-            padding-right: 16px;
-            padding-top: 16px;
-            min-width: 400px;
-            margin: 0 0 20px 0;
+    .main-logo {
 
-            &:hover {
-                color: #fff;
-                color: var(--button-hover-color);
-                border-color: rgba(255, 255, 255, 0.4);
-                text-decoration: none;
+        img {
+            margin: 20px 20px 20px 0;
+            display: block;
+            width: 100px;
+            float: none;
+        }
+    }
+
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: #9e9e9e;
+    }
+
+    h3 {
+        margin-top: 4rem;
+    }
+
+    #treeSolveFragments {
+
+        .nt-fr-fragment-box {
+            &.nt-fr-prior-collapsed-options {
+                margin-top: 20px;
             }
         }
 
-        &.nt-fr-collapsed {
-            margin: 25px 0 10px 0;
-            padding: 0;
-            box-sizing: border-box;
+        .nt-fr-ancillary-box {
+            margin-right: -200px;
             display: flex;
-            flex-direction: row;
-            cursor: pointer;
+            flex-direction: column;
+            background-color: rgba(108, 134, 253, 0.1);
+            padding: 0 0 10px 20px;
+            margin-left: 100px;
+            border-radius: var(--border-radius);
 
-            &:hover {
-                border-color: var(--button-hover-color);
+            &.nt-fr-collapsed {
+                background-color: transparent;
+            }
 
-                .nt-fr-option-selected {
-                    color: #fff;
+            .nt-fr-ancillary-head {
+                justify-content: right;
+                display: flex;
+                margin-bottom: -36px;
+                z-index: 1000;
+            }
+
+            .nt-fr-ancillary-box {
+                margin-left: 0;
+                margin-right: 0;
+                padding-left: 0;
+                background-color: transparent;
+
+                &.nt-fr-collapsed {
+
+                    .nt-fr-ancillary-head {
+                        margin-bottom: 0;
+                    }
                 }
             }
 
-            // .nt-fr-option-selected {
-            //     border-radius: 0;
-            //     border-width: 0.571429px;
-            //     border-color: var(--border-color);
-            //     // border-style: solid none none none;
-            //     box-sizing: border-box;
-            //     color: var(--button-color);
-            //     margin: 0;
-            //     padding: 8px 0;
-            // }
-        }
-
-        .nt-fr-options-box {
-            border-radius: 0;
-            border-top: 0.571429px solid var(--border-color);
-            padding: 8px 20px 0 20px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            transition-delay: 0s;
-            transition-property: all;
-            transition-duration: .2s;
-            transition-timing-function: linear;
-            position: absolute;
-            background-color: rgb(30, 30, 30);
-            opacity: 0;
-            height: 0px;
-            width: 0px;
-
-            .nt-fr-option {
-                display: block;
-            }
-
-            &:hover {
-                opacity: 1;
-                height: unset;
-                width: unset;
-            }
-
-            .nt-fr-option-selected {
+            .nt-fr-ancillary {
+                margin: 0;
+                padding: 5px 20px;
+                box-sizing: border-box;
+                display: inline-flex;
+                flex-direction: row;
+                cursor: pointer;
+                border-width: 0.571429px;
+                border-color: var(--border-color);
+                border-style: solid;
+                border-radius: var(--border-radius);
+                text-decoration: none;
                 box-sizing: border-box;
                 color: var(--button-color);
-                margin: 0;
+
+                &:hover {
+                    border-color: var(--button-hover-color);
+                    background-color: rgba(255, 255, 255, 0.1);
+
+                    .nt-fr-option-selected {
+                        color: #fff;
+                        border-color: transparent;
+                    }
+                }
+
+                .nt-fr-option-selected {
+                    box-sizing: border-box;
+                    color: var(--button-color);
+                }
             }
         }
-    }
 
-    .nt-fr-option a {
-        text-decoration: none;
-    }
-}
+        .nt-fr-fragment-options {
+            margin: 0;
+            padding: 45px 0;
 
-#treeSolveGuide,
-#treeSolveFragments {
+            .nt-fr-option {
+                border: 0.571429px solid var(--border-color);
+                border-radius: var(--border-radius);
+                box-sizing: border-box;
+                color: var(--button-color);
+                cursor: pointer;
+                display: inline-block;
+                font-size: 20px;
+                padding: 16px 30px;
+                margin: 0 0 20px 0;
+                min-width: 0;
 
-    .grey {
-        color: rgba(255, 255, 255, 0.5);
-    }
-}
+                &:hover {
+                    color: #fff;
+                    color: var(--button-hover-color);
+                    border-color: rgba(255, 255, 255, 0.4);
+                }
+            }
 
-.hal {
+            &.nt-fr-collapsed {
+                // margin: 25px 0 10px 0;
+                // padding: 0;
+                // box-sizing: border-box;
+                // display: flex;
+                // flex-direction: row;
+                // cursor: pointer;
 
-    main {
-        padding: 0;
-    }
+                padding: 5px 20px;
+                box-sizing: border-box;
+                display: inline-flex;
+                flex-direction: row;
+                cursor: pointer;
+                border-width: 0.571429px;
+                border-color: var(--border-color);
+                border-style: solid;
+                border-radius: var(--border-radius);
+                text-decoration: none;
 
-    #treeSolveGuide,
-    #treeSolveFragments {
+                &:hover {
+                    border-color: var(--button-hover-color);
+                    background-color: rgba(255, 255, 255, 0.1);
 
-        color: rgba(255, 255, 255, 0.8);
+                    // border-radius: 5px;
+                    // margin-left: -20px;
+                    // padding-left: 20px;
+                    // text-decoration: none;
 
-        ul,
-        ol {
-            padding-left: 50px;
-        }
 
-        .grey {
-            color: rgba(255, 255, 255, 0.5);
-        }
+                    .nt-fr-option-selected {
+                        color: #fff;
+                        border-color: transparent;
+                    }
+                }
 
-        .big-image {
-            margin: 70px 0;
-            display: block;
-        }
+                .nt-fr-option-selected {
+                    box-sizing: border-box;
+                    color: var(--button-color);
 
-        table {
-            margin: 70px 0;
-        }
+                    // border-radius: 0;
+                    // border-width: 0.571429px;
+                    // border-color: var(--border-color);
+                    // border-style: solid none none none;
+                    // box-sizing: border-box;
+                    // margin: 0;
+                    // padding: 8px 0;
+                }
+            }
 
-        .pad-top {
-            margin-top: 70px;
-            display: block;
-        }
-
-        .pad-bottom {
-            margin-bottom: 70px;
-            display: block;
-        }
-
-        h2 {
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            color: #fff;
-        }
-
-        h3 {
-            margin-top: 4rem;
-            font-size: 2.1rem;
-            color: #fff;
-        }
-
-        h4 {
-            margin-top: 2rem;
-            font-size: 1.5rem;
-            color: #fff;
-        }
-
-        h5 {
-            font-size: 1.15rem;
-            color: #fff;
-            margin-top: 2rem;
-        }
-
-        h6 {
-            font-size: 1rem;
-            color: #fff;
-            margin-top: 2rem;
-        }
-
-        strong {
-            color: #e0e0e0;
-            font-weight: 600;
-        }
-
-        .icon-link {
-            display: flex;
-
-            img {
-                margin: 5px 10px 0 0;
-                align-self: flex-start;
+            .nt-fr-options-box {
                 border-radius: 0;
+                border-top: 0.571429px solid var(--border-color);
+                padding: 8px 20px 0 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                transition-delay: 0s;
+                transition-property: all;
+                transition-duration: .2s;
+                transition-timing-function: linear;
+                position: absolute;
+                background-color: rgb(30, 30, 30);
+                opacity: 0;
+                height: 0px;
+                width: 0px;
+
+                .nt-fr-option {
+                    display: block;
+                }
+
+                &:hover {
+                    opacity: 1;
+                    height: unset;
+                    width: unset;
+                }
+
+                .nt-fr-option-selected {
+                    box-sizing: border-box;
+                    color: var(--button-color);
+                    margin: 0;
+                }
             }
         }
-
-        .img-invert,
-        .logo {
-            filter: invert(100%);
-        }
     }
-}
 
-@media (max-width: 800px) {
+    a>img {
+        margin: 5px 10px 0 0;
+        float: left;
+    }
 
-    #treeSolveFragments .nt-fr-fragment-options .nt-fr-option {
-        min-width: 350px;
+    table {
+        border: none;
+        background-color: transparent;
+        margin: 20px 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    thead {
+        border: none;
+        background-color: transparent;
+    }
+
+    tbody {
+        background-color: transparent;
+    }
+
+    th {
+        border: none;
+        background-color: transparent;
+    }
+
+    td {
+        border: none;
+        background-color: transparent;
+        vertical-align: top;
     }
 }
