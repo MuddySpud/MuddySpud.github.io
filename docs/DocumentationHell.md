@@ -1,5 +1,5 @@
 ---
-layoout: simple
+layout: simple
 title: null
 isGuide: true
 mapFolderPath: tsmaps/%CE%9E%20DocumentationHell
