@@ -7,6 +7,16 @@ import IRenderFragment from "../../../interfaces/state/render/IRenderFragment";
 import IFragmentPayload from "../../../interfaces/state/ui/payloads/IFragmentPayload";
 
 
+const hideSelected = (fragment: IRenderFragment): void => {
+
+    fragment.ui.hideSelected = true;
+
+    if (fragment.link?.root) {
+
+        hideSelected(fragment.link?.root);
+    }
+}
+
 const fragmentActions = {
 
     expandOptions: (
@@ -25,6 +35,7 @@ const fragmentActions = {
         const expanded = fragment.ui.fragmentOptionsExpanded !== true;
         state.renderState.ui.optionsExpanded = expanded;
         fragment.ui.fragmentOptionsExpanded = expanded;
+        hideSelected(fragment);
 
         return gStateCode.cloneState(state);
     },

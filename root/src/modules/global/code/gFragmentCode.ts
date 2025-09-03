@@ -145,7 +145,11 @@ const clearFragmentChains = (fragment: IRenderFragment | null | undefined): void
     }
 
     fragment.selected = null;
-    fragment.link = null;
+
+    if (fragment.link?.root) {
+
+        fragment.link.root.selected = null;
+    }
 };
 
 const loadOption = (
@@ -340,7 +344,7 @@ const gFragmentCode = {
         }
     },
 
-    clearParentSectionSelected: (fragment: IRenderFragment): void => {
+    clearParentSectionSelected: (fragment: IRenderFragment,): void => {
 
         const displayChart = fragment.section as IDisplayChart;
 
@@ -355,7 +359,7 @@ const gFragmentCode = {
             parent.selected = null;
         }
 
-        return gFragmentCode.clearParentSectionSelected(parent);
+        gFragmentCode.clearParentSectionSelected(parent);
     },
 
     getFragmentAndLinkOutline_subscripion: (
@@ -683,7 +687,6 @@ const gFragmentCode = {
         fragment.guideID = rawFragment.guideID ?? '';
         fragment.guidePath = rawFragment.guidePath ?? '';
         fragment.iKey = rawFragment.iKey ?? null;
-        fragment.iExitKey = rawFragment.iExitKey ?? null;
         fragment.exitKey = rawFragment.exitKey ?? null;
         fragment.variable = rawFragment.variable ?? null;
         fragment.value = rawFragment.value ?? '';
@@ -702,23 +705,37 @@ const gFragmentCode = {
 
         fragment.parentFragmentID = outlineNode?.parent?.i ?? '';
 
-        let option: IRenderFragment;
+        let option: IRenderFragment | undefined;
 
         if (rawFragment.options
             && Array.isArray(rawFragment.options)
         ) {
             for (const rawOption of rawFragment.options) {
 
-                option = loadOption(
-                    state,
-                    rawOption,
-                    outlineNode,
-                    fragment.section,
-                    fragment.id,
-                    fragment.segmentIndex
-                );
+                option = fragment.options.find(o => o.id === rawOption.id);
 
-                fragment.options.push(option);
+                if (!option) {
+
+                    option = loadOption(
+                        state,
+                        rawOption,
+                        outlineNode,
+                        fragment.section,
+                        fragment.id,
+                        fragment.segmentIndex
+                    );
+
+                    fragment.options.push(option);
+                }
+                else {
+                    option.option = rawOption.option ?? '';
+                    option.isAncillary = rawOption.isAncillary === true;
+                    option.order = rawOption.order ?? 0;
+                    option.iExitKey = rawOption.iExitKey ?? '';
+                    option.section = fragment.section;
+                    option.parentFragmentID = fragment.id;
+                    option.segmentIndex = fragment.segmentIndex;
+                }
             }
         }
 
@@ -851,6 +868,7 @@ ${line}`;
     resetFragmentUi: (fragment: IRenderFragment): void => {
 
         fragment.ui.fragmentOptionsExpanded = false;
+        fragment.ui.hideSelected = false;
     },
 
     splitOptionsAndAncillaries: (children: Array<IRenderFragment> | null | undefined): { options: Array<IRenderFragment>, ancillaries: Array<IRenderFragment>, total: number } => {

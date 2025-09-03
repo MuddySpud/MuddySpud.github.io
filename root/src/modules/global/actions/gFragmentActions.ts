@@ -508,6 +508,11 @@ const gFragmentActions = {
         option: IRenderFragment
     ): IStateAnyArray => {
 
+        for (const child of parentFragment.options) {
+
+            child.ui.discussionLoaded = false;
+        }
+
         gFragmentCode.clearParentSectionSelected(parentFragment);
 
         gFragmentCode.prepareToShowOptionNode(

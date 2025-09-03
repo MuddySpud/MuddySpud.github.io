@@ -84,10 +84,13 @@ const fragmentViews = {
             views
         );
 
-        fragmentViews.buildView(
-            fragment.selected,
-            views
-        );
+        if (!fragment.ui.hideSelected) {
+
+            fragmentViews.buildView(
+                fragment.selected,
+                views
+            );
+        }
     }
 };
 

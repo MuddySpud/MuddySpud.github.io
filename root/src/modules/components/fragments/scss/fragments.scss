@@ -1,11 +1,10 @@
 --- ---:root {
     --border-radius: 0.25rem;
-}
-
-[data-theme="dark-poole"] {
     --button-color: rgba(255, 255, 255, 0.3);
     --button-hover-color: rgba(255, 255, 255, 0.5);
     --border-color: rgba(255, 255, 255, 0.25);
+    --border-color-collapsed: #98bb87;
+    --button-color-collapsed: #98bb87;
 }
 
 #treeSolve {
@@ -18,7 +17,7 @@
     .main-logo {
 
         img {
-            margin: 20px 20px 20px 0;
+            margin: 60px 20px 20px 0;
             display: block;
             width: 100px;
             float: none;
@@ -145,7 +144,9 @@
                 flex-direction: row;
                 cursor: pointer;
                 border-width: 0.571429px;
-                border-color: var(--border-color);
+                border-color: var(--border-color-collapsed);
+                color: var(--button-color);
+                color: var(--button-color-collapsed);
                 border-style: solid;
                 border-radius: var(--border-radius);
                 text-decoration: none;
@@ -168,7 +169,7 @@
 
                 .nt-fr-option-selected {
                     box-sizing: border-box;
-                    color: var(--button-color);
+                    // color: var(--button-color);
 
                     // border-radius: 0;
                     // border-width: 0.571429px;
