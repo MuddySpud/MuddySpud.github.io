@@ -685,6 +685,7 @@ const gFragmentCode = {
         fragment.iKey = rawFragment.iKey ?? null;
         fragment.iExitKey = rawFragment.iExitKey ?? null;
         fragment.exitKey = rawFragment.exitKey ?? null;
+        fragment.variable = rawFragment.variable ?? null;
         fragment.value = rawFragment.value ?? '';
         fragment.value = fragment.value.trim();
         fragment.ui.discussionLoaded = true;

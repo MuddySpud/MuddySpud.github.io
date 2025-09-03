@@ -55,32 +55,6 @@ const buildDiscussionView = (
     );
 };
 
-// const buildOptionsView = (
-//     fragment: IRenderFragment,
-//     view: Children[]
-// ): void => {
-
-//     const optionViews = optionsViews.buildView2(fragment);
-
-//     if (optionViews.length === 0) {
-//         return;
-//     }
-
-//     const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
-
-//     view.push(
-
-//         h("div",
-//             {
-//                 id: `${fragmentELementID}_o`,
-//                 class: "nt-fr-fragment-box"
-//             },
-
-//             optionViews
-//         )
-//     );
-// };
-
 const fragmentViews = {
 
     buildView: (
@@ -109,11 +83,6 @@ const fragmentViews = {
             fragment,
             views
         );
-
-        // buildOptionsView(
-        //     fragment,
-        //     views
-        // );
 
         fragmentViews.buildView(
             fragment.selected,

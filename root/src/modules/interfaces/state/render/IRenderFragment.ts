@@ -18,6 +18,7 @@ export default interface IRenderFragment {
     selected: IRenderFragment | null;
     isLeaf: boolean;
     options: Array<IRenderFragment>;
+    variable: null | [string] | [string, string | number];
 
     option: string;
     isAncillary: boolean;
