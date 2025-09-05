@@ -187,7 +187,8 @@ async function processFindAndReplaceFiles() {
 
       const oldContent = await fs.readFile(file, 'utf8');
 
-      const newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
+      let newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
+      newContent = newContent.replaceAll('"/assets/', '"/_site/assets/');
 
       // Write modified text back
       await fs.writeFile(file, newContent, 'utf8');

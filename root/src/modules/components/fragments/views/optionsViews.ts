@@ -55,7 +55,8 @@ const buildExpandedAncillaryView = (
                         ]
                     },
                     [
-                        h("span", {}, ancillary.option)
+                        h("span", { class: "nt-fr-ancillary-text" }, ancillary.option),
+                        h("span", { class: "nt-fr-ancillary-x" }, '✕')
                     ]
                 )
             ]),

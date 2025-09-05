@@ -6,6 +6,6 @@
 ¬logo_outline_url: ../assets/images/netOfTreesIconOutline.png
 ¬logo_outline_image: [<img class="nt-fr-logo" src="{{logo_outline_url}}">]({{logo_outline_url}})
 
-¬this_website_is_the_guide_url: ../assets/images/ThisWebsiteIsTheGuide.png
-¬this_website_is_the_guide_image: [<img class="nt-fr-big-image" src="{{this_website_is_the_guide_url}}">]({{this_website_is_the_guide_url}})
+¬whatIsTheUltimateAim_url: ../assets/images/ThisWebsiteIsTheGuide.png
+¬whatIsTheUltimateAim_image: [<img class="nt-fr-big-image" src="{{whatIsTheUltimateAim_url}}">]({{whatIsTheUltimateAim_url}})
 

@@ -7,21 +7,7 @@ fragsFolderPath: LuSenlinTech/FoodGrowingSpacePlan_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"smgeVy05N","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"smgeVy05N","topLevelMapKey":"s7SMNM05c","mapKeyChain":"s7SMNM05c","guideID":"smgeVy05I","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"s7SMNM05c","isLeaf":false,"options":[{"id":"smgeWc11k","option":"Tiny patio or balcony","order":1},{"id":"smgeWm1Pw","option":"Garden or small outdoor plot","order":2},{"id":"smgeWu0iU","option":"Windowless indoor space - large cupboard or cellar","order":3},{"id":"smgeX30ov","option":"Sunlit room with large windows","order":4},{"id":"smgeXB0EP","option":"Field or small farm","order":5}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"sxQ3JQ2Fn","path":"LuSenlinTech","fragmentFolderPath":"LuSenlinTech/FoodGrowingSpacePlan_frags"},"fragment":{"id":"sxQ3JQ2Fn","topLevelMapKey":"s7SMNM05c","mapKeyChain":"s7SMNM05c","guideID":"sxQ3JQ0UO","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/FoodGrowingSpacePlan.tsmap","chartKey":"s7SMNM05c","isLeaf":false,"options":[{"id":"sxQ3Jd1YN","order":1},{"id":"sxQ3L41eT","option":"About Lǜ Sēnlín technologies","order":2,"isAncillary":true}]}} -->
 
 [<img src="/LuSenlinTech/assets/images/LuSenlin_white.png">](/LuSenlinTech/assets/images/LuSenlin_white.png){: .main-logo}
-
-# Vertical Kitchen Garden Planner
-
-Turn any area into a functional food-growing setup with our advanced, modular systems. Whether you have a dark apartment, a sunny balcony, a garden, or even a large field, we’ll help you create an effective solution for growing fresh vegetables, herbs, mushrooms, fish, and more.
-
-With a few simple choices, we’ll align your space, preferences, and goals with the right modular system.
-
-**What you’ll find:**
-- Growing methods suited to your space and climate
-- Ideal plant and aquaculture pairings
-- Automation options that match your lifestyle
-- Full system recommendations with pricing
-
-##### *Where would you like to place your Vertical Garden?*
 
