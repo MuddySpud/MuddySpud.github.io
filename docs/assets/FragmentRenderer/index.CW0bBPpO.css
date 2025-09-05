@@ -1,6 +1,5 @@
 --- 
 
-
 ---
 
 
@@ -46,6 +45,16 @@
 #treeSolve #treeSolveFragments .nt-fr-ancillary-box.nt-fr-collapsed {
   background-color: transparent;
 }
+#treeSolve #treeSolveFragments .nt-fr-ancillary-box.nt-fr-collapsed .nt-fr-ancillary {
+  padding: 5px 20px;
+}
+#treeSolve #treeSolveFragments .nt-fr-ancillary-box.nt-fr-collapsed .nt-fr-ancillary > .nt-fr-ancillary-text {
+  display: none;
+}
+#treeSolve #treeSolveFragments .nt-fr-ancillary-box.nt-fr-collapsed .nt-fr-ancillary > .nt-fr-ancillary-x {
+  display: block;
+  font-weight: 700;
+}
 #treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary-head {
   justify-content: right;
   display: flex;
@@ -63,7 +72,6 @@
 }
 #treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary {
   margin: 0;
-  padding: 5px 20px;
   box-sizing: border-box;
   display: inline-flex;
   flex-direction: row;
@@ -75,6 +83,7 @@
   text-decoration: none;
   box-sizing: border-box;
   color: var(--button-color);
+  padding: 5px 11px;
 }
 #treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary:hover {
   border-color: var(--button-hover-color);
@@ -84,9 +93,11 @@
   color: #fff;
   border-color: transparent;
 }
-#treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary .nt-fr-option-selected {
-  box-sizing: border-box;
-  color: var(--button-color);
+#treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary > .nt-fr-ancillary-text {
+  display: none;
+}
+#treeSolve #treeSolveFragments .nt-fr-ancillary-box .nt-fr-ancillary > .nt-fr-ancillary-x {
+  display: block;
 }
 #treeSolve #treeSolveFragments .nt-fr-fragment-options {
   margin: 0;
@@ -164,6 +175,10 @@
   box-sizing: border-box;
   color: var(--button-color);
   margin: 0;
+}
+#treeSolve #treeSolveFragments .nt-fr-ancillary-head + .nt-fr-fragment-box .nt-fr-fragment-discussion > p:first-child {
+  margin-top: 36px;
+  /* Additional styling for visual indication */
 }
 #treeSolve a > img {
   margin: 5px 10px 0 0;

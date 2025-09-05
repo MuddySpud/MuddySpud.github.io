@@ -1,8 +1,7 @@
 --- 
 
-
-
 ---
+
 
 
 :root {
@@ -60,6 +59,19 @@
 
             &.nt-fr-collapsed {
                 background-color: transparent;
+
+                .nt-fr-ancillary {
+                    padding: 5px 20px;
+
+                    &>.nt-fr-ancillary-text {
+                        display: none;
+                    }
+
+                    &>.nt-fr-ancillary-x {
+                        display: block;
+                        font-weight: 700;
+                    }
+                }
             }
 
             .nt-fr-ancillary-head {
@@ -85,7 +97,6 @@
 
             .nt-fr-ancillary {
                 margin: 0;
-                padding: 5px 20px;
                 box-sizing: border-box;
                 display: inline-flex;
                 flex-direction: row;
@@ -97,6 +108,7 @@
                 text-decoration: none;
                 box-sizing: border-box;
                 color: var(--button-color);
+                padding: 5px 11px;
 
                 &:hover {
                     border-color: var(--button-hover-color);
@@ -108,9 +120,12 @@
                     }
                 }
 
-                .nt-fr-option-selected {
-                    box-sizing: border-box;
-                    color: var(--button-color);
+                &>.nt-fr-ancillary-text {
+                    display: none;
+                }
+
+                &>.nt-fr-ancillary-x {
+                    display: block;
                 }
             }
         }
@@ -223,6 +238,11 @@
                     margin: 0;
                 }
             }
+        }
+
+        .nt-fr-ancillary-head+.nt-fr-fragment-box .nt-fr-fragment-discussion>p:first-child {
+            margin-top: 36px;
+            /* Additional styling for visual indication */
         }
     }
 
