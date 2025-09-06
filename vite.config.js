@@ -24,7 +24,15 @@ export default defineConfig({
             output: {
                 entryFileNames: `[name].[hash].js`,
                 chunkFileNames: `[name].[hash].js`,
-                assetFileNames: `[name].[hash].[ext]`
+                assetFileNames: `[name].[hash].[ext]`,
+                manualChunks(id) {
+                    if (id.includes('src2/stepHook')) {
+                        return 'stepHook';
+                    }
+                    if (id.includes('src/index')) {
+                        return 'index';
+                    }
+                }
             },
         },
     },

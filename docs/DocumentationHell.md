@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"sxY3Ab2WM","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"sxY3Ab2WM","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"sxY3Ab1H0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"sxY3CB0Zb","order":1},{"id":"sxY3DF2Mf","option":"show this step...","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"sz9d7M1im","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"sz9d7M1im","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"sz9d7M1W2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"sz9d8h2K4","order":1},{"id":"sz9d9n0dy","option":"show this step...","order":2,"isAncillary":true}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 
@@ -15,7 +15,19 @@ fragsFolderPath: DocumentationHell_frags
 
 # Tame Documentation Hell: Treat Your Docs Like Code
 
-If you’re a developer, you know the pain of "documentation hell." It’s not just about writing docs — it’s about maintaining them. You’re likely all too familiar with the symptoms:
+#### The Universal Problem: Trapped Expertise
+
+Imagine you need to print a document from your laptop, but it doesn't work. The issue could lie with the laptop, the printer, or the Wi-Fi connection.
+
+Without a technical expert on hand to guide you, it is nearly impossible to determine the necessary steps to diagnose the fault, identify its cause, and implement a fix easily. If you have some IT knowledge, you might try searching online. However, a great deal of the advice you find is irrelevant to your specific situation, leaving you to experiment for hours — a frustrating process. 
+
+If you have no IT experience, you have no chance at all.
+
+Now, scale this problem up to a company that builds complicated medical machines. How do they capture an engineer's diagnostic process to train others? They can't use **decision trees**, as they explode into millions of unmanageable steps for complex systems — 95% of them duplicates. Consequently, they are forced to rely on static, 'flat' manuals. **The true, complex decision-making process is never documented; it remains informal tribal knowledge,** creating a single point of failure for the entire organisation.
+
+The result is the same: organisations are fragile. They depend on a few experts, spend a fortune on training, and are one retirement away from a crisis. This is **documentation hell** — where critical knowledge is unrecorded, or scattered, and is impossibly difficult to use when it is needed most.
+
+While the scale might change, the core problem remains the same for developers. It’s not just about writing docs — it’s about maintaining them. You’re likely all too familiar with the symptoms:
 
 *   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
 *   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
@@ -44,7 +56,7 @@ The design of [Docs Assembler](https://marketplace.visualstudio.com/items?itemNa
 *   **Maps (.tsmap files):** These are the core building blocks — self-contained documentation modules (JSON files) that can be nested and composed, just like classes. Each Map can encapsulate anything from a simple procedure to an entire troubleshooting tutorial.
 *   **Variables:** Define reusable text snippets for product names, error messages, or URLs. Change the variable in one place, and that change propagates everywhere it’s referenced, eliminating an entire class of errors.
 *   **Inheritance & Composition:** Build sophisticated guides from simple, reusable blocks. A change to a base “Map” automatically propagates to all guides that use it.
-*   **Compile to Docs:** The system assembles these components on-the-fly into clean, standard Markdown, ready for GitHub Pages. The result? You **maintain a single source of truth for your documentation**, not a dozen fractured copies.
+*   **Compile to Docs:** The system assembles these components on-the-fly into clean, standard Markdown (a process akin to compiling code), ready for GitHub Pages. The result? You **maintain a single source of truth for your documentation**, not a dozen fractured copies.
 
 ## What is the ultimate aim?
 
