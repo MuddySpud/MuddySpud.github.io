@@ -8,7 +8,7 @@ Without a technical expert on hand to guide you, it is nearly impossible to dete
 
 If you have no IT experience, you have no chance at all.
 
-Now, scale this problem up to a company that builds complicated medical machines. How do they capture an engineer's diagnostic process to train others? They can't use **decision trees**, as they explode into millions of unmanageable steps for complex systems — 95% of them duplicates. Consequently, they are forced to rely on static, 'flat' manuals. **The true, complex decision-making process is never documented; it remains informal tribal knowledge,** creating a single point of failure for the entire organisation.
+Now, scale this problem up to a company that builds complicated medical machines. How do they capture an engineer's diagnostic process to train others? Decision trees would be ideal, but for complex systems they explode into millions of unmanageable steps — 95% of them duplicates. Consequently, companies are forced to rely on 'flat' manuals which can't record the complex, branching, decision-making process; creating a single point of failure for the entire organisation.
 
 The result is the same: organisations are fragile. They depend on a few experts, spend a fortune on training, and are one retirement away from a crisis. This is **documentation hell** — where critical knowledge is unrecorded, or scattered, and is impossibly difficult to use when it is needed most.
 
