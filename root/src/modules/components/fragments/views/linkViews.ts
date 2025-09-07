@@ -28,6 +28,11 @@ const buildLinkDiscussionView = (
     const linkELementID = gFragmentCode.getLinkElementID(fragment.id);
     const results: { views: Children[], optionsCollapsed: boolean } = optionsViews.buildView(fragment);
 
+    if (linkELementID === 'nt_lk_frag_t968OJ1wo') {
+
+        console.log(`R-DRAWING ${linkELementID}_l`);
+    }
+
     const view =
 
         h("div",
@@ -97,35 +102,35 @@ const buildLinkExitsView = (
 const linkViews = {
 
     buildView: (
-        fragment: IRenderFragment,
+        fragment: IRenderFragment | null | undefined,
         views: Children[]
     ): void => {
+
+        if (!fragment
+            || fragment.ui.doNotPaint === true
+        ) {
+            return;
+        }
 
         buildLinkDiscussionView(
             fragment,
             views
         );
 
-        if (fragment.link?.root) {
-
-            linkViews.buildView(
-                fragment.link.root,
-                views
-            );
-        }
+        linkViews.buildView(
+            fragment.link?.root,
+            views
+        );
 
         buildLinkExitsView(
             fragment,
             views
         );
 
-        if (!fragment.ui.hideSelected) {
-
-            fragmentViews.buildView(
-                fragment.selected,
-                views
-            );
-        }
+        fragmentViews.buildView(
+            fragment.selected,
+            views
+        );
     }
 };
 

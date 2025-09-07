@@ -244,9 +244,9 @@ const showOptionNode_subscripton = (
         option
     );
 
-    if (option.ui.discussionLoaded === true) {
-        return;
-    }
+    // if (option.ui.discussionLoaded === true) {
+    //     return;
+    // }
 
     return gFragmentCode.getFragmentAndLinkOutline_subscripion(
         state,
@@ -344,22 +344,39 @@ const gFragmentCode = {
         }
     },
 
-    clearParentSectionSelected: (fragment: IRenderFragment,): void => {
+    clearParentSectionSelected: (displayChart: IDisplaySection): void => {
 
-        const displayChart = fragment.section as IDisplayChart;
+        const parent = (displayChart as IDisplayChart).parent;
 
-        if (!displayChart?.parent) {
+        if (!parent) {
             return;
         }
 
-        const parent = displayChart.parent;
+        gFragmentCode.clearParentSectionOrphanedSteps(parent);
+        gFragmentCode.clearParentSectionSelected(parent.section as IDisplayChart);
+    },
 
-        if (parent.selected) {
+    clearParentSectionOrphanedSteps: (fragment: IRenderFragment | null | undefined): void => {
 
-            parent.selected = null;
+        if (!fragment) {
+            return;
         }
 
-        gFragmentCode.clearParentSectionSelected(parent);
+        gFragmentCode.clearOrphanedSteps(fragment.selected);
+        fragment.selected = null;
+    },
+
+    clearOrphanedSteps: (fragment: IRenderFragment | null | undefined): void => {
+
+        if (!fragment) {
+            return;
+        }
+
+        gFragmentCode.clearOrphanedSteps(fragment.link?.root);
+        gFragmentCode.clearOrphanedSteps(fragment.selected);
+
+        fragment.selected = null;
+        fragment.link = null;
     },
 
     getFragmentAndLinkOutline_subscripion: (
@@ -368,10 +385,10 @@ const gFragmentCode = {
         optionText: string | null = null,
     ): void => {
 
-        if (option.ui.discussionLoaded === true) {
+        // if (option.ui.discussionLoaded === true) {
 
-            throw new Error('Discussion was already loaded');
-        }
+        //     throw new Error('Discussion was already loaded');
+        // }
 
         state.loading = true;
         window.TreeSolve.screen.hideBanner = true;
@@ -546,7 +563,7 @@ const gFragmentCode = {
 
         let continueLoading = false;
 
-        if (!fragment.ui.discussionLoaded) {
+        // if (!fragment.ui.discussionLoaded) {
 
             gFragmentCode.loadFragment(
                 state,
@@ -560,7 +577,7 @@ const gFragmentCode = {
             );
 
             continueLoading = true;
-        }
+        // }
 
         return {
             fragment,
@@ -691,7 +708,8 @@ const gFragmentCode = {
         fragment.variable = rawFragment.variable ?? null;
         fragment.value = rawFragment.value ?? '';
         fragment.value = fragment.value.trim();
-        fragment.ui.discussionLoaded = true;
+        // fragment.ui.discussionLoaded = true;
+        fragment.ui.doNotPaint = false;
 
         checkForVariables(
             fragment,
@@ -737,7 +755,8 @@ const gFragmentCode = {
                     option.segmentIndex = fragment.segmentIndex;
                 }
 
-                option.ui.discussionLoaded = false;
+                // option.ui.discussionLoaded = false;
+                option.ui.doNotPaint = false;
             }
         }
 
@@ -870,7 +889,7 @@ ${line}`;
     resetFragmentUi: (fragment: IRenderFragment): void => {
 
         fragment.ui.fragmentOptionsExpanded = false;
-        fragment.ui.hideSelected = false;
+        fragment.ui.doNotPaint = false;
     },
 
     splitOptionsAndAncillaries: (children: Array<IRenderFragment> | null | undefined): { options: Array<IRenderFragment>, ancillaries: Array<IRenderFragment>, total: number } => {
@@ -929,6 +948,7 @@ ${line}`;
             }
 
             parent.selected = fragment;
+            fragment.ui.sectionIndex = parent.ui.sectionIndex + 1;
 
             clearSiblingChains(
                 parent,

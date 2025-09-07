@@ -357,10 +357,10 @@ const gOutlineCode = {
 
         if (section.root) {
 
-            if (!section.root.ui.discussionLoaded) {
+            // if (!section.root.ui.discussionLoaded) {
 
-                throw new Error('Section root discussion was not loaded');
-            }
+            //     throw new Error('Section root discussion was not loaded');
+            // }
 
             return;
         }

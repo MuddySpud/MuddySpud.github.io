@@ -478,23 +478,23 @@ const gFragmentActions = {
         ancillary: IRenderFragment
     ): IStateAnyArray => {
 
-        if (ancillary.ui.discussionLoaded === true) {
+        // if (ancillary.ui.discussionLoaded === true) {
 
-            gFragmentCode.autoExpandSingleBlankOption(
-                state,
-                ancillary
-            );
+        //     gFragmentCode.autoExpandSingleBlankOption(
+        //         state,
+        //         ancillary
+        //     );
 
-            if (!ancillary.link) {
+        //     if (!ancillary.link) {
 
-                gOutlineCode.getFragmentLinkChartOutline(
-                    state,
-                    ancillary
-                );
-            }
+        //         gOutlineCode.getFragmentLinkChartOutline(
+        //             state,
+        //             ancillary
+        //         );
+        //     }
 
-            return gStateCode.cloneState(state);
-        }
+        //     return gStateCode.cloneState(state);
+        // }
 
         return getFragmentFile(
             state,
@@ -508,35 +508,36 @@ const gFragmentActions = {
         option: IRenderFragment
     ): IStateAnyArray => {
 
-        for (const child of parentFragment.options) {
+        // for (const child of parentFragment.options) {
 
-            child.ui.discussionLoaded = false;
-        }
+        //     child.ui.discussionLoaded = false;
+        // }
 
-        gFragmentCode.clearParentSectionSelected(parentFragment);
+        gFragmentCode.clearParentSectionSelected(parentFragment.section);
+        gFragmentCode.clearOrphanedSteps(parentFragment);
 
         gFragmentCode.prepareToShowOptionNode(
             state,
             option
         );
 
-        if (option.ui.discussionLoaded === true) {
+        // if (option.ui.discussionLoaded === true) {
 
-            gFragmentCode.autoExpandSingleBlankOption(
-                state,
-                option
-            );
+        //     gFragmentCode.autoExpandSingleBlankOption(
+        //         state,
+        //         option
+        //     );
 
-            if (!option.link) {
+        //     if (!option.link) {
 
-                gOutlineCode.getFragmentLinkChartOutline(
-                    state,
-                    option
-                );
-            }
+        //         gOutlineCode.getFragmentLinkChartOutline(
+        //             state,
+        //             option
+        //         );
+        //     }
 
-            return gStateCode.cloneState(state);
-        }
+        //     return gStateCode.cloneState(state);
+        // }
 
         return getFragmentFile(
             state,
@@ -708,6 +709,7 @@ const gFragmentActions = {
                 }
 
                 parentFragment.selected = fragment;
+                fragment.ui.sectionIndex = parentFragment.ui.sectionIndex + 1;
             }
         }
 

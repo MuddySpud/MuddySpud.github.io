@@ -22,9 +22,6 @@
                 "order": 1,
                 "option": "Solo module",
                 "iExitKey": "s7LPpx0rd",
-                "variable": [
-                    "SoloModule"
-                ],
                 "nodes": [
                     {
                         "key": "s7SMPh1Os",
@@ -47,9 +44,6 @@
                 "order": 2,
                 "option": "Dual modules",
                 "iExitKey": "s7LPpx09N",
-                "variable": [
-                    "DualMod"
-                ],
                 "nodes": [
                     {
                         "key": "s7SMPh2Y4",
@@ -128,8 +122,8 @@
         }
     ],
     "___εdit___": {
-        "id": "sTzwzT02WG",
-        "editorID": "me_1d60f67aabd747db80e87092f9737a31",
-        "ticks": 1756660051443
+        "id": "t8adkl019k",
+        "editorID": "car_d45afb85179342a2aec315b555bfc13d",
+        "ticks": 1757259849071
     }
 }

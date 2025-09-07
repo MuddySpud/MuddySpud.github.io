@@ -1,27 +1,86 @@
 import gFragmentActions from "../../../global/actions/gFragmentActions";
 import gFragmentCode from "../../../global/code/gFragmentCode";
 import gStateCode from "../../../global/code/gStateCode";
+import IDisplayChart from "../../../interfaces/state/display/IDisplayChart";
 import IState from "../../../interfaces/state/IState";
 import IStateAnyArray from "../../../interfaces/state/IStateAnyArray";
 import IRenderFragment from "../../../interfaces/state/render/IRenderFragment";
 import IFragmentPayload from "../../../interfaces/state/ui/payloads/IFragmentPayload";
 
 
-const hideSelected = (
-    fragment: IRenderFragment,
+const hideFromPaint = (
+    fragment: IRenderFragment | null | undefined,
     hide: boolean
 ): void => {
 
-    fragment.ui.hideSelected = hide;
+    /* 
+        This is a fix for:
+        NotFoundError: Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node.
+    */
 
-    if (fragment.link?.root) {
+    if (!fragment) {
+        return
+    }
 
-        hideSelected(
-            fragment.link?.root,
+    fragment.ui.doNotPaint = hide;
+
+    hideFromPaint(
+        fragment.selected,
+        hide
+    );
+
+    hideFromPaint(
+        fragment.link?.root,
+        hide
+    );
+}
+
+const hideOptionsFromPaint = (
+    fragment: IRenderFragment | null | undefined,
+    hide: boolean
+): void => {
+
+    /* 
+        This is a fix for:
+        NotFoundError: Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node.
+    */
+    if (!fragment) {
+        return
+    }
+
+    for (const option of fragment?.options) {
+
+        hideFromPaint(
+            option,
             hide
         );
     }
+
+    hideSectionParentSelected(
+        fragment.section as IDisplayChart,
+        hide
+    );
 }
+
+const hideSectionParentSelected = (
+    displayChart: IDisplayChart,
+    hide: boolean
+): void => {
+
+    if (!displayChart?.parent) {
+        return;
+    }
+
+    hideFromPaint(
+        displayChart.parent.selected,
+        hide
+    );
+
+    hideSectionParentSelected(
+        displayChart.parent.section as IDisplayChart,
+        hide
+    );
+};
 
 const fragmentActions = {
 
@@ -42,7 +101,7 @@ const fragmentActions = {
         state.renderState.ui.optionsExpanded = expanded;
         fragment.ui.fragmentOptionsExpanded = expanded;
 
-        hideSelected(
+        hideOptionsFromPaint(
             fragment,
             true
         );
@@ -66,7 +125,7 @@ const fragmentActions = {
         fragment.ui.fragmentOptionsExpanded = false;
         state.renderState.ui.optionsExpanded = false;
 
-        hideSelected(
+        hideOptionsFromPaint(
             fragment,
             false
         );

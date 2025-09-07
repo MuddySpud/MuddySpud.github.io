@@ -5,7 +5,7 @@
     "created": "2025-08-04T16:07:48.683Z",
     "list": true,
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ ProductTypes1000/ProductTypes1000.tsmap",
-    "iText": "Link to 'ProduceTypes1000'",
+    "iText": "Linkto 'ProduceTypes1000'",
     "iExits": [
         {
             "key": "s7SMQM2ZQ",
@@ -15,10 +15,12 @@
     ],
     "___rΩΩt___": {
         "key": "s7SMQM0M7",
+        "sharedAssetKey": "t8lv4J00wl",
         "nodes": [
             {
                 "key": "s7SMQM2PJ",
                 "order": 1,
+                "sharedAssetKey": "t8m0aV01gd",
                 "nodes": [
                     {
                         "key": "sAqzon02MS",
@@ -27,13 +29,18 @@
                             {
                                 "key": "s7SMQM1NM",
                                 "order": 1,
+                                "sharedAssetKey": "t92L4n00sb",
+                                "variable": [
+                                    "cropChoice"
+                                ],
                                 "nodes": [
                                     {
                                         "key": "s7SMQM1RC",
                                         "order": 1,
                                         "option": "Aromatic herbs",
+                                        "sharedAssetKey": "t8o8si01je",
                                         "variable": [
-                                            "Bay1"
+                                            "herbBay1"
                                         ],
                                         "nodes": [
                                             {
@@ -47,7 +54,7 @@
                                                         "option": "Next",
                                                         "iExitKey": "s7LPsx14a",
                                                         "variable": [
-                                                            "Bay2"
+                                                            "herbBay2"
                                                         ],
                                                         "nodes": [
                                                             {
@@ -61,7 +68,7 @@
                                                                         "option": "Next",
                                                                         "iExitKey": "s7LPsx14a",
                                                                         "variable": [
-                                                                            "Bay3"
+                                                                            "herbBay3"
                                                                         ],
                                                                         "nodes": [
                                                                             {
@@ -75,7 +82,7 @@
                                                                                         "option": "Next",
                                                                                         "iExitKey": "s7LPsx14a",
                                                                                         "variable": [
-                                                                                            "Bay4"
+                                                                                            "herbBay4"
                                                                                         ],
                                                                                         "nodes": [
                                                                                             {
@@ -89,7 +96,7 @@
                                                                                                         "option": "Next",
                                                                                                         "iExitKey": "s7LPsx14a",
                                                                                                         "variable": [
-                                                                                                            "Bay5"
+                                                                                                            "herbBay5"
                                                                                                         ],
                                                                                                         "nodes": [
                                                                                                             {
@@ -103,7 +110,7 @@
                                                                                                                         "option": "Next",
                                                                                                                         "iExitKey": "s7LPsx14a",
                                                                                                                         "variable": [
-                                                                                                                            "Bay6"
+                                                                                                                            "herbBay6"
                                                                                                                         ],
                                                                                                                         "nodes": [
                                                                                                                             {
@@ -117,7 +124,7 @@
                                                                                                                                         "option": "Next",
                                                                                                                                         "iExitKey": "s7LPsx14a",
                                                                                                                                         "variable": [
-                                                                                                                                            "Bay7"
+                                                                                                                                            "herbBay7"
                                                                                                                                         ],
                                                                                                                                         "nodes": [
                                                                                                                                             {
@@ -131,7 +138,7 @@
                                                                                                                                                         "option": "Next",
                                                                                                                                                         "iExitKey": "s7LPsx14a",
                                                                                                                                                         "variable": [
-                                                                                                                                                            "Bay8"
+                                                                                                                                                            "herbBay8"
                                                                                                                                                         ],
                                                                                                                                                         "nodes": [
                                                                                                                                                             {
@@ -182,6 +189,10 @@
                                         "key": "s7SMQM2WR",
                                         "order": 2,
                                         "option": "Leafy greens",
+                                        "sharedAssetKey": "t8p7bo02Of",
+                                        "variable": [
+                                            "leafyGreensSelecion"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM215",
@@ -261,6 +272,10 @@
                                         "key": "s7SMQM1ja",
                                         "order": 3,
                                         "option": "Fruiting veg",
+                                        "sharedAssetKey": "t8pI6N00j8",
+                                        "variable": [
+                                            "fruitingVegetablesSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM1mF",
@@ -340,6 +355,10 @@
                                         "key": "s7SMQM1LJ",
                                         "order": 4,
                                         "option": "Roots & stems",
+                                        "sharedAssetKey": "t8pX6w018k",
+                                        "variable": [
+                                            "rootsAndStemsSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM2BZ",
@@ -419,6 +438,10 @@
                                         "key": "s7SMQM2Xm",
                                         "order": 5,
                                         "option": "Edible flowers & specialty greens",
+                                        "sharedAssetKey": "t8qEr6015K",
+                                        "variable": [
+                                            "edibleFlowers"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM2AL",
@@ -516,6 +539,10 @@
                                         "key": "s7SMQM0Jy",
                                         "order": 6,
                                         "option": "Aquatic plants & algae",
+                                        "sharedAssetKey": "t8qONV01wS",
+                                        "variable": [
+                                            "AquaticPlantsSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM0yc",
@@ -595,6 +622,10 @@
                                         "key": "s7SMQM091",
                                         "order": 7,
                                         "option": "Mushrooms and fungi",
+                                        "sharedAssetKey": "t8qRt700pe",
+                                        "variable": [
+                                            "fungiSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM1R2",
@@ -692,6 +723,10 @@
                                         "key": "s7SMQM1EN",
                                         "order": 8,
                                         "option": "Fish",
+                                        "sharedAssetKey": "t8q1Gt00dN",
+                                        "variable": [
+                                            "fishSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM0t31",
@@ -759,6 +794,10 @@
                                         "key": "s7SMQM00Z",
                                         "order": 9,
                                         "option": "Crustaceans",
+                                        "sharedAssetKey": "t91UjX00Aw",
+                                        "variable": [
+                                            "crustaceansSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM1XT",
@@ -826,6 +865,10 @@
                                         "key": "s7SMQM1wk",
                                         "order": 10,
                                         "option": "Molluscs",
+                                        "sharedAssetKey": "t90u7301q0",
+                                        "variable": [
+                                            "molluscsSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM2DJ",
@@ -893,6 +936,10 @@
                                         "key": "s7SMQM0oN",
                                         "order": 11,
                                         "option": "Snails",
+                                        "sharedAssetKey": "t90eMJ00EV",
+                                        "variable": [
+                                            "snailsSelection"
+                                        ],
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM0US",
@@ -973,20 +1020,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-s7SMQM0M7",
-            "relativePath": "./δ steps/δ-qEBLiW2T6.tsstp"
+            "key": "t8lv4J00wl",
+            "relativePath": "../_shared/CropOptions.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM2PJ",
-            "relativePath": "./δ steps/δ-qEBLiW0sa.tsstp"
+            "key": "t8m0aV01gd",
+            "relativePath": "../_shared/FloraCategories.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM1NM",
-            "relativePath": "./δ steps/δ-qEBLiW15M.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM1RC",
-            "relativePath": "./δ steps/δ-qEBLiW29v.tsstp"
+            "key": "t8o8si01je",
+            "relativePath": "../_shared/AromaticHerbs.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMQM0rE",
@@ -1045,48 +1091,54 @@
             "relativePath": "./δ steps/δ-qHrGgP014I.tsstp"
         },
         {
-            "key": "δ-s7SMQM2WR",
-            "relativePath": "./δ steps/δ-qEBLiW1gW.tsstp"
+            "key": "t8p7bo02Of",
+            "relativePath": "../_shared/LeafyGreens.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM1ja",
-            "relativePath": "./δ steps/δ-qEBLiW0ev.tsstp"
+            "key": "t8pI6N00j8",
+            "relativePath": "../_shared/FruitingVegetables.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM1LJ",
-            "relativePath": "./δ steps/δ-qEBLiW0CP.tsstp"
+            "key": "t8pX6w018k",
+            "relativePath": "../_shared/RootsAndStems.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM2Xm",
-            "relativePath": "./δ steps/δ-qEBLiX0e8.tsstp"
+            "key": "t8qEr6015K",
+            "relativePath": "../_shared/EdibleFlowers.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM0Jy",
-            "relativePath": "./δ steps/δ-qEBLiX0qR.tsstp"
+            "key": "t8qONV01wS",
+            "relativePath": "../_shared/AquaticPlants.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM091",
-            "relativePath": "./δ steps/δ-qEBLiX0fe.tsstp"
+            "key": "t8qRt700pe",
+            "relativePath": "../_shared/Mushrooms.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM1EN",
-            "relativePath": "./δ steps/δ-qEBLiX1mX.tsstp"
+            "key": "t8q1Gt00dN",
+            "relativePath": "../_shared/Fish.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM00Z",
-            "relativePath": "./δ steps/δ-qEBLiX2Dk.tsstp"
+            "key": "t91UjX00Aw",
+            "relativePath": "../_shared/Crustaceans.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM1wk",
-            "relativePath": "./δ steps/δ-qEBLiX1WD.tsstp"
+            "key": "t90u7301q0",
+            "relativePath": "../_shared/Molluscs.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMQM0oN",
-            "relativePath": "./δ steps/δ-qEBLiX1Hy.tsstp"
-        },
-        {
-            "key": "δ-sAqzon02MS",
-            "relativePath": "./δ steps/δ-sAqzon02MS.tsstp"
+            "key": "t90eMJ00EV",
+            "relativePath": "../_shared/Snails.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-sArAE700Cz",
@@ -1095,11 +1147,20 @@
         {
             "key": "δ-s7SMQM0IE",
             "relativePath": "./δ steps/δ-s7SMQM0IE.tsstp"
+        },
+        {
+            "key": "δ-sAqzon02MS",
+            "relativePath": "./δ steps/δ-sAqzon02MS.tsstp"
+        },
+        {
+            "key": "t92L4n00sb",
+            "relativePath": "../_shared/SelectCropCategory.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "smgYAy023R",
-        "editorID": "car_7cc563632bf242c5a2c551a2146117e0",
-        "ticks": 1756936178208
+        "id": "t963gI00pI",
+        "editorID": "me_777304f4bc83493280c00e339f1d7985",
+        "ticks": 1757267336906
     }
 }

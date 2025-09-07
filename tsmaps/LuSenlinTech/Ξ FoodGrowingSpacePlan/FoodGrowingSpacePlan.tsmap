@@ -12,6 +12,9 @@
             {
                 "key": "s7SMNM1VG",
                 "order": 1,
+                "variable": [
+                    "towerLocation"
+                ],
                 "nodes": [
                     {
                         "key": "s7SMNM0ZL",
@@ -85,17 +88,17 @@
             "relativePath": "./δ steps/δ-pLpaP30230.tsstp"
         },
         {
-            "key": "δ-s7SMNM04k",
-            "relativePath": "./δ steps/δ-pLpbZ901Cm.tsstp"
-        },
-        {
             "key": "δ-s7SMNM0bC",
             "relativePath": "./δ steps/δ-qkr2ET019d.tsstp"
+        },
+        {
+            "key": "δ-s7SMNM04k",
+            "relativePath": "./δ steps/δ-s7SMNM04k.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "sTsVcY00DX",
-        "editorID": "car_7f424b0b72964bfca11cf45efa6c9c1c",
-        "ticks": 1756658277938
+        "id": "t8bSVV00MQ",
+        "editorID": "car_7478fb88997d442b8f0a768a841480f3",
+        "ticks": 1757260044169
     }
 }

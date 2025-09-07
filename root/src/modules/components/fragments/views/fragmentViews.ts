@@ -62,7 +62,9 @@ const fragmentViews = {
         views: Children[]
     ): void => {
 
-        if (!fragment) {
+        if (!fragment
+            || fragment.ui.doNotPaint === true
+        ) {
             return;
         }
 
@@ -71,26 +73,20 @@ const fragmentViews = {
             views
         );
 
-        if (fragment.link?.root) {
-
-            linkViews.buildView(
-                fragment.link.root,
-                views
-            );
-        }
+        linkViews.buildView(
+            fragment.link?.root,
+            views
+        );
 
         optionsViews.buildView2(
             fragment,
             views
         );
 
-        if (!fragment.ui.hideSelected) {
-
-            fragmentViews.buildView(
-                fragment.selected,
-                views
-            );
-        }
+        fragmentViews.buildView(
+            fragment.selected,
+            views
+        );
     }
 };
 
