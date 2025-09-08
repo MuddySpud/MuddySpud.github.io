@@ -45,6 +45,13 @@
             &.nt-fr-prior-collapsed-options {
                 margin-top: 20px;
             }
+
+            &.nt-fr-prior-is-ancillary {
+
+                &>.nt-fr-fragment-discussion p:first-child {
+                    margin-top: 50px;
+                }
+            }
         }
 
         .nt-fr-ancillary-box {

@@ -1,6 +1,6 @@
 --- 
 
----
+--- 
 
 
 :root {
@@ -32,6 +32,9 @@
 }
 #treeSolve #treeSolveFragments .nt-fr-fragment-box.nt-fr-prior-collapsed-options {
   margin-top: 20px;
+}
+#treeSolve #treeSolveFragments .nt-fr-fragment-box.nt-fr-prior-is-ancillary > .nt-fr-fragment-discussion p:first-child {
+  margin-top: 50px;
 }
 #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
   margin-right: -200px;
