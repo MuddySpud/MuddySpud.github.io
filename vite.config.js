@@ -30,7 +30,7 @@ export default defineConfig({
                         return 'stepHook';
                     }
                     if (id.includes('src/index')) {
-                        return 'index';
+                        return 'guide';
                     }
                 }
             },
