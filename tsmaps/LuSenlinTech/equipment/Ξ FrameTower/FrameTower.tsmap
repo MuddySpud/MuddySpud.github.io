@@ -19,14 +19,13 @@
             {
                 "key": "s7SMOZ04o",
                 "order": 1,
-                "variable": [
-                    "frameCount "
-                ],
+                "variable": "frameCount ",
                 "nodes": [
                     {
                         "key": "s7SMOZ1be",
                         "order": 1,
                         "option": "One Frame Tower - great for beginners or testing",
+                        "variable": "frame = 1",
                         "nodes": [
                             {
                                 "key": "s7SMOZ0CT",
@@ -52,6 +51,7 @@
                             {
                                 "key": "s7SMOZ2Yf",
                                 "order": 1,
+                                "variable": "frame = 1",
                                 "nodes": [
                                     {
                                         "key": "s7SMOZ047",
@@ -63,6 +63,7 @@
                                                 "order": 1,
                                                 "option": "Next",
                                                 "iExitKey": "s7SMPh1IZ",
+                                                "variable": "frame = 2",
                                                 "nodes": [
                                                     {
                                                         "key": "s7SMOZ2XE",
@@ -94,6 +95,7 @@
                             {
                                 "key": "s7SMOZ0nF",
                                 "order": 1,
+                                "variable": "frame = 1",
                                 "nodes": [
                                     {
                                         "key": "s7SMOZ0y7",
@@ -105,6 +107,7 @@
                                                 "order": 1,
                                                 "option": "Next",
                                                 "iExitKey": "s7SMPh1IZ",
+                                                "variable": "frame = 2",
                                                 "nodes": [
                                                     {
                                                         "key": "s7SMOZ0uH",
@@ -116,6 +119,7 @@
                                                                 "order": 1,
                                                                 "option": "Next",
                                                                 "iExitKey": "s7SMPh1IZ",
+                                                                "variable": "frame = 3",
                                                                 "nodes": [
                                                                     {
                                                                         "key": "s7SMOZ0Js",
@@ -127,6 +131,7 @@
                                                                                 "order": 1,
                                                                                 "option": "Next",
                                                                                 "iExitKey": "s7SMPh1IZ",
+                                                                                "variable": "frame = 4",
                                                                                 "nodes": [
                                                                                     {
                                                                                         "key": "s7SMOZ1TT",
@@ -248,8 +253,8 @@
         }
     ],
     "___εdit___": {
-        "id": "t8atrN00xO",
-        "editorID": "me_14388ab195d247cc825eac522adc7355",
-        "ticks": 1757259910985
+        "id": "tCpvC7026m",
+        "editorID": "me_23017ce612ce4e8caed2e4b26f0b5f86",
+        "ticks": 1757322596379
     }
 }

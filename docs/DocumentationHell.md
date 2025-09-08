@@ -1,5 +1,4 @@
 ---
-layout: simple
 title: null
 isGuide: true
 mapFolderPath: tsmaps/%CE%9E%20DocumentationHell
@@ -8,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"t967zI19P","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"t967zI19P","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"t967zI08d","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"t9681N24J","order":1},{"id":"t9682R1tP","option":"show this step...","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"tDimhX11p","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"tDimhX11p","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tDimhX2Vi","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tDimiu1xA","order":1},{"id":"tDimk20NY","option":"show this step...","order":2,"isAncillary":true}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 

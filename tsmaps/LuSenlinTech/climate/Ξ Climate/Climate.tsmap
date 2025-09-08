@@ -15,9 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "s7LPr62Sr",
-        "variable": [
-            "maxtemp"
-        ],
+        "variable": "maxtemp",
         "nodes": [
             {
                 "key": "s7LPr62N4",
@@ -123,8 +121,8 @@
         }
     ],
     "___εdit___": {
-        "id": "sTxesc00pk",
-        "editorID": "me_cef29a89c604491eb6b2790351b7f164",
-        "ticks": 1756659505170
+        "id": "tCpOL6015W",
+        "editorID": "me_00ddc321902340399223ff5f2ceba615",
+        "ticks": 1757322470084
     }
 }

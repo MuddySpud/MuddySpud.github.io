@@ -1,10 +1,10 @@
 {
-    "key": "s7LPsx1UQ",
+    "key": "s7LPsx1UQ   ",
     "token": "Herbselection",
     "name": "HerbSelection",
     "created": "2025-08-08T08:51:39.737Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/produce/Ξ HerbSelection/HerbSelection.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ HerbSelection/HerbSelection.tsmap",
     "iText": "Link to 'HerbSelection'",
     "iExits": [
         {
@@ -16,9 +16,7 @@
     "___rΩΩt___": {
         "key": "s7LPsx2NN",
         "isHeadless": true,
-        "variable": [
-            "Herb"
-        ],
+        "variable": "herb",
         "nodes": [
             {
                 "key": "s7LPsx0Fk",
@@ -108,8 +106,8 @@
     },
     "___αssεts___": [],
     "___εdit___": {
-        "id": "qZaCKj01te",
-        "editorID": "me_bc0402ead9a24e7ba1fa5fa18bb60d97",
-        "ticks": 1754910306245
+        "id": "tDiTgp00OI",
+        "editorID": "car_dea75057af064884acf1b03a02c95c5b",
+        "ticks": 1757335598691
     }
 }

@@ -24,9 +24,7 @@
                                 "key": "s7LPkv1yE",
                                 "order": 1,
                                 "iKey": "s7LPoO1sh",
-                                "variable": [
-                                    "clientEffort"
-                                ],
+                                "variable": "clientEffort",
                                 "nodes": [
                                     {
                                         "key": "s7LPkv1Np",
@@ -135,8 +133,8 @@
         }
     ],
     "___εdit___": {
-        "id": "t8VPW500qj",
-        "editorID": "me_9ced40b5d5bd4728b5db6dda2f5f9a95",
-        "ticks": 1757258602705
+        "id": "tCrH7a00oo",
+        "editorID": "me_e08b33ea08c2433eb3193528316c2de3",
+        "ticks": 1757322918994
     }
 }

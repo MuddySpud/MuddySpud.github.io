@@ -1,5 +1,5 @@
 {
-    "key": "s7LPkr2IB",
+    "key": "s7LPkr2IB   ",
     "token": "Wintertemperatures",
     "name": "WinterTemperatures",
     "created": "2025-07-29T12:31:04.815Z",
@@ -15,9 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "s7LPkr1pv",
-        "variable": [
-            "minTemp"
-        ],
+        "variable": "minTemp",
         "nodes": [
             {
                 "key": "s7LPkr1GS",
@@ -46,8 +44,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qa8Moi1rg",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1754918449696
+        "id": "tCpRUX0035",
+        "editorID": "me_5910d2e0e70e49aca6747e8d4712b402",
+        "ticks": 1757322482201
     }
 }

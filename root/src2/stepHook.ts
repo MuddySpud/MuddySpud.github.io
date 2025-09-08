@@ -52,28 +52,84 @@ const runProcessStep = (step: IRenderFragment): boolean => {
     return false;
 };
 
-const printStepVariables = (step: IRenderFragment): string | null => {
+const printStepVariables = (
+    step: IRenderFragment,
+    stringOutput: IStringOutput
+): string | null => {
 
-    if (!step.variable) {
-
+    if (!step.variable
+        || step.variable.length === 0
+    ) {
         return null;
     }
 
-    const variable = step.variable;
-    let output = '<p>';
+    const stepVariables = step.variable;
+    let variableOutput = '';
+    let output = '';
+    let start = '';
+    let end = '';
 
-    if (variable.length === 1) {
+    for (const variable of stepVariables) {
 
-        output = `${variable[0]} = ${step.selected?.option ?? 'no option selected'}`;
+        start = '<li>';
+        end = '</li>';
+
+        if (variable.length === 1) {
+
+            variableOutput = `${variable[0].trim()} = ${step.selected?.option.trim() ?? 'no option selected'}`;
+        }
+        else {
+
+            variableOutput = `${variable[0].trim()} = ${variable[1].trim()}`;
+        }
+
+        if (stringOutput.nestingLevel === 0) {
+
+            stringOutput.nestingLevel++;
+            start = `<ul>${start}`;
+        }
+
+        if (variableOutput.startsWith('frame = 1') === true
+            || variableOutput.startsWith('module = 1') === true
+            || variableOutput.startsWith('cropChoice = ') === true
+            || variableOutput.startsWith('herbBay = 1') === true
+        ) {
+            end = `${end}<ul>`;
+            stringOutput.nestingLevel++;
+        }
+        else if (variableOutput.startsWith('cropChoice =') === true) {
+
+            start = `${start}`;
+            end = `${end}<ul>`;
+            stringOutput.nestingLevel++;
+        }
+        else if (variableOutput.startsWith('herbBay = ') === true) {
+
+            start = `</ul>${start}`;
+            end = `${end}<ul>`;
+        }
+        else if (!variableOutput.startsWith('module = S')
+            && !variableOutput.startsWith('module = D')
+            && variableOutput.startsWith('module =') === true
+        ) {
+            start = `</ul></ul>${start}`;
+            end = `${end}<ul>`;
+            stringOutput.nestingLevel--;
+        }
+        else if (variableOutput.startsWith('frame =') === true) {
+
+            start = `</ul></ul></ul>${start}`;
+            end = `${end}<ul>`;
+            stringOutput.nestingLevel--;
+            stringOutput.nestingLevel--;
+        }
+
+        variableOutput = `${start}${variableOutput}${end}`;
+        output = `${output}${variableOutput}
+`
     }
-    else {
 
-        output = `${variable[0]} = ${variable[1]}`;
-    }
-
-        output = `${output}</p>`;
-
-    return output;
+    return variableOutput;
 };
 
 const printChainStepVariables = (
@@ -86,19 +142,22 @@ const printChainStepVariables = (
         return;
     }
 
-    printChainStepVariables(
-        state,
-        step.link?.root,
+    const stepVariable = printStepVariables(
+        step,
         stringOutput
     );
-
-    const stepVariable = printStepVariables(step);
 
     if (stepVariable) {
 
         stringOutput.output = `${stringOutput.output}
 ${stepVariable}`
     }
+
+    printChainStepVariables(
+        state,
+        step.link?.root,
+        stringOutput
+    );
 
     printChainStepVariables(
         state,
@@ -119,7 +178,8 @@ const printChainVariables = (
     }
 
     let stringOutput: IStringOutput = {
-        output: ''
+        output: '',
+        nestingLevel: 0
     };
 
     printChainStepVariables(
@@ -127,6 +187,11 @@ const printChainVariables = (
         root,
         stringOutput
     );
+
+    for (let i = 0; i < stringOutput.nestingLevel; i++) {
+
+        stringOutput.output = `${stringOutput.output}</ul>`;
+    }
 
     step.value = `${step.value}
 ${stringOutput.output}`

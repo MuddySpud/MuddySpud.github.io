@@ -12,9 +12,7 @@
             {
                 "key": "s7SMNM1VG",
                 "order": 1,
-                "variable": [
-                    "towerLocation"
-                ],
+                "variable": "towerLocation",
                 "nodes": [
                     {
                         "key": "s7SMNM0ZL",
@@ -97,8 +95,8 @@
         }
     ],
     "___εdit___": {
-        "id": "t8bSVV00MQ",
-        "editorID": "car_7478fb88997d442b8f0a768a841480f3",
-        "ticks": 1757260044169
+        "id": "tCrA0901QZ",
+        "editorID": "me_19f4d0d8e1094322a36f5ae77ffed9fb",
+        "ticks": 1757322891625
     }
 }
