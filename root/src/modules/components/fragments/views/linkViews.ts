@@ -13,6 +13,7 @@ const buildLinkDiscussionView = (
 ): void => {
 
     let adjustForCollapsedOptions = false;
+    let adjustForPriorAncillaries = false;
     const viewsLength = views.length;
 
     if (viewsLength > 0) {
@@ -22,6 +23,11 @@ const buildLinkDiscussionView = (
         if (lastView?.ui?.isCollapsed === true) {
 
             adjustForCollapsedOptions = true;
+        }
+
+        if (lastView?.ui?.priorIsAncillary === true) {
+
+            adjustForPriorAncillaries = true;
         }
     }
 
@@ -40,7 +46,8 @@ const buildLinkDiscussionView = (
                 id: `${linkELementID}_l`,
                 class: {
                     "nt-fr-fragment-box": true,
-                    "nt-fr-prior-collapsed-options": adjustForCollapsedOptions === true
+                    "nt-fr-prior-collapsed-options": adjustForCollapsedOptions === true,
+                    "nt-fr-prior-is-ancillary": adjustForPriorAncillaries === true
                 }
             },
             [
@@ -58,9 +65,14 @@ const buildLinkDiscussionView = (
 
     if (results.optionsCollapsed === true) {
 
-        view.ui = {
-            isCollapsed: true
-        };
+        const viewAny = view as any;
+
+        if (!viewAny.ui) {
+
+            viewAny.ui = {};
+        }
+
+        viewAny.ui.isCollapsed = true;
     }
 
     views.push(view);

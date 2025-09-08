@@ -8,7 +8,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"tFLNG71Vi","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"tFLNG71Vi","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tFLNG70i3","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tFLNGd0Ln","order":1},{"id":"tFLNK00Zq","option":"Decision trees","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"tGO8P42EO","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"tGO8P42EO","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tGO8P41qp","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tGO8PW2JD","order":1},{"id":"tGO8TR1Xr","option":"Decision trees","order":2,"isAncillary":true}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 

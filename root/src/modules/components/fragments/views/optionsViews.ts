@@ -287,10 +287,14 @@ const buildCollapsedOptionsBoxView = (
             ]
         );
 
-    view.ui = {
-        isCollapsed: true
-    };
+    const viewAny = view as any;
 
+    if (!viewAny.ui) {
+
+        viewAny.ui = {};
+    }
+
+    viewAny.ui.isCollapsed = true;
     views.push(view);
 };
 
@@ -366,7 +370,7 @@ const buildAncillariesBoxView = (
         return;
     }
 
-    views.push(
+    const view =
 
         h("div",
             {
@@ -376,8 +380,17 @@ const buildAncillariesBoxView = (
             [
                 ancillariesView
             ]
-        )
-    );
+        );
+
+    const viewAny = view as any;
+
+    if (!viewAny.ui) {
+
+        viewAny.ui = {};
+    }
+
+    viewAny.ui.priorIsAncillary = true;
+    views.push(view);
 };
 
 const buildOptionsView = (

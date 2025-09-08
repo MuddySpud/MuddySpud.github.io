@@ -1,4 +1,9 @@
---- ---:root {
+--- 
+
+---
+
+
+:root {
     --border-style: solid;
     --border-radius: 0.25rem;
     --button-color: rgba(255, 255, 255, 0.3);
@@ -39,6 +44,13 @@
         .nt-fr-fragment-box {
             &.nt-fr-prior-collapsed-options {
                 margin-top: 20px;
+            }
+
+            &.nt-fr-prior-is-ancillary {
+
+                &>.nt-fr-fragment-discussion p:first-child {
+                    margin-top: 50px;
+                }
             }
         }
 
