@@ -609,7 +609,7 @@ const gFragmentCode = {
 
             return showOptionNode_subscripton(
                 state,
-                fragment.options[0]
+                optionsAndAncillaries.options[0]
             );
         }
         else if (!U.isNullOrWhiteSpace(fragment.exitKey)) {

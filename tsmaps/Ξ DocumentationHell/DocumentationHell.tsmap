@@ -4,6 +4,7 @@
     "name": "DocumentationHell",
     "created": "2025-08-29T18:47:04.477Z",
     "list": true,
+    "publishFileName": "DocumentationHell",
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
     "iText": "Link to 'DocumentationHell'",
     "___rΩΩt___": {
@@ -34,24 +35,37 @@
                                                         "order": 1,
                                                         "nodes": [
                                                             {
-                                                                "key": "sPjcTq02Nd",
-                                                                "order": 1,
-                                                                "nodes": [
-                                                                    {
-                                                                        "key": "sSjdwd00Yd",
-                                                                        "order": 1,
-                                                                        "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
-                                                                        "isLeaf": true,
-                                                                        "iKey": "s7SMNM05c"
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
                                                                 "key": "sSWMtK01cF",
-                                                                "order": 2,
+                                                                "order": 1,
                                                                 "option": "show the step...",
                                                                 "isLeaf": true,
                                                                 "isAncillary": true
+                                                            },
+                                                            {
+                                                                "key": "tFEzMq00ti",
+                                                                "order": 2,
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "sPjcTq02Nd",
+                                                                        "order": 1,
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "sSjdwd00Yd",
+                                                                                "order": 1,
+                                                                                "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "s7SMNM05c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "key": "tFFBHl00W2",
+                                                                        "order": 2,
+                                                                        "option": "Why a Vertical Kitchen Garden?",
+                                                                        "isLeaf": true,
+                                                                        "isAncillary": true
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     },
@@ -69,6 +83,13 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "key": "tEmJZ902RJ",
+                        "order": 2,
+                        "option": "Decision trees",
+                        "isLeaf": true,
+                        "isAncillary": true
                     }
                 ]
             }
@@ -118,11 +139,23 @@
         {
             "key": "δ-syiEK300IB",
             "relativePath": "./δ steps/δ-syiEK300IB.tsstp"
+        },
+        {
+            "key": "δ-tEmJZ902RJ",
+            "relativePath": "./δ steps/δ-tEmJZ902RJ.tsstp"
+        },
+        {
+            "key": "δ-tFEzMq00ti",
+            "relativePath": "./δ steps/δ-tFEzMq00ti.tsstp"
+        },
+        {
+            "key": "δ-tFFBHl00W2",
+            "relativePath": "./δ steps/δ-tFFBHl00W2.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "syiMXo015C",
-        "editorID": "car_dec7afb7494145e4b7b21281fee75a69",
-        "ticks": 1757113926184
+        "id": "tFLF5g01Bz",
+        "editorID": "me_4dbc125f0b1044089393b98e60713fdc",
+        "ticks": 1757359613700
     }
 }
