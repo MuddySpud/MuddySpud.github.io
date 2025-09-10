@@ -6,7 +6,7 @@
     "list": true,
     "publishFileName": "DocumentationHell",
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
-    "iText": "Link to 'DocumentationHell'",
+    "iText": "Link  to 'DocumentationHell' ",
     "___rΩΩt___": {
         "key": "sIi16r00h6",
         "nodes": [
@@ -37,7 +37,7 @@
                                                             {
                                                                 "key": "sSWMtK01cF",
                                                                 "order": 1,
-                                                                "option": "show the step...",
+                                                                "option": "Show this step...",
                                                                 "isLeaf": true,
                                                                 "isAncillary": true
                                                             },
@@ -70,11 +70,24 @@
                                                         ]
                                                     },
                                                     {
-                                                        "key": "sVWLU302Mk",
+                                                        "key": "tM5xzz00FG",
                                                         "order": 2,
-                                                        "option": "show this step...",
-                                                        "isLeaf": true,
-                                                        "isAncillary": true
+                                                        "option": "What are Hallucinations?",
+                                                        "isAncillary": true,
+                                                        "nodes": [
+                                                            {
+                                                                "key": "tMWvMy02Uj",
+                                                                "order": 1,
+                                                                "isLeaf": true
+                                                            },
+                                                            {
+                                                                "key": "tMX9B8015D",
+                                                                "order": 2,
+                                                                "option": "What are LLMs?",
+                                                                "isLeaf": true,
+                                                                "isAncillary": true
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -87,7 +100,7 @@
                     {
                         "key": "tEmJZ902RJ",
                         "order": 2,
-                        "option": "Decision trees",
+                        "option": "What are Decision Trees?",
                         "isLeaf": true,
                         "isAncillary": true
                     }
@@ -129,10 +142,6 @@
             "relativePath": "./δ steps/δ-sSjdwd00Yd.tsstp"
         },
         {
-            "key": "δ-sVWLU302Mk",
-            "relativePath": "./δ steps/δ-sVWLU302Mk.tsstp"
-        },
-        {
             "key": "δ-sYNvVu009z",
             "relativePath": "./δ steps/δ-sYNvVu009z.tsstp"
         },
@@ -151,11 +160,23 @@
         {
             "key": "δ-tFFBHl00W2",
             "relativePath": "./δ steps/δ-tFFBHl00W2.tsstp"
+        },
+        {
+            "key": "δ-tM5xzz00FG",
+            "relativePath": "./δ steps/δ-tM5xzz00FG.tsstp"
+        },
+        {
+            "key": "δ-tMWvMy02Uj",
+            "relativePath": "./δ steps/δ-tMWvMy02Uj.tsstp"
+        },
+        {
+            "key": "δ-tMX9B8015D",
+            "relativePath": "./δ steps/δ-tMX9B8015D.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "tFLF5g01Bz",
-        "editorID": "me_4dbc125f0b1044089393b98e60713fdc",
-        "ticks": 1757359613700
+        "id": "tMY0hQ01g8",
+        "editorID": "car_64ae6601b9f84b018bdb29ba30a6b7fe",
+        "ticks": 1757466090996
     }
 }

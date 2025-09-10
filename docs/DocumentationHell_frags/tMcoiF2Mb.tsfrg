@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/tMcoiF2Mb.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"tMcoiF2Mb","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tMcogG15q","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"tMcohj0un","chartKey":"sIhxfx02EB","isLeaf":true,"options":[]} -->
+
+#### Why a Vertical Kitchen Garden?
+
+We chose and built this example carefully. It needed to be a product that was reasonably technical yet universally understandable. A robotics manual, while technical and complex, wouldn't be relatable to everyone. A Vertical Kitchen Garden is a tangible product that illustrates a classic documentation challenge: **sophisticated branching logic**.
+
+This scenario is the good vessel to demonstrate the specific, powerful features of Docs Assembler that tame complexity:
+
+*   **Variables:** To manage product names (e.g., 'SolisCell™'), specifications, and pricing in one place, ensuring consistency across all guides.
+*   **Shared Step Files:** To reuse common instructions (e.g., 'Fauna categories') across multiple product configuration paths, enforcing a single source of truth.
+*   **Nested Maps:** To break down the immense complexity into manageable modules. The location options, tower selection, and crop choices can each be self-contained maps, nested within the main guide.
+*   **Extracting Logic to a Component:** To demonstrate how you can remove a complex branch (e.g., the entire tower configuration logic) and reuse it elsewhere or simply hide its complexity to keep the main guide clean and focused.
+*   **Step-Variables:** To showcase a powerful feature that tracks the user's choices (e.g., 'module = Solo module') throughout their journey, enabling custom code interaction and summary screens.
+*   **Auto-Adjusted Relative URLs:** To ensure that all links and image paths work perfectly, no matter how deeply nested or where the maps are reused throughout the documentation suite.
+
+In short, this demo isn't about gardens; it's a practical, relatable showcase of how Docs Assembler handles the intricate decision-making that exists in every complex product or service.
+

@@ -134,6 +134,16 @@
                     display: block;
                 }
             }
+
+            .nt-fr-fragment-box {
+
+                &.nt-fr-prior-is-ancillary {
+
+                    &>.nt-fr-fragment-discussion p:first-child {
+                        margin-top: 20px;
+                    }
+                }
+            }
         }
 
         .nt-fr-fragment-options {

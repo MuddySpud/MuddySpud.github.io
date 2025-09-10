@@ -1,9 +1,4 @@
---- 
-
----
-
-
-:root {
+--- ---:root {
     --border-style: solid;
     --border-radius: 0.25rem;
     --button-color: rgba(255, 255, 255, 0.3);
@@ -132,6 +127,16 @@
 
                 &>.nt-fr-ancillary-x {
                     display: block;
+                }
+            }
+
+            .nt-fr-fragment-box {
+
+                &.nt-fr-prior-is-ancillary {
+
+                    &>.nt-fr-fragment-discussion p:first-child {
+                        margin-top: 20px;
+                    }
                 }
             }
         }

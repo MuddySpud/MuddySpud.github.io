@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/tMcoku1Np.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"tMcoku1Np","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tMcogG15q","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"tMcogG0xN","chartKey":"sIhxfx02EB","isLeaf":true,"options":[]} -->
+
+##### What are Decision Trees?
+
+A decision tree is a visual and logical model used to map out a sequence of decisions and their possible outcomes. It resembles a tree structure, starting with a single root node that represents the initial decision or problem. From there, branches extend to represent different choices, actions, or events, each leading to further nodes that depict subsequent decisions, uncertainties, or end results (known as leaf nodes).
+
+This method helps in breaking down complex problems into simpler, sequential steps, making it easier to assess risks, costs, and benefits.
+
+###### The Critical Weakness: Exponential Complexity
+
+While useful in theory, decision trees become unmanageably complex for real-world scenarios. Adding just a few new variables causes the number of branches to explode, making the tree impossible to build, maintain, or audit effectively.
+
+This is why modern systems need more powerful structures that can encapsulate and reuse logic — like the modular, reusable maps used in Docs Assembler — to handle intricate decision-making without the exponential chaos.
+
