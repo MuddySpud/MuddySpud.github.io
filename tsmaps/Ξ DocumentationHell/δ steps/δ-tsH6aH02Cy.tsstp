@@ -1,0 +1,5 @@
+##### This approach provides two key advantages:
+
+1.  **One Source of Truth:** All image URLs are stored in a single, central variables file. To place an image in a step file, you simply reference the variable where the image should appear.
+2.  **Easy Maintenance:** Changing an image requires just one update in the variables file. That change automatically propagates everywhere the variable is used, ensuring consistency, reducing errors, and saving hours of manual work.
+

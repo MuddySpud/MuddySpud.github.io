@@ -1,4 +1,29 @@
-### TODO
+¬import il from "../../shared/imageLinks"
 
-Expand on how steps work
+
+### How This Page Was Built
+
+The image below shows the step **"This Website is One Guide"** being edited within **Visual Studio Code** using the **Docs Assembler** extension.
+
+{{il.thisWebsiteIsOneGuide_image}}
+
+##### Here's a breakdown of the interface:  
+
+*   **Left (File Explorer):** The *DocumentationHell.tsmap* file is selected, showing the guide's structure.
+*   **Center (Map View):** The step "**This website is One Guide**" is selected in the Map Editor.
+*   **Right (Markdown Editor):** The content of the step is open for editing.
+
+### The Power of Variables:
+
+This step contains an ancillary option, **"Show this step in the map"**. Selecting it reveals the following view in Docs Assembler:
+
+{{il.showThisStepAncillary_image}}
+
+Notice line 8. It doesn't contain a direct image link but a **variable**: 
+
+{{il.showThisStepAncillary_image}}
+
+On publish, this variable is automatically replaced with the actual markdown:
+
+{{il.thisWebsiteIsOneGuideImageHtml_image}}
 

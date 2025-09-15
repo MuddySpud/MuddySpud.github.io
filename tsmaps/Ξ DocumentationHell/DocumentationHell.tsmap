@@ -38,8 +38,27 @@
                                                                 "key": "sSWMtK01cF",
                                                                 "order": 1,
                                                                 "option": "Show this step...",
-                                                                "isLeaf": true,
-                                                                "isAncillary": true
+                                                                "isAncillary": true,
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "tsH6aH02Cy",
+                                                                        "order": 1,
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "tPpznv01Q7",
+                                                                                "order": 1,
+                                                                                "isLeaf": true
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "key": "tsGweR01gj",
+                                                                        "order": 2,
+                                                                        "option": "How this works...",
+                                                                        "isLeaf": true,
+                                                                        "isAncillary": true
+                                                                    }
+                                                                ]
                                                             },
                                                             {
                                                                 "key": "tFEzMq00ti",
@@ -172,11 +191,23 @@
         {
             "key": "δ-tMX9B8015D",
             "relativePath": "./δ steps/δ-tMX9B8015D.tsstp"
+        },
+        {
+            "key": "δ-tPpznv01Q7",
+            "relativePath": "./δ steps/δ-tPpznv01Q7.tsstp"
+        },
+        {
+            "key": "δ-tsGweR01gj",
+            "relativePath": "./δ steps/δ-tsGweR01gj.tsstp"
+        },
+        {
+            "key": "δ-tsH6aH02Cy",
+            "relativePath": "./δ steps/δ-tsH6aH02Cy.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "tMY0hQ01g8",
-        "editorID": "car_64ae6601b9f84b018bdb29ba30a6b7fe",
-        "ticks": 1757466090996
+        "id": "tsHWw701GI",
+        "editorID": "me_47d42c33ede145b2a0b5c2c0f99dd969",
+        "ticks": 1757935006091
     }
 }

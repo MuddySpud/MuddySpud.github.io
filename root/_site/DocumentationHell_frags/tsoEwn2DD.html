@@ -1,0 +1,41 @@
+<!-- tsFragmentRenderComment {"id":"tsoEwn2DD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tsoEvn1uY","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":true,"options":[]} -->
+
+<h5 id="this-approach-provides-two-key-advantages">This approach provides two key advantages:</h5>
+
+<ol>
+  <li><strong>One Source of Truth:</strong> All image URLs are stored in a single, central variables file. To place an image in a step file, you simply reference the variable where the image should appear.</li>
+  <li><strong>Easy Maintenance:</strong> Changing an image requires just one update in the variables file. That change automatically propagates everywhere the variable is used, ensuring consistency, reducing errors, and saving hours of manual work.</li>
+</ol>
+
+<h3 id="full-diagnostics-and-intellisense">Full Diagnostics and Intellisense</h3>
+
+<p><strong>Docs Assembler</strong> provides full language support:</p>
+
+<h5 id="validation">Validation</h5>
+
+<p>The import statement is rigorously validated. The system checks that the file path points to an existing file and is free of errors.</p>
+
+<h5 id="intellisense">Intellisense</h5>
+
+<p>As you type, you get code completion help to build both the import statement and the variable references correctly, dramatically reducing typos and errors.</p>
+
+<p>You can easily navigate and understand your entire system. Right-clicking on any variable and selecting <strong>‘Go to Definition’</strong> takes you directly to its source.</p>
+
+<p><a href="/_site/assets/images/GoToVariableDefinition.png"><img class="nt-fr-mid-image" src="/_site/assets/images/GoToVariableDefinition.png" /></a></p>
+
+<p>Here is the <em>imageLinks.tsvar</em> variable file itself. Notice how you can even reference variables <em>within</em> other variable definitions, creating a powerful, reusable hierarchy of content.</p>
+
+<p><a href="/_site/assets/images/ImageLinksFile.png"><img class="nt-fr-mid-image" src="/_site/assets/images/ImageLinksFile.png" /></a></p>
+
+<h5 id="diagnostics">Diagnostics</h5>
+
+<p>The system actively monitors for errors in real-time. If you reference a variable that doesn’t exist, or a local url doesn’t point to an existing file, Docs Assembler immediately flags it with a clear diagnostic warning, preventing publication and guiding you to fix the issue.</p>
+
+<h6 id="example">Example:</h6>
+
+<p>The element below tries to reference the ‘il.variable-does-not-exist’. Since this variable is not defined in the <em>imageLinks.tsvar</em> file, the system generates a precise error, ensuring content remains accurate and build processes aren’t broken by missing references.</p>
+
+<p><a href="/_site/assets/images/FullDiagnosticsAndIntellisense.png"><img class="nt-fr-mid-image" src="/_site/assets/images/FullDiagnosticsAndIntellisense.png" /></a></p>
+
+<p>This is a simple but powerful example of how Docs Assembler applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.</p>
+
