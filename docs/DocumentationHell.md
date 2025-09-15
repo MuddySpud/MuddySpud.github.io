@@ -1,5 +1,4 @@
 ---
-layout: simple
 title: null
 isGuide: true
 mapFolderPath: tsmaps/%CE%9E%20DocumentationHell
@@ -8,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"tsoEvn2VD","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"tsoEvn2VD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tsoEvn1uY","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tsoEvz2DM","order":1},{"id":"tsoEzu1XP","option":"What are Decision Trees?","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"tuBml91eQ","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"tuBml91eQ","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tuBml90OF","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tuBmlf0GV","order":1},{"id":"tuBmqL25S","option":"What are Decision Trees?","order":2,"isAncillary":true}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 

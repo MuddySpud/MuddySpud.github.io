@@ -1,6 +1,8 @@
 --- 
 
+
 ---
+
 
 
 :root {
@@ -15,12 +17,16 @@
 
 #treeSolve {
 
+    ol {
+        padding: 0 0 0 40px;
+    }
+
     strong {
         font-weight: 600;
         letter-spacing: 0.25px;
     }
 
-    .main-logo {
+    .nt-fr-main-logo {
 
         img {
             margin: 60px 20px 20px 0;
@@ -28,6 +34,18 @@
             width: 100px;
             float: none;
         }
+    }
+
+    .nt-fr-big-image {
+        margin: 50px auto;
+        padding: 0 20px 0 0;
+        float: none;
+    }
+
+    .nt-fr-mid-image {
+        margin: 50px auto;
+        width: 70%;
+        float: none;
     }
 
     .underline {

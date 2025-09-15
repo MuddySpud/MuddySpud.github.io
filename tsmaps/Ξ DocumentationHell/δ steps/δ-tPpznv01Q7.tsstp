@@ -7,7 +7,9 @@
 
 ##### Validation
 
-The import statement is rigorously validated. The system checks that the file path points to an existing file and is free of errors.
+- **Import statements"" - checks that the statement is well formed and the file path points to an existing file and the file is free of errors.
+- **Variable references"" - checks that it is well formed and the alias points to a valid import statement, and the variable exists within that imported file.
+- **Variable definitions"" - cchecks it is well-formed and if it is relative url is checks the file exists.
 
 ##### Intellisense
 
