@@ -50,6 +50,13 @@
                                                                                 "key": "tPpznv01Q7",
                                                                                 "order": 1,
                                                                                 "isLeaf": true
+                                                                            },
+                                                                            {
+                                                                                "key": "tvMpTR006s",
+                                                                                "order": 2,
+                                                                                "option": "Using variables",
+                                                                                "isLeaf": true,
+                                                                                "isAncillary": true
                                                                             }
                                                                         ]
                                                                     }
@@ -194,11 +201,15 @@
         {
             "key": "δ-tvJniQ00HU",
             "relativePath": "./δ steps/δ-tvJniQ00HU.tsstp"
+        },
+        {
+            "key": "δ-tvMpTR006s",
+            "relativePath": "./δ steps/δ-tvMpTR006s.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "tvK6P602Vq",
-        "editorID": "car_34e1936629a7463489037a946fc5d698",
-        "ticks": 1757979948092
+        "id": "tvNC3502JG",
+        "editorID": "car_5291ad8c7c604c78b70ec407e1a33729",
+        "ticks": 1757980684775
     }
 }

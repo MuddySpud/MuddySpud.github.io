@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/tvOSs90UZ.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"tvOSs90UZ","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"tvOSpy0nt","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"tvOSrq2Yl","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"tvOSsO21w","option":"The power of variables","order":1,"isAncillary":true}]} -->
+
+### How This Page Was Built
+
+The image below shows the step **"This Website is One Guide"** being edited within **Visual Studio Code** using the **Docs Assembler** extension.
+
+*   **Left (File Explorer):** The *DocumentationHell.tsmap* file is selected, showing the guide's structure.
+*   **Center (Map View):** The step "**This website is One Guide**" is selected in the Map Editor.
+*   **Right (Markdown Editor):** The content of the step is open for editing.
+
+[<img class="nt-fr-big-image" src="/assets/images/ThisWebsiteIsOneGuide.png">](/assets/images/ThisWebsiteIsOneGuide.png)
+
