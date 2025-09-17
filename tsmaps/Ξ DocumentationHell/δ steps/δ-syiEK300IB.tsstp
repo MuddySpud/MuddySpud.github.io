@@ -1,16 +1,12 @@
-¬import el from "../../shared/externalLinks"
+#### A Single Source of Truth
 
+Consider a massive software platform, like a cloud service or a video editing suite. Its long-term success depends on one critical factor: how easily, cheaply, quickly, and safely a system can be modified, updated, and fixed after its initial release.
 
-#### This challenge manifests everywhere
+Think of this less as a technical feature, and more as a measure of effort and risk.
 
-But for developers, it’s a daily reality. It’s not just about writing docs — it’s about maintaining them. You’re likely all too familiar with the symptoms:
+A highly maintainable system is like a well-organized workshop: any tool is easy to find, and adding a new one is simple. A system with poor maintainability is like a tangled pile of cables: any change requires untangling the entire mess, is frustrating, and you might break something else in the process.
 
-*   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
-*   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
-*   **Brittle, unmanageable docs** that collapse under their own weight when you try to document complex, branching real-world scenarios.
-*   **Wasting precious time** wrestling with static site generators and build scripts instead of writing code and building features.
+The key to this ease of upkeep is the **Single Source of Truth** principle. Instead of duplicating code, you define a component — eg a class, method, constant — in one place and reuse it everywhere. Change it once, and the update propagates across the entire system instantly.
 
-What if you could solve this by applying the proven principles of software engineering directly to your documentation?
-
-That’s the core idea behind {{el.docsAssemblerExtension_link}}, a VS Code extension designed to help you build documentation systems with **modular, reusable components**. Think of it as bringing **class-based inheritance** to your content. It allows you to create a system where your documentation is as maintainable and scalable as your codebase.
+In short, maintainability is about building for change. It's the difference between creating a fragile monument that crumbles at the first edit and creating a resilient, living system that evolves effortlessly with your needs. 
 
