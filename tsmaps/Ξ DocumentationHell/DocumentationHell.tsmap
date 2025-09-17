@@ -63,36 +63,8 @@
                                                                                                 "order": 1,
                                                                                                 "nodes": [
                                                                                                     {
-                                                                                                        "key": "sSWMtK01cF",
-                                                                                                        "order": 1,
-                                                                                                        "option": "Show this step...",
-                                                                                                        "isAncillary": true,
-                                                                                                        "nodes": [
-                                                                                                            {
-                                                                                                                "key": "tvJniQ00HU",
-                                                                                                                "order": 1,
-                                                                                                                "option": "The power of variables",
-                                                                                                                "isAncillary": true,
-                                                                                                                "nodes": [
-                                                                                                                    {
-                                                                                                                        "key": "tPpznv01Q7",
-                                                                                                                        "order": 1,
-                                                                                                                        "isLeaf": true
-                                                                                                                    },
-                                                                                                                    {
-                                                                                                                        "key": "tvMpTR006s",
-                                                                                                                        "order": 2,
-                                                                                                                        "option": "Using variables",
-                                                                                                                        "isLeaf": true,
-                                                                                                                        "isAncillary": true
-                                                                                                                    }
-                                                                                                                ]
-                                                                                                            }
-                                                                                                        ]
-                                                                                                    },
-                                                                                                    {
                                                                                                         "key": "tFEzMq00ti",
-                                                                                                        "order": 2,
+                                                                                                        "order": 1,
                                                                                                         "nodes": [
                                                                                                             {
                                                                                                                 "key": "sPjcTq02Nd",
@@ -255,10 +227,6 @@
             "relativePath": "./δ steps/δ-sPjJaF00Gq.tsstp"
         },
         {
-            "key": "δ-sSWMtK01cF",
-            "relativePath": "./δ steps/δ-sSWMtK01cF.tsstp"
-        },
-        {
             "key": "δ-sPjcTq02Nd",
             "relativePath": "./δ steps/δ-sPjcTq02Nd.tsstp"
         },
@@ -297,18 +265,6 @@
         {
             "key": "δ-tMX9B8015D",
             "relativePath": "./δ steps/δ-tMX9B8015D.tsstp"
-        },
-        {
-            "key": "δ-tPpznv01Q7",
-            "relativePath": "./δ steps/δ-tPpznv01Q7.tsstp"
-        },
-        {
-            "key": "δ-tvJniQ00HU",
-            "relativePath": "./δ steps/δ-tvJniQ00HU.tsstp"
-        },
-        {
-            "key": "δ-tvMpTR006s",
-            "relativePath": "./δ steps/δ-tvMpTR006s.tsstp"
         },
         {
             "key": "δ-u0zrG5006o",
@@ -376,8 +332,8 @@
         }
     ],
     "___εdit___": {
-        "id": "u54Rmf00dT",
-        "editorID": "car_2f48a3cae7ac4dbfa148020e5549620f",
-        "ticks": 1758123980389
+        "id": "u5885j01ZA",
+        "editorID": "me_22719c35b9a948c7bcf268fada8777e7",
+        "ticks": 1758124858003
     }
 }
