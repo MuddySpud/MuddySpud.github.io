@@ -152,7 +152,67 @@
                                                         "key": "u4wNOY00Cm",
                                                         "order": 2,
                                                         "option": "The Technical Deep Dive",
-                                                        "isLeaf": true
+                                                        "nodes": [
+                                                            {
+                                                                "key": "u4z15g02aS",
+                                                                "order": 1,
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "u50veA026m",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "u50xsy01uJ",
+                                                                                "order": 1,
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "u519GF00X2",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "u51rKe01DX",
+                                                                                                "order": 1,
+                                                                                                "isLeaf": true
+                                                                                            },
+                                                                                            {
+                                                                                                "key": "u4z5G702Xs",
+                                                                                                "order": 2,
+                                                                                                "option": "Show this step...",
+                                                                                                "isAncillary": true,
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "u4zC7x006Y",
+                                                                                                        "order": 1,
+                                                                                                        "option": "The power of variables",
+                                                                                                        "isAncillary": true,
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "u4zYPX00A6",
+                                                                                                                "order": 1,
+                                                                                                                "isLeaf": true
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "key": "u4zf7f0076",
+                                                                                                                "order": 2,
+                                                                                                                "option": "Using variables",
+                                                                                                                "isLeaf": true,
+                                                                                                                "isAncillary": true
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -277,11 +337,47 @@
         {
             "key": "δ-u4wNOY00Cm",
             "relativePath": "./δ steps/δ-u4wNOY00Cm.tsstp"
+        },
+        {
+            "key": "δ-u4z15g02aS",
+            "relativePath": "./δ steps/δ-u4z15g02aS.tsstp"
+        },
+        {
+            "key": "δ-u4z5G702Xs",
+            "relativePath": "./δ steps/δ-u4z5G702Xs.tsstp"
+        },
+        {
+            "key": "δ-u4zC7x006Y",
+            "relativePath": "./δ steps/δ-u4zC7x006Y.tsstp"
+        },
+        {
+            "key": "δ-u4zYPX00A6",
+            "relativePath": "./δ steps/δ-u4zYPX00A6.tsstp"
+        },
+        {
+            "key": "δ-u4zf7f0076",
+            "relativePath": "./δ steps/δ-u4zf7f0076.tsstp"
+        },
+        {
+            "key": "δ-u50veA026m",
+            "relativePath": "./δ steps/δ-u50veA026m.tsstp"
+        },
+        {
+            "key": "δ-u50xsy01uJ",
+            "relativePath": "./δ steps/δ-u50xsy01uJ.tsstp"
+        },
+        {
+            "key": "δ-u519GF00X2",
+            "relativePath": "./δ steps/δ-u519GF00X2.tsstp"
+        },
+        {
+            "key": "δ-u51rKe01DX",
+            "relativePath": "./δ steps/δ-u51rKe01DX.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "u4wS4l01Rt",
+        "id": "u54Rmf00dT",
         "editorID": "car_2f48a3cae7ac4dbfa148020e5549620f",
-        "ticks": 1758122074887
+        "ticks": 1758123980389
     }
 }
