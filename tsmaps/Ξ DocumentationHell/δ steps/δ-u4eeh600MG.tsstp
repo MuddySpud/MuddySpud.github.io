@@ -1,9 +1,11 @@
-¬import el from "../../shared/externalLinks"
+¬import tw from "../_shared/ThisWebsiteIsASingleGuide"
 
 
-## This Website is *A* Single Guide
+## {{tw.thisWebsiteTitle}}
 
-This website is not just talking about {{el.docsAssemblerExtension_link}} — it is a live demonstration of it. All the text you're reading has been dynamically assembled from a structure of interconnected maps. It demonstrates that you can create and maintain an expansive documentation system with a similar ease to how a developer maintains a codebase.
 
-This is the proof. This is what treating docs like code looks like. But the true power of this approach extends far beyond managing a website.
+{{tw.functioningExample}}
+
+
+{{tw.thisIsTheProof}}
 

@@ -1,0 +1,10 @@
+¬import el from "../../shared/externalLinks"
+
+
+¬thisWebsiteTitle: This Website is *A* Single Guide
+
+¬functioningExample: 
+This website is not just talking about {{el.docsAssemblerExtension_link}} — it is a live, functioning example of it. Every piece of text you see has been dynamically assembled from a structure of interconnected maps. This demonstrates how you can create and maintain an expansive documentation system with the same ease and precision as you maintain your codebase.¬
+
+¬thisIsTheProof: This is the proof. This is what treating docs like code looks like.
+
