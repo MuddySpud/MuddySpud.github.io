@@ -1,0 +1,5 @@
+¬import el from "../../../shared/externalLinks"
+
+
+Dive into the guide below. As you configure a garden — choosing frame size, modules, and crops — observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic without the exponential complexity, making updates effortless and consistent across all documentation.
+

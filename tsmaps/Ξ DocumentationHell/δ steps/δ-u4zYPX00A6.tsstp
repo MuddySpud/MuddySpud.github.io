@@ -1,9 +1,10 @@
 ¬import il from "../../shared/imageLinks"
+¬import el from "../../shared/externalLinks"
 
 
 ### Full Diagnostics and Intellisense
 
-**Docs Assembler** provides full language support:
+{{el.docsAssemblerExtension_link}} provides full language support:
 
 ##### Validation
 
@@ -25,7 +26,7 @@ Here is the *imageLinks.tsvar* variable file itself. Notice how you can even ref
 
 ##### Diagnostics
 
-The system actively monitors for errors in real-time. If you reference a variable that doesn't exist, or a local url doesn't point to an existing file, Docs Assembler immediately flags it with a clear diagnostic warning, preventing publication and guiding you to fix the issue.
+The system actively monitors for errors in real-time. If you reference a variable that doesn't exist, or a local url doesn't point to an existing file, {{el.docsAssemblerExtension_link}} immediately flags it with a clear diagnostic warning, preventing publication and guiding you to fix the issue.
 
 ###### Example:
 
@@ -33,5 +34,5 @@ The element below tries to reference the 'il.variable-does-not-exist'. Since thi
 
 {{il.fullDiagnosticsAndIntellisense_image}}
 
-This is a simple but powerful example of how Docs Assembler applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.
+This is a simple but powerful example of how {{el.docsAssemblerExtension_link}} applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.
 

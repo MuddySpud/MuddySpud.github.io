@@ -1,13 +1,13 @@
 ¬import il from "../../shared/imageLinks"
+¬import el from "../../shared/externalLinks"
 
 
-### How This Page Was Built
+### How This Page Was Built 1
 
-The image below shows the step **"This Website is One Guide"** being edited within **Visual Studio Code** using the **Docs Assembler** extension.
+The image below shows the step **"This Website is One Guide"** being edited within {{el.vscode_link}} using the {{el.docsAssemblerExtension_link}} extension.
 
 *   **Left (File Explorer):** The *DocumentationHell.tsmap* file is selected, showing the guide's structure.
 *   **Center (Map View):** The step "**This website is One Guide**" is selected in the Map Editor.
 *   **Right (Markdown Editor):** The content of the step is open for editing.
 
 {{il.thisWebsiteIsOneGuide_image}}
-

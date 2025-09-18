@@ -1,9 +1,10 @@
 ¬import il from "../../shared/imageLinks"
+¬import el from "../../shared/externalLinks"
 
 
 #### The Power of Variables:
 
-The step **"This Website is One Guide"** has an ancillary option **"Show this step..."**. Selecting it reveals the following view in Docs Assembler:
+The step **"This Website is One Guide"** has an ancillary option **"Show this step..."**. Selecting it reveals the following view in {{el.docsAssemblerExtension_link}}:
 
 {{il.showThisStepAncillary_image}}
 

@@ -11,3 +11,6 @@
 ¬githubPages_url: https://docs.github.com/en/pages
 ¬githubPages_link: [GitHub Pages]({{githubPages_url}})
 
+¬vscode_url: https://code.visualstudio.com/
+¬vscode_link: [Visual Studio Code]({{vscode_url}})
+

@@ -1,6 +1,6 @@
-#### A Single Source of Truth
+### A Single Source of Truth
 
-Consider a massive software platform, like a cloud service or a video editing suite. Its long-term success depends on one critical factor: how easily, cheaply, quickly, and safely a system can be modified, updated, and fixed after its initial release.
+Consider a large software platform, like a cloud service or a video editing suite. Its long-term success depends on a single critical factor: maintainability—the ability to modify, update, and fix it with minimal effort, cost, and risk.
 
 Think of this less as a technical feature, and more as a measure of effort and risk.
 

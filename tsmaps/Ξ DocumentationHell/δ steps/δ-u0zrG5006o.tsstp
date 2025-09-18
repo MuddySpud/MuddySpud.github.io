@@ -1,9 +1,8 @@
-#### This challenge manifests everywhere
+### This challenge manifests everywhere
 
 It’s not just about writing docs — it’s about maintaining them. The symptoms are universal:
 
-*   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
-*   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
-*   **Brittle, unmanageable docs** that collapse under their own weight when you try to document complex, branching real-world scenarios.
-*   **Wasting precious time** wrestling with static site generators and build scripts instead of writing code and building features.
+*   **Sprawling, duplicated content** - that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
+*   **Bug-prone updates:** - you make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
+*   **Brittle, unmanageable docs** - that collapse under their own weight when you try to document complex, branching real-world scenarios.
 

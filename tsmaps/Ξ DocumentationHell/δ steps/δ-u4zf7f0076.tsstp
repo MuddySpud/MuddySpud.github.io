@@ -1,13 +1,14 @@
 ¬import il from "../../shared/imageLinks"
+¬import el from "../../shared/externalLinks"
 
 
 ### Using Variables
 
-Variables in Docs Assembler allow you to define reusable pieces of text or markdown in one place and reference them throughout your documentation.
+Variables in {{el.docsAssemblerExtension_link}} allow you to define reusable pieces of text or markdown in one place and reference them throughout your documentation.
 
 ##### Defining a Variable
 
-Variables are defined in special variable files, which use the *.tsvar* file extension. When the Docs Assembler extension is installed, VS Code will recognize these files and provide syntax highlighting and IntelliSense as if they were standard Markdown.
+Variables are defined in special variable files, which use the *.tsvar* file extension. When the {{el.docsAssemblerExtension_link}} extension is installed, {{el.vscode_link}} will recognize these files and provide syntax highlighting and IntelliSense as if they were standard Markdown.
 
 The syntax for defining a variable is straightforward. For a single line:
 
@@ -44,5 +45,5 @@ From the imported file wherever you want the content to appear, using the syntax
 e.g.
 {{il.installationDiagram_image}}
 
-During the publish process, Docs Assembler will automatically replace every {% raw %}{<{file_alias.variable_name}>}{% endraw %} reference with the value defined in the variable file.
+During the publish process, {{el.docsAssemblerExtension_link}} will automatically replace every {% raw %}{<{file_alias.variable_name}>}{% endraw %} reference with the value defined in the variable file.
 

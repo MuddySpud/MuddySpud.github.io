@@ -1,12 +1,12 @@
 ##### What are Decision Trees?
 
-A decision tree is a visual and logical model used to map out a sequence of decisions and their possible outcomes. It resembles a tree structure, starting with a single root node that represents the initial decision or problem. From there, branches extend to represent different choices, actions, or events, each leading to further nodes that depict subsequent decisions, uncertainties, or end results (known as leaf nodes).
+A decision tree is a classic tool for mapping choices — a flowchart that starts with a single "root" question and branches out into every possible outcome. For simple, binary choices ("Is the printer on?"), they provide a clear, logical path.
 
-This method helps in breaking down complex problems into simpler, sequential steps, making it easier to assess risks, costs, and benefits.
+##### The Unspoken Reason They Fail
 
-###### The Critical Weakness: Exponential Complexity
+For decades, decision trees have been the obvious theoretical solution for capturing complex processes. Their failure in practice has is exponential complexity.
 
-While useful in theory, decision trees become unmanageably complex for real-world scenarios. Adding just a few new variables causes the number of branches to explode, making the tree impossible to build, maintain, or audit effectively.
+Adding just a few real-world variables — user roles, error states, environmental conditions — causes their branches to explode. Ten yes/no questions can generate over a thousand paths. For anything resembling real operational knowledge, they become monstrous, un-auditable, and utterly unmaintainable.
 
-This is why modern systems need more powerful structures that can encapsulate and reuse logic — like the modular, reusable maps used in Docs Assembler — to handle intricate decision-making without the exponential chaos.
+This isn't a minor inconvenience; it's the fundamental bottleneck that has prevented us from properly documenting complex, branching expertise. The ability to truly conquer this complexity would open up a powerful new way to build, maintain, and leverage knowledge in any field.
 

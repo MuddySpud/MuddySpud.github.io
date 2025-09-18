@@ -1,6 +1,9 @@
+¬import el from "../../shared/externalLinks"
+
+
 ### Choose Your Path to Learn More
 
-The best way to understand Docs Assembler depends on your role. You can see it as a high-level solution or dive into the technical details.
+The best way to understand {{el.docsAssemblerExtension_link}} depends on your role. You can see it as a high-level solution or dive into the technical details.
 
 #### **Path 1: See the Big Picture & Results**
 *(For non-developers, managers, and anyone who wants to see the "what" before the "how")*
