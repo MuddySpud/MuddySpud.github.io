@@ -1,4 +1,14 @@
---- ---:root {
+--- 
+
+
+---
+
+
+.dev{
+    display: block;
+}
+
+:root {
     --border-style: solid;
     --border-radius: 0.25rem;
     // --button-color: rgba(255, 255, 255, 0.3);
@@ -11,7 +21,6 @@
 }
 
 #treeSolve {
-    background-color: pink;
 
     ol {
         padding: 0 0 0 40px;

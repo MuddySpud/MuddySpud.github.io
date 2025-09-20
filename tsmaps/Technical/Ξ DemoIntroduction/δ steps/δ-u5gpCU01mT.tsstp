@@ -1,5 +1,7 @@
 ¬import el from "../../../shared/externalLinks"
 
 
-Dive into the guide below. As you configure a garden — choosing frame size, modules, and crops — observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic. Each option spawns another branch as eah level you progress down the decision tree. Without 'A Single Source of Truth' this would not have been possible, the exponential complexity, would have made it uneditable, tet here we are, making updates effortless and consistent across it all.
+**Dive into the guide below.** As you configure a garden — choosing frame size, modules, and crops — observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic. Each option spawns a new branch, and with every level you progress, those branches increase exponentially.
+
+Without a '**Single Source of Truth**', this complexity would create an unmanageable mess. Yet here, updates are effortless and consistent across the entire knowledge base.
 
