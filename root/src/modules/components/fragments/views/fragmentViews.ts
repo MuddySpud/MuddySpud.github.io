@@ -30,7 +30,7 @@ const buildDiscussionView = (
             adjustForCollapsedOptions = true;
         }
 
-        if (lastView?.ui?.priorIsAncillary === true) {
+        if (lastView?.ui?.hasAncillaries === true) {
 
             adjustForPriorAncillaries = true;
         }

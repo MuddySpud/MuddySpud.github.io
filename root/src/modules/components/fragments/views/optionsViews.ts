@@ -389,7 +389,7 @@ const buildAncillariesBoxView = (
         viewAny.ui = {};
     }
 
-    viewAny.ui.priorIsAncillary = true;
+    viewAny.ui.hasAncillaries = true;
     views.push(view);
 };
 
@@ -466,7 +466,7 @@ const buildOptionsBoxView = (
 
 const optionsViews = {
 
-    buildView: (fragment: IRenderFragment): { views: Children[], optionsCollapsed: boolean } => {
+    buildView: (fragment: IRenderFragment): { views: Children[], optionsCollapsed: boolean, hasAncillaries: boolean } => {
 
         if (!fragment.options
             || fragment.options.length === 0
@@ -474,7 +474,8 @@ const optionsViews = {
         ) {
             return {
                 views: [],
-                optionsCollapsed: false
+                optionsCollapsed: false,
+                hasAncillaries: false
             };
         }
 
@@ -483,11 +484,13 @@ const optionsViews = {
         ) {
             return {
                 views: [],
-                optionsCollapsed: false
+                optionsCollapsed: false,
+                hasAncillaries: false
             };
         }
 
         const optionsAndAncillaries = gFragmentCode.splitOptionsAndAncillaries(fragment.options);
+        let hasAncillaries = false;
 
         const views: Children[] = [
 
@@ -496,6 +499,11 @@ const optionsViews = {
                 optionsAndAncillaries.ancillaries
             ),
         ];
+
+        if (views.length > 0) {
+
+            hasAncillaries = true;
+        }
 
         const optionsViewResults = buildOptionsView(
             fragment,
@@ -509,7 +517,8 @@ const optionsViews = {
 
         return {
             views,
-            optionsCollapsed: optionsViewResults?.isCollapsed ?? false
+            optionsCollapsed: optionsViewResults?.isCollapsed ?? false,
+            hasAncillaries
         };
     },
 

@@ -3939,7 +3939,7 @@ const buildAncillariesBoxView = (fragment, ancillaries, fragmentELementID, views
   if (!viewAny.ui) {
     viewAny.ui = {};
   }
-  viewAny.ui.priorIsAncillary = true;
+  viewAny.ui.hasAncillaries = true;
   views.push(view);
 };
 const buildOptionsView = (fragment, options) => {
@@ -4049,7 +4049,7 @@ const buildLinkDiscussionView = (fragment, views) => {
     if (((_a = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _a.isCollapsed) === true) {
       adjustForCollapsedOptions = true;
     }
-    if (((_b = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _b.priorIsAncillary) === true) {
+    if (((_b = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _b.hasAncillaries) === true) {
       adjustForPriorAncillaries = true;
     }
   }
@@ -4122,7 +4122,7 @@ const buildDiscussionView = (fragment, views) => {
     if (((_a = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _a.isCollapsed) === true) {
       adjustForCollapsedOptions = true;
     }
-    if (((_b = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _b.priorIsAncillary) === true) {
+    if (((_b = lastView == null ? void 0 : lastView.ui) == null ? void 0 : _b.hasAncillaries) === true) {
       adjustForPriorAncillaries = true;
     }
   }

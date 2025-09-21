@@ -25,14 +25,14 @@ const buildLinkDiscussionView = (
             adjustForCollapsedOptions = true;
         }
 
-        if (lastView?.ui?.priorIsAncillary === true) {
+        if (lastView?.ui?.hasAncillaries === true) {
 
             adjustForPriorAncillaries = true;
         }
     }
 
     const linkELementID = gFragmentCode.getLinkElementID(fragment.id);
-    const results: { views: Children[], optionsCollapsed: boolean } = optionsViews.buildView(fragment);
+    const results: { views: Children[], optionsCollapsed: boolean, hasAncillaries: boolean } = optionsViews.buildView(fragment);
 
     if (linkELementID === 'nt_lk_frag_t968OJ1wo') {
 
@@ -73,6 +73,18 @@ const buildLinkDiscussionView = (
         }
 
         viewAny.ui.isCollapsed = true;
+    }
+
+    if (results.hasAncillaries === true) {
+
+        const viewAny = view as any;
+
+        if (!viewAny.ui) {
+
+            viewAny.ui = {};
+        }
+
+        viewAny.ui.hasAncillaries = true;
     }
 
     views.push(view);
