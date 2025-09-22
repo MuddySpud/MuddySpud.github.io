@@ -1,0 +1,6 @@
+PROCESS_STEP
+
+### Step Variables
+
+Your configuration results are shown below. These values are captured as step variables from the Docs Assembler guide, making them available for your custom code to process or post to an external service.
+

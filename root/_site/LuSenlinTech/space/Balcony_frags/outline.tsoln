@@ -1,35 +1,35 @@
 {
     "v": "1",
     "r": {
-        "i": "uIgIOS252",
+        "i": "uUQClj1or",
         "n": "s7LPkv17x",
         "c": 0,
         "o": [
             {
-                "i": "uIgIOg27T",
+                "i": "uUQClv0Dn",
                 "n": "s7LPkv0T6",
                 "x": "s7LPr60ZH",
                 "c": 1,
                 "o": [
                     {
-                        "i": "uIgIOv0QK",
+                        "i": "uUQCm82Oc",
                         "n": "s7LPkv1Np",
                         "x": "s7LPoO19j",
                         "c": 2,
                         "o": [
                             {
-                                "i": "uIgIPA0yG",
+                                "i": "uUQCmK1X9",
                                 "n": "s7LPkv0FM",
                                 "x": "s7SMOZ0VN",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "uIgIPA1BC",
+                                        "i": "uUQCmK1IE",
                                         "n": "s7LPkv1H7",
                                         "x": "s7SMXt1dV"
                                     },
                                     {
-                                        "i": "uIgIPd0CG",
+                                        "i": "uUQCn01zS",
                                         "n": "s7LPkv2U6",
                                         "x": "s7SMXt0Xu"
                                     }
@@ -38,12 +38,12 @@
                         ]
                     },
                     {
-                        "i": "uIgIQO207",
+                        "i": "uUQCne2Wz",
                         "n": "s7LPkv1Ye",
                         "x": "s7LPoO04R"
                     },
                     {
-                        "i": "uIgIRH059",
+                        "i": "uUQCoG1ik",
                         "n": "s7LPkv2b0",
                         "x": "s7LPoO2Y3"
                     }
@@ -72,8 +72,6 @@
     "e": 0,
     "mv": {
         "spaceDisplayText": "patio  or balcony",
-        "lowEffortPriceStart": "¥800/month",
-        "moderateEffortPriceStart": "¥600/month",
-        "highEffortPriceStart": "¥400/month"
+        "highWindFrameAnchorsIntroduction": "Simple tool-free anchors are included to secure your tower against the wind without sacrificing its flexible, modular design."
     }
 }

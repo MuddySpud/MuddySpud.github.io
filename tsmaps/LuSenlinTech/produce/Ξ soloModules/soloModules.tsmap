@@ -1,0 +1,97 @@
+{
+    "key": "ua27ri00bb  ",
+    "token": "Solomodules",
+    "name": "SoloModules",
+    "created": "2025-09-22T22:51:33.582Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ soloModules/soloModules.tsmap",
+    "iText": "Link to 'SoloModules'",
+    "___rΩΩt___": {
+        "key": "ua2ArZ02Gk",
+        "nodes": [
+            {
+                "key": "ua2DFv00xA",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "ua2kaX01zV",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "ua7X0u00b1",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "ua8O8S01kq",
+                                        "order": 1,
+                                        "isLeaf": true
+                                    },
+                                    {
+                                        "key": "ua8zHx00Aw",
+                                        "order": 2,
+                                        "option": "more...",
+                                        "isLeaf": true,
+                                        "isAncillary": true
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ua7nda01WP",
+                                "order": 2,
+                                "option": "more...",
+                                "isLeaf": true,
+                                "isAncillary": true
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ua6RO701O1",
+                        "order": 2,
+                        "option": "more...",
+                        "isLeaf": true,
+                        "isAncillary": true
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-ua2ArZ02Gk",
+            "relativePath": "./δ steps/δ-ua2ArZ02Gk.tsstp"
+        },
+        {
+            "key": "δ-ua2DFv00xA",
+            "relativePath": "./δ steps/δ-ua2DFv00xA.tsstp"
+        },
+        {
+            "key": "δ-ua2kaX01zV",
+            "relativePath": "./δ steps/δ-ua2kaX01zV.tsstp"
+        },
+        {
+            "key": "δ-ua6RO701O1",
+            "relativePath": "./δ steps/δ-ua6RO701O1.tsstp"
+        },
+        {
+            "key": "δ-ua7X0u00b1",
+            "relativePath": "./δ steps/δ-ua7X0u00b1.tsstp"
+        },
+        {
+            "key": "δ-ua7nda01WP",
+            "relativePath": "./δ steps/δ-ua7nda01WP.tsstp"
+        },
+        {
+            "key": "δ-ua8O8S01kq",
+            "relativePath": "./δ steps/δ-ua8O8S01kq.tsstp"
+        },
+        {
+            "key": "δ-ua8zHx00Aw",
+            "relativePath": "./δ steps/δ-ua8zHx00Aw.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "ua9AOP01Zn",
+        "editorID": "car_3cfea1e5ab1f42ccbe752ea5bafbf07f",
+        "ticks": 1758583171593
+    }
+}

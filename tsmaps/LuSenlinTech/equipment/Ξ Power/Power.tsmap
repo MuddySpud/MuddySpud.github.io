@@ -1,5 +1,5 @@
 {
-    "key": "s7SMXt0ol",
+    "key": "s7SMXt0ol   ",
     "token": "Power",
     "name": "Power",
     "created": "2025-08-24T17:11:11.124Z",
@@ -20,6 +20,7 @@
     ],
     "___rΩΩt___": {
         "key": "s7SMXt0LX",
+        "variable": "powerSupply",
         "nodes": [
             {
                 "key": "s7SMXt1Q2",
@@ -46,14 +47,15 @@
                             {
                                 "key": "s7SMXt1DT",
                                 "order": 1,
-                                "nodes": [
-                                    {
-                                        "key": "s7SMXt2Ou",
-                                        "order": 1,
-                                        "option": "No power supply - needs battery etc.",
-                                        "exitKey": "s7SMXt0Xu"
-                                    }
-                                ]
+                                "option": "No power supply ",
+                                "exitKey": "s7SMXt0Xu"
+                            },
+                            {
+                                "key": "uTkkaA01M7",
+                                "order": 2,
+                                "option": "HotCarrier™",
+                                "isLeaf": true,
+                                "isAncillary": true
                             }
                         ]
                     }
@@ -79,13 +81,13 @@
             "relativePath": "./δ steps/δ-rpmUDR01oz.tsstp"
         },
         {
-            "key": "δ-s7SMXt1DT",
-            "relativePath": "./δ steps/δ-rpnFwa01HC.tsstp"
+            "key": "δ-uTkkaA01M7",
+            "relativePath": "./δ steps/δ-uTkkaA01M7.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "rpwGbP00jJ",
-        "editorID": "car_978f216b886b4ea5803db4ccc6171f5b",
-        "ticks": 1756068120079
+        "id": "uUIUCP00Iv",
+        "editorID": "car_dc09bb5e60dd43c0bd62794761dbbded",
+        "ticks": 1758496734665
     }
 }

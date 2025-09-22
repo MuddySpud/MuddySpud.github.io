@@ -1,8 +1,95 @@
 {
     "v": "1",
     "r": {
-        "i": "uIgISj05H",
-        "n": "s7LPlH1pM"
+        "i": "uUQCpS2SD",
+        "n": "s7LPlH1pM",
+        "o": [
+            {
+                "i": "uUQCpl26n",
+                "n": "uTm3VX01s9",
+                "c": 0,
+                "o": [
+                    {
+                        "i": "uUQCpl0uG",
+                        "n": "uTmD5l005o",
+                        "x": "s7LPr60ZH",
+                        "o": [
+                            {
+                                "i": "uUQCpr1Oh",
+                                "n": "uTmXw400xq",
+                                "c": 1,
+                                "o": [
+                                    {
+                                        "i": "uUQCpr1Be",
+                                        "n": "uTqFcx011n",
+                                        "x": "s7LPoO19j",
+                                        "o": [
+                                            {
+                                                "i": "uUQCq40r8",
+                                                "n": "uUIYMy00RM",
+                                                "c": 2,
+                                                "o": [
+                                                    {
+                                                        "i": "uUQCq41wF",
+                                                        "n": "uUIlHJ01ew",
+                                                        "x": "s7SMOZ0VN",
+                                                        "c": 3,
+                                                        "o": [
+                                                            {
+                                                                "i": "uUQCq42Di",
+                                                                "n": "uUIwcU01nd",
+                                                                "x": "s7SMXt1dV"
+                                                            },
+                                                            {
+                                                                "i": "uUQCqP1eQ",
+                                                                "n": "uUIwcU00ZX",
+                                                                "x": "s7SMXt0Xu"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "i": "uUQCrB0WD",
+                                        "n": "uTqFcx01v9",
+                                        "x": "s7LPoO04R"
+                                    },
+                                    {
+                                        "i": "uUQCrc028",
+                                        "n": "uTqFcx00Qd",
+                                        "x": "s7LPoO2Y3"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    "e": 0
+    "c": [
+        {
+            "i": "s7LPr60IG",
+            "p": "LuSenlinTech/climate/Climate_frags"
+        },
+        {
+            "i": "s7LPoO1sh",
+            "p": "LuSenlinTech/preferences/ClientEffort_frags"
+        },
+        {
+            "i": "s7SMOZ0AN",
+            "p": "LuSenlinTech/equipment/FrameTower_frags"
+        },
+        {
+            "i": "s7SMXt0ol",
+            "p": "LuSenlinTech/equipment/Power_frags"
+        }
+    ],
+    "e": 0,
+    "mv": {
+        "spaceDisplayText": "garden or small outdoor plot",
+        "highWindFrameAnchorsIntroduction": "Simple tool-free anchors are included to secure your tower against the wind without sacrificing its flexible, modular design."
+    }
 }

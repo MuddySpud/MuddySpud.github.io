@@ -1,0 +1,93 @@
+{
+    "key": "uXW7aS02Uj  ",
+    "token": "Customframe",
+    "name": "CustomFrame",
+    "created": "2025-09-22T12:31:53.345Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/Ξ CustomFrame/CustomFrame.tsmap",
+    "iText": "Link to 'CustomFrame'",
+    "iExits": [
+        {
+            "key": "uXWh9501j7",
+            "text": "Next",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "uXWCZj01hK",
+        "iKey": "s7LPpx1UH",
+        "nodes": [
+            {
+                "key": "uXWbKO00l9",
+                "order": 1,
+                "option": "Solo module",
+                "sharedAssetKey": "uXhTJa00Ab",
+                "iExitKey": "s7LPpx0rd",
+                "nodes": [
+                    {
+                        "key": "uXhV3Z028Y",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "ua15UT000c",
+                                "order": 1,
+                                "option": "Next"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "uXWbKO005u",
+                "order": 2,
+                "option": "Dual modules",
+                "sharedAssetKey": "uXhgYt012k",
+                "iExitKey": "s7LPpx09N",
+                "nodes": [
+                    {
+                        "key": "uXhgHt026C",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "uXhl5J01Wq",
+                                "order": 1,
+                                "option": "Next"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-uXWCZj01hK",
+            "relativePath": "./δ steps/δ-uXWCZj01hK.tsstp"
+        },
+        {
+            "key": "uXhTJa00Ab",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/MonoModuleTitle.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "uXhgYt012k",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/DuoModuleTitle#.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-uXhgHt026C",
+            "relativePath": "./δ steps/δ-uXhgHt026C.tsstp"
+        },
+        {
+            "key": "δ-uXhV3Z028Y",
+            "relativePath": "./δ steps/δ-uXhV3Z028Y.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "ua1AAA01pg",
+        "editorID": "car_2c89e932c60148229b23b95a3ce8a45c",
+        "ticks": 1758581264086
+    }
+}

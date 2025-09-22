@@ -25,6 +25,7 @@
                         "key": "s7SMOZ1be",
                         "order": 1,
                         "option": "One Frame Tower - great for beginners or testing",
+                        "sharedAssetKey": "uXc2cc00YU",
                         "variable": "frame = 1",
                         "nodes": [
                             {
@@ -47,10 +48,12 @@
                         "key": "s7SMOZ0e6",
                         "order": 2,
                         "option": "Two Frame Tower - supports hybrid setups",
+                        "sharedAssetKey": "uXc4kW02GA",
                         "nodes": [
                             {
                                 "key": "s7SMOZ2Yf",
                                 "order": 1,
+                                "sharedAssetKey": "uXe2cT01VH",
                                 "variable": "frame = 1",
                                 "nodes": [
                                     {
@@ -62,6 +65,7 @@
                                                 "key": "s7SMOZ1EP",
                                                 "order": 1,
                                                 "option": "Next",
+                                                "sharedAssetKey": "uXeNbI01iM",
                                                 "iExitKey": "s7SMPh1IZ",
                                                 "variable": "frame = 2",
                                                 "nodes": [
@@ -91,10 +95,12 @@
                         "key": "s7SMOZ2KF",
                         "order": 3,
                         "option": "Four Frame Tower - maximum yield in minimal space",
+                        "sharedAssetKey": "uXc7Qv010a",
                         "nodes": [
                             {
                                 "key": "s7SMOZ0nF",
                                 "order": 1,
+                                "sharedAssetKey": "uXe8Jq00v4",
                                 "variable": "frame = 1",
                                 "nodes": [
                                     {
@@ -106,6 +112,7 @@
                                                 "key": "s7SMOZ0S7",
                                                 "order": 1,
                                                 "option": "Next",
+                                                "sharedAssetKey": "uXeVzi00hj",
                                                 "iExitKey": "s7SMPh1IZ",
                                                 "variable": "frame = 2",
                                                 "nodes": [
@@ -118,6 +125,7 @@
                                                                 "key": "s7SMOZ0ZO",
                                                                 "order": 1,
                                                                 "option": "Next",
+                                                                "sharedAssetKey": "uXegLz00lQ",
                                                                 "iExitKey": "s7SMPh1IZ",
                                                                 "variable": "frame = 3",
                                                                 "nodes": [
@@ -130,6 +138,7 @@
                                                                                 "key": "s7SMOZ1kQ",
                                                                                 "order": 1,
                                                                                 "option": "Next",
+                                                                                "sharedAssetKey": "uXfSxy01zd",
                                                                                 "iExitKey": "s7SMPh1IZ",
                                                                                 "variable": "frame = 4",
                                                                                 "nodes": [
@@ -184,64 +193,68 @@
             "relativePath": "./δ steps/δ-pv7Tr400j0.tsstp"
         },
         {
-            "key": "δ-s7SMOZ1be",
-            "relativePath": "./δ steps/δ-pv7aq201Z4.tsstp"
-        },
-        {
             "key": "δ-s7SMOZ0CT",
             "relativePath": "./δ steps/δ-q6eQvr026U.tsstp"
         },
         {
-            "key": "δ-s7SMOZ0e6",
-            "relativePath": "./δ steps/δ-pva7YY00Fz.tsstp"
+            "key": "uXc4kW02GA",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/TwoFrameTowerIntroduction.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMOZ2Yf",
-            "relativePath": "./δ steps/δ-q6g0hC027l.tsstp"
+            "key": "uXe2cT01VH",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame1Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ047",
             "relativePath": "./δ steps/δ-q7Hysw01m9.tsstp"
         },
         {
-            "key": "δ-s7SMOZ1EP",
-            "relativePath": "./δ steps/δ-q7KmkG02Mw.tsstp"
+            "key": "uXeNbI01iM",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame2Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ2XE",
             "relativePath": "./δ steps/δ-q7NdL200Mc.tsstp"
         },
         {
-            "key": "δ-s7SMOZ2KF",
-            "relativePath": "./δ steps/δ-pva7t100Lv.tsstp"
+            "key": "uXc7Qv010a",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/FourFrameTowerIntroduction.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-s7SMOZ0nF",
-            "relativePath": "./δ steps/δ-q6hS8n006q.tsstp"
+            "key": "uXe8Jq00v4",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame1Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ0y7",
             "relativePath": "./δ steps/δ-q7NZCN020x.tsstp"
         },
         {
-            "key": "δ-s7SMOZ0S7",
-            "relativePath": "./δ steps/δ-q7SpZb02S1.tsstp"
+            "key": "uXeVzi00hj",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame2Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ0uH",
             "relativePath": "./δ steps/δ-q7TKTu01lO.tsstp"
         },
         {
-            "key": "δ-s7SMOZ0ZO",
-            "relativePath": "./δ steps/δ-q7Tgit00Uo.tsstp"
+            "key": "uXegLz00lQ",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame3Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ0Js",
             "relativePath": "./δ steps/δ-q7TkiR019Q.tsstp"
         },
         {
-            "key": "δ-s7SMOZ1kQ",
-            "relativePath": "./δ steps/δ-q7Tv8T01DH.tsstp"
+            "key": "uXfSxy01zd",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame4Title.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-s7SMOZ1TT",
@@ -250,11 +263,16 @@
         {
             "key": "δ-s7SMOZ09D",
             "relativePath": "./δ steps/δ-rqXbd500LJ.tsstp"
+        },
+        {
+            "key": "uXc2cc00YU",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/OneFrameTowerIntroduction.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "tCpvC7026m",
-        "editorID": "me_23017ce612ce4e8caed2e4b26f0b5f86",
-        "ticks": 1757322596379
+        "id": "uXfVmJ00K0",
+        "editorID": "car_f7ca5a081cc245c4960219ea88036988",
+        "ticks": 1758546551287
     }
 }

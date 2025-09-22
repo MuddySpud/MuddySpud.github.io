@@ -1,5 +1,5 @@
 {
-    "key": "s7LPoO1sh",
+    "key": "s7LPoO1sh   ",
     "token": "Clienteffort",
     "name": "ClientEffort",
     "created": "2025-08-04T09:42:53.428Z",
@@ -53,7 +53,7 @@
                                     {
                                         "key": "s7LPoO0o9",
                                         "order": 3,
-                                        "option": "High effort - for hands-on mastery",
+                                        "option": "High effort - for full ownership ",
                                         "exitKey": "s7LPoO2Y3"
                                     }
                                 ]
@@ -140,8 +140,8 @@
         }
     ],
     "___εdit___": {
-        "id": "rvwNrO002D",
-        "editorID": "me_8da81d3faac04d4488bdd604b3a2e1ce",
-        "ticks": 1756156805994
+        "id": "uX9gw600Gh",
+        "editorID": "me_e5e3fa7470ca40e8bb4133d5a3a8ff58",
+        "ticks": 1758538967682
     }
 }
