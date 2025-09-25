@@ -1,65 +1,89 @@
 {
     "v": "1",
     "r": {
-        "i": "uUQCpS2SD",
+        "i": "ulM0rP0bh",
         "n": "s7LPlH1pM",
+        "c": 0,
         "o": [
             {
-                "i": "uUQCpl26n",
-                "n": "uTm3VX01s9",
-                "c": 0,
+                "i": "ulM0ra1en",
+                "n": "uTmD5l005o",
+                "x": "s7LPr60ZH",
+                "c": 1,
                 "o": [
                     {
-                        "i": "uUQCpl0uG",
-                        "n": "uTmD5l005o",
-                        "x": "s7LPr60ZH",
+                        "i": "ulM0ri1Wn",
+                        "n": "uTqFcx011n",
+                        "x": "s7LPoO19j",
+                        "c": 2,
                         "o": [
                             {
-                                "i": "uUQCpr1Oh",
-                                "n": "uTmXw400xq",
-                                "c": 1,
+                                "i": "ulM0rn2Dz",
+                                "n": "uUIlHJ01ew",
+                                "x": "s7SMOZ0VN",
+                                "c": 3,
                                 "o": [
                                     {
-                                        "i": "uUQCpr1Be",
-                                        "n": "uTqFcx011n",
-                                        "x": "s7LPoO19j",
-                                        "o": [
-                                            {
-                                                "i": "uUQCq40r8",
-                                                "n": "uUIYMy00RM",
-                                                "c": 2,
-                                                "o": [
-                                                    {
-                                                        "i": "uUQCq41wF",
-                                                        "n": "uUIlHJ01ew",
-                                                        "x": "s7SMOZ0VN",
-                                                        "c": 3,
-                                                        "o": [
-                                                            {
-                                                                "i": "uUQCq42Di",
-                                                                "n": "uUIwcU01nd",
-                                                                "x": "s7SMXt1dV"
-                                                            },
-                                                            {
-                                                                "i": "uUQCqP1eQ",
-                                                                "n": "uUIwcU00ZX",
-                                                                "x": "s7SMXt0Xu"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "i": "ulM0rn0jP",
+                                        "n": "uUIwcU01nd",
+                                        "x": "s7SMXt1dV"
                                     },
                                     {
-                                        "i": "uUQCrB0WD",
-                                        "n": "uTqFcx01v9",
-                                        "x": "s7LPoO04R"
+                                        "i": "ulM0rz0VG",
+                                        "n": "uUIwcU00ZX",
+                                        "x": "s7SMXt0Xu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "i": "ulM0sT2MN",
+                        "n": "uTqFcx01v9",
+                        "x": "s7LPoO04R",
+                        "c": 2,
+                        "o": [
+                            {
+                                "i": "ulM0sT0Jn",
+                                "n": "uX8nQy01E2",
+                                "x": "s7SMOZ0VN",
+                                "c": 3,
+                                "o": [
+                                    {
+                                        "i": "ulM0sT1ux",
+                                        "n": "uX8qfD0069",
+                                        "x": "s7SMXt1dV"
                                     },
                                     {
-                                        "i": "uUQCrc028",
-                                        "n": "uTqFcx00Qd",
-                                        "x": "s7LPoO2Y3"
+                                        "i": "ulM0sb11j",
+                                        "n": "uX8qfD00kW",
+                                        "x": "s7SMXt0Xu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "i": "ulM0t71yW",
+                        "n": "uTqFcx00Qd",
+                        "x": "s7LPoO2Y3",
+                        "c": 4,
+                        "o": [
+                            {
+                                "i": "ulM0t71pC",
+                                "n": "uXiRX502FW",
+                                "x": "uXcsWB01pQ",
+                                "c": 3,
+                                "o": [
+                                    {
+                                        "i": "ulM0t70tL",
+                                        "n": "uXiZKC00Pb",
+                                        "x": "s7SMXt1dV"
+                                    },
+                                    {
+                                        "i": "ulM0tG1DC",
+                                        "n": "uXiZKC00o0",
+                                        "x": "s7SMXt0Xu"
                                     }
                                 ]
                             }
@@ -85,11 +109,14 @@
         {
             "i": "s7SMXt0ol",
             "p": "_site/LuSenlinTech/equipment/Power_frags"
+        },
+        {
+            "i": "uXEN9G00lv",
+            "p": "_site/LuSenlinTech/equipment/CustomFrameTower_frags"
         }
     ],
     "e": 0,
     "mv": {
-        "spaceDisplayText": "garden or small outdoor plot",
-        "highWindFrameAnchorsIntroduction": "Simple tool-free anchors are included to secure your tower against the wind without sacrificing its flexible, modular design."
+        "spaceDisplayText": "garden or small outdoor plot"
     }
 }

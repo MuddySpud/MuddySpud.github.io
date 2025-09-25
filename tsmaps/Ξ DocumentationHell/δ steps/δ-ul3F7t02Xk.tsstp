@@ -1,0 +1,7 @@
+¬import el from "../../shared/externalLinks"
+
+
+### This Website is <u>One</u> Single Guide
+
+This website isn't just describing Docs Assembler — it is {{el.docsAssemblerExtension_link}}. Every piece of text has been dynamically assembled on the fly from the *DocumentationHell* guide. This is how you create and maintain expansive documentation with unparalleled ease and precision.
+

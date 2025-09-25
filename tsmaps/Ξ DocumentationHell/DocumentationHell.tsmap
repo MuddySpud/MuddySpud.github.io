@@ -15,22 +15,15 @@
                 "order": 1,
                 "nodes": [
                     {
-                        "key": "tEmJZ902RJ",
+                        "key": "ul3F7t02Xk",
                         "order": 1,
-                        "option": "What are Decision Trees?",
-                        "isLeaf": true,
-                        "isAncillary": true
-                    },
-                    {
-                        "key": "u0zrG5006o",
-                        "order": 2,
                         "nodes": [
                             {
-                                "key": "syiEK300IB",
+                                "key": "u0zrG5006o",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "u3wRvJ01ax",
+                                        "key": "ul49g902Ww",
                                         "order": 1,
                                         "nodes": [
                                             {
@@ -40,7 +33,7 @@
                                                     {
                                                         "key": "u4eeh600MG",
                                                         "order": 1,
-                                                        "option": "With the Big Picture",
+                                                        "option": "Explore a Docs Assembler Solution ",
                                                         "nodes": [
                                                             {
                                                                 "key": "sPekVJ00fk",
@@ -161,24 +154,12 @@
             "relativePath": "./δ steps/δ-sYNvVu009z.tsstp"
         },
         {
-            "key": "δ-syiEK300IB",
-            "relativePath": "./δ steps/δ-syiEK300IB.tsstp"
-        },
-        {
-            "key": "δ-tEmJZ902RJ",
-            "relativePath": "./δ steps/δ-tEmJZ902RJ.tsstp"
-        },
-        {
             "key": "δ-tM5xzz00FG",
             "relativePath": "./δ steps/δ-tM5xzz00FG.tsstp"
         },
         {
             "key": "δ-u0zrG5006o",
             "relativePath": "./δ steps/δ-u0zrG5006o.tsstp"
-        },
-        {
-            "key": "δ-u3wRvJ01ax",
-            "relativePath": "./δ steps/δ-u3wRvJ01ax.tsstp"
         },
         {
             "key": "δ-u4eeh600MG",
@@ -227,11 +208,19 @@
         {
             "key": "δ-u5ZOcJ01h6",
             "relativePath": "./δ steps/δ-u5ZOcJ01h6.tsstp"
+        },
+        {
+            "key": "δ-ul3F7t02Xk",
+            "relativePath": "./δ steps/δ-ul3F7t02Xk.tsstp"
+        },
+        {
+            "key": "δ-ul49g902Ww",
+            "relativePath": "./δ steps/δ-ul49g902Ww.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "u6yB2200Cr",
-        "editorID": "me_10bedd873d2646d1953d450cbc0bc05d",
-        "ticks": 1758152038698
+        "id": "ulPPhY00v6",
+        "editorID": "me_02c4452c9dd14f82b33a7e49617bd3ec",
+        "ticks": 1758749583384
     }
 }
