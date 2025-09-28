@@ -6,20 +6,20 @@
 ¬logo_outline_url: ../assets/images/netOfTreesIconOutline.png
 ¬logo_outline_image: [<img class="nt-fr-logo" src="{{logo_outline_url}}">]({{logo_outline_url}})
 
-¬thisWebsiteIsOneGuide_url: ../assets/images/ThisWebsiteIsOneGuide.png
-¬thisWebsiteIsOneGuide_image: [<img class="nt-fr-big-image" src="{{thisWebsiteIsOneGuide_url}}">]({{thisWebsiteIsOneGuide_url}})
+¬howItWorks_url: ../assets/images/HowItWorks.png
+¬howItWorks_image: [<img class="nt-fr-big-image" src="{{howItWorks_url}}">]({{howItWorks_url}})
 
 ¬showThisStepAncillary_url: ../assets/images/ShowThisStepAncillary.png
 ¬showThisStepAncillary_image: [<img class="nt-fr-mid-image" src="{{showThisStepAncillary_url}}">]({{showThisStepAncillary_url}})
 
-¬thisWebsiteIsOneGuideVariable_url: ../assets/images/ThisWebsiteIsOneGuideVariable.png
-¬thisWebsiteIsOneGuideVariable_image: [<img class="nt-fr-mid-image" src="{{thisWebsiteIsOneGuideVariable_url}}">]({{thisWebsiteIsOneGuideVariable_url}})
+¬howItWorksVariable_url: ../assets/images/HowItWorksVariable.png
+¬howItWorksVariable_image: [<img class="nt-fr-mid-image" src="{{howItWorksVariable_url}}">]({{howItWorksVariable_url}})
 
-¬thisWebsiteIsOneGuideVariableDefinition_url: ../assets/images/ThisWebsiteIsOneGuideVariableDefinition.png
-¬thisWebsiteIsOneGuideVariableDefinition_image: [<img class="nt-fr-mid-image" src="{{thisWebsiteIsOneGuideVariableDefinition_url}}">]({{thisWebsiteIsOneGuideVariableDefinition_url}})
+¬howItWorksVariableDefinition_url: ../assets/images/HowItWorksVariableDefinition.png
+¬howItWorksVariableDefinition_image: [<img class="nt-fr-mid-image" src="{{howItWorksVariableDefinition_url}}">]({{howItWorksVariableDefinition_url}})
 
-¬thisWebsiteIsOneGuideImageHtml_url: ../assets/images/ThisWebsiteIsOneGuideImageHtml.png
-¬thisWebsiteIsOneGuideImageHtml_image: [<img class="nt-fr-big-image" src="{{thisWebsiteIsOneGuideImageHtml_url}}">]({{thisWebsiteIsOneGuideImageHtml_url}})
+¬howItWorksImageHtml_url: ../assets/images/HowItWorksImageHtml.png
+¬howItWorksImageHtml_image: [<img class="nt-fr-big-image" src="{{howItWorksImageHtml_url}}">]({{howItWorksImageHtml_url}})
 
 ¬imageLinksFileImport_url: ../assets/images/ImageLinksFileImport.png
 ¬imageLinksFileImport_image: [<img class="nt-fr-mid-image" src="{{imageLinksFileImport_url}}">]({{imageLinksFileImport_url}})

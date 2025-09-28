@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Garden_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"v6GpTU0KX","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"v6GpTU0KX","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"v6GpTU2Nj","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Garden.tsmap","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"v6GpTg1SI","option":"Next","iExitKey":"s7LPr60ZH","order":1}],"iKey":"s7LPr60IG"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"v6V4qt0RB","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"v6V4qt0RB","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"v6V4qt2Yd","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Garden.tsmap","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"v6V4r60xB","option":"Next","iExitKey":"s7LPr60ZH","order":1}],"iKey":"s7LPr60IG"}} -->
 
 ## Garden or small outdoor plot
 

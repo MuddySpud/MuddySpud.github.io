@@ -11,12 +11,12 @@ The step **"This Website is One Guide"** has an ancillary option **"Show this st
 Notice line 8.  
 It is a **variable**: 
 
-{{il.thisWebsiteIsOneGuideVariable_image}}
+{{il.howItWorksVariable_image}}
 
 On publish, a variable is automatically replaced with the variable's value.  
 In this case it is markdown for an image link:
 
-{{il.thisWebsiteIsOneGuideImageHtml_image}}
+{{il.howItWorksImageHtml_image}}
 
 ##### This approach provides two key advantages:
 

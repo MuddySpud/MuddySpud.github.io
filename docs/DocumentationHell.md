@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"v6GpDr1iD","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"v6GpDr1iD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"v6GpDr2Wu","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"v6GpF41wI","option":"Explore a Docs Assembler Solution ","order":1},{"id":"v6GpFH2Y4","option":"The Technical Deep Dive","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"v6V4bQ0jm","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"v6V4bQ0jm","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"v6V4bQ06W","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"v6V4cf09R","option":"Explore a Docs Assembler Solution ","order":1},{"id":"v6V4cs0Gl","option":"The Technical Deep Dive","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 
@@ -30,7 +30,7 @@ The traditional solution is to rely on manuals. But they are incapable of captur
 It’s not just about writing documentation — it’s about maintaining it, a task that becomes a source of dread that teams actively avoid until an update is urgently needed. Why?"
 
 *   **Duplicated content** - that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate or current.
-*   **Error-prone updates:** - you make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
+*   **Error-prone updates** - you make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
 *   **Unmanageable docs** – resulting from the struggle to document similar-but-diverging scenarios without creating redundancy and contradictions.
 
 ### Scaling Clarity, Not Complexity

@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/v6V4eI1NS.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"v6V4eI1NS","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"v6V4bQ06W","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"v6V4dQ0Uv","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"v6V4eW2Qo","order":1},{"id":"v6V4ej2KA","option":"Show this step...","order":2,"isAncillary":true}]} -->
+
+## Explore Under the Hood
+
+This section, 'This Website is <u>One</u> Single Guide', is a single step from the documentation's opening map. To see the mechanics behind it, click the ancillary button in the right margin labeled 'Show this step...'.
+
+An ancillary is how [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) keeps guides clean. It lets you expand detailed information—like source code or context—on demand, keeping the main path focused for readers who don't need the extra detail.
+
+Clicking it opens a panel showing a screenshot of this step as it's built in [Visual Studio Code](https://code.visualstudio.com/). From there, use the ancillary buttons within the panel to drill down and explore the interconnected structure for yourself.
+
