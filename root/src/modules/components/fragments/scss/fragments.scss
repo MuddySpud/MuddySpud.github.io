@@ -1,10 +1,4 @@
---- 
-
-
----
-
-
-.dev{
+--- --- .dev {
     display: block;
 }
 
@@ -18,6 +12,11 @@
     --border-color: #98bb87;
     --border-color-collapsed: #98bb87;
     --button-color-collapsed: #98bb87;
+}
+
+.sidebar-about p {
+    margin: 0;
+    font-size: 16px;
 }
 
 #treeSolve {

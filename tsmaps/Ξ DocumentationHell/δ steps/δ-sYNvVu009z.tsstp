@@ -3,13 +3,13 @@
 
 # Escape Documentation Hell
 
-{{el.docsAssemblerExtension_link}} enables you to build documentation like Lego. 
+This website is a live example of {{el.docsAssemblerExtension_link}}. As you read, you're experiencing a guide that is being dynamically assembled.
 
-Capture complex thinking, simplify intricate systems into a single source of truth. A unified, validated, maintainable decision system that can guide an entire organisation, even through a crisis. It provides a conversational interface, answering complex questions with precise authorised guidance, grounded in your company’s verifiable knowledge. Which can be used directly, or referenced by AI Agents to improve customer support.
+With {{el.docsAssemblerExtension_link}}, you can capture complex thinking, simplify intricate systems into a single source of truth. A dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving complex scenarios — all grounded in your company's verifiable knowledge. Paths can be used directly or referenced by AI Agents to improve customer support.
+
+The 'Vertical Kitchen Garden Planner' demo below will show you exactly how this works in practice.
 
 This stands in stark contrast to the current reality for many organizations.
 
-Now, scale the problem to an industrial level. A company building complex medical machines might depend on a handful of experts. This creates a fragile system: expensive training programs and the constant risk that a single retirement could trigger a crisis.
-
-The traditional solution is to rely on ‘flat’ manuals. These cannot record the complex, branching, decision-making expertise needed, becoming a single point of failure for the entire organization. This is documentation hell - where critical knowledge is scattered, or worse, unrecorded, making support difficult, leaving customers feeling abandoned.
+The traditional solution is to rely on manuals. But they are incapable of capturing the branching decisions that define expert reasoning. This forces companies to rely on expensive, person-to-person training, creating a fragile system that hinges on a few key people. The result is an organization perpetually one retirement away from a crisis: a true documentation hell where essential knowledge is unrecorded, scattered, and ultimately unusable when it matters most.
 
