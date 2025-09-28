@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"v2spZM1wm","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"v2spZM1wm","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"v2spZM1Yq","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"v2spaJ1QQ","option":"Explore a Docs Assembler Solution ","order":1},{"id":"v2spaX0co","option":"The Technical Deep Dive","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"v6GpDr1iD","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"v6GpDr1iD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"v6GpDr2Wu","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"v6GpF41wI","option":"Explore a Docs Assembler Solution ","order":1},{"id":"v6GpFH2Y4","option":"The Technical Deep Dive","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application — to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm — [HAL Robotics](https://hal-robotics.com).*
 
@@ -17,7 +17,7 @@ fragsFolderPath: DocumentationHell_frags
 
 This website is a live example of [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler). As you read, you're experiencing a guide that is being dynamically assembled.
 
-With [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler), you can capture complex thinking, simplify intricate systems into a single source of truth. A dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving complex scenarios. It's all grounded in your company's verifiable knowledge. Paths can be used directly or referenced by AI Agents to improve customer support.
+With [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler), you can capture complex thinking, simplify intricate systems into a single source of truth. A dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving complex scenarios — all grounded in your company's verifiable knowledge. Paths can be used directly or referenced by AI Agents to improve customer support.
 
 The 'Vertical Kitchen Garden Planner' demo below will show you exactly how this works in practice.
 
@@ -27,11 +27,11 @@ The traditional solution is to rely on manuals. But they are incapable of captur
 
 ### The Cycle of Dread and Delay
 
-It’s not just about writing documentation — it’s about maintaining it, a task that becomes a source of dread and is easy to put off until an update is urgently needed:
+It’s not just about writing documentation — it’s about maintaining it, a task that becomes a source of dread that teams actively avoid until an update is urgently needed. Why?"
 
 *   **Duplicated content** - that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate or current.
 *   **Error-prone updates:** - you make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
-*   **Unmanageable docs** - that collapse under their own weight when you try to document complex, real-world scenarios.
+*   **Unmanageable docs** – resulting from the struggle to document similar-but-diverging scenarios without creating redundancy and contradictions.
 
 ### Scaling Clarity, Not Complexity
 

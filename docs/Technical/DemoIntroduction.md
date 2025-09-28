@@ -7,7 +7,7 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"v2spfG12G","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"v2spfG12G","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"v2spfG0Kw","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"v2spfQ0sS","order":1},{"id":"v2spfo0HU","option":"Why a Vertical Kitchen Garden?","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"v6GpKZ0uZ","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"v6GpKZ0uZ","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"v6GpKZ0pg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"v6GpKm1tZ","order":1},{"id":"v6GpLN0b8","option":"Why a Vertical Kitchen Garden?","order":2,"isAncillary":true}]}} -->
 
 ### See It in Action: A Complex Product Demo
 

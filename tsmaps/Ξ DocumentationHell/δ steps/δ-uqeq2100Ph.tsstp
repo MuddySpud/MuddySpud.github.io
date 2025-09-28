@@ -3,7 +3,9 @@
 
 ### The Software Engineering Solution for Docs
 
-This is the core idea behind {{el.docsAssemblerExtension_link}}. It applies the **Single Source of Truth** principle — the same solution that revolutionized software engineering — directly to your documentation, for both simple text and complex, decision-tree-like scenarios.
+In short, maintainability is about building for change. It's the difference between creating a fragile monument that crumbles at the first edit and creating a resilient, living system that evolves effortlessly with your needs.
+
+This principle of maintainability through a **Single Source of Truth** is the core idea behind {{el.docsAssemblerExtension_link}}. It applies this proven software engineering solution directly to your documentation, for both simple text and complex, decision-tree-like scenarios.
 
 {{el.docsAssemblerExtension_link}} allows you to create a living system where:
 
