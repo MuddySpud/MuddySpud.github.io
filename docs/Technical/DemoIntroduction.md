@@ -7,9 +7,11 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"v6V4hm04u","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"v6V4hm04u","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"v6V4hm0aV","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"v6V4hs0vk","order":1},{"id":"v6V4ih26l","option":"Why a Vertical Kitchen Garden?","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"vcWEGZ0Vw","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"vcWEGZ0Vw","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"vcWEGZ0NB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"vcWEGf0nl","order":1},{"id":"vcWEH72Ws","option":"The Features You'll See...","order":2,"isAncillary":true}]}} -->
 
-### See It in Action: A Complex Product Demo
+## Explore a Docs Assembler Solution
 
-This is where theory meets practice. To showcase the power of treating docs like code, we've built a fully interactive product configurator. It is for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
+To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
+
+We needed a demo that was technically complex yet universally relatable. A robotics diagnostic guide, while highly complex, is impenetrable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
 

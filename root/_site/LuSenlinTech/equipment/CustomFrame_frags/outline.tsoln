@@ -1,43 +1,33 @@
 {
     "v": "1",
     "r": {
-        "i": "v6V5F42UE",
+        "i": "vcWElj0kc",
         "n": "uXWCZj01hK",
         "c": 0,
         "o": [
             {
-                "i": "v6V5F40Sn",
+                "i": "vcWElj1Pd",
                 "n": "uXWbKO00l9",
                 "x": "s7LPpx0rd",
+                "c": 1,
                 "o": [
                     {
-                        "i": "v6V5F40tv",
-                        "n": "uXhV3Z028Y",
-                        "o": [
-                            {
-                                "i": "v6V5FU2H9",
-                                "n": "ua15UT000c",
-                                "_x": "uXWh9501j7"
-                            }
-                        ]
+                        "i": "vcWElr0EU",
+                        "n": "vcL9Xj02aK",
+                        "x": "vcIsGq01w8",
+                        "_x": "uXWh9501j7"
                     }
                 ]
             },
             {
-                "i": "v6V5Fz1qi",
+                "i": "vcWEmD27R",
                 "n": "uXWbKO005u",
                 "x": "s7LPpx09N",
                 "o": [
                     {
-                        "i": "v6V5Fz1GZ",
-                        "n": "uXhgHt026C",
-                        "o": [
-                            {
-                                "i": "v6V5G50zR",
-                                "n": "uXhl5J01Wq",
-                                "_x": "uXWh9501j7"
-                            }
-                        ]
+                        "i": "vcWEmM1aZ",
+                        "n": "uXhl5J01Wq",
+                        "_x": "uXWh9501j7"
                     }
                 ]
             }
@@ -47,6 +37,10 @@
         {
             "i": "s7LPpx1UH",
             "p": "_site/LuSenlinTech/equipment/FrameModules_frags"
+        },
+        {
+            "i": "ua27ri00bb",
+            "p": "_site/LuSenlinTech/produce/SoloModules_frags"
         }
     ],
     "e": 1

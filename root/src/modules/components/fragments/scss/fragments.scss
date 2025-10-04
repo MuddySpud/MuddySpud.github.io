@@ -14,9 +14,16 @@
     --button-color-collapsed: #98bb87;
 }
 
-.sidebar-about p {
-    margin: 0;
-    font-size: 16px;
+.sidebar-about {
+    
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin: 0;
+        font-size: 16px;
+    }
 }
 
 #treeSolve {

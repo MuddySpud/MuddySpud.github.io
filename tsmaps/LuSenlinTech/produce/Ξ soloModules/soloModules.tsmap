@@ -6,6 +6,13 @@
     "list": true,
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ soloModules/soloModules.tsmap",
     "iText": "Link to 'SoloModules'",
+    "iExits": [
+        {
+            "key": "vcIsGq01w8",
+            "text": "Next 2",
+            "order": 1
+        }
+    ],
     "___rΩΩt___": {
         "key": "ua2ArZ02Gk",
         "nodes": [
@@ -24,7 +31,151 @@
                                     {
                                         "key": "ua8O8S01kq",
                                         "order": 1,
-                                        "isLeaf": true
+                                        "nodes": [
+                                            {
+                                                "key": "vaMmne00FB",
+                                                "order": 1,
+                                                "nodes": [
+                                                    {
+                                                        "key": "vaP8bA023N",
+                                                        "order": 1,
+                                                        "nodes": [
+                                                            {
+                                                                "key": "vaQX9600Vc",
+                                                                "order": 1,
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "vaRtYB00iH",
+                                                                        "order": 1,
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "vaS0Nm01At",
+                                                                                "order": 1,
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "vaSCoj0112",
+                                                                                        "order": 1,
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "vcBj9c02Lh",
+                                                                                                "order": 1,
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "vcCubf02G3",
+                                                                                                        "order": 1,
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "vcG3SE01d5",
+                                                                                                                "order": 1,
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "vcGzBA026b",
+                                                                                                                        "order": 1,
+                                                                                                                        "nodes": [
+                                                                                                                            {
+                                                                                                                                "key": "vcH5Zc00ny",
+                                                                                                                                "order": 1,
+                                                                                                                                "option": "Next 1",
+                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "key": "vcIEPU004M",
+                                                                                                                                "order": 2,
+                                                                                                                                "option": "more...",
+                                                                                                                                "isLeaf": true,
+                                                                                                                                "isAncillary": true
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "key": "vcH1JH01oi",
+                                                                                                                        "order": 2,
+                                                                                                                        "option": "more...",
+                                                                                                                        "isLeaf": true,
+                                                                                                                        "isAncillary": true
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "key": "vcGKMd00wQ",
+                                                                                                                "order": 2,
+                                                                                                                "option": "more...",
+                                                                                                                "isLeaf": true,
+                                                                                                                "isAncillary": true
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "key": "vcF5nX02Jo",
+                                                                                                        "order": 2,
+                                                                                                        "option": "more...",
+                                                                                                        "isLeaf": true,
+                                                                                                        "isAncillary": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "key": "vcBq7p023F",
+                                                                                                "order": 2,
+                                                                                                "option": "more...",
+                                                                                                "isLeaf": true,
+                                                                                                "isAncillary": true
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "key": "vcANA002VG",
+                                                                                        "order": 2,
+                                                                                        "option": "more...",
+                                                                                        "isLeaf": true,
+                                                                                        "isAncillary": true
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "key": "vaS71w02T8",
+                                                                                "order": 2,
+                                                                                "option": "more...",
+                                                                                "isLeaf": true,
+                                                                                "isAncillary": true
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "key": "vaRvIt01PJ",
+                                                                        "order": 2,
+                                                                        "option": "more...",
+                                                                        "isLeaf": true,
+                                                                        "isAncillary": true
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "key": "vaRMtv00yX",
+                                                                "order": 2,
+                                                                "option": "more...",
+                                                                "isLeaf": true,
+                                                                "isAncillary": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "vaPX9701Sa",
+                                                        "order": 2,
+                                                        "option": "more...",
+                                                        "isLeaf": true,
+                                                        "isAncillary": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "vaNILe01NL",
+                                                "order": 2,
+                                                "option": "more...",
+                                                "isLeaf": true,
+                                                "isAncillary": true
+                                            }
+                                        ]
                                     },
                                     {
                                         "key": "ua8zHx00Aw",
@@ -87,11 +238,95 @@
         {
             "key": "δ-ua8zHx00Aw",
             "relativePath": "./δ steps/δ-ua8zHx00Aw.tsstp"
+        },
+        {
+            "key": "δ-vaMmne00FB",
+            "relativePath": "./δ steps/δ-vaMmne00FB.tsstp"
+        },
+        {
+            "key": "δ-vaNILe01NL",
+            "relativePath": "./δ steps/δ-vaNILe01NL.tsstp"
+        },
+        {
+            "key": "δ-vaPX9701Sa",
+            "relativePath": "./δ steps/δ-vaPX9701Sa.tsstp"
+        },
+        {
+            "key": "δ-vaP8bA023N",
+            "relativePath": "./δ steps/δ-vaP8bA023N.tsstp"
+        },
+        {
+            "key": "δ-vaQX9600Vc",
+            "relativePath": "./δ steps/δ-vaQX9600Vc.tsstp"
+        },
+        {
+            "key": "δ-vaRMtv00yX",
+            "relativePath": "./δ steps/δ-vaRMtv00yX.tsstp"
+        },
+        {
+            "key": "δ-vaRtYB00iH",
+            "relativePath": "./δ steps/δ-vaRtYB00iH.tsstp"
+        },
+        {
+            "key": "δ-vaRvIt01PJ",
+            "relativePath": "./δ steps/δ-vaRvIt01PJ.tsstp"
+        },
+        {
+            "key": "δ-vaS0Nm01At",
+            "relativePath": "./δ steps/δ-vaS0Nm01At.tsstp"
+        },
+        {
+            "key": "δ-vaS71w02T8",
+            "relativePath": "./δ steps/δ-vaS71w02T8.tsstp"
+        },
+        {
+            "key": "δ-vaSCoj0112",
+            "relativePath": "./δ steps/δ-vaSCoj0112.tsstp"
+        },
+        {
+            "key": "δ-vcANA002VG",
+            "relativePath": "./δ steps/δ-vcANA002VG.tsstp"
+        },
+        {
+            "key": "δ-vcBj9c02Lh",
+            "relativePath": "./δ steps/δ-vcBj9c02Lh.tsstp"
+        },
+        {
+            "key": "δ-vcBq7p023F",
+            "relativePath": "./δ steps/δ-vcBq7p023F.tsstp"
+        },
+        {
+            "key": "δ-vcF5nX02Jo",
+            "relativePath": "./δ steps/δ-vcF5nX02Jo.tsstp"
+        },
+        {
+            "key": "δ-vcCubf02G3",
+            "relativePath": "./δ steps/δ-vcCubf02G3.tsstp"
+        },
+        {
+            "key": "δ-vcG3SE01d5",
+            "relativePath": "./δ steps/δ-vcG3SE01d5.tsstp"
+        },
+        {
+            "key": "δ-vcGKMd00wQ",
+            "relativePath": "./δ steps/δ-vcGKMd00wQ.tsstp"
+        },
+        {
+            "key": "δ-vcGzBA026b",
+            "relativePath": "./δ steps/δ-vcGzBA026b.tsstp"
+        },
+        {
+            "key": "δ-vcH1JH01oi",
+            "relativePath": "./δ steps/δ-vcH1JH01oi.tsstp"
+        },
+        {
+            "key": "δ-vcIEPU004M",
+            "relativePath": "./δ steps/δ-vcIEPU004M.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "ua9AOP01Zn",
-        "editorID": "car_3cfea1e5ab1f42ccbe752ea5bafbf07f",
-        "ticks": 1758583171593
+        "id": "vcVL0Q00uR",
+        "editorID": "me_cb43b55557414a4f88a29161bfa7b184",
+        "ticks": 1759534141110
     }
 }

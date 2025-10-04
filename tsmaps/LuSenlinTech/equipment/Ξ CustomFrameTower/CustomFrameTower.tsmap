@@ -25,7 +25,6 @@
                     {
                         "key": "uXWuVJ00i4",
                         "order": 1,
-                        "option": "Next",
                         "iKey": "uXW7aS02Uj",
                         "nodes": [
                             {
@@ -121,7 +120,6 @@
                                                             {
                                                                 "key": "uXf5b400yO",
                                                                 "order": 1,
-                                                                "option": "Next",
                                                                 "iKey": "uXW7aS02Uj",
                                                                 "nodes": [
                                                                     {
@@ -154,13 +152,11 @@
                     {
                         "key": "uXbvw9008t",
                         "order": 1,
-                        "option": "Next",
                         "sharedAssetKey": "uXeEnl02Zw",
                         "nodes": [
                             {
                                 "key": "uXdQZS01SC",
                                 "order": 1,
-                                "option": "Next",
                                 "iKey": "uXW7aS02Uj",
                                 "nodes": [
                                     {
@@ -173,7 +169,6 @@
                                             {
                                                 "key": "uXf7uT01BN",
                                                 "order": 1,
-                                                "option": "Next",
                                                 "iKey": "uXW7aS02Uj",
                                                 "nodes": [
                                                     {
@@ -186,7 +181,6 @@
                                                             {
                                                                 "key": "uXfGbJ01Ec",
                                                                 "order": 1,
-                                                                "option": "Next",
                                                                 "iKey": "uXW7aS02Uj",
                                                                 "nodes": [
                                                                     {
@@ -199,7 +193,6 @@
                                                                             {
                                                                                 "key": "uXfjDX00m4",
                                                                                 "order": 1,
-                                                                                "option": "Next",
                                                                                 "iKey": "uXW7aS02Uj",
                                                                                 "nodes": [
                                                                                     {
@@ -340,8 +333,8 @@
         }
     ],
     "___εdit___": {
-        "id": "uXghQq01t3",
-        "editorID": "car_3ffe177281ab4c6baab706707e9a8bfd",
-        "ticks": 1758546834412
+        "id": "vcSRC30182",
+        "editorID": "car_93675aa7a23d4dd6b2ca11d30edb7517",
+        "ticks": 1759533449911
     }
 }

@@ -8,9 +8,9 @@
 
 ##### Validation
 
-- **Import statements"" - checks that the statement is well formed and the file path points to an existing file and the file is free of errors.
-- **Variable references"" - checks that it is well formed and the alias points to a valid import statement, and the variable exists within that imported file.
-- **Variable definitions"" - cchecks it is well-formed and if it is relative url is checks the file exists.
+- **Import statements** - checks that the statement is well formed and the file path points to an existing file and the file is free of errors.
+- **Variable references** - checks that it is well formed and the alias points to a valid import statement, and the variable exists within that imported file.
+- **Variable definitions** - checks it is well-formed and if it is relative url is checks the file exists (and on publish moves the file to the publish folder).
 
 ##### Intellisense
 
@@ -36,3 +36,4 @@ The element below tries to reference the 'il.variable-does-not-exist'. Since thi
 
 This is a simple but powerful example of how {{el.docsAssemblerExtension_link}} applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.
 
+It brings true software tooling to docs, with IntelliSense for variables, full validation before publish, and automatic handling of relative URLs that are defined as variables. This ensures any local files referenced by these URL variables are automatically discovered and copied to the publish folder, preventing broken links and ensuring robustness.

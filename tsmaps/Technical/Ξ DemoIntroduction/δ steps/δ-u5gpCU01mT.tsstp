@@ -1,7 +1,6 @@
 ¬import el from "../../../shared/externalLinks"
 
 
-**Dive into the guide below.** As you configure a garden — choosing frame size, modules, and crops — observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic. Each option spawns a new branch, and with every level you progress, those branches increase exponentially.
+**Dive into the guide below.** As you configure a garden — selecting a frame size, modules, and crops — observe how {{el.docsAssemblerExtension_link}} manages the intricate decision logic. Each choice spawns a new branch, and with every selection, the potential paths grow exponentially. Without a **Single Source of Truth**, this complexity creates a mess. But with it, updates are effortless and instantly consistent.
 
-Without a '**Single Source of Truth**', this complexity would create an unmanageable mess. Yet here, updates are effortless and consistent across the entire knowledge base.
-
+In short, this demo isn't about gardens; it's a practical showcase of how {{el.docsAssemblerExtension_link}} masters the intricate decision-making inherent in any complex product, service, or operational procedure.

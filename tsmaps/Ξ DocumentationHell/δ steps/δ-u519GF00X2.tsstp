@@ -2,7 +2,7 @@
 ¬import tw from "../_shared/ThisWebsiteIsASingleGuide"
 
 
-## Explore Under the Hood
+### Explore Under the Hood
 
 This section, '{{tw.howItWorksTitle}}', is a single step from the documentation's opening map. To see the mechanics behind it, click the ancillary button below-right labeled 'Show this step...'.
 
