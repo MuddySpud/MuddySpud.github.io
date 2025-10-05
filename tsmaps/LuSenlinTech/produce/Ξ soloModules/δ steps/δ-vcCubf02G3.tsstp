@@ -1,8 +1,5 @@
-##### CrustaBay  
-*solo* 
+¬import smt from "../Ω variables/soloModulesTable"
 
-An 18 L biofloc tank nurtures shrimp or crayfish with near-zero water exchange. A rotating drum filter clears solids while a PrecisionHeat™ water jacket maintains tropical warmth.
 
-###### Crop Categories & Cultivars  
-Crustaceans – all 10 Balcony varieties  
-
+{{smt.crustaBayRow}}
+{: .nt-fr-columns}

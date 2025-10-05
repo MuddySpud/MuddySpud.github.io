@@ -233,12 +233,25 @@ const buildExpandedOptionsBoxView = (
         return;
     }
 
+    let classes = "nt-fr-fragment-box";
+
+    if (fragment.classes) {
+
+        if (fragment.classes) {
+
+            for (const className of fragment.classes) {
+
+                classes = `${classes} nt-ur-${className}`
+            }
+        }
+    }
+
     views.push(
 
         h("div",
             {
                 id: `${fragmentELementID}_eo`,
-                class: "nt-fr-fragment-box"
+                class: `${classes}`
             },
             [
                 optionsView.view
@@ -275,12 +288,25 @@ const buildCollapsedOptionsBoxView = (
 
     const optionView = buildCollapsedOptionsView(fragment);
 
+    let classes = "nt-fr-fragment-box";
+
+    if (fragment.classes) {
+
+        if (fragment.classes) {
+
+            for (const className of fragment.classes) {
+
+                classes = `${classes} nt-ur-${className}`
+            }
+        }
+    }
+
     const view =
 
         h("div",
             {
                 id: `${fragmentELementID}_co`,
-                class: "nt-fr-fragment-box"
+                class: `${classes}`
             },
             [
                 optionView
@@ -370,12 +396,25 @@ const buildAncillariesBoxView = (
         return;
     }
 
+    let classes = "nt-fr-fragment-box";
+
+    if (fragment.classes) {
+
+        if (fragment.classes) {
+
+            for (const className of fragment.classes) {
+
+                classes = `${classes} nt-ur-${className}`
+            }
+        }
+    }
+
     const view =
 
         h("div",
             {
                 id: `${fragmentELementID}_a`,
-                class: "nt-fr-fragment-box"
+                class: `${classes}`
             },
             [
                 ancillariesView

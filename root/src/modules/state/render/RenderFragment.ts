@@ -33,6 +33,7 @@ export default class RenderFragment implements IRenderFragment {
     public isLeaf: boolean = false;
     public options: Array<IRenderFragment> = [];
     public variable: Array<[string] | [string, string]> = [];
+    public classes: Array<string> = [];
 
     public option: string = '';
     public isAncillary: boolean = false;

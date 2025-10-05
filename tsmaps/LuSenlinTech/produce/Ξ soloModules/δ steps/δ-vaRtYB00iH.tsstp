@@ -1,8 +1,5 @@
-##### MycoNest  
-*solo / duo* 
+¬import smt from "../Ω variables/soloModulesTable"
 
-A dark, humidity-controlled box with hourly 0.5 ppm O₂ pulses mimics forest-floor shocks, fruiting gourmet mushrooms fast. Pop-out sleeves swap blocks in seconds.
 
-###### Crop Categories & Cultivars  
-Mushrooms & culinary fungi – all 15 Balcony strains  
-
+{{smt.mycoNestRow}}
+{: .nt-fr-columns}

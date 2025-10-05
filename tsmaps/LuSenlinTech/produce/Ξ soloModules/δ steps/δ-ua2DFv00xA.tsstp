@@ -1,7 +1,5 @@
-##### AeroHerb  
-*solo*
+¬import smt from "../Ω variables/soloModulesTable"
 
-A compact aeroponic cube tuned for oil-rich herbs. Roots hang in a cool nutrient fog under NanoSunBeam™ LEDs that spike blue wavelengths to boost terpene density, while PureLight™ glazing holds canopy temperature steady.
 
-###### Crop Categories & Cultivars  
-Aromatic herbs – all 15 varieties  
+{{smt.aeroHerbRow}}
+{: .nt-fr-columns}

@@ -19,58 +19,72 @@
             {
                 "key": "ua2DFv00xA",
                 "order": 1,
+                "class": "split-table",
                 "nodes": [
                     {
                         "key": "ua2kaX01zV",
                         "order": 1,
+                        "class": "split-table",
                         "nodes": [
                             {
                                 "key": "ua7X0u00b1",
                                 "order": 1,
+                                "class": "split-table",
                                 "nodes": [
                                     {
                                         "key": "ua8O8S01kq",
                                         "order": 1,
+                                        "class": "split-table",
                                         "nodes": [
                                             {
                                                 "key": "vaMmne00FB",
                                                 "order": 1,
+                                                "class": "split-table",
                                                 "nodes": [
                                                     {
                                                         "key": "vaP8bA023N",
                                                         "order": 1,
+                                                        "class": "split-table",
                                                         "nodes": [
                                                             {
                                                                 "key": "vaQX9600Vc",
                                                                 "order": 1,
+                                                                "class": "split-table",
                                                                 "nodes": [
                                                                     {
                                                                         "key": "vaRtYB00iH",
                                                                         "order": 1,
+                                                                        "class": "split-table",
                                                                         "nodes": [
                                                                             {
                                                                                 "key": "vaS0Nm01At",
                                                                                 "order": 1,
+                                                                                "class": "split-table",
                                                                                 "nodes": [
                                                                                     {
                                                                                         "key": "vaSCoj0112",
                                                                                         "order": 1,
+                                                                                        "class": "split-table",
                                                                                         "nodes": [
                                                                                             {
                                                                                                 "key": "vcBj9c02Lh",
                                                                                                 "order": 1,
+                                                                                                "class": "split-table",
                                                                                                 "nodes": [
                                                                                                     {
                                                                                                         "key": "vcCubf02G3",
                                                                                                         "order": 1,
+                                                                                                        "class": "split-table",
                                                                                                         "nodes": [
                                                                                                             {
                                                                                                                 "key": "vcG3SE01d5",
                                                                                                                 "order": 1,
+                                                                                                                "class": "split-table",
                                                                                                                 "nodes": [
                                                                                                                     {
                                                                                                                         "key": "vcGzBA026b",
                                                                                                                         "order": 1,
+                                                                                                                        "class": "split-table",
                                                                                                                         "nodes": [
                                                                                                                             {
                                                                                                                                 "key": "vcH5Zc00ny",
@@ -189,7 +203,7 @@
                             {
                                 "key": "ua7nda01WP",
                                 "order": 2,
-                                "option": "more...",
+                                "option": "LeafLift details",
                                 "isLeaf": true,
                                 "isAncillary": true
                             }
@@ -325,8 +339,8 @@
         }
     ],
     "___εdit___": {
-        "id": "vcVL0Q00uR",
-        "editorID": "me_cb43b55557414a4f88a29161bfa7b184",
-        "ticks": 1759534141110
+        "id": "vlbLEF01Sh",
+        "editorID": "car_e30f2f66090145418f0526d3d90a61c0",
+        "ticks": 1759668558959
     }
 }

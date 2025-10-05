@@ -1,8 +1,5 @@
-##### FruitForge  
-*solo / duo*  
+¬import smt from "../Ω variables/soloModulesTable"
 
-Porous micro-bead media wick, moisture yet keep roots airy for sugar-dense fruit.
 
-**Crop Categories & Cultivars**  
-Fruiting vegetables – all 12 cultivars  
-
+{{smt.fruitForgeRow}}
+{: .nt-fr-columns}

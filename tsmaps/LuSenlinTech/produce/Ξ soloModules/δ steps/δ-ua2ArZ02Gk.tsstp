@@ -1,4 +1,10 @@
+¬import smt from "../Ω variables/soloModulesTable"
+
+
 ##### SoloModule Series
 
 Select the **SoloModule** that matches the crop category you want to grow. 
+
+
+{{smt.soloModulesTable}}{: .nt-fr-columns}
 

@@ -38,16 +38,35 @@ const buildDiscussionView = (
 
     const fragmentELementID = gFragmentCode.getFragmentElementID(fragment.id);
 
+    let classes = "nt-fr-fragment-box";
+
+    if (fragment.classes) {
+
+        if (fragment.classes) {
+
+            for (const className of fragment.classes) {
+
+                classes = `${classes} nt-ur-${className}`
+            }
+        }
+    }
+
+    if (adjustForCollapsedOptions === true) {
+
+        classes = `${classes} nt-fr-prior-collapsed-options`
+    }
+
+    if (adjustForPriorAncillaries === true) {
+
+        classes = `${classes} nt-fr-prior-is-ancillary`
+    }
+
     views.push(
 
         h("div",
             {
                 id: `${fragmentELementID}_d`,
-                class: {
-                    "nt-fr-fragment-box": true,
-                    "nt-fr-prior-collapsed-options": adjustForCollapsedOptions === true,
-                    "nt-fr-prior-is-ancillary": adjustForPriorAncillaries === true
-                }
+                class: `${classes}`
             },
             [
                 h("div",

@@ -39,16 +39,35 @@ const buildLinkDiscussionView = (
         console.log(`R-DRAWING ${linkELementID}_l`);
     }
 
+    let classes = "nt-fr-fragment-box";
+
+    if (fragment.classes) {
+
+        if (fragment.classes) {
+
+            for (const className of fragment.classes) {
+
+                classes = `${classes} nt-ur-${className}`
+            }
+        }
+    }
+
+    if (adjustForCollapsedOptions === true) {
+
+        classes = `${classes} nt-fr-prior-collapsed-options`
+    }
+
+    if (adjustForPriorAncillaries === true) {
+
+        classes = `${classes} nt-fr-prior-is-ancillary`
+    }
+
     const view =
 
         h("div",
             {
                 id: `${linkELementID}_l`,
-                class: {
-                    "nt-fr-fragment-box": true,
-                    "nt-fr-prior-collapsed-options": adjustForCollapsedOptions === true,
-                    "nt-fr-prior-is-ancillary": adjustForPriorAncillaries === true
-                }
+                class: `${classes}`
             },
             [
                 h("div",

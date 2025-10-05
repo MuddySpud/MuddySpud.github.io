@@ -1,8 +1,5 @@
-##### TuberTower  
-*solo / duo* 
+¬import smt from "../Ω variables/soloModulesTable"
 
-A 150 mm-deep roll-out bed lets bulky rhizomes swell naturally. Graphene heat-loops hold 24–26 °C, and an ultrasonic Rhizo-Shield™ loosens root hairs so tubers lift mud-free.
 
-###### Crop Categories & Cultivars  
-Roots & stems – Baby Sweet Potato, Dwarf Taro, Young Lotus Root, Baby Ginger  
-
+{{smt.tuberTowerRow}}
+{: .nt-fr-columns}

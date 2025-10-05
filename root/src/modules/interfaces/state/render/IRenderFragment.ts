@@ -19,6 +19,7 @@ export default interface IRenderFragment {
     isLeaf: boolean;
     options: Array<IRenderFragment>;
     variable: Array<[string] | [string, string]>;
+    classes: Array<string>;
 
     option: string;
     isAncillary: boolean;
