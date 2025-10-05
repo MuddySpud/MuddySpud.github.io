@@ -1,0 +1,120 @@
+{
+    "v": "1",
+    "r": {
+        "i": "vo4p9n0ad",
+        "n": "s7LPkv17x",
+        "c": 0,
+        "o": [
+            {
+                "i": "vo4p9z1Ry",
+                "n": "s7LPkv0T6",
+                "x": "s7LPr60ZH",
+                "c": 1,
+                "o": [
+                    {
+                        "i": "vo4pAT0ig",
+                        "n": "s7LPkv1Np",
+                        "x": "s7LPoO19j",
+                        "c": 2,
+                        "o": [
+                            {
+                                "i": "vo4pAT2OP",
+                                "n": "s7LPkv0FM",
+                                "x": "s7SMOZ0VN",
+                                "c": 3,
+                                "o": [
+                                    {
+                                        "i": "vo4pAT0Y5",
+                                        "n": "s7LPkv1H7",
+                                        "x": "s7SMXt1dV"
+                                    },
+                                    {
+                                        "i": "vo4pAi0Me",
+                                        "n": "s7LPkv2U6",
+                                        "x": "s7SMXt0Xu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "i": "vo4pB70Ou",
+                        "n": "s7LPkv1Ye",
+                        "x": "s7LPoO04R",
+                        "o": [
+                            {
+                                "i": "vo4pB81an",
+                                "n": "uXAz8Y01gX",
+                                "c": 3,
+                                "o": [
+                                    {
+                                        "i": "vo4pB81Xx",
+                                        "n": "uXBEOU00Ir",
+                                        "x": "s7SMXt1dV"
+                                    },
+                                    {
+                                        "i": "vo4pBG1HJ",
+                                        "n": "uXBEOU01aj",
+                                        "x": "s7SMXt0Xu"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "i": "vo4pBg0nf",
+                        "n": "s7LPkv2b0",
+                        "x": "s7LPoO2Y3",
+                        "c": 4,
+                        "o": [
+                            {
+                                "i": "vo4pBh0ru",
+                                "n": "uXjObW00cy",
+                                "x": "uXcsWB01pQ",
+                                "c": 3,
+                                "o": [
+                                    {
+                                        "i": "vo4pBh0uo",
+                                        "n": "uXjU7W01F7",
+                                        "x": "s7SMXt1dV"
+                                    },
+                                    {
+                                        "i": "vo4pBq1xX",
+                                        "n": "uXjU7W019Z",
+                                        "x": "s7SMXt0Xu"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7LPr60IG",
+            "p": "LuSenlinTech/climate/Climate_frags"
+        },
+        {
+            "i": "s7LPoO1sh",
+            "p": "LuSenlinTech/preferences/ClientEffort_frags"
+        },
+        {
+            "i": "s7SMOZ0AN",
+            "p": "LuSenlinTech/equipment/FrameTower_frags"
+        },
+        {
+            "i": "s7SMXt0ol",
+            "p": "LuSenlinTech/equipment/Power_frags"
+        },
+        {
+            "i": "uXEN9G00lv",
+            "p": "LuSenlinTech/equipment/CustomFrameTower_frags"
+        }
+    ],
+    "e": 0,
+    "mv": {
+        "spaceDisplayText": "patio  or balcony"
+    }
+}

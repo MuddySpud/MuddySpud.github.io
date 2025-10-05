@@ -1,0 +1,17 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/Technical/%CE%9E%20DemoIntroduction
+fragsFolderPath: Technical/DemoIntroduction_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"vo4p410Uq","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"vo4p410Uq","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"vo4p412Z4","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"vo4p4D2bC","order":1},{"id":"vo4p4o1td","option":"The Features You'll See...","order":2,"isAncillary":true}]}} -->
+
+## Explore a Docs Assembler Solution
+
+To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
+
+We needed a demo that was technically complex yet universally relatable. A robotics diagnostic guide, while highly complex, is impenetrable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
+
