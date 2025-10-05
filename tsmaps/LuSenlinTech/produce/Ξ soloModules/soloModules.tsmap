@@ -9,7 +9,7 @@
     "iExits": [
         {
             "key": "vcIsGq01w8",
-            "text": "Next 2",
+            "text": "Next-e",
             "order": 1
         }
     ],
@@ -17,204 +17,290 @@
         "key": "ua2ArZ02Gk",
         "nodes": [
             {
-                "key": "ua2DFv00xA",
+                "key": "vo1fZt00iX",
                 "order": 1,
-                "class": "split-table-odd",
+                "class": "split-table",
                 "nodes": [
                     {
-                        "key": "ua2kaX01zV",
+                        "key": "ua2DFv00xA",
                         "order": 1,
-                        "class": "split-table",
+                        "class": "split-table-odd",
                         "nodes": [
                             {
-                                "key": "ua7X0u00b1",
+                                "key": "ua2kaX01zV",
                                 "order": 1,
-                                "class": "split-table-odd",
+                                "class": "split-table",
                                 "nodes": [
                                     {
-                                        "key": "ua8O8S01kq",
+                                        "key": "ua7X0u00b1",
                                         "order": 1,
-                                        "class": "split-table",
+                                        "class": "split-table-odd",
                                         "nodes": [
                                             {
-                                                "key": "vaMmne00FB",
+                                                "key": "ua8O8S01kq",
                                                 "order": 1,
-                                                "class": "split-table-odd",
+                                                "class": "split-table",
                                                 "nodes": [
                                                     {
-                                                        "key": "vaP8bA023N",
+                                                        "key": "vaMmne00FB",
                                                         "order": 1,
-                                                        "class": "split-table",
+                                                        "class": "split-table-odd",
                                                         "nodes": [
                                                             {
-                                                                "key": "vaQX9600Vc",
+                                                                "key": "vaP8bA023N",
                                                                 "order": 1,
-                                                                "class": "split-table-odd",
+                                                                "class": "split-table",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "vaRtYB00iH",
+                                                                        "key": "vaQX9600Vc",
                                                                         "order": 1,
-                                                                        "class": "split-table",
+                                                                        "class": "split-table-odd",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "vaS0Nm01At",
+                                                                                "key": "vaRtYB00iH",
                                                                                 "order": 1,
-                                                                                "class": "split-table-odd",
+                                                                                "class": "split-table",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "vaSCoj0112",
+                                                                                        "key": "vaS0Nm01At",
                                                                                         "order": 1,
-                                                                                        "class": "split-table",
+                                                                                        "class": "split-table-odd",
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "vcBj9c02Lh",
+                                                                                                "key": "vaSCoj0112",
                                                                                                 "order": 1,
-                                                                                                "class": "split-table-odd",
+                                                                                                "class": "split-table",
                                                                                                 "nodes": [
                                                                                                     {
-                                                                                                        "key": "vcCubf02G3",
+                                                                                                        "key": "vcBj9c02Lh",
                                                                                                         "order": 1,
-                                                                                                        "class": "split-table",
+                                                                                                        "class": "split-table-odd",
                                                                                                         "nodes": [
                                                                                                             {
-                                                                                                                "key": "vcG3SE01d5",
+                                                                                                                "key": "vcCubf02G3",
                                                                                                                 "order": 1,
-                                                                                                                "class": "split-table-odd",
+                                                                                                                "class": "split-table",
                                                                                                                 "nodes": [
                                                                                                                     {
-                                                                                                                        "key": "vcGzBA026b",
+                                                                                                                        "key": "vcG3SE01d5",
                                                                                                                         "order": 1,
-                                                                                                                        "class": "split-table",
+                                                                                                                        "class": "split-table-odd",
                                                                                                                         "nodes": [
                                                                                                                             {
-                                                                                                                                "key": "vcH5Zc00ny",
+                                                                                                                                "key": "vcGzBA026b",
                                                                                                                                 "order": 1,
-                                                                                                                                "option": "Next 1",
-                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                "class": "split-table",
+                                                                                                                                "nodes": [
+                                                                                                                                    {
+                                                                                                                                        "key": "vcH5Zc00ny",
+                                                                                                                                        "order": 1,
+                                                                                                                                        "isHeadless": true,
+                                                                                                                                        "nodes": [
+                                                                                                                                            {
+                                                                                                                                                "key": "vnxZW700Xw",
+                                                                                                                                                "order": 1,
+                                                                                                                                                "option": "AeroHerb",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo31Lx00c6",
+                                                                                                                                                "order": 2,
+                                                                                                                                                "option": "LeafLift",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo345j00Yp",
+                                                                                                                                                "order": 3,
+                                                                                                                                                "option": "FruitForge",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo39U901Kq",
+                                                                                                                                                "order": 4,
+                                                                                                                                                "option": "RootVault",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3BJZ000k",
+                                                                                                                                                "order": 5,
+                                                                                                                                                "option": "StemStack",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3Dc502U0",
+                                                                                                                                                "order": 6,
+                                                                                                                                                "option": "PetalBloom",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3G1o01Is",
+                                                                                                                                                "order": 7,
+                                                                                                                                                "option": "AquaGreen",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3HPG00vY",
+                                                                                                                                                "order": 8,
+                                                                                                                                                "option": "MycoNest",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3KPW01SP",
+                                                                                                                                                "order": 9,
+                                                                                                                                                "option": "FungaRoot",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3Lvo00qS",
+                                                                                                                                                "order": 10,
+                                                                                                                                                "option": "ShellWave",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3ODR01X1",
+                                                                                                                                                "order": 11,
+                                                                                                                                                "option": "CrustaBay",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3Pi101K7",
+                                                                                                                                                "order": 12,
+                                                                                                                                                "option": "TuberTower",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "key": "vo3Rfd00r3",
+                                                                                                                                                "order": 13,
+                                                                                                                                                "option": "FinWave",
+                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "key": "vcIEPU004M",
+                                                                                                                                        "order": 2,
+                                                                                                                                        "option": "FinWave details",
+                                                                                                                                        "isLeaf": true,
+                                                                                                                                        "isAncillary": true
+                                                                                                                                    }
+                                                                                                                                ]
                                                                                                                             },
                                                                                                                             {
-                                                                                                                                "key": "vcIEPU004M",
+                                                                                                                                "key": "vcH1JH01oi",
                                                                                                                                 "order": 2,
-                                                                                                                                "option": "FinWave details",
+                                                                                                                                "option": "TuberTower details",
                                                                                                                                 "isLeaf": true,
                                                                                                                                 "isAncillary": true
                                                                                                                             }
                                                                                                                         ]
                                                                                                                     },
                                                                                                                     {
-                                                                                                                        "key": "vcH1JH01oi",
+                                                                                                                        "key": "vcGKMd00wQ",
                                                                                                                         "order": 2,
-                                                                                                                        "option": "TuberTower details",
+                                                                                                                        "option": "CrustaBay details",
                                                                                                                         "isLeaf": true,
                                                                                                                         "isAncillary": true
                                                                                                                     }
                                                                                                                 ]
                                                                                                             },
                                                                                                             {
-                                                                                                                "key": "vcGKMd00wQ",
+                                                                                                                "key": "vcF5nX02Jo",
                                                                                                                 "order": 2,
-                                                                                                                "option": "CrustaBay details",
+                                                                                                                "option": "ShellWave details",
                                                                                                                 "isLeaf": true,
                                                                                                                 "isAncillary": true
                                                                                                             }
                                                                                                         ]
                                                                                                     },
                                                                                                     {
-                                                                                                        "key": "vcF5nX02Jo",
+                                                                                                        "key": "vcBq7p023F",
                                                                                                         "order": 2,
-                                                                                                        "option": "ShellWave details",
+                                                                                                        "option": "GasterPod details",
                                                                                                         "isLeaf": true,
                                                                                                         "isAncillary": true
                                                                                                     }
                                                                                                 ]
                                                                                             },
                                                                                             {
-                                                                                                "key": "vcBq7p023F",
+                                                                                                "key": "vcANA002VG",
                                                                                                 "order": 2,
-                                                                                                "option": "GasterPod details",
+                                                                                                "option": "FungaRoor details",
                                                                                                 "isLeaf": true,
                                                                                                 "isAncillary": true
                                                                                             }
                                                                                         ]
                                                                                     },
                                                                                     {
-                                                                                        "key": "vcANA002VG",
+                                                                                        "key": "vaS71w02T8",
                                                                                         "order": 2,
-                                                                                        "option": "FungaRoor details",
+                                                                                        "option": "MycoNest details",
                                                                                         "isLeaf": true,
                                                                                         "isAncillary": true
                                                                                     }
                                                                                 ]
                                                                             },
                                                                             {
-                                                                                "key": "vaS71w02T8",
+                                                                                "key": "vaRvIt01PJ",
                                                                                 "order": 2,
-                                                                                "option": "MycoNest details",
+                                                                                "option": "AquaGreen details",
                                                                                 "isLeaf": true,
                                                                                 "isAncillary": true
                                                                             }
                                                                         ]
                                                                     },
                                                                     {
-                                                                        "key": "vaRvIt01PJ",
+                                                                        "key": "vaRMtv00yX",
                                                                         "order": 2,
-                                                                        "option": "AquaGreen details",
+                                                                        "option": "PetalBloom details",
                                                                         "isLeaf": true,
                                                                         "isAncillary": true
                                                                     }
                                                                 ]
                                                             },
                                                             {
-                                                                "key": "vaRMtv00yX",
+                                                                "key": "vaPX9701Sa",
                                                                 "order": 2,
-                                                                "option": "PetalBloom details",
+                                                                "option": "StemStack details",
                                                                 "isLeaf": true,
                                                                 "isAncillary": true
                                                             }
                                                         ]
                                                     },
                                                     {
-                                                        "key": "vaPX9701Sa",
+                                                        "key": "vaNILe01NL",
                                                         "order": 2,
-                                                        "option": "StemStack details",
+                                                        "option": "RootVault details",
                                                         "isLeaf": true,
                                                         "isAncillary": true
                                                     }
                                                 ]
                                             },
                                             {
-                                                "key": "vaNILe01NL",
+                                                "key": "ua8zHx00Aw",
                                                 "order": 2,
-                                                "option": "RootVault details",
+                                                "option": "FruitForge details",
                                                 "isLeaf": true,
                                                 "isAncillary": true
                                             }
                                         ]
                                     },
                                     {
-                                        "key": "ua8zHx00Aw",
+                                        "key": "ua7nda01WP",
                                         "order": 2,
-                                        "option": "FruitForge details",
+                                        "option": "LeafLift details",
                                         "isLeaf": true,
                                         "isAncillary": true
                                     }
                                 ]
                             },
                             {
-                                "key": "ua7nda01WP",
+                                "key": "ua6RO701O1",
                                 "order": 2,
-                                "option": "LeafLift details",
+                                "option": "AeroHerb details",
                                 "isLeaf": true,
                                 "isAncillary": true
                             }
                         ]
-                    },
-                    {
-                        "key": "ua6RO701O1",
-                        "order": 2,
-                        "option": "AeroHerb details",
-                        "isLeaf": true,
-                        "isAncillary": true
                     }
                 ]
             }
@@ -336,11 +422,15 @@
         {
             "key": "δ-vcIEPU004M",
             "relativePath": "./δ steps/δ-vcIEPU004M.tsstp"
+        },
+        {
+            "key": "δ-vo1fZt00iX",
+            "relativePath": "./δ steps/δ-vo1fZt00iX.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "vmqxRV02Yu",
-        "editorID": "car_04854d80d08b42b48080eaa98d026bb2",
-        "ticks": 1759687057109
+        "id": "vo4jGi00cT",
+        "editorID": "car_0cd54c213b9c4230965cfb4fd24c9884",
+        "ticks": 1759705115553
     }
 }
