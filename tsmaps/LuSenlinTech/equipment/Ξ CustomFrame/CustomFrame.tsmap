@@ -25,22 +25,16 @@
                 "iExitKey": "s7LPpx0rd",
                 "nodes": [
                     {
-                        "key": "uXhV3Z028Y",
+                        "key": "ua15UT000c",
                         "order": 1,
+                        "iKey": "ua27ri00bb",
                         "nodes": [
                             {
-                                "key": "ua15UT000c",
+                                "key": "vo3sZp024X",
                                 "order": 1,
-                                "iKey": "ua27ri00bb",
-                                "nodes": [
-                                    {
-                                        "key": "vo3sZp024X",
-                                        "order": 1,
-                                        "option": "Next-e",
-                                        "iExitKey": "vcIsGq01w8",
-                                        "exitKey": "uXWh9501j7"
-                                    }
-                                ]
+                                "option": "Next-e",
+                                "iExitKey": "vcIsGq01w8",
+                                "exitKey": "uXWh9501j7"
                             }
                         ]
                     }
@@ -89,17 +83,13 @@
             "relativePath": "./δ steps/δ-uXhgHt026C.tsstp"
         },
         {
-            "key": "δ-uXhV3Z028Y",
-            "relativePath": "./δ steps/δ-uXhV3Z028Y.tsstp"
-        },
-        {
             "key": "δ-ua15UT000c",
             "relativePath": "./δ steps/δ-ua15UT000c.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "vo3uCk02Lg",
-        "editorID": "car_7fc6b0c498a9402db7556a976e645376",
-        "ticks": 1759704919262
+        "id": "vo7de9024e",
+        "editorID": "me_7363d7ed21b24f76ae79750756160450",
+        "ticks": 1759705808925
     }
 }

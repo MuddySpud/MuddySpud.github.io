@@ -94,7 +94,6 @@
                                                                                                                                     {
                                                                                                                                         "key": "vcH5Zc00ny",
                                                                                                                                         "order": 1,
-                                                                                                                                        "isHeadless": true,
                                                                                                                                         "nodes": [
                                                                                                                                             {
                                                                                                                                                 "key": "vnxZW700Xw",
@@ -426,11 +425,15 @@
         {
             "key": "δ-vo1fZt00iX",
             "relativePath": "./δ steps/δ-vo1fZt00iX.tsstp"
+        },
+        {
+            "key": "δ-vcH5Zc00ny",
+            "relativePath": "./δ steps/δ-vcH5Zc00ny.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "vo4jGi00cT",
-        "editorID": "car_0cd54c213b9c4230965cfb4fd24c9884",
-        "ticks": 1759705115553
+        "id": "vo89B3009E",
+        "editorID": "car_b546d9d1c57f435caafe58e36540ec75",
+        "ticks": 1759705930129
     }
 }
