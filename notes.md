@@ -12,5 +12,7 @@ duo modules can't have fish or crustaceans
   Add todo for field should pretend that it is LuSenlin that is saying it. ie contact field division as this location is being developed.
   Then try and generate images for frames and modules with plants added.
   As Adrian said with his image.
+
+  Need to always make sure start with title that matches previous selected option
   
 
