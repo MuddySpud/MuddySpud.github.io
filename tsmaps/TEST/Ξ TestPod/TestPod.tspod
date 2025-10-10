@@ -13,28 +13,19 @@
             {
                 "key": "w5cDaE001g",
                 "order": 1,
-                "option": "TestPod 1.1",
                 "nodes": [
                     {
                         "key": "wGLFkk01ye",
                         "order": 1,
-                        "option": "TestPod 1.1-2.1",
                         "nodes": [
                             {
                                 "key": "wGLOOF00N2",
                                 "order": 1,
-                                "option": "TestPod 1.1-2.1-3.1",
-                                "isLeaf": true
-                            },
-                            {
-                                "key": "wGLc7I0096",
-                                "order": 2,
-                                "option": "TestPod 1.1-2.1-3.2",
                                 "isLeaf": true
                             },
                             {
                                 "key": "wGLkOP002D",
-                                "order": 3,
+                                "order": 2,
                                 "option": "TestPod 1.1-2.1-3.3",
                                 "isLeaf": true,
                                 "isAncillary": true
@@ -71,12 +62,6 @@
             "relativePath": "./δ steps/δ-wGLOOF00N2.tsstp"
         },
         {
-            "key": "δ-wGLc7I0096",
-            "content": "TestPod 1.1-2.1-3.2-1 end\n\n",
-            "isVirtual": true,
-            "relativePath": "./δ steps/δ-wGLc7I0096.tsstp"
-        },
-        {
             "key": "δ-wGLkOP002D",
             "content": "TestPod 1.1-2.1-3.3-1 end\n\n",
             "isVirtual": true,
@@ -84,8 +69,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wGMYGQ00ac",
-        "editorID": "car_d64df1e891314cf5be8599a6458a1196",
-        "ticks": 1760123100562
+        "id": "wHN8Vm02Hm",
+        "editorID": "car_7f61281deed24530821ba2066224a329",
+        "ticks": 1760138016234
     }
 }

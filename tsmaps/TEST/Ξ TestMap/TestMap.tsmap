@@ -13,7 +13,9 @@
                 "key": "wE4eRZ01w3",
                 "order": 1,
                 "option": "TestMap 1.1",
-                "isLeaf": true
+                "isLeaf": true,
+                "podKey": "w5bxTm01sp",
+                "podText": "Link to 'TestPod'"
             }
         ]
     },
@@ -28,8 +30,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wGMDf000sw",
-        "editorID": "car_efaf896b156e4a438b957b078f96b6e3",
-        "ticks": 1760123021362
+        "id": "wHIQaF00gl",
+        "editorID": "car_2fc452f797ad4b81b09007a8e2c00d7d",
+        "ticks": 1760136894063
     }
 }
