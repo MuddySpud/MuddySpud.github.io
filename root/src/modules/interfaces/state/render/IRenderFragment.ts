@@ -9,6 +9,8 @@ export default interface IRenderFragment {
     iKey: string | null;
     iExitKey: string | null;
     exitKey: string | null;
+    podKey: string | null;
+    podText: string | null;
     topLevelMapKey: string;
     mapKeyChain: string;
     guideID: string;
@@ -26,6 +28,7 @@ export default interface IRenderFragment {
     order: number;
 
     link: IDisplayChart | null;
+    pod: IDisplayChart | null;
     section: IDisplaySection;
     segmentIndex: number | null;
 

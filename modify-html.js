@@ -188,6 +188,7 @@ async function processFindAndReplaceFiles() {
       const oldContent = await fs.readFile(file, 'utf8');
 
       let newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
+      newContent = newContent.replaceAll('TEST/', '_site/TEST/');
       newContent = newContent.replaceAll('Technical/', '_site/Technical/');
       newContent = newContent.replaceAll('"/assets/', '"/_site/assets/');
 
@@ -207,7 +208,7 @@ async function processFindAndReplaceFiles() {
 async function processDocumentationHellMap() {
 
   try {
-    // Get all HTML files recursively
+
     const documentationHellFilePath = 'root\\_site\\DocumentationHell\\index.html';
 
     const oldContent = await fs.readFile(documentationHellFilePath, 'utf8');

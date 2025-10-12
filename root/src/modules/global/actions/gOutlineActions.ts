@@ -69,6 +69,25 @@ const gOutlineActions = {
         return gStateCode.cloneState(state);
     },
 
+    loadPodOutlineProperties: (
+        state: IState,
+        outlineResponse: any,
+        outline: IRenderOutline,
+        chart: IRenderOutlineChart,
+        option: IRenderFragment,
+    ): IStateAnyArray => {
+
+        gOutlineCode.loadPodOutlineProperties(
+            state,
+            outlineResponse,
+            outline,
+            chart,
+            option
+        );
+
+        return gStateCode.cloneState(state);
+    },
+
     loadGuideOutlineAndSegments: (
         state: IState,
         outlineResponse: any,

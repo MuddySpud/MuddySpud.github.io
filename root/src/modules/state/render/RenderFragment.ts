@@ -23,6 +23,8 @@ export default class RenderFragment implements IRenderFragment {
     public iKey: string | null = null;
     public iExitKey: string | null = null;
     public exitKey: string | null = null;
+    public podKey: string | null = null;
+    public podText: string | null = null;
     public topLevelMapKey: string = '';
     public mapKeyChain: string = '';
     public guideID: string = '';
@@ -40,6 +42,7 @@ export default class RenderFragment implements IRenderFragment {
     public order: number = 0;
 
     public link: IDisplayChart | null = null;
+    public pod: IDisplayChart | null = null;
     public section: IDisplaySection;
     public segmentIndex: number | null;
 

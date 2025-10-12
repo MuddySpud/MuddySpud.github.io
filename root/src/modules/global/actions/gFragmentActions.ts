@@ -427,6 +427,32 @@ const loadFragment = (
     return renderFragment;
 };
 
+const loadPodFragment = (
+    state: IState,
+    response: any,
+    option: IRenderFragment
+): IRenderFragment | null => {
+
+    const parentFragmentID = option.parentFragmentID as string;
+
+    if (U.isNullOrWhiteSpace(parentFragmentID) === true) {
+
+        throw new Error("Parent fragment ID is null");
+    }
+
+    const renderFragment = gFragmentCode.parseAndLoadPodFragment(
+        state,
+        response.textData,
+        parentFragmentID,
+        option.id,
+        option.section
+    );
+
+    state.loading = false;
+
+    return renderFragment;
+};
+
 const processFragment = (
     state: IState,
     fragment: IRenderFragment
@@ -605,6 +631,45 @@ const gFragmentActions = {
         return gStateCode.cloneState(state);
     },
 
+    loadPodFragment: (
+        state: IState,
+        response: any,
+        option: IRenderFragment,
+        optionText: string | null = null
+    ): IStateAnyArray => {
+
+        if (!state) {
+
+            return state;
+        }
+
+        const node = loadPodFragment(
+            state,
+            response,
+            option
+        );
+
+        if (node) {
+
+            gFragmentCode.setPodCurrent(
+                state,
+                node
+            );
+
+            if (optionText) {
+
+                node.option = optionText;
+            }
+        }
+
+        if (!state.renderState.isChainLoad) {
+
+            state.renderState.refreshUrl = true;
+        }
+
+        return gStateCode.cloneState(state);
+    },
+
     loadRootFragmentAndSetSelected: (
         state: IState,
         response: any,
@@ -623,6 +688,44 @@ const gFragmentActions = {
         }
 
         const renderFragment = gFragmentCode.parseAndLoadFragment(
+            state,
+            response.textData,
+            "root",
+            outlineNodeID,
+            section,
+        );
+
+        state.loading = false;
+
+        if (renderFragment) {
+
+            renderFragment.section.root = renderFragment;
+            renderFragment.section.current = renderFragment;
+        }
+
+        state.renderState.refreshUrl = true;
+
+        return gStateCode.cloneState(state);
+    },
+
+    loadPodRootFragment: (
+        state: IState,
+        response: any,
+        section: IDisplaySection
+    ): IStateAnyArray => {
+
+        if (!state) {
+            return state;
+        }
+
+        const outlineNodeID = section.outline?.r.i;
+
+        if (!outlineNodeID) {
+
+            return state;
+        }
+
+        const renderFragment = gFragmentCode.parseAndLoadPodFragment(
             state,
             response.textData,
             "root",

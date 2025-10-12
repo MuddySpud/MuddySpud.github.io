@@ -14,5 +14,5 @@ duo modules can't have fish or crustaceans
   As Adrian said with his image.
 
   Need to always make sure start with title that matches previous selected option
-  
-
+  Adapt renderer to show pod in option.
+  CSS for pod in option.

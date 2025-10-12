@@ -6,6 +6,7 @@ export default class RenderOutlineNode implements IRenderOutlineNode {
 
     public i: string = ''; // id
     public c: number | null = null; // index from outline chart array
+    public d: number | null = null; // index from outline chart array
     public x: string | null | undefined = null; // iExit id
     public _x: string | null | undefined = null; // exit id
     public o: Array<IRenderOutlineNode> = []; // options

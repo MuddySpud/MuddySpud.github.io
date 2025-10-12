@@ -172,6 +172,8 @@ const loadOption = (
     option.isAncillary = rawOption.isAncillary === true;
     option.order = rawOption.order ?? 0;
     option.iExitKey = rawOption.iExitKey ?? '';
+    option.podKey = rawOption.podKey ?? '';
+    option.podText = rawOption.podText ?? '';
 
     if (outlineNode) {
 
@@ -193,6 +195,12 @@ const loadOption = (
     gStateCode.cache_chainFragment(
         state,
         option
+    );
+
+    gOutlineCode.getPodOutline_subscripion(
+        state,
+        option,
+        section
     );
 
     return option;
@@ -254,6 +262,30 @@ const showOptionNode_subscripton = (
         optionText,
     );
 };
+
+// const showPodOptionNode_subscripton = (
+//     state: IState,
+//     option: IRenderFragment,
+//     optionText: string | null = null
+// ): void => {
+
+//     if (!option
+//         || !option.section?.outline?.path
+//     ) {
+//         return;
+//     }
+
+//     gFragmentCode.prepareToShowPodOptionNode(
+//         state,
+//         option
+//     );
+
+//     return gFragmentCode.getPodFragment_subscripion(
+//         state,
+//         option,
+//         optionText,
+//     );
+// };
 
 const loadNextFragmentInSegment = (
     state: IState,
@@ -393,7 +425,7 @@ const gFragmentCode = {
         state.loading = true;
         window.TreeSolve.screen.hideBanner = true;
 
-        gFragmentCode.getLinkOutline_subscripion(
+        gOutlineCode.getLinkOutline_subscripion(
             state,
             option
         );
@@ -419,40 +451,69 @@ const gFragmentCode = {
         );
     },
 
-    getLinkOutline_subscripion: (
+    getPodFragment_subscripion: (
         state: IState,
         option: IRenderFragment,
+        optionText: string | null = null,
     ): void => {
 
-        const outline = option.section.outline;
+        state.loading = true;
+        window.TreeSolve.screen.hideBanner = true;
+        const url = `${option.section?.outline?.path}/${option.id}${gFileConstants.fragmentFileExtension}`;
 
-        if (!outline) {
-            return;
-        }
+        const loadAction: (state: IState, response: any) => IStateAnyArray = (state: IState, response: any) => {
 
-        const outlineNode = gStateCode.getCached_outlineNode(
+            return gFragmentActions.loadPodFragment(
+                state,
+                response,
+                option,
+                optionText
+            );
+        };
+
+        gStateCode.AddReLoadDataEffectImmediate(
             state,
-            option.section.linkID,
-            option.id
-        );
-
-        if (outlineNode?.c == null
-            || state.renderState.isChainLoad === true // Will load it from a segment
-        ) {
-            return;
-        }
-
-        const outlineChart = gOutlineCode.getOutlineChart(
-            outline,
-            outlineNode?.c
-        );
-
-        gOutlineCode.getOutlineFromChart_subscription(
-            state,
-            outlineChart,
-            option
+            `loadFragmentFile`,
+            ParseType.Text,
+            url,
+            loadAction
         );
     },
+
+    // getLinkOutline_subscripion: (
+    //     state: IState,
+    //     option: IRenderFragment,
+    // ): void => {
+
+    //     const outline = option.section.outline;
+
+    //     if (!outline) {
+    //         return;
+    //     }
+
+    //     const outlineNode = gStateCode.getCached_outlineNode(
+    //         state,
+    //         option.section.linkID,
+    //         option.id
+    //     );
+
+    //     if (outlineNode?.c == null
+    //         || state.renderState.isChainLoad === true // Will load it from a segment
+    //     ) {
+    //         return;
+    //     }
+
+    //     const outlineChart = gOutlineCode.getOutlineChart(
+    //         outline,
+    //         outlineNode?.c
+    //     );
+
+    //     gOutlineCode.getOutlineFromChart_subscription(
+    //         state,
+    //         outlineChart,
+    //         option
+    //     );
+    // },
 
     getLinkElementID: (fragmentID: string): string => {
 
@@ -482,6 +543,22 @@ const gFragmentCode = {
         gHistoryCode.pushBrowserHistoryState(state);
     },
 
+    prepareToShowPodOptionNode: (
+        state: IState,
+        option: IRenderFragment
+    ): void => {
+
+        gFragmentCode.markOptionsExpanded(
+            state,
+            option
+        );
+
+        gFragmentCode.setPodCurrent(
+            state,
+            option
+        );
+    },
+
     parseAndLoadFragment: (
         state: IState,
         response: string,
@@ -509,11 +586,40 @@ const gFragmentCode = {
 
             if (!fragment.link) {
 
-                gOutlineCode.getFragmentLinkChartOutline(
+                gOutlineCode.getLinkOutline_subscripion(
                     state,
                     fragment
                 );
             }
+        }
+
+        return fragment;
+    },
+
+    parseAndLoadPodFragment: (
+        state: IState,
+        response: string,
+        parentFragmentID: string,
+        outlineNodeID: string,
+        section: IDisplaySection
+    ): IRenderFragment | null => {
+
+        const result: { fragment: IRenderFragment, continueLoading: boolean } = gFragmentCode.parseAndLoadFragmentBase(
+            state,
+            response,
+            parentFragmentID,
+            outlineNodeID,
+            section
+        );
+
+        const fragment = result.fragment;
+
+        if (result.continueLoading === true) {
+
+            gFragmentCode.autoExpandSingleBlankOption(
+                state,
+                result.fragment
+            );
         }
 
         return fragment;
@@ -565,18 +671,18 @@ const gFragmentCode = {
 
         // if (!fragment.ui.discussionLoaded) {
 
-            gFragmentCode.loadFragment(
-                state,
-                rawFragment,
-                fragment
-            );
+        gFragmentCode.loadFragment(
+            state,
+            rawFragment,
+            fragment
+        );
 
-            gStateCode.cache_chainFragment(
-                state,
-                fragment
-            );
+        gStateCode.cache_chainFragment(
+            state,
+            fragment
+        );
 
-            continueLoading = true;
+        continueLoading = true;
         // }
 
         return {
@@ -620,6 +726,40 @@ const gFragmentCode = {
                 fragment,
                 fragment.option
             );
+        }
+    },
+
+    expandOptionPods: (
+        state: IState,
+        fragment: IRenderFragment
+    ): void => {
+
+        const optionsAndAncillaries = gFragmentCode.splitOptionsAndAncillaries(fragment.options);
+
+        for (const option of optionsAndAncillaries.options) {
+
+            const outlineNode = gStateCode.getCached_outlineNode(
+                state,
+                option.section.linkID,
+                option.id
+            );
+
+            if (outlineNode?.d == null
+                || option.pod != null
+            ) {
+                return;
+            }
+
+            gOutlineCode.getPodOutline_subscripion(
+                state,
+                option,
+                option.section
+            );
+
+            // return showPodOptionNode_subscripton(
+            //     state,
+            //     option
+            // );
         }
     },
 
@@ -751,6 +891,8 @@ const gFragmentCode = {
                     option.isAncillary = rawOption.isAncillary === true;
                     option.order = rawOption.order ?? 0;
                     option.iExitKey = rawOption.iExitKey ?? '';
+                    option.podKey = rawOption.podKey ?? '';
+                    option.podText = rawOption.podText ?? '';
                     option.section = fragment.section;
                     option.parentFragmentID = fragment.id;
                     option.segmentIndex = fragment.segmentIndex;
@@ -772,7 +914,7 @@ const gFragmentCode = {
         /*
                 <script type=\"module\" src=\"/@vite/client\"></script>
                 <!-- tsFragmentRenderComment {\"node\":{\"id\":\"dBt7Km2Ml\",\"topLevelMapKey\":\"cv1TRl01rf\",\"mapKeyChain\":\"cv1TRl01rf\",\"guideID\":\"dBt7JN1He\",\"guidePath\":\"c:/GitHub/TEST.Documentation/tsmapsdataOptionsFolder/Holder/dataOptions.tsmap\",\"parentFragmentID\":\"dBt7JN1vt\",\"chartKey\":\"cv1TRl01rf\",\"options\":[]}} -->
-                
+
                 <h4 id=\"option-1-solution\">Option 1 solution</h4>
                 <p>Option 1 solution</p>
         */
@@ -961,6 +1103,42 @@ ${line}`;
         }
 
         section.current = fragment;
+        gFragmentCode.checkSelected(fragment);
+    },
+
+    setPodCurrent: (
+        state: IState,
+        fragment: IRenderFragment
+    ): void => {
+
+        const section = fragment.section;
+
+        let parent: IRenderFragment | null = gStateCode.getCached_chainFragment(
+            state,
+            section.linkID,
+            fragment.parentFragmentID
+        );
+
+        if (parent) {
+
+            if (parent.id === fragment.id) {
+
+                throw new Error("Parent and Fragment are the same");
+            }
+
+            parent.selected = fragment;
+            fragment.ui.sectionIndex = parent.ui.sectionIndex + 1;
+
+            clearSiblingChains(
+                parent,
+                fragment
+            );
+        }
+        else {
+            throw new Error("ParentFragment was null");
+        }
+
+        // section.current = fragment;
         gFragmentCode.checkSelected(fragment);
     },
 };

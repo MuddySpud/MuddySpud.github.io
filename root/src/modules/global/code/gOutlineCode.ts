@@ -44,6 +44,28 @@ const cacheNodeForNewLink = (
     }
 };
 
+const cacheNodeForNewPod = (
+    state: IState,
+    outlineNode: IRenderOutlineNode,
+    linkID: number,
+): void => {
+
+    gStateCode.cache_outlineNode(
+        state,
+        linkID,
+        outlineNode
+    );
+
+    for (const option of outlineNode.o) {
+
+        cacheNodeForNewPod(
+            state,
+            option,
+            linkID
+        );
+    }
+};
+
 const loadNode = (
     state: IState,
     rawNode: any,
@@ -54,6 +76,7 @@ const loadNode = (
     const node = new RenderOutlineNode();
     node.i = rawNode.i;
     node.c = rawNode.c ?? null;
+    node.d = rawNode.d ?? null;
     node._x = rawNode._x ?? null;
     node.x = rawNode.x ?? null;
     node.parent = parent;
@@ -194,6 +217,11 @@ const gOutlineCode = {
         }
         else if (guide.root) {
 
+            gFragmentCode.expandOptionPods(
+                state,
+                guide.root
+            );
+
             gFragmentCode.autoExpandSingleBlankOption(
                 state,
                 guide.root
@@ -243,6 +271,33 @@ const gOutlineCode = {
         return link;
     },
 
+    buildPodDisplayChartFromRawOutline: (
+        state: IState,
+        chart: IRenderOutlineChart,
+        rawOutline: any,
+        outline: IRenderOutline,
+        parent: IRenderFragment,
+    ): IDisplayChart => {
+
+        const pod = new DisplayChart(
+            gStateCode.getFreshKeyInt(state),
+            chart
+        );
+
+        gOutlineCode.loadOutlineProperties(
+            state,
+            rawOutline,
+            outline,
+            pod.linkID
+        );
+
+        pod.outline = outline;
+        pod.parent = parent;
+        parent.pod = pod;
+
+        return pod;
+    },
+
     buildDisplayChartFromOutlineForNewLink: (
         state: IState,
         chart: IRenderOutlineChart,
@@ -266,6 +321,31 @@ const gOutlineCode = {
         parent.link = link;
 
         return link;
+    },
+
+    buildDisplayChartFromOutlineForNewPod: (
+        state: IState,
+        chart: IRenderOutlineChart,
+        outline: IRenderOutline,
+        parent: IRenderFragment,
+    ): IDisplayChart => {
+
+        const pod = new DisplayChart(
+            gStateCode.getFreshKeyInt(state),
+            chart
+        );
+
+        gOutlineCode.loadOutlinePropertiesForNewPod(
+            state,
+            outline,
+            pod.linkID
+        );
+
+        pod.outline = outline;
+        pod.parent = parent;
+        parent.pod = pod;
+
+        return pod;
     },
 
     loadSegmentChartOutlineProperties: (
@@ -350,6 +430,46 @@ const gOutlineCode = {
         );
     },
 
+    loadPodOutlineProperties: (
+        state: IState,
+        outlineResponse: any,
+        outline: IRenderOutline,
+        chart: IRenderOutlineChart,
+        option: IRenderFragment,
+    ): void => {
+
+        if (option.pod) {
+
+            throw new Error(`Link already loaded, rootID: ${option.pod.root?.id}`);
+        }
+
+        const rawOutline = outlineResponse.jsonData;
+
+        const pod = gOutlineCode.buildPodDisplayChartFromRawOutline(
+            state,
+            chart,
+            rawOutline,
+            outline,
+            option
+        );
+
+        gFragmentCode.cacheSectionRoot(
+            state,
+            pod
+        );
+
+        // // Need to build a displayCHart here
+        // gOutlineCode.setChartAsCurrent(
+        //     state,
+        //     link
+        // );
+
+        gOutlineCode.postGetPodOutlineRoot_subscription(
+            state,
+            pod
+        );
+    },
+
     postGetChartOutlineRoot_subscription: (
         state: IState,
         section: IDisplaySection
@@ -394,6 +514,50 @@ const gOutlineCode = {
         );
     },
 
+    postGetPodOutlineRoot_subscription: (
+        state: IState,
+        section: IDisplaySection
+    ): void => {
+
+        if (section.root) {
+
+            // if (!section.root.ui.discussionLoaded) {
+
+            //     throw new Error('Section root discussion was not loaded');
+            // }
+
+            return;
+        }
+
+        const outline = section.outline;
+
+        if (!outline) {
+
+            throw new Error('Section outline was null');
+        }
+
+        const rootFragmenID = outline.r.i;
+        const path = outline.path;
+        const url: string = `${path}/${rootFragmenID}${gFileConstants.fragmentFileExtension}`;
+
+        const loadAction = (state: IState, response: any) => {
+
+            return gFragmentActions.loadPodRootFragment(
+                state,
+                response,
+                section
+            );
+        };
+
+        gStateCode.AddReLoadDataEffectImmediate(
+            state,
+            `loadChartOutlineRoot`,
+            ParseType.Text,
+            url,
+            loadAction
+        );
+    },
+
     setChartAsCurrent: (
         state: IState,
         displaySection: IDisplaySection
@@ -420,12 +584,45 @@ const gOutlineCode = {
         return outline;
     },
 
-    getFragmentLinkChartOutline: (
+    // getFragmentLinkChartOutline: (
+    //     state: IState,
+    //     fragment: IRenderFragment
+    // ): void => {
+
+    //     const outline = fragment.section.outline;
+
+    //     if (!outline) {
+    //         return;
+    //     }
+
+    //     const outlineNode = gStateCode.getCached_outlineNode(
+    //         state,
+    //         fragment.section.linkID,
+    //         fragment.id
+    //     );
+
+    //     if (outlineNode?.c == null) {
+    //         return;
+    //     }
+
+    //     const outlineChart = gOutlineCode.getOutlineChart(
+    //         outline,
+    //         outlineNode?.c
+    //     );
+
+    //     gOutlineCode.getOutlineFromChart_subscription(
+    //         state,
+    //         outlineChart,
+    //         fragment
+    //     );
+    // },
+
+    getLinkOutline_subscripion: (
         state: IState,
-        fragment: IRenderFragment
+        option: IRenderFragment,
     ): void => {
 
-        const outline = fragment.section.outline;
+        const outline = option.section.outline;
 
         if (!outline) {
             return;
@@ -433,11 +630,13 @@ const gOutlineCode = {
 
         const outlineNode = gStateCode.getCached_outlineNode(
             state,
-            fragment.section.linkID,
-            fragment.id
+            option.section.linkID,
+            option.id
         );
 
-        if (outlineNode?.c == null) {
+        if (outlineNode?.c == null
+            || state.renderState.isChainLoad === true // Will load it from a segment
+        ) {
             return;
         }
 
@@ -449,7 +648,45 @@ const gOutlineCode = {
         gOutlineCode.getOutlineFromChart_subscription(
             state,
             outlineChart,
-            fragment
+            option
+        );
+    },
+
+    getPodOutline_subscripion: (
+        state: IState,
+        option: IRenderFragment,
+        section: IDisplaySection,
+    ): void => {
+
+        if (U.isNullOrWhiteSpace(option.podKey) === true) {
+            return;
+        }
+
+        const outline = section.outline;
+
+        if (!outline) {
+            return;
+        }
+
+        const outlineNode = gStateCode.getCached_outlineNode(
+            state,
+            option.section.linkID,
+            option.id
+        );
+
+        if (outlineNode?.d == null) {
+            return;
+        }
+
+        const outlineChart = gOutlineCode.getOutlineChart(
+            outline,
+            outlineNode?.d
+        );
+
+        gOutlineCode.getOutlineFromPod_subscription(
+            state,
+            outlineChart,
+            option
         );
     },
 
@@ -657,6 +894,99 @@ const gOutlineCode = {
         }
     },
 
+    getOutlineFromPod_subscription: (
+        state: IState,
+        chart: IRenderOutlineChart | null,
+        optionFragment: IRenderFragment
+    ): void => {
+
+        if (!chart) {
+
+            throw new Error('OutlineChart was null');
+        }
+
+        if (optionFragment.link?.root) {
+
+            console.log(`Link root already loaded: ${optionFragment.link.root?.id}`);
+
+            return;
+        }
+
+        const outlineChartPath = chart?.p as string;
+        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+
+        if (U.isNullOrWhiteSpace(fragmentFolderUrl)) {
+            return;
+        }
+
+        const outline = gOutlineCode.getOutline(
+            state,
+            fragmentFolderUrl
+        );
+
+        if (outline.loaded === true) {
+
+            if (!optionFragment.pod) {
+
+                gOutlineCode.buildDisplayChartFromOutlineForNewPod(
+                    state,
+                    chart,
+                    outline,
+                    optionFragment
+                );
+            }
+
+            gOutlineCode.postGetPodOutlineRoot_subscription(
+                state,
+                optionFragment.pod as IDisplaySection
+            );
+        }
+        else {
+            const url: string = `${fragmentFolderUrl}/${gFileConstants.guideOutlineFilename}`;
+
+            const loadRequested = gOutlineCode.registerOutlineUrlDownload(
+                state,
+                url
+            );
+
+            if (loadRequested === true) {
+                return;
+            }
+
+            let name: string;
+
+            if (state.renderState.isChainLoad === true) {
+
+                name = `loadChainChartOutlineFile`;
+            }
+            else {
+                name = `loadChartOutlineFile`;
+            }
+
+            const loadDelegate = (
+                state: IState,
+                outlineResponse: any
+            ): IStateAnyArray => {
+
+                return gOutlineActions.loadPodOutlineProperties(
+                    state,
+                    outlineResponse,
+                    outline,
+                    chart,
+                    optionFragment
+                );
+            };
+
+            gStateCode.AddReLoadDataEffectImmediate(
+                state,
+                name,
+                ParseType.Json,
+                url,
+                loadDelegate
+            );
+        }
+    },
+
     loadOutlineProperties: (
         state: IState,
         rawOutline: any,
@@ -701,6 +1031,19 @@ const gOutlineCode = {
     ): void => {
 
         cacheNodeForNewLink(
+            state,
+            outline.r,
+            linkID
+        );
+    },
+
+    loadOutlinePropertiesForNewPod: (
+        state: IState,
+        outline: IRenderOutline,
+        linkID: number
+    ): void => {
+
+        cacheNodeForNewPod(
             state,
             outline.r,
             linkID
