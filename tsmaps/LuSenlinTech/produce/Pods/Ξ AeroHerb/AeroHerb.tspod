@@ -1,0 +1,37 @@
+{
+    "key": "wT8JrY00Sv  ",
+    "token": "Aeroherb",
+    "name": "AeroHerb",
+    "created": "2025-10-12T23:30:00.981Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ AeroHerb/AeroHerb.tspod",
+    "isPod": true,
+    "iText": "Link to 'AeroHerb'",
+    "___rΩΩt___": {
+        "key": "wT8Nsn019H",
+        "nodes": [
+            {
+                "key": "wT8Wuh01KJ",
+                "order": 1,
+                "option": "AeroHerb details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wT8Nsn019H",
+            "relativePath": "./δ steps/δ-wT8Nsn019H.tsstp"
+        },
+        {
+            "key": "δ-wT8Wuh01KJ",
+            "relativePath": "./δ steps/δ-wT8Wuh01KJ.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wTKIP401AC",
+        "editorID": "car_5bee90bc086241e582a61af2c78d313b",
+        "ticks": 1760314655306
+    }
+}

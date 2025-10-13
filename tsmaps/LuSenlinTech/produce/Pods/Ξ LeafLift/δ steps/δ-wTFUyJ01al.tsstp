@@ -1,0 +1,5 @@
+¬import smt from "../../../_shared/soloModulesTable"
+
+
+{{smt.leafLiftRow}}
+{: .nt-fr-columns}

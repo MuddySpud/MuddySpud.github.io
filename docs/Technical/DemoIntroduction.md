@@ -7,11 +7,11 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"voARer1l4","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"voARer1l4","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"voARer2X2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"voARez06w","order":1},{"id":"voARfO0GM","option":"The Features You'll See...","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"wXkFyp1Pk","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"wXkFyp1Pk","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"wXkFyp0MR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"wXkFyv2ZA","order":1},{"id":"wXkFzS0l9","option":"The Features You'll See...","order":2,"isAncillary":true}]}} -->
 
 ## Explore a Docs Assembler Solution
 
 To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
 
-We needed a demo that was technically complex yet universally relatable. A robotics diagnostic guide, while highly complex, is impenetrable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
+We needed a demo that was technically complex yet universally relatable. A robotics manual/fault-lexicon, while highly complex, is impenetrable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
 

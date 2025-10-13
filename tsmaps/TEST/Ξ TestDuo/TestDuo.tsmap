@@ -1,0 +1,47 @@
+{
+    "key": "wVTjzw02J1  ",
+    "token": "Testduo",
+    "name": "TestDuo",
+    "created": "2025-10-13T09:07:39.004Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestDuo/TestDuo.tsmap",
+    "iText": "Link to 'TestDuo'",
+    "___rΩΩt___": {
+        "key": "wVTo1T01sz",
+        "nodes": [
+            {
+                "key": "wVTrcH01K4",
+                "order": 1,
+                "iKey": "wT7bgA0242",
+                "nodes": [
+                    {
+                        "key": "wVUEo902V6",
+                        "order": 1,
+                        "option": "Exit 1",
+                        "isLeaf": true,
+                        "iExitKey": "wTGaAV00qB"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wVTo1T01sz",
+            "relativePath": "./δ steps/δ-wVTo1T01sz.tsstp"
+        },
+        {
+            "key": "δ-wVTrcH01K4",
+            "relativePath": "./δ steps/δ-wVTrcH01K4.tsstp"
+        },
+        {
+            "key": "δ-wVUEo902V6",
+            "relativePath": "./δ steps/δ-wVUEo902V6.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wVWdVH01uv",
+        "editorID": "car_ba1d0a1625384034bc1af55281e40f7c",
+        "ticks": 1760347149023
+    }
+}

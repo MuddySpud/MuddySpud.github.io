@@ -1,18 +1,18 @@
 {
     "v": "1",
     "r": {
-        "i": "voASGQ1sI",
+        "i": "wXkGTT162",
         "n": "uXWCZj01hK",
         "c": 0,
         "o": [
             {
-                "i": "voASGQ2Tf",
+                "i": "wXkGTT0ju",
                 "n": "uXWbKO00l9",
                 "x": "s7LPpx0rd",
                 "c": 1,
                 "o": [
                     {
-                        "i": "voASGQ0w9",
+                        "i": "wXkGTT28J",
                         "n": "vo3sZp024X",
                         "x": "vcIsGq01w8",
                         "_x": "uXWh9501j7"
@@ -20,14 +20,30 @@
                 ]
             },
             {
-                "i": "voASGm1OR",
+                "i": "wXkGTn1vc",
                 "n": "uXWbKO005u",
                 "x": "s7LPpx09N",
+                "c": 2,
                 "o": [
                     {
-                        "i": "voASGs1qS",
-                        "n": "uXhl5J01Wq",
-                        "_x": "uXWh9501j7"
+                        "i": "wXkGTt0Ve",
+                        "n": "wTHcKW021G",
+                        "x": "wTGaAV00qB",
+                        "o": [
+                            {
+                                "i": "wXkGTx2SL",
+                                "n": "wTNfxC00tS",
+                                "c": 2,
+                                "o": [
+                                    {
+                                        "i": "wXkGTx0fy",
+                                        "n": "wTNnxq00l3",
+                                        "x": "wTGaAV00qB",
+                                        "_x": "uXWh9501j7"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -41,6 +57,10 @@
         {
             "i": "ua27ri00bb",
             "p": "_site/LuSenlinTech/produce/SoloModules_frags"
+        },
+        {
+            "i": "wT7bgA0242",
+            "p": "_site/LuSenlinTech/produce/DuoModules_frags"
         }
     ],
     "e": 1

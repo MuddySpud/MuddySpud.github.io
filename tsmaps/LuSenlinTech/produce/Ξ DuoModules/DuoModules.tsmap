@@ -1,0 +1,59 @@
+{
+    "key": "wT7bgA0242  ",
+    "token": "Duomodules",
+    "name": "DuoModules",
+    "created": "2025-10-12T23:27:11.139Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ DuoModules/DuoModules.tsmap",
+    "iText": "Link to 'DuoModules'",
+    "iExits": [
+        {
+            "key": "wTGaAV00qB",
+            "text": "Exit 1",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wT7eOx01wI",
+        "nodes": [
+            {
+                "key": "wT7k3Q00Zi",
+                "order": 1,
+                "class": "split-table",
+                "nodes": [
+                    {
+                        "key": "wT7oQ5020i",
+                        "order": 1,
+                        "option": "Select AeroHerb",
+                        "exitKey": "wTGaAV00qB",
+                        "podKey": "wT8JrY00Sv",
+                        "podText": "Link to 'AeroHerb'"
+                    },
+                    {
+                        "key": "wTGDR001Mc",
+                        "order": 2,
+                        "option": "Select LeafLift",
+                        "exitKey": "wTGaAV00qB",
+                        "podKey": "wTFT3M01sz",
+                        "podText": "Link to 'LeafLift'"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wT7eOx01wI",
+            "relativePath": "./δ steps/δ-wT7eOx01wI.tsstp"
+        },
+        {
+            "key": "δ-wT7k3Q00Zi",
+            "relativePath": "./δ steps/δ-wT7k3Q00Zi.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wTGg4S00nW",
+        "editorID": "car_07bfc62360d941528209b049014f48f9",
+        "ticks": 1760313792972
+    }
+}

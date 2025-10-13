@@ -54,8 +54,32 @@
                             {
                                 "key": "uXhl5J01Wq",
                                 "order": 1,
-                                "option": "Next",
-                                "exitKey": "uXWh9501j7"
+                                "iKey": "wT7bgA0242",
+                                "nodes": [
+                                    {
+                                        "key": "wTHcKW021G",
+                                        "order": 1,
+                                        "option": "Exit 1",
+                                        "iExitKey": "wTGaAV00qB",
+                                        "nodes": [
+                                            {
+                                                "key": "wTNfxC00tS",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "iKey": "wT7bgA0242",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wTNnxq00l3",
+                                                        "order": 1,
+                                                        "option": "Exit 1",
+                                                        "iExitKey": "wTGaAV00qB",
+                                                        "exitKey": "uXWh9501j7"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -85,11 +109,29 @@
         {
             "key": "δ-ua15UT000c",
             "relativePath": "./δ steps/δ-ua15UT000c.tsstp"
+        },
+        {
+            "key": "δ-uXhl5J01Wq",
+            "content": "Link to 'DuoModules'",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-uXhl5J01Wq.tsstp"
+        },
+        {
+            "key": "δ-wTHcKW021G",
+            "content": "## Module 2\n\n##### *Which Crop Category do you want to grow?*\n\n",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-wTHcKW021G.tsstp"
+        },
+        {
+            "key": "δ-wTNfxC00tS",
+            "content": "Link to 'DuoModules'",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-wTNfxC00tS.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "vo7de9024e",
-        "editorID": "me_7363d7ed21b24f76ae79750756160450",
-        "ticks": 1759705808925
+        "id": "wTNpKW02bE",
+        "editorID": "car_f9f611300b38480ea4d14f4b7c3374e3",
+        "ticks": 1760315496860
     }
 }

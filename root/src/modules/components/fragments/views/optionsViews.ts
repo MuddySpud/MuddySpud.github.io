@@ -7,6 +7,7 @@ import FragmentPayload from "../../../state/ui/payloads/FragmentPayload";
 import U from "../../../global/gUtilities";
 import fragmentViews from "./fragmentViews";
 import gFragmentCode from "../../../global/code/gFragmentCode";
+import podViews from "./podViews";
 
 
 const buildAncillaryDiscussionView = (ancillary: IRenderFragment): Children[] => {
@@ -141,13 +142,20 @@ const BuildExpandedOptionView = (
         return null;
     }
 
+    let buttonClass = "nt-fr-option";
+
+    if (option.pod?.root) {
+
+        buttonClass = `${buttonClass} nt-fr-pod-button`;
+    }
+
     const view: VNode =
 
         h("div", { class: "nt-fr-option-box" },
             [
                 h("a",
                     {
-                        class: "nt-fr-option",
+                        class: `${buttonClass}`,
                         onMouseDown: [
                             fragmentActions.showOptionNode,
                             (_event: any) => {
@@ -159,6 +167,8 @@ const BuildExpandedOptionView = (
                         ]
                     },
                     [
+                        podViews.buildView(option),
+
                         h("span", {}, option.option)
                     ]
                 )
@@ -262,17 +272,26 @@ const buildExpandedOptionsBoxView = (
 
 const buildCollapsedOptionsView = (fragment: IRenderFragment): VNode => {
 
+    let buttonClass = "nt-fr-fragment-options nt-fr-collapsed";
+
+    if (fragment.selected?.pod?.root) {
+
+        buttonClass = `${buttonClass} nt-fr-pod-button`;
+    }
+
     const view: VNode =
 
         h("a",
             {
-                class: `nt-fr-fragment-options nt-fr-collapsed`,
+                class: `${buttonClass}`,
                 onMouseDown: [
                     fragmentActions.expandOptions,
                     (_event: any) => fragment
                 ]
             },
             [
+                podViews.buildView(fragment.selected),
+
                 h("span", { class: `nt-fr-option-selected` }, `${fragment.selected?.option}`),
             ]
         );

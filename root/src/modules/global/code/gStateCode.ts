@@ -72,7 +72,8 @@ const gStateCode = {
             .reLoadGetHttpImmediate
             .find((effect: IHttpEffect) => {
 
-                return effect.name === name;
+                return effect.name === name
+                    && effect.url === url;
             });
 
         if (effect) { // already added.

@@ -1,0 +1,37 @@
+{
+    "key": "wTFT3M01sz  ",
+    "token": "Leaflift",
+    "name": "LeafLift",
+    "created": "2025-10-12T23:58:24.605Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ LeafLift/LeafLift.tspod",
+    "isPod": true,
+    "iText": "Link to 'LeafLift'",
+    "___rΩΩt___": {
+        "key": "wTFUyJ01al",
+        "nodes": [
+            {
+                "key": "wTFin6019N",
+                "order": 1,
+                "option": "LeafLift details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wTFUyJ01al",
+            "relativePath": "./δ steps/δ-wTFUyJ01al.tsstp"
+        },
+        {
+            "key": "δ-wTFin6019N",
+            "relativePath": "./δ steps/δ-wTFin6019N.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wTKGiC02QP",
+        "editorID": "car_7c9783594a354701bd86ddb5662e866f",
+        "ticks": 1760314648804
+    }
+}
