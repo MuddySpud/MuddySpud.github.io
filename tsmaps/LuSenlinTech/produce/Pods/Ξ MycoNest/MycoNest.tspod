@@ -1,0 +1,37 @@
+{
+    "key": "wkMEfW00lE  ",
+    "token": "Myconest",
+    "name": "MycoNest",
+    "created": "2025-10-15T22:11:55.319Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ MycoNest/MycoNest.tspod",
+    "isPod": true,
+    "iText": "Link to 'MycoNest'",
+    "___rΩΩt___": {
+        "key": "wkMFlg013B",
+        "nodes": [
+            {
+                "key": "wkMJCJ01c8",
+                "order": 1,
+                "option": "MycoNest details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkMFlg013B",
+            "relativePath": "./δ steps/δ-wkMFlg013B.tsstp"
+        },
+        {
+            "key": "δ-wkMJCJ01c8",
+            "relativePath": "./δ steps/δ-wkMJCJ01c8.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkMNVr02JN",
+        "editorID": "car_a097ee3edd6043c9b71f05d7ebe6a857",
+        "ticks": 1760566349315
+    }
+}

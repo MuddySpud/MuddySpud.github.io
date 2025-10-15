@@ -1,0 +1,37 @@
+{
+    "key": "wkNV3B00J5  ",
+    "token": "Gasterpod",
+    "name": "GasterPod",
+    "created": "2025-10-15T22:16:56.617Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ GasterPod/GasterPod.tspod",
+    "isPod": true,
+    "iText": "Link to 'GasterPod'",
+    "___rΩΩt___": {
+        "key": "wkNW0c02Vi",
+        "nodes": [
+            {
+                "key": "wkNcWs02Pu",
+                "order": 1,
+                "option": "GasterPod details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkNW0c02Vi",
+            "relativePath": "./δ steps/δ-wkNW0c02Vi.tsstp"
+        },
+        {
+            "key": "δ-wkNcWs02Pu",
+            "relativePath": "./δ steps/δ-wkNcWs02Pu.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkNl9k003X",
+        "editorID": "car_e101005064a34208ba1b906e1fdbb9b2",
+        "ticks": 1760566678528
+    }
+}

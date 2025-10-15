@@ -1,0 +1,37 @@
+{
+    "key": "welyCL01D4  ",
+    "token": "Stemstack",
+    "name": "StemStack",
+    "created": "2025-10-14T23:16:30.517Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ StemStack/StemStack.tspod",
+    "isPod": true,
+    "iText": "Link to 'StemStack'",
+    "___rΩΩt___": {
+        "key": "welz1i00Vj",
+        "nodes": [
+            {
+                "key": "wemMPe00LW",
+                "order": 1,
+                "option": "StemStack details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-welz1i00Vj",
+            "relativePath": "./δ steps/δ-welz1i00Vj.tsstp"
+        },
+        {
+            "key": "δ-wemMPe00LW",
+            "relativePath": "./δ steps/δ-wemMPe00LW.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wemcbR02E3",
+        "editorID": "car_5a5d555fbce843ccb781809a3d88aa90",
+        "ticks": 1760483945833
+    }
+}

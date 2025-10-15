@@ -1,0 +1,37 @@
+{
+    "key": "wkPyeJ01n1  ",
+    "token": "Finwave",
+    "name": "FinWave",
+    "created": "2025-10-15T22:26:47.051Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ FinWave/FinWave.tspod",
+    "isPod": true,
+    "iText": "Link to 'FinWave'",
+    "___rΩΩt___": {
+        "key": "wkPzjL02BQ",
+        "nodes": [
+            {
+                "key": "wkQ3jl0275",
+                "order": 1,
+                "option": "FinWave details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkPzjL02BQ",
+            "relativePath": "./δ steps/δ-wkPzjL02BQ.tsstp"
+        },
+        {
+            "key": "δ-wkQ3jl0275",
+            "relativePath": "./δ steps/δ-wkQ3jl0275.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkQ8S301Em",
+        "editorID": "car_4e1fa8d264c048b3b740fe5dce71bc0c",
+        "ticks": 1760567244731
+    }
+}

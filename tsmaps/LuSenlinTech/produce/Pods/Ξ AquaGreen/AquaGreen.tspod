@@ -1,0 +1,37 @@
+{
+    "key": "wkLWL000li  ",
+    "token": "Aquagreen",
+    "name": "AquaGreen",
+    "created": "2025-10-15T22:09:04.910Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ AquaGreen/AquaGreen.tspod",
+    "isPod": true,
+    "iText": "Link to 'AquaGreen'",
+    "___rΩΩt___": {
+        "key": "wkLXmG00oc",
+        "nodes": [
+            {
+                "key": "wkLcwu00D9",
+                "order": 1,
+                "option": "AquaGreen details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkLXmG00oc",
+            "relativePath": "./δ steps/δ-wkLXmG00oc.tsstp"
+        },
+        {
+            "key": "δ-wkLcwu00D9",
+            "relativePath": "./δ steps/δ-wkLcwu00D9.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkLzXT00fF",
+        "editorID": "car_29da568c5f614b14b471d0d47ec863f7",
+        "ticks": 1760566257159
+    }
+}

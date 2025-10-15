@@ -13,8 +13,8 @@ duo modules can't have fish or crustaceans
   Then try and generate images for frames and modules with plants added.
   As Adrian said with his image.
 
-  Need to always make sure start with title that matches previous selected option.
+  Need to always make sure start with title that matches previous selected option. ie option selected must be followed by a markdown heading with the same text as option.
   
-  Adapt renderer to show pod in option.
-  CSS for pod in option.
+  Need javascript so clicking ancillary in option pod does not trigger option button - check deepseek.
+
 

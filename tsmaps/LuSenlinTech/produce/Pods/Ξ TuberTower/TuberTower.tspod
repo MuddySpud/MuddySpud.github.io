@@ -1,0 +1,37 @@
+{
+    "key": "wkPL1J00M3  ",
+    "token": "Tubertower",
+    "name": "TuberTower",
+    "created": "2025-10-15T22:24:14.717Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ TuberTower/TuberTower.tspod",
+    "isPod": true,
+    "iText": "Link to 'TuberTower'",
+    "___rΩΩt___": {
+        "key": "wkPLta01tp",
+        "nodes": [
+            {
+                "key": "wkPSZJ02TT",
+                "order": 1,
+                "option": "TuberTower details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkPLta01tp",
+            "relativePath": "./δ steps/δ-wkPLta01tp.tsstp"
+        },
+        {
+            "key": "δ-wkPSZJ02TT",
+            "relativePath": "./δ steps/δ-wkPSZJ02TT.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkPa9B02AH",
+        "editorID": "car_f9e82841002a4873859718a7bc79f397",
+        "ticks": 1760567112865
+    }
+}

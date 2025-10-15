@@ -1,0 +1,6 @@
+¬import smt from "../../../_shared/soloModulesTable"
+
+
+{{smt.shellWaveRow}}
+{: .nt-fr-columns}
+

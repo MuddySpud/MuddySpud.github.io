@@ -1,0 +1,13 @@
+¬import g from "../../../../_shared/glossary"
+
+
+###### Technologies
+  
+- {{g.bioflocCultureTank}}
+- {{g.rotatingDrumFilter}}
+- {{g.precisionHeatWaterJacket}}
+
+###### Harvest Enhancements
+  
+- {{g.roboticDipNet}}
+

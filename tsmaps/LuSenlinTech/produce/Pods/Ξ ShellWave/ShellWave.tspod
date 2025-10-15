@@ -1,0 +1,37 @@
+{
+    "key": "wkO7nN00Y9  ",
+    "token": "Shellwave",
+    "name": "ShellWave",
+    "created": "2025-10-15T22:19:25.553Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ ShellWave/ShellWave.tspod",
+    "isPod": true,
+    "iText": "Link to 'ShellWave'",
+    "___rΩΩt___": {
+        "key": "wkO99L02IR",
+        "nodes": [
+            {
+                "key": "wkOBoH00rR",
+                "order": 1,
+                "option": "ShellWave details",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wkO99L02IR",
+            "relativePath": "./δ steps/δ-wkO99L02IR.tsstp"
+        },
+        {
+            "key": "δ-wkOBoH00rR",
+            "relativePath": "./δ steps/δ-wkOBoH00rR.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wkONqk021j",
+        "editorID": "car_05a033a1980a4e03a6e6e39064786a64",
+        "ticks": 1760566827266
+    }
+}
