@@ -25,17 +25,33 @@
                         "key": "wT7oQ5020i",
                         "order": 1,
                         "option": "Select AeroHerb",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wT8JrY00Sv",
-                        "podText": "Link to 'AeroHerb'"
+                        "nodes": [
+                            {
+                                "key": "wkWxAj00GX",
+                                "order": 1,
+                                "iKey": "wqSrAG00n4",
+                                "nodes": [
+                                    {
+                                        "key": "wqTtUe00bd",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wqTeGi01qL",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wTGDR001Mc",
                         "order": 2,
                         "option": "Select LeafLift",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wTFT3M01sz",
-                        "podText": "Link to 'LeafLift'"
+                        "nodes": [
+                            {
+                                "key": "wqJJwF009V",
+                                "order": 1
+                            }
+                        ]
                     },
                     {
                         "key": "wekFZq023a",
@@ -145,11 +161,23 @@
         {
             "key": "δ-wT7k3Q00Zi",
             "relativePath": "./δ steps/δ-wT7k3Q00Zi.tsstp"
+        },
+        {
+            "key": "δ-wT7oQ5020i",
+            "relativePath": "./δ steps/δ-wT7oQ5020i.tsstp"
+        },
+        {
+            "key": "δ-wkWxAj00GX",
+            "relativePath": "./δ steps/δ-wkWxAj00GX.tsstp"
+        },
+        {
+            "key": "δ-wTGDR001Mc",
+            "relativePath": "./δ steps/δ-wTGDR001Mc.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wkQQfm01BT",
-        "editorID": "car_05ce933f325946709be17beca9802ea6",
-        "ticks": 1760567314774
+        "id": "wqTvSk00bK",
+        "editorID": "car_def395c02cc04e4cbb2823bf0b2bb271",
+        "ticks": 1760656806130
     }
 }

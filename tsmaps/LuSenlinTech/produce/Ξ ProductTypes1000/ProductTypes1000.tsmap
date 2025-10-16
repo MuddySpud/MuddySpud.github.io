@@ -42,126 +42,14 @@
                                             {
                                                 "key": "s7SMQM0rE",
                                                 "order": 1,
-                                                "iKey": "s7LPsx1UQ",
+                                                "iKey": "wqN5QP02Zh",
                                                 "nodes": [
                                                     {
-                                                        "key": "s7SMQM0C7",
+                                                        "key": "wqRle500YD",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iExitKey": "s7LPsx14a",
-                                                        "variable": "herbBay = 2",
-                                                        "nodes": [
-                                                            {
-                                                                "key": "s7SMQM22A",
-                                                                "order": 1,
-                                                                "iKey": "s7LPsx1UQ",
-                                                                "nodes": [
-                                                                    {
-                                                                        "key": "s7SMQM0Tq",
-                                                                        "order": 1,
-                                                                        "option": "Next",
-                                                                        "iExitKey": "s7LPsx14a",
-                                                                        "variable": "herbBay = 3",
-                                                                        "nodes": [
-                                                                            {
-                                                                                "key": "s7SMQM2FA",
-                                                                                "order": 1,
-                                                                                "iKey": "s7LPsx1UQ",
-                                                                                "nodes": [
-                                                                                    {
-                                                                                        "key": "s7SMQM0MY",
-                                                                                        "order": 1,
-                                                                                        "option": "Next",
-                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                        "variable": "herbBay = 4",
-                                                                                        "nodes": [
-                                                                                            {
-                                                                                                "key": "s7SMQM0ZB",
-                                                                                                "order": 1,
-                                                                                                "iKey": "s7LPsx1UQ",
-                                                                                                "nodes": [
-                                                                                                    {
-                                                                                                        "key": "s7SMQM0TJ",
-                                                                                                        "order": 1,
-                                                                                                        "option": "Next",
-                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                        "variable": "herbBay = 5",
-                                                                                                        "nodes": [
-                                                                                                            {
-                                                                                                                "key": "s7SMQM12p",
-                                                                                                                "order": 1,
-                                                                                                                "iKey": "s7LPsx1UQ",
-                                                                                                                "nodes": [
-                                                                                                                    {
-                                                                                                                        "key": "s7SMQM0jh",
-                                                                                                                        "order": 1,
-                                                                                                                        "option": "Next",
-                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                        "variable": "herbBay = 6",
-                                                                                                                        "nodes": [
-                                                                                                                            {
-                                                                                                                                "key": "s7SMQM0ea",
-                                                                                                                                "order": 1,
-                                                                                                                                "iKey": "s7LPsx1UQ",
-                                                                                                                                "nodes": [
-                                                                                                                                    {
-                                                                                                                                        "key": "s7SMQM0n1",
-                                                                                                                                        "order": 1,
-                                                                                                                                        "option": "Next",
-                                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                                        "variable": "herbBay = 7",
-                                                                                                                                        "nodes": [
-                                                                                                                                            {
-                                                                                                                                                "key": "s7SMQM0FT",
-                                                                                                                                                "order": 1,
-                                                                                                                                                "iKey": "s7LPsx1UQ",
-                                                                                                                                                "nodes": [
-                                                                                                                                                    {
-                                                                                                                                                        "key": "s7SMQM0Qq",
-                                                                                                                                                        "order": 1,
-                                                                                                                                                        "option": "Next",
-                                                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                                                        "variable": "herbBay = 8",
-                                                                                                                                                        "nodes": [
-                                                                                                                                                            {
-                                                                                                                                                                "key": "s7SMQM0IE",
-                                                                                                                                                                "order": 1,
-                                                                                                                                                                "iKey": "s7LPsx1UQ",
-                                                                                                                                                                "nodes": [
-                                                                                                                                                                    {
-                                                                                                                                                                        "key": "smXtNL0156",
-                                                                                                                                                                        "order": 1,
-                                                                                                                                                                        "option": "Next",
-                                                                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                                                                        "exitKey": "s7SMQM2ZQ"
-                                                                                                                                                                    }
-                                                                                                                                                                ]
-                                                                                                                                                            }
-                                                                                                                                                        ]
-                                                                                                                                                    }
-                                                                                                                                                ]
-                                                                                                                                            }
-                                                                                                                                        ]
-                                                                                                                                    }
-                                                                                                                                ]
-                                                                                                                            }
-                                                                                                                        ]
-                                                                                                                    }
-                                                                                                                ]
-                                                                                                            }
-                                                                                                        ]
-                                                                                                    }
-                                                                                                ]
-                                                                                            }
-                                                                                        ]
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        ]
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
+                                                        "option": "Exit",
+                                                        "iExitKey": "wqOwpY00zX",
+                                                        "exitKey": "s7SMQM2ZQ"
                                                     }
                                                 ]
                                             }
@@ -998,59 +886,7 @@
         },
         {
             "key": "δ-s7SMQM0rE",
-            "relativePath": "./δ steps/δ-qEC3bj01tr.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0C7",
-            "relativePath": "./δ steps/δ-qHeKPo01rg.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM22A",
-            "relativePath": "./δ steps/δ-qHeLsW01nD.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0Tq",
-            "relativePath": "./δ steps/δ-qHkrZf01vP.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM2FA",
-            "relativePath": "./δ steps/δ-qHkw6u01H2.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0MY",
-            "relativePath": "./δ steps/δ-qHoBhC00z9.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0ZB",
-            "relativePath": "./δ steps/δ-qHoDzi01dX.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0TJ",
-            "relativePath": "./δ steps/δ-qHqzVv02Tx.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM12p",
-            "relativePath": "./δ steps/δ-qHr0Ex00Fy.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0jh",
-            "relativePath": "./δ steps/δ-qHr3TS018R.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0ea",
-            "relativePath": "./δ steps/δ-qHr7kf02Zw.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0n1",
-            "relativePath": "./δ steps/δ-qHrBwR0041.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0FT",
-            "relativePath": "./δ steps/δ-qHrD6j002Q.tsstp"
-        },
-        {
-            "key": "δ-s7SMQM0Qq",
-            "relativePath": "./δ steps/δ-qHrGgP014I.tsstp"
+            "relativePath": "./δ steps/δ-s7SMQM0rE.tsstp"
         },
         {
             "key": "t8p7bo02Of",
@@ -1107,10 +943,6 @@
             "relativePath": "./δ steps/δ-sArAE700Cz.tsstp"
         },
         {
-            "key": "δ-s7SMQM0IE",
-            "relativePath": "./δ steps/δ-s7SMQM0IE.tsstp"
-        },
-        {
             "key": "δ-sAqzon02MS",
             "relativePath": "./δ steps/δ-sAqzon02MS.tsstp"
         },
@@ -1121,8 +953,8 @@
         }
     ],
     "___εdit___": {
-        "id": "tDifPK00Jy",
-        "editorID": "me_1393749986964b0cb4cf80e7f537fc26",
-        "ticks": 1757335643734
+        "id": "wqRqz301Qp",
+        "editorID": "car_497e5e7116904034a5cf1adcb9006a40",
+        "ticks": 1760656312257
     }
 }
