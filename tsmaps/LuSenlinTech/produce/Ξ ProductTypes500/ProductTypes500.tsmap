@@ -60,80 +60,21 @@
                                         "key": "s7SMPw2X6",
                                         "order": 2,
                                         "option": "Leafy greens",
-                                        "sharedAssetKey": "t94cmQ00Fm",
-                                        "variable": "leafyGreens",
+                                        "sharedAssetKey": "wtGg7100cy",
                                         "nodes": [
                                             {
-                                                "key": "s7SMPw0Si",
+                                                "key": "wstONd00R7",
                                                 "order": 1,
-                                                "option": "Skyline Romaine",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1BO",
-                                                "order": 2,
-                                                "option": "Nano-Kale ‘BlueFin’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1vv",
-                                                "order": 3,
-                                                "option": "Dwarf Bok-Choy ‘Pearl’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1dB",
-                                                "order": 4,
-                                                "option": "Butterhead Lettuce ‘Silk-Butter’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2Mr",
-                                                "order": 5,
-                                                "option": "Tatsoi ‘Sprint’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1NX",
-                                                "order": 6,
-                                                "option": "Komatsuna ‘Metro-Spin’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw18N",
-                                                "order": 7,
-                                                "option": "Rainbow Swiss Chard ‘Pixel-Stem’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0ti",
-                                                "order": 8,
-                                                "option": "Spinach ‘HeatGuard’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2GS",
-                                                "order": 9,
-                                                "option": "Mizuna ‘Fringe’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0dm",
-                                                "order": 10,
-                                                "option": "Arugula ‘Rocket-Flash’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw04y",
-                                                "order": 11,
-                                                "option": "Red Leaf Lettuce ‘Ruby Drift’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Y1",
-                                                "order": 12,
-                                                "option": "Watercress ‘Hydro-Pepper’",
-                                                "exitKey": "s7SMPw1Te"
+                                                "iKey": "wsqXK702Nl",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wstUdl01Nm",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wss8h901vX",
+                                                        "exitKey": "s7SMPw1Te"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -141,80 +82,21 @@
                                         "key": "s7SMPw0nf",
                                         "order": 3,
                                         "option": "Fruiting veg",
-                                        "sharedAssetKey": "t94kPS00om",
-                                        "variable": "fruitingVegetables",
+                                        "sharedAssetKey": "wtKA5I00Dj",
                                         "nodes": [
                                             {
-                                                "key": "s7SMPw1lt",
+                                                "key": "wtK9ly0168",
                                                 "order": 1,
-                                                "option": "Patio Cherry Tomato ‘Sun-Dot’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1Rw",
-                                                "order": 2,
-                                                "option": "Micro Roma Tomato ‘Pixel-Plum’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1db",
-                                                "order": 3,
-                                                "option": "Snack Pepper ‘Metro-Sweet’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2V5",
-                                                "order": 4,
-                                                "option": "City Chili ‘FireDot’ - compact hot pepper",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0HW",
-                                                "order": 5,
-                                                "option": "Mini Cucumber ‘Rail-Runner’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0qs",
-                                                "order": 6,
-                                                "option": "Dwarf Zucchini ‘City-Zuke’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw05o",
-                                                "order": 7,
-                                                "option": "Micro Eggplant ‘Metro-Sakura’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0HK",
-                                                "order": 8,
-                                                "option": "Alpine Strawberry ‘EverPink’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Qg",
-                                                "order": 9,
-                                                "option": "Balcony Melon ‘Honey-Drop’ - mini honeydew",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2Cc",
-                                                "order": 10,
-                                                "option": "Snap Pea ‘Skyline Sugar’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0H4",
-                                                "order": 11,
-                                                "option": "Dwarf Yard-Long Bean ‘Short-Long’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1E2",
-                                                "order": 12,
-                                                "option": "Ground Cherry ‘Urban Lantern’",
-                                                "exitKey": "s7SMPw1Te"
+                                                "iKey": "wtF0Ww02Ne",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wtKTNf00UH",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wtJUdC01Gg",
+                                                        "exitKey": "s7SMPw1Te"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -878,16 +760,6 @@
             "relativePath": "./δ steps/δ-s7SMPw0qZ.tsstp"
         },
         {
-            "key": "t94cmQ00Fm",
-            "relativePath": "../_shared/LeafyGreens.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t94kPS00om",
-            "relativePath": "../_shared/FruitingVegetables.tsstp",
-            "isShared": true
-        },
-        {
             "key": "t94omA0066",
             "relativePath": "../_shared/RootsAndStems.tsstp",
             "isShared": true
@@ -941,11 +813,29 @@
             "key": "t93lUZ00Gt",
             "relativePath": "../_shared/FaunaCategories.tsstp",
             "isShared": true
+        },
+        {
+            "key": "wtGg7100cy",
+            "relativePath": "../_shared/LeafyGreens.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wstONd00R7",
+            "relativePath": "./δ steps/δ-wstONd00R7.tsstp"
+        },
+        {
+            "key": "wtKA5I00Dj",
+            "relativePath": "../_shared/FruitingVegetables.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtK9ly0168",
+            "relativePath": "./δ steps/δ-wtK9ly0168.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wqTlyL0090",
-        "editorID": "car_82d97e3700584bb18721ec72f9334966",
-        "ticks": 1760656769649
+        "id": "wtKVQC00JY",
+        "editorID": "car_190b86ad3aff41b1814e0f7391e2e63e",
+        "ticks": 1760698890084
     }
 }

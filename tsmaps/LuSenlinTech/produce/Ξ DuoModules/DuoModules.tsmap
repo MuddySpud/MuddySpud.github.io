@@ -25,6 +25,7 @@
                         "key": "wT7oQ5020i",
                         "order": 1,
                         "option": "Select AeroHerb",
+                        "sharedAssetKey": "wtGtLv00Es",
                         "nodes": [
                             {
                                 "key": "wkWxAj00GX",
@@ -46,10 +47,21 @@
                         "key": "wTGDR001Mc",
                         "order": 2,
                         "option": "Select LeafLift",
+                        "sharedAssetKey": "wtHkVV002A",
                         "nodes": [
                             {
                                 "key": "wqJJwF009V",
-                                "order": 1
+                                "order": 1,
+                                "iKey": "wsqXK702Nl",
+                                "nodes": [
+                                    {
+                                        "key": "wstnre00Ur",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wss8h901vX",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -57,9 +69,23 @@
                         "key": "wekFZq023a",
                         "order": 3,
                         "option": "Select FruitForge",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wekUww017C",
-                        "podText": "Link to 'FruitForge'"
+                        "sharedAssetKey": "wtKeqd00Pw",
+                        "nodes": [
+                            {
+                                "key": "wtKeSg00OL",
+                                "order": 1,
+                                "iKey": "wtF0Ww02Ne",
+                                "nodes": [
+                                    {
+                                        "key": "wtKrKK01Ss",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtJUdC01Gg",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "welEZr01uI",
@@ -163,21 +189,36 @@
             "relativePath": "./δ steps/δ-wT7k3Q00Zi.tsstp"
         },
         {
-            "key": "δ-wT7oQ5020i",
-            "relativePath": "./δ steps/δ-wT7oQ5020i.tsstp"
+            "key": "wtGtLv00Es",
+            "relativePath": "../_shared/AromaticHerbs_m.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wkWxAj00GX",
             "relativePath": "./δ steps/δ-wkWxAj00GX.tsstp"
         },
         {
-            "key": "δ-wTGDR001Mc",
-            "relativePath": "./δ steps/δ-wTGDR001Mc.tsstp"
+            "key": "wtHkVV002A",
+            "relativePath": "../_shared/LeafyGreens_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wqJJwF009V",
+            "relativePath": "./δ steps/δ-wqJJwF009V.tsstp"
+        },
+        {
+            "key": "wtKeqd00Pw",
+            "relativePath": "../_shared/FruitingVegetables_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtKeSg00OL",
+            "relativePath": "./δ steps/δ-wtKeSg00OL.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wqTvSk00bK",
-        "editorID": "car_def395c02cc04e4cbb2823bf0b2bb271",
-        "ticks": 1760656806130
+        "id": "wtKuNg00Bt",
+        "editorID": "car_509c8e91a5a8483c88ea920853d5aa8a",
+        "ticks": 1760698986028
     }
 }

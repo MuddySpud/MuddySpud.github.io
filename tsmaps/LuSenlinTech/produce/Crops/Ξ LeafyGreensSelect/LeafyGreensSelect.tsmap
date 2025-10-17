@@ -1,0 +1,105 @@
+{
+    "key": "wsqXK702Nl  ",
+    "token": "Leafygreensselect",
+    "name": "LeafyGreensSelect",
+    "created": "2025-10-17T09:02:27.555Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ LeafyGreensSelect/LeafyGreensSelect.tsmap",
+    "iText": "Link to 'LeafyGreensSelect'",
+    "iExits": [
+        {
+            "key": "wss8h901vX",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wsqbkF02b6",
+        "variable": "leafyGreens",
+        "nodes": [
+            {
+                "key": "wsqhiX002C",
+                "order": 1,
+                "option": "Skyline Romaine",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrkO4028L",
+                "order": 2,
+                "option": "Nano-Kale ‘BlueFin’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrlxE023z",
+                "order": 3,
+                "option": "Dwarf Bok-Choy ‘Pearl’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrnGV00If",
+                "order": 4,
+                "option": "Butterhead Lettuce ‘Silk-Butter’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrpYp01L4",
+                "order": 5,
+                "option": "Tatsoi ‘Sprint’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrqng02Rz",
+                "order": 6,
+                "option": "Komatsuna ‘Metro-Spin’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrsRO00U9",
+                "order": 7,
+                "option": "Rainbow Swiss Chard ‘Pixel-Stem’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrtnB01FF",
+                "order": 8,
+                "option": "Spinach ‘HeatGuard’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrvi702Rh",
+                "order": 9,
+                "option": "Mizuna ‘Fringe’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrxDi00p7",
+                "order": 10,
+                "option": "Arugula ‘Rocket-Flash’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsryYv02Pl",
+                "order": 11,
+                "option": "Red Leaf Lettuce ‘Ruby Drift’",
+                "exitKey": "wss8h901vX"
+            },
+            {
+                "key": "wsrzaN00O0",
+                "order": 12,
+                "option": "Watercress ‘Hydro-Pepper’",
+                "exitKey": "wss8h901vX"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wsqbkF02b6",
+            "relativePath": "./δ steps/δ-wsqbkF02b6.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wssLuq01U4",
+        "editorID": "car_7eee82961c73400583f51ae318a4caca",
+        "ticks": 1760692180360
+    }
+}

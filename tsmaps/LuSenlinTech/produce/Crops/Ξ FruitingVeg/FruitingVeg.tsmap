@@ -1,0 +1,105 @@
+{
+    "key": "wtF0Ww02Ne  ",
+    "token": "Fruitingveg",
+    "name": "FruitingVeg",
+    "created": "2025-10-17T10:39:39.698Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ FruitingVeg/FruitingVeg.tsmap",
+    "iText": "Link to 'FruitingVeg'",
+    "iExits": [
+        {
+            "key": "wtJUdC01Gg",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wtF2ho00GM",
+        "variable": "fruitingVeg",
+        "nodes": [
+            {
+                "key": "wtF9Hp01Js",
+                "order": 1,
+                "option": "Patio Cherry Tomato ‘Sun-Dot’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJExk00Ey",
+                "order": 2,
+                "option": "Micro Roma Tomato ‘Pixel-Plum’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJG6n01TO",
+                "order": 3,
+                "option": "Snack Pepper ‘Metro-Sweet’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJI4e01I5",
+                "order": 4,
+                "option": "City Chili ‘FireDot’ - compact hot pepper",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJJIU00Cd",
+                "order": 5,
+                "option": "Mini Cucumber ‘Rail-Runner’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJKfR02Pn",
+                "order": 6,
+                "option": "Dwarf Zucchini ‘City-Zuke’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJLqA01Mo",
+                "order": 7,
+                "option": "Micro Eggplant ‘Metro-Sakura’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJN5P0196",
+                "order": 8,
+                "option": "Alpine Strawberry ‘EverPink’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJOZl01gv",
+                "order": 9,
+                "option": "Balcony Melon ‘Honey-Drop’ - mini honeydew",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJPs102aA",
+                "order": 10,
+                "option": "Snap Pea ‘Skyline Sugar’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJRHY01i2",
+                "order": 11,
+                "option": "Dwarf Yard-Long Bean ‘Short-Long’",
+                "exitKey": "wtJUdC01Gg"
+            },
+            {
+                "key": "wtJSUs022h",
+                "order": 12,
+                "option": "Ground Cherry ‘Urban Lantern’",
+                "exitKey": "wtJUdC01Gg"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wtF2ho00GM",
+            "relativePath": "./δ steps/δ-wtF2ho00GM.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wtLQua02As",
+        "editorID": "car_1a218d83e6014fef8c1d74b0f5cd0ca0",
+        "ticks": 1760699111076
+    }
+}

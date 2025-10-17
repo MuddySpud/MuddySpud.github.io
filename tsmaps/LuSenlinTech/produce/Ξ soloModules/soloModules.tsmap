@@ -99,14 +99,21 @@
                                                                                                                                                 "key": "vnxZW700Xw",
                                                                                                                                                 "order": 1,
                                                                                                                                                 "option": "AeroHerb",
-                                                                                                                                                "iKey": "wqN5QP02Zh",
+                                                                                                                                                "sharedAssetKey": "wtHva800Tv",
                                                                                                                                                 "nodes": [
                                                                                                                                                     {
-                                                                                                                                                        "key": "wqSXfy0252",
+                                                                                                                                                        "key": "wtHvBx02Mu",
                                                                                                                                                         "order": 1,
-                                                                                                                                                        "option": "Exit",
-                                                                                                                                                        "iExitKey": "wqOwpY00zX",
-                                                                                                                                                        "exitKey": "vcIsGq01w8"
+                                                                                                                                                        "iKey": "wqN5QP02Zh",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "wtIRzf027a",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Exit",
+                                                                                                                                                                "iExitKey": "wqOwpY00zX",
+                                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                            }
+                                                                                                                                                        ]
                                                                                                                                                     }
                                                                                                                                                 ]
                                                                                                                                             },
@@ -114,7 +121,23 @@
                                                                                                                                                 "key": "vo31Lx00c6",
                                                                                                                                                 "order": 2,
                                                                                                                                                 "option": "LeafLift",
-                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                "sharedAssetKey": "wtIeG4013e",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "wtIdXE00cv",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "iKey": "wsqXK702Nl",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "wtIlR900IM",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Exit",
+                                                                                                                                                                "iExitKey": "wss8h901vX",
+                                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             },
                                                                                                                                             {
                                                                                                                                                 "key": "vo345j00Yp",
@@ -440,13 +463,27 @@
             "relativePath": "./δ steps/δ-vcH5Zc00ny.tsstp"
         },
         {
-            "key": "δ-vnxZW700Xw",
-            "relativePath": "./δ steps/δ-vnxZW700Xw.tsstp"
+            "key": "wtHva800Tv",
+            "relativePath": "../_shared/AromaticHerbs_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtHvBx02Mu",
+            "relativePath": "./δ steps/δ-wtHvBx02Mu.tsstp"
+        },
+        {
+            "key": "wtIeG4013e",
+            "relativePath": "../_shared/LeafyGreens_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtIdXE00cv",
+            "relativePath": "./δ steps/δ-wtIdXE00cv.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wqScpb02Dn",
-        "editorID": "car_5449df48044d455182c1b026a21424cb",
-        "ticks": 1760656496183
+        "id": "wtIn1R01Gg",
+        "editorID": "car_8b921fedd8ee4582a347e90b44f32b42",
+        "ticks": 1760698481085
     }
 }

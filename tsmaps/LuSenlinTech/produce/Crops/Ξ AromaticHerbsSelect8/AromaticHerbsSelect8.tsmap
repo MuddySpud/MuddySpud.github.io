@@ -4,7 +4,7 @@
     "name": "AromaticHerbsSelect8",
     "created": "2025-10-16T22:52:56.130Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ AromaticHerbsSelect8/AromaticHerbsSelect8.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ AromaticHerbsSelect8/AromaticHerbsSelect8.tsmap",
     "iText": "Link to 'AromaticHerbsSelect8'",
     "iExits": [
         {
@@ -14,104 +14,116 @@
         }
     ],
     "___rΩΩt___": {
-        "key": "wqNLXY01MK",
-        "variable": "herbBay = 1",
+        "key": "wtLakC01RD",
+        "sharedAssetKey": "wtMJ0f00DE",
+        "variable": "aromaticHerbs",
         "nodes": [
             {
-                "key": "wqNpMu011z",
+                "key": "wqNLXY01MK",
                 "order": 1,
-                "iKey": "s7LPsx1UQ",
+                "sharedAssetKey": "wtNW7402EJ",
+                "variable": "herbBay = 1",
                 "nodes": [
                     {
-                        "key": "wqOFhL01sy",
+                        "key": "wqNpMu011z",
                         "order": 1,
-                        "option": "Next",
-                        "iExitKey": "s7LPsx14a",
-                        "variable": "herbBay = 2",
+                        "iKey": "s7LPsx1UQ",
                         "nodes": [
                             {
-                                "key": "wqORpn01mi",
+                                "key": "wqOFhL01sy",
                                 "order": 1,
-                                "iKey": "s7LPsx1UQ",
+                                "option": "Next",
+                                "sharedAssetKey": "wtNYEz00bw",
+                                "iExitKey": "s7LPsx14a",
+                                "variable": "herbBay = 2",
                                 "nodes": [
                                     {
-                                        "key": "wqOYAt01oR",
+                                        "key": "wqORpn01mi",
                                         "order": 1,
-                                        "option": "Next",
-                                        "iExitKey": "s7LPsx14a",
-                                        "variable": "herbBay = 3",
+                                        "iKey": "s7LPsx1UQ",
                                         "nodes": [
                                             {
-                                                "key": "wqOZS30132",
+                                                "key": "wqOYAt01oR",
                                                 "order": 1,
-                                                "iKey": "s7LPsx1UQ",
+                                                "option": "Next",
+                                                "sharedAssetKey": "wtNbgJ003E",
+                                                "iExitKey": "s7LPsx14a",
+                                                "variable": "herbBay = 3",
                                                 "nodes": [
                                                     {
-                                                        "key": "wqOlD00261",
+                                                        "key": "wqOZS30132",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iExitKey": "s7LPsx14a",
-                                                        "variable": "herbBay = 4",
+                                                        "iKey": "s7LPsx1UQ",
                                                         "nodes": [
                                                             {
-                                                                "key": "wqOmAs00x6",
+                                                                "key": "wqOlD00261",
                                                                 "order": 1,
-                                                                "iKey": "s7LPsx1UQ",
+                                                                "option": "Next",
+                                                                "sharedAssetKey": "wtNemA005S",
+                                                                "iExitKey": "s7LPsx14a",
+                                                                "variable": "herbBay = 4",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "wqOu3X02OP",
+                                                                        "key": "wqOmAs00x6",
                                                                         "order": 1,
-                                                                        "option": "Next",
-                                                                        "iExitKey": "s7LPsx14a",
-                                                                        "variable": "herbBay = 5",
+                                                                        "iKey": "s7LPsx1UQ",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "wqQUIo02b7",
+                                                                                "key": "wqOu3X02OP",
                                                                                 "order": 1,
-                                                                                "iKey": "s7LPsx1UQ",
+                                                                                "option": "Next",
+                                                                                "iExitKey": "s7LPsx14a",
+                                                                                "variable": "herbBay = 5",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "wqQaiU02UK",
+                                                                                        "key": "wqQUIo02b7",
                                                                                         "order": 1,
-                                                                                        "option": "Next",
-                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                        "variable": "herbBay = 6",
+                                                                                        "iKey": "s7LPsx1UQ",
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "wqQcSY00Lp",
+                                                                                                "key": "wqQaiU02UK",
                                                                                                 "order": 1,
-                                                                                                "iKey": "s7LPsx1UQ",
+                                                                                                "option": "Next",
+                                                                                                "iExitKey": "s7LPsx14a",
+                                                                                                "variable": "herbBay = 6",
                                                                                                 "nodes": [
                                                                                                     {
-                                                                                                        "key": "wqQpnz00dJ",
+                                                                                                        "key": "wqQcSY00Lp",
                                                                                                         "order": 1,
-                                                                                                        "option": "Next",
-                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                        "variable": "herbBay = 7",
+                                                                                                        "iKey": "s7LPsx1UQ",
                                                                                                         "nodes": [
                                                                                                             {
-                                                                                                                "key": "wqQqmD00NN",
+                                                                                                                "key": "wqQpnz00dJ",
                                                                                                                 "order": 1,
-                                                                                                                "iKey": "s7LPsx1UQ",
+                                                                                                                "option": "Next",
+                                                                                                                "iExitKey": "s7LPsx14a",
+                                                                                                                "variable": "herbBay = 7",
                                                                                                                 "nodes": [
                                                                                                                     {
-                                                                                                                        "key": "wqR2Nf01jg",
+                                                                                                                        "key": "wqQqmD00NN",
                                                                                                                         "order": 1,
-                                                                                                                        "option": "Next",
-                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                        "variable": "herbBay = 8",
+                                                                                                                        "iKey": "s7LPsx1UQ",
                                                                                                                         "nodes": [
                                                                                                                             {
-                                                                                                                                "key": "wqR3mq007U",
+                                                                                                                                "key": "wqR2Nf01jg",
                                                                                                                                 "order": 1,
-                                                                                                                                "iKey": "s7LPsx1UQ",
+                                                                                                                                "option": "Next",
+                                                                                                                                "iExitKey": "s7LPsx14a",
+                                                                                                                                "variable": "herbBay = 8",
                                                                                                                                 "nodes": [
                                                                                                                                     {
-                                                                                                                                        "key": "wqRDWe02Tp",
+                                                                                                                                        "key": "wqR3mq007U",
                                                                                                                                         "order": 1,
-                                                                                                                                        "option": "Next",
-                                                                                                                                        "iExitKey": "s7LPsx14a",
-                                                                                                                                        "exitKey": "wqOwpY00zX"
+                                                                                                                                        "iKey": "s7LPsx1UQ",
+                                                                                                                                        "nodes": [
+                                                                                                                                            {
+                                                                                                                                                "key": "wqRDWe02Tp",
+                                                                                                                                                "order": 1,
+                                                                                                                                                "option": "Next",
+                                                                                                                                                "iExitKey": "s7LPsx14a",
+                                                                                                                                                "exitKey": "wqOwpY00zX"
+                                                                                                                                            }
+                                                                                                                                        ]
                                                                                                                                     }
                                                                                                                                 ]
                                                                                                                             }
@@ -147,32 +159,36 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wqNLXY01MK",
-            "relativePath": "./δ steps/δ-wqNLXY01MK.tsstp"
+            "key": "wtNW7402EJ",
+            "relativePath": "../../_shared/HerbBay1.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wqNpMu011z",
             "relativePath": "./δ steps/δ-wqNpMu011z.tsstp"
         },
         {
-            "key": "δ-wqOFhL01sy",
-            "relativePath": "./δ steps/δ-wqOFhL01sy.tsstp"
+            "key": "wtNYEz00bw",
+            "relativePath": "../../_shared/HerbBay2.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wqORpn01mi",
             "relativePath": "./δ steps/δ-wqORpn01mi.tsstp"
         },
         {
-            "key": "δ-wqOYAt01oR",
-            "relativePath": "./δ steps/δ-wqOYAt01oR.tsstp"
+            "key": "wtNbgJ003E",
+            "relativePath": "../../_shared/HerbBay3.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wqOZS30132",
             "relativePath": "./δ steps/δ-wqOZS30132.tsstp"
         },
         {
-            "key": "δ-wqOlD00261",
-            "relativePath": "./δ steps/δ-wqOlD00261.tsstp"
+            "key": "wtNemA005S",
+            "relativePath": "../../_shared/HerbBay4.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wqOmAs00x6",
@@ -209,11 +225,20 @@
         {
             "key": "δ-wqR3mq007U",
             "relativePath": "./δ steps/δ-wqR3mq007U.tsstp"
+        },
+        {
+            "key": "δ-wtLakC01RD",
+            "relativePath": "./δ steps/δ-wtLakC01RD.tsstp"
+        },
+        {
+            "key": "wtMJ0f00DE",
+            "relativePath": "../../_shared/AromaticHerbsIntro.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wqRfk6012F",
-        "editorID": "car_b2d1b025b6784c8692a1d3a6edbbc8ff",
-        "ticks": 1760656269046
+        "id": "wtNfoS02Mj",
+        "editorID": "car_1e034ebc90be499cb8ff6503bac500d2",
+        "ticks": 1760699645012
     }
 }
