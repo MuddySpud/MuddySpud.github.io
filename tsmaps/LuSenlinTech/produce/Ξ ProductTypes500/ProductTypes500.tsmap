@@ -148,80 +148,21 @@
                                         "key": "s7SMPw0iX",
                                         "order": 6,
                                         "option": "Aquatic plants & algae",
-                                        "sharedAssetKey": "t94yZI00AQ",
-                                        "variable": "AquaticPlants",
+                                        "sharedAssetKey": "wu0p2C014e",
                                         "nodes": [
                                             {
-                                                "key": "s7SMPw22V",
+                                                "key": "wu0oSU010x",
                                                 "order": 1,
-                                                "option": "Dwarf Watercress ‘Hydro-Pepper’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1uC",
-                                                "order": 2,
-                                                "option": "Duckweed Protein Blend - Lemna × Wolffia hybrid mix",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1df",
-                                                "order": 3,
-                                                "option": "Azolla ‘Nitro-Fern Nano’ - floating N-fixing fern",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw04x",
-                                                "order": 4,
-                                                "option": "Red Macro-Algae ‘Sachi-Nori’ - Porphyra sp. — mini nori sheets",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0ls",
-                                                "order": 5,
-                                                "option": "Spirulina Mat ‘BlueCore’ - edible cyanobacteria",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1zo",
-                                                "order": 6,
-                                                "option": "Sea Lettuce ‘Urban Ulva’ - chlorophyte algae strips",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Ex",
-                                                "order": 7,
-                                                "option": "Micro-Kelp ‘Baby Kombu’ - Laminaria micro-cultivar",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw15l",
-                                                "order": 8,
-                                                "option": "Salicornia ‘Mini-Marsh’ - salt-tolerant “sea asparagus”",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Pq",
-                                                "order": 9,
-                                                "option": "Water Spinach ‘Aqua-Morning’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1UN",
-                                                "order": 10,
-                                                "option": "Frogbit ‘Tiny Shield’ - Limnobium dwarf",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2bI",
-                                                "order": 11,
-                                                "option": "Red Ogo ‘Metro-Ogo’ - Gracilaria cultivar for salads",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2HX",
-                                                "order": 12,
-                                                "option": "Micro Lotus ‘Lilypad-8’ - edible shoots & decorative pads",
-                                                "exitKey": "s7SMPw1Te"
+                                                "iKey": "wtiaC602KY",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wu0zcI00jg",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wtu3Kb02LO",
+                                                        "exitKey": "s7SMPw1Te"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -229,98 +170,21 @@
                                         "key": "s7SMPw1PR",
                                         "order": 7,
                                         "option": "Mushrooms and fungi",
-                                        "sharedAssetKey": "t952r900a9",
-                                        "variable": "fungi",
+                                        "sharedAssetKey": "wuKYhi00Cm",
                                         "nodes": [
                                             {
-                                                "key": "s7SMPw0cS",
+                                                "key": "wuKY9O02Sy",
                                                 "order": 1,
-                                                "option": "Oyster ‘Pearl-Fog’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0lb",
-                                                "order": 2,
-                                                "option": "Pink Oyster ‘Candy-Cap’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2B0",
-                                                "order": 3,
-                                                "option": "Lion’s Mane ‘BrainFood L-2’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1Yv",
-                                                "order": 4,
-                                                "option": "Shiitake ‘Urban Log’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Z3",
-                                                "order": 5,
-                                                "option": "Black King Trumpet ‘BK-Mini’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Nh",
-                                                "order": 6,
-                                                "option": "Enoki ‘Metro-Needle’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1F5",
-                                                "order": 7,
-                                                "option": "Chestnut Mushroom ‘City-Top’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2bD",
-                                                "order": 8,
-                                                "option": "Nameko ‘Amber Slick’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0Pl",
-                                                "order": 9,
-                                                "option": "Pioppino ‘Brown Beech Nano’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw1gKs",
-                                                "order": 10,
-                                                "option": "Reishi ‘Micro-Lingzhi’ - functional tonic slices",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw05j",
-                                                "order": 11,
-                                                "option": "Maitake ‘Fractal Feathers’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw2SE",
-                                                "order": 12,
-                                                "option": "Cordyceps Militaris ‘Gold Thread’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0tQ",
-                                                "order": 13,
-                                                "option": "Shimeji ‘Snow Cluster’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0mT",
-                                                "order": 14,
-                                                "option": "King Oyster ‘Stubby-King’",
-                                                "exitKey": "s7SMPw1Te"
-                                            },
-                                            {
-                                                "key": "s7SMPw0cy",
-                                                "order": 15,
-                                                "option": "Truffle-Inoculated Herb Pod ‘Nano-Truff’ - white truffle mycorrhiza",
-                                                "exitKey": "s7SMPw1Te"
+                                                "iKey": "wuGYkQ02Xu",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wuMM3500yp",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wuHH6D00FW",
+                                                        "exitKey": "s7SMPw1Te"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -624,16 +488,6 @@
             "relativePath": "./δ steps/δ-s7SMPw0qZ.tsstp"
         },
         {
-            "key": "t94yZI00AQ",
-            "relativePath": "../_shared/AquaticPlants.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t952r900a9",
-            "relativePath": "../_shared/Mushrooms.tsstp",
-            "isShared": true
-        },
-        {
             "key": "t957Z602Dt",
             "relativePath": "../_shared/Fish.tsstp",
             "isShared": true
@@ -703,11 +557,29 @@
         {
             "key": "δ-wth9JG00rT",
             "relativePath": "./δ steps/δ-wth9JG00rT.tsstp"
+        },
+        {
+            "key": "wu0p2C014e",
+            "relativePath": "../_shared/AquaticPlants.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wu0oSU010x",
+            "relativePath": "./δ steps/δ-wu0oSU010x.tsstp"
+        },
+        {
+            "key": "wuKYhi00Cm",
+            "relativePath": "../_shared/Mushrooms.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuKY9O02Sy",
+            "relativePath": "./δ steps/δ-wuKY9O02Sy.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wthHIC0136",
+        "id": "wuMNlL02Y0",
         "editorID": "car_190b86ad3aff41b1814e0f7391e2e63e",
-        "ticks": 1760704317316
+        "ticks": 1760714113635
     }
 }

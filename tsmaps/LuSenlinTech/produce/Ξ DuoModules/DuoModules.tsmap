@@ -157,25 +157,67 @@
                         "key": "wkLQIH01Hl",
                         "order": 7,
                         "option": "Select AquaGreen",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkLWL000li",
-                        "podText": "Link to 'AquaGreen'"
+                        "sharedAssetKey": "wu2Kah00xV",
+                        "nodes": [
+                            {
+                                "key": "wu2ImD01c6",
+                                "order": 1,
+                                "iKey": "wtiaC602KY",
+                                "nodes": [
+                                    {
+                                        "key": "wu2apq02LD",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtu3Kb02LO",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkMBMl01Vd",
                         "order": 8,
                         "option": "Select MycoNest",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkMEfW00lE",
-                        "podText": "Link to 'MycoNest'"
+                        "sharedAssetKey": "wuMZ3j012x",
+                        "nodes": [
+                            {
+                                "key": "wuMWtr02RW",
+                                "order": 1,
+                                "iKey": "wuGYkQ02Xu",
+                                "nodes": [
+                                    {
+                                        "key": "wuMmee01Aq",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wuHH6D00FW",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkMmxr02GP",
                         "order": 9,
                         "option": "Select FungaRoot",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkMzSw001H",
-                        "podText": "Link to 'FungaRoot'"
+                        "sharedAssetKey": "wuRHyH02Wt",
+                        "nodes": [
+                            {
+                                "key": "wuRHfH01g5",
+                                "order": 1,
+                                "iKey": "wuGYkQ02Xu",
+                                "nodes": [
+                                    {
+                                        "key": "wuRQuA01Sh",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wuHH6D00FW",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkNT1s00hy",
@@ -283,11 +325,38 @@
         {
             "key": "δ-wthMjh029w",
             "relativePath": "./δ steps/δ-wthMjh029w.tsstp"
+        },
+        {
+            "key": "wu2Kah00xV",
+            "relativePath": "../_shared/AquaticPlants_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wu2ImD01c6",
+            "relativePath": "./δ steps/δ-wu2ImD01c6.tsstp"
+        },
+        {
+            "key": "wuMZ3j012x",
+            "relativePath": "../_shared/Mushrooms_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuMWtr02RW",
+            "relativePath": "./δ steps/δ-wuMWtr02RW.tsstp"
+        },
+        {
+            "key": "wuRHyH02Wt",
+            "relativePath": "../_shared/Truffle_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuRHfH01g5",
+            "relativePath": "./δ steps/δ-wuRHfH01g5.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wthqIs005H",
+        "id": "wuRSX600FO",
         "editorID": "car_509c8e91a5a8483c88ea920853d5aa8a",
-        "ticks": 1760704451898
+        "ticks": 1760715323612
     }
 }

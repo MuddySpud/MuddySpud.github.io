@@ -1,0 +1,117 @@
+{
+    "key": "wuNsj11BZ",
+    "token": "Mushroomsandfungi",
+    "name": "MushroomsAndFungi",
+    "created": "2025-10-17T14:52:05.894Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ MushroomsAndFungi/MushroomsAndFungi.tsmap",
+    "iText": "Link to 'MushroomsAndFungi'",
+    "iExits": [
+        {
+            "key": "wuNsj120p",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wuNsj10vB",
+        "variable": "fungi",
+        "nodes": [
+            {
+                "key": "wuNsj106w",
+                "order": 1,
+                "option": "Oyster ‘Pearl-Fog’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj100G",
+                "order": 2,
+                "option": "Pink Oyster ‘Candy-Cap’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj12MQ",
+                "order": 3,
+                "option": "Lion’s Mane ‘BrainFood L-2’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj113w",
+                "order": 4,
+                "option": "Shiitake ‘Urban Log’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11Oa",
+                "order": 5,
+                "option": "Black King Trumpet ‘BK-Mini’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj12b9",
+                "order": 6,
+                "option": "Enoki ‘Metro-Needle’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11BH",
+                "order": 7,
+                "option": "Chestnut Mushroom ‘City-Top’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj127n",
+                "order": 8,
+                "option": "Nameko ‘Amber Slick’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11R3",
+                "order": 9,
+                "option": "Pioppino ‘Brown Beech Nano’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11Gp",
+                "order": 10,
+                "option": "Reishi ‘Micro-Lingzhi’ - functional tonic slices",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj1193",
+                "order": 11,
+                "option": "Maitake ‘Fractal Feathers’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11SU",
+                "order": 12,
+                "option": "Cordyceps Militaris ‘Gold Thread’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj10ZC",
+                "order": 13,
+                "option": "Shimeji ‘Snow Cluster’",
+                "exitKey": "wuNsj120p"
+            },
+            {
+                "key": "wuNsj11LZ",
+                "order": 14,
+                "option": "King Oyster ‘Stubby-King’",
+                "exitKey": "wuNsj120p"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wuNsj10vB",
+            "relativePath": "./δ steps/δ-wuGaat00ah.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wuNfdm014O",
+        "editorID": "car_d1f35150deb34cb0848fe854f5f4f1f9",
+        "ticks": 1760714420686
+    }
+}
