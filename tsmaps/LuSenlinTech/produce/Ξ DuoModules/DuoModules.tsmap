@@ -26,6 +26,8 @@
                         "order": 1,
                         "option": "Select AeroHerb",
                         "sharedAssetKey": "wtGtLv00Es",
+                        "podKey": "wT8JrY00Sv",
+                        "podText": "Link to 'AeroHerb'",
                         "nodes": [
                             {
                                 "key": "wkWxAj00GX",
@@ -48,6 +50,8 @@
                         "order": 2,
                         "option": "Select LeafLift",
                         "sharedAssetKey": "wtHkVV002A",
+                        "podKey": "wTFT3M01sz",
+                        "podText": "Link to 'LeafLift'",
                         "nodes": [
                             {
                                 "key": "wqJJwF009V",
@@ -70,6 +74,8 @@
                         "order": 3,
                         "option": "Select FruitForge",
                         "sharedAssetKey": "wtKeqd00Pw",
+                        "podKey": "wekUww017C",
+                        "podText": "Link to 'FruitForge'",
                         "nodes": [
                             {
                                 "key": "wtKeSg00OL",
@@ -92,6 +98,8 @@
                         "order": 4,
                         "option": "Select RootVault",
                         "sharedAssetKey": "wtUwOB00E1",
+                        "podKey": "welO3r01ex",
+                        "podText": "Link to 'RootVault'",
                         "nodes": [
                             {
                                 "key": "wtUoWg00c9",
@@ -114,6 +122,8 @@
                         "order": 5,
                         "option": "Select TuberTower",
                         "sharedAssetKey": "wuSMjQ00IJ",
+                        "podKey": "wkPL1J00M3",
+                        "podText": "Link to 'TuberTower'",
                         "nodes": [
                             {
                                 "key": "wuSMSF008k",
@@ -136,6 +146,8 @@
                         "order": 6,
                         "option": "Select StemStack",
                         "sharedAssetKey": "wtew3m00db",
+                        "podKey": "welyCL01D4",
+                        "podText": "Link to 'StemStack'",
                         "nodes": [
                             {
                                 "key": "wtevjV029M",
@@ -158,6 +170,8 @@
                         "order": 7,
                         "option": "Select PetalBloom",
                         "sharedAssetKey": "wthPY300IL",
+                        "podKey": "wkKS2O015j",
+                        "podText": "Link to 'PetalBloom'",
                         "nodes": [
                             {
                                 "key": "wthMjh029w",
@@ -180,6 +194,8 @@
                         "order": 8,
                         "option": "Select AquaGreen",
                         "sharedAssetKey": "wu2Kah00xV",
+                        "podKey": "wkLWL000li",
+                        "podText": "Link to 'AquaGreen'",
                         "nodes": [
                             {
                                 "key": "wu2ImD01c6",
@@ -202,6 +218,8 @@
                         "order": 9,
                         "option": "Select MycoNest",
                         "sharedAssetKey": "wuMZ3j012x",
+                        "podKey": "wkMEfW00lE",
+                        "podText": "Link to 'MycoNest'",
                         "nodes": [
                             {
                                 "key": "wuMWtr02RW",
@@ -224,6 +242,8 @@
                         "order": 10,
                         "option": "Select FungaRoot",
                         "sharedAssetKey": "wuRHyH02Wt",
+                        "podKey": "wkMzSw001H",
+                        "podText": "Link to 'FungaRoot'",
                         "nodes": [
                             {
                                 "key": "wuRHfH01g5",
@@ -246,6 +266,8 @@
                         "order": 11,
                         "option": "Select ShellWave",
                         "sharedAssetKey": "wua5DP00vT",
+                        "podKey": "wkO7nN00Y9",
+                        "podText": "Link to 'ShellWave'",
                         "nodes": [
                             {
                                 "key": "wua4wE00XE",
@@ -268,6 +290,8 @@
                         "order": 12,
                         "option": "Select CrustaBay",
                         "sharedAssetKey": "wuXgIL01zK",
+                        "podKey": "wkOkOs00BD",
+                        "podText": "Link to 'CrustaBay'",
                         "nodes": [
                             {
                                 "key": "wuXftB00Bv",
@@ -290,6 +314,8 @@
                         "order": 13,
                         "option": "Select FinWave",
                         "sharedAssetKey": "wuVXB801q7",
+                        "podKey": "wkPyeJ01n1",
+                        "podText": "Link to 'FinWave'",
                         "nodes": [
                             {
                                 "key": "wuVWfZ00zp",
@@ -312,6 +338,8 @@
                         "order": 14,
                         "option": "Select GasterPod",
                         "sharedAssetKey": "wucEVk01vt",
+                        "podKey": "wkNV3B00J5",
+                        "podText": "Link to 'GasterPod'",
                         "nodes": [
                             {
                                 "key": "wucEDE00zy",
@@ -470,8 +498,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wucSHO01xJ",
-        "editorID": "car_509c8e91a5a8483c88ea920853d5aa8a",
-        "ticks": 1760717944246
+        "id": "ww5s6K025d",
+        "editorID": "car_4cb02a231d464aa39f2dd3c2218b58be",
+        "ticks": 1760739731352
     }
 }

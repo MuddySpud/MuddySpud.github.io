@@ -22,3 +22,7 @@ duo modules can't have fish or crustaceans
 
 In  pod option a close ancillary button 'X' is not square
 
+Add what to notice in intro to demo.
+  - See how large the range of opions are
+  - How similar but slghtly different - so we remove duplication so we only have to edit in a single place. etc
+  - How we can edit a small sctin on in isolation no having to be overwhelmed with the whole guide.

@@ -170,17 +170,17 @@
         },
         {
             "key": "uXAwGH00gN",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/lowEffortIntroduction.tsstp",
+            "relativePath": "../_share/lowEffortIntroduction.tsstp",
             "isShared": true
         },
         {
             "key": "uXAzYX00yg",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/moderateEffortIntroduction.tsstp",
+            "relativePath": "../_share/moderateEffortIntroduction.tsstp",
             "isShared": true
         },
         {
             "key": "uXB6kh01fm",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/highEffortIntroduction.tsstp",
+            "relativePath": "../_share/highEffortIntroduction.tsstp",
             "isShared": true
         },
         {
@@ -207,12 +207,12 @@
         },
         {
             "key": "uXBJQT01Df",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         },
         {
             "key": "uXBS0D00ho",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         },
         {
@@ -225,18 +225,18 @@
         },
         {
             "key": "uXjYGq01VQ",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         },
         {
             "key": "uXjh2d00Av",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "vcRhfN009H",
-        "editorID": "car_6b24c60a29d94393b81c67b634f6bca6",
-        "ticks": 1759533274905
+        "id": "ww0yGz02GU",
+        "editorID": "car_842ca1ccdc774e6a9fc5c997cf1458c9",
+        "ticks": 1760738563437
     }
 }

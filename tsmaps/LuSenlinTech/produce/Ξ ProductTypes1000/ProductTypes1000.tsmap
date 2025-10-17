@@ -86,12 +86,12 @@
                                             {
                                                 "key": "wtJjja017y",
                                                 "order": 1,
-                                                "option": "Next",
                                                 "iKey": "wtF0Ww02Ne",
                                                 "nodes": [
                                                     {
-                                                        "key": "wtJye600wC",
+                                                        "key": "wuhtux01o9",
                                                         "order": 1,
+                                                        "option": "Exit",
                                                         "iExitKey": "wtJUdC01Gg",
                                                         "exitKey": "s7SMQM2ZQ"
                                                     }
@@ -415,8 +415,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wubaN200XH",
-        "editorID": "car_841944682bec4591af213cd33d6b3b95",
-        "ticks": 1760717737020
+        "id": "wuhvfi02Af",
+        "editorID": "car_382b417636ff4177a2dfd636686ad929",
+        "ticks": 1760719248870
     }
 }
