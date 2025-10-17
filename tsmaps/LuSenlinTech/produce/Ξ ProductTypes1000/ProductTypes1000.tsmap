@@ -103,80 +103,21 @@
                                         "key": "s7SMQM1LJ",
                                         "order": 4,
                                         "option": "Roots & stems",
-                                        "sharedAssetKey": "t8pX6w018k",
-                                        "variable": "rootsAndStems",
+                                        "sharedAssetKey": "wtU5TC02PT",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM2BZ",
+                                                "key": "wtU59001iO",
                                                 "order": 1,
-                                                "option": "Finger Carrot ‘Neon 5’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1jX",
-                                                "order": 2,
-                                                "option": "Baby Beet ‘Ruby 2’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1I8",
-                                                "order": 3,
-                                                "option": "Radish ‘Flash-40’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Ts",
-                                                "order": 4,
-                                                "option": "Mini Daikon ‘Metro-White’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM08c",
-                                                "order": 5,
-                                                "option": "Tokyo Turnip ‘Tiny Kabu’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1gQ",
-                                                "order": 6,
-                                                "option": "Baby Sweet Potato ‘Pocket Yama’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Qb",
-                                                "order": 7,
-                                                "option": "Water Spinach Stem ‘WS-Lite’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0AM",
-                                                "order": 8,
-                                                "option": "Baby Ginger ‘Zingy Core’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Oo",
-                                                "order": 9,
-                                                "option": "Young Lotus Root ‘Urban Lotus’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1O3",
-                                                "order": 10,
-                                                "option": "Dwarf Taro ‘Taro-Tiny’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1U4",
-                                                "order": 11,
-                                                "option": "Baby Kohlrabi ‘Mini Stem’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Nq",
-                                                "order": 12,
-                                                "option": "Compact Celery ‘Stalk-Short’",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wtRvcU00Xt",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wtUHH001NH",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wtTsxD00hr",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -184,98 +125,21 @@
                                         "key": "s7SMQM2Xm",
                                         "order": 5,
                                         "option": "Edible flowers & specialty greens",
-                                        "sharedAssetKey": "t8qEr6015K",
-                                        "variable": "edibleFlowers",
+                                        "sharedAssetKey": "wtgbiP02I3",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM2AL",
+                                                "key": "wtgbHd01cf",
                                                 "order": 1,
-                                                "option": "Nasturtium ‘Citrus Wheel’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1cQ",
-                                                "order": 2,
-                                                "option": "Pansy ‘Urban-Violet’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Hs",
-                                                "order": 3,
-                                                "option": "Calendula ‘Golden Byte’ - pot marigold",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0wQ",
-                                                "order": 4,
-                                                "option": "Borage ‘Sky-Blue’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1bh",
-                                                "order": 5,
-                                                "option": "Red Amaranth Micro ‘Ruby Veil’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2B0",
-                                                "order": 6,
-                                                "option": "Wasabi Arugula ‘Nano-Wasabi’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Ub",
-                                                "order": 7,
-                                                "option": "Shungiku ‘Chop-Chop’ - garland chrysanthemum greens",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1AG",
-                                                "order": 8,
-                                                "option": "Sorrel ‘Lemon Arrow’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Ma",
-                                                "order": 9,
-                                                "option": "Ice Plant ‘Crystal Leaf’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2W7",
-                                                "order": 10,
-                                                "option": "Salad Burnet ‘Cucumber Drop’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM18n",
-                                                "order": 11,
-                                                "option": "Malabar Spinach ‘Ruby Vine’ - vining",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Z7",
-                                                "order": 12,
-                                                "option": "Purple Oxalis ‘TriStar’ - tangy “sorrel” notes",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1H0",
-                                                "order": 13,
-                                                "option": "Micro Fenugreek ‘Methi-Micro’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1VL",
-                                                "order": 14,
-                                                "option": "Rainbow Swiss Chard ‘Pixel-Stem’ - multi-colour stems",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Vo",
-                                                "order": 15,
-                                                "option": "Edible Viola ‘Midnight Kiss’",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wtfKcq013p",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wth16H0056",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wtgm5X00HJ",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -771,16 +635,6 @@
             "relativePath": "./δ steps/δ-s7SMQM0rE.tsstp"
         },
         {
-            "key": "t8pX6w018k",
-            "relativePath": "../_shared/RootsAndStems.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t8qEr6015K",
-            "relativePath": "../_shared/EdibleFlowers.tsstp",
-            "isShared": true
-        },
-        {
             "key": "t8qONV01wS",
             "relativePath": "../_shared/AquaticPlants.tsstp",
             "isShared": true
@@ -840,11 +694,29 @@
         {
             "key": "δ-wtJjja017y",
             "relativePath": "./δ steps/δ-wtJjja017y.tsstp"
+        },
+        {
+            "key": "wtU5TC02PT",
+            "relativePath": "../_shared/RootsAndStems.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtU59001iO",
+            "relativePath": "./δ steps/δ-wtU59001iO.tsstp"
+        },
+        {
+            "key": "wtgbiP02I3",
+            "relativePath": "../_shared/EdibleFlowers.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtgbHd01cf",
+            "relativePath": "./δ steps/δ-wtgbHd01cf.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wtK0hW00BZ",
+        "id": "wth2sB01pJ",
         "editorID": "car_841944682bec4591af213cd33d6b3b95",
-        "ticks": 1760698771994
+        "ticks": 1760704261887
     }
 }

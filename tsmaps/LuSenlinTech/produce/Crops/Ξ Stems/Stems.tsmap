@@ -1,0 +1,51 @@
+{
+    "key": "wtXSb416v   ",
+    "token": "Stems",
+    "name": "Stems",
+    "created": "2025-10-17T11:30:59.086Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ Stems/Stems.tsmap",
+    "iText": "Link to 'Stems'",
+    "iExits": [
+        {
+            "key": "wtXSb41kM",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wtXSb42VK",
+        "variable": "stems",
+        "nodes": [
+            {
+                "key": "wtXSb40ZJ",
+                "order": 1,
+                "option": "Water Spinach Stem ‘WS-Lite’",
+                "exitKey": "wtXSb41kM"
+            },
+            {
+                "key": "wtXSb41MR",
+                "order": 2,
+                "option": "Baby Kohlrabi ‘Mini Stem’",
+                "exitKey": "wtXSb41kM"
+            },
+            {
+                "key": "wtXSb40Qx",
+                "order": 3,
+                "option": "Compact Celery ‘Stalk-Short’",
+                "exitKey": "wtXSb41kM"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wtXSb42VK",
+            "relativePath": "./δ steps/δ-wtS1WU029T.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wtbplP02Qf",
+        "editorID": "me_6c89d0038b9a48999b254a4c7db71344",
+        "ticks": 1760703019855
+    }
+}

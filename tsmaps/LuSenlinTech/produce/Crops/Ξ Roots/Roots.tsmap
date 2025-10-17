@@ -1,0 +1,87 @@
+{
+    "key": "wtRvcU00Xt  ",
+    "token": "Roots",
+    "name": "Roots",
+    "created": "2025-10-17T11:30:59.086Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ Roots/Roots.tsmap",
+    "iText": "Link to 'Roots'",
+    "iExits": [
+        {
+            "key": "wtTsxD00hr",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wtS1WU029T",
+        "variable": "roots",
+        "nodes": [
+            {
+                "key": "wtS9O6006j",
+                "order": 1,
+                "option": "Finger Carrot ‘Neon 5’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSJRS01xY",
+                "order": 2,
+                "option": "Baby Beet ‘Ruby 2’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSKoD01xm",
+                "order": 3,
+                "option": "Radish ‘Flash-40’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSMTa00U2",
+                "order": 4,
+                "option": "Mini Daikon ‘Metro-White’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSNiU027l",
+                "order": 5,
+                "option": "Tokyo Turnip ‘Tiny Kabu’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSOzr01VF",
+                "order": 6,
+                "option": "Baby Sweet Potato ‘Pocket Yama’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSS5y00HQ",
+                "order": 7,
+                "option": "Baby Ginger ‘Zingy Core’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSTh501sL",
+                "order": 8,
+                "option": "Young Lotus Root ‘Urban Lotus’",
+                "exitKey": "wtTsxD00hr"
+            },
+            {
+                "key": "wtSVLH01Ke",
+                "order": 9,
+                "option": "Dwarf Taro ‘Taro-Tiny’",
+                "exitKey": "wtTsxD00hr"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wtS1WU029T",
+            "relativePath": "./δ steps/δ-wtS1WU029T.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wtar21014V",
+        "editorID": "me_df29ed59de6c45baad82660edb5809fe",
+        "ticks": 1760702786401
+    }
+}

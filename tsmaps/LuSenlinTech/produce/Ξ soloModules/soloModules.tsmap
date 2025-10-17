@@ -143,19 +143,67 @@
                                                                                                                                                 "key": "vo345j00Yp",
                                                                                                                                                 "order": 3,
                                                                                                                                                 "option": "FruitForge",
-                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                "sharedAssetKey": "wtVHrV01Cr",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "wtVHTV01ij",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "iKey": "wtF0Ww02Ne",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "wtVQgm00Va",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Exit",
+                                                                                                                                                                "iExitKey": "wtJUdC01Gg",
+                                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             },
                                                                                                                                             {
                                                                                                                                                 "key": "vo39U901Kq",
                                                                                                                                                 "order": 4,
                                                                                                                                                 "option": "RootVault",
-                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                "sharedAssetKey": "wteQyL00j0",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "wtVYPw01RT",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "iKey": "wtRvcU00Xt",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "wtbMD000CX",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Exit",
+                                                                                                                                                                "iExitKey": "wtTsxD00hr",
+                                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             },
                                                                                                                                             {
                                                                                                                                                 "key": "vo3BJZ000k",
                                                                                                                                                 "order": 5,
                                                                                                                                                 "option": "StemStack",
-                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                "sharedAssetKey": "wteclQ00Lq",
+                                                                                                                                                "nodes": [
+                                                                                                                                                    {
+                                                                                                                                                        "key": "wtbR3N009H",
+                                                                                                                                                        "order": 1,
+                                                                                                                                                        "iKey": "wtXSb416v",
+                                                                                                                                                        "nodes": [
+                                                                                                                                                            {
+                                                                                                                                                                "key": "wtbYw2013t",
+                                                                                                                                                                "order": 1,
+                                                                                                                                                                "option": "Exit",
+                                                                                                                                                                "iExitKey": "wtXSb41kM",
+                                                                                                                                                                "exitKey": "vcIsGq01w8"
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             },
                                                                                                                                             {
                                                                                                                                                 "key": "vo3Dc502U0",
@@ -479,11 +527,38 @@
         {
             "key": "δ-wtIdXE00cv",
             "relativePath": "./δ steps/δ-wtIdXE00cv.tsstp"
+        },
+        {
+            "key": "wtVHrV01Cr",
+            "relativePath": "../_shared/FruitingVegetables_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtVHTV01ij",
+            "relativePath": "./δ steps/δ-wtVHTV01ij.tsstp"
+        },
+        {
+            "key": "δ-wtVYPw01RT",
+            "relativePath": "./δ steps/δ-wtVYPw01RT.tsstp"
+        },
+        {
+            "key": "wteQyL00j0",
+            "relativePath": "../_shared/Roots_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "wteclQ00Lq",
+            "relativePath": "../_shared/Stems_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtbR3N009H",
+            "relativePath": "./δ steps/δ-wtbR3N009H.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wtIn1R01Gg",
+        "id": "wtef0p00EQ",
         "editorID": "car_8b921fedd8ee4582a347e90b44f32b42",
-        "ticks": 1760698481085
+        "ticks": 1760703693511
     }
 }

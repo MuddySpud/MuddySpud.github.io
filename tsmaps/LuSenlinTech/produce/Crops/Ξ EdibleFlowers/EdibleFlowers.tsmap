@@ -1,0 +1,123 @@
+{
+    "key": "wtfKcq013p  ",
+    "token": "Edibleflowers",
+    "name": "EdibleFlowers",
+    "created": "2025-10-17T12:24:13.473Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ EdibleFlowers/EdibleFlowers.tsmap",
+    "iText": "Link to 'EdibleFlowers'",
+    "iExits": [
+        {
+            "key": "wtgm5X00HJ",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wtfLVX0045",
+        "variable": "edibleFlowers",
+        "nodes": [
+            {
+                "key": "wtfRFG003u",
+                "order": 1,
+                "option": "Nasturtium ‘Citrus Wheel’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfs7601AL",
+                "order": 2,
+                "option": "Pansy ‘Urban-Violet’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtftCZ00aO",
+                "order": 3,
+                "option": "Calendula ‘Golden Byte’ - pot marigold",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfuVi02ZF",
+                "order": 4,
+                "option": "Borage ‘Sky-Blue’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfvRh01T0",
+                "order": 5,
+                "option": "Red Amaranth Micro ‘Ruby Veil’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfwdj01IH",
+                "order": 6,
+                "option": "Wasabi Arugula ‘Nano-Wasabi’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfy8g002H",
+                "order": 7,
+                "option": "Shungiku ‘Chop-Chop’ - garland chrysanthemum greens",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtfzLW00Tx",
+                "order": 8,
+                "option": "Sorrel ‘Lemon Arrow’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg0gl00dY",
+                "order": 9,
+                "option": "Ice Plant ‘Crystal Leaf’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg1jR00cB",
+                "order": 10,
+                "option": "Salad Burnet ‘Cucumber Drop’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg3NQ01jV",
+                "order": 11,
+                "option": "Malabar Spinach ‘Ruby Vine’ - vining",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg4Rz01nr",
+                "order": 12,
+                "option": "Purple Oxalis ‘TriStar’ - tangy “sorrel” notes",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg64O011f",
+                "order": 13,
+                "option": "Micro Fenugreek ‘Methi-Micro’",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg74e00Ka",
+                "order": 14,
+                "option": "Rainbow Swiss Chard ‘Pixel-Stem’ - multi-colour stems",
+                "exitKey": "wtgm5X00HJ"
+            },
+            {
+                "key": "wtg8QP002r",
+                "order": 15,
+                "option": "Edible Viola ‘Midnight Kiss’",
+                "exitKey": "wtgm5X00HJ"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wtfLVX0045",
+            "relativePath": "./δ steps/δ-wtfLVX0045.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wtgw4i02av",
+        "editorID": "car_ee55b24573b24c1a865d46c3cb022bcb",
+        "ticks": 1760704235756
+    }
+}

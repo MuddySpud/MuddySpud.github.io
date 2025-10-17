@@ -91,25 +91,67 @@
                         "key": "welEZr01uI",
                         "order": 4,
                         "option": "Select RootVault",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "welO3r01ex",
-                        "podText": "Link to 'RootVault'"
+                        "sharedAssetKey": "wtUwOB00E1",
+                        "nodes": [
+                            {
+                                "key": "wtUoWg00c9",
+                                "order": 1,
+                                "iKey": "wtRvcU00Xt",
+                                "nodes": [
+                                    {
+                                        "key": "wteqK600zE",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtTsxD00hr",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "welvT500gK",
                         "order": 5,
                         "option": "Select StemStack",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "welyCL01D4",
-                        "podText": "Link to 'StemStack'"
+                        "sharedAssetKey": "wtew3m00db",
+                        "nodes": [
+                            {
+                                "key": "wtevjV029M",
+                                "order": 1,
+                                "iKey": "wtXSb416v",
+                                "nodes": [
+                                    {
+                                        "key": "wtf2vM00dt",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtXSb41kM",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkKebh01Bx",
                         "order": 6,
                         "option": "Select PetalBloom",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkKS2O015j",
-                        "podText": "Link to 'PetalBloom'"
+                        "sharedAssetKey": "wthPY300IL",
+                        "nodes": [
+                            {
+                                "key": "wthMjh029w",
+                                "order": 1,
+                                "iKey": "wtfKcq013p",
+                                "nodes": [
+                                    {
+                                        "key": "wthoiv00eJ",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtgm5X00HJ",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkLQIH01Hl",
@@ -214,11 +256,38 @@
         {
             "key": "δ-wtKeSg00OL",
             "relativePath": "./δ steps/δ-wtKeSg00OL.tsstp"
+        },
+        {
+            "key": "wtUwOB00E1",
+            "relativePath": "../_shared/Roots_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtUoWg00c9",
+            "relativePath": "./δ steps/δ-wtUoWg00c9.tsstp"
+        },
+        {
+            "key": "wtew3m00db",
+            "relativePath": "../_shared/Stems_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wtevjV029M",
+            "relativePath": "./δ steps/δ-wtevjV029M.tsstp"
+        },
+        {
+            "key": "wthPY300IL",
+            "relativePath": "../_shared/EdibleFlowers_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wthMjh029w",
+            "relativePath": "./δ steps/δ-wthMjh029w.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wtKuNg00Bt",
+        "id": "wthqIs005H",
         "editorID": "car_509c8e91a5a8483c88ea920853d5aa8a",
-        "ticks": 1760698986028
+        "ticks": 1760704451898
     }
 }
