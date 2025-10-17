@@ -1,0 +1,93 @@
+{
+    "key": "wuYugT00Mx  ",
+    "token": "Ediblemolluscs",
+    "name": "EdibleMolluscs",
+    "created": "2025-10-17T16:05:00.122Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ EdibleMolluscs/EdibleMolluscs.tsmap",
+    "iText": "Link to 'EdibleMolluscs'",
+    "iExits": [
+        {
+            "key": "wuZNti02E2",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wuYwbA02NW",
+        "variable": "molluscs",
+        "nodes": [
+            {
+                "key": "wuZ1I600bO",
+                "order": 1,
+                "option": "Urban Mussel ‘Closed-Sea’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZE5b01os",
+                "order": 2,
+                "option": "Manila Clam ‘Metro-Gold’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZEwN01EM",
+                "order": 3,
+                "option": "Micro Scallop ‘Sweet-Dot’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZG0R004M",
+                "order": 4,
+                "option": "Pocket Oyster ‘Balconia’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZHSX005U",
+                "order": 5,
+                "option": "Dwarf Razor Clam ‘Nano-Razor’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZIUO00yd",
+                "order": 6,
+                "option": "Hard-Shell Cockle ‘City Cockle’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZJUT02a1",
+                "order": 7,
+                "option": "Mini Abalone ‘Blue-Ear’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZKZN02bA",
+                "order": 8,
+                "option": "Micro Geoduck ‘Short-Duck’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZLak0150",
+                "order": 9,
+                "option": "Skyline Surf Clam ‘Surf-Sky’",
+                "exitKey": "wuZNti02E2"
+            },
+            {
+                "key": "wuZMfH00rb",
+                "order": 10,
+                "option": "Butter Clam ‘Cream-Dot’",
+                "exitKey": "wuZNti02E2"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wuYwbA02NW",
+            "relativePath": "./δ steps/δ-wuYwbA02NW.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wuZSyw01z5",
+        "editorID": "car_1605a7c8601b4c0182b758b4fbb5c268",
+        "ticks": 1760717231962
+    }
+}

@@ -110,8 +110,30 @@
                         ]
                     },
                     {
-                        "key": "welvT500gK",
+                        "key": "wkPIIc028A",
                         "order": 5,
+                        "option": "Select TuberTower",
+                        "sharedAssetKey": "wuSMjQ00IJ",
+                        "nodes": [
+                            {
+                                "key": "wuSMSF008k",
+                                "order": 1,
+                                "iKey": "wtRvcU00Xt",
+                                "nodes": [
+                                    {
+                                        "key": "wuTPbC00sz",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wtTsxD00hr",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "welvT500gK",
+                        "order": 6,
                         "option": "Select StemStack",
                         "sharedAssetKey": "wtew3m00db",
                         "nodes": [
@@ -133,7 +155,7 @@
                     },
                     {
                         "key": "wkKebh01Bx",
-                        "order": 6,
+                        "order": 7,
                         "option": "Select PetalBloom",
                         "sharedAssetKey": "wthPY300IL",
                         "nodes": [
@@ -155,7 +177,7 @@
                     },
                     {
                         "key": "wkLQIH01Hl",
-                        "order": 7,
+                        "order": 8,
                         "option": "Select AquaGreen",
                         "sharedAssetKey": "wu2Kah00xV",
                         "nodes": [
@@ -177,7 +199,7 @@
                     },
                     {
                         "key": "wkMBMl01Vd",
-                        "order": 8,
+                        "order": 9,
                         "option": "Select MycoNest",
                         "sharedAssetKey": "wuMZ3j012x",
                         "nodes": [
@@ -199,7 +221,7 @@
                     },
                     {
                         "key": "wkMmxr02GP",
-                        "order": 9,
+                        "order": 10,
                         "option": "Select FungaRoot",
                         "sharedAssetKey": "wuRHyH02Wt",
                         "nodes": [
@@ -220,44 +242,92 @@
                         ]
                     },
                     {
-                        "key": "wkNT1s00hy",
-                        "order": 10,
-                        "option": "Select GasterPod",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkNV3B00J5",
-                        "podText": "Link to 'GasterPod'"
-                    },
-                    {
                         "key": "wkO2mg00id",
                         "order": 11,
                         "option": "Select ShellWave",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkO7nN00Y9",
-                        "podText": "Link to 'ShellWave'"
+                        "sharedAssetKey": "wua5DP00vT",
+                        "nodes": [
+                            {
+                                "key": "wua4wE00XE",
+                                "order": 1,
+                                "iKey": "wuYugT00Mx",
+                                "nodes": [
+                                    {
+                                        "key": "wuaC5m01IT",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wuZNti02E2",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkOfd402GZ",
                         "order": 12,
                         "option": "Select CrustaBay",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkOkOs00BD",
-                        "podText": "Link to 'CrustaBay'"
-                    },
-                    {
-                        "key": "wkPIIc028A",
-                        "order": 13,
-                        "option": "Select TuberTower",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkPL1J00M3",
-                        "podText": "Link to 'TuberTower'"
+                        "sharedAssetKey": "wuXgIL01zK",
+                        "nodes": [
+                            {
+                                "key": "wuXftB00Bv",
+                                "order": 1,
+                                "iKey": "wuWApl01TF",
+                                "nodes": [
+                                    {
+                                        "key": "wuXrTS015Y",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wuWb8O01KK",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "key": "wkPrBL00jX",
-                        "order": 14,
+                        "order": 13,
                         "option": "Select FinWave",
-                        "exitKey": "wTGaAV00qB",
-                        "podKey": "wkPyeJ01n1",
-                        "podText": "Link to 'FinWave'"
+                        "sharedAssetKey": "wuVXB801q7",
+                        "nodes": [
+                            {
+                                "key": "wuVWfZ00zp",
+                                "order": 1,
+                                "iKey": "wuUGN800Oz",
+                                "nodes": [
+                                    {
+                                        "key": "wuVgh901rg",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wuUkWq01SA",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wkNT1s00hy",
+                        "order": 14,
+                        "option": "Select GasterPod",
+                        "sharedAssetKey": "wucEVk01vt",
+                        "nodes": [
+                            {
+                                "key": "wucEDE00zy",
+                                "order": 1,
+                                "iKey": "wuahkg011M",
+                                "nodes": [
+                                    {
+                                        "key": "wucR5h01rb",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "wubGs202Bw",
+                                        "exitKey": "wTGaAV00qB"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -352,11 +422,56 @@
         {
             "key": "δ-wuRHfH01g5",
             "relativePath": "./δ steps/δ-wuRHfH01g5.tsstp"
+        },
+        {
+            "key": "wuSMjQ00IJ",
+            "relativePath": "../_shared/Tubers_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuSMSF008k",
+            "relativePath": "./δ steps/δ-wuSMSF008k.tsstp"
+        },
+        {
+            "key": "wuVXB801q7",
+            "relativePath": "../_shared/Fish_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuVWfZ00zp",
+            "relativePath": "./δ steps/δ-wuVWfZ00zp.tsstp"
+        },
+        {
+            "key": "wuXgIL01zK",
+            "relativePath": "../_shared/Crustaceans_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuXftB00Bv",
+            "relativePath": "./δ steps/δ-wuXftB00Bv.tsstp"
+        },
+        {
+            "key": "wua5DP00vT",
+            "relativePath": "../_shared/EdibleFlowers_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wua4wE00XE",
+            "relativePath": "./δ steps/δ-wua4wE00XE.tsstp"
+        },
+        {
+            "key": "wucEVk01vt",
+            "relativePath": "../_shared/Snails_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wucEDE00zy",
+            "relativePath": "./δ steps/δ-wucEDE00zy.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wuRSX600FO",
+        "id": "wucSHO01xJ",
         "editorID": "car_509c8e91a5a8483c88ea920853d5aa8a",
-        "ticks": 1760715323612
+        "ticks": 1760717944246
     }
 }

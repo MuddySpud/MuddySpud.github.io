@@ -1,0 +1,93 @@
+{
+    "key": "wuUGN800Oz  ",
+    "token": "Fish",
+    "name": "Fish",
+    "created": "2025-10-17T15:46:31.850Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ Fish/Fish.tsmap",
+    "iText": "Link to 'Fish'",
+    "iExits": [
+        {
+            "key": "wuUkWq01SA",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wuUHRF00JV",
+        "variable": "fish",
+        "nodes": [
+            {
+                "key": "wuUNQF01k4",
+                "order": 1,
+                "option": "Nano-Tilapia ‘T-Civic’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUYHd029B",
+                "order": 2,
+                "option": "Blue Nile Tilapia ‘BlueBite’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUZTf00X1",
+                "order": 3,
+                "option": "City Catfish ‘Air-Breather Mini’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUaiy015Y",
+                "order": 4,
+                "option": "Mini Channel Catfish ‘Pocket Stripe’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUblJ00aQ",
+                "order": 5,
+                "option": "Herbivore Goldfish ‘FoodFin’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUcmj02Iq",
+                "order": 6,
+                "option": "Golden Barb ‘Edible-3’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUeWD004F",
+                "order": 7,
+                "option": "Urban Koi ‘Quick-Koi’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUfsv01uE",
+                "order": 8,
+                "option": "Dwarf Rainbow Trout ‘CoolStream’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUgzG00w2",
+                "order": 9,
+                "option": "Nano Carp ‘Silver Byte’",
+                "exitKey": "wuUkWq01SA"
+            },
+            {
+                "key": "wuUhxs02LT",
+                "order": 10,
+                "option": "Micro Gourami ‘Protein Pearl’",
+                "exitKey": "wuUkWq01SA"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wuUHRF00JV",
+            "relativePath": "./δ steps/δ-wuUHRF00JV.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wuUplR01gt",
+        "editorID": "car_b26ef679aeec4b249ed52124e2fae746",
+        "ticks": 1760716127897
+    }
+}

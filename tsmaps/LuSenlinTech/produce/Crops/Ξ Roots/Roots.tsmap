@@ -1,5 +1,5 @@
 {
-    "key": "wtRvcU00Xt  ",
+    "key": "wuSavg1yb",
     "token": "Roots",
     "name": "Roots",
     "created": "2025-10-17T11:30:59.086Z",
@@ -8,74 +8,74 @@
     "iText": "Link to 'Roots'",
     "iExits": [
         {
-            "key": "wtTsxD00hr",
+            "key": "wuSavg1Oe",
             "text": "Exit",
             "order": 1
         }
     ],
     "___rΩΩt___": {
-        "key": "wtS1WU029T",
+        "key": "wuSavg14o",
         "variable": "roots",
         "nodes": [
             {
-                "key": "wtS9O6006j",
+                "key": "wuSavg236",
                 "order": 1,
                 "option": "Finger Carrot ‘Neon 5’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSJRS01xY",
+                "key": "wuSavg2H8",
                 "order": 2,
                 "option": "Baby Beet ‘Ruby 2’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSKoD01xm",
+                "key": "wuSavg1H8",
                 "order": 3,
                 "option": "Radish ‘Flash-40’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSMTa00U2",
+                "key": "wuSavg0bB",
                 "order": 4,
                 "option": "Mini Daikon ‘Metro-White’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSNiU027l",
+                "key": "wuSavg1c5",
                 "order": 5,
                 "option": "Tokyo Turnip ‘Tiny Kabu’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSOzr01VF",
+                "key": "wuSavg0J2",
                 "order": 6,
                 "option": "Baby Sweet Potato ‘Pocket Yama’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSS5y00HQ",
+                "key": "wuSavg0OJ",
                 "order": 7,
                 "option": "Baby Ginger ‘Zingy Core’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSTh501sL",
+                "key": "wuSavg0Px",
                 "order": 8,
                 "option": "Young Lotus Root ‘Urban Lotus’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             },
             {
-                "key": "wtSVLH01Ke",
+                "key": "wuSavg0xt",
                 "order": 9,
                 "option": "Dwarf Taro ‘Taro-Tiny’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wuSavg1Oe"
             }
         ]
     },
     "___αssεts___": [
         {
-            "key": "δ-wtS1WU029T",
+            "key": "δ-wuSavg14o",
             "relativePath": "./δ steps/δ-wtS1WU029T.tsstp"
         }
     ],

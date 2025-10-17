@@ -191,68 +191,21 @@
                                         "key": "s7SMQM1EN",
                                         "order": 8,
                                         "option": "Fish",
-                                        "sharedAssetKey": "t8q1Gt00dN",
-                                        "variable": "fish",
+                                        "sharedAssetKey": "wuUxKq00X7",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM0t31",
+                                                "key": "wuUwd401f0",
                                                 "order": 1,
-                                                "option": "Nano-Tilapia ‘T-Civic’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Kf",
-                                                "order": 2,
-                                                "option": "Blue Nile Tilapia ‘BlueBite’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1zV",
-                                                "order": 3,
-                                                "option": "City Catfish ‘Air-Breather Mini’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0hr",
-                                                "order": 4,
-                                                "option": "Mini Channel Catfish ‘Pocket Stripe’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1ZV",
-                                                "order": 5,
-                                                "option": "Herbivore Goldfish ‘FoodFin’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0pz",
-                                                "order": 6,
-                                                "option": "Golden Barb ‘Edible-3’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Fy",
-                                                "order": 7,
-                                                "option": "Urban Koi ‘Quick-Koi’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1vg",
-                                                "order": 8,
-                                                "option": "Dwarf Rainbow Trout ‘CoolStream’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1UW",
-                                                "order": 9,
-                                                "option": "Nano Carp ‘Silver Byte’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Km",
-                                                "order": 10,
-                                                "option": "Micro Gourami ‘Protein Pearl’",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wuUGN800Oz",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wuV8c000ev",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wuUkWq01SA",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -260,68 +213,21 @@
                                         "key": "s7SMQM00Z",
                                         "order": 9,
                                         "option": "Crustaceans",
-                                        "sharedAssetKey": "t91UjX00Aw",
-                                        "variable": "crustaceans",
+                                        "sharedAssetKey": "wuX8qb01vQ",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM1XT",
+                                                "key": "wuX8PH00n2",
                                                 "order": 1,
-                                                "option": "Freshwater Prawn ‘Pearl-King’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM216",
-                                                "order": 2,
-                                                "option": "Red-Cherry Shrimp ‘Dual-Bite’ - cleanup + protein",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0uG",
-                                                "order": 3,
-                                                "option": "Amano Shrimp ‘CleanSweep Urban’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Xi",
-                                                "order": 4,
-                                                "option": "Blue Ghost Shrimp ‘Spectra’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0PR",
-                                                "order": 5,
-                                                "option": "Mini Crayfish ‘Green-Marble’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1ko",
-                                                "order": 6,
-                                                "option": "Dwarf Redclaw Crayfish ‘Crimson Pinch’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Ig",
-                                                "order": 7,
-                                                "option": "Nano Lobster ‘Pocket-Lob’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1u2",
-                                                "order": 8,
-                                                "option": "Urban Mud Crab ‘Soft-Shell Micro’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0cm",
-                                                "order": 9,
-                                                "option": "Mini Marron ‘Blue Marronette’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0aM",
-                                                "order": 10,
-                                                "option": "Macrobrachium “Giant Prawn Jr.”",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wuWApl01TF",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wuXHtl00hN",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wuWb8O01KK",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -329,68 +235,21 @@
                                         "key": "s7SMQM1wk",
                                         "order": 10,
                                         "option": "Molluscs",
-                                        "sharedAssetKey": "t90u7301q0",
-                                        "variable": "molluscs",
+                                        "sharedAssetKey": "wuZX1D0125",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM2DJ",
+                                                "key": "wuZWiy00wP",
                                                 "order": 1,
-                                                "option": "Urban Mussel ‘Closed-Sea’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM01g",
-                                                "order": 2,
-                                                "option": "Manila Clam ‘Metro-Gold’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1gH",
-                                                "order": 3,
-                                                "option": "Micro Scallop ‘Sweet-Dot’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Ld",
-                                                "order": 4,
-                                                "option": "Pocket Oyster ‘Balconia’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM00G",
-                                                "order": 5,
-                                                "option": "Dwarf Razor Clam ‘Nano-Razor’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2Kt",
-                                                "order": 6,
-                                                "option": "Hard-Shell Cockle ‘City Cockle’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1wC",
-                                                "order": 7,
-                                                "option": "Mini Abalone ‘Blue-Ear’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1fp",
-                                                "order": 8,
-                                                "option": "Micro Geoduck ‘Short-Duck’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM2GR",
-                                                "order": 9,
-                                                "option": "Skyline Surf Clam ‘Surf-Sky’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0vA",
-                                                "order": 10,
-                                                "option": "Butter Clam ‘Cream-Dot’\n",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wuYugT00Mx",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wuZjkv00TX",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wuZNti02E2",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -398,68 +257,21 @@
                                         "key": "s7SMQM0oN",
                                         "order": 11,
                                         "option": "Snails",
-                                        "sharedAssetKey": "t90eMJ00EV",
-                                        "variable": "snails",
+                                        "sharedAssetKey": "wubQgc01go",
                                         "nodes": [
                                             {
-                                                "key": "s7SMQM0US",
+                                                "key": "wubQON0076",
                                                 "order": 1,
-                                                "option": "Table Snail ‘Helix Max-Mini’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1x5",
-                                                "order": 2,
-                                                "option": "Burgundy Snail ‘Petit Bourguignon’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM230",
-                                                "order": 3,
-                                                "option": "Garden Stripe Snail ‘Brown-Line Nano’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM16u",
-                                                "order": 4,
-                                                "option": "Dwarf Giant African Snail ‘Chef-Shell’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0tW",
-                                                "order": 5,
-                                                "option": "Milk Snail ‘Lactea Urban’",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1Gz",
-                                                "order": 6,
-                                                "option": "Golden Apple Snail ‘Gilt Apple Mini’ - semi-aquatic",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM10n",
-                                                "order": 7,
-                                                "option": "Mystery Snail ‘Protein Pearl’ - fresh-water cleanup + food",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0Uf",
-                                                "order": 8,
-                                                "option": "City Periwinkle ‘Peri-Pocket’ - haloponic, marine",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM0zU",
-                                                "order": 9,
-                                                "option": "Mini Whelk ‘Spiral Bite’* - brackish",
-                                                "exitKey": "s7SMQM2ZQ"
-                                            },
-                                            {
-                                                "key": "s7SMQM1jF",
-                                                "order": 10,
-                                                "option": "Striped Nerite ‘Neri-Snack’ - algae grazer & garnish",
-                                                "exitKey": "s7SMQM2ZQ"
+                                                "iKey": "wuahkg011M",
+                                                "nodes": [
+                                                    {
+                                                        "key": "wubYxr00JT",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iExitKey": "wubGs202Bw",
+                                                        "exitKey": "s7SMQM2ZQ"
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
@@ -497,26 +309,6 @@
         {
             "key": "δ-s7SMQM0rE",
             "relativePath": "./δ steps/δ-s7SMQM0rE.tsstp"
-        },
-        {
-            "key": "t8q1Gt00dN",
-            "relativePath": "../_shared/Fish.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t91UjX00Aw",
-            "relativePath": "../_shared/Crustaceans.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t90u7301q0",
-            "relativePath": "../_shared/Molluscs.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "t90eMJ00EV",
-            "relativePath": "../_shared/Snails.tsstp",
-            "isShared": true
         },
         {
             "key": "δ-sArAE700Cz",
@@ -584,11 +376,47 @@
         {
             "key": "δ-wuHZs001Go",
             "relativePath": "./δ steps/δ-wuHZs001Go.tsstp"
+        },
+        {
+            "key": "wuUxKq00X7",
+            "relativePath": "../_shared/Fish.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuUwd401f0",
+            "relativePath": "./δ steps/δ-wuUwd401f0.tsstp"
+        },
+        {
+            "key": "wuX8qb01vQ",
+            "relativePath": "../_shared/Crustaceans.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuX8PH00n2",
+            "relativePath": "./δ steps/δ-wuX8PH00n2.tsstp"
+        },
+        {
+            "key": "wuZX1D0125",
+            "relativePath": "../_shared/Molluscs.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wuZWiy00wP",
+            "relativePath": "./δ steps/δ-wuZWiy00wP.tsstp"
+        },
+        {
+            "key": "wubQgc01go",
+            "relativePath": "../_shared/Snails.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wubQON0076",
+            "relativePath": "./δ steps/δ-wubQON0076.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "wuHnCt01nZ",
+        "id": "wubaN200XH",
         "editorID": "car_841944682bec4591af213cd33d6b3b95",
-        "ticks": 1760713019803
+        "ticks": 1760717737020
     }
 }

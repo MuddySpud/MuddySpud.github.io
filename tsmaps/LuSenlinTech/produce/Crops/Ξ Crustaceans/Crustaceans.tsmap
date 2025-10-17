@@ -1,0 +1,93 @@
+{
+    "key": "wuWApl01TF  ",
+    "token": "Crustaceans",
+    "name": "Crustaceans",
+    "created": "2025-10-17T15:54:07.217Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Crops/Ξ Crustaceans/Crustaceans.tsmap",
+    "iText": "Link to 'Crustaceans'",
+    "iExits": [
+        {
+            "key": "wuWb8O01KK",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "wuWBpc01Kn",
+        "variable": "crustaceans",
+        "nodes": [
+            {
+                "key": "wuWHrV014d",
+                "order": 1,
+                "option": "Freshwater Prawn ‘Pearl-King’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWQEw00dJ",
+                "order": 2,
+                "option": "Red-Cherry Shrimp ‘Dual-Bite’ - cleanup + protein",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWR6t00Jv",
+                "order": 3,
+                "option": "Amano Shrimp ‘CleanSweep Urban’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWSHh02Ne",
+                "order": 4,
+                "option": "Blue Ghost Shrimp ‘Spectra’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWTJL00TY",
+                "order": 5,
+                "option": "Mini Crayfish ‘Green-Marble’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWUQt01o6",
+                "order": 6,
+                "option": "Dwarf Redclaw Crayfish ‘Crimson Pinch’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWVmi00yi",
+                "order": 7,
+                "option": "Nano Lobster ‘Pocket-Lob’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWWuI00bE",
+                "order": 8,
+                "option": "Urban Mud Crab ‘Soft-Shell Micro’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWY0r01Tq",
+                "order": 9,
+                "option": "Mini Marron ‘Blue Marronette’",
+                "exitKey": "wuWb8O01KK"
+            },
+            {
+                "key": "wuWZJu02Pd",
+                "order": 10,
+                "option": "Macrobrachium “Giant Prawn Jr.”",
+                "exitKey": "wuWb8O01KK"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-wuWBpc01Kn",
+            "relativePath": "./δ steps/δ-wuWBpc01Kn.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wuWgqX00iy",
+        "editorID": "car_81a96c922e8e4489b4ab3abc016af07d",
+        "ticks": 1760716570273
+    }
+}

@@ -18,6 +18,7 @@ duo modules can't have fish or crustaceans
   Add todo for field should pretend that it is LuSenlin that is saying it. ie contact field division as this location is being developed.
   Then try and generate images for frames and modules with plants added.
   As Adrian said with his image.
+  GasterPod or snails only exist in duo config.
 
-
+In  pod option a close ancillary button 'X' is not square
 
