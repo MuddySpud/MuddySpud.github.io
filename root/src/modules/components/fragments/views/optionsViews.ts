@@ -44,20 +44,21 @@ const buildExpandedAncillaryView = (
             h("div", { class: "nt-fr-ancillary-head" }, [
                 h("a",
                     {
-                        class: "nt-fr-ancillary",
+                        class: "nt-fr-ancillary nt-fr-ancillary-target",
                         onMouseDown: [
                             fragmentActions.toggleAncillaryNode,
-                            (_event: any) => {
+                            (target: any) => {
                                 return new FragmentPayload(
                                     parent,
-                                    ancillary
+                                    ancillary,
+                                    target
                                 );
                             }
                         ]
                     },
                     [
-                        h("span", { class: "nt-fr-ancillary-text" }, ancillary.option),
-                        h("span", { class: "nt-fr-ancillary-x" }, '✕')
+                        h("span", { class: "nt-fr-ancillary-text nt-fr-ancillary-target" }, ancillary.option),
+                        h("span", { class: "nt-fr-ancillary-x nt-fr-ancillary-target" }, '✕')
                     ]
                 )
             ]),
@@ -85,19 +86,20 @@ const buildCollapsedAncillaryView = (
             h("div", { class: "nt-fr-ancillary-head" }, [
                 h("a",
                     {
-                        class: "nt-fr-ancillary",
+                        class: "nt-fr-ancillary nt-fr-ancillary-target",
                         onMouseDown: [
                             fragmentActions.toggleAncillaryNode,
-                            (_event: any) => {
+                            (target: any) => {
                                 return new FragmentPayload(
                                     parent,
-                                    ancillary
+                                    ancillary,
+                                    target
                                 );
                             }
                         ]
                     },
                     [
-                        h("span", {}, ancillary.option)
+                        h("span", {class: "nt-fr-ancillary-target"}, ancillary.option)
                     ]
                 )
             ])
@@ -158,10 +160,11 @@ const BuildExpandedOptionView = (
                         class: `${buttonClass}`,
                         onMouseDown: [
                             fragmentActions.showOptionNode,
-                            (_event: any) => {
+                            (target: any) => {
                                 return new FragmentPayload(
                                     parent,
-                                    option
+                                    option,
+                                    target
                                 );
                             }
                         ]
@@ -169,7 +172,7 @@ const BuildExpandedOptionView = (
                     [
                         podViews.buildView(option),
 
-                        h("span", {}, option.option)
+                        h("span", {class: "nt-fr-option-text"}, option.option)
                     ]
                 )
             ]

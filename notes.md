@@ -4,7 +4,7 @@ duo modules can't have fish or crustaceans
 
 ###### Next:
 
-  Move solo and twin category steps and ancillaries to shared steps.
+  Add double underscore to option means it will be published as empty string in fragment but the nde will not be merged before publish ie will sit in its own fragment
   Need to always make sure start with title that matches previous selected option. ie option selected must be followed by a markdown heading with the same text as option.
   
   Need javascript so clicking ancillary in option pod does not trigger option button - check deepseek.

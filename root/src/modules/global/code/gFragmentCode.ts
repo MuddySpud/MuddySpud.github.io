@@ -1035,6 +1035,19 @@ ${line}`;
         fragment.ui.doNotPaint = false;
     },
 
+    setAncillaryActive: (
+        state: IState,
+        ancillary: IRenderFragment | null
+    ): void => {
+
+        state.renderState.activeAncillary = ancillary;
+    },
+
+    clearAncillaryActive: (state: IState): void => {
+
+        state.renderState.activeAncillary = null;
+    },
+
     splitOptionsAndAncillaries: (children: Array<IRenderFragment> | null | undefined): { options: Array<IRenderFragment>, ancillaries: Array<IRenderFragment>, total: number } => {
 
         const ancillaries: Array<IRenderFragment> = [];

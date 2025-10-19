@@ -6,13 +6,16 @@ export default class FragmentPayload implements IFragmentPayload {
 
     constructor(
         parentFragment: IRenderFragment,
-        option: IRenderFragment
-        ) {
+        option: IRenderFragment,
+        element: HTMLElement
+    ) {
 
         this.parentFragment = parentFragment;
         this.option = option;
+        this.element = element;
     }
 
     public parentFragment: IRenderFragment;
     public option: IRenderFragment;
+    public element: HTMLElement;
 }

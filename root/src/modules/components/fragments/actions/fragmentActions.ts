@@ -95,6 +95,14 @@ const fragmentActions = {
             return state;
         }
 
+        const ignoreEvent = state.renderState.activeAncillary != null;
+        gFragmentCode.clearAncillaryActive(state);
+
+        if (ignoreEvent === true) {
+
+            return gStateCode.cloneState(state);
+        }
+
         gStateCode.setDirty(state);
         gFragmentCode.resetFragmentUis(state);
         const expanded = fragment.ui.fragmentOptionsExpanded !== true;
@@ -118,6 +126,14 @@ const fragmentActions = {
             || !fragment
         ) {
             return state;
+        }
+
+        const ignoreEvent = state.renderState.activeAncillary != null;
+        gFragmentCode.clearAncillaryActive(state);
+
+        if (ignoreEvent === true) {
+
+            return gStateCode.cloneState(state);
         }
 
         gStateCode.setDirty(state);
@@ -145,6 +161,14 @@ const fragmentActions = {
             return state;
         }
 
+        const ignoreEvent = state.renderState.activeAncillary != null;
+        gFragmentCode.clearAncillaryActive(state);
+
+        if (ignoreEvent === true) {
+
+            return gStateCode.cloneState(state);
+        }
+
         gStateCode.setDirty(state);
 
         return gFragmentActions.showOptionNode(
@@ -159,26 +183,34 @@ const fragmentActions = {
         payload: IFragmentPayload
     ): IStateAnyArray => {
 
-        if (!state
-            || !payload?.option
-        ) {
+        if (!state) {
+
             return state;
         }
 
         const ancillary = payload.option;
-        gStateCode.setDirty(state);
 
-        if (!ancillary.ui.ancillaryExpanded) {
+        gFragmentCode.setAncillaryActive(
+            state,
+            ancillary
+        );
 
-            ancillary.ui.ancillaryExpanded = true;
+        if (ancillary) {
 
-            return gFragmentActions.showAncillaryNode(
-                state,
-                payload.option
-            );
+            gStateCode.setDirty(state);
+
+            if (!ancillary.ui.ancillaryExpanded) {
+
+                ancillary.ui.ancillaryExpanded = true;
+
+                return gFragmentActions.showAncillaryNode(
+                    state,
+                    ancillary
+                );
+            }
+
+            ancillary.ui.ancillaryExpanded = false;
         }
-
-        ancillary.ui.ancillaryExpanded = false;
 
         return gStateCode.cloneState(state);
     }

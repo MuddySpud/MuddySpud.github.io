@@ -134,8 +134,13 @@
                     margin-right: 5px;
                 }
 
-                span {
+                .nt-fr-ancillary-text {
                     padding: 0 10px;
+                }
+
+                .nt-fr-option-text {
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
 
@@ -316,6 +321,10 @@
                 text-decoration-line: none;
                 background-color: rgba(0, 0, 0, 0.3);
             }
+
+            &.nt-fr-pod-button .nt-fr-ancillary-box .nt-fr-fragment-discussion {
+                color: #fff;
+            }
         }
 
         .nt-fr-fragment-options {
@@ -345,7 +354,7 @@
 
                 &:hover {
                     border-color: var(--button-hover-color);
-                    background-color: rgba(255, 255, 255, 0.1);
+                    background-color: rgba(0, 0, 0, 0.3);
 
                     // border-radius: 5px;
                     // margin-left: -20px;

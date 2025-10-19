@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/StemStack_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ww86z315g","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/StemStack_frags"},"fragment":{"id":"ww86z315g","topLevelMapKey":"welyCL01D4","mapKeyChain":"welyCL01D4","guideID":"ww86z31M0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/StemStack.tspod","chartKey":"welyCL01D4","isLeaf":false,"options":[{"id":"ww86zF2Sx","option":"StemStack details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"x4iqGn1AN","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/StemStack_frags"},"fragment":{"id":"x4iqGn1AN","topLevelMapKey":"welyCL01D4","mapKeyChain":"welyCL01D4","guideID":"x4iqGn0ht","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/StemStack.tspod","chartKey":"welyCL01D4","isLeaf":false,"options":[{"id":"x4iqGu0xT","option":"StemStack details","order":1,"isAncillary":true}]}} -->
 
 | StemStack | Dual-zone chambers mist stems mid-way and briefly flood roots, producing ultra-crisp celery, water spinach and kohlrabi bulbs. | Roots & stems – Compact Celery, Water Spinach Stem, Baby Kohlrabi |
 {: .nt-fr-columns}

@@ -1,5 +1,6 @@
 import IDisplayGuide from "./display/IDisplayGuide";
 import IDisplaySection from "./display/IDisplaySection";
+import IRenderFragment from "./render/IRenderFragment";
 import IChainSegment from "./segments/IChainSegment";
 import IRenderStateUI from "./ui/IRenderStateUI";
 
@@ -14,7 +15,8 @@ export default interface IRenderState {
     outlineUrls: any;
     currentSection: IDisplaySection | null;
 
-
+    activeAncillary: IRenderFragment | null;
+    
     // Search indices
     index_outlineNodes_id: any;
     index_chainFragments_id: any;
