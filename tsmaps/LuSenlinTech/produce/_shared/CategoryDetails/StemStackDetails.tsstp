@@ -1,0 +1,14 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### StemStack Technologies  
+
+- {{g.dualZoneMoistureProfile}}
+
+###### Harvest Enhancements
+  
+- {{g.snapAssistStemGroove}}
+
+{{c.ModuleAvailability_all}}
+

@@ -9,6 +9,7 @@
     "iText": "Link to 'AquaGreen'",
     "___rΩΩt___": {
         "key": "wkLXmG00oc",
+        "sharedAssetKey": "x4Sokg00fx",
         "nodes": [
             {
                 "key": "wkLcwu00D9",
@@ -21,8 +22,9 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkLXmG00oc",
-            "relativePath": "./δ steps/δ-wkLXmG00oc.tsstp"
+            "key": "x4Sokg00fx",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/AquaGreenTable.tsstp",
+            "isShared": true
         },
         {
             "key": "δ-wkLcwu00D9",
@@ -30,8 +32,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wkLzXT00fF",
-        "editorID": "car_29da568c5f614b14b471d0d47ec863f7",
-        "ticks": 1760566257159
+        "id": "x4SpEL0122",
+        "editorID": "car_2ad455ec8ebb444a996677aadc43d755",
+        "ticks": 1760863412549
     }
 }

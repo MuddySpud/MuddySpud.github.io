@@ -43,7 +43,7 @@
             {
                 "key": "uXWbKO005u",
                 "order": 2,
-                "option": "Dual modules",
+                "option": "Twin modules",
                 "sharedAssetKey": "uXhgYt012k",
                 "iExitKey": "s7LPpx09N",
                 "nodes": [
@@ -123,8 +123,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wkUWKh009v",
-        "editorID": "car_5ab0f40246c747bbbdf8d2808527d0ca",
-        "ticks": 1760568289843
+        "id": "x2K92Q01JV",
+        "editorID": "me_74f473a227c84d8fb6bd569f7350c786",
+        "ticks": 1760831791066
     }
 }

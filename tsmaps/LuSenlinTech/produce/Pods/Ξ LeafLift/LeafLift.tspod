@@ -9,11 +9,13 @@
     "iText": "Link to 'LeafLift'",
     "___rΩΩt___": {
         "key": "wTFUyJ01al",
+        "sharedAssetKey": "x4UFpJ00WA",
         "nodes": [
             {
                 "key": "wTFin6019N",
                 "order": 1,
                 "option": "LeafLift details",
+                "sharedAssetKey": "x4UDPR00mp",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wTFUyJ01al",
-            "relativePath": "./δ steps/δ-wTFUyJ01al.tsstp"
+            "key": "x4UFpJ00WA",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/LeafLiftTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wTFin6019N",
-            "relativePath": "./δ steps/δ-wTFin6019N.tsstp"
+            "key": "x4UDPR00mp",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/LeafLiftDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wTKGiC02QP",
-        "editorID": "car_7c9783594a354701bd86ddb5662e866f",
-        "ticks": 1760314648804
+        "id": "x4UGOd00Hv",
+        "editorID": "car_456b1226416c43479a9598ecb8e9a6a4",
+        "ticks": 1760863755303
     }
 }

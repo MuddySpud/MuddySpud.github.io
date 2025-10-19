@@ -14,7 +14,7 @@
         },
         {
             "key": "s7LPpx09N",
-            "text": "Dual modules",
+            "text": "Twin modules",
             "order": 2
         }
     ],
@@ -31,7 +31,7 @@
             {
                 "key": "s7LPpx1Fx",
                 "order": 2,
-                "option": "Dual modules",
+                "option": "Twin modules",
                 "exitKey": "s7LPpx09N"
             }
         ]
@@ -43,8 +43,8 @@
         }
     ],
     "___εdit___": {
-        "id": "tCpcoQ02MN",
-        "editorID": "me_1ed0a094f5af4a5b84bcb1d34f6ce1e0",
-        "ticks": 1757322525718
+        "id": "x2Kcjr00OU",
+        "editorID": "me_bea664dceb8e45a587514b4aeb120522",
+        "ticks": 1760831905235
     }
 }

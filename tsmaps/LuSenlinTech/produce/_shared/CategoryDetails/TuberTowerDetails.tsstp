@@ -1,0 +1,18 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### TuberTower Technologies  
+
+- {{g.rollOutRhizomeDrawer}}
+- {{g.grapheneLateralHeatLoops}}
+- {{g.ultrasonicRhizoShield}}
+- {{g.nearInfraRedDryMatterSensor}}
+
+###### Harvest Enhancements
+  
+- {{g.drawerAssistLiftHandle}}
+- {{g.starchPeakDoorLight}}  
+
+{{c.ModuleAvailability_all}}
+

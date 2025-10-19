@@ -9,11 +9,13 @@
     "iText": "Link to 'RootVault'",
     "___rΩΩt___": {
         "key": "welPiS00cB",
+        "sharedAssetKey": "x4ZBmo004l",
         "nodes": [
             {
                 "key": "welS6i00dC",
                 "order": 1,
                 "option": "RootVault details",
+                "sharedAssetKey": "x4ZDne02Gs",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-welPiS00cB",
-            "relativePath": "./δ steps/δ-welPiS00cB.tsstp"
+            "key": "x4ZBmo004l",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/RootVaultTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-welS6i00dC",
-            "relativePath": "./δ steps/δ-welS6i00dC.tsstp"
+            "key": "x4ZDne02Gs",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/RootVaultDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "welcV600nr",
-        "editorID": "car_6ba31571f14c4ff095e3276e6836d227",
-        "ticks": 1760483707112
+        "id": "x4ZEAx00Vr",
+        "editorID": "car_d2d654ee44b64275a1ca0f44b24aefe9",
+        "ticks": 1760864938407
     }
 }

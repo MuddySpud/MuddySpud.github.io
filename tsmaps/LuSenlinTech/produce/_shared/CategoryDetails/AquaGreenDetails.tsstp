@@ -1,0 +1,15 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### AquaGreen Technologies
+  
+- {{g.shallowRacewaySwirlFlowControl}}
+
+###### Harvest Enhancements
+  
+- {{g.harvestMeshRoller}}
+- {{g.autoRemineraliser}}  
+
+{{c.ModuleAvailability_all}}
+

@@ -1,0 +1,15 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### ShellWave Technologies  
+
+- {{g.microBeadCapillarySubstrate}}
+
+###### Harvest Enhancements
+  
+- {{g.aiFruitColourTracking}}
+- {{g.magneticSnipBot}} 
+
+{{c.ModuleAvailability_all}}
+

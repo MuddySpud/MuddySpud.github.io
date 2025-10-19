@@ -9,11 +9,13 @@
     "iText": "Link to 'GasterPod'",
     "___rΩΩt___": {
         "key": "wkNW0c02Vi",
+        "sharedAssetKey": "x4cmEy02Qo",
         "nodes": [
             {
                 "key": "wkNcWs02Pu",
                 "order": 1,
                 "option": "GasterPod details",
+                "sharedAssetKey": "x4ctdv00dK",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkNW0c02Vi",
-            "relativePath": "./δ steps/δ-wkNW0c02Vi.tsstp"
+            "key": "x4cmEy02Qo",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/GasterPodTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkNcWs02Pu",
-            "relativePath": "./δ steps/δ-wkNcWs02Pu.tsstp"
+            "key": "x4ctdv00dK",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/GasterPodDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkNl9k003X",
-        "editorID": "car_e101005064a34208ba1b906e1fdbb9b2",
-        "ticks": 1760566678528
+        "id": "x4cu1V01dy",
+        "editorID": "car_41a8cdfb500c4fb5957bed5ff2e3e34b",
+        "ticks": 1760865814253
     }
 }

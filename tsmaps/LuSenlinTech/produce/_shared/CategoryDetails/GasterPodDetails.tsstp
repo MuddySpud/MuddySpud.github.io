@@ -1,0 +1,15 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### GasterPod Technologies  
+
+- {{g.trackMazeHabitat}}
+- {{g.bioFilmDripFeedSystem}}
+
+###### Harvest Enhancements
+  
+- {{g.aiScheduled7DayPurging}}
+
+{{c.ModuleAvailability_all}}
+

@@ -9,11 +9,13 @@
     "iText": "Link to 'StemStack'",
     "___rΩΩt___": {
         "key": "welz1i00Vj",
+        "sharedAssetKey": "x4aBTl01rb",
         "nodes": [
             {
                 "key": "wemMPe00LW",
                 "order": 1,
                 "option": "StemStack details",
+                "sharedAssetKey": "x4a6zJ00gI",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-welz1i00Vj",
-            "relativePath": "./δ steps/δ-welz1i00Vj.tsstp"
+            "key": "x4aBTl01rb",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/StemStackTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wemMPe00LW",
-            "relativePath": "./δ steps/δ-wemMPe00LW.tsstp"
+            "key": "x4a6zJ00gI",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/StemStackDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wemcbR02E3",
-        "editorID": "car_5a5d555fbce843ccb781809a3d88aa90",
-        "ticks": 1760483945833
+        "id": "x4aBta00Fb",
+        "editorID": "car_d8991f49fa5e452d9e856f2e919eb6f8",
+        "ticks": 1760865167970
     }
 }

@@ -9,11 +9,13 @@
     "iText": "Link to 'FruitForge'",
     "___rΩΩt___": {
         "key": "wekWOJ01Nh",
+        "sharedAssetKey": "x4YGog02ae",
         "nodes": [
             {
                 "key": "wekeVE02aI",
                 "order": 1,
                 "option": "FruitForge details",
+                "sharedAssetKey": "x4YDNQ010W",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wekWOJ01Nh",
-            "relativePath": "./δ steps/δ-wekWOJ01Nh.tsstp"
+            "key": "x4YGog02ae",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FruitForgeTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wekeVE02aI",
-            "relativePath": "./δ steps/δ-wekeVE02aI.tsstp"
+            "key": "x4YDNQ010W",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FruitForgeDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wel5r701rI",
-        "editorID": "car_68032a0a0e06454aa2f83caec613f37c",
-        "ticks": 1760483581625
+        "id": "x4Z7OR025c",
+        "editorID": "car_d325d6834376487eb72829e379d025d5",
+        "ticks": 1760864912335
     }
 }

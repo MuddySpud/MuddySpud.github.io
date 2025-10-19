@@ -1,0 +1,19 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### FinWave Technologies  
+
+- {{g.laminarAirflowCanopy}}
+- {{g.movingBedNitrificationCartridge}}
+- {{g.inSituInsectLarvaeFeeder}}
+- {{g.proteinSkimmerUvCLoop}}
+- {{g.thermoelectricPlateChiller}}
+
+###### Harvest Enhancements
+  
+- {{g.appSelectableHarvestModes}}
+- {{g.smartNetGuide}}  
+
+{{c.ModuleAvailability_solo}}
+

@@ -1,0 +1,16 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### LeafLift Technologies  
+
+- {{g.deepFlowNftTroughInserts}}
+- {{g.variableSpeedLaminarPump}}
+- {{g.pureLightClamshellDome}}
+
+###### Harvest Enhancements
+  
+- {{g.cutAndComeAgainOpticalMapping}}  
+
+{{c.ModuleAvailability_all}}
+

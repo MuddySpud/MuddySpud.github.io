@@ -9,11 +9,13 @@
     "iText": "Link to 'FungaRoot'",
     "___rΩΩt___": {
         "key": "wkN0R6013Y",
+        "sharedAssetKey": "x4c4Bt02T4",
         "nodes": [
             {
                 "key": "wkN2cH02Ll",
                 "order": 1,
                 "option": "FungaRoot details",
+                "sharedAssetKey": "x4cCMk02T5",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkN0R6013Y",
-            "relativePath": "./δ steps/δ-wkN0R6013Y.tsstp"
+            "key": "x4c4Bt02T4",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FungaRootTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkN2cH02Ll",
-            "relativePath": "./δ steps/δ-wkN2cH02Ll.tsstp"
+            "key": "x4cCMk02T5",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FungaRootDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkNBw602YX",
-        "editorID": "car_443ee13498b244f68848261b4f0e17a4",
-        "ticks": 1760566543142
+        "id": "x4cCiB01b8",
+        "editorID": "car_a530a068311d4d1496700296bc5ea4c1",
+        "ticks": 1760865647763
     }
 }

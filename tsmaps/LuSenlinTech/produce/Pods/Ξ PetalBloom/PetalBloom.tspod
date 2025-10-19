@@ -9,11 +9,13 @@
     "iText": "Link to 'PetalBloom'",
     "___rΩΩt___": {
         "key": "wkKTNg022T",
+        "sharedAssetKey": "x4aen401tc",
         "nodes": [
             {
                 "key": "wkKv6P00CM",
                 "order": 1,
                 "option": "PetalBloom details",
+                "sharedAssetKey": "x4avNt01S9",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkKTNg022T",
-            "relativePath": "./δ steps/δ-wkKTNg022T.tsstp"
+            "key": "x4aen401tc",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/PetalBloomTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkKv6P00CM",
-            "relativePath": "./δ steps/δ-wkKv6P00CM.tsstp"
+            "key": "x4avNt01S9",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/PetalBloomDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkLB6A00k7",
-        "editorID": "car_fa905a937163499d9e100b80332eff8d",
-        "ticks": 1760566063266
+        "id": "x4avir02Pj",
+        "editorID": "car_8e22da1af39b437c852248208212100a",
+        "ticks": 1760865344129
     }
 }

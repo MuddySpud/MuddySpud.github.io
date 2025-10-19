@@ -9,11 +9,13 @@
     "iText": "Link to 'ShellWave'",
     "___rΩΩt___": {
         "key": "wkO99L02IR",
+        "sharedAssetKey": "x4dLE0024N",
         "nodes": [
             {
                 "key": "wkOBoH00rR",
                 "order": 1,
                 "option": "ShellWave details",
+                "sharedAssetKey": "x4dTi500JE",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkO99L02IR",
-            "relativePath": "./δ steps/δ-wkO99L02IR.tsstp"
+            "key": "x4dLE0024N",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/ShellWaveTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkOBoH00rR",
-            "relativePath": "./δ steps/δ-wkOBoH00rR.tsstp"
+            "key": "x4dTi500JE",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/ShellWaveDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkONqk021j",
-        "editorID": "car_05a033a1980a4e03a6e6e39064786a64",
-        "ticks": 1760566827266
+        "id": "x4dU2C01ct",
+        "editorID": "car_f21cc8ea5bb94d849719a49448e34256",
+        "ticks": 1760865952680
     }
 }

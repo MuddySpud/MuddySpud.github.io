@@ -9,11 +9,13 @@
     "iText": "Link to 'CrustaBay'",
     "___rΩΩt___": {
         "key": "wkOlNF00eC",
+        "sharedAssetKey": "x4drJI01uW",
         "nodes": [
             {
                 "key": "wkOqBv01AZ",
                 "order": 1,
                 "option": "CrustaBay details",
+                "sharedAssetKey": "x4e0Tc00Mn",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkOlNF00eC",
-            "relativePath": "./δ steps/δ-wkOlNF00eC.tsstp"
+            "key": "x4drJI01uW",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/CrustaBayTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkOqBv01AZ",
-            "relativePath": "./δ steps/δ-wkOqBv01AZ.tsstp"
+            "key": "x4e0Tc00Mn",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/CrustaBayDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkP3AB026Z",
-        "editorID": "car_adbdb257bf1147f5b1ca7df514f70d4e",
-        "ticks": 1760566986075
+        "id": "x4e0od01ff",
+        "editorID": "car_955fe602845d4df5bbe83c51ae59f4c3",
+        "ticks": 1760866078691
     }
 }

@@ -1,0 +1,14 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### FungaRoot Technologies  
+
+- {{g.dualKingdomSubstrateCassette}}
+
+###### Harvest Enhancements
+  
+- {{g.truffleSniffSensor}}
+
+{{c.ModuleAvailability_all}}
+

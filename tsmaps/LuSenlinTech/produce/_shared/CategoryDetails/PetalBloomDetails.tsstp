@@ -1,0 +1,15 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### PetalBloom Technologies  
+
+- {{g.laminarAirflowCanopy}}
+- {{g.electrostaticPollenLift}}
+
+###### Harvest Enhancements
+  
+- {{g.selfDryingFlowerShelf}}
+
+{{c.ModuleAvailability_all}}
+

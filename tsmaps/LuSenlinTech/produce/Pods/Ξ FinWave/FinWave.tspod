@@ -9,11 +9,13 @@
     "iText": "Link to 'FinWave'",
     "___rΩΩt___": {
         "key": "wkPzjL02BQ",
+        "sharedAssetKey": "x4iBjA00tN",
         "nodes": [
             {
                 "key": "wkQ3jl0275",
                 "order": 1,
                 "option": "FinWave details",
+                "sharedAssetKey": "x4iKq5024O",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -21,17 +23,19 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wkPzjL02BQ",
-            "relativePath": "./δ steps/δ-wkPzjL02BQ.tsstp"
+            "key": "x4iBjA00tN",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FinWaveTable.tsstp",
+            "isShared": true
         },
         {
-            "key": "δ-wkQ3jl0275",
-            "relativePath": "./δ steps/δ-wkQ3jl0275.tsstp"
+            "key": "x4iKq5024O",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FinWaveDetails.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "wkQ8S301Em",
-        "editorID": "car_4e1fa8d264c048b3b740fe5dce71bc0c",
-        "ticks": 1760567244731
+        "id": "x4iLDt028g",
+        "editorID": "car_ea0ecec9fa46486a8e5e2e94810f43d2",
+        "ticks": 1760867110449
     }
 }

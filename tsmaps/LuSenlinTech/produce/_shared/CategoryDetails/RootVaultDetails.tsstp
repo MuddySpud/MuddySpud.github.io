@@ -1,0 +1,16 @@
+¬import g from "../../../_shared/glossary"
+¬import c from "../../../equipment/_shared/common"
+
+
+###### RootVault Technologies  
+
+- {{g.moistureGradientAeratedColumns}}
+- {{g.sideEjectDrawer}}
+
+###### Harvest Enhancements
+  
+- {{g.endoscopicRootSizer}}
+- {{g.harvestReadyGreenDoorLight}}  
+
+{{c.ModuleAvailability_all}}
+
