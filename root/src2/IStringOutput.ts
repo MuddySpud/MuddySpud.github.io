@@ -3,6 +3,7 @@
 export default interface IStringOutput {
 
     output: string;
-    nestingLevel: number
+    nestingLevel: number;
+    openVariables: Array<string>;
 }
 

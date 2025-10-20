@@ -31,7 +31,7 @@
                                 "key": "s7SMPw1Ce",
                                 "order": 1,
                                 "sharedAssetKey": "t93qOs00Oe",
-                                "variable": "cropChoice",
+                                "variable": "cropCategory",
                                 "nodes": [
                                     {
                                         "key": "s7SMPw1gK",
@@ -109,13 +109,13 @@
                                             {
                                                 "key": "wtUc5102NS",
                                                 "order": 1,
-                                                "iKey": "wtRvcU00Xt",
+                                                "iKey": "wtZF260ir",
                                                 "nodes": [
                                                     {
-                                                        "key": "wtUjEL01pX",
+                                                        "key": "xBaVh901NX",
                                                         "order": 1,
                                                         "option": "Exit",
-                                                        "iExitKey": "wtTsxD00hr",
+                                                        "iExitKey": "wtZF260zS",
                                                         "exitKey": "s7SMPw1Te"
                                                     }
                                                 ]
@@ -175,57 +175,13 @@
                                             {
                                                 "key": "wuKY9O02Sy",
                                                 "order": 1,
-                                                "iKey": "wuGYkQ02Xu",
+                                                "iKey": "wuNsj11BZ",
                                                 "nodes": [
                                                     {
-                                                        "key": "wuMM3500yp",
+                                                        "key": "xBaeRE01pr",
                                                         "order": 1,
                                                         "option": "Exit",
-                                                        "iExitKey": "wuHH6D00FW",
-                                                        "exitKey": "s7SMPw1Te"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "key": "s7SMPw0zR",
-                                        "order": 8,
-                                        "option": "Fish",
-                                        "sharedAssetKey": "wuVEOT02ar",
-                                        "nodes": [
-                                            {
-                                                "key": "wuVE5x02ab",
-                                                "order": 1,
-                                                "iKey": "wuUGN800Oz",
-                                                "nodes": [
-                                                    {
-                                                        "key": "wuVJgy00dM",
-                                                        "order": 1,
-                                                        "option": "Exit",
-                                                        "iExitKey": "wuUkWq01SA",
-                                                        "exitKey": "s7SMPw1Te"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "key": "s7SMPw1lw",
-                                        "order": 9,
-                                        "option": "Crustaceans",
-                                        "sharedAssetKey": "wuXNq801uk",
-                                        "nodes": [
-                                            {
-                                                "key": "wuXNak00Lf",
-                                                "order": 1,
-                                                "iKey": "wuWApl01TF",
-                                                "nodes": [
-                                                    {
-                                                        "key": "wuXTxQ013E",
-                                                        "order": 1,
-                                                        "option": "Exit",
-                                                        "iExitKey": "wuWb8O01KK",
+                                                        "iExitKey": "wuNsj120p",
                                                         "exitKey": "s7SMPw1Te"
                                                     }
                                                 ]
@@ -234,7 +190,7 @@
                                     },
                                     {
                                         "key": "s7SMPw0f6",
-                                        "order": 10,
+                                        "order": 8,
                                         "option": "Molluscs",
                                         "sharedAssetKey": "wuZpWz00UT",
                                         "nodes": [
@@ -256,7 +212,7 @@
                                     },
                                     {
                                         "key": "s7SMPw0FD",
-                                        "order": 11,
+                                        "order": 9,
                                         "option": "Snails",
                                         "sharedAssetKey": "wubdhS02Yp",
                                         "nodes": [
@@ -369,24 +325,6 @@
             "relativePath": "./δ steps/δ-wuKY9O02Sy.tsstp"
         },
         {
-            "key": "wuVEOT02ar",
-            "relativePath": "../_shared/Fish.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "δ-wuVE5x02ab",
-            "relativePath": "./δ steps/δ-wuVE5x02ab.tsstp"
-        },
-        {
-            "key": "wuXNq801uk",
-            "relativePath": "../_shared/Crustaceans.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "δ-wuXNak00Lf",
-            "relativePath": "./δ steps/δ-wuXNak00Lf.tsstp"
-        },
-        {
             "key": "wuZpWz00UT",
             "relativePath": "../_shared/Molluscs.tsstp",
             "isShared": true
@@ -406,8 +344,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wubkZZ01FQ",
-        "editorID": "car_190b86ad3aff41b1814e0f7391e2e63e",
-        "ticks": 1760717776237
+        "id": "xBolPd022c",
+        "editorID": "car_2a9075bdedc8447688dc8dc5f348b8ef",
+        "ticks": 1760972075441
     }
 }

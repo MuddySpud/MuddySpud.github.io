@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "wtierp01az",
+        "variable": "crop",
         "nodes": [
             {
                 "key": "wtikV2011n",
@@ -97,8 +98,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xArK6T00Qm",
-        "editorID": "car_5cced09f90b144f9b9ad4475e8f0bfd0",
-        "ticks": 1760957909113
+        "id": "xBZSvY00e0",
+        "editorID": "car_089dde0ff4104457a59f5a1d262198d7",
+        "ticks": 1760968429464
     }
 }

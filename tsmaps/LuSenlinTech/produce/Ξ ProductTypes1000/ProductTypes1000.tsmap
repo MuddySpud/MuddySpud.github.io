@@ -30,7 +30,7 @@
                                 "key": "s7SMQM1NM",
                                 "order": 1,
                                 "sharedAssetKey": "t92L4n00sb",
-                                "variable": "cropChoice",
+                                "variable": "cropCategory",
                                 "nodes": [
                                     {
                                         "key": "s7SMQM1RC",
@@ -251,28 +251,6 @@
                                                 ]
                                             }
                                         ]
-                                    },
-                                    {
-                                        "key": "s7SMQM0oN",
-                                        "order": 11,
-                                        "option": "Snails",
-                                        "sharedAssetKey": "wubQgc01go",
-                                        "nodes": [
-                                            {
-                                                "key": "wubQON0076",
-                                                "order": 1,
-                                                "iKey": "wuahkg011M",
-                                                "nodes": [
-                                                    {
-                                                        "key": "wubYxr00JT",
-                                                        "order": 1,
-                                                        "option": "Exit",
-                                                        "iExitKey": "wubGs202Bw",
-                                                        "exitKey": "s7SMQM2ZQ"
-                                                    }
-                                                ]
-                                            }
-                                        ]
                                     }
                                 ]
                             },
@@ -402,20 +380,11 @@
         {
             "key": "δ-wuZWiy00wP",
             "relativePath": "./δ steps/δ-wuZWiy00wP.tsstp"
-        },
-        {
-            "key": "wubQgc01go",
-            "relativePath": "../_shared/Snails.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "δ-wubQON0076",
-            "relativePath": "./δ steps/δ-wubQON0076.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xAt8dx0178",
-        "editorID": "car_0b6cf5aee2fd476f9a77110b5626d9f5",
-        "ticks": 1760958341717
+        "id": "xBoiwm006M",
+        "editorID": "car_a5346fc594824dfba5f8b9fe26797dc6",
+        "ticks": 1760972065964
     }
 }

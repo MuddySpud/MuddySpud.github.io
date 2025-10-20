@@ -5,6 +5,7 @@ import IHookRegistry from "../src/modules/interfaces/window/IHookRegistry";
 import HookRegistry from "./HookRegistry"
 import IDisplayChart from "../src/modules/interfaces/state/display/IDisplayChart";
 import IStringOutput from "./IStringOutput";
+import gUtilities from "../src/modules/global/gUtilities";
 
 
 declare global {
@@ -64,10 +65,26 @@ const printStepVariables = (
     }
 
     const stepVariables = step.variable;
+    const openVariables = stringOutput.openVariables;
     let variableOutput = '';
     let output = '';
     let start = '';
     let end = '';
+    let variableName = '';
+
+    const ulVariables = [
+        "frameCount",
+        "frame",
+        "moduleType",
+        "moduleModel",
+        "twin",
+        "herbBay",
+        "cropCategory"
+    ]
+
+    const resetVariables = [
+        "powerSupply"
+    ]
 
     for (const variable of stepVariables) {
 
@@ -76,11 +93,12 @@ const printStepVariables = (
 
         if (variable.length === 1) {
 
-            variableOutput = `${variable[0].trim()} = ${step.selected?.option.trim() ?? 'no option selected'}`;
+            variableName = variable[0].trim()
+            variableOutput = `${variableName} = ${step.selected?.option.trim() ?? 'no option selected'}`;
         }
         else {
-
-            variableOutput = `${variable[0].trim()} = ${variable[1].trim()}`;
+            variableName = variable[0].trim()
+            variableOutput = `${variableName} = ${variable[1].trim()}`;
         }
 
         if (stringOutput.nestingLevel === 0) {
@@ -89,39 +107,44 @@ const printStepVariables = (
             start = `<ul>${start}`;
         }
 
-        if (variableOutput.startsWith('frame = 1') === true
-            || variableOutput.startsWith('module = 1') === true
-            || variableOutput.startsWith('cropChoice = ') === true
-            || variableOutput.startsWith('herbBay = 1') === true
-        ) {
-            end = `${end}<ul>`;
-            stringOutput.nestingLevel++;
-        }
-        else if (variableOutput.startsWith('cropChoice =') === true) {
+        if (resetVariables.includes(variableName) === true) {
 
-            start = `${start}`;
-            end = `${end}<ul>`;
-            stringOutput.nestingLevel++;
-        }
-        else if (variableOutput.startsWith('herbBay = ') === true) {
+            for (let k = 0; k < openVariables.length; k++) {
 
-            start = `</ul>${start}`;
-            end = `${end}<ul>`;
-        }
-        else if (!variableOutput.startsWith('module = S')
-            && !variableOutput.startsWith('module = D')
-            && variableOutput.startsWith('module =') === true
-        ) {
-            start = `</ul></ul>${start}`;
-            end = `${end}<ul>`;
-            stringOutput.nestingLevel--;
-        }
-        else if (variableOutput.startsWith('frame =') === true) {
+                start = `</ul>${start}`;
+            }
 
-            start = `</ul></ul></ul>${start}`;
-            end = `${end}<ul>`;
-            stringOutput.nestingLevel--;
-            stringOutput.nestingLevel--;
+            openVariables.length = 0;
+            stringOutput.nestingLevel = 1;
+        }
+        else {
+            let counter = 0;
+
+            for (let i = openVariables.length - 1; i >= 0; i--) {
+
+                counter++;
+
+                if (openVariables[i] === variableName) {
+
+                    for (let j = 0; j < counter; j++) {
+
+                        start = `</ul>${start}`;
+                        stringOutput.nestingLevel--;
+                    }
+
+                    openVariables.length = i;
+
+                    break;
+                }
+            }
+
+            if (ulVariables.includes(variableName) === true) {
+
+                // Next variable will be within the ul for ths variableName
+                end = `${end}<ul>`;
+                stringOutput.openVariables.push(variableName);
+                stringOutput.nestingLevel++;
+            }
         }
 
         variableOutput = `${start}${variableOutput}${end}`;
@@ -179,7 +202,8 @@ const printChainVariables = (
 
     let stringOutput: IStringOutput = {
         output: '',
-        nestingLevel: 0
+        nestingLevel: 0,
+        openVariables: []
     };
 
     printChainStepVariables(

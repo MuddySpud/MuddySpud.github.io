@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/ShellWave_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"x8CnbI0FG","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/ShellWave_frags"},"fragment":{"id":"x8CnbI0FG","topLevelMapKey":"wkO7nN00Y9","mapKeyChain":"wkO7nN00Y9","guideID":"x8CnbI1DY","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/ShellWave.tspod","chartKey":"wkO7nN00Y9","isLeaf":false,"options":[{"id":"x8CnbP0oD","option":"ShellWave details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xBpZvx1qm","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/ShellWave_frags"},"fragment":{"id":"xBpZvx1qm","topLevelMapKey":"wkO7nN00Y9","mapKeyChain":"wkO7nN00Y9","guideID":"xBpZvx0Pp","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/ShellWave.tspod","chartKey":"wkO7nN00Y9","isLeaf":false,"options":[{"id":"xBpZw11LU","option":"ShellWave details","order":1,"isAncillary":true}]}} -->
 
 | ShellWave | A 15 L micro-bubble column recirculates pristine water for mussels and clams. A UV-C/ozone loop sterilises continuously, and auto-chill drops temperature pre-harvest. | Edible molluscs – all 10 Balcony species |
 {: .nt-fr-columns}

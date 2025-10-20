@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/TuberTower_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"x8CnW00F2","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/TuberTower_frags"},"fragment":{"id":"x8CnW00F2","topLevelMapKey":"wkPL1J00M3","mapKeyChain":"wkPL1J00M3","guideID":"x8CnW01YZ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/TuberTower.tspod","chartKey":"wkPL1J00M3","isLeaf":false,"options":[{"id":"x8CnW40rP","option":"TuberTower details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xBpZqw1hI","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/TuberTower_frags"},"fragment":{"id":"xBpZqw1hI","topLevelMapKey":"wkPL1J00M3","mapKeyChain":"wkPL1J00M3","guideID":"xBpZqw0rW","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/TuberTower.tspod","chartKey":"wkPL1J00M3","isLeaf":false,"options":[{"id":"xBpZr01sQ","option":"TuberTower details","order":1,"isAncillary":true}]}} -->
 
 | TuberTower | A 150 mm-deep roll-out bed lets bulky rhizomes swell naturally. Graphene heat-loops hold 24–26 °C, and an ultrasonic Rhizo-Shield™ loosens root hairs so tubers lift mud-free. | Roots & stems – Baby Sweet Potato, Dwarf Taro, Young Lotus Root, Baby Ginger |
 {: .nt-fr-columns}

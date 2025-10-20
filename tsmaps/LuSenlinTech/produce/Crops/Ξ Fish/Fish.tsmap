@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "wuUHRF00JV",
+        "variable": "crop",
         "nodes": [
             {
                 "key": "wuUNQF01k4",
@@ -85,8 +86,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xArfvr00ql",
-        "editorID": "car_1498fea4c4ac480782c9239d59a5d392",
-        "ticks": 1760957993023
+        "id": "xBZcMW01ZU",
+        "editorID": "car_0e8f4fb4d0594b67a5922aac80b2cbe7",
+        "ticks": 1760968465732
     }
 }

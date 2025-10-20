@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "wtXSb42VK",
+        "variable": "crop",
         "nodes": [
             {
                 "key": "wtXSb40ZJ",
@@ -43,8 +44,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xAroc900xz",
-        "editorID": "car_0164e8df04a447d7860d4a6da22555e6",
-        "ticks": 1760958026397
+        "id": "xBZoKE01nb",
+        "editorID": "car_369f03a6218a435a9c0bf3e9e9b054af",
+        "ticks": 1760968511718
     }
 }
