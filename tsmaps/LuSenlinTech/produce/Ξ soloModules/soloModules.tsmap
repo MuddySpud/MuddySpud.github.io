@@ -4,7 +4,7 @@
     "name": "SoloModules",
     "created": "2025-09-22T22:51:33.582Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ soloModules/soloModules.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Ξ SoloModules/SoloModules.tsmap",
     "iText": "Link to 'SoloModules'",
     "iExits": [
         {
@@ -529,27 +529,27 @@
     "___αssεts___": [
         {
             "key": "x4Qhzz02K4",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/AeroHerbTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/AeroHerbTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4Te9C00c6",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/LeafLiftTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/LeafLiftTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4NL0W015H",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AeroHerbDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/AeroHerbDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4U8ll00nx",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/LeafLiftDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/LeafLiftDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4YjGU014V",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/RootVaultTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/RootVaultTable.tsstp",
             "isShared": true
         },
         {
@@ -558,12 +558,12 @@
         },
         {
             "key": "x4Ztib02VO",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/StemStackTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/StemStackTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4ZOz000X6",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/RootVaultDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/RootVaultDetails.tsstp",
             "isShared": true
         },
         {
@@ -572,82 +572,82 @@
         },
         {
             "key": "x4aaYQ01gd",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/PetalBloomTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/PetalBloomTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4SyLG021N",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/AquaGreenTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/AquaGreenTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4apSV00yK",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/PetalBloomDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/PetalBloomDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4bT9o02Mv",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/MycoNestTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/MycoNestTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4Stsy00EO",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AquaGreenDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/AquaGreenDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4c1Yh02Q4",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FungaRootTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/FungaRootTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4beDg01U1",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/MycoNestDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/MycoNestDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4cAkx00XR",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FungaRootDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/FungaRootDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4dGXv02Fl",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/ShellWaveTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/ShellWaveTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4dS7z0149",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/ShellWaveDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/ShellWaveDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4dn9m00qR",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/CrustaBayTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/CrustaBayTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4hXpB00Oh",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/TuberTowerTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/TuberTowerTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4dzAg00qS",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/CrustaBayDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/CrustaBayDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4i7Xp01gj",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FinWaveTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/FinWaveTable.tsstp",
             "isShared": true
         },
         {
             "key": "x4hgKq004l",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/TuberTowerDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/TuberTowerDetails.tsstp",
             "isShared": true
         },
         {
             "key": "x4iJpY00Sc",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FinWaveDetails.tsstp",
+            "relativePath": "../_shared/CategoryDetails/FinWaveDetails.tsstp",
             "isShared": true
         },
         {
@@ -777,13 +777,13 @@
         },
         {
             "key": "x4VkKF018p",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/FruitForgeTable.tsstp",
+            "relativePath": "../_shared/CategoryTables/FruitForgeTable.tsstp",
             "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "xBpAxk008K",
-        "editorID": "car_1f1478e2fee14187ad3f7dbec5ababf6",
-        "ticks": 1760972173656
+        "id": "xDeYEW00J4",
+        "editorID": "me_ec032de9ffe745eb9893f19e25063998",
+        "ticks": 1760999194172
     }
 }
