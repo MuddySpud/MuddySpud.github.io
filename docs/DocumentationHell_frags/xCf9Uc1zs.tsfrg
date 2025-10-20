@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/xCf9Uc1zs.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"xCf9Uc1zs","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"xCf9T321Q","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"xCf9US13a","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"xCf9VF26m","order":1},{"id":"xCf9VV2J2","option":"Show this step...","order":2,"isAncillary":true}]} -->
+
+### Explore Under the Hood
+
+This section, 'How It Works: The Building Blocks', is a single step from the documentation's opening map. To see the mechanics behind it, click the ancillary button below-right labeled 'Show this step...'.
+
+An ancillary is how [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) keeps guides clean. It lets you expand detailed information on demand, keeping the main path focused for readers who don't need the extra detail. These ancillary buttons are anchored to the right margin.
+
+Clicking it will open a panel showing a screenshot of this very step open in [Visual Studio Code](https://code.visualstudio.com/). From there, use the ancillary buttons within the panel to drill down and explore the interconnected structure for yourself.
+

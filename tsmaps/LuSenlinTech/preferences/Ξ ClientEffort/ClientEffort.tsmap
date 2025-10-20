@@ -37,6 +37,7 @@
                             {
                                 "key": "s7LPoO11x",
                                 "order": 1,
+                                "variable": "growEasy",
                                 "nodes": [
                                     {
                                         "key": "s7LPoO05F",
@@ -140,8 +141,8 @@
         }
     ],
     "___εdit___": {
-        "id": "uX9gw600Gh",
-        "editorID": "me_e5e3fa7470ca40e8bb4133d5a3a8ff58",
-        "ticks": 1758538967682
+        "id": "xCeaLH00hK",
+        "editorID": "car_4501400835e041aeadc750a1fe582adc",
+        "ticks": 1760984425943
     }
 }

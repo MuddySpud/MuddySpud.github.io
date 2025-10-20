@@ -25,7 +25,6 @@
                                 "key": "s7LPkv1yE",
                                 "order": 1,
                                 "iKey": "s7LPoO1sh",
-                                "variable": "clientEffort",
                                 "nodes": [
                                     {
                                         "key": "s7LPkv1Np",
@@ -79,23 +78,32 @@
                                                 "key": "uXAz8Y01gX",
                                                 "order": 1,
                                                 "option": "Next",
-                                                "iKey": "s7SMXt0ol",
+                                                "iKey": "s7SMOZ0AN",
                                                 "nodes": [
                                                     {
-                                                        "key": "uXBEOU00Ir",
+                                                        "key": "xCdPrg00BZ",
                                                         "order": 1,
-                                                        "option": "Has power supply",
-                                                        "sharedAssetKey": "uXBJQT01Df",
-                                                        "isLeaf": true,
-                                                        "iExitKey": "s7SMXt1dV"
-                                                    },
-                                                    {
-                                                        "key": "uXBEOU01aj",
-                                                        "order": 2,
-                                                        "option": "No power supply",
-                                                        "sharedAssetKey": "uXBS0D00ho",
-                                                        "isLeaf": true,
-                                                        "iExitKey": "s7SMXt0Xu"
+                                                        "option": "Next",
+                                                        "iKey": "s7SMXt0ol",
+                                                        "iExitKey": "s7SMOZ0VN",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "xCdSxK004c",
+                                                                "order": 1,
+                                                                "option": "Has power supply",
+                                                                "sharedAssetKey": "xCdWJK00c3",
+                                                                "isLeaf": true,
+                                                                "iExitKey": "s7SMXt1dV"
+                                                            },
+                                                            {
+                                                                "key": "xCdSxK026w",
+                                                                "order": 2,
+                                                                "option": "No power supply",
+                                                                "sharedAssetKey": "xCdZj102LO",
+                                                                "isLeaf": true,
+                                                                "iExitKey": "s7SMXt0Xu"
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -206,16 +214,6 @@
             "relativePath": "./δ steps/δ-uXAz8Y01gX.tsstp"
         },
         {
-            "key": "uXBJQT01Df",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "uXBS0D00ho",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
             "key": "δ-uXB6Dv017G",
             "relativePath": "./δ steps/δ-uXB6Dv017G.tsstp"
         },
@@ -232,11 +230,25 @@
             "key": "uXjh2d00Av",
             "relativePath": "../_share/processStep.tsstp",
             "isShared": true
+        },
+        {
+            "key": "δ-xCdPrg00BZ",
+            "relativePath": "./δ steps/δ-xCdPrg00BZ.tsstp"
+        },
+        {
+            "key": "xCdWJK00c3",
+            "relativePath": "../_share/processStep.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "xCdZj102LO",
+            "relativePath": "../_share/processStep.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "ww0yGz02GU",
-        "editorID": "car_842ca1ccdc774e6a9fc5c997cf1458c9",
-        "ticks": 1760738563437
+        "id": "xCeVO501qe",
+        "editorID": "car_4b73cc9d01674122a29ce4f158e499ae",
+        "ticks": 1760984406897
     }
 }

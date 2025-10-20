@@ -73,6 +73,8 @@ const printStepVariables = (
     let variableName = '';
 
     const ulVariables = [
+        "towerLocation",
+        "growEasy",
         "frameCount",
         "frame",
         "moduleType",

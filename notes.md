@@ -1,6 +1,47 @@
 
+## Publish to DocsAssemblerDemo
 
-duo modules can't have fish or crustaceans
+Publish C:\GitHub\MuddySpud\MuddySpud.github.io\tsmaps\Ξ DocumentationHell\DocumentationHell.tsmap
+
+Then copy over published files to docs.
+
+Run yarn build
+
+Delete all files in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
+
+Copy over the files in C:\GitHub\MuddySpud\MuddySpud.github.io\build over to C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
+
+Adjust these references in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_includes\head.html
+  <script type="module" crossorigin src="/assets/FragmentRenderer/index.Df81YTG1.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/FragmentRenderer/stepHook.BZRxKY32.js">
+  <link rel="modulepreload" crossorigin href="/assets/FragmentRenderer/guide.BXLPv0P3.js">
+  <link rel="stylesheet" crossorigin href="/assets/FragmentRenderer/guide.CqGWZ4gS.css">
+to the new file names in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
+
+Delete these folders in DocsAssemblerDemo:
+  C:\GitHub\DocsAssemblerDemo\docs\_includes
+  C:\GitHub\DocsAssemblerDemo\docs\assets
+  C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
+  C:\GitHub\DocsAssemblerDemo\docs\LuSenlinTech
+  C:\GitHub\DocsAssemblerDemo\docs\Technical
+  C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
+
+copy over folders:
+C:\GitHub\MuddySpud\MuddySpud.github.io\tsmaps to C:\GitHub\DocsAssemblerDemo\tsmaps
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\DocumentationHell.md to C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\Technical to C:\GitHub\DocsAssemblerDemo\docs\Technical
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\LuSenlinTech to C:\GitHub\DocsAssemblerDemo\docs\LuSenlinTech
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\DocumentationHell_frags to C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets to C:\GitHub\DocsAssemblerDemo\docs\assets
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_includes to C:\GitHub\DocsAssemblerDemo\docs\_includes
+
+Copy over the fragment json and markdwn from C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
+to C:\GitHub\DocsAssemblerDemo\docs\index.md
+
+Commit the changes and check github CompositeFlows-RM
+
+https://docsassemblerdemo.netoftrees.com/
+
 
 ###### Next:
 
