@@ -23,7 +23,6 @@
                 "option": "Solo module",
                 "sharedAssetKey": "uXhN5W01R6",
                 "iExitKey": "s7LPpx0rd",
-                "variable": "module = 1",
                 "nodes": [
                     {
                         "key": "s7SMPh1Os",
@@ -126,8 +125,8 @@
         }
     ],
     "___εdit___": {
-        "id": "x2LkO400k5",
-        "editorID": "car_7083f7fe1e1f4b2d9d940fc67a79e40f",
-        "ticks": 1760832172964
+        "id": "xAoIFE01ww",
+        "editorID": "car_e87ac98c18824892845054c32eb924e5",
+        "ticks": 1760957186984
     }
 }

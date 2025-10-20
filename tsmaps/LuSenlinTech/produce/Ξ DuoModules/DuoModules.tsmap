@@ -20,6 +20,7 @@
             {
                 "key": "wT7k3Q00Zi",
                 "order": 1,
+                "variable": "modelChoice",
                 "class": "split-table",
                 "nodes": [
                     {
@@ -495,8 +496,8 @@
         }
     ],
     "___εdit___": {
-        "id": "x5aJb300Pk",
-        "editorID": "car_007295fa082043bb9a4d3626f2318b3a",
-        "ticks": 1760879973909
+        "id": "xAs9bL01mY",
+        "editorID": "car_14b69705a677462cbb8a9ce9d948aa22",
+        "ticks": 1760958107071
     }
 }

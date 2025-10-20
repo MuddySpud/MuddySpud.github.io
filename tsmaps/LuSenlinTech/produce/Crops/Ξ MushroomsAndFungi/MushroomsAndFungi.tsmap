@@ -1,5 +1,5 @@
 {
-    "key": "wuNsj11BZ",
+    "key": "wuNsj11BZ   ",
     "token": "Mushroomsandfungi",
     "name": "MushroomsAndFungi",
     "created": "2025-10-17T14:52:05.894Z",
@@ -15,7 +15,6 @@
     ],
     "___rΩΩt___": {
         "key": "wuNsj10vB",
-        "variable": "fungi",
         "nodes": [
             {
                 "key": "wuNsj106w",
@@ -110,8 +109,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wuNfdm014O",
-        "editorID": "car_d1f35150deb34cb0848fe854f5f4f1f9",
-        "ticks": 1760714420686
+        "id": "xArjbs02IB",
+        "editorID": "car_287b285259a44587af2febe907485a23",
+        "ticks": 1760958007160
     }
 }

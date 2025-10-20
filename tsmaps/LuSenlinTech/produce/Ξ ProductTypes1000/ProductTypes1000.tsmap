@@ -37,7 +37,6 @@
                                         "order": 1,
                                         "option": "Aromatic herbs",
                                         "sharedAssetKey": "t8o8si01je",
-                                        "variable": "herbBay = 1",
                                         "nodes": [
                                             {
                                                 "key": "s7SMQM0rE",
@@ -108,13 +107,13 @@
                                             {
                                                 "key": "wtU59001iO",
                                                 "order": 1,
-                                                "iKey": "wtRvcU00Xt",
+                                                "iKey": "wtZF260ir",
                                                 "nodes": [
                                                     {
-                                                        "key": "wtUHH001NH",
+                                                        "key": "xAssJ600BR",
                                                         "order": 1,
                                                         "option": "Exit",
-                                                        "iExitKey": "wtTsxD00hr",
+                                                        "iExitKey": "wtZF260zS",
                                                         "exitKey": "s7SMQM2ZQ"
                                                     }
                                                 ]
@@ -174,13 +173,13 @@
                                             {
                                                 "key": "wuHZs001Go",
                                                 "order": 1,
-                                                "iKey": "wuGYkQ02Xu",
+                                                "iKey": "wuNsj11BZ",
                                                 "nodes": [
                                                     {
-                                                        "key": "wuHl0I001d",
+                                                        "key": "xAt7Ll00uu",
                                                         "order": 1,
                                                         "option": "Exit",
-                                                        "iExitKey": "wuHH6D00FW",
+                                                        "iExitKey": "wuNsj120p",
                                                         "exitKey": "s7SMQM2ZQ"
                                                     }
                                                 ]
@@ -415,8 +414,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wuhvfi02Af",
-        "editorID": "car_382b417636ff4177a2dfd636686ad929",
-        "ticks": 1760719248870
+        "id": "xAt8dx0178",
+        "editorID": "car_0b6cf5aee2fd476f9a77110b5626d9f5",
+        "ticks": 1760958341717
     }
 }

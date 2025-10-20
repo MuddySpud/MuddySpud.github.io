@@ -20,7 +20,7 @@
     ],
     "___rΩΩt___": {
         "key": "s7LPpx2Ln",
-        "variable": "module",
+        "variable": "moduleType",
         "nodes": [
             {
                 "key": "s7LPpx1Hw",
@@ -43,8 +43,8 @@
         }
     ],
     "___εdit___": {
-        "id": "x2Kcjr00OU",
-        "editorID": "me_bea664dceb8e45a587514b4aeb120522",
-        "ticks": 1760831905235
+        "id": "xAod7f02OM",
+        "editorID": "car_8e8a04cb44c84d0cbedcaad969882026",
+        "ticks": 1760957267239
     }
 }

@@ -110,6 +110,7 @@
                                                                                                                                     {
                                                                                                                                         "key": "vcH5Zc00ny",
                                                                                                                                         "order": 1,
+                                                                                                                                        "variable": "modelChoice",
                                                                                                                                         "nodes": [
                                                                                                                                             {
                                                                                                                                                 "key": "vnxZW700Xw",
@@ -807,8 +808,8 @@
         }
     ],
     "___εdit___": {
-        "id": "x7xsSh02Re",
-        "editorID": "car_ab792f6c823649038117147663ea0e93",
-        "ticks": 1760915142147
+        "id": "xAqVd0003X",
+        "editorID": "car_130105eef9d04f25a44f64fb803c6a98",
+        "ticks": 1760957715086
     }
 }

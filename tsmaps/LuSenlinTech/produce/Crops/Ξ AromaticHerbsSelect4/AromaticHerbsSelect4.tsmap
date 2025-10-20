@@ -16,7 +16,6 @@
     "___rΩΩt___": {
         "key": "wtMWFT01Mi",
         "sharedAssetKey": "wtMXsE01XK",
-        "variable": "aromaticHerbs",
         "nodes": [
             {
                 "key": "wqSuAY01oE",
@@ -137,8 +136,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wtNRkP00X9",
-        "editorID": "car_d6b05d0bd8b34d23ae840908c73f0012",
-        "ticks": 1760699590945
+        "id": "xArMPi020Z",
+        "editorID": "car_48ecab05b77b4f3aa05f858d9b93fcc2",
+        "ticks": 1760957917994
     }
 }

@@ -178,6 +178,7 @@
                 "key": "s7SMOZ09D",
                 "order": 2,
                 "option": "mode details...",
+                "sharedAssetKey": "xAo0uw02QK",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -261,8 +262,9 @@
             "relativePath": "./δ steps/δ-q7TwZn00F1.tsstp"
         },
         {
-            "key": "δ-s7SMOZ09D",
-            "relativePath": "./δ steps/δ-rqXbd500LJ.tsstp"
+            "key": "xAo0uw02QK",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/FrameFeatures.tsstp",
+            "isShared": true
         },
         {
             "key": "uXc2cc00YU",
@@ -271,8 +273,8 @@
         }
     ],
     "___εdit___": {
-        "id": "uXfVmJ00K0",
-        "editorID": "car_f7ca5a081cc245c4960219ea88036988",
-        "ticks": 1758546551287
+        "id": "xAo1U20129",
+        "editorID": "car_e8af30dd45ab4b728c6c3d9d1bc26059",
+        "ticks": 1760957122554
     }
 }

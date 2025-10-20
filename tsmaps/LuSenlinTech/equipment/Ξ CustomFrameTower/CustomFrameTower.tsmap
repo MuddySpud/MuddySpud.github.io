@@ -14,64 +14,74 @@
         }
     ],
     "___rΩΩt___": {
-        "key": "uXEPwT012Q",
+        "key": "xAlmSW021A",
         "nodes": [
             {
-                "key": "uXVBNn01ou",
+                "key": "uXEPwT012Q",
                 "order": 1,
-                "option": "1 frame tower",
-                "sharedAssetKey": "uXboP401U6",
+                "variable": "frameCount ",
                 "nodes": [
                     {
-                        "key": "uXWuVJ00i4",
+                        "key": "uXVBNn01ou",
                         "order": 1,
-                        "iKey": "uXW7aS02Uj",
+                        "option": "1 frame tower",
+                        "sharedAssetKey": "uXboP401U6",
+                        "variable": "frame = 1",
                         "nodes": [
                             {
-                                "key": "uXd3hm02Bs",
-                                "order": 1,
-                                "option": "Next",
-                                "iExitKey": "uXWh9501j7",
-                                "exitKey": "uXcsWB01pQ"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "uXVqjR01gS",
-                "order": 2,
-                "option": "2 frame tower",
-                "sharedAssetKey": "uXbtfA01UV",
-                "nodes": [
-                    {
-                        "key": "uXbrqa00G5",
-                        "order": 1,
-                        "sharedAssetKey": "uXeICL00cv",
-                        "nodes": [
-                            {
-                                "key": "uXcIKw016q",
+                                "key": "uXWuVJ00i4",
                                 "order": 1,
                                 "iKey": "uXW7aS02Uj",
                                 "nodes": [
                                     {
-                                        "key": "uXcTLK000u",
+                                        "key": "uXd3hm02Bs",
                                         "order": 1,
                                         "option": "Next",
-                                        "sharedAssetKey": "uXeXsN01lM",
                                         "iExitKey": "uXWh9501j7",
+                                        "exitKey": "uXcsWB01pQ"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "uXVqjR01gS",
+                        "order": 2,
+                        "option": "2 frame tower",
+                        "sharedAssetKey": "uXbtfA01UV",
+                        "nodes": [
+                            {
+                                "key": "uXbrqa00G5",
+                                "order": 1,
+                                "sharedAssetKey": "uXeICL00cv",
+                                "variable": "frame = 1",
+                                "nodes": [
+                                    {
+                                        "key": "uXcIKw016q",
+                                        "order": 1,
+                                        "iKey": "uXW7aS02Uj",
                                         "nodes": [
                                             {
-                                                "key": "uXcbMj01IO",
+                                                "key": "uXcTLK000u",
                                                 "order": 1,
-                                                "iKey": "uXW7aS02Uj",
+                                                "option": "Next",
+                                                "sharedAssetKey": "uXeXsN01lM",
+                                                "iExitKey": "uXWh9501j7",
+                                                "variable": "frame = 2",
                                                 "nodes": [
                                                     {
-                                                        "key": "uXciUF01Sd",
+                                                        "key": "uXcbMj01IO",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iExitKey": "uXWh9501j7",
-                                                        "exitKey": "uXcsWB01pQ"
+                                                        "iKey": "uXW7aS02Uj",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "uXciUF01Sd",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "iExitKey": "uXWh9501j7",
+                                                                "exitKey": "uXcsWB01pQ"
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -80,54 +90,57 @@
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "key": "uXVrGY00Ib",
-                "order": 3,
-                "option": "3 frame tower",
-                "nodes": [
+                    },
                     {
-                        "key": "uXbl9n00o3",
-                        "order": 1,
-                        "sharedAssetKey": "uXeCdr016A",
+                        "key": "uXVrGY00Ib",
+                        "order": 3,
+                        "option": "3 frame tower",
                         "nodes": [
                             {
-                                "key": "uXdFGh01A0",
+                                "key": "uXbl9n00o3",
                                 "order": 1,
-                                "iKey": "uXW7aS02Uj",
+                                "sharedAssetKey": "uXeCdr016A",
+                                "variable": "frame = 1",
                                 "nodes": [
                                     {
-                                        "key": "uXdLUi00ga",
+                                        "key": "uXdFGh01A0",
                                         "order": 1,
-                                        "option": "Next",
-                                        "sharedAssetKey": "uXeauX02R8",
-                                        "iExitKey": "uXWh9501j7",
+                                        "iKey": "uXW7aS02Uj",
                                         "nodes": [
                                             {
-                                                "key": "uXeaZ300YP",
+                                                "key": "uXdLUi00ga",
                                                 "order": 1,
-                                                "iKey": "uXW7aS02Uj",
+                                                "option": "Next",
+                                                "sharedAssetKey": "uXeauX02R8",
+                                                "iExitKey": "uXWh9501j7",
+                                                "variable": "frame = 2",
                                                 "nodes": [
                                                     {
-                                                        "key": "uXergx014V",
+                                                        "key": "uXeaZ300YP",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "sharedAssetKey": "uXf5qn01M8",
-                                                        "iExitKey": "uXWh9501j7",
+                                                        "iKey": "uXW7aS02Uj",
                                                         "nodes": [
                                                             {
-                                                                "key": "uXf5b400yO",
+                                                                "key": "uXergx014V",
                                                                 "order": 1,
-                                                                "iKey": "uXW7aS02Uj",
+                                                                "option": "Next",
+                                                                "sharedAssetKey": "uXf5qn01M8",
+                                                                "iExitKey": "uXWh9501j7",
+                                                                "variable": "frame = 3",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "uXgdPQ01ZX",
+                                                                        "key": "uXf5b400yO",
                                                                         "order": 1,
-                                                                        "option": "Next",
-                                                                        "iExitKey": "uXWh9501j7",
-                                                                        "exitKey": "uXcsWB01pQ"
+                                                                        "iKey": "uXW7aS02Uj",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "uXgdPQ01ZX",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "iExitKey": "uXWh9501j7",
+                                                                                "exitKey": "uXcsWB01pQ"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 ]
                                                             }
@@ -140,67 +153,71 @@
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "key": "uXVtR301X0",
-                "order": 4,
-                "option": "4 frame tower",
-                "sharedAssetKey": "uXbxVz003V",
-                "nodes": [
+                    },
                     {
-                        "key": "uXbvw9008t",
-                        "order": 1,
-                        "sharedAssetKey": "uXeEnl02Zw",
+                        "key": "uXVtR301X0",
+                        "order": 4,
+                        "option": "4 frame tower",
+                        "sharedAssetKey": "uXbxVz003V",
                         "nodes": [
                             {
-                                "key": "uXdQZS01SC",
+                                "key": "uXbvw9008t",
                                 "order": 1,
-                                "iKey": "uXW7aS02Uj",
+                                "sharedAssetKey": "uXeEnl02Zw",
+                                "variable": "frame = 1",
                                 "nodes": [
                                     {
-                                        "key": "uXevUw02Qq",
+                                        "key": "uXdQZS01SC",
                                         "order": 1,
-                                        "option": "Next",
-                                        "sharedAssetKey": "uXfK8e01ha",
-                                        "iExitKey": "uXWh9501j7",
+                                        "iKey": "uXW7aS02Uj",
                                         "nodes": [
                                             {
-                                                "key": "uXf7uT01BN",
+                                                "key": "uXevUw02Qq",
                                                 "order": 1,
-                                                "iKey": "uXW7aS02Uj",
+                                                "option": "Next",
+                                                "sharedAssetKey": "uXfK8e01ha",
+                                                "iExitKey": "uXWh9501j7",
+                                                "variable": "frame = 2",
                                                 "nodes": [
                                                     {
-                                                        "key": "uXfCNX01mY",
+                                                        "key": "uXf7uT01BN",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "sharedAssetKey": "uXfH6u00hq",
-                                                        "iExitKey": "uXWh9501j7",
+                                                        "iKey": "uXW7aS02Uj",
                                                         "nodes": [
                                                             {
-                                                                "key": "uXfGbJ01Ec",
+                                                                "key": "uXfCNX01mY",
                                                                 "order": 1,
-                                                                "iKey": "uXW7aS02Uj",
+                                                                "option": "Next",
+                                                                "sharedAssetKey": "uXfH6u00hq",
+                                                                "iExitKey": "uXWh9501j7",
+                                                                "variable": "frame = 3",
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "uXfi9501F3",
+                                                                        "key": "uXfGbJ01Ec",
                                                                         "order": 1,
-                                                                        "option": "Next",
-                                                                        "sharedAssetKey": "uXflEr02SM",
-                                                                        "iExitKey": "uXWh9501j7",
+                                                                        "iKey": "uXW7aS02Uj",
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "uXfjDX00m4",
+                                                                                "key": "uXfi9501F3",
                                                                                 "order": 1,
-                                                                                "iKey": "uXW7aS02Uj",
+                                                                                "option": "Next",
+                                                                                "sharedAssetKey": "uXflEr02SM",
+                                                                                "iExitKey": "uXWh9501j7",
+                                                                                "variable": "frame = 4",
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "uXfrmF01gr",
+                                                                                        "key": "uXfjDX00m4",
                                                                                         "order": 1,
-                                                                                        "option": "Next",
-                                                                                        "iExitKey": "uXWh9501j7",
-                                                                                        "exitKey": "uXcsWB01pQ"
+                                                                                        "iKey": "uXW7aS02Uj",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "uXfrmF01gr",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "iExitKey": "uXWh9501j7",
+                                                                                                "exitKey": "uXcsWB01pQ"
+                                                                                            }
+                                                                                        ]
                                                                                     }
                                                                                 ]
                                                                             }
@@ -219,6 +236,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "key": "xAnRne00fG",
+                "order": 2,
+                "option": "mode details...",
+                "sharedAssetKey": "xAo3fc00IW",
+                "isLeaf": true,
+                "isAncillary": true
             }
         ]
     },
@@ -330,11 +355,20 @@
         {
             "key": "δ-uXf5b400yO",
             "relativePath": "./δ steps/δ-uXf5b400yO.tsstp"
+        },
+        {
+            "key": "δ-xAlmSW021A",
+            "relativePath": "./δ steps/δ-xAlmSW021A.tsstp"
+        },
+        {
+            "key": "xAo3fc00IW",
+            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/FrameFeatures.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "vcSRC30182",
-        "editorID": "car_93675aa7a23d4dd6b2ca11d30edb7517",
-        "ticks": 1759533449911
+        "id": "xAo44902AM",
+        "editorID": "car_76f57730ac604e0b87bf96d70bfa02da",
+        "ticks": 1760957132481
     }
 }

@@ -1,5 +1,5 @@
 {
-    "key": "wtZF260ir",
+    "key": "wtZF260ir   ",
     "token": "Rootsstems",
     "name": "RootsStems",
     "created": "2025-10-17T11:30:59.086Z",
@@ -15,7 +15,6 @@
     ],
     "___rΩΩt___": {
         "key": "wtZF261QS",
-        "variable": "rootsAndStems",
         "nodes": [
             {
                 "key": "wtZF260Mf",
@@ -98,8 +97,8 @@
         }
     ],
     "___εdit___": {
-        "id": "wtUQi501Ou",
-        "editorID": "car_0b129ca3569747ccbac414ef2db411f5",
-        "ticks": 1760701255253
+        "id": "xArlzo01nd",
+        "editorID": "car_020f9a0e3e1342c9aa7fa8dea65a5d2e",
+        "ticks": 1760958016332
     }
 }
