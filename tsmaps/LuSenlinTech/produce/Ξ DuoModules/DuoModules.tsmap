@@ -288,54 +288,6 @@
                         ]
                     },
                     {
-                        "key": "wkOfd402GZ",
-                        "order": 12,
-                        "option": "Select CrustaBay",
-                        "sharedAssetKey": "wuXgIL01zK",
-                        "podKey": "wkOkOs00BD",
-                        "podText": "Link to 'CrustaBay'",
-                        "nodes": [
-                            {
-                                "key": "wuXftB00Bv",
-                                "order": 1,
-                                "iKey": "wuWApl01TF",
-                                "nodes": [
-                                    {
-                                        "key": "wuXrTS015Y",
-                                        "order": 1,
-                                        "option": "Exit",
-                                        "iExitKey": "wuWb8O01KK",
-                                        "exitKey": "wTGaAV00qB"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "key": "wkPrBL00jX",
-                        "order": 13,
-                        "option": "Select FinWave",
-                        "sharedAssetKey": "wuVXB801q7",
-                        "podKey": "wkPyeJ01n1",
-                        "podText": "Link to 'FinWave'",
-                        "nodes": [
-                            {
-                                "key": "wuVWfZ00zp",
-                                "order": 1,
-                                "iKey": "wuUGN800Oz",
-                                "nodes": [
-                                    {
-                                        "key": "wuVgh901rg",
-                                        "order": 1,
-                                        "option": "Exit",
-                                        "iExitKey": "wuUkWq01SA",
-                                        "exitKey": "wTGaAV00qB"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         "key": "wkNT1s00hy",
                         "order": 14,
                         "option": "Select GasterPod",
@@ -459,24 +411,6 @@
             "relativePath": "./δ steps/δ-wuSMSF008k.tsstp"
         },
         {
-            "key": "wuVXB801q7",
-            "relativePath": "../_shared/Fish_m.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "δ-wuVWfZ00zp",
-            "relativePath": "./δ steps/δ-wuVWfZ00zp.tsstp"
-        },
-        {
-            "key": "wuXgIL01zK",
-            "relativePath": "../_shared/Crustaceans_m.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "δ-wuXftB00Bv",
-            "relativePath": "./δ steps/δ-wuXftB00Bv.tsstp"
-        },
-        {
             "key": "wua5DP00vT",
             "relativePath": "../_shared/EdibleFlowers_m.tsstp",
             "isShared": true
@@ -496,8 +430,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xAs9bL01mY",
-        "editorID": "car_14b69705a677462cbb8a9ce9d948aa22",
-        "ticks": 1760958107071
+        "id": "xBG5IX00LF",
+        "editorID": "me_816b9a73670f44d9994db5fcaf15d090",
+        "ticks": 1760963810401
     }
 }

@@ -4,10 +4,8 @@ duo modules can't have fish or crustaceans
 
 ###### Next:
 
-  Variables...
   Need to always make sure start with title that matches previous selected option. ie option selected must be followed by a markdown heading with the same text as option.
   Need to replace all product names and trademarks with variables.
-  Ask Stephen to check it.
   Build other locations.
   Add todo for farm field should pretend that it is LuSenlin that is saying it. ie contact field division as this location is being developed.
   Then try and generate images for frames and modules with plants added.
