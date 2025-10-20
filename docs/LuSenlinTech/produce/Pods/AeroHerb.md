@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/AeroHerb_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"x4iqC60lH","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/AeroHerb_frags"},"fragment":{"id":"x4iqC60lH","topLevelMapKey":"wT8JrY00Sv","mapKeyChain":"wT8JrY00Sv","guideID":"x4iqC61H6","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/AeroHerb.tspod","chartKey":"wT8JrY00Sv","isLeaf":false,"options":[{"id":"x4iqCA0ul","option":"AeroHerb details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"x8CnS00mV","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/AeroHerb_frags"},"fragment":{"id":"x8CnS00mV","topLevelMapKey":"wT8JrY00Sv","mapKeyChain":"wT8JrY00Sv","guideID":"x8CnS02RU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/AeroHerb.tspod","chartKey":"wT8JrY00Sv","isLeaf":false,"options":[{"id":"x8CnS42Y7","option":"AeroHerb details","order":1,"isAncillary":true}]}} -->
 
 | AeroHerb | A compact aeroponic cube tuned for oil-rich herbs. Roots hang in a cool nutrient fog under NanoSunBeam™ LEDs that spike blue wavelengths to boost terpene density, while PureLight™ glazing holds canopy temperature steady. | Aromatic herbs – all 15 varieties |
 {: .nt-fr-columns}

@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "wT7eOx01wI",
+        "isHeadless": true,
         "nodes": [
             {
                 "key": "wT7k3Q00Zi",
@@ -363,10 +364,6 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-wT7eOx01wI",
-            "relativePath": "./δ steps/δ-wT7eOx01wI.tsstp"
-        },
-        {
             "key": "δ-wT7k3Q00Zi",
             "relativePath": "./δ steps/δ-wT7k3Q00Zi.tsstp"
         },
@@ -498,8 +495,8 @@
         }
     ],
     "___εdit___": {
-        "id": "ww5s6K025d",
-        "editorID": "car_4cb02a231d464aa39f2dd3c2218b58be",
-        "ticks": 1760739731352
+        "id": "x5aJb300Pk",
+        "editorID": "car_007295fa082043bb9a4d3626f2318b3a",
+        "ticks": 1760879973909
     }
 }

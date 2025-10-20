@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "ua2ArZ02Gk",
+        "isHeadless": true,
         "nodes": [
             {
                 "key": "vo1fZt00iX",
@@ -25,6 +26,7 @@
                         "key": "ua2DFv00xA",
                         "order": 1,
                         "sharedAssetKey": "x4Qhzz02K4",
+                        "newFragment": true,
                         "class": "split-table-odd",
                         "nodes": [
                             {
@@ -541,10 +543,6 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-ua2ArZ02Gk",
-            "relativePath": "./δ steps/δ-ua2ArZ02Gk.tsstp"
-        },
-        {
             "key": "x4Qhzz02K4",
             "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/AeroHerbTable.tsstp",
             "isShared": true
@@ -809,8 +807,8 @@
         }
     ],
     "___εdit___": {
-        "id": "x4iKBm017L",
-        "editorID": "car_7690f7743e1e463db203a766d981077c",
-        "ticks": 1760867106474
+        "id": "x7xsSh02Re",
+        "editorID": "car_ab792f6c823649038117147663ea0e93",
+        "ticks": 1760915142147
     }
 }
