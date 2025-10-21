@@ -58,3 +58,4 @@ Add what to notice in intro to demo.
   - How similar but slghtly different - so we remove duplication so we only have to edit in a single place. etc
   - How we can edit a small sctin on in isolation no having to be overwhelmed with the whole guide.
   - Using variables to define column text can make a defining a table in markdown easier to read and debug
+

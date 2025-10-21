@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /Technical/DemoIntroduction_frags/xDhHFo0Cm.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"xDhHFo0Cm","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"xDhHEk2RR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","parentFragmentID":"xDhHEk28b","chartKey":"u5gguY01On","isLeaf":true,"options":[]} -->
+
+#### The Features You'll See
+
+*   **Variables:** Manage product names ('SolisCell™'), shared text, and external URLs in one place. Change a variable's value, and it updates everywhere, ensuring absolute consistency.
+*   **Shared Steps:** Reuse common instructions (like 'Fauna Categories') across multiple configuration paths, without duplication, enforcing a single source of truth.
+*   **Nested Maps:** Create maps within maps, drilling down to any level of detail. This allows you to present a simple starting point that conceals virtually infinite complexity.
+*   **Extracted Logic:** Isolate a complex branch (e.g., Tiny Patio or Balcony) into a separate, reusable component, keeping the main guide clean.
+*   **Step-Variables:** Track user choices (e.g., `module = "Solo module"`) to generate custom output based on their selections.
+*   **Auto-Adjusted URLs:** Ensure every link and image path remains valid, no matter how deeply nested or reused the content becomes.
+

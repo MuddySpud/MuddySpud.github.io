@@ -1,3 +1,6 @@
+¬import tm from "../../../_shared/tradeMarks"
+
+
 ###### Key Features: 
 
 - Core Automation - same robotics and app-integrated sensors as Low-Effort tier.
@@ -9,6 +12,6 @@
 
 ###### Service Model: 
 
-- Self-assembly stackable PureLight™ units.
+- Self-assembly stackable {{tm.pureLightTM}} units.
 - Monthly consumable deliveries (e.g., nutrient packs or juvenile crayfish).
 - Monthly virtual agronomist consultations.

@@ -1,14 +1,15 @@
+¬import tm from "./tradeMarks"
 
 
 ¬pureLight: 
-###### PureLight™:
+###### {{tm.pureLightTM}}:
 
 - An advanced material engineered at the nanoscale to manipulate heat and light. 
 - Transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). 
 - Lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
 
 ¬pureLight_short: 
-**PureLight™** - transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). It is lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
+**{{tm.pureLightTM}}** - transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). It is lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
 
 ¬scalableStacking_short:
 **Scalable Stacking** - magnetic auto-locking connectors for easy vertical assembly; add or remove frames without tools.¬
@@ -17,22 +18,22 @@
 **Integrated Utilities** - magnetic Water/Power/Data Bus, one snap-in backbone distributes water + 48V DC + high-speed data through every level. Zero cable clutter; add or remove Frames without rewiring.¬
 
 ¬hydraRail_short:
-**Hydra-Rail™ Fluid Manifold** - micro-drip, fog, or flood modes selectable per Frame; self-sealing/healing NanoHealShield™ couplers prevent spills. Change crops or switch to aquaponics on the fly.¬
+**{{tm.hydraRailTM}} Fluid Manifold** - micro-drip, fog, or flood modes selectable per Frame; self-sealing/healing {{tm.nanoHealShieldTM}} couplers prevent spills. Change crops or switch to aquaponics on the fly.¬
 
 ¬precisionHeat_short:
-**PrecisionHeat™**  - Graphene Heat-Film, printed onto root chamber walls for ±0.3°C control.¬
+**{{tm.precisionHeatTM}}**  - Graphene Heat-Film, printed onto root chamber walls for ±0.3°C control.¬
 
 ¬nanoSunBeam_short:
-**NanoSunBeam™** Organic-phosphor LEDs auto-tune PAR, far-red & UV-A. Better flavour, longer shelf life, lower kWh.¬
+**{{tm.nanoSunBeamTM}}** Organic-phosphor LEDs auto-tune PAR, far-red & UV-A. Better flavour, longer shelf life, lower kWh.¬
 
 ¬harvestSage_short:
-**HarvestSage™** - on-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the Lǜ Sēnlín Cloud. Works off-line in case your Wi-Fi drops.¬
+**{{tm.harvestSageTM}}** - on-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the Lǜ Sēnlín Cloud. Works off-line in case your Wi-Fi drops.¬
 
 ¬slideLockShelves_short:
-**SlideLock™ Shelves** - swap growing modules in < 10s. True plug-and-play.¬
+**{{tm.windLockTM}} Shelves** - swap growing modules in < 10s. True plug-and-play.¬
 
 ¬windLock_short:
-**WindLock™ Anchors** - tool-free, self-adjusting anchors that secure outdoor frame towers against high winds (up to 120 km/h).¬
+**{{tm.windLockTM}} Anchors** - tool-free, self-adjusting anchors that secure outdoor frame towers against high winds (up to 120 km/h).¬
 
 ¬aromaticHerb_short:
 **Aromatic Herbs** - small, quick-maturing plants used to enhance dishes with vibrant tastes and aromas.¬
@@ -71,16 +72,16 @@
 **Low-pressure Aeroponics Tree** – a branching manifold that sprays a fine nutrient mist at < 1 bar, maximising root oxygen while reducing water use by 95% versus drip systems.¬  
 
 ¬hydraRailFogNozzles:  
-**Hydra-Rail™ Fog Nozzles** – quick-connect misters that plug into the frame’s magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.¬  
+**{{tm.hydraRailTM}} Fog Nozzles** – quick-connect misters that plug into the frame’s magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.¬  
 
 ¬rfidSeedPadBayCartridges:  
-**RFID Seed-Pad Bay Cartridges** – single-use seed mats embedded with passive RFID chips. HarvestSage™ reads variety, sow-date and recipe, then logs the full life-cycle for traceability.¬  
+**RFID Seed-Pad Bay Cartridges** – single-use seed mats embedded with passive RFID chips. {{tm.harvestSageTM}} reads variety, sow-date and recipe, then logs the full life-cycle for traceability.¬  
 
 ¬precisionHeatRootFilm:  
-**PrecisionHeat™ Root-Film** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.¬  
+**{{tm.precisionHeatTM}} Root-Film** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.¬  
 
 ¬pureLightClamshellDome:  
-**PureLight™ Clamshell Dome** – double-wall aerogel lid with 95% light transmission yet 0.002 W m⁻¹ K⁻¹ insulation, keeping canopy temperature stable in unheated rooms.¬  
+**{{tm.pureLightTM}} Clamshell Dome** – double-wall aerogel lid with 95% light transmission yet 0.002 W m⁻¹ K⁻¹ insulation, keeping canopy temperature stable in unheated rooms.¬  
 
 ¬deepFlowNftTroughInserts:  
 **Deep-Flow NFT Trough Inserts** – interchangeable gullies that hold a shallow, fast-moving nutrient film, ensuring constant oxygen and preventing salt crusting on greens.¬  
@@ -128,7 +129,7 @@
 **Bio-Film Drip-Feed System** – dripper coats feed leaves with probiotic film rich in calcium, feeding snails and suppressing pathogens simultaneously.¬  
 
 ¬microBubbleColumn:  
-**Micro-Bubble Column** – ceramic diffuser creates < 100 µm bubbles, pushing dissolved O₂ to ~10 mg L⁻¹—ideal for bivalve filter-feeding.¬  
+**Micro-Bubble Column** – ceramic diffuser creates < 100 µm bubbles, pushing dissolved O₂ to ~10 mg L⁻¹ - ideal for bivalve filter-feeding.¬  
 
 ¬uvcOzoneSterilLoop:  
 **UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.¬  
@@ -140,7 +141,7 @@
 **Rotating Drum Filter** – mesh drum continuously strains solids; a backwash jet cleans the screen automatically into a compost stream.¬  
 
 ¬precisionHeatWaterJacket:  
-**PrecisionHeat™ Water Jacket** – liquid jacket regulates aquaculture temperature within ±0.2 °C via solid-state Peltier plates.¬  
+**{{tm.precisionHeatTM}} Water Jacket** – liquid jacket regulates aquaculture temperature within ±0.2 °C via solid-state Peltier plates.¬  
 
 ¬rollOutRhizomeDrawer:  
 **Roll-Out Rhizome Drawer** – 150 mm-deep aerated bio-foam bed slides out fully, letting sweet-potato vines sprawl without media spill.¬  
@@ -149,7 +150,7 @@
 **Graphene Lateral Heat-Loops** – printed graphene traces snake through the rhizome slab, keeping tubers at the starch-sweet 24–26 °C band.¬  
 
 ¬ultrasonicRhizoShield:  
-**Ultrasonic Rhizo-Shield™** – low-power transducers shake root hairs loose at harvest, allowing tubers to lift clean with minimal substrate cling.¬  
+**Ultrasonic {{tm.rhizoShieldTM}}** – low-power transducers shake root hairs loose at harvest, allowing tubers to lift clean with minimal substrate cling.¬  
 
 ¬nearInfraRedDryMatterSensor:  
 **Near-Infra-Red Dry-Matter Sensor** – NIR diode reads starch content; when it crosses a user-set threshold the module flags “Starch-Peak.”¬  
@@ -182,7 +183,7 @@
 **AI Fruit-Colour Tracking** – vision model monitors hue shift; when 95% of surface reaches target colour, the system alerts or triggers the snip-bot.¬  
 
 ¬magneticSnipBot:  
-**Magnetic Snip-Bot** – miniature arm rides magnetic rails, snips ripe fruit and drops it into a sealed cup—hands stay clean.¬  
+**Magnetic Snip-Bot** – miniature arm rides magnetic rails, snips ripe fruit and drops it into a sealed cup - hands stay clean.¬  
 
 ¬endoscopicRootSizer:  
 **Endoscopic Root-Sizer** – 4 mm probe scans root diameter via structured light and illuminates the door handle when target size is reached.¬  

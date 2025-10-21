@@ -34,6 +34,6 @@ The element below tries to reference the 'il.variable-does-not-exist'. Since thi
 
 {{il.fullDiagnosticsAndIntellisense_image}}
 
-This is a simple but powerful example of how {{el.docsAssemblerExtension_link}} applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.
+This is a simple but powerful example of how {{el.docsAssemblerExtension_link}} applies software engineering principles - like encapsulation, single source of truth, and robust tooling - to documentation.
 
 It brings true software tooling to docs, with IntelliSense for variables, full validation before publish, and automatic handling of relative URLs that are defined as variables. This ensures any local files referenced by these URL variables are automatically discovered and copied to the publish folder, preventing broken links and ensuring robustness.

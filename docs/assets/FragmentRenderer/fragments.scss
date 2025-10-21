@@ -1,8 +1,4 @@
---- 
-
---- 
-
-.dev {
+--- --- .dev {
     display: block;
 }
 
@@ -16,6 +12,10 @@
     --border-color: #98bb87;
     --border-color-collapsed: #98bb87;
     --button-color-collapsed: #98bb87;
+}
+
+body {
+    color: #e6e6e6;
 }
 
 .sidebar-about {
@@ -33,7 +33,7 @@
 #treeSolve {
     padding-bottom: 200px;
     position: relative;
-    
+
     ol {
         padding: 0 0 0 40px;
     }
@@ -440,6 +440,7 @@
         margin: 20px 10px;
         font-size: 14px;
         font-weight: 300;
+        color: #e6e6e6;
     }
 
     thead {

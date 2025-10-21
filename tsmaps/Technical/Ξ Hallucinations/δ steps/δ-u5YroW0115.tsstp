@@ -25,7 +25,7 @@ It's helpful to think of the solution in two layers:
 
 ###### 1. The Core System is Hallucination-Free by Design
 
-The foundational guides you build with {{el.docsAssemblerExtension_link}} — using Maps, Variables, and structured logic — do not hallucinate. They are deterministic systems, meaning they operate on fixed, human-defined rules. When you publish a guide, it assembles precise steps from your validated source material. There is no AI generating new text or inventing steps; it simply delivers the instructions you have explicitly authored and connected. This makes it inherently reliable for critical procedures.
+The foundational guides you build with {{el.docsAssemblerExtension_link}} - using Maps, Variables, and structured logic - do not hallucinate. They are deterministic systems, meaning they operate on fixed, human-defined rules. When you publish a guide, it assembles precise steps from your validated source material. There is no AI generating new text or inventing steps; it simply delivers the instructions you have explicitly authored and connected. This makes it inherently reliable for critical procedures.
 
 ###### 2. Enabling Safe AI with a Graph-Augmented LLM
 
