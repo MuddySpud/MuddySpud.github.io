@@ -1,4 +1,4 @@
-¬import smt from "../../../_shared/soloModulesTable"
+¬import smt from "../../../_shared/CategoryTables/soloModulesTable"
 
 
 {{smt.mycoNestRow}}

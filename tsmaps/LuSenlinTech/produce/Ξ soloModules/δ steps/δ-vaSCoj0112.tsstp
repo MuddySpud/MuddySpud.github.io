@@ -1,4 +1,4 @@
-¬import smt from "../Ω variables/soloModulesTable"
+¬import smt from "../../_shared/CategoryTables/soloModulesTable"
 
 
 {{smt.gasterPodRow}}
