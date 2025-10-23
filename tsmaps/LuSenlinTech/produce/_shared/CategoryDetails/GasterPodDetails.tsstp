@@ -1,8 +1,9 @@
 ¬import g from "../../../_shared/glossary"
 ¬import c from "../../../equipment/_shared/common"
+¬import tm from "../CategoryTables/soloModulesTable"
 
 
-###### GasterPod Technologies  
+###### {{tm.gasterPodName}} Technologies  
 
 - {{g.trackMazeHabitat}}
 - {{g.bioFilmDripFeedSystem}}

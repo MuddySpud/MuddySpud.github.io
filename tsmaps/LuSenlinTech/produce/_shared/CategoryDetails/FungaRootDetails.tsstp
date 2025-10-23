@@ -1,8 +1,9 @@
 ¬import g from "../../../_shared/glossary"
 ¬import c from "../../../equipment/_shared/common"
+¬import tm from "../CategoryTables/soloModulesTable"
 
 
-###### FungaRoot Technologies  
+###### {{tm.fungaRootName}} Technologies  
 
 - {{g.dualKingdomSubstrateCassette}}
 

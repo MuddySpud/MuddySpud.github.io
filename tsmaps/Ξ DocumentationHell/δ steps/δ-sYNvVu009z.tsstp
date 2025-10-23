@@ -3,13 +3,13 @@
 
 # Escape Documentation Hell
 
-This website is a live example of {{el.docsAssemblerExtension_link}}. As you read, you're experiencing a guide that is being dynamically assembled.
+{{el.docsAssemblerExtension_link}} is an editor for building and managing complex documentation. It is particularly useful for adapting a core set of instructions to real world scenarios without duplicating text. But as you'll see later, it is much more than just that; it creates a single, authoritative system where your organisation's entire knowledge base is interconnected and always consistent.
 
-With {{el.docsAssemblerExtension_link}}, you can capture complex thinking, simplify intricate systems into a single source of truth. A dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving complex scenarios - all grounded in your company's verifiable knowledge. Paths can be used directly or referenced by AI Agents to improve customer support.
+This whole website is a live example.
 
-The 'Vertical Kitchen Garden Planner' demo below will show you exactly how this works in practice.
+With {{el.docsAssemblerExtension_link}}, you can capture complex thinking and simplify intricate systems into a single source of truth. It builds a dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving critical situations - all grounded in your organisation's verifiable knowledge. These paths can be used directly or referenced by AI Agents to improve customer support.
 
-This stands in stark contrast to the current reality for many organizations.
+The 'Vertical Kitchen Garden Planner' demo below is an example of the detailed pathways you can build using DocsAssembler's text files.
 
-The traditional solution is to rely on manuals. But they are incapable of capturing the branching decisions that define expert reasoning. This forces companies to rely on expensive, person-to-person training, creating a fragile system that hinges on a few key people. The result is an organization perpetually one retirement away from a crisis: a true documentation hell where essential knowledge is unrecorded, scattered, and ultimately unusable when it matters most.
+This contrasts with the reality for many organizations, where the traditional solution is to rely on manuals. But they are incapable of capturing the branching decisions that define expert reasoning. This forces companies to rely on expensive, person-to-person training, creating a fragile system that hinges on a few key people. The result is an organization perpetually one retirement away from a crisis: a true documentation hell where essential knowledge is unrecorded, scattered, and ultimately unusable when it matters most.
 

@@ -2,7 +2,7 @@
 
 It’s not just about writing documentation - it’s about maintaining it, a task that becomes a source of dread that teams actively avoid until an update is urgently needed. Why?"
 
-*   **Duplicated content** - that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate or current.
+*   **Sprawling, duplicated content** - across guides, manuals, and wikis, making it impossible to know what’s accurate or current.
 *   **Error-prone updates** - you make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
-*   **Unmanageable docs** - resulting from the struggle to document similar-but-diverging scenarios without creating redundancy and contradictions.
+*   **Brittle, unmanageable docs** - resulting from the struggle to document similar-but-diverging scenarios without creating redundancy and contradictions.
 

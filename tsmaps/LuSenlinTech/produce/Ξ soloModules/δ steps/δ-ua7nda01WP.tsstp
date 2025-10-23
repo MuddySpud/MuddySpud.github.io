@@ -1,6 +1,8 @@
 ¬import g from "../../../_shared/glossary"
+¬import tm from "../../_shared/CategoryTables/soloModulesTable"
 
-##### LeafLift details
+
+##### {{tm.leafLiftName}} details
 
 ###### Technologies
   

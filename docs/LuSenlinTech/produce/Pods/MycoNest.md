@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/MycoNest_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"xDhItd0pl","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/MycoNest_frags"},"fragment":{"id":"xDhItd0pl","topLevelMapKey":"wkMEfW00lE","mapKeyChain":"wkMEfW00lE","guideID":"xDhItd1iA","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/MycoNest.tspod","chartKey":"wkMEfW00lE","isLeaf":false,"options":[{"id":"xDhItk1Nv","option":"MycoNest details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xVKGhl0Q5","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/MycoNest_frags"},"fragment":{"id":"xVKGhl0Q5","topLevelMapKey":"wkMEfW00lE","mapKeyChain":"wkMEfW00lE","guideID":"xVKGhl1nU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/MycoNest.tspod","chartKey":"wkMEfW00lE","isLeaf":false,"options":[{"id":"xVKGhr0cA","option":"MycoNest details","order":1,"isAncillary":true}]}} -->
 
-| MycoNest | A dark, humidity-controlled box with hourly 0.5 ppm O₂ pulses mimics forest-floor shocks, fruiting gourmet mushrooms fast. Pop-out sleeves swap blocks in seconds. | Mushrooms & culinary fungi – all 15 Balcony strains |
+| MycoNest | A dark, humidity-controlled box with hourly 0.5 ppm O₂ pulses mimics forest-floor shocks, fruiting gourmet mushrooms fast. Pop-out sleeves swap blocks in seconds. | Mushrooms & culinary fungi - all 15 Balcony strains |
 {: .nt-fr-columns}
