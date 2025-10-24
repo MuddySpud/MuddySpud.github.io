@@ -18,7 +18,7 @@ An LLM does this on a colossal scale. It has analyzed billions of sentences and 
 #### Key Things to Remember About LLMs:
 
 *   **They are pattern matchers, not knowledge databases.** They are brilliant at mimicking the *form* of correct answers, but they have no inherent understanding of truth or fact.
-*   **Their knowledge is frozen in time.** Their training only includes data up to a specific point in the past; they don't know about recent events unless provided with that information.
+*   **Their knowledge is frozen in time.** Their core training only includes data up to a specific point in the past; they lack inherent knowledge of recent events.
 *   **They are probabilistic, not deterministic.** Give the same prompt twice, and you might get two slightly different answers. The output is a product of statistical probability.
 *   **This is why they "hallucinate."** If the most statistically likely word sequence happens to form an incorrect statement, the LLM will generate it with confidence. It has no mechanism to fact-check itself against reality.
 

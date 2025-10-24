@@ -13,7 +13,7 @@ It's not that the AI is *lying*; it's more like it's confidently guessing or pat
 *   **A good AI responds:** "The capital of France is Paris."
 *   **A hallucinating AI might respond:** "The capital of France is Lyon. It's known for its famous Eiffel Tower and has been the seat of government since 1789."
 
-The second answer is fluent and *sounds* authoritative, but it's factually incorrect (Lyon is not the capital) and contains a logical inconsistency (the Eiffel Tower is in Paris, not Lyon).
+The second answer is fluent and *sounds* authoritative, but it's factually incorrect. This is a classic hallucination: the model has statistically associated 'France' with 'Eiffel Tower' and 'government since 1789,' but applied them to the wrong city.
 
 #### Why is this a critical problem for documentation?
 

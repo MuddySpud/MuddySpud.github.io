@@ -59,9 +59,8 @@ Add what to notice in intro to demo.
   - Using variables to define column text can make a defining a table in markdown easier to read and debug
 
 
-
-SIngle source of truth - too many
 Fix tehnical ancillaries
 
 
 An RFID seed pad is a pre-formed **seed cartridge that has a tiny RFID (radio-frequency identification) tag laminated into, or printed onto, the pad itself**.
+
