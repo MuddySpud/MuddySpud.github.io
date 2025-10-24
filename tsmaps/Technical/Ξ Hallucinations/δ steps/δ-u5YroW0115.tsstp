@@ -19,7 +19,7 @@ The second answer is fluent and *sounds* authoritative, but it's factually incor
 
 In technical, operational, or safety-critical guidance, accuracy is everything. A hallucinated step in a diagnostic procedure or a safety check could have serious real-world consequences. You cannot afford to have an AI guess.
 
-#### How does Docs Assembler prevent hallucinations?
+#### How does {{el.docsAssemblerExtension_link}} prevent hallucinations?
 
 It's helpful to think of the solution in two layers:
 

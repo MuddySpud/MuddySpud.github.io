@@ -4,6 +4,7 @@
 
 ¬docsAssemblerExtension_url: https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler
 ¬docsAssemblerExtension_link: [Docs Assembler]({{docsAssemblerExtension_url}})
+¬docsAssemblerPossessiveExtension_link: [Docs Assembler's]({{docsAssemblerExtension_url}})
 
 ¬docsAssemblerDemoRepo_url: https://github.com/CompositeFlows/DocsAssemblerDemo
 ¬docsAssemblerDemoRepo_link: [Docs Assembler Demo repo]({{docsAssemblerDemoRepo_url}})

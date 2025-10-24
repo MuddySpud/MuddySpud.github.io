@@ -19,6 +19,7 @@ Adjust these references in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_include
 to the new file names in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
 
 Delete these folders in DocsAssemblerDemo:
+  C:\GitHub\DocsAssemblerDemo\tsmaps
   C:\GitHub\DocsAssemblerDemo\docs\_includes
   C:\GitHub\DocsAssemblerDemo\docs\assets
   C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
@@ -59,7 +60,8 @@ Add what to notice in intro to demo.
 
 
 
-
+SIngle source of truth - too many
+Fix tehnical ancillaries
 
 
 An RFID seed pad is a pre-formed **seed cartridge that has a tiny RFID (radio-frequency identification) tag laminated into, or printed onto, the pad itself**.
