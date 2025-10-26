@@ -1,9 +1,12 @@
-#### The Features You'll See
+#### The Core Capabilities Showcased
 
-*   **Variables:** Manage product names ('SolisCell™'), shared text, and external URLs in one place. Change a variable's value, and it updates everywhere, ensuring absolute consistency.
-*   **Shared Steps:** Reuse common instructions (like 'Fauna Categories') across multiple configuration paths, without duplication, enforcing a single source of truth.
+*   **Branching:** Build a single set of core instructions that seamlessly adapts to different user scenarios, environments, or choices, presenting each user with a path that feels tailor-made for their specific situation.
+*   **Ancillaries:** Keep the main path clean and focused by tucking detailed explanations, technical notes, or supplementary information into expandable side panels, available on-demand for those who need them.
+*   **Variables:** Manage product names, urls, and shared text in one place. Change a variable's value, and it updates everywhere, ensuring absolute consistency.
+*   **Map Variables:** Manage variables that are associated with the top level map overriding referenced map variables.
+*   **Shared Steps:** Reuse common instructions across multiple configuration paths, without duplication.
 *   **Nested Maps:** Create maps within maps, drilling down to any level of detail. This allows you to present a simple starting point that conceals virtually infinite complexity.
 *   **Extracted Logic:** Isolate a complex branch (e.g., Tiny Patio or Balcony) into a separate, reusable component, keeping the main guide clean.
-*   **Step-Variables:** Track user choices (e.g., `module = "Solo module"`) to generate custom output based on their selections.
+*   **Step-Variables:** Track user choices to generate custom output based on their selections.
 *   **Auto-Adjusted URLs:** Ensure every link and image path remains valid, no matter how deeply nested or reused the content becomes.
 

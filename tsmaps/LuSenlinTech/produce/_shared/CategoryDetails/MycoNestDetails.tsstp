@@ -7,6 +7,12 @@
 
 - {{g.darkCycleChamberO2Pulse}}
 - {{g.co2ScrubbingBioFilter}}
+- {{g.uvcOzoneSterilLoop}}
+- {{g.sterileUvCPulse}}
+- {{g.precisionHeat_short}}
+- {{g.precisionHeatWaterJacket}}
+- {{g.hydraRailFogNozzles}}
+- {{g.laminarAirflowCanopy}}
 
 ###### Harvest Enhancements
   

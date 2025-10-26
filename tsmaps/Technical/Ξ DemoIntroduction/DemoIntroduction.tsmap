@@ -16,7 +16,7 @@
                     {
                         "key": "u5gu4U00iR",
                         "order": 1,
-                        "option": "Start the Lǜ Sēnlín Vertical Kitchen Garden Planner",
+                        "option": "Start the Lǜ Sēnlín vertical kitchen garden planner",
                         "isLeaf": true,
                         "iKey": "s7SMNM05c"
                     }
@@ -25,7 +25,7 @@
             {
                 "key": "u5hF56026j",
                 "order": 2,
-                "option": "The Features You'll See...",
+                "option": "The core capabilities showcased",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -50,8 +50,8 @@
         }
     ],
     "___εdit___": {
-        "id": "vEN7tb00H9",
-        "editorID": "car_58297139a8a9425294cf544d04ccac1f",
-        "ticks": 1759177552027
+        "id": "xm056D00Tm",
+        "editorID": "car_356c516100c142ac90a64831bde3a58a",
+        "ticks": 1761506720821
     }
 }

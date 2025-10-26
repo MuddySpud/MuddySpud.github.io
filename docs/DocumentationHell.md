@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"xXu8MU1EI","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"xXu8MU1EI","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"xXu8MU2BG","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"xXu8OH1TU","option":"Explore a Docs Assembler Solution ","order":1},{"id":"xXu8OV22U","option":"The Technical Deep Dive","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xktCVg1qg","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"xktCVg1qg","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"xktCVg1c3","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"xktCXc1Y7","option":"Explore a Docs Assembler Solution ","order":1},{"id":"xktCXs0Er","option":"Explore with Technical Commentary","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
@@ -24,7 +24,7 @@ fragsFolderPath: DocumentationHell_frags
 
 It allows you to capture complex thinking and simplify intricate systems into a single source of truth. The result is a dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving critical situations - all grounded in your organisation's verifiable knowledge. These paths can be used directly or referenced by AI Agents to improve customer support.
 
-This entire website is a live example. The 'Vertical Kitchen Garden Planner' demo below shows the kind of detailed pathways you can build using Docs Assembler's text files.
+This entire website is a live example. The 'Vertical Kitchen Garden Planner' demo below shows the kind of detailed pathways you can build using [Docs Assembler's](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) text files.
 
 ### The Problem with Traditional Manuals
 

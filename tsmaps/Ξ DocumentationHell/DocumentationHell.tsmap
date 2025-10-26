@@ -33,7 +33,7 @@
                                                     {
                                                         "key": "u4eeh600MG",
                                                         "order": 1,
-                                                        "option": "Explore a Docs Assembler Solution ",
+                                                        "option": "Explore a Docs Assembler solution ",
                                                         "isHeadless": true,
                                                         "nodes": [
                                                             {
@@ -47,7 +47,7 @@
                                                     {
                                                         "key": "uqem6A02Wl",
                                                         "order": 2,
-                                                        "option": "The Technical Deep Dive",
+                                                        "option": "Explore solution with technical commentary",
                                                         "nodes": [
                                                             {
                                                                 "key": "uqeq2100Ph",
@@ -104,7 +104,7 @@
                                                                                     {
                                                                                         "key": "u5ZOcJ01h6",
                                                                                         "order": 2,
-                                                                                        "option": "What are Hallucinations?",
+                                                                                        "option": "What are hallucinations?",
                                                                                         "isLeaf": true,
                                                                                         "isAncillary": true,
                                                                                         "iKey": "u5Yi1402Vi"
@@ -215,8 +215,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xVSZCX01qv",
-        "editorID": "car_92d69b662d5d454a98e85f206a49cf8c",
-        "ticks": 1761262312005
+        "id": "xlztF400FS",
+        "editorID": "car_aaf0803380c542cd9724cfb458ef49bf",
+        "ticks": 1761506675242
     }
 }

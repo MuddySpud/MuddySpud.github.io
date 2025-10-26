@@ -1,10 +1,10 @@
 {
-    "key": "s7SMNu079",
+    "key": "s7SMNu079   ",
     "token": "Windowlessroom",
     "name": "WindowlessRoom",
     "created": "2025-07-30T11:55:22.901Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlin/space/Ξ WindowlessRoom/WindowlessRoom.tsmap",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ WindowlessRoom/WindowlessRoom.tsmap",
     "iText": "Link to 'WindowlessRoom'",
     "___rΩΩt___": {
         "key": "s7SMNu0ct",
@@ -17,8 +17,8 @@
         }
     ],
     "___εdit___": {
-        "id": "qJzAKW00hz",
-        "editorID": "car_41cd443c5064473caa0e3180a0e042b5",
-        "ticks": 1754679835368
+        "id": "xm0Dp61U7",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1761506754356
     }
 }

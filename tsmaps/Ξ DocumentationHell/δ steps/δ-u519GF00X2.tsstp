@@ -1,10 +1,10 @@
 ¬import el from "../../shared/externalLinks"
-¬import tw from "../_shared/ThisWebsiteIsASingleGuide"
+¬import euh from "../_shared/ExploreUnderTheHood"
 
 
-### Explore Under the Hood
+### {{euh.exploreUnderTheHood}}
 
-This section, '{{tw.howItWorksTitle}}', is a single step from the documentation's opening map. To see the mechanics behind it, click the ancillary button below-right labelled 'Show this step...'.
+This section, '{{euh.howItWorksTitle}}', is a single step from the documentation's opening map. To see the mechanics behind it, click the ancillary button below-right labelled 'Show this step...'.
 
 An ancillary is how {{el.docsAssemblerExtension_link}} keeps guides clean. It lets you expand detailed information on demand, keeping the main path focused for readers who don't need the extra detail. These ancillary buttons are anchored to the right margin.
 

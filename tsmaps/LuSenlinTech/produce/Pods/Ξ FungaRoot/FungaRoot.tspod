@@ -16,8 +16,16 @@
                 "order": 1,
                 "option": "FungaRoot details",
                 "sharedAssetKey": "x4cCMk02T5",
-                "isLeaf": true,
-                "isAncillary": true
+                "isAncillary": true,
+                "nodes": [
+                    {
+                        "key": "xk1ADX02JS",
+                        "order": 1,
+                        "option": "How it is grown...",
+                        "isLeaf": true,
+                        "isAncillary": true
+                    }
+                ]
             }
         ]
     },
@@ -31,11 +39,15 @@
             "key": "x4cCMk02T5",
             "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FungaRootDetails.tsstp",
             "isShared": true
+        },
+        {
+            "key": "δ-xk1ADX02JS",
+            "relativePath": "./δ steps/δ-xk1ADX02JS.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4cCiB01b8",
-        "editorID": "car_a530a068311d4d1496700296bc5ea4c1",
-        "ticks": 1760865647763
+        "id": "xk2zeF01eZ",
+        "editorID": "car_4a39265954594304859244a163b5bd27",
+        "ticks": 1761477862179
     }
 }

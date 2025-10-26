@@ -59,8 +59,6 @@ Add what to notice in intro to demo.
   - Using variables to define column text can make a defining a table in markdown easier to read and debug
 
 
-Fix tehnical ancillaries
-
-
-An RFID seed pad is a pre-formed **seed cartridge that has a tiny RFID (radio-frequency identification) tag laminated into, or printed onto, the pad itself**.
-
+There are two uses of crops mapsone is in the slection of the module - n which case the text should only talk about the crop. The other is when you are buying a new crop for your module.
+Continue with catgory details and adding tech using deepseek
+Crops needs to explain about the module they use etc.

@@ -177,7 +177,7 @@
             {
                 "key": "s7SMOZ09D",
                 "order": 2,
-                "option": "mode details...",
+                "option": "more details...",
                 "sharedAssetKey": "xAo0uw02QK",
                 "isLeaf": true,
                 "isAncillary": true
@@ -273,8 +273,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xAo1U20129",
-        "editorID": "car_e8af30dd45ab4b728c6c3d9d1bc26059",
-        "ticks": 1760957122554
+        "id": "xm175401XZ",
+        "editorID": "car_6b868037157d47d8a47225b0ba1474cf",
+        "ticks": 1761506966766
     }
 }

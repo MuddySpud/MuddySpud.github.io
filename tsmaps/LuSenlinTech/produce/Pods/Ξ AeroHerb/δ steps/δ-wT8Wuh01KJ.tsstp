@@ -5,9 +5,8 @@
 
 - {{g.lowPressureAeroponicsTree}}
 - {{g.hydraRailFogNozzles}}
-- {{g.rfidSeedPadBayCartridges}}
+- {{g.rfidSeedPadBayCartridges_short}}
 - {{g.precisionHeatRootFilm}}
-- {{g.pureLightClamshellDome}}
 
 ###### Harvest Enhancements 
  

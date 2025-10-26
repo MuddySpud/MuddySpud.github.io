@@ -1,9 +1,9 @@
 ¬import el from "../../../shared/externalLinks"
 
 
-## Explore a {{el.docsAssemblerExtension_link}} Solution
+## Explore a {{el.docsAssemblerName}} Solution
 
-To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
+To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **{{el.luSenLinName}} Technologies**.
 
 We needed a demo that was technically complex yet universally relatable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
 

@@ -478,6 +478,7 @@
                                                                 "key": "vaPX9701Sa",
                                                                 "order": 2,
                                                                 "option": "StemStack details",
+                                                                "sharedAssetKey": "xkwZid01LE",
                                                                 "isLeaf": true,
                                                                 "isAncillary": true
                                                             }
@@ -497,6 +498,7 @@
                                                 "key": "ua8zHx00Aw",
                                                 "order": 2,
                                                 "option": "FruitForge details",
+                                                "sharedAssetKey": "xkwRxJ00RW",
                                                 "isLeaf": true,
                                                 "isAncillary": true
                                             }
@@ -553,8 +555,9 @@
             "isShared": true
         },
         {
-            "key": "δ-ua8zHx00Aw",
-            "relativePath": "./δ steps/δ-ua8zHx00Aw.tsstp"
+            "key": "xkwRxJ00RW",
+            "relativePath": "../_shared/CategoryDetails/FruitForgeDetails.tsstp",
+            "isShared": true
         },
         {
             "key": "x4Ztib02VO",
@@ -567,8 +570,9 @@
             "isShared": true
         },
         {
-            "key": "δ-vaPX9701Sa",
-            "relativePath": "./δ steps/δ-vaPX9701Sa.tsstp"
+            "key": "xkwZid01LE",
+            "relativePath": "../_shared/CategoryDetails/StemStackDetails.tsstp",
+            "isShared": true
         },
         {
             "key": "x4aaYQ01gd",
@@ -782,8 +786,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xDh79t01Go",
-        "editorID": "car_e445018c09e149ddbd683a26abdb166a",
-        "ticks": 1760999805081
+        "id": "xkwd5P00FL",
+        "editorID": "car_8df1938ebc70445b801624ce78e2fcb9",
+        "ticks": 1761491121819
     }
 }

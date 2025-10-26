@@ -26,14 +26,56 @@
 ¬nanoSunBeam_short:
 **{{tm.nanoSunBeamTM}}** Organic-phosphor LEDs auto-tune PAR, far-red & UV-A. Better flavour, longer shelf life, lower kWh.¬
 
+¬harvestSage:
+###### {{tm.harvestSageTM}}
+
+On-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the Lǜ Sēnlín Cloud, integrating with global weather APIs and local air quality sensors. Predicts and automates growth cycles based on real-time environmental data. Works off-line in case your Wi-Fi drops.¬
+
 ¬harvestSage_short:
-**{{tm.harvestSageTM}}** - on-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the Lǜ Sēnlín Cloud. Works off-line in case your Wi-Fi drops.¬
+**{{tm.harvestSageTM}}** - an on-board AI that automates all aspects of crop cultivation, from seeding to harvest. It uses real-time data for optimal growth and operates offline for reliability.¬
 
 ¬slideLockShelves_short:
-**{{tm.windLockTM}} Shelves** - swap growing modules in < 10s. True plug-and-play.¬
+**{{tm.slideLockTM}} Shelves** - swap growing modules in < 10s. True plug-and-play.¬
 
 ¬windLock_short:
 **{{tm.windLockTM}} Anchors** - tool-free, self-adjusting anchors that secure outdoor frame towers against high winds (up to 120 km/h).¬
+
+¬nanoPlantWhisper_short:
+**{{tm.nanoPlantWhisperTM}}** - AI-driven bio-sensors¬
+
+¬hotCarrier:
+###### {{tm.hotCarrierTM}}
+
+Leveraging advanced hot carrier solar cell (HCSC) technology, {{tm.hotCarrierTM}} Solar Panels capture high-energy sunlight (ultraviolet and visible light) that conventional panels lose as heat, achieving up to 85% energy conversion efficiency. Operating across a broad spectrum (300-2500 nm), these panels utilize quantum wells and graphene-based materials to minimize energy loss, delivering up to 850 watts per square meter under optimal sunlight. This exceptional performance ensures reliable charging for the {{tm.solisCellTM}} battery block.¬
+
+¬hotCarrier_short:
+**{{tm.hotCarrierTM}}** - solar Panels that use advanced HCSC technology to capture high-energy sunlight that traditional panels lose as heat, achieving up to 85% conversion efficiency for exceptional performance.¬
+
+¬solisCell:
+###### {{tm.solisCellTM}}
+
+An advanced, sodium-ion power module that ensures uninterrupted operation for up to 48 hours, seamlessly integrating with the tower’s AI-optimized systems to power LED grow lights, irrigation, and filtration for crops. With a compact 2.5 kWh capacity (scalable to 5 kWh), multi-mode recharging (AC grid, solar, or kinetic), AI-driven energy management, over 8,500 cycles of durability, and reliable performance at temperatures as low as -30°C.¬
+
+¬solisCell_short:
+**{{tm.solisCellTM}}** - durable, sodium-ion power module that provides up to 48 hours of uninterrupted energy for the tower's systems. It features reliable performance in extreme cold.¬
+
+¬bioFloc:
+###### {{tm.bioFlocTM}}
+
+A compact, high-density recirculating aquaculture system (RAS) designed for integration with our FinFlow and ShellWave models. It employs advanced biofloc technology, where beneficial bacteria convert fish waste into edible microbial protein. This process reduces feed requirements by up to 70% while maintaining water clarity through AI-optimized filtration.
+
+The system features self-assembling nano-filters that dynamically adjust to trap pathogens and release probiotics, enabling high stocking densities of up to 100 kg/m³. With integrated quantum-sensor arrays for real-time microbiome balancing, the system ensures zero antibiotic use and achieves 99% water recirculation, making it an ideal, sustainable solution for space-conscious urban farms.¬
+
+¬bioFloc_short:
+**{{tm.solisCellTM}}** - a compact, high-density aquaculture system that uses biofloc technology to convert fish waste into edible protein, reducing feed needs by 70%. Its AI-optimized filtration and pathogen-trapping nano-filters enable high stocking densities and 99% water recirculation for sustainable urban farming.¬
+
+¬hydraPad:
+###### {{tm.hydraPadTM}}
+
+A smart hydroponic insert featuring a bio-engineered nanofiber matrix that mimics natural wetlands to enhance plant growth and nutrient uptake. With embedded quantum sensors, it automatically maintains ideal water quality and enables 95% nutrient recycling. Designed for seamless integration, its {{tm.slideLockTM}} technology allows users to hot-swap pads in under 10 seconds.¬
+
+¬hydraPad_short:
+**{{tm.hydraPadTM}}** - a smart hydroponic insert that uses a bio-engineered nanofiber matrix and quantum sensors to optimize aquatic plant growth and enable 95% nutrient recycling, with a {{tm.slideLockTM}} mechanism for 10-second swaps.¬
 
 ¬aromaticHerb_short:
 **Aromatic Herbs** - small, quick-maturing plants used to enhance dishes with vibrant tastes and aromas.¬
@@ -75,13 +117,22 @@
 **{{tm.hydraRailTM}} Fog Nozzles** – quick-connect misters that plug into the frame’s magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.¬  
 
 ¬rfidSeedPadBayCartridges:  
+###### RFID Seed-Pad Bay Cartridges
+
+A single-use seed mat with a passive RFID (radio-frequency identification) chip laminated into it. The mat is a thin, sterile sheet of biodegradable cellulose, pre-loaded with evenly spaced seeds and starter nutrients. It is designed to slide into the module once, ensuring users never handle loose seeds or growth media.
+
+When the pad clicks into the bay, {{tm.harvestSageTM}} reads the RFID tag to pull key data: variety ID, lot number, germination date, required growth recipe (light spectrum, nutrient EC, fog intervals), and safe-to-eat age.
+
+**Key Benefits:**
+- **Zero Set-up:** The grow unit auto-loads the correct program the moment the pad is inserted.
+- **Traceability & Food Safety:** Instantly locate every pad from a specific seed lot in the event of a recall.
+- **Inventory Automation:** Scan unopened packs to maintain accurate, real-time stock and expiry data.¬
+
+¬rfidSeedPadBayCartridges_short:  
 **RFID Seed-Pad Bay Cartridges** – single-use seed mats embedded with passive RFID chips. {{tm.harvestSageTM}} reads variety, sow-date and recipe, then logs the full life-cycle for traceability.¬  
 
 ¬precisionHeatRootFilm:  
 **{{tm.precisionHeatTM}} Root-Film** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.¬  
-
-¬pureLightClamshellDome:  
-**{{tm.pureLightTM}} Clamshell Dome** – double-wall aerogel lid with 95% light transmission yet 0.002 W m⁻¹ K⁻¹ insulation, keeping canopy temperature stable in unheated rooms.¬  
 
 ¬deepFlowNftTroughInserts:  
 **Deep-Flow NFT Trough Inserts** – interchangeable gullies that hold a shallow, fast-moving nutrient film, ensuring constant oxygen and preventing salt crusting on greens.¬  
@@ -133,9 +184,6 @@
 
 ¬uvcOzoneSterilLoop:  
 **UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.¬  
-
-¬bioflocCultureTank:  
-**Biofloc Culture Tank** – dense microbial soup converts shrimp waste into edible floc, cutting feed costs 30% and nearly eliminating water exchange.¬  
 
 ¬rotatingDrumFilter:  
 **Rotating Drum Filter** – mesh drum continuously strains solids; a backwash jet cleans the screen automatically into a compost stream.¬  

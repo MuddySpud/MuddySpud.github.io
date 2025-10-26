@@ -1,4 +1,7 @@
-## The Technical Deep Dive
+¬import el from "../../shared/externalLinks"
+
+
+### Explore a {{el.docsAssemblerName}} Solution - with Technical Commentary
 
 Consider a large software platform, like a cloud service or a video editing suite. Its long-term success depends on a single critical factor: maintainability - the ability to modify, update, and fix it with minimal effort, cost, and risk.
 

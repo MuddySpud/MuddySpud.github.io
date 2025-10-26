@@ -4,17 +4,28 @@
 
 
 ###### {{tm.aeroHerbName}} Technologies  
-
-- {{g.lowPressureAeroponicsTree}}
+  
+- {{g.pureLight_short}}
+- {{g.hydraRail_short}}
+- {{g.hydraPad_short}}
 - {{g.hydraRailFogNozzles}}
-- {{g.rfidSeedPadBayCartridges}}
+- {{g.nanoSunBeam_short}}
+- {{g.rfidSeedPadBayCartridges_short}}
+- {{g.deepFlowNftTroughInserts}}
+- {{g.variableSpeedLaminarPump}}
+- {{g.laminarAirflowCanopy}}
+- {{g.precisionHeat_short}}
 - {{g.precisionHeatRootFilm}}
-- {{g.pureLightClamshellDome}}
+- {{g.uvcOzoneSterilLoop}}
+- {{g.uvcOzoneSterilLoop}}
+- {{g.microBeadCapillarySubstrate}}
 
-###### Harvest Enhancements 
- 
+###### Harvest Enhancements
+  
+- {{g.cutAndComeAgainOpticalMapping}}  
+- {{g.harvestReadyGreenDoorLight}}  
 - {{g.autoLiftCarousel}}  
-- {{g.sterileUvCPulse}} 
 
 {{c.ModuleAvailability_all}}
+
 

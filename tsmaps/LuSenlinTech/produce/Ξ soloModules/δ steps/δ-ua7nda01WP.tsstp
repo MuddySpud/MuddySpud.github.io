@@ -6,11 +6,21 @@
 
 ###### Technologies
   
+- {{g.pureLight_short}}
+- {{g.hydraRail_short}}
+- {{g.hydraPad_short}}
+- {{g.hydraRailFogNozzles}}
+- {{g.rfidSeedPadBayCartridges_short}}
 - {{g.deepFlowNftTroughInserts}}
 - {{g.variableSpeedLaminarPump}}
-- {{g.pureLightClamshellDome}}
+- {{g.laminarAirflowCanopy}}
+- {{g.precisionHeat_short}}
+- {{g.precisionHeatRootFilm}}
+- {{g.uvcOzoneSterilLoop}}
 
 ###### Harvest Enhancements
   
 - {{g.cutAndComeAgainOpticalMapping}}  
+- {{g.harvestReadyGreenDoorLight}}  
+- {{g.autoLiftCarousel}}  
 

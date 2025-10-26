@@ -62,7 +62,7 @@
                             {
                                 "key": "s7LPoO0I7",
                                 "order": 2,
-                                "option": "more details...",
+                                "option": "High effort plan features...",
                                 "isLeaf": true,
                                 "isAncillary": true
                             }
@@ -71,13 +71,13 @@
                     {
                         "key": "s7LPoO25V",
                         "order": 2,
-                        "option": "more details...",
+                        "option": "Moderate effort plan features...",
                         "isAncillary": true,
                         "nodes": [
                             {
                                 "key": "s7LPoO0j7",
                                 "order": 1,
-                                "option": "{{tm.pureLightTM}}",
+                                "option": "PureLight™",
                                 "isLeaf": true,
                                 "isAncillary": true
                             }
@@ -88,13 +88,13 @@
             {
                 "key": "s7LPoO1n7",
                 "order": 2,
-                "option": "more details...",
+                "option": "Low effort plan features...",
                 "isAncillary": true,
                 "nodes": [
                     {
                         "key": "s7LPoO1QC",
                         "order": 1,
-                        "option": "{{tm.pureLightTM}}",
+                        "option": "PureLight™",
                         "isLeaf": true,
                         "isAncillary": true
                     }
@@ -141,8 +141,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xCeaLH00hK",
-        "editorID": "car_4501400835e041aeadc750a1fe582adc",
-        "ticks": 1760984425943
+        "id": "xm0x5n00Iv",
+        "editorID": "car_70932e60eb1c43329b8f5a66f66710c3",
+        "ticks": 1761506928371
     }
 }

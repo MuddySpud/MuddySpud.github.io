@@ -1,8 +1,8 @@
 ¬import el from "../../shared/externalLinks"
-¬import tw from "../_shared/ThisWebsiteIsASingleGuide"
+¬import euh from "../_shared/ExploreUnderTheHood"
 
 
-### {{tw.howItWorksTitle}}
+### {{euh.howItWorksTitle}}
 
 {{el.docsAssemblerExtension_link}} introduces key concepts that leverage this philosophy:
 
