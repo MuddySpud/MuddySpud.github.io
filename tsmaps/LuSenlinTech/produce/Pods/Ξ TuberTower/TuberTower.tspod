@@ -14,10 +14,10 @@
             {
                 "key": "wkPSZJ02TT",
                 "order": 1,
-                "option": "TuberTower details",
-                "sharedAssetKey": "x4hnAa00Qu",
+                "option": "TuberTower - a deeper look",
                 "isLeaf": true,
-                "isAncillary": true
+                "isAncillary": true,
+                "iKey": "xmKRbi0022"
             }
         ]
     },
@@ -28,14 +28,13 @@
             "isShared": true
         },
         {
-            "key": "x4hnAa00Qu",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/TuberTowerDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkPSZJ02TT",
+            "relativePath": "./δ steps/δ-wkPSZJ02TT.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4hnfR02Ba",
-        "editorID": "car_7d7baeb9142446a89ab40b2c8a9d05e5",
-        "ticks": 1760866981461
+        "id": "xmQnhx01N7",
+        "editorID": "car_81594a5fb9ab43cbb83434ea2b86d730",
+        "ticks": 1761513088825
     }
 }

@@ -7,6 +7,6 @@ fragsFolderPath: Technical/Hallucinations_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"xktCfz2Xy","path":"Technical","fragmentFolderPath":"Technical/Hallucinations_frags"},"fragment":{"id":"xktCfz2Xy","topLevelMapKey":"u5Yi1402Vi","mapKeyChain":"u5Yi1402Vi","guideID":"xktCfz0cn","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Hallucinations.tsmap","chartKey":"u5Yi1402Vi","isLeaf":false,"options":[{"id":"xktCgB2Fm","order":1},{"id":"xktCh30j7","option":"What are LLMs?","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xm2Tu71tK","path":"Technical","fragmentFolderPath":"Technical/Hallucinations_frags"},"fragment":{"id":"xm2Tu71tK","topLevelMapKey":"u5Yi1402Vi","mapKeyChain":"u5Yi1402Vi","guideID":"xm2Tu70vz","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Hallucinations.tsmap","chartKey":"u5Yi1402Vi","isLeaf":false,"options":[{"id":"xm2TuG0U4","order":1},{"id":"xm2Tul0ss","option":"What are LLMs?","order":2,"isAncillary":true}]}} -->
 
 ## Hallucinations in AI
