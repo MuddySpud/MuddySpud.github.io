@@ -399,6 +399,7 @@
                                                                                                                                 "order": 2,
                                                                                                                                 "option": "FinWave details",
                                                                                                                                 "isLeaf": true,
+                                                                                                                                "isAncillary": true,
                                                                                                                                 "iKey": "xrYo9a02GN"
                                                                                                                             }
                                                                                                                         ]
@@ -408,6 +409,7 @@
                                                                                                                         "order": 2,
                                                                                                                         "option": "TuberTower details",
                                                                                                                         "isLeaf": true,
+                                                                                                                        "isAncillary": true,
                                                                                                                         "iKey": "xmKRbi0022"
                                                                                                                     }
                                                                                                                 ]
@@ -417,6 +419,7 @@
                                                                                                                 "order": 2,
                                                                                                                 "option": "CrustaBay details",
                                                                                                                 "isLeaf": true,
+                                                                                                                "isAncillary": true,
                                                                                                                 "iKey": "xrUw0s01Ez"
                                                                                                             }
                                                                                                         ]
@@ -426,6 +429,7 @@
                                                                                                         "order": 2,
                                                                                                         "option": "ShellWave details",
                                                                                                         "isLeaf": true,
+                                                                                                        "isAncillary": true,
                                                                                                         "iKey": "xsc3Da02G6"
                                                                                                     }
                                                                                                 ]
@@ -435,6 +439,7 @@
                                                                                                 "order": 2,
                                                                                                 "option": "FungaRoor details",
                                                                                                 "isLeaf": true,
+                                                                                                "isAncillary": true,
                                                                                                 "iKey": "wkMzSw001H"
                                                                                             }
                                                                                         ]
@@ -444,6 +449,7 @@
                                                                                         "order": 2,
                                                                                         "option": "MycoNest details",
                                                                                         "isLeaf": true,
+                                                                                        "isAncillary": true,
                                                                                         "iKey": "wkMEfW00lE"
                                                                                     }
                                                                                 ]
@@ -453,6 +459,7 @@
                                                                                 "order": 2,
                                                                                 "option": "AquaGreen details",
                                                                                 "isLeaf": true,
+                                                                                "isAncillary": true,
                                                                                 "iKey": "xrOJgE00q3"
                                                                             }
                                                                         ]
@@ -462,6 +469,7 @@
                                                                         "order": 2,
                                                                         "option": "PetalBloom details",
                                                                         "isLeaf": true,
+                                                                        "isAncillary": true,
                                                                         "iKey": "xrdmsU01vl"
                                                                     }
                                                                 ]
@@ -471,6 +479,7 @@
                                                                 "order": 2,
                                                                 "option": "StemStack details",
                                                                 "isLeaf": true,
+                                                                "isAncillary": true,
                                                                 "iKey": "xscpTq02Oq"
                                                             }
                                                         ]
@@ -480,6 +489,7 @@
                                                         "order": 2,
                                                         "option": "RootVault details",
                                                         "isLeaf": true,
+                                                        "isAncillary": true,
                                                         "iKey": "xsb4l200p2"
                                                     }
                                                 ]
@@ -489,6 +499,7 @@
                                                 "order": 2,
                                                 "option": "FruitForge details",
                                                 "isLeaf": true,
+                                                "isAncillary": true,
                                                 "iKey": "xrZvS001KG"
                                             }
                                         ]
@@ -498,6 +509,7 @@
                                         "order": 2,
                                         "option": "LeafLift details",
                                         "isLeaf": true,
+                                        "isAncillary": true,
                                         "iKey": "xrBvBL00gw"
                                     }
                                 ]
@@ -507,6 +519,7 @@
                                 "order": 2,
                                 "option": "AeroHerb details",
                                 "isLeaf": true,
+                                "isAncillary": true,
                                 "iKey": "xrK34w01bz"
                             }
                         ]
@@ -760,8 +773,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xsepap02a0",
-        "editorID": "car_02d45d16d04049a6991019ee95341bd2",
-        "ticks": 1761605090679
+        "id": "xsflK901NT",
+        "editorID": "car_9a00258c78f944f889e3ff69a93ecbc6",
+        "ticks": 1761605312597
     }
 }

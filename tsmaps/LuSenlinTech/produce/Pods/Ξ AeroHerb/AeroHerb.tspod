@@ -14,8 +14,9 @@
             {
                 "key": "wT8Wuh01KJ",
                 "order": 1,
-                "option": "AeroHerb details",
+                "option": "AeroHerb - a deeper look",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrK34w01bz"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xrOBsO01vm",
-        "editorID": "car_764804fc9f734f58ae2ea6af93f7c452",
-        "ticks": 1761586348424
+        "id": "xsl2Cc01lr",
+        "editorID": "car_56a23ac345524764b5fce8712ffa85b9",
+        "ticks": 1761606569118
     }
 }

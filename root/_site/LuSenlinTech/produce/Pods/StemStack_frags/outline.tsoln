@@ -1,14 +1,21 @@
 {
     "v": "1",
     "r": {
-        "i": "xm2Vm91Xb",
+        "i": "xsm6It1YW",
         "n": "welz1i00Vj",
         "o": [
             {
-                "i": "xm2VmE1ar",
-                "n": "wemMPe00LW"
+                "i": "xsm6J10Xk",
+                "n": "wemMPe00LW",
+                "c": 0
             }
         ]
     },
+    "c": [
+        {
+            "i": "xscpTq02Oq",
+            "p": "_site/LuSenlinTech/produce/Pods/StemStackDetails_frags"
+        }
+    ],
     "e": 0
 }

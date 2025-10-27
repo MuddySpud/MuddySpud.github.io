@@ -1,0 +1,70 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/LuSenlinTech/produce/Pods/%CE%9E%20StemStackDetails
+fragsFolderPath: LuSenlinTech/produce/Pods/StemStackDetails_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"xsm66u1wV","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/StemStackDetails_frags"},"fragment":{"id":"xsm66u1wV","topLevelMapKey":"xscpTq02Oq","mapKeyChain":"xscpTq02Oq","guideID":"xsm66u1Ct","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/StemStackDetails.tspod","chartKey":"xscpTq02Oq","isLeaf":true,"options":[]}} -->
+
+#### Dual-Zone Stem Forge
+
+This module is a multi-tiered hydroponic system specifically engineered for a select group of stem-intensive vegetables from our Balcony Edition catalogue. It uses a split-rootzone approach to independently optimize conditions for stem crunch and root function, producing exceptionally crisp, juicy, and robust stems and bulbs.
+
+##### How It Works
+
+###### 1. The Pre-Rooted Cutting
+Lǜ Sēnlín’s nursery supplies pre-rooted cuttings or young plants, selected for their genetic potential for sturdy stem development. This specific selection—**Compact Celery**, **Water Spinach Stem**, and **Baby Kohlrabi**—is ideal because these crops directly translocate water and nutrients from their roots to their stems, making them highly responsive to the targeted irrigation this system provides.
+
+###### 2. Differential Irrigation in the Module
+Once the plants are seated in the StemStack, HarvestSage™ initiates a specialized stem-bulking program:
+- The ****Dual-Zone Moisture Profile** – alternating mid-layer mist and timed base flood; stems thicken for crunch while roots absorb bulk nutrients.** creates two distinct environments: a mid-layer mist humidifies the emerging stems to encourage thick, succulent cell growth, while a timed, brief flood at the base delivers a concentrated burst of nutrients directly to the roots.
+- This "hydric exercise"—alternating between high humidity and a flood of nutrients—forces the stems of **Compact Celery** and **Water Spinach** to thicken for superior crunch, while simultaneously encouraging the **Baby Kohlrabi** to swell its edible bulb uniformly.
+- The system ensures stems remain rigid and full of water without becoming waterlogged or fibrous.
+
+###### 3. The Crisp-Stem Harvest
+The StemStack signals when the stems have reached peak texture and size.
+- The ****Harvest-Ready Green Door Light** – handle glows green when biomass, size or aroma sensors confirm peak quality.** illuminates when biomass and internal turgor pressure sensors confirm the stems are at their crispest.
+- For **Celery** and **Water Spinach**, the ****Cut-and-Come-Again Optical Mapping** – multispectral camera highlights leaves safe to cut while leaving meristems intact, extending harvest to 60 + days.** system can guide the harvest of outer stalks, allowing the plant core to continue producing.
+- The entire **Baby Kohlrabi** bulb is harvested at the base when mature.
+- The system provides a **continuous yield of 300–500g of ultra-crisp stems and bulbs per module per 8-week cycle.**
+
+##### The Science Behind It
+
+This process is made possible by contemporary research and technology:
+- The physical properties of celery and similar stems (known as petioles) are directly governed by water pressure (turgor) within their cells. The mid-level misting maintains this pressure at a maximum, preventing the stringiness that occurs with inconsistent water uptake.
+- Plants can develop different root structures in response to moisture gradients; this system exploits that plasticity to create a root zone optimized for both nutrient uptake (in the flooded zone) and oxygen absorption (in the aerated mid-zone).
+- By treating the stem and the root zone as two interconnected but distinct systems, it becomes possible to engineer for a specific textural outcome in the harvested product—maximizing crunch.
+
+In short, the StemStack is a **texture-optimizing hydroponic system** that uses targeted hydrology to forge the crispest, most succulent stems imaginable, delivering a satisfying crunch that is rarely achieved outside of perfect field conditions.
+
+###### StemStack Technologies  
+
+- **PureLight™** - transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). It is lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.
+- **HydraRail™ Fluid Manifold** - micro-drip, fog, or flood modes selectable per Frame; self-sealing/healing NanoHealShield™ couplers prevent spills. Change crops or switch to aquaponics on the fly.
+- **HydraPad™** - a smart hydroponic insert that uses a bio-engineered nanofiber matrix and quantum sensors to optimize aquatic plant growth and enable 95% nutrient recycling, with a SlideLock™ mechanism for 10-second swaps.
+- **HydraRail™ Fog Nozzles** – quick-connect misters that plug into the frame’s magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.
+- **NanoSunBeam™** Organic-phosphor LEDs auto-tune PAR, far-red & UV-A. Better flavour, longer shelf life, lower kWh.
+- **RFID Seed-Pad Bay Cartridges** – single-use seed mats embedded with passive RFID chips. HarvestSage™ reads variety, sow-date and recipe, then logs the full life-cycle for traceability.
+- **Deep-Flow NFT Trough Inserts** – interchangeable gullies that hold a shallow, fast-moving nutrient film, ensuring constant oxygen and preventing salt crusting on greens.
+- **Variable-Speed Laminar Pump** – EC-sensor-driven pump that throttles to 30% at night, saving ~0.6 kWh day⁻¹ while preserving dissolved-oxygen levels.
+- **Laminar Airflow Canopy** – silent cross-flow fan creates a 0.2 m s⁻¹ air sheet, dispersing humidity pockets and reducing petal disease.
+- **PrecisionHeat™**  - Graphene Heat-Film, printed onto root chamber walls for ±0.3°C control.
+- **PrecisionHeat™ Root-Film** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.
+- **UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.
+- **Micro-Bead Capillary Substrate** – 1 mm porous glass beads wick moisture yet drain instantly; a five-minute steam pulse sterilises them between crops.
+- **Dual-Zone Moisture Profile** – alternating mid-layer mist and timed base flood; stems thicken for crunch while roots absorb bulk nutrients.
+
+###### Harvest Enhancements
+  
+- **Cut-and-Come-Again Optical Mapping** – multispectral camera highlights leaves safe to cut while leaving meristems intact, extending harvest to 60 + days.  
+- **Harvest-Ready Green Door Light** – handle glows green when biomass, size or aroma sensors confirm peak quality.  
+- **Auto-Lift Carousel** – motorised ring rotates mature bay to waist height, making harvest a single ergonomic pull.  
+- **SnapAssist Stem Groove** – humidity pulses form a pre-weakened cellulose line; stems snap crisply with a gentle bend.
+
+###### Modules
+- Solo
+- Twin
+

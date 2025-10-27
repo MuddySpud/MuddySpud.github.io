@@ -16,3 +16,6 @@ dist/
 /build/
 pub/
 .bin/
+
+/.jekyll-cache/
+/docs/.jekyll-cache/

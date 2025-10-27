@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "LeafLift details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrBvBL00gw"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xrJpWW01mx",
-        "editorID": "car_c4f2abbf0be24c0d883f5b9679433411",
-        "ticks": 1761585309188
+        "id": "xsgt4N01FZ",
+        "editorID": "car_0453b737fad243cfb7b7d377e49b2c17",
+        "ticks": 1761605580699
     }
 }

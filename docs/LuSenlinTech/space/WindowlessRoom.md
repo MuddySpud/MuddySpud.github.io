@@ -7,6 +7,6 @@ fragsFolderPath: LuSenlinTech/space/WindowlessRoom_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"xm2U6a0QB","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"xm2U6a0QB","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"xm2U6a13l","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/WindowlessRoom.tsmap","chartKey":"s7SMNu079","isLeaf":true,"options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"xsm4TR2R2","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"xsm4TR2R2","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"xsm4TR1LK","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/WindowlessRoom.tsmap","chartKey":"s7SMNu079","isLeaf":true,"options":[]}} -->
 
 todo

@@ -1,14 +1,21 @@
 {
     "v": "1",
     "r": {
-        "i": "xm2Vrd0Vz",
+        "i": "xsm6Lh1s9",
         "n": "wkO99L02IR",
         "o": [
             {
-                "i": "xm2Vrn28P",
-                "n": "wkOBoH00rR"
+                "i": "xsm6Lq1QK",
+                "n": "wkOBoH00rR",
+                "c": 0
             }
         ]
     },
+    "c": [
+        {
+            "i": "xsc3Da02G6",
+            "p": "_site/LuSenlinTech/produce/Pods/ShellWaveDetails_frags"
+        }
+    ],
     "e": 0
 }

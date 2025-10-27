@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "PetalBloom details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrdmsU01vl"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xreHrN007k",
-        "editorID": "car_54fadbbac2854491920fc4e4a2411fd2",
-        "ticks": 1761590184673
+        "id": "xsgwPb003m",
+        "editorID": "car_0aa71ecef4bf46fe845abdcbd9765c40",
+        "ticks": 1761605593548
     }
 }

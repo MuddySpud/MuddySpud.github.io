@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "FruitForge details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrZvS001KG"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xraNIj01qi",
-        "editorID": "car_c9803680510040268d0ab87b33dce694",
-        "ticks": 1761589252277
+        "id": "xsgoAr02RO",
+        "editorID": "car_f9c15409d0a74b01b27c46125762943a",
+        "ticks": 1761605561881
     }
 }

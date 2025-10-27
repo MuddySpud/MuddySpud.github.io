@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "FinWave details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrYo9a02GN"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xrZoYT007t",
-        "editorID": "car_828d61ab21f84ed5ba37a576faf92215",
-        "ticks": 1761589118713
+        "id": "xsgmhm01q8",
+        "editorID": "car_2ea73d9babe548149c295a1b587f0faf",
+        "ticks": 1761605556234
     }
 }

@@ -13,20 +13,24 @@
             {
                 "key": "xrKJl100st",
                 "order": 1,
-                "nodes": [
-                    {
-                        "key": "xrNW6w00Kk",
-                        "order": 1,
-                        "nodes": [
-                            {
-                                "key": "xrNZhX02MQ",
-                                "order": 1,
-                                "sharedAssetKey": "xrO5QR00P8",
-                                "isLeaf": true
-                            }
-                        ]
-                    }
-                ]
+                "option": "How it works",
+                "isLeaf": true,
+                "isAncillary": true
+            },
+            {
+                "key": "xslHs101Ow",
+                "order": 2,
+                "option": "The science behind it",
+                "isLeaf": true,
+                "isAncillary": true
+            },
+            {
+                "key": "xslM9o00A0",
+                "order": 3,
+                "option": "The technology",
+                "sharedAssetKey": "xslUyh003d",
+                "isLeaf": true,
+                "isAncillary": true
             }
         ]
     },
@@ -40,18 +44,18 @@
             "relativePath": "./δ steps/δ-xrKJl100st.tsstp"
         },
         {
-            "key": "δ-xrNW6w00Kk",
-            "relativePath": "./δ steps/δ-xrNW6w00Kk.tsstp"
+            "key": "δ-xslHs101Ow",
+            "relativePath": "./δ steps/δ-xslHs101Ow.tsstp"
         },
         {
-            "key": "xrO5QR00P8",
+            "key": "xslUyh003d",
             "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AeroHerbDetails.tsstp",
             "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "xrO5yK02Ld",
-        "editorID": "car_d10af5798ae14beda51d4facf74c8a80",
-        "ticks": 1761586325728
+        "id": "xslkYr0224",
+        "editorID": "car_5d9b3c40b2e24453916a374d66ae56ab",
+        "ticks": 1761606739633
     }
 }

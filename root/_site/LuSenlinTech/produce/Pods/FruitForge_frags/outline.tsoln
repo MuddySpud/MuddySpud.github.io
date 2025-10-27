@@ -1,14 +1,21 @@
 {
     "v": "1",
     "r": {
-        "i": "xm2Viu0SO",
+        "i": "xsm6GE157",
         "n": "wekWOJ01Nh",
         "o": [
             {
-                "i": "xm2Vj02Pj",
-                "n": "wekeVE02aI"
+                "i": "xsm6GJ1b4",
+                "n": "wekeVE02aI",
+                "c": 0
             }
         ]
     },
+    "c": [
+        {
+            "i": "xrZvS001KG",
+            "p": "_site/LuSenlinTech/produce/Pods/FruitForgeDetails_frags"
+        }
+    ],
     "e": 0
 }

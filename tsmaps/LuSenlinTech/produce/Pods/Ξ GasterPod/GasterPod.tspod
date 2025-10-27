@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "GasterPod details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrbxcm01Qu"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xrcRAH00Nn",
-        "editorID": "car_9e9a6d5684264a198684c56a41154e39",
-        "ticks": 1761589743785
+        "id": "xsgrZU00NR",
+        "editorID": "car_1c0ed81ab5df4cf18f95bf442a27f40e",
+        "ticks": 1761605574940
     }
 }

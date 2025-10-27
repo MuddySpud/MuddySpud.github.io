@@ -21,6 +21,7 @@ to the new file names in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\Fra
 Delete these folders in DocsAssemblerDemo:
   C:\GitHub\DocsAssemblerDemo\tsmaps
   C:\GitHub\DocsAssemblerDemo\docs\_includes
+  C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_layouts
   C:\GitHub\DocsAssemblerDemo\docs\assets
   C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
   C:\GitHub\DocsAssemblerDemo\docs\LuSenlinTech
@@ -35,6 +36,7 @@ C:\GitHub\MuddySpud\MuddySpud.github.io\docs\LuSenlinTech to C:\GitHub\DocsAssem
 C:\GitHub\MuddySpud\MuddySpud.github.io\docs\DocumentationHell_frags to C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
 C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets to C:\GitHub\DocsAssemblerDemo\docs\assets
 C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_includes to C:\GitHub\DocsAssemblerDemo\docs\_includes
+C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_layouts to C:\GitHub\DocsAssemblerDemo\docs\_layouts
 
 Copy over the fragment json and markdwn from C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
 to C:\GitHub\DocsAssemblerDemo\docs\index.md
@@ -62,3 +64,11 @@ Add what to notice in intro to demo.
 There are two uses of crops mapsone is in the slection of the module - n which case the text should only talk about the crop. The other is when you are buying a new crop for your module.
 Continue with catgory details and adding tech using deepseek
 Crops needs to explain about the module they use etc.
+
+Crop pods 
+  - title must be abut crop not module
+  - must have hw it wrks and science behind and tech buttons
+  - move names of tech to trademarks then reference them in crop pods
+  - replace Lu SenLin and em dashes
+  
+  

@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "RootVault details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xsb4l200p2"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xsbNda00uW",
-        "editorID": "car_667c177af80d46a6bbae1086d21a1dae",
-        "ticks": 1761604268234
+        "id": "xsgxwf00ix",
+        "editorID": "car_2fd7286a70894b549dbada28ab867033",
+        "ticks": 1761605599441
     }
 }

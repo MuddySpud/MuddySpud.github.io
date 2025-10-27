@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "CrustaBay details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xrUw0s01Ez"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xrYimw00nE",
-        "editorID": "car_00378b597706453da0ade6bdd72c5348",
-        "ticks": 1761588858218
+        "id": "xsgktQ02NR",
+        "editorID": "car_3cd14f85561c4a7ebbad76bcc977155a",
+        "ticks": 1761605549268
     }
 }

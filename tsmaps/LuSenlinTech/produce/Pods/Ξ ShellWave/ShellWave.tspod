@@ -16,6 +16,7 @@
                 "order": 1,
                 "option": "ShellWave details",
                 "isLeaf": true,
+                "isAncillary": true,
                 "iKey": "xsc3Da02G6"
             }
         ]
@@ -32,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xscQ6301KQ",
-        "editorID": "car_206eca8875b34a1f9909e3f8d4f08753",
-        "ticks": 1761604516015
+        "id": "xsgzbG01QN",
+        "editorID": "car_a10f3e9c5a3742279109d6c3c07d7be5",
+        "ticks": 1761605605802
     }
 }
