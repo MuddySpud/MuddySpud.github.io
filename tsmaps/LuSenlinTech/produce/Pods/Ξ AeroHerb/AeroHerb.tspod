@@ -15,9 +15,8 @@
                 "key": "wT8Wuh01KJ",
                 "order": 1,
                 "option": "AeroHerb details",
-                "sharedAssetKey": "x4QGDW00UC",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrK34w01bz"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4QGDW00UC",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AeroHerbDetails.tsstp",
-            "isShared": true
+            "key": "δ-wT8Wuh01KJ",
+            "relativePath": "./δ steps/δ-wT8Wuh01KJ.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4RYMt01md",
-        "editorID": "car_d0685981a74643a8b96a799099d9d515",
-        "ticks": 1760863109403
+        "id": "xrOBsO01vm",
+        "editorID": "car_764804fc9f734f58ae2ea6af93f7c452",
+        "ticks": 1761586348424
     }
 }

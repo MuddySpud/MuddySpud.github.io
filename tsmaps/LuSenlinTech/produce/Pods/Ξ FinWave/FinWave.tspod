@@ -15,9 +15,8 @@
                 "key": "wkQ3jl0275",
                 "order": 1,
                 "option": "FinWave details",
-                "sharedAssetKey": "x4iKq5024O",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrYo9a02GN"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4iKq5024O",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FinWaveDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkQ3jl0275",
+            "relativePath": "./δ steps/δ-wkQ3jl0275.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4iLDt028g",
-        "editorID": "car_ea0ecec9fa46486a8e5e2e94810f43d2",
-        "ticks": 1760867110449
+        "id": "xrZoYT007t",
+        "editorID": "car_828d61ab21f84ed5ba37a576faf92215",
+        "ticks": 1761589118713
     }
 }

@@ -15,9 +15,8 @@
                 "key": "wkOqBv01AZ",
                 "order": 1,
                 "option": "CrustaBay details",
-                "sharedAssetKey": "x4e0Tc00Mn",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrUw0s01Ez"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4e0Tc00Mn",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/CrustaBayDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkOqBv01AZ",
+            "relativePath": "./δ steps/δ-wkOqBv01AZ.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4e0od01ff",
-        "editorID": "car_955fe602845d4df5bbe83c51ae59f4c3",
-        "ticks": 1760866078691
+        "id": "xrYimw00nE",
+        "editorID": "car_00378b597706453da0ade6bdd72c5348",
+        "ticks": 1761588858218
     }
 }

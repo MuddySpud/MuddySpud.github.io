@@ -15,9 +15,8 @@
                 "key": "wkMJCJ01c8",
                 "order": 1,
                 "option": "MycoNest details",
-                "sharedAssetKey": "x4bg4y00Yj",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrd0OF01EE"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4bg4y00Yj",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/MycoNestDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkMJCJ01c8",
+            "relativePath": "./δ steps/δ-wkMJCJ01c8.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4bgPm02XX",
-        "editorID": "car_a02636de7f76412fbf696a0ef8485235",
-        "ticks": 1760865523614
+        "id": "xrdPIt01jL",
+        "editorID": "car_ef249f5d9a4a4480a553570c7b8c4818",
+        "ticks": 1761589974959
     }
 }

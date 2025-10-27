@@ -1,0 +1,57 @@
+{
+    "key": "xsb4l200p2  ",
+    "token": "Rootvaultdetails",
+    "name": "RootVaultDetails",
+    "created": "2025-10-27T22:29:55.661Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ RootVaultDetails/RootVaultDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'RootVaultDetails'",
+    "___rΩΩt___": {
+        "key": "xsb6SA01H0",
+        "nodes": [
+            {
+                "key": "xsbFF601NF",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xsbGPK00bA",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xsbHGg00CR",
+                                "order": 1,
+                                "sharedAssetKey": "xsbIho02HH",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xsb6SA01H0",
+            "relativePath": "./δ steps/δ-xsb6SA01H0.tsstp"
+        },
+        {
+            "key": "δ-xsbFF601NF",
+            "relativePath": "./δ steps/δ-xsbFF601NF.tsstp"
+        },
+        {
+            "key": "δ-xsbGPK00bA",
+            "relativePath": "./δ steps/δ-xsbGPK00bA.tsstp"
+        },
+        {
+            "key": "xsbIho02HH",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/RootVaultDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xsbJ4b01Od",
+        "editorID": "car_8a0bdab5a1484d17b7c9ddf14e97bb7e",
+        "ticks": 1761604250689
+    }
+}

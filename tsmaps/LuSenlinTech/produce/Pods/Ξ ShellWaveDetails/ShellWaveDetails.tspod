@@ -1,0 +1,57 @@
+{
+    "key": "xsc3Da02G6  ",
+    "token": "Shellwavedetails",
+    "name": "ShellWaveDetails",
+    "created": "2025-10-27T22:33:48.070Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ ShellWaveDetails/ShellWaveDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'ShellWaveDetails'",
+    "___rΩΩt___": {
+        "key": "xsc4Z800GJ",
+        "nodes": [
+            {
+                "key": "xscBFo0152",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xscC5b01ME",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xscD3q028G",
+                                "order": 1,
+                                "sharedAssetKey": "xscElD01cK",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xsc4Z800GJ",
+            "relativePath": "./δ steps/δ-xsc4Z800GJ.tsstp"
+        },
+        {
+            "key": "δ-xscBFo0152",
+            "relativePath": "./δ steps/δ-xscBFo0152.tsstp"
+        },
+        {
+            "key": "δ-xscC5b01ME",
+            "relativePath": "./δ steps/δ-xscC5b01ME.tsstp"
+        },
+        {
+            "key": "xscElD01cK",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/ShellWaveDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xscF6900MC",
+        "editorID": "car_c91864b4297e4978ae3111de3f4b8602",
+        "ticks": 1761604473737
+    }
+}

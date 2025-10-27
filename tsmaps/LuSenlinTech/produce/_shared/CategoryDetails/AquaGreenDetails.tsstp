@@ -16,13 +16,12 @@
 - {{g.nanoSunBeam_short}}
 - {{g.deepFlowNftTroughInserts}}
 - {{g.hydraPad_short}}
-- {{g.harvestMeshRoller}}
 - {{g.autoRemineraliser}}
+- {{g.proteinSkimmerUvCLoop}}  
 
 ###### Harvest Enhancements
   
 - {{g.harvestMeshRoller}}
-- {{g.autoRemineraliser}}  
 
 {{c.ModuleAvailability_all}}
 

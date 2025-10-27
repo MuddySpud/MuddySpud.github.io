@@ -1,0 +1,57 @@
+{
+    "key": "xrBvBL00gw  ",
+    "token": "Leafliftdetails",
+    "name": "LeafLiftDetails",
+    "created": "2025-10-27T16:43:44.316Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ LeafLiftDetails/LeafLiftDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'LeafLiftDetails'",
+    "___rΩΩt___": {
+        "key": "xrBxjD00qo",
+        "nodes": [
+            {
+                "key": "xrC27q01eE",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrCA4s01Si",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrCCNi00QN",
+                                "order": 1,
+                                "sharedAssetKey": "xrCrMb00UC",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrBxjD00qo",
+            "relativePath": "./δ steps/δ-xrBxjD00qo.tsstp"
+        },
+        {
+            "key": "δ-xrC27q01eE",
+            "relativePath": "./δ steps/δ-xrC27q01eE.tsstp"
+        },
+        {
+            "key": "δ-xrCA4s01Si",
+            "relativePath": "./δ steps/δ-xrCA4s01Si.tsstp"
+        },
+        {
+            "key": "xrCrMb00UC",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/LeafLiftDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrCrp102QT",
+        "editorID": "car_77c26c316e024e94832d7f4732f0298f",
+        "ticks": 1761583649727
+    }
+}

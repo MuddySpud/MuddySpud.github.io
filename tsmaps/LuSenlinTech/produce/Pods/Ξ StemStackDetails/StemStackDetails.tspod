@@ -1,0 +1,57 @@
+{
+    "key": "xscpTq02Oq  ",
+    "token": "Stemstackdetails",
+    "name": "StemStackDetails",
+    "created": "2025-10-27T22:36:53.591Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ StemStackDetails/StemStackDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'StemStackDetails'",
+    "___rΩΩt___": {
+        "key": "xscqmd01rr",
+        "nodes": [
+            {
+                "key": "xscwkl00AT",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xscxa201fa",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xscyNB00TT",
+                                "order": 1,
+                                "sharedAssetKey": "xsczPP01DI",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xscqmd01rr",
+            "relativePath": "./δ steps/δ-xscqmd01rr.tsstp"
+        },
+        {
+            "key": "δ-xscwkl00AT",
+            "relativePath": "./δ steps/δ-xscwkl00AT.tsstp"
+        },
+        {
+            "key": "δ-xscxa201fa",
+            "relativePath": "./δ steps/δ-xscxa201fa.tsstp"
+        },
+        {
+            "key": "xsczPP01DI",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/StemStackDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xsczlN01UC",
+        "editorID": "car_a29f50eec0944b55b6e8175018d022b7",
+        "ticks": 1761604653117
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "key": "xrOJgE00q3  ",
+    "token": "Aquagreendetails",
+    "name": "AquaGreenDetails",
+    "created": "2025-10-27T17:32:58.422Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ AquaGreenDetails/AquaGreenDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'AquaGreenDetails'",
+    "___rΩΩt___": {
+        "key": "xrOMjB010x",
+        "nodes": [
+            {
+                "key": "xrSvmx02B4",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrTNlC020L",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrTOTJ01fw",
+                                "order": 1,
+                                "sharedAssetKey": "xrTQ1o003h",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrOMjB010x",
+            "relativePath": "./δ steps/δ-xrOMjB010x.tsstp"
+        },
+        {
+            "key": "δ-xrSvmx02B4",
+            "relativePath": "./δ steps/δ-xrSvmx02B4.tsstp"
+        },
+        {
+            "key": "δ-xrTNlC020L",
+            "relativePath": "./δ steps/δ-xrTNlC020L.tsstp"
+        },
+        {
+            "key": "xrTQ1o003h",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AquaGreenDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrTSMn00GN",
+        "editorID": "car_ee047f78e3564130a658b26f7dc6bf3b",
+        "ticks": 1761587603453
+    }
+}

@@ -15,9 +15,8 @@
                 "key": "wTFin6019N",
                 "order": 1,
                 "option": "LeafLift details",
-                "sharedAssetKey": "x4UDPR00mp",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrBvBL00gw"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4UDPR00mp",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/LeafLiftDetails.tsstp",
-            "isShared": true
+            "key": "δ-wTFin6019N",
+            "relativePath": "./δ steps/δ-wTFin6019N.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4UGOd00Hv",
-        "editorID": "car_456b1226416c43479a9598ecb8e9a6a4",
-        "ticks": 1760863755303
+        "id": "xrJpWW01mx",
+        "editorID": "car_c4f2abbf0be24c0d883f5b9679433411",
+        "ticks": 1761585309188
     }
 }

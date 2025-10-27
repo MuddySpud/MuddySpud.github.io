@@ -15,9 +15,8 @@
                 "key": "wkOBoH00rR",
                 "order": 1,
                 "option": "ShellWave details",
-                "sharedAssetKey": "x4dTi500JE",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xsc3Da02G6"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4dTi500JE",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/ShellWaveDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkOBoH00rR",
+            "relativePath": "./δ steps/δ-wkOBoH00rR.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4dU2C01ct",
-        "editorID": "car_f21cc8ea5bb94d849719a49448e34256",
-        "ticks": 1760865952680
+        "id": "xscQ6301KQ",
+        "editorID": "car_206eca8875b34a1f9909e3f8d4f08753",
+        "ticks": 1761604516015
     }
 }

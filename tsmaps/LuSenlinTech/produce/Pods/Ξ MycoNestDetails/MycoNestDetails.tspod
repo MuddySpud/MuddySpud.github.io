@@ -1,0 +1,57 @@
+{
+    "key": "xrd0OF01EE  ",
+    "token": "Myconestdetails",
+    "name": "MycoNestDetails",
+    "created": "2025-10-27T18:31:19.192Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ MycoNestDetails/MycoNestDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'MycoNestDetails'",
+    "___rΩΩt___": {
+        "key": "xrd1uU01c2",
+        "nodes": [
+            {
+                "key": "xrd5ug01BE",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrd6qA00K3",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrd7iq02XW",
+                                "order": 1,
+                                "sharedAssetKey": "xrd92V012E",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrd1uU01c2",
+            "relativePath": "./δ steps/δ-xrd1uU01c2.tsstp"
+        },
+        {
+            "key": "δ-xrd5ug01BE",
+            "relativePath": "./δ steps/δ-xrd5ug01BE.tsstp"
+        },
+        {
+            "key": "δ-xrd6qA00K3",
+            "relativePath": "./δ steps/δ-xrd6qA00K3.tsstp"
+        },
+        {
+            "key": "xrd92V012E",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/MycoNestDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrd9PD02QO",
+        "editorID": "car_f403719d36554ea3948c3562616865de",
+        "ticks": 1761589913847
+    }
+}

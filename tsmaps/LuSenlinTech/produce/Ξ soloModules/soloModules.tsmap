@@ -398,9 +398,8 @@
                                                                                                                                 "key": "vcIEPU004M",
                                                                                                                                 "order": 2,
                                                                                                                                 "option": "FinWave details",
-                                                                                                                                "sharedAssetKey": "x4iJpY00Sc",
                                                                                                                                 "isLeaf": true,
-                                                                                                                                "isAncillary": true
+                                                                                                                                "iKey": "xrYo9a02GN"
                                                                                                                             }
                                                                                                                         ]
                                                                                                                     },
@@ -408,9 +407,8 @@
                                                                                                                         "key": "vcH1JH01oi",
                                                                                                                         "order": 2,
                                                                                                                         "option": "TuberTower details",
-                                                                                                                        "sharedAssetKey": "x4hgKq004l",
                                                                                                                         "isLeaf": true,
-                                                                                                                        "isAncillary": true
+                                                                                                                        "iKey": "xmKRbi0022"
                                                                                                                     }
                                                                                                                 ]
                                                                                                             },
@@ -418,9 +416,8 @@
                                                                                                                 "key": "vcGKMd00wQ",
                                                                                                                 "order": 2,
                                                                                                                 "option": "CrustaBay details",
-                                                                                                                "sharedAssetKey": "x4dzAg00qS",
                                                                                                                 "isLeaf": true,
-                                                                                                                "isAncillary": true
+                                                                                                                "iKey": "xrUw0s01Ez"
                                                                                                             }
                                                                                                         ]
                                                                                                     },
@@ -428,9 +425,8 @@
                                                                                                         "key": "vcF5nX02Jo",
                                                                                                         "order": 2,
                                                                                                         "option": "ShellWave details",
-                                                                                                        "sharedAssetKey": "x4dS7z0149",
                                                                                                         "isLeaf": true,
-                                                                                                        "isAncillary": true
+                                                                                                        "iKey": "xsc3Da02G6"
                                                                                                     }
                                                                                                 ]
                                                                                             },
@@ -438,9 +434,8 @@
                                                                                                 "key": "vcANA002VG",
                                                                                                 "order": 2,
                                                                                                 "option": "FungaRoor details",
-                                                                                                "sharedAssetKey": "x4cAkx00XR",
                                                                                                 "isLeaf": true,
-                                                                                                "isAncillary": true
+                                                                                                "iKey": "wkMzSw001H"
                                                                                             }
                                                                                         ]
                                                                                     },
@@ -448,9 +443,8 @@
                                                                                         "key": "vaS71w02T8",
                                                                                         "order": 2,
                                                                                         "option": "MycoNest details",
-                                                                                        "sharedAssetKey": "x4beDg01U1",
                                                                                         "isLeaf": true,
-                                                                                        "isAncillary": true
+                                                                                        "iKey": "wkMEfW00lE"
                                                                                     }
                                                                                 ]
                                                                             },
@@ -458,9 +452,8 @@
                                                                                 "key": "vaRvIt01PJ",
                                                                                 "order": 2,
                                                                                 "option": "AquaGreen details",
-                                                                                "sharedAssetKey": "x4Stsy00EO",
                                                                                 "isLeaf": true,
-                                                                                "isAncillary": true
+                                                                                "iKey": "xrOJgE00q3"
                                                                             }
                                                                         ]
                                                                     },
@@ -468,9 +461,8 @@
                                                                         "key": "vaRMtv00yX",
                                                                         "order": 2,
                                                                         "option": "PetalBloom details",
-                                                                        "sharedAssetKey": "x4apSV00yK",
                                                                         "isLeaf": true,
-                                                                        "isAncillary": true
+                                                                        "iKey": "xrdmsU01vl"
                                                                     }
                                                                 ]
                                                             },
@@ -478,9 +470,8 @@
                                                                 "key": "vaPX9701Sa",
                                                                 "order": 2,
                                                                 "option": "StemStack details",
-                                                                "sharedAssetKey": "xkwZid01LE",
                                                                 "isLeaf": true,
-                                                                "isAncillary": true
+                                                                "iKey": "xscpTq02Oq"
                                                             }
                                                         ]
                                                     },
@@ -488,9 +479,8 @@
                                                         "key": "vaNILe01NL",
                                                         "order": 2,
                                                         "option": "RootVault details",
-                                                        "sharedAssetKey": "x4ZOz000X6",
                                                         "isLeaf": true,
-                                                        "isAncillary": true
+                                                        "iKey": "xsb4l200p2"
                                                     }
                                                 ]
                                             },
@@ -498,9 +488,8 @@
                                                 "key": "ua8zHx00Aw",
                                                 "order": 2,
                                                 "option": "FruitForge details",
-                                                "sharedAssetKey": "xkwRxJ00RW",
                                                 "isLeaf": true,
-                                                "isAncillary": true
+                                                "iKey": "xrZvS001KG"
                                             }
                                         ]
                                     },
@@ -508,9 +497,8 @@
                                         "key": "ua7nda01WP",
                                         "order": 2,
                                         "option": "LeafLift details",
-                                        "sharedAssetKey": "x4U8ll00nx",
                                         "isLeaf": true,
-                                        "isAncillary": true
+                                        "iKey": "xrBvBL00gw"
                                     }
                                 ]
                             },
@@ -518,9 +506,8 @@
                                 "key": "ua6RO701O1",
                                 "order": 2,
                                 "option": "AeroHerb details",
-                                "sharedAssetKey": "x4NL0W015H",
                                 "isLeaf": true,
-                                "isAncillary": true
+                                "iKey": "xrK34w01bz"
                             }
                         ]
                     }
@@ -540,38 +527,13 @@
             "isShared": true
         },
         {
-            "key": "x4NL0W015H",
-            "relativePath": "../_shared/CategoryDetails/AeroHerbDetails.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4U8ll00nx",
-            "relativePath": "../_shared/CategoryDetails/LeafLiftDetails.tsstp",
-            "isShared": true
-        },
-        {
             "key": "x4YjGU014V",
             "relativePath": "../_shared/CategoryTables/RootVaultTable.tsstp",
             "isShared": true
         },
         {
-            "key": "xkwRxJ00RW",
-            "relativePath": "../_shared/CategoryDetails/FruitForgeDetails.tsstp",
-            "isShared": true
-        },
-        {
             "key": "x4Ztib02VO",
             "relativePath": "../_shared/CategoryTables/StemStackTable.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4ZOz000X6",
-            "relativePath": "../_shared/CategoryDetails/RootVaultDetails.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "xkwZid01LE",
-            "relativePath": "../_shared/CategoryDetails/StemStackDetails.tsstp",
             "isShared": true
         },
         {
@@ -585,18 +547,8 @@
             "isShared": true
         },
         {
-            "key": "x4apSV00yK",
-            "relativePath": "../_shared/CategoryDetails/PetalBloomDetails.tsstp",
-            "isShared": true
-        },
-        {
             "key": "x4bT9o02Mv",
             "relativePath": "../_shared/CategoryTables/MycoNestTable.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4Stsy00EO",
-            "relativePath": "../_shared/CategoryDetails/AquaGreenDetails.tsstp",
             "isShared": true
         },
         {
@@ -605,23 +557,8 @@
             "isShared": true
         },
         {
-            "key": "x4beDg01U1",
-            "relativePath": "../_shared/CategoryDetails/MycoNestDetails.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4cAkx00XR",
-            "relativePath": "../_shared/CategoryDetails/FungaRootDetails.tsstp",
-            "isShared": true
-        },
-        {
             "key": "x4dGXv02Fl",
             "relativePath": "../_shared/CategoryTables/ShellWaveTable.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4dS7z0149",
-            "relativePath": "../_shared/CategoryDetails/ShellWaveDetails.tsstp",
             "isShared": true
         },
         {
@@ -635,23 +572,8 @@
             "isShared": true
         },
         {
-            "key": "x4dzAg00qS",
-            "relativePath": "../_shared/CategoryDetails/CrustaBayDetails.tsstp",
-            "isShared": true
-        },
-        {
             "key": "x4i7Xp01gj",
             "relativePath": "../_shared/CategoryTables/FinWaveTable.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4hgKq004l",
-            "relativePath": "../_shared/CategoryDetails/TuberTowerDetails.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "x4iJpY00Sc",
-            "relativePath": "../_shared/CategoryDetails/FinWaveDetails.tsstp",
             "isShared": true
         },
         {
@@ -783,11 +705,63 @@
             "key": "x4VkKF018p",
             "relativePath": "../_shared/CategoryTables/FruitForgeTable.tsstp",
             "isShared": true
+        },
+        {
+            "key": "δ-ua6RO701O1",
+            "relativePath": "./δ steps/δ-ua6RO701O1.tsstp"
+        },
+        {
+            "key": "δ-ua7nda01WP",
+            "relativePath": "./δ steps/δ-ua7nda01WP.tsstp"
+        },
+        {
+            "key": "δ-ua8zHx00Aw",
+            "relativePath": "./δ steps/δ-ua8zHx00Aw.tsstp"
+        },
+        {
+            "key": "δ-vaNILe01NL",
+            "relativePath": "./δ steps/δ-vaNILe01NL.tsstp"
+        },
+        {
+            "key": "δ-vaPX9701Sa",
+            "relativePath": "./δ steps/δ-vaPX9701Sa.tsstp"
+        },
+        {
+            "key": "δ-vaRMtv00yX",
+            "relativePath": "./δ steps/δ-vaRMtv00yX.tsstp"
+        },
+        {
+            "key": "δ-vaRvIt01PJ",
+            "relativePath": "./δ steps/δ-vaRvIt01PJ.tsstp"
+        },
+        {
+            "key": "δ-vaS71w02T8",
+            "relativePath": "./δ steps/δ-vaS71w02T8.tsstp"
+        },
+        {
+            "key": "δ-vcANA002VG",
+            "relativePath": "./δ steps/δ-vcANA002VG.tsstp"
+        },
+        {
+            "key": "δ-vcF5nX02Jo",
+            "relativePath": "./δ steps/δ-vcF5nX02Jo.tsstp"
+        },
+        {
+            "key": "δ-vcGKMd00wQ",
+            "relativePath": "./δ steps/δ-vcGKMd00wQ.tsstp"
+        },
+        {
+            "key": "δ-vcH1JH01oi",
+            "relativePath": "./δ steps/δ-vcH1JH01oi.tsstp"
+        },
+        {
+            "key": "δ-vcIEPU004M",
+            "relativePath": "./δ steps/δ-vcIEPU004M.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xkwd5P00FL",
-        "editorID": "car_8df1938ebc70445b801624ce78e2fcb9",
-        "ticks": 1761491121819
+        "id": "xsepap02a0",
+        "editorID": "car_02d45d16d04049a6991019ee95341bd2",
+        "ticks": 1761605090679
     }
 }

@@ -15,9 +15,8 @@
                 "key": "wkKv6P00CM",
                 "order": 1,
                 "option": "PetalBloom details",
-                "sharedAssetKey": "x4avNt01S9",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xrdmsU01vl"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4avNt01S9",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/PetalBloomDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkKv6P00CM",
+            "relativePath": "./δ steps/δ-wkKv6P00CM.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4avir02Pj",
-        "editorID": "car_8e22da1af39b437c852248208212100a",
-        "ticks": 1760865344129
+        "id": "xreHrN007k",
+        "editorID": "car_54fadbbac2854491920fc4e4a2411fd2",
+        "ticks": 1761590184673
     }
 }

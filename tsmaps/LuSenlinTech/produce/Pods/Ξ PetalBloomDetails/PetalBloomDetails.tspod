@@ -1,0 +1,57 @@
+{
+    "key": "xrdmsU01vl  ",
+    "token": "Petalbloomdetails",
+    "name": "PetalBloomDetails",
+    "created": "2025-10-27T18:34:25.579Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ PetalBloomDetails/PetalBloomDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'PetalBloomDetails'",
+    "___rΩΩt___": {
+        "key": "xrdoS201rg",
+        "nodes": [
+            {
+                "key": "xrdtIV01D3",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrduDi01XY",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrdvFE01Zy",
+                                "order": 1,
+                                "sharedAssetKey": "xrdx4S018s",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrdoS201rg",
+            "relativePath": "./δ steps/δ-xrdoS201rg.tsstp"
+        },
+        {
+            "key": "δ-xrdtIV01D3",
+            "relativePath": "./δ steps/δ-xrdtIV01D3.tsstp"
+        },
+        {
+            "key": "δ-xrduDi01XY",
+            "relativePath": "./δ steps/δ-xrduDi01XY.tsstp"
+        },
+        {
+            "key": "xrdx4S018s",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/PetalBloomDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrdxOk022u",
+        "editorID": "car_9ba144bd1d084b02a56e43d44f1f4a95",
+        "ticks": 1761590106018
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "key": "xrYo9a02GN  ",
+    "token": "Finwavedetails",
+    "name": "FinWaveDetails",
+    "created": "2025-10-27T18:14:38.843Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ FinWaveDetails/FinWaveDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'FinWaveDetails'",
+    "___rΩΩt___": {
+        "key": "xrYqLV01AE",
+        "nodes": [
+            {
+                "key": "xrYxGC00Hi",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrYyFs02CZ",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrYyiQ01nO",
+                                "order": 1,
+                                "sharedAssetKey": "xrYzof023L",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrYqLV01AE",
+            "relativePath": "./δ steps/δ-xrYqLV01AE.tsstp"
+        },
+        {
+            "key": "δ-xrYxGC00Hi",
+            "relativePath": "./δ steps/δ-xrYxGC00Hi.tsstp"
+        },
+        {
+            "key": "δ-xrYyFs02CZ",
+            "relativePath": "./δ steps/δ-xrYyFs02CZ.tsstp"
+        },
+        {
+            "key": "xrYzof023L",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FinWaveDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrZ2JC0140",
+        "editorID": "car_0a5310d21c7d4607bce4d8f5d8d81588",
+        "ticks": 1761588933254
+    }
+}

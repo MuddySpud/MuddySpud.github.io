@@ -1,0 +1,57 @@
+{
+    "key": "xrK34w01bz  ",
+    "token": "Aeroherbdetails",
+    "name": "AeroHerbDetails",
+    "created": "2025-10-27T17:16:01.294Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ AeroHerbDetails/AeroHerbDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'AeroHerbDetails'",
+    "___rΩΩt___": {
+        "key": "xrK5Hy000P",
+        "nodes": [
+            {
+                "key": "xrKJl100st",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrNW6w00Kk",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrNZhX02MQ",
+                                "order": 1,
+                                "sharedAssetKey": "xrO5QR00P8",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrK5Hy000P",
+            "relativePath": "./δ steps/δ-xrK5Hy000P.tsstp"
+        },
+        {
+            "key": "δ-xrKJl100st",
+            "relativePath": "./δ steps/δ-xrKJl100st.tsstp"
+        },
+        {
+            "key": "δ-xrNW6w00Kk",
+            "relativePath": "./δ steps/δ-xrNW6w00Kk.tsstp"
+        },
+        {
+            "key": "xrO5QR00P8",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AeroHerbDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrO5yK02Ld",
+        "editorID": "car_d10af5798ae14beda51d4facf74c8a80",
+        "ticks": 1761586325728
+    }
+}

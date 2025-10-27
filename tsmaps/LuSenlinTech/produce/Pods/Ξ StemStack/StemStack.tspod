@@ -15,9 +15,8 @@
                 "key": "wemMPe00LW",
                 "order": 1,
                 "option": "StemStack details",
-                "sharedAssetKey": "x4a6zJ00gI",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "xscpTq02Oq"
             }
         ]
     },
@@ -28,14 +27,13 @@
             "isShared": true
         },
         {
-            "key": "x4a6zJ00gI",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/StemStackDetails.tsstp",
-            "isShared": true
+            "key": "δ-wemMPe00LW",
+            "relativePath": "./δ steps/δ-wemMPe00LW.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "x4aBta00Fb",
-        "editorID": "car_d8991f49fa5e452d9e856f2e919eb6f8",
-        "ticks": 1760865167970
+        "id": "xsd4No00l9",
+        "editorID": "car_5d71f4495a42408e83ac34c3f088ec61",
+        "ticks": 1761604670876
     }
 }

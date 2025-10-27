@@ -1,0 +1,57 @@
+{
+    "key": "xrZvS001KG  ",
+    "token": "Fruitforgedetails",
+    "name": "FruitForgeDetails",
+    "created": "2025-10-27T18:19:05.221Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ FruitForgeDetails/FruitForgeDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'FruitForgeDetails'",
+    "___rΩΩt___": {
+        "key": "xrZwvp00VM",
+        "nodes": [
+            {
+                "key": "xra2eU01r9",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xra3cz018r",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xra4Tk01jC",
+                                "order": 1,
+                                "sharedAssetKey": "xra60v01ps",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrZwvp00VM",
+            "relativePath": "./δ steps/δ-xrZwvp00VM.tsstp"
+        },
+        {
+            "key": "δ-xra2eU01r9",
+            "relativePath": "./δ steps/δ-xra2eU01r9.tsstp"
+        },
+        {
+            "key": "δ-xra3cz018r",
+            "relativePath": "./δ steps/δ-xra3cz018r.tsstp"
+        },
+        {
+            "key": "xra60v01ps",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FruitForgeDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xra6QU00KM",
+        "editorID": "car_4c752a181b4c47459f839071e6624cdc",
+        "ticks": 1761589187411
+    }
+}

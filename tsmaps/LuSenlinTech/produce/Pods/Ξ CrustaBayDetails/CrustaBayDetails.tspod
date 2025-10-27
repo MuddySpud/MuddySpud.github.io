@@ -1,0 +1,57 @@
+{
+    "key": "xrUw0s01Ez  ",
+    "token": "Crustabaydetails",
+    "name": "CrustaBayDetails",
+    "created": "2025-10-27T17:59:15.742Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ CrustaBayDetails/CrustaBayDetails.tspod",
+    "isPod": true,
+    "iText": "Link to 'CrustaBayDetails'",
+    "___rΩΩt___": {
+        "key": "xrUysA02Ly",
+        "nodes": [
+            {
+                "key": "xrV6rf01iQ",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "xrV84e000e",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "xrV95Q02EG",
+                                "order": 1,
+                                "sharedAssetKey": "xrVAvM01yH",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xrUysA02Ly",
+            "relativePath": "./δ steps/δ-xrUysA02Ly.tsstp"
+        },
+        {
+            "key": "δ-xrV6rf01iQ",
+            "relativePath": "./δ steps/δ-xrV6rf01iQ.tsstp"
+        },
+        {
+            "key": "δ-xrV84e000e",
+            "relativePath": "./δ steps/δ-xrV84e000e.tsstp"
+        },
+        {
+            "key": "xrVAvM01yH",
+            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/CrustaBayDetails.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "xrVBLP00Ai",
+        "editorID": "car_4931b4a521dc4e22969c594682353889",
+        "ticks": 1761588014675
+    }
+}
