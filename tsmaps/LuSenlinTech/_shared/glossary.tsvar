@@ -1,24 +1,25 @@
 ¬import tm from "./tradeMarks"
+¬import el from "../../shared/externalLinks"
 
 
-¬pureLight: 
+¬pureLight:
 ###### {{tm.pureLightTM}}:
 
-- An advanced material engineered at the nanoscale to manipulate heat and light. 
-- Transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). 
+- An advanced material engineered at the nanoscale to manipulate heat and light.
+- Transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K).
 - Lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
 
-¬pureLight_short: 
+¬pureLight_short:
 **{{tm.pureLightTM}}** - transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). It is lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
 
 ¬scalableStacking_short:
-**Scalable Stacking** - magnetic auto-locking connectors for easy vertical assembly; add or remove frames without tools.¬
+**{{tm.scalableStacking}}** - magnetic auto-locking connectors for easy vertical assembly; add or remove frames without tools.¬
 
 ¬integratedUtilities_short:
-**Integrated Utilities** - magnetic Water/Power/Data Bus, one snap-in backbone distributes water + 48V DC + high-speed data through every level. Zero cable clutter; add or remove Frames without rewiring.¬
+**{{tm.integratedUtilities}}** - magnetic Water/Power/Data Bus, one snap-in backbone distributes water + 48V DC + high-speed data through every level. Zero cable clutter; add or remove Frames without rewiring.¬
 
 ¬hydraRail_short:
-**{{tm.hydraRailTM}} Fluid Manifold** - micro-drip, fog, or flood modes selectable per Frame; self-sealing/healing {{tm.nanoHealShieldTM}} couplers prevent spills. Change crops or switch to aquaponics on the fly.¬
+**{{tm.hydraRailFluidManifold}}** - micro-drip, fog, or flood modes selectable per Frame; self-sealing/healing {{tm.nanoHealShieldTM}} couplers prevent spills. Change crops or switch to aquaponics on the fly.¬
 
 ¬precisionHeat_short:
 **{{tm.precisionHeatTM}}**  - Graphene Heat-Film, printed onto root chamber walls for ±0.3°C control.¬
@@ -29,16 +30,16 @@
 ¬harvestSage:
 ###### {{tm.harvestSageTM}}
 
-On-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the Lǜ Sēnlín Cloud, integrating with global weather APIs and local air quality sensors. Predicts and automates growth cycles based on real-time environmental data. Works off-line in case your Wi-Fi drops.¬
+On-board crop neural AI handling seeding, climate, light, filtering, watering, pest control, and harvesting cues. Connects to the {{el.luSenLinName}} Cloud, integrating with global weather APIs and local air quality sensors. Predicts and automates growth cycles based on real-time environmental data. Works off-line in case your Wi-Fi drops.¬
 
 ¬harvestSage_short:
 **{{tm.harvestSageTM}}** - an on-board AI that automates all aspects of crop cultivation, from seeding to harvest. It uses real-time data for optimal growth and operates offline for reliability.¬
 
 ¬slideLockShelves_short:
-**{{tm.slideLockTM}} Shelves** - swap growing modules in < 10s. True plug-and-play.¬
+**{{tm.slideLockShelves}}** - swap growing modules in < 10s. True plug-and-play.¬
 
 ¬windLock_short:
-**{{tm.windLockTM}} Anchors** - tool-free, self-adjusting anchors that secure outdoor frame towers against high winds (up to 120 km/h).¬
+**{{tm.windLockAnchors}}** - tool-free, self-adjusting anchors that secure outdoor frame towers against high winds (up to 120 km/h).¬
 
 ¬nanoPlantWhisper_short:
 **{{tm.nanoPlantWhisperTM}}** - AI-driven bio-sensors¬
@@ -54,7 +55,7 @@ Leveraging advanced hot carrier solar cell (HCSC) technology, {{tm.hotCarrierTM}
 ¬solisCell:
 ###### {{tm.solisCellTM}}
 
-An advanced, sodium-ion power module that ensures uninterrupted operation for up to 48 hours, seamlessly integrating with the tower’s AI-optimized systems to power LED grow lights, irrigation, and filtration for crops. With a compact 2.5 kWh capacity (scalable to 5 kWh), multi-mode recharging (AC grid, solar, or kinetic), AI-driven energy management, over 8,500 cycles of durability, and reliable performance at temperatures as low as -30°C.¬
+An advanced, sodium-ion power module that ensures uninterrupted operation for up to 48 hours, seamlessly integrating with the tower's AI-optimized systems to power LED grow lights, irrigation, and filtration for crops. With a compact 2.5 kWh capacity (scalable to 5 kWh), multi-mode recharging (AC grid, solar, or kinetic), AI-driven energy management, over 8,500 cycles of durability, and reliable performance at temperatures as low as -30°C.¬
 
 ¬solisCell_short:
 **{{tm.solisCellTM}}** - durable, sodium-ion power module that provides up to 48 hours of uninterrupted energy for the tower's systems. It features reliable performance in extreme cold.¬
@@ -67,7 +68,7 @@ A compact, high-density recirculating aquaculture system (RAS) designed for inte
 The system features self-assembling nano-filters that dynamically adjust to trap pathogens and release probiotics, enabling high stocking densities of up to 100 kg/m³. With integrated quantum-sensor arrays for real-time microbiome balancing, the system ensures zero antibiotic use and achieves 99% water recirculation, making it an ideal, sustainable solution for space-conscious urban farms.¬
 
 ¬bioFloc_short:
-**{{tm.solisCellTM}}** - a compact, high-density aquaculture system that uses biofloc technology to convert fish waste into edible protein, reducing feed needs by 70%. Its AI-optimized filtration and pathogen-trapping nano-filters enable high stocking densities and 99% water recirculation for sustainable urban farming.¬
+**{{tm.bioFloc}}** - a compact, high-density aquaculture system that uses biofloc technology to convert fish waste into edible protein, reducing feed needs by 70%. Its AI-optimized filtration and pathogen-trapping nano-filters enable high stocking densities and 99% water recirculation for sustainable urban farming.¬
 
 ¬hydraPad:
 ###### {{tm.hydraPadTM}}
@@ -78,46 +79,46 @@ A smart hydroponic insert featuring a bio-engineered nanofiber matrix that mimic
 **{{tm.hydraPadTM}}** - a smart hydroponic insert that uses a bio-engineered nanofiber matrix and quantum sensors to optimize aquatic plant growth and enable 95% nutrient recycling, with a {{tm.slideLockTM}} mechanism for 10-second swaps.¬
 
 ¬aromaticHerb_short:
-**Aromatic Herbs** - small, quick-maturing plants used to enhance dishes with vibrant tastes and aromas.¬
+**{{tm.aromaticHerbs}}** - small, quick-maturing plants used to enhance dishes with vibrant tastes and aromas.¬
 
 ¬leafyGreens_short:
-**Leafy Greens** - nutritious foliage for salads and cooking.¬
+**{{tm.leafyGreens}}** - nutritious foliage for salads and cooking.¬
 
 ¬fruitingVeg_short:
-**Fruiting Veg** - edible fruits or pods, offering juicy, vitamin-rich additions to meals.¬
+**{{tm.fruitingVeg}}** - edible fruits or pods, offering juicy, vitamin-rich additions to meals.¬
 
 ¬rootsStems_short:
-**Roots & Stems** - that store nutrients, cultivated in soil-less or aerated mediums for hearty, versatile edibles.¬
+**{{tm.rootsStems}}** - that store nutrients, cultivated in soil-less or aerated mediums for hearty, versatile edibles.¬
 
 ¬EedibleFlowers_short:
-**Edible Flowers & Specialty Greens** - add color, flavor, and novelty to dishes.¬
+**{{tm.edibleFlowersSpecialtyGreens}}** - add color, flavor, and novelty to dishes.¬
 
 ¬aquaticPlants_short:
-**Aquatic Plants & Algae** - water-based flora that grow in submerged or moist environments, providing nutrient-rich edible uses in various cuisines.¬
+**{{tm.aquaticPlantsAlgae}}** - water-based flora that grow in submerged or moist environments, providing nutrient-rich edible uses in various cuisines.¬
 
 ¬mushrooms_short:
-**Mushrooms & Fungi** - grown in moist, low-light conditions, offering earthy flavors and textures.¬
+**{{tm.mushroomsFungi}}** - grown in moist, low-light conditions, offering earthy flavors and textures.¬
 
 ¬fish_short:
-**Fish** - small, freshwater, raised filtered water systems to produce lean proteins ideal for various light dishes.¬
+**{{tm.fish}}** - small, freshwater, raised filtered water systems to produce lean proteins ideal for various light dishes.¬
 
 ¬crustaceans_short:
-**Crustaceans** - dwarf freshwater breeds raised in compact tanks for fast-turnaround harvests.¬
+**{{tm.crustaceans}}** - dwarf freshwater breeds raised in compact tanks for fast-turnaround harvests.¬
 
 ¬molluscs_short:
-**Molluscs (Bivalves)** - freshwater, perfect for creating hearty, steamed or soup-based meals.¬
+**{{tm.molluscsBivalves}}** - freshwater, perfect for creating hearty, steamed or soup-based meals.¬
 
 ¬snails_short:
-**Snails (Gastropods)** - terrestrial, thrive in simple enclosures, offering a gourmet protein option with minimal care required.¬
+**{{tm.snailsGastropods}}** - terrestrial, thrive in simple enclosures, offering a gourmet protein option with minimal care required.¬
 
-¬lowPressureAeroponicsTree:  
-**Low-pressure Aeroponics Tree** – a branching manifold that sprays a fine nutrient mist at < 1 bar, maximising root oxygen while reducing water use by 95% versus drip systems.¬  
+¬lowPressureAeroponicsTree:
+**{{tm.lowPressureAeroponicsTree}}** – a branching manifold that sprays a fine nutrient mist at < 1 bar, maximising root oxygen while reducing water use by 95% versus drip systems.¬
 
-¬hydraRailFogNozzles:  
-**{{tm.hydraRailTM}} Fog Nozzles** – quick-connect misters that plug into the frame’s magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.¬  
+¬hydraRailFogNozzles:
+**{{tm.hydraRailFogNozzles}}** – quick-connect misters that plug into the frame's magnetic fluid bus; software toggles each port between fog, drip or off without hardware swaps.¬
 
-¬rfidSeedPadBayCartridges:  
-###### RFID Seed-Pad Bay Cartridges
+¬rfidSeedPadBayCartridges:
+###### {{tm.rFIDSeedPadCartridges}}
 
 A single-use seed mat with a passive RFID (radio-frequency identification) chip laminated into it. The mat is a thin, sterile sheet of biodegradable cellulose, pre-loaded with evenly spaced seeds and starter nutrients. It is designed to slide into the module once, ensuring users never handle loose seeds or growth media.
 
@@ -128,159 +129,160 @@ When the pad clicks into the bay, {{tm.harvestSageTM}} reads the RFID tag to pul
 - **Traceability & Food Safety:** Instantly locate every pad from a specific seed lot in the event of a recall.
 - **Inventory Automation:** Scan unopened packs to maintain accurate, real-time stock and expiry data.¬
 
-¬rfidSeedPadBayCartridges_short:  
-**RFID Seed-Pad Bay Cartridges** – single-use seed mats embedded with passive RFID chips. {{tm.harvestSageTM}} reads variety, sow-date and recipe, then logs the full life-cycle for traceability.¬  
+¬rfidSeedPadBayCartridges_short:
+**{{tm.rFIDSeedPadCartridges}}** – single-use seed mats embedded with passive RFID chips. {{tm.harvestSageTM}} reads variety, sow-date and recipe, then logs the full life-cycle for traceability.¬
 
-¬precisionHeatRootFilm:  
-**{{tm.precisionHeatTM}} Root-Film** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.¬  
+¬precisionHeatRootFilm:
+**{{tm.precisionHeatRootFilm}}** – graphene heater layer fused to root-chamber walls; PID control holds ±0.3 °C, boosting germination and slashing energy when inactive zones power down.¬
 
-¬deepFlowNftTroughInserts:  
-**Deep-Flow NFT Trough Inserts** – interchangeable gullies that hold a shallow, fast-moving nutrient film, ensuring constant oxygen and preventing salt crusting on greens.¬  
+¬deepFlowNftTroughInserts:
+**{{tm.deepFlowNftTroughInserts}}** – interchangeable gullies that hold a shallow, fast-moving nutrient film, ensuring constant oxygen and preventing salt crusting on greens.¬
 
-¬variableSpeedLaminarPump:  
-**Variable-Speed Laminar Pump** – EC-sensor-driven pump that throttles to 30% at night, saving ~0.6 kWh day⁻¹ while preserving dissolved-oxygen levels.¬  
+¬variableSpeedLaminarPump:
+**{{tm.variableSpeedLaminarPump}}** – EC-sensor-driven pump that throttles to 30% at night, saving ~0.6 kWh day⁻¹ while preserving dissolved-oxygen levels.¬
 
-¬telescopingTrellisSmartWinch:  
-**Telescoping Trellis & Smart Winch** – motorised lattice extends with the vine; tension sensors rewind slack to prevent stem breakage or shading.¬  
+¬telescopingTrellisSmartWinch:
+**{{tm.telescopingTrellisSmartWinch}}** – motorised lattice extends with the vine; tension sensors rewind slack to prevent stem breakage or shading.¬
 
-¬microBeadCapillarySubstrate:  
-**Micro-Bead Capillary Substrate** – 1 mm porous glass beads wick moisture yet drain instantly; a five-minute steam pulse sterilises them between crops.¬  
+¬microBeadCapillarySubstrate:
+**{{tm.microBeadCapillarySubstrate}}** – 1 mm porous glass beads wick moisture yet drain instantly; a five-minute steam pulse sterilises them between crops.¬
 
-¬moistureGradientAeratedColumns:  
-**Moisture-Gradient Aerated Columns** – root tubes with dry, aerated tops and moist bases, steering tap-roots downward for uniform shape.¬  
+¬moistureGradientAeratedColumns:
+**{{tm.moistureGradientAeratedColumns}}** – root tubes with dry, aerated tops and moist bases, steering tap-roots downward for uniform shape.¬
 
-¬sideEjectDrawer:  
-**Side-Eject Drawer** – sliding carriage pulls the entire root column horizontally, avoiding media compaction or tap-root breakage.¬  
+¬sideEjectDrawer:
+**{{tm.sideEjectDrawer}}** – sliding carriage pulls the entire root column horizontally, avoiding media compaction or tap-root breakage.¬
 
-¬dualZoneMoistureProfile:  
-**Dual-Zone Moisture Profile** – alternating mid-layer mist and timed base flood; stems thicken for crunch while roots absorb bulk nutrients.¬  
+¬dualZoneMoistureProfile:
+**{{tm.dualZoneMoistureProfile}}** – alternating mid-layer mist and timed base flood; stems thicken for crunch while roots absorb bulk nutrients.¬
 
-¬laminarAirflowCanopy:  
-**Laminar Airflow Canopy** – silent cross-flow fan creates a 0.2 m s⁻¹ air sheet, dispersing humidity pockets and reducing petal disease.¬  
+¬laminarAirflowCanopy:
+**{{tm.laminarAirflowCanopy}}** – silent cross-flow fan creates a 0.2 m s⁻¹ air sheet, dispersing humidity pockets and reducing petal disease.¬
 
-¬electrostaticPollenLift:  
-**Electrostatic Pollen Lift** – ioniser charges pollen so it lifts onto stigmas, achieving > 90% self-pollination without bees or brushes.¬  
+¬electrostaticPollenLift:
+**{{tm.electrostaticPollenLift}}** – ioniser charges pollen so it lifts onto stigmas, achieving > 90% self-pollination without bees or brushes.¬
 
-¬shallowRacewaySwirlFlowControl:  
-**Shallow Raceway with Swirl-Flow Control** – flat 3 L tray whose paddle wheel shifts from laminar flow (duckweed) to vortex (spirulina) on demand.¬  
+¬shallowRacewaySwirlFlowControl:
+**{{tm.shallowRacewaySwirlFlowControl}}** – flat 3 L tray whose paddle wheel shifts from laminar flow (duckweed) to vortex (spirulina) on demand.¬
 
-¬darkCycleChamberO2Pulse:  
-**Dark-Cycle Chamber with O₂ Pulse** – lights stay off; dissolved O₂ spikes hourly, replicating dawn forest cues that trigger mushroom pinning.¬  
+¬darkCycleChamberO2Pulse:
+**{{tm.darkCycleChamberO2Pulse}}** – lights stay off; dissolved O₂ spikes hourly, replicating dawn forest cues that trigger mushroom pinning.¬
 
-¬co2ScrubbingBioFilter:  
-**CO₂-Scrubbing Bio-Filter** – living moss/activated-carbon mat absorbs excess CO₂ during colonisation, preventing off-flavours and speeding fruit-set.¬  
+¬co2ScrubbingBioFilter:
+**{{tm.co2ScrubbingBioFilter}}** – living moss/activated-carbon mat absorbs excess CO₂ during colonisation, preventing off-flavours and speeding fruit-set.¬
 
-¬dualKingdomSubstrateCassette:  
-**Dual-Kingdom Substrate Cassette** – split block: loamy upper layer for vegetables, alkaline limestone lower layer for truffle mycelium, enabling dual harvests.¬  
+¬dualKingdomSubstrateCassette:
+**{{tm.dualKingdomSubstrateCassette}}** – split block: loamy upper layer for vegetables, alkaline limestone lower layer for truffle mycelium, enabling dual harvests.¬
 
-¬trackMazeHabitat:  
-**Track Maze Habitat** – 90 mm spiral raceway forces snails to exercise, yielding thicker shells and higher meat-to-viscera ratios.¬  
+¬trackMazeHabitat:
+**{{tm.trackMazeHabitat}}** – 90 mm spiral raceway forces snails to exercise, yielding thicker shells and higher meat-to-viscera ratios.¬
 
-¬bioFilmDripFeedSystem:  
-**Bio-Film Drip-Feed System** – dripper coats feed leaves with probiotic film rich in calcium, feeding snails and suppressing pathogens simultaneously.¬  
+¬bioFilmDripFeedSystem:
+**{{tm.bioFilmDripFeedSystem}}** – dripper coats feed leaves with probiotic film rich in calcium, feeding snails and suppressing pathogens simultaneously.¬
 
-¬microBubbleColumn:  
-**Micro-Bubble Column** – ceramic diffuser creates < 100 µm bubbles, pushing dissolved O₂ to ~10 mg L⁻¹ - ideal for bivalve filter-feeding.¬  
+¬microBubbleColumn:
+**{{tm.microBubbleColumn}}** – ceramic diffuser creates < 100 µm bubbles, pushing dissolved O₂ to ~10 mg L⁻¹ - ideal for bivalve filter-feeding.¬
 
-¬uvcOzoneSterilLoop:  
-**UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.¬  
+¬uvcOzoneSterilLoop:
+**{{tm.uvcOzoneSterilLoop}}** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.¬
 
-¬rotatingDrumFilter:  
-**Rotating Drum Filter** – mesh drum continuously strains solids; a backwash jet cleans the screen automatically into a compost stream.¬  
+¬rotatingDrumFilter:
+**{{tm.rotatingDrumFilter}}** – mesh drum continuously strains solids; a backwash jet cleans the screen automatically into a compost stream.¬
 
-¬precisionHeatWaterJacket:  
-**{{tm.precisionHeatTM}} Water Jacket** – liquid jacket regulates aquaculture temperature within ±0.2 °C via solid-state Peltier plates.¬  
+¬precisionHeatWaterJacket:
+**{{tm.precisionHeatWaterJacket}}** – liquid jacket regulates aquaculture temperature within ±0.2 °C via solid-state Peltier plates.¬
 
-¬rollOutRhizomeDrawer:  
-**Roll-Out Rhizome Drawer** – 150 mm-deep aerated bio-foam bed slides out fully, letting sweet-potato vines sprawl without media spill.¬  
+¬rollOutRhizomeDrawer:
+**{{tm.rollOutRhizomeDrawer}}** – 150 mm-deep aerated bio-foam bed slides out fully, letting sweet-potato vines sprawl without media spill.¬
 
-¬grapheneLateralHeatLoops:  
-**Graphene Lateral Heat-Loops** – printed graphene traces snake through the rhizome slab, keeping tubers at the starch-sweet 24–26 °C band.¬  
+¬grapheneLateralHeatLoops:
+**{{tm.grapheneLateralHeatLoops}}** – printed graphene traces snake through the rhizome slab, keeping tubers at the starch-sweet 24–26 °C band.¬
 
-¬ultrasonicRhizoShield:  
-**Ultrasonic {{tm.rhizoShieldTM}}** – low-power transducers shake root hairs loose at harvest, allowing tubers to lift clean with minimal substrate cling.¬  
+¬ultrasonicRhizoShield:
+**{{tm.ultrasonicRhizoShield}}** – low-power transducers shake root hairs loose at harvest, allowing tubers to lift clean with minimal substrate cling.¬
 
-¬nearInfraRedDryMatterSensor:  
-**Near-Infra-Red Dry-Matter Sensor** – NIR diode reads starch content; when it crosses a user-set threshold the module flags “Starch-Peak.”¬  
+¬nearInfraRedDryMatterSensor:
+**{{tm.nearInfraRedDryMatterSensor}}** – NIR diode reads starch content; when it crosses a user-set threshold the module flags "Starch-Peak."¬
 
-¬laminarFlowOvalTank:  
-**Laminar-Flow Oval Tank** – 40 L oval vessel with variable impellers that mimic anything from koi-pond ripples to trout-stream currents.¬  
+¬laminarFlowOvalTank:
+**{{tm.laminarFlowOvalTank}}** – 40 L oval vessel with variable impellers that mimic anything from koi-pond ripples to trout-stream currents.¬
 
-¬movingBedNitrificationCartridge:  
-**Moving-Bed Nitrification Cartridge** – floating bio-media tumble in an aerated chamber, converting ammonia to nitrate and stabilising water quality.¬  
+¬movingBedNitrificationCartridge:
+**{{tm.movingBedNitrificationCartridge}}** – floating bio-media tumble in an aerated chamber, converting ammonia to nitrate and stabilising water quality.¬
 
-¬inSituInsectLarvaeFeeder:  
-**In-Situ Insect-Larvae Feeder** – hopper breeds black soldier fly larvae from kitchen scraps; doses live grubs for high-protein, zero-cost feed.¬  
+¬inSituInsectLarvaeFeeder:
+**{{tm.inSituInsectLarvaeFeeder}}** – hopper breeds black soldier fly larvae from kitchen scraps; doses live grubs for high-protein, zero-cost feed.¬
 
-¬proteinSkimmerUvCLoop:  
-**Protein Skimmer + UV-C Loop** – foam-fractionator strips dissolved organics while an inline UV-C tube neutralises free-floating pathogens.¬  
+¬proteinSkimmerUvCLoop:
+**{{tm.proteinSkimmerUvCLoop}}** – foam-fractionator strips dissolved organics while an inline UV-C tube neutralises free-floating pathogens.¬
 
-¬thermoelectricPlateChiller:  
-**Thermoelectric Plate Chiller** – solid-state cooler that drops tank temperature to 12 °C for cold-water trout without external chillers.¬  
+¬thermoelectricPlateChiller:
+**{{tm.thermoelectricPlateChiller}}** – solid-state cooler that drops tank temperature to 12 °C for cold-water trout without external chillers.¬
 
-¬autoLiftCarousel:  
-**Auto-Lift Carousel** – motorised ring rotates mature bay to waist height, making harvest a single ergonomic pull.¬  
+¬autoLiftCarousel:
+**{{tm.autoLiftCarousel}}** – motorised ring rotates mature bay to waist height, making harvest a single ergonomic pull.¬
 
-¬sterileUvCPulse:  
-**Sterile UV-C Pulse** – five-second 265 nm flash disinfects the empty bay before a new seed pad slides in.¬  
+¬sterileUvCPulse:
+**{{tm.sterileUvCPulse}}** – five-second 265 nm flash disinfects the empty bay before a new seed pad slides in.¬
 
-¬cutAndComeAgainOpticalMapping:  
-**Cut-and-Come-Again Optical Mapping** – multispectral camera highlights leaves safe to cut while leaving meristems intact, extending harvest to 60 + days.¬  
+¬cutAndComeAgainOpticalMapping:
+**{{tm.cutAndComeAgainOpticalMapping}}** – multispectral camera highlights leaves safe to cut while leaving meristems intact, extending harvest to 60 + days.¬
 
-¬aiFruitColourTracking:  
-**AI Fruit-Colour Tracking** – vision model monitors hue shift; when 95% of surface reaches target colour, the system alerts or triggers the snip-bot.¬  
+¬aiFruitColourTracking:
+**{{tm.aiFruitColourTracking}}** – vision model monitors hue shift; when 95% of surface reaches target colour, the system alerts or triggers the snip-bot.¬
 
-¬magneticSnipBot:  
-**Magnetic Snip-Bot** – miniature arm rides magnetic rails, snips ripe fruit and drops it into a sealed cup - hands stay clean.¬  
+¬magneticSnipBot:
+**{{tm.magneticSnipBot}}** – miniature arm rides magnetic rails, snips ripe fruit and drops it into a sealed cup - hands stay clean.¬
 
-¬endoscopicRootSizer:  
-**Endoscopic Root-Sizer** – 4 mm probe scans root diameter via structured light and illuminates the door handle when target size is reached.¬  
+¬endoscopicRootSizer:
+**{{tm.endoscopicRootSizer}}** – 4 mm probe scans root diameter via structured light and illuminates the door handle when target size is reached.¬
 
-¬harvestReadyGreenDoorLight:  
-**Harvest-Ready Green Door Light** – handle glows green when biomass, size or aroma sensors confirm peak quality.¬  
+¬harvestReadyGreenDoorLight:
+**{{tm.harvestReadyGreenDoorLight}}** – handle glows green when biomass, size or aroma sensors confirm peak quality.¬
 
-¬snapAssistStemGroove:  
-**SnapAssist Stem Groove** – humidity pulses form a pre-weakened cellulose line; stems snap crisply with a gentle bend.¬  
+¬snapAssistStemGroove:
+**{{tm.snapAssistStemGroove}}** – humidity pulses form a pre-weakened cellulose line; stems snap crisply with a gentle bend.¬
 
-¬selfDryingFlowerShelf:  
-**Self-Drying Flower Shelf** – low-temp airflow removes residual mist so petals arrive dry and plate-ready.¬  
+¬selfDryingFlowerShelf:
+**{{tm.selfDryingFlowerShelf}}** – low-temp airflow removes residual mist so petals arrive dry and plate-ready.¬
 
-¬harvestMeshRoller:  
-**Harvest Mesh Roller** – fine nylon belt lifts floating biomass, compresses it into tidy discs and returns excess water.¬  
+¬harvestMeshRoller:
+**{{tm.harvestMeshRoller}}** – fine nylon belt lifts floating biomass, compresses it into tidy discs and returns excess water.¬
 
-¬autoRemineraliser:  
-**Auto-Remineraliser** – ion-selective sensors trigger micro-doses of chelated nutrients after harvest, resetting solution chemistry.¬  
+¬autoRemineraliser:
+**{{tm.autoRemineraliser}}** – ion-selective sensors trigger micro-doses of chelated nutrients after harvest, resetting solution chemistry.¬
 
-¬popOutGrowBlockSleeve:  
-**Pop-Out Grow-Block Sleeve** – mushroom substrate slides out in a rigid case; swap takes < 5 s with zero crumble.¬  
+¬popOutGrowBlockSleeve:
+**{{tm.popOutGrowBlockSleeve}}** – mushroom substrate slides out in a rigid case; swap takes < 5 s with zero crumble.¬
 
-¬dehydrationMode:  
-**Dehydration Mode** – chamber warms to 40 °C with 30% RH airflow, producing shelf-stable dried mushrooms.¬  
+¬dehydrationMode:
+**{{tm.dehydrationMode}}** – chamber warms to 40 °C with 30% RH airflow, producing shelf-stable dried mushrooms.¬
 
-¬truffleSniffSensor:  
-**Truffle Sniff Sensor** – nano-chemiresistor detects volatile sulfur compounds unique to ripe truffles and pings the user.¬  
+¬truffleSniffSensor:
+**{{tm.truffleSniffSensor}}** – nano-chemiresistor detects volatile sulfur compounds unique to ripe truffles and pings the user.¬
 
-¬aiScheduled7DayPurging:  
-**AI-Scheduled 7-Day Purging** – algorithm times snail fasting so digestive tracts clear exactly on the user’s chosen cooking date.¬  
+¬aiScheduled7DayPurging:
+**{{tm.aiScheduled7DayPurging}}** – algorithm times snail fasting so digestive tracts clear exactly on the user's chosen cooking date.¬
 
-¬realTimeTurbidityPhSensors:  
-**Real-Time Turbidity & pH Sensors** – optical and electrochemical probes guard water clarity and acidity, prompting automatic corrections.¬  
+¬realTimeTurbidityPhSensors:
+**{{tm.realTimeTurbidityPhSensors}}** – optical and electrochemical probes guard water clarity and acidity, prompting automatic corrections.¬
 
-¬autoChillTo4C:  
-**Auto-Chill to 4 °C** – thermoelectric chiller drops mollusc temperature two hours pre-harvest, inducing dormancy.¬  
+¬autoChillTo4C:
+**{{tm.autoChillTo4C}}** – thermoelectric chiller drops mollusc temperature two hours pre-harvest, inducing dormancy.¬
 
-¬roboticDipNet:  
-**Robotic Dip-Net** – articulated scoop sizes shrimp, nets only mature ones and transfers them to an ice-cooled side pocket.¬  
+¬roboticDipNet:
+**{{tm.roboticDipNet}}** – articulated scoop sizes shrimp, nets only mature ones and transfers them to an ice-cooled side pocket.¬
 
-¬drawerAssistLiftHandle:  
-**Drawer-Assist Lift Handle** – gas-spring grip lets users slide the 150 mm rhizome bed out with one hand.¬  
+¬drawerAssistLiftHandle:
+**{{tm.drawerAssistLiftHandle}}** – gas-spring grip lets users slide the 150 mm rhizome bed out with one hand.¬
 
-¬starchPeakDoorLight:  
-**Starch-Peak Door Light** – indicator tied to the NIR sensor glows when tuber starch hits the user-defined sweetness threshold.¬  
+¬starchPeakDoorLight:
+**{{tm.starchPeakDoorLight}}** – indicator tied to the NIR sensor glows when tuber starch hits the user-defined sweetness threshold.¬
 
-¬appSelectableHarvestModes:  
-**App-Selectable Harvest Modes** – mobile app toggles FinWave between bulk harvest, staggered take or ornamental display.¬  
+¬appSelectableHarvestModes:
+**{{tm.appSelectableHarvestModes}}** – mobile app toggles FinWave between bulk harvest, staggered take or ornamental display.¬
 
-¬smartNetGuide:  
-**Smart Net Guide** – retractable gate herds fish into a front catch pocket for stress-free capture.¬
+¬smartNetGuide:
+**{{tm.smartNetGuide}}** – retractable gate herds fish into a front catch pocket for stress-free capture.¬
+
 

@@ -28,7 +28,6 @@
                 "key": "xslM9o00A0",
                 "order": 3,
                 "option": "The technology",
-                "sharedAssetKey": "xslUyh003d",
                 "isLeaf": true,
                 "isAncillary": true
             }
@@ -48,14 +47,13 @@
             "relativePath": "./δ steps/δ-xslHs101Ow.tsstp"
         },
         {
-            "key": "xslUyh003d",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/AeroHerbDetails.tsstp",
-            "isShared": true
+            "key": "δ-xslM9o00A0",
+            "relativePath": "./δ steps/δ-xslM9o00A0.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xslkYr0224",
-        "editorID": "car_5d9b3c40b2e24453916a374d66ae56ab",
-        "ticks": 1761606739633
+        "id": "y1NXwV01Um",
+        "editorID": "car_d9de20967be74ee68a6e5dcd1dc4846c",
+        "ticks": 1761733958279
     }
 }

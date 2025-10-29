@@ -7,52 +7,9 @@ fragsFolderPath: LuSenlinTech/produce/Pods/GasterPodDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"xsm6SB01w","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/GasterPodDetails_frags"},"fragment":{"id":"xsm6SB01w","topLevelMapKey":"xrbxcm01Qu","mapKeyChain":"xrbxcm01Qu","guideID":"xsm6SB2LG","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/GasterPodDetails.tspod","chartKey":"xrbxcm01Qu","isLeaf":true,"options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"y1Y52Q1ZQ","path":"LuSenlinTech/produce/Pods","fragmentFolderPath":"LuSenlinTech/produce/Pods/GasterPodDetails_frags"},"fragment":{"id":"y1Y52Q1ZQ","topLevelMapKey":"xrbxcm01Qu","mapKeyChain":"xrbxcm01Qu","guideID":"y1Y52Q2TF","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/GasterPodDetails.tspod","chartKey":"xrbxcm01Qu","isLeaf":false,"options":[{"id":"y1Y52e2Mz","option":"How it works","order":1,"isAncillary":true},{"id":"y1Y5360rF","option":"The science behind it","order":2,"isAncillary":true},{"id":"y1Y53R1RM","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Terrestrial Gastropod Habitat
 
 This module is a controlled-environment system specifically engineered for all 10 breeds of edible snails in our Balcony Edition catalogue. It uses a guided habitat and targeted nutrition to promote robust health and superior shell development, producing gourmet-quality snails from a compact, self-cleaning environment.
-
-##### How It Works
-
-###### 1. The Juvenile Stock
-Lǜ Sēnlín’s nursery supplies juvenile snails, carefully selected for health and genetic traits conducive to compact cultivation. This selection—from the classic **Table Snail ‘Helix Max-Mini’** to the striking **Burgundy Snail ‘Petit Bourguignon’**—is ideal because these terrestrial species thrive in the stable, humid microenvironment the GasterPod provides, exhibiting natural behaviours that are key to their development.
-
-###### 2. Guided Cultivation in the Module
-Once the snails are introduced to the GasterPod, HarvestSage™ initiates a specialized zootechnical program:
-- The ****Track Maze Habitat** – 90 mm spiral raceway forces snails to exercise, yielding thicker shells and higher meat-to-viscera ratios.** is a 90 mm spiral raceway that encourages natural movement and exercise, which is scientifically proven to yield thicker, stronger shells and higher meat-to-viscera ratios.
-- The ****Bio-Film Drip-Feed System** – dripper coats feed leaves with probiotic film rich in calcium, feeding snails and suppressing pathogens simultaneously.** continuously coats feed leaves with a probiotic-rich film, providing a constant source of essential calcium for shell fortification while simultaneously suppressing pathogens in the humid environment.
-- The system maintains a precise, humidity-stable atmosphere to prevent desiccation and support healthy mucous production, crucial for snail mobility and overall well-being.
-
-###### 3. The Purified Harvest
-The GasterPod ensures the highest standards of food safety and quality at harvest.
-- The ****AI-Scheduled 7-Day Purging** – algorithm times snail fasting so digestive tracts clear exactly on the user’s chosen cooking date.** algorithm initiates a controlled fast, timing it so the snails' digestive tracts are fully cleared exactly on your chosen harvest date, ensuring a clean, pure flavour.
-- Harvesting is a simple process of collecting the mature snails from the accessible habitat.
-- The system provides a **yield of 80–120g of prepared, purged snails per full production cycle.**
-
-##### The Science Behind It
-
-This process is made possible by contemporary research and technology:
-- Helixiculture (snail farming) has long established that increased activity directly correlates to improved shell strength and meat quality; the maze habitat mechanizes this principle.
-- The use of probiotic biofilms is a modern advancement in animal husbandry, promoting gut health and suppressing disease without antibiotics, which is critical in a dense living environment.
-- The precise control of the fasting period is a critical food safety and quality step that is difficult to achieve consistently without automated environmental control.
-
-In short, the GasterPod is a **welfare-optimized cultivation system** that uses behavioural enrichment and targeted nutrition to transform a compact space into a reliable source of gourmet, sustainably-raised snails.
-
-###### GasterPod Technologies  
-
-- **Track Maze Habitat** – 90 mm spiral raceway forces snails to exercise, yielding thicker shells and higher meat-to-viscera ratios.
-- **Bio-Film Drip-Feed System** – dripper coats feed leaves with probiotic film rich in calcium, feeding snails and suppressing pathogens simultaneously.
-- **UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.
-- **CO₂-Scrubbing Bio-Filter** – living moss/activated-carbon mat absorbs excess CO₂ during colonisation, preventing off-flavours and speeding fruit-set.
-- **Real-Time Turbidity & pH Sensors** – optical and electrochemical probes guard water clarity and acidity, prompting automatic corrections.
-- **UV-C/Ozone Steril Loop** – closed loop flashes water with 254 nm UV-C then doses 0.1 ppm ozone, wiping microbes without chemicals.
-
-###### Harvest Enhancements
-  
-- **AI-Scheduled 7-Day Purging** – algorithm times snail fasting so digestive tracts clear exactly on the user’s chosen cooking date.
-- **Auto-Chill to 4 °C** – thermoelectric chiller drops mollusc temperature two hours pre-harvest, inducing dormancy.
-
-###### Modules
-- Twin
 

@@ -13,20 +13,23 @@
             {
                 "key": "xscwkl00AT",
                 "order": 1,
-                "nodes": [
-                    {
-                        "key": "xscxa201fa",
-                        "order": 1,
-                        "nodes": [
-                            {
-                                "key": "xscyNB00TT",
-                                "order": 1,
-                                "sharedAssetKey": "xsczPP01DI",
-                                "isLeaf": true
-                            }
-                        ]
-                    }
-                ]
+                "option": "How it works",
+                "isLeaf": true,
+                "isAncillary": true
+            },
+            {
+                "key": "xybLLg01dh",
+                "order": 2,
+                "option": "The science behind it",
+                "isLeaf": true,
+                "isAncillary": true
+            },
+            {
+                "key": "xybMpU0192",
+                "order": 3,
+                "option": "The technology",
+                "isLeaf": true,
+                "isAncillary": true
             }
         ]
     },
@@ -40,18 +43,17 @@
             "relativePath": "./δ steps/δ-xscwkl00AT.tsstp"
         },
         {
-            "key": "δ-xscxa201fa",
-            "relativePath": "./δ steps/δ-xscxa201fa.tsstp"
+            "key": "δ-xybLLg01dh",
+            "relativePath": "./δ steps/δ-xybLLg01dh.tsstp"
         },
         {
-            "key": "xsczPP01DI",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/StemStackDetails.tsstp",
-            "isShared": true
+            "key": "δ-xybMpU0192",
+            "relativePath": "./δ steps/δ-xybMpU0192.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xsczlN01UC",
-        "editorID": "car_a29f50eec0944b55b6e8175018d022b7",
-        "ticks": 1761604653117
+        "id": "xybpXI01w4",
+        "editorID": "car_840da55cef23443ba3f529bd987a0f0c",
+        "ticks": 1761693033492
     }
 }

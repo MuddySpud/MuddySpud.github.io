@@ -1,9 +1,8 @@
 ¬import g from "../../../_shared/glossary"
 ¬import c from "../../../equipment/_shared/common"
-¬import tm from "../CategoryTables/soloModulesTable"
 
 
-###### {{tm.fruitForgeName}} Technologies  
+###### Technologies  
   
 - {{g.pureLight_short}}
 - {{g.hydraRail_short}}

@@ -15,9 +15,9 @@
                 "key": "wkN2cH02Ll",
                 "order": 1,
                 "option": "FungaRoot - a deeper look",
-                "sharedAssetKey": "x4cCMk02T5",
                 "isLeaf": true,
-                "isAncillary": true
+                "isAncillary": true,
+                "iKey": "y1FGAu02CF"
             }
         ]
     },
@@ -28,14 +28,13 @@
             "isShared": true
         },
         {
-            "key": "x4cCMk02T5",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryDetails/FungaRootDetails.tsstp",
-            "isShared": true
+            "key": "δ-wkN2cH02Ll",
+            "relativePath": "./δ steps/δ-wkN2cH02Ll.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xmFzO501sk",
-        "editorID": "car_3a466bdb33734598b9dbc45defac189e",
-        "ticks": 1761510512113
+        "id": "y1XtCr001i",
+        "editorID": "car_1390af1d49ac47fb8764a0acba224dc5",
+        "ticks": 1761736423297
     }
 }
