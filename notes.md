@@ -59,12 +59,11 @@ Add what to notice in intro to demo.
   - How similar but slghtly different - so we remove duplication so we only have to edit in a single place. etc
   - How we can edit a small sctin on in isolation no having to be overwhelmed with the whole guide.
   - Using variables to define column text can make a defining a table in markdown easier to read and debug
+  - Don't need to follow this for building your docs it is just a demo of what is possible
 
 Need to do the same for cultivars - a bit more text about the plant including flavour, medicinal how it is supplied ie rfid pad for a bay if herb, or module if not, what dishes or cuisine it is used in 
 Don't include any technical info abut how it is grown - restrict it to the crop
 
 Need to have some way for the technical exploration of demo to include when in the chain it is linking to a new tree perhaps show a screen shot of the map with that step highlighed and open in the markdown editor.
   
-
-Could you explain a bit more text about the plant including flavour, medicinal how it is supplied ie rfid pad for a bay if herb, or module if not, what dishes or cuisine it is used in 
-Don't include any technical info abut how it is grown - restrict it to the crop
+In Twin when you select a category the ancillary button if collapsed is half outside the box.!!!!!!!!

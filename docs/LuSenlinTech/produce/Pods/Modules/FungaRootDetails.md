@@ -1,0 +1,16 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/LuSenlinTech/produce/Pods/Modules/%CE%9E%20FungaRootDetails
+fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FungaRootDetails_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"y4ls251yz","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FungaRootDetails_frags"},"fragment":{"id":"y4ls251yz","topLevelMapKey":"y1FGAu02CF","mapKeyChain":"y1FGAu02CF","guideID":"y4ls251VN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FungaRootDetails.tspod","chartKey":"y1FGAu02CF","isLeaf":false,"options":[{"id":"y4ls2S1JR","option":"How it works","order":1,"isAncillary":true},{"id":"y4ls2q1p0","option":"The science behind it","order":2,"isAncillary":true},{"id":"y4ls39191","option":"The technology","order":3,"isAncillary":true}]}} -->
+
+
+#### Truffle-Inoculated Root Vegetables
+
+This module uses a selection of compact roots - Finger Carrot, Baby Beet, Tokyo Turnip, and Baby Kohlrabi - that have been pre-colonised (inoculated) with truffle-forming mycorrhizal fungi before being installed in the FungaRoot unit.
+
