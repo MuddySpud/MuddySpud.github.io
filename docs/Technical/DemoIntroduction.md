@@ -7,7 +7,7 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4lpYB0Rc","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"y4lpYB0Rc","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"y4lpYB1SD","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"y4lpYO06C","order":1},{"id":"y4lpYw22o","option":"The core capabilities showcased","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZOvX0Mg","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"yAZOvX0Mg","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"yAZOvX1wE","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"yAZOvx005","order":1},{"id":"yAZOwV28k","option":"The core capabilities showcased","order":2,"isAncillary":true}]}} -->
 
 ## Explore a Docs Assembler Solution
 

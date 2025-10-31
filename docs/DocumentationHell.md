@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4lpSe1Px","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"y4lpSe1Px","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"y4lpSe1OP","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"y4lpTw0SE","option":"Explore a Docs Assembler solution ","order":1},{"id":"y4lpU70AP","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZOow1nw","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"yAZOow1nw","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"yAZOow1r5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"yAZOqO0v9","option":"Explore a Docs Assembler solution ","order":1},{"id":"yAZOqg1NU","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 

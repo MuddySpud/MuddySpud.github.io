@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Balcony_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4lpe12R1","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"y4lpe12R1","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"y4lpe10qC","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"y4lped1oD","option":"Next","iExitKey":"s7LPr60ZH","order":1}],"iKey":"s7LPr60IG"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZP1E1jB","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"yAZP1E1jB","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"yAZP1E0ep","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"yAZP1T17p","option":"Next","iExitKey":"s7LPr60ZH","order":1}],"iKey":"s7LPr60IG"}} -->
 
 ## Tiny Patio or Balcony 
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FinWaveDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4lr7R0cF","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FinWaveDetails_frags"},"fragment":{"id":"y4lr7R0cF","topLevelMapKey":"xrYo9a02GN","mapKeyChain":"xrYo9a02GN","guideID":"y4lr7R1Nr","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FinWaveDetails.tspod","chartKey":"xrYo9a02GN","isLeaf":false,"options":[{"id":"y4lr7w1zA","option":"How it works","order":1,"isAncillary":true},{"id":"y4lr8V01A","option":"The science behind it","order":2,"isAncillary":true},{"id":"y4lr971wS","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZQRx0Ab","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FinWaveDetails_frags"},"fragment":{"id":"yAZQRx0Ab","topLevelMapKey":"xrYo9a02GN","mapKeyChain":"xrYo9a02GN","guideID":"yAZQRx1T5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FinWaveDetails.tspod","chartKey":"xrYo9a02GN","isLeaf":false,"options":[{"id":"yAZQSA18l","option":"How it works","order":1,"isAncillary":true},{"id":"yAZQSX0pQ","option":"The science behind it","order":2,"isAncillary":true},{"id":"yAZQSr03A","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Morphing Aquatic Habitat
 

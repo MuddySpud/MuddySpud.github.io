@@ -14,6 +14,7 @@
                 "key": "yAT5hu00B5",
                 "order": 1,
                 "option": "OG-35 - a deeper dive",
+                "isAncillary": true,
                 "nodes": [
                     {
                         "key": "yATDWl00VB",
@@ -52,8 +53,8 @@
         }
     ],
     "___εdit___": {
-        "id": "yATLMQ01tc",
-        "editorID": "car_952226af547446f482634d01170663a9",
-        "ticks": 1761868326906
+        "id": "yAYtlU00eC",
+        "editorID": "car_5376d0685b814633965a09862f474be6",
+        "ticks": 1761869650796
     }
 }

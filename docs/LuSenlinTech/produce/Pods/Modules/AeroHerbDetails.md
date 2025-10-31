@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/AeroHerbDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4lrSG07e","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/AeroHerbDetails_frags"},"fragment":{"id":"y4lrSG07e","topLevelMapKey":"xrK34w01bz","mapKeyChain":"xrK34w01bz","guideID":"y4lrSG18F","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/AeroHerbDetails.tspod","chartKey":"xrK34w01bz","isLeaf":false,"options":[{"id":"y4lrSN1tR","option":"How it works","order":1,"isAncillary":true},{"id":"y4lrSj09T","option":"The science behind it","order":2,"isAncillary":true},{"id":"y4lrT40NJ","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZQlt011","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/AeroHerbDetails_frags"},"fragment":{"id":"yAZQlt011","topLevelMapKey":"xrK34w01bz","mapKeyChain":"xrK34w01bz","guideID":"yAZQlt1e6","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/AeroHerbDetails.tspod","chartKey":"xrK34w01bz","isLeaf":false,"options":[{"id":"yAZQm51LT","option":"How it works","order":1,"isAncillary":true},{"id":"yAZQmQ1FC","option":"The science behind it","order":2,"isAncillary":true},{"id":"yAZQmk1MI","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Mist-Propelled Aromatic Engine
 

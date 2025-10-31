@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/GasterPodDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"y4ls5M1da","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/GasterPodDetails_frags"},"fragment":{"id":"y4ls5M1da","topLevelMapKey":"xrbxcm01Qu","mapKeyChain":"xrbxcm01Qu","guideID":"y4ls5M1eR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/GasterPodDetails.tspod","chartKey":"xrbxcm01Qu","isLeaf":false,"options":[{"id":"y4ls5q26x","option":"How it works","order":1,"isAncillary":true},{"id":"y4ls6413T","option":"The science behind it","order":2,"isAncillary":true},{"id":"y4ls6Q1jT","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yAZRQD09K","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/GasterPodDetails_frags"},"fragment":{"id":"yAZRQD09K","topLevelMapKey":"xrbxcm01Qu","mapKeyChain":"xrbxcm01Qu","guideID":"yAZRQD15r","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/GasterPodDetails.tspod","chartKey":"xrbxcm01Qu","isLeaf":false,"options":[{"id":"yAZRQP08G","option":"How it works","order":1,"isAncillary":true},{"id":"yAZRQl00r","option":"The science behind it","order":2,"isAncillary":true},{"id":"yAZRR30oa","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Terrestrial Gastropod Habitat
 

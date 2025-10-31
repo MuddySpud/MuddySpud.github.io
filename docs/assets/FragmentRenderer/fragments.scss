@@ -125,6 +125,7 @@ body {
     #treeSolveFragments {
 
         .nt-fr-fragment-box {
+
             &.nt-fr-prior-collapsed-options {
                 margin-top: 20px;
             }
@@ -136,9 +137,31 @@ body {
                 }
             }
 
+            .nt-fr-pod-box {
+                &>.nt-fr-fragment-box>.nt-fr-fragment-discussion {
+                    padding: 0 0 0 20px;
+
+                    h4:first-child,
+                    h5:first-child {
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+            &.nt-ur-split-table,
+            &.nt-ur-split-table-odd {
+
+                .nt-fr-pod-box {
+                    &>.nt-fr-fragment-box>.nt-fr-fragment-discussion {
+                        padding: 0;
+                    }
+                }
+            }
+
             .nt-fr-pod-button {
                 width: 100%;
                 font-size: unset;
+                padding: 10px 0 5px 0;
 
                 .nt-fr-ancillary-box {
                     margin-right: 5px;
@@ -149,8 +172,8 @@ body {
                 }
 
                 .nt-fr-option-text {
-                    padding-left: 10px;
-                    padding-right: 10px;
+                    padding: 0 0 0 20px;
+                    position: relative;
                 }
             }
 
@@ -158,19 +181,17 @@ body {
 
                 &.nt-fr-pod-button {
                     display: block;
-                    padding: 0;
-                    padding: 10px 0 5px 0;
 
                     .nt-fr-option-selected {
                         display: none;
                     }
 
-                    .nt-fr-ancillary-head {
-                        margin-bottom: 0;
-                    }
+                    // .nt-fr-ancillary-head {
+                    //     margin-bottom: 0;
+                    // }
 
                     .nt-fr-ancillary-box {
-                        padding: 0;
+                        margin-bottom: 5px;
                     }
                 }
             }
@@ -184,9 +205,12 @@ body {
             padding: 0 0 10px 20px;
             margin-left: 100px;
             border-radius: var(--border-radius);
+            color: #e6e6e6;
+            margin-bottom: 10px;
 
             &.nt-fr-collapsed {
                 background-color: transparent;
+                margin-bottom: 0;
 
                 .nt-fr-ancillary {
                     padding: 5px 20px;
@@ -210,16 +234,14 @@ body {
             }
 
             .nt-fr-ancillary-box {
+                padding-left: 0;
+                padding-right: 0;
                 margin-left: 0;
                 margin-right: 0;
-                padding-left: 0;
                 background-color: transparent;
 
-                &.nt-fr-collapsed {
-
-                    .nt-fr-ancillary-head {
-                        margin-bottom: 0;
-                    }
+                &.nt-fr-collapsed>.nt-fr-ancillary-head {
+                    margin-bottom: 0;
                 }
             }
 
@@ -271,13 +293,13 @@ body {
 
         .nt-ur-split-table {
 
+            .nt-fr-fragment-options.nt-fr-collapsed {
+                padding: 0;
+            }
+
             &>.nt-fr-fragment-ancillaries>.nt-fr-ancillary-box {
                 margin-top: 5px;
                 margin-bottom: 5px;
-            }
-
-            .nt-fr-pod-button {
-                padding: 10px 0 5px 0;
             }
 
             table {
@@ -295,6 +317,10 @@ body {
         }
 
         .nt-ur-split-table-odd {
+
+            .nt-fr-fragment-options.nt-fr-collapsed {
+                padding: 0;
+            }
 
             &>.nt-fr-fragment-ancillaries>.nt-fr-ancillary-box {
                 margin-top: 5px;
@@ -335,6 +361,13 @@ body {
             &.nt-fr-pod-button .nt-fr-ancillary-box .nt-fr-fragment-discussion {
                 color: #fff;
             }
+        }
+
+        .nt-fr-fragment-box .nt-fr-ancillary-box .nt-fr-ancillary-box {
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         .nt-fr-fragment-options {

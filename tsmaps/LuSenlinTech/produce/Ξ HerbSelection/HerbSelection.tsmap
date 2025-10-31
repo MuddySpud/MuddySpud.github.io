@@ -15,6 +15,7 @@
     ],
     "___rΩΩt___": {
         "key": "s7LPsx2NN",
+        "isHeadless": true,
         "variable": "herb",
         "nodes": [
             {
@@ -141,8 +142,8 @@
     },
     "___αssεts___": [],
     "___εdit___": {
-        "id": "yAXP4w01AE",
-        "editorID": "car_4d00e4c7038a416a9c4d463e1c040f9a",
-        "ticks": 1761869294510
+        "id": "yAYgXx00IH",
+        "editorID": "car_278ad31b6d9f4d0c90498a4e5f39b9d0",
+        "ticks": 1761869599985
     }
 }
