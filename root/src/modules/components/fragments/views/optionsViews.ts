@@ -145,12 +145,15 @@ const BuildExpandedOptionView = (
     }
 
     let buttonClass = "nt-fr-option";
-    let optionButtonText = option.option;
+    let innerView: VNode | null;
 
     if (option.pod?.root) {
 
         buttonClass = `${buttonClass} nt-fr-pod-button`;
-        optionButtonText = `Select: ${optionButtonText}`;
+        innerView = podViews.buildView(option);
+    }
+    else {
+        innerView = h("span", {class: "nt-fr-option-text"},  option.option);
     }
 
     const view: VNode =
@@ -172,9 +175,7 @@ const BuildExpandedOptionView = (
                         ]
                     },
                     [
-                        podViews.buildView(option),
-
-                        h("span", {class: "nt-fr-option-text"}, optionButtonText)
+                        innerView
                     ]
                 )
             ]

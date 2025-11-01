@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/TuberTowerDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yAZQTv2B4","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/TuberTowerDetails_frags"},"fragment":{"id":"yAZQTv2B4","topLevelMapKey":"xmKRbi0022","mapKeyChain":"xmKRbi0022","guideID":"yAZQTv07o","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/TuberTowerDetails.tspod","chartKey":"xmKRbi0022","isLeaf":false,"options":[{"id":"yAZQU80AH","option":"How it works","order":1,"isAncillary":true},{"id":"yAZQUW1Zd","option":"The science behind it","order":2,"isAncillary":true},{"id":"yAZQUq0Xd","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yGB0l20Zd","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/TuberTowerDetails_frags"},"fragment":{"id":"yGB0l20Zd","topLevelMapKey":"xmKRbi0022","mapKeyChain":"xmKRbi0022","guideID":"yGB0l20wo","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/TuberTowerDetails.tspod","chartKey":"xmKRbi0022","isLeaf":false,"options":[{"id":"yGB0lE2OQ","option":"How it works","order":1,"isAncillary":true},{"id":"yGB0ld1St","option":"The science behind it","order":2,"isAncillary":true},{"id":"yGB0mC2Wg","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Aeroponic Tuber Tower
 

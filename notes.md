@@ -60,6 +60,8 @@ Add what to notice in intro to demo.
   - How we can edit a small sctin on in isolation no having to be overwhelmed with the whole guide.
   - Using variables to define column text can make a defining a table in markdown easier to read and debug
   - Don't need to follow this for building your docs it is just a demo of what is possible
+  - why don't you experiment...
+  - The architexture choices we made in this demo are for demonstration purposes only.
 
 Need to do the same for cultivars - a bit more text about the plant including flavour, medicinal how it is supplied ie rfid pad for a bay if herb, or module if not, what dishes or cuisine it is used in 
 Don't include any technical info abut how it is grown - restrict it to the crop

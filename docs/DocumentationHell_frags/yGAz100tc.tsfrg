@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /DocumentationHell_frags/yGAz100tc.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"yGAz100tc","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"yGAywu1qt","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"yGAz0Z1kx","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"yGAz1E0JD","option":"The power of variables","order":1,"isAncillary":true}]} -->
+
+### How This Page Was Built
+
+The image below shows the step **'How It Works: The Building Blocks'** being edited within [Visual Studio Code](https://code.visualstudio.com/) using the [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) extension.
+
+*   **Left (File Explorer):** The *DocumentationHell.tsmap* file is selected, showing the map's structure.
+*   **Center (Map View):** The step **'How It Works: The Building Blocks'** is selected in the Map Editor.
+*   **Right (Markdown Editor):** The content of the step is open for editing.
+
+[<img class="nt-fr-big-image" src="/assets/images/HowItWorks.png">](/assets/images/HowItWorks.png)
+
