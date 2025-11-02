@@ -254,12 +254,12 @@
         },
         {
             "key": "uXboP401U6",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/OneFrameTowerIntroduction.tsstp",
+            "relativePath": "../_shared/OneFrameTowerIntroduction.tsstp",
             "isShared": true
         },
         {
             "key": "uXbtfA01UV",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/TwoFrameTowerIntroduction.tsstp",
+            "relativePath": "../_shared/TwoFrameTowerIntroduction.tsstp",
             "isShared": true
         },
         {
@@ -268,7 +268,7 @@
         },
         {
             "key": "uXbxVz003V",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/FourFrameTowerIntroduction.tsstp",
+            "relativePath": "../_shared/FourFrameTowerIntroduction.tsstp",
             "isShared": true
         },
         {
@@ -277,17 +277,17 @@
         },
         {
             "key": "uXeCdr016A",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame1Title.tsstp",
+            "relativePath": "../_shared/Frame1Title.tsstp",
             "isShared": true
         },
         {
             "key": "uXeICL00cv",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame1Title.tsstp",
+            "relativePath": "../_shared/Frame1Title.tsstp",
             "isShared": true
         },
         {
             "key": "uXeEnl02Zw",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame1Title.tsstp",
+            "relativePath": "../_shared/Frame1Title.tsstp",
             "isShared": true
         },
         {
@@ -296,7 +296,7 @@
         },
         {
             "key": "uXeXsN01lM",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame2Title.tsstp",
+            "relativePath": "../_shared/Frame2Title.tsstp",
             "isShared": true
         },
         {
@@ -309,7 +309,7 @@
         },
         {
             "key": "uXeauX02R8",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame2Title.tsstp",
+            "relativePath": "../_shared/Frame2Title.tsstp",
             "isShared": true
         },
         {
@@ -318,7 +318,7 @@
         },
         {
             "key": "uXf5qn01M8",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame3Title.tsstp",
+            "relativePath": "../_shared/Frame3Title.tsstp",
             "isShared": true
         },
         {
@@ -327,7 +327,7 @@
         },
         {
             "key": "uXfK8e01ha",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame2Title.tsstp",
+            "relativePath": "../_shared/Frame2Title.tsstp",
             "isShared": true
         },
         {
@@ -336,7 +336,7 @@
         },
         {
             "key": "uXfH6u00hq",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame3Title.tsstp",
+            "relativePath": "../_shared/Frame3Title.tsstp",
             "isShared": true
         },
         {
@@ -345,7 +345,7 @@
         },
         {
             "key": "uXflEr02SM",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/Frame4Title.tsstp",
+            "relativePath": "../_shared/Frame4Title.tsstp",
             "isShared": true
         },
         {
@@ -362,13 +362,13 @@
         },
         {
             "key": "xAo3fc00IW",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/FrameFeatures.tsstp",
+            "relativePath": "../_shared/FrameFeatures.tsstp",
             "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "xm1Ht901i2",
-        "editorID": "car_29ef4ad4060d4769a351d0f47ec976f3",
-        "ticks": 1761507008311
+        "id": "yKrjMs02UT",
+        "editorID": "me_37a9786baa134502a8106e3974dad9f9",
+        "ticks": 1762021902422
     }
 }

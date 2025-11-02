@@ -95,12 +95,12 @@
         },
         {
             "key": "uXhTJa00Ab",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/MonoModuleTitle.tsstp",
+            "relativePath": "../_shared/MonoModuleTitle.tsstp",
             "isShared": true
         },
         {
             "key": "uXhgYt012k",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/DuoModuleTitle#.tsstp",
+            "relativePath": "../_shared/DuoModuleTitle#.tsstp",
             "isShared": true
         },
         {
@@ -125,8 +125,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xAoTfw003W",
-        "editorID": "car_97be9276207f4edba6e6e62add0524f7",
-        "ticks": 1760957230924
+        "id": "yKrb3202RJ",
+        "editorID": "me_a8099cb4fc324162a5ab5d44b0e3dec6",
+        "ticks": 1762021870440
     }
 }

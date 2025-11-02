@@ -182,12 +182,12 @@
         },
         {
             "key": "uXApDv01PU",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/moderateEffortIntroduction.tsstp",
+            "relativePath": "../_share/moderateEffortIntroduction.tsstp",
             "isShared": true
         },
         {
             "key": "uXAj7501d7",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/highEffortIntroduction.tsstp",
+            "relativePath": "../_share/highEffortIntroduction.tsstp",
             "isShared": true
         },
         {
@@ -236,18 +236,18 @@
         },
         {
             "key": "uXilpe02CQ",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         },
         {
             "key": "uXivUR00qS",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/_share/processStep.tsstp",
+            "relativePath": "../_share/processStep.tsstp",
             "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "uXiwGP00MU",
-        "editorID": "car_f12b65753b7f4d79b583cc449f2b8e41",
-        "ticks": 1758547368081
+        "id": "yKsexT00Sz",
+        "editorID": "me_959e7cc655e14e7996c980c362889e91",
+        "ticks": 1762022123799
     }
 }

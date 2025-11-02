@@ -4,7 +4,7 @@
     "name": "CrustaBay",
     "created": "2025-10-15T22:21:53.950Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Ξ CrustaBay/CrustaBay.tspod",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/Ξ CrustaBay/CrustaBay.tspod",
     "isPod": true,
     "iText": "Link to 'CrustaBay'",
     "___rΩΩt___": {
@@ -24,7 +24,7 @@
     "___αssεts___": [
         {
             "key": "x4drJI01uW",
-            "relativePath": "../../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/_shared/CategoryTables/CrustaBayTable.tsstp",
+            "relativePath": "../../../_shared/CategoryTables/CrustaBayTable.tsstp",
             "isShared": true
         },
         {
@@ -33,8 +33,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xsgktQ02NR",
-        "editorID": "car_3cd14f85561c4a7ebbad76bcc977155a",
-        "ticks": 1761605549268
+        "id": "yKsASe02PD",
+        "editorID": "me_a741ef2127a34a96966edec17772e158",
+        "ticks": 1762022006568
     }
 }
