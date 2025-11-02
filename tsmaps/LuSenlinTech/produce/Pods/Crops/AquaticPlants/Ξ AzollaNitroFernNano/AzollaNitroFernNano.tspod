@@ -4,7 +4,7 @@
     "name": "AzollaNitroFernNano",
     "created": "2025-10-29T23:41:06.009Z",
     "list": true,
-    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Ξ AzollaNitroFernNano/AzollaNitroFernNano.tspod",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/Ξ AzollaNitroFernNano/AzollaNitroFernNano.tspod",
     "isPod": true,
     "iText": "Link to 'AzollaNitroFernNano'",
     "___rΩΩt___": {
@@ -53,8 +53,8 @@
         }
     ],
     "___εdit___": {
-        "id": "y4avrm02MA",
-        "editorID": "car_3cbe880462724da1bff09da95c424dfd",
-        "ticks": 1761781477514
+        "id": "yQ8CHU1fU",
+        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
+        "ticks": 1762099708492
     }
 }
