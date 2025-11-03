@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8Ctt1gr","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_frags"},"fragment":{"id":"yS8Ctt1gr","topLevelMapKey":"yKTq5Y01gj","mapKeyChain":"yKTq5Y01gj","guideID":"yS8Ctt20N","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2.tspod","chartKey":"yKTq5Y01gj","isLeaf":false,"options":[{"id":"yS8Cu52LL","option":"Ruby 2 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAZuu1dO","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_frags"},"fragment":{"id":"yWAZuu1dO","topLevelMapKey":"yKTq5Y01gj","mapKeyChain":"yKTq5Y01gj","guideID":"yWAZuu1RD","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2.tspod","chartKey":"yKTq5Y01gj","isLeaf":false,"options":[{"id":"yWAZv70kR","option":"Ruby 2 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Beet ‘Ruby 2’
 

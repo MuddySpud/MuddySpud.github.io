@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrb
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8D6S1M0","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus_frags"},"fragment":{"id":"yS8D6S1M0","topLevelMapKey":"yKXNWc00FO","mapKeyChain":"yKXNWc00FO","guideID":"yS8D6S0NT","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus.tspod","chartKey":"yKXNWc00FO","isLeaf":false,"options":[{"id":"yS8D6e2Lc","option":"Urban Lotus - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAa6n0BB","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus_frags"},"fragment":{"id":"yWAa6n0BB","topLevelMapKey":"yKXNWc00FO","mapKeyChain":"yKXNWc00FO","guideID":"yWAa6n1ou","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus.tspod","chartKey":"yKXNWc00FO","isLeaf":false,"options":[{"id":"yWAa6z0r0","option":"Urban Lotus - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Young Lotus Root ‘Urban Lotus’
 

@@ -38,5 +38,5 @@ The element below tries to reference the 'il.variable-does-not-exist'. Since thi
 
 [<img class="nt-fr-mid-image" src="/assets/images/FullDiagnosticsAndIntellisense.png">](/assets/images/FullDiagnosticsAndIntellisense.png)
 
-This is a simple but powerful example of how Docs Assembler applies software engineering principles — like encapsulation, single source of truth, and robust tooling — to documentation.
+This is a simple but powerful example of how Docs Assembler applies software engineering principles - like encapsulation, single source of truth, and robust tooling - to documentation.
 

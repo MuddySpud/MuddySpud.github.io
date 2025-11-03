@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabySweetPotatoPo
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8D1O1iW","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabySweetPotatoPocketYama_frags"},"fragment":{"id":"yS8D1O1iW","topLevelMapKey":"yKVysx01sK","mapKeyChain":"yKVysx01sK","guideID":"yS8D1O2KH","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabySweetPotatoPocketYama.tspod","chartKey":"yKVysx01sK","isLeaf":false,"options":[{"id":"yS8D1b0YC","option":"Pocket Yama - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAa1t0YY","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabySweetPotatoPocketYama_frags"},"fragment":{"id":"yWAa1t0YY","topLevelMapKey":"yKVysx01sK","mapKeyChain":"yKVysx01sK","guideID":"yWAa1t1YG","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabySweetPotatoPocketYama.tspod","chartKey":"yKVysx01sK","isLeaf":false,"options":[{"id":"yWAa240k9","option":"Pocket Yama - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Sweet Potato ‘Pocket Yama’
 

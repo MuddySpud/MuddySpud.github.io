@@ -3,7 +3,7 @@
 
 #### This challenge manifests everywhere
 
-But for developers, it’s a daily reality. It’s not just about writing docs — it’s about maintaining them. You’re likely all too familiar with the symptoms:
+But for developers, it’s a daily reality. It’s not just about writing docs - it’s about maintaining them. You’re likely all too familiar with the symptoms:
 
 *   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
 *   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.

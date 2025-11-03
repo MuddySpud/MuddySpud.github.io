@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/LeafLiftDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8BvB1bs","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/LeafLiftDetails_frags"},"fragment":{"id":"yS8BvB1bs","topLevelMapKey":"xrBvBL00gw","mapKeyChain":"xrBvBL00gw","guideID":"yS8BvB0JU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/LeafLiftDetails.tspod","chartKey":"xrBvBL00gw","isLeaf":false,"options":[{"id":"yS8BvN06C","option":"How it works","order":1,"isAncillary":true},{"id":"yS8Bvl1Fp","option":"The science behind it","order":2,"isAncillary":true},{"id":"yS8Bw31oR","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAYxm110","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/LeafLiftDetails_frags"},"fragment":{"id":"yWAYxm110","topLevelMapKey":"xrBvBL00gw","mapKeyChain":"xrBvBL00gw","guideID":"yWAYxm1mG","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/LeafLiftDetails.tspod","chartKey":"xrBvBL00gw","isLeaf":false,"options":[{"id":"yWAYxs2Ku","option":"How it works","order":1,"isAncillary":true},{"id":"yWAYyN1sK","option":"The science behind it","order":2,"isAncillary":true},{"id":"yWAYyj1lZ","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Laminar-Flow Leaf Canopy
 

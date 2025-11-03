@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8EAQ2S5","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_frags"},"fragment":{"id":"yS8EAQ2S5","topLevelMapKey":"yQLfKc0132","mapKeyChain":"yQLfKc0132","guideID":"yS8EAQ1s1","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop.tspod","chartKey":"yQLfKc0132","isLeaf":false,"options":[{"id":"yS8EAr2M2","option":"City-Top - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAb9q27h","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_frags"},"fragment":{"id":"yWAb9q27h","topLevelMapKey":"yQLfKc0132","mapKeyChain":"yQLfKc0132","guideID":"yWAb9q1kX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop.tspod","chartKey":"yQLfKc0132","isLeaf":false,"options":[{"id":"yWAbA20it","option":"City-Top - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Chestnut Mushroom ‘City-Top’
 

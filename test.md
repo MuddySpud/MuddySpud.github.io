@@ -3,7 +3,7 @@
 
 This is where theory meets practice. To showcase the power of treating documentation like code, we've built a fully interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
 
-**Dive into the guide below.** As you configure a garden—selecting a frame size, modules, and crops—observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic. Each choice spawns a new path, and with every selection, the complexity grows exponentially.
+**Dive into the guide below.** As you configure a garden - selecting a frame size, modules, and crops - observe how {{el.docsAssemblerExtension_link}} manages intricate decision logic. Each choice spawns a new path, and with every selection, the complexity grows exponentially.
 
 Without a **Single Source of Truth**, this branching complexity would create an unmanageable mess. Here, it results in a guide where updates are effortless and perfectly consistent.
 

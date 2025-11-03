@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8Cbf00A","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_frags"},"fragment":{"id":"yS8Cbf00A","topLevelMapKey":"yIjVPO00TV","mapKeyChain":"yIjVPO00TV","guideID":"yS8Cbf2Tq","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot.tspod","chartKey":"yIjVPO00TV","isLeaf":false,"options":[{"id":"yS8Cbr0ac","option":"FireDot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAZcV0oY","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_frags"},"fragment":{"id":"yWAZcV0oY","topLevelMapKey":"yIjVPO00TV","mapKeyChain":"yIjVPO00TV","guideID":"yWAZcV12f","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot.tspod","chartKey":"yIjVPO00TV","isLeaf":false,"options":[{"id":"yWAZci1Y1","option":"FireDot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### City Chili ‘FireDot’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/FrenchTarragon_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yS8Ero1bJ","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/FrenchTarragon_frags"},"fragment":{"id":"yS8Ero1bJ","topLevelMapKey":"yAWzlK01O8","mapKeyChain":"yAWzlK01O8","guideID":"yS8Ero1p2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/FrenchTarragon.tspod","chartKey":"yAWzlK01O8","isLeaf":false,"options":[{"id":"yS8Es01MW","option":"Narrow-Leaf Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yWAdCs2AJ","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/FrenchTarragon_frags"},"fragment":{"id":"yWAdCs2AJ","topLevelMapKey":"yAWzlK01O8","mapKeyChain":"yAWzlK01O8","guideID":"yWAdCs1Nt","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/FrenchTarragon.tspod","chartKey":"yAWzlK01O8","isLeaf":false,"options":[{"id":"yWAdD40Yz","option":"Narrow-Leaf Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### French Tarragon ‘Narrow-Leaf Nano’
 

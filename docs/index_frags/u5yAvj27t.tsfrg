@@ -8,7 +8,7 @@ permalink: /index_frags/u5yAvj27t.html
 
 #### This challenge manifests everywhere
 
-It’s not just about writing docs — it’s about maintaining them. The symptoms are universal:
+It’s not just about writing docs - it’s about maintaining them. The symptoms are universal:
 
 *   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
 *   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
@@ -23,7 +23,7 @@ Think of this less as a technical feature, and more as a measure of effort and r
 
 A highly maintainable system is like a well-organized workshop: any tool is easy to find, and adding a new one is simple. A system with poor maintainability is like a tangled pile of cables: any change requires untangling the entire mess, is frustrating, and you might break something else in the process.
 
-The key to this ease of upkeep is the **Single Source of Truth** principle. Instead of duplicating code, you define a component — eg a class, method, constant — in one place and reuse it everywhere. Change it once, and the update propagates across the entire system instantly.
+The key to this ease of upkeep is the **Single Source of Truth** principle. Instead of duplicating code, you define a component - eg a class, method, constant - in one place and reuse it everywhere. Change it once, and the update propagates across the entire system instantly.
 
 In short, maintainability is about building for change. It's the difference between creating a fragile monument that crumbles at the first edit and creating a resilient, living system that evolves effortlessly with your needs. 
 
