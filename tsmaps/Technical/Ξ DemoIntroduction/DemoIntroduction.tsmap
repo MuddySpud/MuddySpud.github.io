@@ -12,22 +12,9 @@
             {
                 "key": "u5gpCU01mT",
                 "order": 1,
-                "nodes": [
-                    {
-                        "key": "u5gu4U00iR",
-                        "order": 1,
-                        "option": "Start the Lǜ Sēnlín vertical kitchen garden planner",
-                        "isLeaf": true,
-                        "iKey": "s7SMNM05c"
-                    }
-                ]
-            },
-            {
-                "key": "u5hF56026j",
-                "order": 2,
-                "option": "The core capabilities showcased",
+                "option": "Start the demo",
                 "isLeaf": true,
-                "isAncillary": true
+                "iKey": "s7SMNM05c"
             }
         ]
     },
@@ -39,19 +26,11 @@
         {
             "key": "δ-u5gpCU01mT",
             "relativePath": "./δ steps/δ-u5gpCU01mT.tsstp"
-        },
-        {
-            "key": "δ-u5gu4U00iR",
-            "relativePath": "./δ steps/δ-u5gu4U00iR.tsstp"
-        },
-        {
-            "key": "δ-u5hF56026j",
-            "relativePath": "./δ steps/δ-u5hF56026j.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xspoKO024S",
-        "editorID": "car_48649e35abe748e399e7c4d94807fe41",
-        "ticks": 1761607707424
+        "id": "yS6XIF029U",
+        "editorID": "car_96ee792b95624eda92ce76e94db16c25",
+        "ticks": 1762128865279
     }
 }
