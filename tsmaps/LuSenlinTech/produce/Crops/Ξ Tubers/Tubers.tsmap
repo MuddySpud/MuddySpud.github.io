@@ -21,25 +21,33 @@
                 "key": "wtSOzr01VF",
                 "order": 1,
                 "option": "Baby Sweet Potato ‘Pocket Yama’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wtTsxD00hr",
+                "podKey": "yKVysx01sK",
+                "podText": "Link to 'BabySweetPotatoPocketYama'"
             },
             {
                 "key": "wtSS5y00HQ",
                 "order": 2,
                 "option": "Baby Ginger ‘Zingy Core’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wtTsxD00hr",
+                "podKey": "yKWya700Ch",
+                "podText": "Link to 'BabyGingerZingyCore'"
             },
             {
                 "key": "wtSTh501sL",
                 "order": 3,
                 "option": "Young Lotus Root ‘Urban Lotus’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wtTsxD00hr",
+                "podKey": "yKXNWc00FO",
+                "podText": "Link to 'YoungLotusRootUrbanLotus'"
             },
             {
                 "key": "wtSVLH01Ke",
                 "order": 4,
                 "option": "Dwarf Taro ‘Taro-Tiny’",
-                "exitKey": "wtTsxD00hr"
+                "exitKey": "wtTsxD00hr",
+                "podKey": "yKXx2c01Le",
+                "podText": "Link to 'DwarfTaroTaroTiny'"
             }
         ]
     },
@@ -50,8 +58,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xBZqyD02GR",
-        "editorID": "car_f6d05e65c6194609a2e0924685bf6e92",
-        "ticks": 1760968521885
+        "id": "yV5LP4016q",
+        "editorID": "car_00009a1a71514149b7e6cde27cc55662",
+        "ticks": 1762172910254
     }
 }

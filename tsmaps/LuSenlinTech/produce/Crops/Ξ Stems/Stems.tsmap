@@ -21,19 +21,25 @@
                 "key": "wtXSb40ZJ",
                 "order": 1,
                 "option": "Water Spinach Stem ‘WS-Lite’",
-                "exitKey": "wtXSb41kM"
+                "exitKey": "wtXSb41kM",
+                "podKey": "yKWUn00188",
+                "podText": "Link to 'WaterSpinachStemWSLite'"
             },
             {
                 "key": "wtXSb41MR",
                 "order": 2,
                 "option": "Baby Kohlrabi ‘Mini Stem’",
-                "exitKey": "wtXSb41kM"
+                "exitKey": "wtXSb41kM",
+                "podKey": "yKYTzM02F3",
+                "podText": "Link to 'BabyKohlrabiMiniStem'"
             },
             {
                 "key": "wtXSb40Qx",
                 "order": 3,
                 "option": "Compact Celery ‘Stalk-Short’",
-                "exitKey": "wtXSb41kM"
+                "exitKey": "wtXSb41kM",
+                "podKey": "yKZ2Ua01tJ",
+                "podText": "Link to 'CompactCeleryStalkShort'"
             }
         ]
     },
@@ -44,8 +50,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xBZoKE01nb",
-        "editorID": "car_369f03a6218a435a9c0bf3e9e9b054af",
-        "ticks": 1760968511718
+        "id": "yV5VWf01JH",
+        "editorID": "car_bf11a07e30cc4c3f970b3052cb0503e9",
+        "ticks": 1762172949165
     }
 }
