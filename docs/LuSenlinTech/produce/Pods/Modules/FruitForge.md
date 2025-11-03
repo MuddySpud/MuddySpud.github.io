@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FruitForge_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGB17E12b","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FruitForge_frags"},"fragment":{"id":"yGB17E12b","topLevelMapKey":"wekUww017C","mapKeyChain":"wekUww017C","guideID":"yGB17E0rG","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FruitForge.tspod","chartKey":"wekUww017C","isLeaf":false,"options":[{"id":"yGB17I0CJ","option":"FruitForge details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8C0s0zg","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FruitForge_frags"},"fragment":{"id":"yS8C0s0zg","topLevelMapKey":"wekUww017C","mapKeyChain":"wekUww017C","guideID":"yS8C0s2SJ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FruitForge.tspod","chartKey":"wekUww017C","isLeaf":false,"options":[{"id":"yS8C0x1gs","option":"FruitForge details","order":1,"isAncillary":true}]}} -->
 
 | FruitForge | Porous micro-bead media wick, moisture yet keep roots airy for sugar-dense fruit. | Fruiting vegetables - all 12 cultivars |
 {: .nt-fr-columns}

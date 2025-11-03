@@ -1,0 +1,13 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/%CE%9E%20SeaLettuceUrbanUlva
+fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/SeaLettuceUrbanUlva_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"yS8Dmj0Pd","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/SeaLettuceUrbanUlva_frags"},"fragment":{"id":"yS8Dmj0Pd","topLevelMapKey":"y4dj0u00y6","mapKeyChain":"y4dj0u00y6","guideID":"yS8Dmj09M","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/SeaLettuceUrbanUlva.tspod","chartKey":"y4dj0u00y6","isLeaf":false,"options":[{"id":"yS8Dmv1jI","option":"Hydro-Pepper - a deeper dive","order":1,"isAncillary":true}]}} -->
+
+##### Sea Lettuce ‘Urban Ulva’ *(chlorophyte algae strips)*
+

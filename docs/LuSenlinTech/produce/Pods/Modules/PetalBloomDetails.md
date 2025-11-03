@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/PetalBloomDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGB0uQ2RL","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/PetalBloomDetails_frags"},"fragment":{"id":"yGB0uQ2RL","topLevelMapKey":"xrdmsU01vl","mapKeyChain":"xrdmsU01vl","guideID":"yGB0uQ1H5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/PetalBloomDetails.tspod","chartKey":"xrdmsU01vl","isLeaf":false,"options":[{"id":"yGB0uc0wJ","option":"How it works","order":1,"isAncillary":true},{"id":"yGB0v21UQ","option":"The science behind it","order":2,"isAncillary":true},{"id":"yGB0vM20e","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8Bo50wR","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/PetalBloomDetails_frags"},"fragment":{"id":"yS8Bo50wR","topLevelMapKey":"xrdmsU01vl","mapKeyChain":"xrdmsU01vl","guideID":"yS8Bo51Pg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/PetalBloomDetails.tspod","chartKey":"xrdmsU01vl","isLeaf":false,"options":[{"id":"yS8BoH0qz","option":"How it works","order":1,"isAncillary":true},{"id":"yS8Bob0dD","option":"The science behind it","order":2,"isAncillary":true},{"id":"yS8Bov1Du","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Immaculate Bloom & Leaf Atelier
 

@@ -14,6 +14,7 @@
                 "key": "yQLjdo01HY",
                 "order": 1,
                 "option": "City-Top - a deeper dive",
+                "isAncillary": true,
                 "nodes": [
                     {
                         "key": "yQLrgo01Bc",
@@ -52,8 +53,8 @@
         }
     ],
     "___εdit___": {
-        "id": "yQLz8y01jB",
-        "editorID": "car_eb4d4f91993c45cfbb6a413866f8af10",
-        "ticks": 1762102994584
+        "id": "yS7yI801K5",
+        "editorID": "car_2c3a7d93951c4e75a3affa7ad6a8ff95",
+        "ticks": 1762129207388
     }
 }

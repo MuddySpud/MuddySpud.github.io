@@ -7,11 +7,18 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGAz4e04j","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"yGAz4e04j","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"yGAz4e1lz","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"yGAz4p22o","order":1},{"id":"yGAz5M1jU","option":"The core capabilities showcased","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8AAV0sF","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"yS8AAV0sF","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"yS8AAV2Yv","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/DemoIntroduction.tsmap","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"yS8AAh1Je","option":"Start the demo","order":1}]}} -->
 
 ## Explore a Docs Assembler Solution
 
-To demonstrate a system that captures complex thinking and simplifies intricate systems, we built an interactive product configurator for a fictitious innovator in modular food production: **Lǜ Sēnlín Technologies**.
+We believe the best way to understand a tool is to see it solve a real problem. So, we built a live example: an interactive guide for a fictional company, **Lǜ Sēnlín Technologies**, that makes modular kitchen gardens.
 
-We needed a demo that was technically complex yet universally relatable. A vertical kitchen garden is a fundamentally familiar product that illustrates how treating documentation like code transforms sophisticated branching logic from a maintenance nightmare into a structured, manageable asset.
+This isn't a demo about gardening. It's a familiar scenario used to show how Docs Assembler turns a tangled web of product options and instructions into a clear, guided experience.
+
+**See it in action:**
+
+The guide below will help you "configure" a garden. As you choose a frame size, add modules, and pick your crops, you're following the kind of precise, branching logic that Docs Assembler manages effortlessly behind the scenes.
+
+This is the end result: documentation that feels like a conversation, not a manual. It’s always accurate, never contradictory, and guides the user to the right outcome—whether they're building a garden, troubleshooting a server, or managing a crisis.
+
 

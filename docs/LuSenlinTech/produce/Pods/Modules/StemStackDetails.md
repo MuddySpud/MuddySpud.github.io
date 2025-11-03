@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/StemStackDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGB0wC0xn","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/StemStackDetails_frags"},"fragment":{"id":"yGB0wC0xn","topLevelMapKey":"xscpTq02Oq","mapKeyChain":"xscpTq02Oq","guideID":"yGB0wC2HE","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/StemStackDetails.tspod","chartKey":"xscpTq02Oq","isLeaf":false,"options":[{"id":"yGB0wP1iN","option":"How it works","order":1,"isAncillary":true},{"id":"yGB0wm182","option":"The science behind it","order":2,"isAncillary":true},{"id":"yGB0x80J5","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8Bpt1yS","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/StemStackDetails_frags"},"fragment":{"id":"yS8Bpt1yS","topLevelMapKey":"xscpTq02Oq","mapKeyChain":"xscpTq02Oq","guideID":"yS8Bpt1Z2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/StemStackDetails.tspod","chartKey":"xscpTq02Oq","isLeaf":false,"options":[{"id":"yS8Bq51y7","option":"How it works","order":1,"isAncillary":true},{"id":"yS8Bqc23k","option":"The science behind it","order":2,"isAncillary":true},{"id":"yS8Bqy0sp","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Dual-Zone Stem Forge
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/AquaGreenDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGB0sM03w","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/AquaGreenDetails_frags"},"fragment":{"id":"yGB0sM03w","topLevelMapKey":"xrOJgE00q3","mapKeyChain":"xrOJgE00q3","guideID":"yGB0sM1b1","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/AquaGreenDetails.tspod","chartKey":"xrOJgE00q3","isLeaf":false,"options":[{"id":"yGB0sa1Xu","option":"How it works","order":1,"isAncillary":true},{"id":"yGB0sw2V1","option":"The science behind it","order":2,"isAncillary":true},{"id":"yGB0tF2HN","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8BmV0Hu","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/AquaGreenDetails_frags"},"fragment":{"id":"yS8BmV0Hu","topLevelMapKey":"xrOJgE00q3","mapKeyChain":"xrOJgE00q3","guideID":"yS8BmV0nJ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/AquaGreenDetails.tspod","chartKey":"xrOJgE00q3","isLeaf":false,"options":[{"id":"yS8Bmi2L6","option":"How it works","order":1,"isAncillary":true},{"id":"yS8Bn21Um","option":"The science behind it","order":2,"isAncillary":true},{"id":"yS8BnM0yV","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Swirl-Flow Aquatic Biome
 

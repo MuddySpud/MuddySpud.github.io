@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/MycoNestDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yGB23b1lu","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/MycoNestDetails_frags"},"fragment":{"id":"yGB23b1lu","topLevelMapKey":"xrd0OF01EE","mapKeyChain":"xrd0OF01EE","guideID":"yGB23b2NB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/MycoNestDetails.tspod","chartKey":"xrd0OF01EE","isLeaf":false,"options":[{"id":"yGB23p0W5","option":"How it works","order":1,"isAncillary":true},{"id":"yGB24G29K","option":"The science behind it","order":2,"isAncillary":true},{"id":"yGB24s1eB","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yS8ER60y4","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/MycoNestDetails_frags"},"fragment":{"id":"yS8ER60y4","topLevelMapKey":"xrd0OF01EE","mapKeyChain":"xrd0OF01EE","guideID":"yS8ER62Xd","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/MycoNestDetails.tspod","chartKey":"xrd0OF01EE","isLeaf":false,"options":[{"id":"yS8ERJ2I7","option":"How it works","order":1,"isAncillary":true},{"id":"yS8ERe18t","option":"The science behind it","order":2,"isAncillary":true},{"id":"yS8ERx0dY","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Forest-Floor Fruiting Chamber
 
