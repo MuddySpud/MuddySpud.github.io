@@ -63,9 +63,12 @@ Add what to notice in intro to demo.
   - why don't you experiment...
   - The architexture choices we made in this demo are for demonstration purposes only.
 
-Need to do the same for cultivars - a bit more text about the plant including flavour, medicinal how it is supplied ie rfid pad for a bay if herb, or module if not, what dishes or cuisine it is used in 
-Don't include any technical info abut how it is grown - restrict it to the crop
 
 Need to have some way for the technical exploration of demo to include when in the chain it is linking to a new tree perhaps show a screen shot of the map with that step highlighed and open in the markdown editor.
   
-In Twin when you select a category the ancillary button if collapsed is half outside the box.!!!!!!!!
+Need to end with a nicely written summary of all the features they have seen in the demo.
+Remove gardens from spaces
+
+
+At the very end of the web page I want to have a summary, written in the very gentle style you have been using up to now. Below are all the main sections on the page before the demo to help you come up with suggestions for the Summary:
+
