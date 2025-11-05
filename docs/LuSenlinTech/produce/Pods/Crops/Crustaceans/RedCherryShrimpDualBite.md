@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/RedCherryShrimpDual
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAbji24n","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/RedCherryShrimpDualBite_frags"},"fragment":{"id":"yWAbji24n","topLevelMapKey":"yUlE2801ok","mapKeyChain":"yUlE2801ok","guideID":"yWAbji0Um","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/RedCherryShrimpDualBite.tspod","chartKey":"yUlE2801ok","isLeaf":false,"options":[{"id":"yWAbjw1HM","option":"Dual-Bite - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygH1jl1dd","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/RedCherryShrimpDualBite_frags"},"fragment":{"id":"ygH1jl1dd","topLevelMapKey":"yUlE2801ok","mapKeyChain":"yUlE2801ok","guideID":"ygH1jl07b","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/RedCherryShrimpDualBite.tspod","chartKey":"yUlE2801ok","isLeaf":false,"options":[{"id":"ygH1jx0Ni","option":"Dual-Bite - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red-Cherry Shrimp ‘Dual-Bite’
 

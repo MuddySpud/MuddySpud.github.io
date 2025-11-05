@@ -1,67 +1,71 @@
 {
     "v": "1",
     "r": {
-        "i": "yWAXIG0fg",
+        "i": "ygGx8j1iN",
         "n": "s7LPkv17x",
         "c": 0,
         "o": [
             {
-                "i": "yWAXIR0h6",
+                "i": "ygGx8v0hl",
                 "n": "s7LPkv0T6",
                 "x": "s7LPr60ZH",
                 "c": 1,
                 "o": [
                     {
-                        "i": "yWAXId1Rz",
+                        "i": "ygGx971rf",
                         "n": "s7LPkv1Np",
                         "x": "s7LPoO19j",
                         "c": 2,
                         "o": [
                             {
-                                "i": "yWAXIz1JG",
+                                "i": "ygGx9C1VG",
                                 "n": "s7LPkv0FM",
                                 "x": "s7SMOZ0VN",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "yWAXIz10r",
+                                        "i": "ygGx9C1Sl",
                                         "n": "s7LPkv1H7",
-                                        "x": "s7SMXt1dV"
+                                        "x": "s7SMXt1dV",
+                                        "c": 4
                                     },
                                     {
-                                        "i": "yWAXJO0zw",
+                                        "i": "ygGx9O1wi",
                                         "n": "s7LPkv2U6",
-                                        "x": "s7SMXt0Xu"
+                                        "x": "s7SMXt0Xu",
+                                        "c": 4
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "i": "yWAXJq1bt",
+                        "i": "ygGx9m2Ih",
                         "n": "s7LPkv1Ye",
                         "x": "s7LPoO04R",
                         "o": [
                             {
-                                "i": "yWAXJv0Eb",
+                                "i": "ygGx9q1oP",
                                 "n": "uXAz8Y01gX",
                                 "c": 2,
                                 "o": [
                                     {
-                                        "i": "yWAXJv1zS",
+                                        "i": "ygGx9q0J7",
                                         "n": "xCdPrg00BZ",
                                         "x": "s7SMOZ0VN",
                                         "c": 3,
                                         "o": [
                                             {
-                                                "i": "yWAXJv2PB",
+                                                "i": "ygGx9q0X6",
                                                 "n": "xCdSxK004c",
-                                                "x": "s7SMXt1dV"
+                                                "x": "s7SMXt1dV",
+                                                "c": 4
                                             },
                                             {
-                                                "i": "yWAXK11rh",
+                                                "i": "ygGx9z253",
                                                 "n": "xCdSxK026w",
-                                                "x": "s7SMXt0Xu"
+                                                "x": "s7SMXt0Xu",
+                                                "c": 4
                                             }
                                         ]
                                     }
@@ -70,26 +74,28 @@
                         ]
                     },
                     {
-                        "i": "yWAXKX0cS",
+                        "i": "ygGxAe0Yw",
                         "n": "s7LPkv2b0",
                         "x": "s7LPoO2Y3",
-                        "c": 4,
+                        "c": 5,
                         "o": [
                             {
-                                "i": "yWAXKb01c",
+                                "i": "ygGxAj1x5",
                                 "n": "uXjObW00cy",
                                 "x": "uXcsWB01pQ",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "yWAXKc2U3",
+                                        "i": "ygGxAj0xK",
                                         "n": "uXjU7W01F7",
-                                        "x": "s7SMXt1dV"
+                                        "x": "s7SMXt1dV",
+                                        "c": 4
                                     },
                                     {
-                                        "i": "yWAXKj2EC",
+                                        "i": "ygGxAs1hN",
                                         "n": "uXjU7W019Z",
-                                        "x": "s7SMXt0Xu"
+                                        "x": "s7SMXt0Xu",
+                                        "c": 4
                                     }
                                 ]
                             }
@@ -115,6 +121,10 @@
         {
             "i": "s7SMXt0ol",
             "p": "_site/LuSenlinTech/equipment/Power_frags"
+        },
+        {
+            "i": "yd9vwR005i",
+            "p": "_site/Technical/Conclusion_frags"
         },
         {
             "i": "uXEN9G00lv",

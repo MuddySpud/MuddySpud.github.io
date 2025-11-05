@@ -7,7 +7,10 @@
 
 - An advanced material engineered at the nanoscale to manipulate heat and light.
 - Transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K).
+- Features an anti-condensation surface that prevents droplet formation, ensuring maximum light penetration and reducing fungal risk.
 - Lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
+- Integrated Spectral Tuning: (Optional) Micro-thin organic phosphor layers that can be electrically tuned to shift the light spectrum, enhancing specific plant growth phases (e.g., more blue for vegetation, more red for fruiting) in coordination with the nanoSunBeam™ LEDs.
+- Self-Diagnostic Layer: (Optional) An embedded transparent conductive oxide grid that can monitor panel integrity and light transmission uniformity, reporting performance data directly to the harvestSage™ AI.
 
 ¬pureLight_short:
 **{{tm.pureLightTM}}** - transmits 95% of light of glass whilst providing superior insulation (~0.002–0.005 W/m·K). It is lightweight, durable, maximizes photosynthesis by maintaining stable temperatures for year-round crop growth.¬
@@ -77,6 +80,9 @@ A smart hydroponic insert featuring a bio-engineered nanofiber matrix that mimic
 
 ¬hydraPad_short:
 **{{tm.hydraPadTM}}** - a smart hydroponic insert that uses a bio-engineered nanofiber matrix and quantum sensors to optimize aquatic plant growth and enable 95% nutrient recycling, with a {{tm.slideLockTM}} mechanism for 10-second swaps.¬
+
+¬coreFrame: 
+**{{tm.coreFrame}}** - The primary structural unit (1000mm × 500mm × 500mm) that integrates all integratedUtilities and hosts all modules via slideLockShelves.¬
 
 ¬aromaticHerb_short:
 **{{tm.aromaticHerbs}}** - small, quick-maturing plants used to enhance dishes with vibrant tastes and aromas.¬

@@ -63,12 +63,14 @@ Add what to notice in intro to demo.
   - why don't you experiment...
   - The architexture choices we made in this demo are for demonstration purposes only.
 
-
+#### Tech path
 Need to have some way for the technical exploration of demo to include when in the chain it is linking to a new tree perhaps show a screen shot of the map with that step highlighed and open in the markdown editor.
-  
-Need to end with a nicely written summary of all the features they have seen in the demo.
-Remove gardens from spaces
 
+#### Spaces - write text differences
+Need to write out the differences between spaces ie garden could have a shelter and different anchors - need the get Deepseek to work that out for each space what are their differnces based on what it knows.
+Then need to script out a rough path and ask Deepseek to critique it. What text to edit, add or remove.
 
-At the very end of the web page I want to have a summary, written in the very gentle style you have been using up to now. Below are all the main sections on the page before the demo to help you come up with suggestions for the Summary:
+#### - Spaces field special treatment
+Ask DS to script out text to say that the field needs special treatment and to give us a call - ask deepseek what it thinks...
+Need a technical summary for the techncal path.
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAcrS1m3","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags"},"fragment":{"id":"yWAcrS1m3","topLevelMapKey":"yAOOHb01WO","mapKeyChain":"yAOOHb01WO","guideID":"yWAcrS24G","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint.tspod","chartKey":"yAOOHb01WO","isLeaf":false,"options":[{"id":"yWAcrf2VT","option":"Genovese Pesto Mint™ - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygH2vA1oC","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags"},"fragment":{"id":"ygH2vA1oC","topLevelMapKey":"yAOOHb01WO","mapKeyChain":"yAOOHb01WO","guideID":"ygH2vA0nz","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint.tspod","chartKey":"yAOOHb01WO","isLeaf":false,"options":[{"id":"ygH2vX0CB","option":"Genovese Pesto Mint™ - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Genovese Pesto Mint™ (low-menthol, pesto-friendly)
 

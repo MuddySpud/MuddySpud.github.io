@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/MicroLotusLilypad
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAaxj1xV","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/MicroLotusLilypad8_frags"},"fragment":{"id":"yWAaxj1xV","topLevelMapKey":"y4kvun01iu","mapKeyChain":"y4kvun01iu","guideID":"yWAaxj0JJ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/MicroLotusLilypad8.tspod","chartKey":"y4kvun01iu","isLeaf":false,"options":[{"id":"yWAaxu1m8","option":"Lilypad-8 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygH0wJ0Or","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/MicroLotusLilypad8_frags"},"fragment":{"id":"ygH0wJ0Or","topLevelMapKey":"y4kvun01iu","mapKeyChain":"y4kvun01iu","guideID":"ygH0wJ1ut","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/MicroLotusLilypad8.tspod","chartKey":"y4kvun01iu","isLeaf":false,"options":[{"id":"ygH0wW1S1","option":"Lilypad-8 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Lotus ‘Lilypad-8’ *(edible shoots & decorative pads)*
 

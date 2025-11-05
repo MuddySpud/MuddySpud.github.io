@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/AmanoShrimpCleanSwe
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAblQ02t","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/AmanoShrimpCleanSweepUrban_frags"},"fragment":{"id":"yWAblQ02t","topLevelMapKey":"yUloHg01SO","mapKeyChain":"yUloHg01SO","guideID":"yWAblQ2aw","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/AmanoShrimpCleanSweepUrban.tspod","chartKey":"yUloHg01SO","isLeaf":false,"options":[{"id":"yWAblb0Ga","option":"CleanSweep Urban - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygH1lc04p","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/AmanoShrimpCleanSweepUrban_frags"},"fragment":{"id":"ygH1lc04p","topLevelMapKey":"yUloHg01SO","mapKeyChain":"yUloHg01SO","guideID":"ygH1lc0b2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/AmanoShrimpCleanSweepUrban.tspod","chartKey":"yUloHg01SO","isLeaf":false,"options":[{"id":"ygH1lr1S7","option":"CleanSweep Urban - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Amano Shrimp ‘CleanSweep Urban’
 

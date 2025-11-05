@@ -1,2 +1,12 @@
-Do you have a power socket near where the vertical garden will be installed?
+¬import tm from "../../../_shared/tradeMarks"
+
+
+##### Power
+
+Is there a reliable power socket near your garden's location?
+
+This helps us determine the best way to power your tower's climate control, lighting, and automation systems.
+
+*   **Yes** - Perfect! Your tower can connect directly to the grid for uninterrupted operation.
+*   **No** - Not a problem. Our system is designed for off-grid resilience. We will automatically configure your setup with an integrated **{{tm.solisCellTM}}** power module to ensure it runs independently.
 

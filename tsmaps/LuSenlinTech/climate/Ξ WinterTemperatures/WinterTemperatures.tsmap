@@ -9,7 +9,7 @@
     "iExits": [
         {
             "key": "s7LPkr1rO",
-            "text": "Next",
+            "text": "Exit",
             "order": 1
         }
     ],
@@ -21,19 +21,46 @@
                 "key": "s7LPkr1GS",
                 "order": 1,
                 "option": "0°C",
-                "exitKey": "s7LPkr1rO"
+                "iKey": "yh1EhX01Pb",
+                "nodes": [
+                    {
+                        "key": "yhFspm01SJ",
+                        "order": 1,
+                        "option": "Exit",
+                        "iExitKey": "yhFfuv01Iq",
+                        "exitKey": "s7LPkr1rO"
+                    }
+                ]
             },
             {
                 "key": "s7LPkr2MR",
                 "order": 2,
                 "option": "-10°C",
-                "exitKey": "s7LPkr1rO"
+                "iKey": "yh1EhX01Pb",
+                "nodes": [
+                    {
+                        "key": "yhFxCg01YZ",
+                        "order": 1,
+                        "option": "Exit",
+                        "iExitKey": "yhFfuv01Iq",
+                        "exitKey": "s7LPkr1rO"
+                    }
+                ]
             },
             {
                 "key": "s7LPkr0Wo",
                 "order": 3,
                 "option": "-20°C",
-                "exitKey": "s7LPkr1rO"
+                "iKey": "yh1EhX01Pb",
+                "nodes": [
+                    {
+                        "key": "yhFzqP009z",
+                        "order": 1,
+                        "option": "Exit",
+                        "iExitKey": "yhFfuv01Iq",
+                        "exitKey": "s7LPkr1rO"
+                    }
+                ]
             }
         ]
     },
@@ -41,11 +68,23 @@
         {
             "key": "δ-s7LPkr1pv",
             "relativePath": "./δ steps/δ-pLv2tN01Bh.tsstp"
+        },
+        {
+            "key": "δ-s7LPkr1GS",
+            "relativePath": "./δ steps/δ-s7LPkr1GS.tsstp"
+        },
+        {
+            "key": "δ-s7LPkr2MR",
+            "relativePath": "./δ steps/δ-s7LPkr2MR.tsstp"
+        },
+        {
+            "key": "δ-s7LPkr0Wo",
+            "relativePath": "./δ steps/δ-s7LPkr0Wo.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "tCpRUX0035",
-        "editorID": "me_5910d2e0e70e49aca6747e8d4712b402",
-        "ticks": 1757322482201
+        "id": "yhGExH01tc",
+        "editorID": "car_d4808cf00df44c028f203c95b7699f6e",
+        "ticks": 1762352823107
     }
 }

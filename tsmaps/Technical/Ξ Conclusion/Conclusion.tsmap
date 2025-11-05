@@ -1,0 +1,44 @@
+{
+    "key": "yd9vwR005i  ",
+    "token": "Conclusion",
+    "name": "Conclusion",
+    "created": "2025-11-04T21:36:54.707Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Ξ Conclusion/Conclusion.tsmap",
+    "iText": "Link to 'Conclusion'",
+    "___rΩΩt___": {
+        "key": "yd9xwf027n",
+        "nodes": [
+            {
+                "key": "ygyI2D01gR",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "ydD4hz02Gc",
+                        "order": 1,
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-yd9xwf027n",
+            "relativePath": "./δ steps/δ-yd9xwf027n.tsstp"
+        },
+        {
+            "key": "δ-ydD4hz02Gc",
+            "relativePath": "./δ steps/δ-ydD4hz02Gc.tsstp"
+        },
+        {
+            "key": "δ-ygyI2D01gR",
+            "relativePath": "./δ steps/δ-ygyI2D01gR.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "ygyXfZ02Ea",
+        "editorID": "car_8d7300ba9a194747abe70119818ba5e9",
+        "ticks": 1762348605141
+    }
+}

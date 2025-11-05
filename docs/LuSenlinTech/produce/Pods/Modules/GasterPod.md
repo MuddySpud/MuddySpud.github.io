@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/GasterPod_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAZ8O0CX","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/GasterPod_frags"},"fragment":{"id":"yWAZ8O0CX","topLevelMapKey":"wkNV3B00J5","mapKeyChain":"wkNV3B00J5","guideID":"yWAZ8O17y","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/GasterPod.tspod","chartKey":"wkNV3B00J5","isLeaf":false,"options":[{"id":"yWAZ8T1BI","option":"GasterPod details","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygGz4g17A","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/GasterPod_frags"},"fragment":{"id":"ygGz4g17A","topLevelMapKey":"wkNV3B00J5","mapKeyChain":"wkNV3B00J5","guideID":"ygGz4g0XL","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/GasterPod.tspod","chartKey":"wkNV3B00J5","isLeaf":false,"options":[{"id":"ygGz4r1ox","option":"GasterPod details","order":1,"isAncillary":true}]}} -->
 
 | GasterPod | A humidity-stable 90 mm maze keeps edible snails active for stronger shells. Bio-film drip-feeds supply calcium and probiotics. | Snails - all 10 Balcony breeds |
 {: .nt-fr-columns}

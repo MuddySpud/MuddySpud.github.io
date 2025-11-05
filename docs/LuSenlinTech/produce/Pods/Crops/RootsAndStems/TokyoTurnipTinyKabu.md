@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAZzy1GX","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu_frags"},"fragment":{"id":"yWAZzy1GX","topLevelMapKey":"yKVXY900Rn","mapKeyChain":"yKVXY900Rn","guideID":"yWAZzz2ai","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu.tspod","chartKey":"yKVXY900Rn","isLeaf":false,"options":[{"id":"yWAa0A0Bz","option":"Tiny Kabu - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygGzxJ0dq","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu_frags"},"fragment":{"id":"ygGzxJ0dq","topLevelMapKey":"yKVXY900Rn","mapKeyChain":"yKVXY900Rn","guideID":"ygGzxJ0Ls","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu.tspod","chartKey":"yKVXY900Rn","isLeaf":false,"options":[{"id":"ygGzxV0SW","option":"Tiny Kabu - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Tokyo Turnip ‘Tiny Kabu’
 

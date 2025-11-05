@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/PinkOysterCandyCap_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yWAb191kF","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/PinkOysterCandyCap_frags"},"fragment":{"id":"yWAb191kF","topLevelMapKey":"yQIzNL019Q","mapKeyChain":"yQIzNL019Q","guideID":"yWAb190eN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/PinkOysterCandyCap.tspod","chartKey":"yQIzNL019Q","isLeaf":false,"options":[{"id":"yWAb1N2Qu","option":"Candy-Cap - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ygH104256","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/PinkOysterCandyCap_frags"},"fragment":{"id":"ygH104256","topLevelMapKey":"yQIzNL019Q","mapKeyChain":"yQIzNL019Q","guideID":"ygH1041CN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/PinkOysterCandyCap.tspod","chartKey":"yQIzNL019Q","isLeaf":false,"options":[{"id":"ygH10G0E6","option":"Candy-Cap - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Pink Oyster ‘Candy-Cap’
 

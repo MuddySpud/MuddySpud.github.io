@@ -1,89 +1,95 @@
 {
     "v": "1",
     "r": {
-        "i": "yWAXLo2T7",
+        "i": "ygGxCB0dx",
         "n": "s7LPlH1pM",
         "c": 0,
         "o": [
             {
-                "i": "yWAXM01Yp",
+                "i": "ygGxCR12j",
                 "n": "uTmD5l005o",
                 "x": "s7LPr60ZH",
                 "c": 1,
                 "o": [
                     {
-                        "i": "yWAXM62aa",
+                        "i": "ygGxCY2Uk",
                         "n": "uTqFcx011n",
                         "x": "s7LPoO19j",
                         "c": 2,
                         "o": [
                             {
-                                "i": "yWAXM61ke",
+                                "i": "ygGxCZ16A",
                                 "n": "uUIlHJ01ew",
                                 "x": "s7SMOZ0VN",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "yWAXM60zM",
+                                        "i": "ygGxCZ03v",
                                         "n": "uUIwcU01nd",
-                                        "x": "s7SMXt1dV"
+                                        "x": "s7SMXt1dV",
+                                        "c": 4
                                     },
                                     {
-                                        "i": "yWAXME25J",
+                                        "i": "ygGxCr1YR",
                                         "n": "uUIwcU00ZX",
-                                        "x": "s7SMXt0Xu"
+                                        "x": "s7SMXt0Xu",
+                                        "c": 4
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "i": "yWAXMb1yI",
+                        "i": "ygGxDM18S",
                         "n": "uTqFcx01v9",
                         "x": "s7LPoO04R",
                         "c": 2,
                         "o": [
                             {
-                                "i": "yWAXMb1hh",
+                                "i": "ygGxDM1Fl",
                                 "n": "uX8nQy01E2",
                                 "x": "s7SMOZ0VN",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "yWAXMb2Jh",
+                                        "i": "ygGxDM0Yw",
                                         "n": "uX8qfD0069",
-                                        "x": "s7SMXt1dV"
+                                        "x": "s7SMXt1dV",
+                                        "c": 4
                                     },
                                     {
-                                        "i": "yWAXMi1y5",
+                                        "i": "ygGxDU0eY",
                                         "n": "uX8qfD00kW",
-                                        "x": "s7SMXt0Xu"
+                                        "x": "s7SMXt0Xu",
+                                        "c": 4
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "i": "yWAXN51WA",
+                        "i": "ygGxDr2FE",
                         "n": "uTqFcx00Qd",
                         "x": "s7LPoO2Y3",
-                        "c": 4,
+                        "c": 5,
                         "o": [
                             {
-                                "i": "yWAXN52QA",
+                                "i": "ygGxDr1Xo",
                                 "n": "uXiRX502FW",
                                 "x": "uXcsWB01pQ",
                                 "c": 3,
                                 "o": [
                                     {
-                                        "i": "yWAXN51aD",
+                                        "i": "ygGxDr2O4",
                                         "n": "uXiZKC00Pb",
-                                        "x": "s7SMXt1dV"
+                                        "x": "s7SMXt1dV",
+                                        "c": 4
                                     },
                                     {
-                                        "i": "yWAXNC18Y",
+                                        "i": "ygGxDz1MG",
                                         "n": "uXiZKC00o0",
-                                        "x": "s7SMXt0Xu"
+                                        "x": "s7SMXt0Xu",
+                                        "c": 4
                                     }
                                 ]
                             }
@@ -109,6 +115,10 @@
         {
             "i": "s7SMXt0ol",
             "p": "_site/LuSenlinTech/equipment/Power_frags"
+        },
+        {
+            "i": "yd9vwR005i",
+            "p": "_site/Technical/Conclusion_frags"
         },
         {
             "i": "uXEN9G00lv",

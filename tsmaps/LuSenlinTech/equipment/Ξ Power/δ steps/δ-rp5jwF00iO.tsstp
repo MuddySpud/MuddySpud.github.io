@@ -1,5 +1,9 @@
 ¬import tm from "../../../_shared/tradeMarks"
 
 
-For installations without a reliable grid power source - such as remote small holdings, urban balconies, or off-grid farms - we add a {{tm.solisCellTM}} rechargeable battery block to the Frame Tower. 
+### Powering Your Off-Grid Vertical Garden
+
+For installations without grid power, the system seamlessly integrates a **{{tm.solisCellTM}}** rechargeable battery block to power all tower functions.
+
+For sustained operation, we recommend pairing it with **{{tm.hotCarrierTM}}** Solar Panels. A complimentary drone survey of your location will assess sunlight exposure to determine the optimal panel configuration for your needs, ensuring reliable power even in low-light conditions.
 

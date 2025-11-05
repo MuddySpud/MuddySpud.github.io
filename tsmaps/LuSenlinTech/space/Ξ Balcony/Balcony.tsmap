@@ -7,142 +7,154 @@
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Ξ Balcony/Balcony.tsmap",
     "iText": "Link to 'Balcony'",
     "___rΩΩt___": {
-        "key": "s7LPkv17x",
+        "key": "yhJqMu02OH",
         "nodes": [
             {
-                "key": "s7LPkv07Q",
+                "key": "yhPSyA00ua",
                 "order": 1,
-                "iKey": "s7LPr60IG",
                 "nodes": [
                     {
-                        "key": "s7LPkv0T6",
+                        "key": "s7LPkv17x",
                         "order": 1,
-                        "option": "Next",
-                        "sharedAssetKey": "uToSHd01Fr",
-                        "iExitKey": "s7LPr60ZH",
                         "nodes": [
                             {
-                                "key": "s7LPkv1yE",
+                                "key": "s7LPkv07Q",
                                 "order": 1,
-                                "iKey": "s7LPoO1sh",
+                                "iKey": "s7LPr60IG",
                                 "nodes": [
                                     {
-                                        "key": "s7LPkv1Np",
+                                        "key": "s7LPkv0T6",
                                         "order": 1,
-                                        "option": "Low effort",
-                                        "sharedAssetKey": "uXAwGH00gN",
-                                        "iExitKey": "s7LPoO19j",
+                                        "option": "Next",
+                                        "sharedAssetKey": "uToSHd01Fr",
+                                        "iExitKey": "s7LPr60ZH",
                                         "nodes": [
                                             {
-                                                "key": "s7LPkv01W",
+                                                "key": "s7LPkv1yE",
                                                 "order": 1,
-                                                "iKey": "s7SMOZ0AN",
+                                                "iKey": "s7LPoO1sh",
                                                 "nodes": [
                                                     {
-                                                        "key": "s7LPkv0FM",
+                                                        "key": "s7LPkv1Np",
                                                         "order": 1,
-                                                        "option": "Next",
-                                                        "iKey": "s7SMXt0ol",
-                                                        "iExitKey": "s7SMOZ0VN",
+                                                        "option": "Low effort",
+                                                        "sharedAssetKey": "uXAwGH00gN",
+                                                        "iExitKey": "s7LPoO19j",
                                                         "nodes": [
                                                             {
-                                                                "key": "s7LPkv1H7",
+                                                                "key": "s7LPkv01W",
                                                                 "order": 1,
-                                                                "option": "Has power supply",
-                                                                "sharedAssetKey": "uX72fC01wW",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt1dV"
-                                                            },
-                                                            {
-                                                                "key": "s7LPkv2U6",
-                                                                "order": 2,
-                                                                "option": "No power supply",
-                                                                "sharedAssetKey": "uX6c2N00fo",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt0Xu"
+                                                                "iKey": "s7SMOZ0AN",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "s7LPkv0FM",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iKey": "s7SMXt0ol",
+                                                                        "iExitKey": "s7SMOZ0VN",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "s7LPkv1H7",
+                                                                                "order": 1,
+                                                                                "option": "Has power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt1dV"
+                                                                            },
+                                                                            {
+                                                                                "key": "s7LPkv2U6",
+                                                                                "order": 2,
+                                                                                "option": "No power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt0Xu"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "key": "s7LPkv1Ye",
-                                        "order": 2,
-                                        "option": "Moderate effort",
-                                        "sharedAssetKey": "uXAzYX00yg",
-                                        "iExitKey": "s7LPoO04R",
-                                        "nodes": [
-                                            {
-                                                "key": "uXAz8Y01gX",
-                                                "order": 1,
-                                                "option": "Next",
-                                                "iKey": "s7SMOZ0AN",
-                                                "nodes": [
+                                                    },
                                                     {
-                                                        "key": "xCdPrg00BZ",
-                                                        "order": 1,
-                                                        "option": "Next",
-                                                        "iKey": "s7SMXt0ol",
-                                                        "iExitKey": "s7SMOZ0VN",
+                                                        "key": "s7LPkv1Ye",
+                                                        "order": 2,
+                                                        "option": "Moderate effort",
+                                                        "sharedAssetKey": "uXAzYX00yg",
+                                                        "iExitKey": "s7LPoO04R",
                                                         "nodes": [
                                                             {
-                                                                "key": "xCdSxK004c",
+                                                                "key": "uXAz8Y01gX",
                                                                 "order": 1,
-                                                                "option": "Has power supply",
-                                                                "sharedAssetKey": "xCdWJK00c3",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt1dV"
-                                                            },
-                                                            {
-                                                                "key": "xCdSxK026w",
-                                                                "order": 2,
-                                                                "option": "No power supply",
-                                                                "sharedAssetKey": "xCdZj102LO",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt0Xu"
+                                                                "option": "Next",
+                                                                "iKey": "s7SMOZ0AN",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "xCdPrg00BZ",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iKey": "s7SMXt0ol",
+                                                                        "iExitKey": "s7SMOZ0VN",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "xCdSxK004c",
+                                                                                "order": 1,
+                                                                                "option": "Has power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt1dV"
+                                                                            },
+                                                                            {
+                                                                                "key": "xCdSxK026w",
+                                                                                "order": 2,
+                                                                                "option": "No power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt0Xu"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "key": "s7LPkv2b0",
-                                        "order": 3,
-                                        "option": "High effort\n",
-                                        "sharedAssetKey": "uXB6kh01fm",
-                                        "iExitKey": "s7LPoO2Y3",
-                                        "nodes": [
-                                            {
-                                                "key": "uXB6Dv017G",
-                                                "order": 1,
-                                                "iKey": "uXEN9G00lv",
-                                                "nodes": [
+                                                    },
                                                     {
-                                                        "key": "uXjObW00cy",
-                                                        "order": 1,
-                                                        "option": "Next",
-                                                        "iKey": "s7SMXt0ol",
-                                                        "iExitKey": "uXcsWB01pQ",
+                                                        "key": "s7LPkv2b0",
+                                                        "order": 3,
+                                                        "option": "High effort\n",
+                                                        "sharedAssetKey": "uXB6kh01fm",
+                                                        "iExitKey": "s7LPoO2Y3",
                                                         "nodes": [
                                                             {
-                                                                "key": "uXjU7W01F7",
+                                                                "key": "uXB6Dv017G",
                                                                 "order": 1,
-                                                                "option": "Has power supply",
-                                                                "sharedAssetKey": "uXjYGq01VQ",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt1dV"
-                                                            },
-                                                            {
-                                                                "key": "uXjU7W019Z",
-                                                                "order": 2,
-                                                                "option": "No power supply",
-                                                                "sharedAssetKey": "uXjh2d00Av",
-                                                                "isLeaf": true,
-                                                                "iExitKey": "s7SMXt0Xu"
+                                                                "iKey": "uXEN9G00lv",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "uXjObW00cy",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "iKey": "s7SMXt0ol",
+                                                                        "iExitKey": "uXcsWB01pQ",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "uXjU7W01F7",
+                                                                                "order": 1,
+                                                                                "option": "Has power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt1dV"
+                                                                            },
+                                                                            {
+                                                                                "key": "uXjU7W019Z",
+                                                                                "order": 2,
+                                                                                "option": "No power supply",
+                                                                                "isLeaf": true,
+                                                                                "iKey": "yd9vwR005i",
+                                                                                "iExitKey": "s7SMXt0Xu"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -200,16 +212,6 @@
             "relativePath": "./δ steps/δ-rqpliI019O.tsstp"
         },
         {
-            "key": "uX6c2N00fo",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "uX72fC01wW",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
             "key": "δ-uXAz8Y01gX",
             "relativePath": "./δ steps/δ-uXAz8Y01gX.tsstp"
         },
@@ -222,33 +224,45 @@
             "relativePath": "./δ steps/δ-uXjObW00cy.tsstp"
         },
         {
-            "key": "uXjYGq01VQ",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
-            "key": "uXjh2d00Av",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
-        },
-        {
             "key": "δ-xCdPrg00BZ",
             "relativePath": "./δ steps/δ-xCdPrg00BZ.tsstp"
         },
         {
-            "key": "xCdWJK00c3",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
+            "key": "δ-s7LPkv1H7",
+            "relativePath": "./δ steps/δ-s7LPkv1H7.tsstp"
         },
         {
-            "key": "xCdZj102LO",
-            "relativePath": "../_share/processStep.tsstp",
-            "isShared": true
+            "key": "δ-s7LPkv2U6",
+            "relativePath": "./δ steps/δ-s7LPkv2U6.tsstp"
+        },
+        {
+            "key": "δ-xCdSxK004c",
+            "relativePath": "./δ steps/δ-xCdSxK004c.tsstp"
+        },
+        {
+            "key": "δ-xCdSxK026w",
+            "relativePath": "./δ steps/δ-xCdSxK026w.tsstp"
+        },
+        {
+            "key": "δ-uXjU7W01F7",
+            "relativePath": "./δ steps/δ-uXjU7W01F7.tsstp"
+        },
+        {
+            "key": "δ-uXjU7W019Z",
+            "relativePath": "./δ steps/δ-uXjU7W019Z.tsstp"
+        },
+        {
+            "key": "δ-yhJqMu02OH",
+            "relativePath": "./δ steps/δ-yhJqMu02OH.tsstp"
+        },
+        {
+            "key": "δ-yhPSyA00ua",
+            "relativePath": "./δ steps/δ-yhPSyA00ua.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xCeVO501qe",
-        "editorID": "car_4b73cc9d01674122a29ce4f158e499ae",
-        "ticks": 1760984406897
+        "id": "yhPeCq01zW",
+        "editorID": "car_afe77564bff54b6e9b907e7e56f6147e",
+        "ticks": 1762355065124
     }
 }
