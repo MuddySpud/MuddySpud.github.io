@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/ShiitakeUrbanLog_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUca10CH","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ShiitakeUrbanLog_frags"},"fragment":{"id":"yoUca10CH","topLevelMapKey":"yQK4Zy00j4","mapKeyChain":"yQK4Zy00j4","guideID":"yoUca11i7","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ShiitakeUrbanLog.tspod","chartKey":"yQK4Zy00j4","isLeaf":false,"options":[{"id":"yoUcaL0dU","option":"Urban Log - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU82C1Yo","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ShiitakeUrbanLog_frags"},"fragment":{"id":"ytU82C1Yo","topLevelMapKey":"yQK4Zy00j4","mapKeyChain":"yQK4Zy00j4","guideID":"ytU82C0vN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ShiitakeUrbanLog.tspod","chartKey":"yQK4Zy00j4","isLeaf":false,"options":[{"id":"ytU82N0HM","option":"Urban Log - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Shiitake ‘Urban Log’
 

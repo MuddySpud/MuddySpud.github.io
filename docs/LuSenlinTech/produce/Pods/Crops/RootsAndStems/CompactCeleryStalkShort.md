@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/CompactCeleryStal
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUbWn2C6","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/CompactCeleryStalkShort_frags"},"fragment":{"id":"yoUbWn2C6","topLevelMapKey":"yKZ2Ua01tJ","mapKeyChain":"yKZ2Ua01tJ","guideID":"yoUbWn0nV","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/CompactCeleryStalkShort.tspod","chartKey":"yKZ2Ua01tJ","isLeaf":false,"options":[{"id":"yoUbWz1Jz","option":"Stalk-Short - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU7Do02q","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/CompactCeleryStalkShort_frags"},"fragment":{"id":"ytU7Do02q","topLevelMapKey":"yKZ2Ua01tJ","mapKeyChain":"yKZ2Ua01tJ","guideID":"ytU7Do2UD","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/CompactCeleryStalkShort.tspod","chartKey":"yKZ2Ua01tJ","isLeaf":false,"options":[{"id":"ytU7Dz1P4","option":"Stalk-Short - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Compact Celery ‘Stalk-Short’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWh
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUbG81T0","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite_frags"},"fragment":{"id":"yoUbG81T0","topLevelMapKey":"yKV2VE0040","mapKeyChain":"yKV2VE0040","guideID":"yoUbG80DF","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite.tspod","chartKey":"yKV2VE0040","isLeaf":false,"options":[{"id":"yoUbGJ1YH","option":"Metro-White - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU6zM02L","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite_frags"},"fragment":{"id":"ytU6zM02L","topLevelMapKey":"yKV2VE0040","mapKeyChain":"yKV2VE0040","guideID":"ytU6zM2Ej","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite.tspod","chartKey":"yKV2VE0040","isLeaf":false,"options":[{"id":"ytU6zY1Wt","option":"Metro-White - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Daikon ‘Metro-White’
 

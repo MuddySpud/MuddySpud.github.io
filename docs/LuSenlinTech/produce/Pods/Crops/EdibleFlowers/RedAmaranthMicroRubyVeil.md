@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroR
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUbgu0Z5","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil_frags"},"fragment":{"id":"yoUbgu0Z5","topLevelMapKey":"yQAg7T00Fp","mapKeyChain":"yQAg7T00Fp","guideID":"yoUbgu1fB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil.tspod","chartKey":"yQAg7T00Fp","isLeaf":false,"options":[{"id":"yoUbh71Zh","option":"Ruby Veil - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU7Lx0Y3","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil_frags"},"fragment":{"id":"ytU7Lx0Y3","topLevelMapKey":"yQAg7T00Fp","mapKeyChain":"yQAg7T00Fp","guideID":"ytU7Lx1h0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil.tspod","chartKey":"yQAg7T00Fp","isLeaf":false,"options":[{"id":"ytU7M30No","option":"Ruby Veil - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red Amaranth Micro ‘Ruby Veil’
 

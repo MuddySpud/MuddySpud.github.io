@@ -7,10 +7,9 @@ fragsFolderPath: LuSenlinTech/space/Balcony_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUXyl2S2","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"yoUXyl2S2","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"yoUXyl11c","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"yoUXys0fO","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"yoUXz41hw","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU5Ad2J8","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"ytU5Ad2J8","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"ytU5Ad0wj","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"ytU5Ak1XH","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"ytU5Aw01K","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
 
-## Tiny Patio or Balcony 
-
+## Tiny Patio or Balcony
 
 A Tiny Patio or Balcony is a perfect space for a productive vertical garden.
 
@@ -21,5 +20,5 @@ The survey will analyze:
 *   **Micro-Climate Mapping:** Identifying potential wind tunnels, frost pockets, or heat sinks specific to your balcony.
 *   **Structural Planning:** Ensuring the ideal placement for both plant health and your enjoyment of the space.
 
-This data allows us to fine-tune everything from the tilt of your **HotCarrier™** solar panels to the schedule of your **PrecisionHeat™** system, guaranteeing your garden thrives in its unique environment.
+This data allows us to fine-tune the schedule of your **PrecisionHeat™** system and other climate controls, guaranteeing your garden thrives in its unique environment. If your system requires off-grid power, this survey will also determine the optimal tilt and placement for **HotCarrier™** solar panels.
 

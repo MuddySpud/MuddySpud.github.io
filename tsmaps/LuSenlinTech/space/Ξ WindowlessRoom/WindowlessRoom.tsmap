@@ -12,23 +12,29 @@
             {
                 "key": "ytDo8F027h",
                 "order": 1,
-                "iKey": "s7SMXt0ol",
+                "iKey": "ytJKIf021t",
                 "nodes": [
                     {
-                        "key": "ytE16a0175",
+                        "key": "ytOX7H00H0",
                         "order": 1,
                         "option": "Has power supply",
                         "isLeaf": true,
                         "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt1dV"
+                        "iExitKey": "ytLNSq01qu"
                     },
                     {
-                        "key": "ytE16a02ML",
+                        "key": "ytOX7H01EL",
                         "order": 2,
                         "option": "No power supply",
-                        "isLeaf": true,
-                        "iKey": "yjFhSI02KP",
-                        "iExitKey": "s7SMXt0Xu"
+                        "iExitKey": "ytLP1Q00bO",
+                        "nodes": [
+                            {
+                                "key": "ytT6AX023T",
+                                "order": 1,
+                                "isLeaf": true,
+                                "iKey": "yjFhSI02KP"
+                            }
+                        ]
                     }
                 ]
             }
@@ -44,17 +50,21 @@
             "relativePath": "./δ steps/δ-ytDo8F027h.tsstp"
         },
         {
-            "key": "δ-ytE16a0175",
-            "relativePath": "./δ steps/δ-ytE16a0175.tsstp"
+            "key": "δ-ytOX7H00H0",
+            "relativePath": "./δ steps/δ-ytOX7H00H0.tsstp"
         },
         {
-            "key": "δ-ytE16a02ML",
-            "relativePath": "./δ steps/δ-ytE16a02ML.tsstp"
+            "key": "δ-ytOX7H01EL",
+            "relativePath": "./δ steps/δ-ytOX7H01EL.tsstp"
+        },
+        {
+            "key": "δ-ytT6AX023T",
+            "relativePath": "./δ steps/δ-ytT6AX023T.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "ytEAb600Gi",
-        "editorID": "car_64fef826fe504ef4be19422bc22589d0",
-        "ticks": 1762529645732
+        "id": "ytTAbW01iN",
+        "editorID": "car_f25f95109dd8498880e19ffd2e0d8465",
+        "ticks": 1762533220678
     }
 }

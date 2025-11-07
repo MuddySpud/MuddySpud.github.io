@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfYardLongBeanSh
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUb3x0UW","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfYardLongBeanShortLong_frags"},"fragment":{"id":"yoUb3x0UW","topLevelMapKey":"yKQtdo01ol","mapKeyChain":"yKQtdo01ol","guideID":"yoUb3x2Va","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfYardLongBeanShortLong.tspod","chartKey":"yKQtdo01ol","isLeaf":false,"options":[{"id":"yoUb4B0SP","option":"Short-Long - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU6r02Il","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfYardLongBeanShortLong_frags"},"fragment":{"id":"ytU6r02Il","topLevelMapKey":"yKQtdo01ol","mapKeyChain":"yKQtdo01ol","guideID":"ytU6r024O","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfYardLongBeanShortLong.tspod","chartKey":"yKQtdo01ol","isLeaf":false,"options":[{"id":"ytU6r80bn","option":"Short-Long - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Yard-Long Bean ‘Short-Long’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUdmW0Mz","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_frags"},"fragment":{"id":"yoUdmW0Mz","topLevelMapKey":"yUuUre00Pd","mapKeyChain":"yUuUre00Pd","guideID":"yoUdmW083","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia.tspod","chartKey":"yUuUre00Pd","isLeaf":false,"options":[{"id":"yoUdmk0MQ","option":"Balconia - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU8yN1u7","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_frags"},"fragment":{"id":"ytU8yN1u7","topLevelMapKey":"yUuUre00Pd","mapKeyChain":"yUuUre00Pd","guideID":"ytU8yN2Xc","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia.tspod","chartKey":"yUuUre00Pd","isLeaf":false,"options":[{"id":"ytU8yb1iu","option":"Balconia - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Pocket Oyster ‘Balconia’
 

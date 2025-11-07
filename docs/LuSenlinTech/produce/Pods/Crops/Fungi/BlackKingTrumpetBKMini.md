@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUcd51g2","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_frags"},"fragment":{"id":"yoUcd51g2","topLevelMapKey":"yQKcZC00Lv","mapKeyChain":"yQKcZC00Lv","guideID":"yoUcd51Dg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini.tspod","chartKey":"yQKcZC00Lv","isLeaf":false,"options":[{"id":"yoUcdN1Wo","option":"BK-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU83g0B7","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_frags"},"fragment":{"id":"ytU83g0B7","topLevelMapKey":"yQKcZC00Lv","mapKeyChain":"yQKcZC00Lv","guideID":"ytU83g1Hx","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini.tspod","chartKey":"yQKcZC00Lv","isLeaf":false,"options":[{"id":"ytU83r0dI","option":"BK-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Black King Trumpet ‘BK-Mini’
 

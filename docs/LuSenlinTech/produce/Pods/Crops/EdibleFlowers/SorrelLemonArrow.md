@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUbnX1l8","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_frags"},"fragment":{"id":"yoUbnX1l8","topLevelMapKey":"yQCOvW00N0","mapKeyChain":"yQCOvW00N0","guideID":"yoUbnX13g","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow.tspod","chartKey":"yQCOvW00N0","isLeaf":false,"options":[{"id":"yoUbnl28C","option":"Lemon Arrow - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU7R01dr","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_frags"},"fragment":{"id":"ytU7R01dr","topLevelMapKey":"yQCOvW00N0","mapKeyChain":"yQCOvW00N0","guideID":"ytU7R01VU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow.tspod","chartKey":"yQCOvW00N0","isLeaf":false,"options":[{"id":"ytU7RC2YQ","option":"Lemon Arrow - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Sorrel ‘Lemon Arrow’
 

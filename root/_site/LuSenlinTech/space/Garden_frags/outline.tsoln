@@ -1,128 +1,32 @@
 {
     "v": "1",
     "r": {
-        "i": "yoUXzx2Pt",
+        "i": "ytU5Bd1K8",
         "n": "s7LPlH1pM",
         "c": 0,
         "o": [
             {
-                "i": "yoUY072Cn",
-                "n": "uTmD5l005o",
-                "x": "s7LPr60ZH",
-                "c": 1,
-                "o": [
-                    {
-                        "i": "yoUY0M0Pc",
-                        "n": "uTqFcx011n",
-                        "x": "s7LPoO19j",
-                        "c": 2,
-                        "o": [
-                            {
-                                "i": "yoUY0S0My",
-                                "n": "uUIlHJ01ew",
-                                "x": "s7SMOZ0VN",
-                                "c": 3,
-                                "o": [
-                                    {
-                                        "i": "yoUY0S16q",
-                                        "n": "uUIwcU01nd",
-                                        "x": "s7SMXt1dV",
-                                        "c": 4
-                                    },
-                                    {
-                                        "i": "yoUY0d1UY",
-                                        "n": "uUIwcU00ZX",
-                                        "x": "s7SMXt0Xu",
-                                        "c": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "i": "yoUY150FZ",
-                        "n": "uTqFcx01v9",
-                        "x": "s7LPoO04R",
-                        "c": 2,
-                        "o": [
-                            {
-                                "i": "yoUY1B0F8",
-                                "n": "uX8nQy01E2",
-                                "x": "s7SMOZ0VN",
-                                "c": 3,
-                                "o": [
-                                    {
-                                        "i": "yoUY1B2Ae",
-                                        "n": "uX8qfD0069",
-                                        "x": "s7SMXt1dV",
-                                        "c": 4
-                                    },
-                                    {
-                                        "i": "yoUY1K1hA",
-                                        "n": "uX8qfD00kW",
-                                        "x": "s7SMXt0Xu",
-                                        "c": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "i": "yoUY1l0qw",
-                        "n": "uTqFcx00Qd",
-                        "x": "s7LPoO2Y3",
-                        "c": 5,
-                        "o": [
-                            {
-                                "i": "yoUY1r0Ku",
-                                "n": "uXiRX502FW",
-                                "x": "uXcsWB01pQ",
-                                "c": 3,
-                                "o": [
-                                    {
-                                        "i": "yoUY1r1RH",
-                                        "n": "uXiZKC00Pb",
-                                        "x": "s7SMXt1dV",
-                                        "c": 4
-                                    },
-                                    {
-                                        "i": "yoUY1z1Ae",
-                                        "n": "uXiZKC00o0",
-                                        "x": "s7SMXt0Xu",
-                                        "c": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "i": "ytU5Bq0sm",
+                "n": "ytCYcq01Eo",
+                "x": "s7SMXt1dV",
+                "c": 1
+            },
+            {
+                "i": "ytU5Bz15u",
+                "n": "ytCYcq00fc",
+                "x": "s7SMXt0Xu",
+                "c": 1
             }
         ]
     },
     "c": [
         {
-            "i": "s7LPr60IG",
-            "p": "_site/LuSenlinTech/climate/Climate_frags"
-        },
-        {
-            "i": "s7LPoO1sh",
-            "p": "_site/LuSenlinTech/preferences/ClientEffort_frags"
-        },
-        {
-            "i": "s7SMOZ0AN",
-            "p": "_site/LuSenlinTech/equipment/FrameTower_frags"
-        },
-        {
             "i": "s7SMXt0ol",
             "p": "_site/LuSenlinTech/equipment/Power_frags"
         },
         {
-            "i": "yd9vwR005i",
-            "p": "_site/Technical/Conclusion_frags"
-        },
-        {
-            "i": "uXEN9G00lv",
-            "p": "_site/LuSenlinTech/equipment/CustomFrameTower_frags"
+            "i": "yjFhSI02KP",
+            "p": "_site/LuSenlinTech/preferences/Customisation_frags"
         }
     ],
     "e": 0,

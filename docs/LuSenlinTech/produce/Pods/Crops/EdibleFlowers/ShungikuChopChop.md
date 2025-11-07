@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUblB0Vx","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_frags"},"fragment":{"id":"yoUblB0Vx","topLevelMapKey":"yQBrrR002h","mapKeyChain":"yQBrrR002h","guideID":"yoUblB1Fu","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop.tspod","chartKey":"yQBrrR002h","isLeaf":false,"options":[{"id":"yoUblS0ua","option":"Chop-Chop - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU7PH0pP","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_frags"},"fragment":{"id":"ytU7PH0pP","topLevelMapKey":"yQBrrR002h","mapKeyChain":"yQBrrR002h","guideID":"ytU7PH2Ia","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop.tspod","chartKey":"yQBrrR002h","isLeaf":false,"options":[{"id":"ytU7PT0qd","option":"Chop-Chop - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Shungiku ‘Chop-Chop’
 

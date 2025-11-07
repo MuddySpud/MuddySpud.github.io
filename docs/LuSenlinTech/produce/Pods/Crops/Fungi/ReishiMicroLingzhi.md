@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/ReishiMicroLingzhi_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUco91uE","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ReishiMicroLingzhi_frags"},"fragment":{"id":"yoUco91uE","topLevelMapKey":"yQl4gh01Nc","mapKeyChain":"yQl4gh01Nc","guideID":"yoUco911q","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ReishiMicroLingzhi.tspod","chartKey":"yQl4gh01Nc","isLeaf":false,"options":[{"id":"yoUcoP1uM","option":"Micro-Lingzhi - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU8CL14w","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ReishiMicroLingzhi_frags"},"fragment":{"id":"ytU8CL14w","topLevelMapKey":"yQl4gh01Nc","mapKeyChain":"yQl4gh01Nc","guideID":"ytU8CL1T6","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/ReishiMicroLingzhi.tspod","chartKey":"yQl4gh01Nc","isLeaf":false,"options":[{"id":"ytU8CX0zC","option":"Micro-Lingzhi - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Reishi ‘Micro-Lingzhi’
 

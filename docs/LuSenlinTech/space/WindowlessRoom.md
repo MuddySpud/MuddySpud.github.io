@@ -7,6 +7,18 @@ fragsFolderPath: LuSenlinTech/space/WindowlessRoom_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUY3i0Oc","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"yoUY3i0Oc","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"yoUY3i0x4","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/WindowlessRoom.tsmap","chartKey":"s7SMNu079","isLeaf":true,"options":[]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU5CZ0s0","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"ytU5CZ0s0","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"ytU5CZ1gb","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/WindowlessRoom.tsmap","chartKey":"s7SMNu079","isLeaf":false,"options":[{"id":"ytU5Ch2We","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"ytU5Cs0Cx","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
 
-todo
+## Windowless Room
+
+A windowless room offers the ultimate controlled environment for a vertical garden, completely independent of the weather and seasons outside.
+
+Here, we become the source of everything your plants need to thrive. We engineer a perfect, self-contained ecosystem where light, climate, and nutrients are precisely calibrated for maximum growth and flavour.
+
+Your system will feature:
+*   **Full-Spectrum Climate Control:** A sealed environment with managed temperature and humidity, free from pests and pollutants.
+*   **Precision Lighting:** A **NanoSunBeam™** LED array provides the complete light spectrum for photosynthesis, replacing the sun with a consistent, energy-efficient alternative.
+*   **Guaranteed Power:** A reliable grid connection is essential to power the lighting and environmental systems for optimal, year-round harvests.
+
+This approach transforms a blank canvas into a hyper-efficient food production cell, yielding perfect, clean produce 365 days a year.
+

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/UrbanMudCrabSoftShe
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yoUdY80JT","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/UrbanMudCrabSoftShellMicro_frags"},"fragment":{"id":"yoUdY80JT","topLevelMapKey":"yUqelo0110","mapKeyChain":"yUqelo0110","guideID":"yoUdY811C","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/UrbanMudCrabSoftShellMicro.tspod","chartKey":"yUqelo0110","isLeaf":false,"options":[{"id":"yoUdYL0jP","option":"Soft-Shell Micro - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"ytU8oK1Ec","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/UrbanMudCrabSoftShellMicro_frags"},"fragment":{"id":"ytU8oK1Ec","topLevelMapKey":"yUqelo0110","mapKeyChain":"yUqelo0110","guideID":"ytU8oK03s","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/UrbanMudCrabSoftShellMicro.tspod","chartKey":"yUqelo0110","isLeaf":false,"options":[{"id":"ytU8oW2RX","option":"Soft-Shell Micro - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Urban Mud Crab ‘Soft-Shell Micro’
 
