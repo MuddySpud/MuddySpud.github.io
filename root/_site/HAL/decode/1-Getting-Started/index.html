@@ -1,0 +1,203 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCGN079","path":"HAL/decode","fragmentFolderPath":"HAL/decode/1-Getting-Started_frags"},"fragment":{"id":"fdLCGN079","topLevelMapKey":"eGWgvI27x","mapKeyChain":"eGWgvI27x","guideID":"fdLCGN0fU","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/1-GettingStarted-decode.tsmap","parentFragmentID":null,"chartKey":"eGWgvI27x","options":[]}} -->
+
+<h2 id="1-getting-started">1. Getting Started</h2>
+
+<p><a href="#10-the-beta">1.0. The Beta</a><br />
+<a href="#11-projects">1.1. Projects</a><br />
+<a href="#12-structure">1.2. Structure</a><br />
+<a href="#13-interface-overview">1.3. Interface Overview</a><br />
+<a href="#14-variables">1.4. Variables</a><br />
+<a href="#15-assets">1.5. Assets</a></p>
+
+<hr />
+<h3 id="10-the-beta">1.0. The Beta</h3>
+
+<h4 id="welcome-to-the-decode-by-hal-robotics-beta">Welcome to the <em>decode</em> by HAL Robotics Beta!:</h4>
+
+<p><em>decode</em>’s primary purpose is to give operators, those with expert process knowledge, enough agency to adapt a robot’s task without burdening them with the complexities of programming. For system integrators and roboticists, however, it serves as a means of quickly setting up complex robotic toolpaths, simulating and validating those procedures, and then sending them as native robot code to your machines.</p>
+
+<p><em>decode</em> is built on top of the HAL Robotics Framework which has been in use for nearly a decade in different guises within multi-nationals, SMEs, research institutions and academia. So, whilst <em>decode</em> is a new user interface and workflow, the Framework under the hood is stable.</p>
+
+<p>That being said, the interface is new so we know there will be issues and instabilities within it, hence the need for a Beta. As such, we recommend erring on the side of caution when using physical hardware and running simulations in OEM tools wherever possible to ensure everything works as expected. Please also read the next two sections which cover <a href="#current-limitations">known limitations</a> and <a href="#feedback">feedback procedures</a>.</p>
+
+<h4 id="current-limitations">Current Limitations:</h4>
+
+<ol>
+  <li>We are using <a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a> as a visualisation engine within <em>decode</em> and as such it will need to be installed before you can install <em>decode</em>. We are working with McNeel to automate this process for you and will be working with them to simplify the licensing of the complete software so that there’s a single point of entry, account management etc. when using <em>decode</em>.</li>
+  <li>If you are using Rhino 8 (the latest version) please open Rhino, run the <code class="language-plaintext highlighter-rouge">SetDotNetRuntime</code> command and select <code class="language-plaintext highlighter-rouge">NETFramework</code> before running <em>decode</em>. Again, we are working with the McNeel team to try and streamline this during installation.</li>
+  <li><em>decode</em> currently in Beta, so you will need to ensure the <strong>include beta</strong> box is ticked in the installer before it will be shown. To do this, open the HAL Robotics Framework installer and tick the <strong>include beta</strong> box in the upper right-hand corner:
+<a href="/HAL/assets/images/Overview/01InstallerPackages-IncludeBeta.png" class="big-image"><center><img src="/HAL/assets/images/Overview/01InstallerPackages-IncludeBeta.png" /></center></a></li>
+  <li><em>Limitation removed in HAL.decode version 1.5.25-beta</em> <del><strong>Save</strong> is currently disabled. We are still working out the final details of how and where we store data which means that we will almost certainly break any previously saved projects. Whilst we know this will be frustrating we hope it will discourage particularly time-consuming development and therefore limit the frustrations of losing that work anyway further down the line. This is a top priority for us and <strong>save</strong> will be coming soon™.</del></li>
+  <li>Things will be getting fixed and updated very frequently so there will be weekly or maybe even daily updates pushed so please check back in the installer before launching the software on any given day. Once it’s stable, the update cadence will slow and this will no longer be necessary, although we will still keep releasing meaningful feature updates, tweaks and fixes as necessary.</li>
+  <li>We are currently limiting the cells to one robot with one tool and no external axes/positioners. This is temporary to keep things relatively simple but if you need multi-robot or external axis support, please use the <a href="/HAL/Grasshopper">Grasshopper SDK</a>.</li>
+  <li>Whilst you will have to log in to <em>decode</em>, the licensing has been deactivated so you will, for now, have free access to everything in there. We will try to ensure you get fair warning before that changes.</li>
+  <li>As mentioned above, this is a Beta interface so there are likely to be anomalies, a few bugs and maybe even the occasional crash. We would like as much <a href="#feedback">feedback</a> as you can give.</li>
+</ol>
+
+<h4 id="feedback">Feedback:</h4>
+
+<p>We appreciate your support helping us make <em>decode</em> a stable interface that you can trust for your development needs now and hopefully long into the future. If you find any bugs or major issues please let us know, preferably through our <a href="https://github.com/HALRobotics/Beta">GitHub issues or discussions</a> so that anyone else with the same experience can chime in and, if need be, help us pinpoint the source of the error. Please give us as much detail as possible as that will ensure we can reproduce the problem internally and therefore identify, and fix, the root cause rather than the symptom.</p>
+
+<p>We would also be very receptive to anything that could make your experience better. That could be features you’d like to see, interactions that could be improved or any other suggestions you have. Again if those go through our <a href="https://github.com/HALRobotics/Beta/discussions">GitHub page</a> then we can have an open discussion about how those would work and get input from others on the same subject.</p>
+
+<p>Of course, if you have anything nice to say about <em>decode</em> then we’d love to hear that too, on <a href="https://github.com/HALRobotics/Beta/discussions">GitHub</a>, by <a href="mailto:the-team@hal-robotics.com">email</a> or in whatever public forum you feel is appropriate.</p>
+
+<h4 id="where-next">Where Next</h4>
+
+<p>If you are new to our software, we would recommend starting with the <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> tutorial which will get you up and running.</p>
+
+<p>If you already familiar with our software and have our installer loaded, you can re-run it, make sure <strong>include beta</strong> is ticked on, and you’ll be ready to go.</p>
+
+<p>Thank you once again for helping to make <em>decode</em> better.</p>
+
+<hr />
+<h3 id="11-projects">1.1. Projects</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll see how to create a HAL Robotics <em>decode</em> Project so we can start programming robots.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p><em>decode</em> will enable you to prepare a complete robot programming environment and we store all of the data associated to that environment in a <strong>Project</strong>. The <strong>Project</strong> is a folder with a series of files, each of which holds different information about the environment you’ve created or are using.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>Once you’ve opened <em>decode</em>, and logged in to the HAL Robotics Framework to access your licenses, you should be presented with a list of <strong>Projects</strong> that are stored on your PC. If this is the first time you’re opening the software, this list may well be empty. By default, all your <strong>Projects</strong> will be stored in a folder within you <em>Documents</em> folder but you can change that by clicking on <strong>change projects folder</strong> in the bottom right-hand corner of the window. If you want to shared <strong>Projects</strong> between multiple computers, you could set this folder to be somewhere on a networked drive.</p>
+
+<p>If the <strong>Project</strong> you want to open is listed, you can open it by either double-clicking, or clicking once to select, then on the <strong>open</strong> button.</p>
+
+<p>If this is your first <strong>Project</strong> or you want to start a new <strong>Project</strong>, click on the <strong>new</strong> button in the upper right-hand corner. This will take you to a new screen where you can give the <strong>Project</strong> a <em>Name</em> and <em>Description</em> to help you identify it in the list next time you open <em>decode</em>. The <em>Name</em> will also be the final part of the <em>Destination</em> path and we will alert you if that <em>Name</em> is already in use.</p>
+
+<p>Once you’re happy with those details, click <strong>ok</strong>. We will create that <strong>Project</strong> for you and automatically open it ready for you to start your new endeavour.</p>
+
+<hr />
+<h3 id="12-structure">1.2. Structure</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll outline <em>decode</em>’s structure to ensure you have a high-level understanding of the steps required to work with it.</p>
+
+<h4 id="background-1">Background:</h4>
+
+<p><em>decode</em>’s ultimate aim is to provide an operator, <a href="/HAL/Overview/Glossary#manipulator">Robot</a>(s) and any other peripherals with a set of shared work instructions. These instructions will guide the operator through their task and ask them to make decisions about how the robot’s process(es) should be undertaken, combining the operator’s intelligence and expert knowledge with the speed, accuracy and tirelessness of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. To get that setup, there are a few steps you’ll need to go through.</p>
+
+<p><a href="/HAL/assets/images/decode/00-Overview/Overview-TabLayout.png" class="pad-top"><img src="/HAL/assets/images/decode/00-Overview/Overview-TabLayout.png" /></a>
+<em class="pad-bottom">The <em>decode</em> tabs.</em></p>
+
+<p>First is the <a href="/HAL/decode/2-Cell#2-cell-setup">Cell Setup</a>. This covers everything you’ll need to build up a virtual version, or digital twin, of your robotic <a href="/HAL/Overview/Glossary#cell">Cell</a>. This includes selecting your <a href="/HAL/Overview/Glossary#manipulator">Robots</a>, <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, <a href="/HAL/Overview/Glossary#reference">References</a>, and <a href="/HAL/Overview/Glossary#part">Parts</a> as well as set up your <a href="/HAL/Overview/Glossary#signal">I/O Signals</a> and assemble all of these into a complete digital system through a <a href="/HAL/Overview/Glossary#controller">Controller</a>. This is done in the <strong>Scene</strong> and <strong>Network</strong> tabs, the first two in the list on the left-hand-side of your screen.</p>
+
+<p>Then comes <a href="/HAL/decode/3-Programming#3-programming">Programming</a>. This is the next tab down and will allow you to define the <a href="/HAL/Overview/Glossary#procedure">Procedures</a> which tell the <a href="/HAL/Overview/Glossary#manipulator">Robots</a> in your <a href="/HAL/Overview/Glossary#cell">Cell</a> what to do, and how they should do it.</p>
+
+<p>With a virtual <a href="/HAL/Overview/Glossary#cell">Cell</a> and <a href="/HAL/Overview/Glossary#procedure">Procedures</a> in place, we can start working on the <a href="/HAL/decode/4-Workflows#4-operator-workflows">Operator Workflows</a>. These contain the instructions for the operator and the <a href="/HAL/Overview/Glossary#cell">Cell</a> and could include things like asking the operator to load a <a href="/HAL/Overview/Glossary#part">Part</a>, asking the operator how fast the robot should go on the next run, or start the execution of the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#procedure">Procedures</a>. <a href="/HAL/decode/4-Workflows#4-operator-workflows">Operator Workflows</a> are created in the <strong>Workflow Editor</strong> tab, and run from the <strong>Workflow Executor</strong> tab which is just after the blue line, and the only one an operator should need.</p>
+
+<p>The two tabs we’ve glossed over are for the management of <a href="#14-variables">Variables</a> and <a href="#15-assets">Assets</a>. They aren’t part of the core flow but are useful when you need them so it is worth reading up on them below.</p>
+
+<hr />
+<h3 id="13-interface-overview">1.3. Interface Overview</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll take a look at the layout of <em>decode</em> and the common patterns you’ll find throughout the software.</p>
+
+<h4 id="background-2">Background:</h4>
+
+<p>On the far left hand side of <em>decode</em>, there is a set of vertical tabs. Each of these tabs will take you to a new screen with a different purpose, each of which is outlined above in <a href="#12-structure">Structure</a>. To the right of the screens is your 3D viewport. That will show you the <a href="/HAL/decode/2-Cell#2-cell-setup">scene</a> that you’ve built including all of the components of your <a href="/HAL/Overview/Glossary#cell">Cell</a>, your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> and your <a href="/HAL/Overview/Glossary#73-simulation">Simulations</a>. You can move around/pan in the viewport by pressing and holding the left mouse button, and rotate/orbit by pressing and holding the right mouse button.</p>
+
+<p>The actual content of each screen will vary depending on what it’s designed to configure but as a general rule you’ll find a collection of items that can be created, edited, manipulated or deleted. The colour of those items will indicate their state. 
+Let’s use the <a href="/HAL/decode/2-Cell#2-cell-setup">scene</a> screen as an example.</p>
+
+<p>At the top of the screen you’ll see the <em>Item Type</em> selector which allows you to specify the kind of item to create. <strong>It’s important to note that the options in the selector are contextual, that is to say, they change based on what is selected in the rest of the screen and potentially any existing content.</strong> For example, you can’t attach anything but a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> to a <a href="/HAL/Overview/Glossary#manipulator">Robots</a> or anything at all to a <a href="/HAL/Overview/Glossary#controller">Controller</a>. This is because whatever you add next will be a <em>child</em> of the selected item but you can deselect the current item by clicking in any part of the screen’s white space.
+Next to the selector is a <strong>+</strong> which will add that item to <a href="/HAL/decode/2-Cell#2-cell-setup">scene</a> and open it up for editing straight away. Once you’ve added a few items to the <a href="/HAL/decode/2-Cell#2-cell-setup">scene</a>, you can change their order or who is attached to whom by dragging and dropping the items. Drag and drop behaviours are also contextual, so if you can’t drop an item somewhere it’s likely for a good reason.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-CompleteScene.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-CompleteScene.png" /></a>
+<em class="pad-bottom">The <em>decode</em> scene screen.</em></p>
+
+<p>If we add a <a href="/HAL/Overview/Glossary#reference">Reference</a> we can see a standard item editor screen. At the very top is the item’s <em>Name</em>. This can, and should, be changed to identify the item more easily and, in the case of items that get <a href="/HAL/Overview/Glossary#export">exported</a> to robot code, will be the <a href="/HAL/Overview/Glossary#export">exported</a> name. You can also rename items from the main screens by right-clicking on them or selecting them and pressing <em>F2</em>. The <strong>ok</strong> button here finishes editing of the item and closes the editor. You can always return to an editor by double-clicking the item or selecting it and using the <em>edit</em> icon in the top right-hand corner of the screen. 
+Immediately below that top row is a <em>Creator</em> selector. This allows you to choose how you want to create the item. In the case of a <a href="/HAL/Overview/Glossary#reference">Reference</a>, the choices are <strong>From Location</strong> or <strong>From Variable</strong>. Each <em>Creator</em> has a <em>Wizard</em> which contains a series of <em>Steps</em> that configure the item. Each <em>Step</em> has a coloured dot on its left which indicates whether running the <em>Step</em> succeeded or not. Its border will also change colour if the data you have input isn’t valid. If that’s the case, it will need to be fixed before we attempt to run the <em>Step</em> again. Some <em>Steps</em> have default values which means they are valid when created, others don’t and will need to be edited before anything can happen.
+Any <em>Step</em> that can be edited has an icon to indicate that fact. Any other <em>Steps</em> are uneditable. You can start editing the <em>Step</em> by clicking anywhere on the <em>Step</em> but only one <em>Step</em> can be edited at a time.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddReference-NoSteps.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddReference-NoSteps.png" /></a>
+<em class="pad-bottom">The <em>decode</em> Reference editor.</em></p>
+
+<h5 id="locations">Locations</h5>
+<p>By clicking on the <strong>Location</strong> <em>Step</em>, we see a fairly standard editor view. Some settings require selections from a list of options, others are numeric values and they should make sense in the context. Hovering over the setting’s name should give you some additional guidance if you need it. By changing the <em>Position</em> or <em>Rotation</em> values you’ll see the <a href="/HAL/Overview/Glossary#reference">Reference</a> in your <a href="/HAL/decode/2-Cell#2-cell-setup">scene</a> move. We provide this kind of immediate visual feedback wherever possible and that means that changes are immediately applied. If the setting has a <strong>🔗</strong> symbol, it means that setting can be linked to a <a href="#14-variables">Variable</a> which you can find out more about below.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddReference-Location.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddReference-Location.png" /></a>
+<em class="pad-bottom">The <em>decode</em> Reference editor with the Location Step being edited.</em></p>
+
+<h5 id="translation-overrides">Translation Overrides</h5>
+<p>The <strong>Translation Overrides</strong> <em>Step</em> is common amongst items that will be <a href="/HAL/Overview/Glossary#export">exported</a> to robot code and shows another setting type, the toggle. You’ll find these dotted around the software and they will allow you to activate or deactivate other, optional settings. In this case, whether or not you want to change how the <em>Name</em> of the <a href="/HAL/Overview/Glossary#reference">Reference</a> is <a href="/HAL/Overview/Glossary#export">exported</a>, and if so, how.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddReference-TranslationOverrides.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddReference-TranslationOverrides.png" /></a>
+<em class="pad-bottom">The <em>decode</em> Reference editor with the Translation Override Step being edited.</em></p>
+
+<p>There are a few other settings types that you’ll find within the software that are worth being aware of.</p>
+
+<ul>
+  <li><strong>Catalogue</strong> settings will load a catalogue of presets in a new window. Double clicking on, or selecting, an item will close the catalogue and return you to the editor.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddRobot-Catalogue.gif" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddRobot-Catalogue.gif" /></a>
+<em class="pad-bottom">The robot catalogue.</em></p>
+
+<ul>
+  <li><strong>Nested Wizards</strong> are <em>Wizards</em> within <em>Wizards</em>. They are mainly used to group <em>Steps</em> or allow you to swap between a different set of <em>Steps</em> for a single operation, and work just like the normal <em>Wizards</em>.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreatePart.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreatePart.png" /></a>
+<em class="pad-bottom">A nested Wizard.</em></p>
+
+<ul>
+  <li><strong>Menus</strong> store a few extra commands in certain screens, generally for adding or removing entire collections. Their content changes based on the screen they’re on.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-AddSubProcedure-Menu.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-AddSubProcedure-Menu.png" /></a>
+<em class="pad-bottom">A menu button.</em></p>
+
+<ul>
+  <li><strong>Selectors</strong> allow you to select items from your 3D viewport. They have their own collection of items which you can add to or remove from but can also have constraints like allowing only a single item. A pop-up at the top of the viewport will give you extra information during the selection process.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowCurve-FromModel-Selector.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowCurve-FromModel-Selector.png" /></a>
+<em class="pad-bottom">A selector in action.</em></p>
+
+<hr />
+<h3 id="14-variables">1.4. Variables</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll look at the <strong>Variable</strong> manager and how it can help you manage your variables in <em>decode</em>.</p>
+
+<h4 id="background-3">Background:</h4>
+
+<p><strong>Variables</strong> are used to reuse data or values in multiple locations throughout <em>decode</em>. For example, they could be used to ensure that the same speed is assigned to multiple <a href="/HAL/decode/3-Programming#31-move">Moves</a> or that the <a href="/HAL/Overview/Glossary#blend">blend radius</a> matches the spacing of a sanding pattern. <strong>Variables</strong> are always of a specific type, i.e. a length, and are created from a setting which has a link <strong>🔗</strong> symbol. Clicking on that icon will bring up the local <strong>Variable</strong> manager, which will list existing, compatible <strong>Variables</strong>. If none are listed you can set the <em>Alias</em> and <em>Description</em> to create a new one. You can then use the buttons at the bottom of this window to <strong>link</strong> or <strong>unlink</strong> a setting from a <strong>Variable</strong>. You can return to this window after you’ve linked a <strong>Variable</strong> to a setting by clicking on the same button again. Once a setting has been linked to a <strong>Variable</strong> it will no longer be editable locally.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings-Variable.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings-Variable.png" /></a>
+<em class="pad-bottom">Variables make <em>decode</em> extremely flexible and allow changes to be propagated easily.</em></p>
+
+<p>The <strong>Variable</strong> manager, the screen with the link <strong>🔗</strong> symbol, allows you to manage all your existing <strong>Variables</strong>. The number of times a <strong>Variable</strong> is linked is shown in the upper corner of the <strong>Variable</strong> and any with <code class="language-plaintext highlighter-rouge">0</code> links can be deleted. All those with <code class="language-plaintext highlighter-rouge">0</code> links can be purged in a single click with the <strong>purge</strong> button. 
+By selecting a <strong>Variable</strong>, the <em>Alias</em> and <em>Description</em> can be changed and the value changed in the <em>Source</em> <em>Value</em> by using the <strong>edit</strong> button or setting it directly.</p>
+
+<p><strong>Variables</strong> are very powerful and can link out to other pieces of software to do data exchange. If you are interested in those more advanced features, please see the <a href="/HAL/decode/5-Advanced-Programming#5-advanced-programming">Advanced Programming tutorials</a>.</p>
+
+<hr />
+<h3 id="15-assets">1.5. Assets</h3>
+
+<h4 id="objective-4">Objective:</h4>
+
+<p>In this tutorial we’ll look at the <strong>Assets</strong> manager and how it can help you manage your imported assets in <em>decode</em>.</p>
+
+<h4 id="background-4">Background:</h4>
+
+<p>Coming soon.</p>
+
+<hr />
+
+<p><a href="/HAL/decode/2-Cell#2-cell-setup">Continue to: 2. Cell Setup</a></p>

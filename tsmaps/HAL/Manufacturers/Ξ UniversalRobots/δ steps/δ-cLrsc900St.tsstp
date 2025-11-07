@@ -1,0 +1,11 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+### 0. Tips
+
+1. We do not currently have a means to reference _TCPs_ and _Payloads_ from your current Installation so make sure these are accurately defined in your simulation.
+2. You can switch between Process Move (_movep_) and normal (_movel_) for linear motion in the {{gl.controller-link}} configurator.
+3. {{gl.signals-link}} are identified by their indices so either name your {{gl.signal-lc-link}} with an index, e.g. _2_, or use the [export overrides]{{ghl.grasshopper-reuse-controller-link-D}} to ensure the correct index is exported.
+
+---

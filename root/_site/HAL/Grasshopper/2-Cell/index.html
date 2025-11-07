@@ -1,0 +1,285 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC480dF","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/2-Cell_frags"},"fragment":{"id":"fdLC480dF","topLevelMapKey":"eGVQJ60uV","mapKeyChain":"eGVQJ60uV","guideID":"fdLC481xd","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/2-Cell.tsmap","parentFragmentID":null,"chartKey":"eGVQJ60uV","options":[]}} -->
+
+<h2 id="2-cell">2. Cell</h2>
+
+<p><a href="#21-insert-a-robot">2.1. Insert a Robot</a><br />
+<a href="#22-create-a-reference">2.2. Create a Reference</a><br />
+<a href="#23-create-a-part">2.3. Create a Part</a><br />
+<a href="#24-create-a-tool">2.4. Create a Tool</a><br />
+<a href="#25-calibrate-a-reference-or-tool">2.5. Calibrate a Reference or Tool</a><br />
+<a href="#26-create-a-multi-part-tool">2.6. Create a Multi-Part Tool</a><br />
+<a href="#27-create-a-positioner">2.7. Create a Positioner</a><br />
+<a href="#28-save-a-mechanism-as-a-preset">2.8. Save a Mechanism as a Preset [Coming Soon]</a></p>
+
+<hr />
+<h3 id="21-insert-a-robot">2.1. Insert a Robot</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this quick tutorial we’ll take a look how to insert a <strong>Robot</strong> preset in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="how-to">How to:</h4>
+
+<p>Within the <strong>HAL Robotics</strong> tab, under the <strong>Cell</strong> panel you will find a component called <strong>Robot</strong>. When you place this in the document you will notice that it has two interlocking squares <strong>⧉</strong> in its name. This is the symbol for a <a href="/HAL/Grasshopper/1-Getting-Started#13-components">pop-up window component</a> meaning we can double click on the component to bring up an additional user interface. In this case that’s a catalog listing all of the available <a href="/HAL/Overview/Glossary#manipulator">Robots</a> we’ve pre-created for your immediate use.</p>
+
+<p>You can use the search bar or tags listed on the left-hand side of the window to filter the <a href="/HAL/Overview/Glossary#manipulator">Robots</a> to find the one you want. Once you have identified the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> you want to add to the document simply double click or use the “Select” button to instantiate your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the scene. If you intend to <a href="/HAL/Overview/Glossary#export">Export</a> code to your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> it is a good habit to name your virtual <strong>Robot</strong> to match the real one using the <em>Alias</em> input. For example, the <code class="language-plaintext highlighter-rouge">IRB-1200</code> we have in the office is configured as <code class="language-plaintext highlighter-rouge">HAL_Jarvis</code>.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/21Robot.gif" class="big-image"><img src="/HAL/assets/images/Grasshopper/21Robot.gif" /></a>
+<em class="pad-bottom">It is good practice to name HAL objects by using the <em>Alias</em> input of the components.</em></p>
+
+<hr />
+<h3 id="22-create-a-reference">2.2. Create a Reference</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll see how to create <a href="/HAL/Overview/Glossary#reference">References</a> in HAL Robotics Framework components in Grasshopper.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.2%20-%20Create%20a%20Reference.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Reference.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#reference">References</a> are useful because they allow us to specify <a href="/HAL/Overview/Glossary#target">Targets</a> relative to something other than the world or the base of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. This means that they can be recalibrated in the real world without the need to regenerate a <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> or <a href="/HAL/Overview/Glossary#procedure">Procedure</a>.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>The simplest way to create a <a href="/HAL/Overview/Glossary#reference">Reference</a> is under the <strong>Cell</strong> panel, <strong>Create Reference</strong>. Our <a href="/HAL/Overview/Glossary#reference">Reference</a> defaults to the world origin but you can equally select any point from your Rhino or Grasshopper session. In this demo I’m going to use this point on the corner of my box which I’ve previously drawn in Rhino. I’m going to bring that into Grasshopper and assign it as the origin of an XY Plane and the <em>Frame</em> of my <strong>Reference</strong>. We can see the location of our <a href="/HAL/Overview/Glossary#reference">Reference</a> from these dashed axes with dots at the ends. You can also see that the <a href="/HAL/Overview/Glossary#reference">Reference</a> is labelled. To simplify finding our <a href="/HAL/Overview/Glossary#reference">References</a> later it’s advisable to give them an identifiable name, in this case <code class="language-plaintext highlighter-rouge">BoxCorner</code>, using the <em>Alias</em> input.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/22Reference.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/22Reference.gif" /></a>
+<em class="pad-bottom">It is good practice to name HAL objects by using the <em>Alias</em> input of the components.</em></p>
+
+<p>There are two main ways to use <a href="/HAL/Overview/Glossary#reference">References</a>, both of which can be demonstrated using the <strong>Target</strong> component and selecting the <strong>From Curve</strong> template.</p>
+<ul>
+  <li>The first, default, way of using the <a href="/HAL/Overview/Glossary#reference">Reference</a> can be seen by simply selecting a curve already in position in the world. We can see that the <a href="/HAL/Overview/Glossary#target">Targets</a> all follow the curve as it is drawn, but if we drill down into the <strong>Targets’</strong> properties using the <strong>Target Properties</strong> component, we can see that their <a href="/HAL/Overview/Glossary#reference">References</a> are correctly set to <code class="language-plaintext highlighter-rouge">BoxCorner</code>. If, in this configuration, we move our <a href="/HAL/Overview/Glossary#reference">Reference</a> you’ll see that the <a href="/HAL/Overview/Glossary#target">Targets</a> do not follow. That’s because the parameter <em>InWorld</em> is set to <code class="language-plaintext highlighter-rouge">true</code> meaning that both the <a href="/HAL/Overview/Glossary#target">Targets</a> and <a href="/HAL/Overview/Glossary#reference">Reference</a> are in their correct positions in the world and no modifications need to be made.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/Grasshopper/22TargetsAbsolute.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/22TargetsAbsolute.gif" /></a>
+<em class="pad-bottom">Targets created without reference will automatically have the world origin assigned as their reference. Their coordinates will be translated to robot code as they are.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/22TargetsAbsoluteReferenced.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/22TargetsAbsoluteReferenced.gif" /></a>
+<em class="pad-bottom">Targets created with a reference but <em>InWorld</em> will have the reference assigned but their location relative to the world origin won’t change. Their coordinates relative to the reference will be translated to robot code.</em></p>
+
+<ul>
+  <li>The other way of using the <a href="/HAL/Overview/Glossary#reference">References</a> is with geometry modelled relative to the world origin like this curve. If we set this up in the same way and change <em>InWorld</em> to <code class="language-plaintext highlighter-rouge">false</code> our <a href="/HAL/Overview/Glossary#target">Targets</a> maintain the same relative transformation between the world origin and their new <a href="/HAL/Overview/Glossary#reference">Reference</a>. Now when we move the <a href="/HAL/Overview/Glossary#reference">Reference</a> around, the relative <a href="/HAL/Overview/Glossary#target">Targets</a> follow.</li>
+</ul>
+
+<p><a href="/HAL/assets/images/Grasshopper/22ReferencedTargetsOnRoot.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/22ReferencedTargetsOnRoot.gif" /></a>
+<em class="pad-bottom">Targets created at the document origin then assigned to a reference, not <em>InWorld</em>, will follow the reference around the scene treating the reference as their new origin. Their coordinates relative to the reference will be translated to robot code.</em></p>
+
+<p><a href="/HAL/Overview/Glossary#reference">References</a> can also be parented. If we create another <a href="/HAL/Overview/Glossary#reference">Reference</a> and use Shift + Up to change overload we can see a <em>Parent</em> input appear and the same <em>InWorld</em> parameter that we saw in <strong>Target from Curve</strong>. If we use our old <a href="/HAL/Overview/Glossary#reference">Reference</a> as the <em>Parent</em> of this new <a href="/HAL/Overview/Glossary#reference">Reference</a>, add a bit of an offset by assigning the <em>Frame</em> and set <em>InWorld</em> to <code class="language-plaintext highlighter-rouge">false</code> we now have a <a href="/HAL/Overview/Glossary#reference">Reference</a> referenced to a <a href="/HAL/Overview/Glossary#reference">Reference</a>. We can reassign the <a href="/HAL/Overview/Glossary#reference">Reference</a> of our relative <a href="/HAL/Overview/Glossary#target">Targets</a> and see both the new <a href="/HAL/Overview/Glossary#reference">Reference</a> and our <a href="/HAL/Overview/Glossary#target">Targets</a> follow when <code class="language-plaintext highlighter-rouge">BoxCorner</code> is moved. This is of particular use if you have a calibrated work surface but want to perform work in different areas of it.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/22RelativeReferences.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/22RelativeReferences.gif" /></a>
+<em class="pad-bottom">References can be declared relative to each other.</em></p>
+
+<h4 id="next">Next:</h4>
+
+<p>Take a look at the next tutorial on creating <a href="/HAL/Overview/Glossary#part">Parts</a> to learn how to add geometry to your <a href="/HAL/Overview/Glossary#reference">References</a>.</p>
+
+<hr />
+<h3 id="23-create-a-part">2.3. Create a Part</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll see how to create <a href="/HAL/Overview/Glossary#part">Parts</a> using HAL Robotics Framework components in Grasshopper.</p>
+
+<h4 id="demo-files-1">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.3%20-%20Create%20a%20Part.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Part.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/2-Cell#22-create-a-reference">Create a Reference</a> tutorial is highly recommended.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#part">Parts</a> serve two roles in the HAL Robotics Framework. Firstly, they can be used to populate your <a href="/HAL/Overview/Glossary#cell">Cells</a> with environmental elements such as pedestals, tables or tool holders which can in turn be used as <a href="/HAL/Overview/Glossary#reference">References</a> for your <a href="/HAL/Overview/Glossary#toolpath">Toolpaths</a>. <a href="/HAL/Overview/Glossary#part">Parts</a> can also be used as the basis for creating your own <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> such as <a href="/HAL/Overview/Glossary#manipulator">Robots</a>, <a href="/HAL/Overview/Glossary#positioner">Positioners</a> or complex <a href="/HAL/Overview/Glossary#end-effector">Tools</a>.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>We can create a <a href="/HAL/Overview/Glossary#part">Part</a> by going to the <strong>Cell</strong> panel, <strong>Create Part</strong>. If you’ve seen the <a href="/HAL/Grasshopper/2-Cell#22-create-a-reference">Create a Reference</a> tutorial many of the inputs here will look familiar, in its simplest form a <a href="/HAL/Overview/Glossary#part">Part</a> is just a <a href="/HAL/Overview/Glossary#reference">Reference</a> with associated geometry. The <em>Frame</em> of our <a href="/HAL/Overview/Glossary#part">Part</a> is its base frame, that is to say if you were to set the position of the <a href="/HAL/Overview/Glossary#part">Part</a> that is the point that you would expect to be at the designated position. The <em>Body</em> is the geometry we want to assign to our <a href="/HAL/Overview/Glossary#part">Part</a>, and we can assign a <em>Mass</em>. The <em>Mass</em> is particularly necessary if this part is going to be used as part of a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> so that the total mass can be calculated and <a href="/HAL/Overview/Glossary#export">Exported</a> in your code.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/23Part.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/23Part.gif" /></a>
+<em class="pad-bottom">A part is a shape (approximated by meshes) with an associated location an mass.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/23PartAdvanced.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/23PartAdvanced.gif" /></a>
+<em class="pad-bottom">The second overload of the <a href="/HAL/Overview/Glossary#part">Part</a> component allows us to specify a few more details including the <em>Color</em> and <em>Centre of Mass</em>.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/23PartRelocate.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/23PartRelocate.gif" /></a>
+<em class="pad-bottom">Once you’ve created your <a href="/HAL/Overview/Glossary#part">Parts</a> they can be moved around your scene using the <strong>Relocate</strong> component.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/23PartAttach.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/23PartAttach.gif" /></a>
+<em class="pad-bottom"> Two parts can also be attached to each other using the <strong>Attach</strong> component.</em></p>
+
+<h4 id="next-1">Next:</h4>
+
+<p>Take a look at the <a href="#26-create-a-multi-part-tool">tutorial</a> on creating multi-<a href="/HAL/Overview/Glossary#part">Part</a> <a href="/HAL/Overview/Glossary#end-effector">Tools</a> and the creating your own <a href="/HAL/Overview/Glossary#positioner">Positioner</a> <a href="#27-create-a-positioner">tutorial</a> to learn how to use <a href="/HAL/Overview/Glossary#part">Parts</a> in other ways.</p>
+
+<hr />
+<h3 id="24-create-a-tool">2.4. Create a Tool</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll create a simple <a href="/HAL/Overview/Glossary#end-effector">Tool</a> in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-2">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.4%20-%20Create%20a%20Tool.3dm" class="icon-link"><img src="/HAL/assets/images/Grasshopper/RHFile16.PNG" />  Create a Tool.3dm</a>    <br />
+<a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.4%20-%20Create%20a%20Tool.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Tool.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-3">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/1-Getting-Started#1-getting-started">Getting Started</a> tutorial is highly recommended.</li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p>More often than not you will need a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> or <a href="/HAL/Overview/Glossary#end-effector">End Effector</a> in your <a href="/HAL/Overview/Glossary#cell">Cell</a> to undertake a process. The <a href="/HAL/Overview/Glossary#end-effector">Tool</a> could be anything from a welding torch to a spindle or even something as simple as a pen. <a href="/HAL/Overview/Glossary#end-effector">Tools</a> can be attached to the end of a manipulator like a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or stationary with a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> bringing the <a href="/HAL/Overview/Glossary#part">Part</a> to the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>In the Getting Started tutorial we used a preset <a href="/HAL/Overview/Glossary#end-effector">Tool</a> from the <strong>Tool</strong> catalog. With the enormous variety of <a href="/HAL/Overview/Glossary#end-effector">Tools</a> in the world and even the ease with which one can create an entirely unique, custom <a href="/HAL/Overview/Glossary#end-effector">Tool</a> for a process, chances are good that you will need to model your own <a href="/HAL/Overview/Glossary#end-effector">Tool</a> within the HAL Robotics Framework. In this demo we’re going to use this pencil holder as an example. The first thing we’re going to do is go to the <strong>HAL Robotics</strong> tab, <strong>Cell</strong> panel and select the <strong>Create Tool</strong> component. If you’re ever in doubt about where to start, it’s often useful to get the component you know you’ll need at the end of the chain and work your way backwards. We can see there is an input of <em>Frame</em>. As with a <a href="/HAL/Overview/Glossary#part">Part</a> this is the base frame by which the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> will be connected to our <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. In this particular scenario our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is modelled at the origin and therefore the base frame is the world XY plane. We are then asked for a <em>Body</em>. We can import meshes from Rhino or use any generated meshes from within Grasshopper. We also need a <em>ToolFrame</em> or <a href="/HAL/Overview/Glossary#endpoint">Tool Centre Point (TCP)</a>. In a <a href="/HAL/Grasshopper/2-Cell#25-calibrate-a-reference-or-tool">future tutorial</a> we will see how to import that frame from calibration data in your <a href="/HAL/Overview/Glossary#controller">Controller</a> but to keep things simple here I’m going to use the point at the tip of the pencil in my model. We need this to be a frame rather than a point but this is simplified because the <em>ToolFrame</em> happens to be aligned with the world XY again. We recommend that the Z axis of <a href="/HAL/Overview/Glossary#endpoint">TCPs</a> point out of the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, following the co-ordinate system flow of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> itself. Once we connect this to the <strong>Tool</strong> component, we will see our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> appear with its <a href="/HAL/Overview/Glossary#endpoint">TCP</a> labelled. It’s a good habit to hide things as we go to avoid duplicating visualizations. Once the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is completed, we can attach it to our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> using the <strong>Attach</strong> component as we did in the <a href="/HAL/Grasshopper/1-Getting-Started#1-getting-started">Getting Started tutorial</a>. With those assembled we can <strong>Solve</strong> and <strong>Simulate</strong> the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> with the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> attached.</p>
+
+<h4 id="next-2">Next:</h4>
+
+<p>Take a look at the <a href="#26-create-a-multi-part-tool">tutorial</a> on creating multi-<a href="/HAL/Overview/Glossary#part">Part</a> <a href="/HAL/Overview/Glossary#end-effector">Tools</a> and the calibrating <a href="/HAL/Overview/Glossary#end-effector">Tools</a> <a href="#25-calibrate-a-reference-or-tool">tutorial</a> to get a more accurate representation of your cell.</p>
+
+<hr />
+<h3 id="25-calibrate-a-reference-or-tool">2.5. Calibrate a Reference or Tool</h3>
+
+<h4 id="objective-4">Objective:</h4>
+
+<p>In this tutorial we’ll bring in calibrated data to improve the accuracy of <a href="/HAL/Overview/Glossary#end-effector">Tools</a> and <a href="/HAL/Overview/Glossary#reference">References</a> in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-3">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.5%20-%20Calibrate%20a%20Tool%20or%20Reference.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Calibrate a Tool or Reference.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-4">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">Create a Tool tutorial</a> is highly recommended as this tutorial builds on its output.</li>
+</ul>
+
+<h4 id="background-3">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#end-effector">Tools</a> and <a href="/HAL/Overview/Glossary#reference">References</a> can be digitally modelled with some degree of accuracy but installation and manufacturing tolerances mean that the most accurate data will always come from a calibrated <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#controller">Controller</a>.</p>
+
+<h4 id="how-to-4">How to:</h4>
+
+<p>In our previous tutorial we used a theoretical plane as our <a href="/HAL/Overview/Glossary#endpoint">Tool Centre Point (TCP)</a>. To ensure our simulation matches the real world as closely as possible we’re going to swap this out for calibrated data. In this tutorial I am using a 3D printed <a href="/HAL/Overview/Glossary#end-effector">Tool</a> which is mounted on an ABB arm. I have calibrated the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> using the real <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and simply copied and pasted that information into my Grasshopper document. As I’m using an ABB <a href="/HAL/Overview/Glossary#manipulator">Robot</a> the code imported is in RAPID, ABB’s <a href="/HAL/Overview/Glossary#manipulator">Robot</a> programming language. Additionally, I have extracted the information I need, in particular the X, Y and Z co-ordinates of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> and its orientation as a quaternion because that’s the formalism used by ABB. Converting between different frame formalisms can be complicated but we’ve included the <strong>Frame</strong> component to make it a breeze. You’ll find <strong>Frame</strong> under the <strong>HAL Robotics</strong> tab, <strong>Utilities</strong> panel. By default, the <strong>Frame</strong> component comes in as Euler frame. By right-clicking on the component we can see that there are a variety of formalisms on offer to suit importing data from any <a href="/HAL/Overview/Glossary#manipulator">Robot</a> manufacturer. In this instance we want to select quaternion frame. This first overload of the component asks for the <em>Origin</em> and 4 quaternion components. As we have the co-ordinates of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> as individual values, we can switch to the alternative overload of quaternion frame to get <em>X</em>, <em>Y</em> and <em>Z</em> as individual inputs. We need to ensure that the units are correct. ABB RAPID positions are in millimeters so as long as that’s what’s on our inputs we’re ok there. We can now hook all of the imported data into the <strong>Frame</strong>. Once that’s done, we can replace the <em>ToolFrame</em> we had previously, the simulation will re-<a href="/HAL/Overview/Glossary#solving">Solve</a> and we can see that the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> is slightly offset from the CAD data, as we would expect from a 3D printed tool with moving parts. When we now <strong>Simulate</strong>, we can see that our calibrated <a href="/HAL/Overview/Glossary#endpoint">TCP</a> is hitting all of our <a href="/HAL/Overview/Glossary#target">Targets</a> not the CAD tool tip.</p>
+
+<hr />
+<h3 id="26-create-a-multi-part-tool">2.6. Create a Multi-Part Tool</h3>
+
+<h4 id="objective-5">Objective:</h4>
+
+<p>In this tutorial we’ll look at how we can create more complex <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, e.g. those with multiple <a href="/HAL/Overview/Glossary#part">Parts</a> or <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>, in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-4">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.6%20-%20Create%20a%20Multi-Part%20Tool.3dm" class="icon-link"><img src="/HAL/assets/images/Grasshopper/RHFile16.PNG" />  Create a Multi-Part Tool.3dm</a> <br />
+<a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.6%20-%20Create%20a%20Multi-Part%20Tool.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Multi-Part Tool.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-5">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Basic modelling skills in Rhinoceros 3D and Vector/Plane manipulation skills in Grasshopper will greatly help preparing your own <a href="/HAL/Overview/Glossary#end-effector">Tool</a> model.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/2-Cell#23-create-a-part">Create a Part</a> tutorial is highly recommended.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">Create a Tool</a> tutorial is highly recommended.</li>
+</ul>
+
+<h4 id="background-4">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#end-effector">Tools</a> can often be approximated to be a single geometric body with a single <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a>. This is the assumption that’s made in the <a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">Create a Tool</a> tutorial to make it really easy to get started. There are also plenty of scenarios, however, where the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> you have will be composed of multiple <a href="/HAL/Overview/Glossary#part">Parts</a> or even have multiple <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>.</p>
+
+<h4 id="how-to-5">How to:</h4>
+
+<p>The first step to creating our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is to ensure that we have a 3D model of it at an appropriate level of detail. We need it to be accurate to ensure that our simulations are representative but not so detailed that we take a performance penalty from trying to render high-fidelity moving objects during simulation. Once we have that geometry in place, we need to setup some <strong>Frames</strong>. These include the base location of each of our <a href="/HAL/Overview/Glossary#part">Parts</a>, this is the connection point on the <a href="/HAL/Overview/Glossary#part">Part</a> that you would use to connect it to something else, and the <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>. You can use any method of <strong>Frame</strong> creation here including Grasshopper-native components or the HAL Robotics Framework <strong>Frame</strong> component. With these in place we can prepare our <a href="/HAL/Overview/Glossary#part">Parts</a>, see the <a href="/HAL/Grasshopper/2-Cell#23-create-a-part">Create a Part</a> tutorial if you are not familiar with this process. In the demo we have here this leaves us with three <a href="/HAL/Overview/Glossary#part">Parts</a>, each stacked one on top of the other. We are going to leverage that layering to create the logical <a href="/HAL/Overview/Glossary#connection">Connections</a> between our <a href="/HAL/Overview/Glossary#part">Parts</a>. To create a <a href="/HAL/Overview/Glossary#connection">Connection</a>, we’re going to use the <strong>Create Joint / Connection</strong> component from the <strong>HAL Robotics</strong> tab, <strong>Cell</strong> panel and switch to the <strong>Connection</strong> template. Here we can pass in our <code class="language-plaintext highlighter-rouge">InterfacePlate</code> <a href="/HAL/Overview/Glossary#part">Part</a> as the <em>From</em> and we’ll connect <em>To</em> the <code class="language-plaintext highlighter-rouge">Camera</code> <a href="/HAL/Overview/Glossary#part">Part</a>. The <em>Frame</em> here is the point of connection between our <a href="/HAL/Overview/Glossary#part">Parts</a>. Given the way our demo is modelled, this equates to the <code class="language-plaintext highlighter-rouge">CameraBase</code> <strong>Frame</strong>. As the <em>Frame</em> is not relative to the <code class="language-plaintext highlighter-rouge">InterfacePlate</code> <a href="/HAL/Overview/Glossary#part">Part</a> we’ll ensure that <em>InWorld</em> is set to <code class="language-plaintext highlighter-rouge">false</code>. We can repeat this process to connect <em>From</em> the <code class="language-plaintext highlighter-rouge">Camera</code> <a href="/HAL/Overview/Glossary#part">Part</a> <em>To</em> the <code class="language-plaintext highlighter-rouge">Gripper</code> <a href="/HAL/Overview/Glossary#part">Part</a>, again using the <code class="language-plaintext highlighter-rouge">GripperBase</code> <strong>Frame</strong> as the <em>Frame</em>.</p>
+
+<p>That completes the preparation of the physical links but we still need to set our <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>. These are actually also <a href="/HAL/Overview/Glossary#connection">Connections</a> so we can start by getting that component again. We can start to prepare the <code class="language-plaintext highlighter-rouge">GripperTCP</code> by assigning the <code class="language-plaintext highlighter-rouge">Gripper</code> <a href="/HAL/Overview/Glossary#part">Part</a> as the <em>From</em> and the <code class="language-plaintext highlighter-rouge">GripperTCP</code> <strong>Frame</strong> as the <em>Frame</em>. There are two differences between the <a href="/HAL/Overview/Glossary#connection">Connections</a> we created between <a href="/HAL/Overview/Glossary#part">Parts</a> and an <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a>. The first is that an <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> has no <em>To</em>, it simply indicates an offset from the <em>From</em> <a href="/HAL/Overview/Glossary#part">Part</a>, and the second is that we must set <em>IsEndpoint</em> to <code class="language-plaintext highlighter-rouge">true</code>. Our <code class="language-plaintext highlighter-rouge">GripperTCP</code> <a href="/HAL/Overview/Glossary#connection">Connection</a> should now be ready so we can repeat the same process for the <code class="language-plaintext highlighter-rouge">CameraTCP</code>.</p>
+
+<p>At this stage we have a large collection of components of our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> and we need to assemble them. This is done using the <strong>Assemble</strong> component, again from the <strong>HAL Robotics</strong> tab, <strong>Cell</strong> panel. The cleanest way to feed data into this component is using <strong>Merge</strong>. This allows us to constantly see which components are being assembled and change the order easily if need be. It’s important that the first component in the <em>Component</em> input is the <a href="/HAL/Overview/Glossary#part">Part</a> that you want to use as the base of your <a href="/HAL/Overview/Glossary#end-effector">Tool</a>. For this demo that’s going to be the <code class="language-plaintext highlighter-rouge">InterfacePlate</code> <a href="/HAL/Overview/Glossary#part">Part</a>. Ensure that you have a single list of elements coming out of your <strong>Merge</strong> and we can feed that into <strong>Assemble</strong>.</p>
+
+<p>At this point you should see your <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a> labelled in the 3D view and you are free to use this <a href="/HAL/Overview/Glossary#end-effector">Tool</a> exactly as you did the preset <a href="/HAL/Overview/Glossary#end-effector">Tool</a> in the <a href="/HAL/Grasshopper/1-Getting-Started#1-getting-started">Getting Started</a> tutorial or your first custom <a href="/HAL/Overview/Glossary#end-effector">Tool</a> in the <a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">Create a Tool</a> tutorial.</p>
+
+<p>See the <a href="/HAL/Grasshopper/3-Motion#37-change-a-tool-at-runtime">Change a Tool at Runtime</a> tutorial to see how to switch between your <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a> during the execution of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a>.</p>
+
+<hr />
+<h3 id="27-create-a-positioner">2.7. Create a Positioner</h3>
+
+<h4 id="objective-6">Objective:</h4>
+
+<p>In this tutorial we’ll be modelling a <a href="/HAL/Overview/Glossary#positioner">Positioner</a>, in the form of a 2-axis rotary table, in the HAL Robotics Framework for Grasshopper. The principles used in this tutorial apply to all forms of <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> including Linear <a href="/HAL/Overview/Glossary#positioner">Positioners</a>, like Tracks, and <a href="/HAL/Overview/Glossary#manipulator">Manipulators</a>.</p>
+
+<h4 id="demo-files-5">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.7%20-%20Create%20a%20Positioner.3dm" class="icon-link"><img src="/HAL/assets/images/Grasshopper/RHFile16.PNG" />  Create a Positioner.3dm</a> <br />
+<a href="/HAL/Grasshopper/ExampleFiles/Tutorials/2.7%20-%20Create%20a%20Positioner.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Positioner.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-6">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Basic modelling skills in Rhinoceros 3D and Vector/Plane manipulation skills in Grasshopper will greatly help preparing your own <a href="/HAL/Overview/Glossary#positioner">Positioner</a> model.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/2-Cell#26-create-a-multi-part-tool">Create a Multi-Part Tool</a> tutorial is highly recommended as this tutorial builds on some of its learnings.</li>
+</ul>
+
+<h4 id="background-5">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#positioner">Positioners</a> can greatly extend the capabilities of your <a href="/HAL/Overview/Glossary#cell">Cell</a> by moving your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or <a href="/HAL/Overview/Glossary#part">Part</a> to facilitate access for processing. We provide a number of preset <a href="/HAL/Overview/Glossary#positioner">Positioners</a>, however, <a href="/HAL/Overview/Glossary#positioner">Positioners</a> are highly customizable and it’s even possible build your own so it may be necessary to model your exact configuration for use in the HAL Robotics Framework.</p>
+
+<h4 id="how-to-6">How to:</h4>
+
+<p>The first step in the creation of a <a href="/HAL/Overview/Glossary#positioner">Positioner</a> is to ensure we have an accurate but simple model. If you’re preparing something entirely custom you are likely to already have a 3D model of the positioner, however, if you’re recreating something provided by a manufacturer then you will need to try and find the model on their website. Most manufacturers provide very good models of their equipment so this shouldn’t be too difficult. In this demo I’ll be working on an ABB <code class="language-plaintext highlighter-rouge">IRBP A-250</code>, a two-axis, rotary positioner. I have downloaded a surface-based model from the ABB website as this is easier to manipulate than meshes at the start of the process. The model provided by ABB is highly detailed and, although a detailed model looks great, a lot of the detail included is surplus to requirement for kinematics and simulation. To ensure we get smooth performance from our model of the <code class="language-plaintext highlighter-rouge">IRBP A-250</code> I’ve removed certain details like bolts, holes, cable connectors and even a few fillets in unseen areas. I’ve then meshed this simplified geometry and simplified those meshes to find a balance between fidelity and visual quality. Reference those meshes into your Grasshopper file and group meshes that are physically, statically joined together.</p>
+
+<p>With our geometric model in place we also need to ensure we have certain data like the positions and limits of each <a href="/HAL/Overview/Glossary#joint">Joint</a>. The limits should be present in the datasheet for your <a href="/HAL/Overview/Glossary#positioner">Positioner</a> but the rotational centres for the <a href="/HAL/Overview/Glossary#joint">Joints</a> may not be so easy to come by. If you have the exact locations, add them to your Grasshopper file as individual points. If you can’t find or obtain that information then you can always make an educated guess based on the geometry you have. One way of doing that is by working with circles or other primitive curves. I have added a number of circles around geometric elements that rotate using the snaps of Rhino and add a point at the centre of each of those circles to estimate the centre of rotation for the <a href="/HAL/Overview/Glossary#joint">Joint</a>. Reference those points in to the Grasshopper document and we’re ready to convert them into <strong>Frames</strong>. Using the in-built vector and plane tools of Grasshopper or the <strong>Frame</strong> component from <strong>HAL Robotics</strong> -&gt; <strong>Utilities</strong> we need to create a <strong>Frame</strong> at each <a href="/HAL/Overview/Glossary#joint">Joint</a> with the Z-axis acting as the centre of rotation. That concludes the geometric modelling phase of this process.</p>
+
+<p>With our meshes and <strong>Frames</strong> in place we can now create our <a href="/HAL/Overview/Glossary#part">Parts</a>. We have already covered this in the <a href="/HAL/Grasshopper/2-Cell#23-create-a-part">Create a Part</a> tutorial so I won’t cover it again here but remember to name your <a href="/HAL/Overview/Glossary#part">Parts</a> appropriately to simplify debugging later.</p>
+
+<p>From here we need to start connecting our <a href="/HAL/Overview/Glossary#part">Parts</a> together using either fixed <a href="/HAL/Overview/Glossary#connection">Connections</a> or <a href="/HAL/Overview/Glossary#joint">Joints</a>. Both of these are found in <strong>Cell</strong> panel in the <strong>Create Joint / Connection</strong> component. Within that component you will find templates for Revolute <a href="/HAL/Overview/Glossary#joint">Joints</a>, Prismatic <a href="/HAL/Overview/Glossary#joint">Joints</a>, and <a href="/HAL/Overview/Glossary#connection">Connections</a>. I’m going to start with a <a href="/HAL/Overview/Glossary#connection">Connection</a> to join the headstock to the base structure. I could have made these into a single <a href="/HAL/Overview/Glossary#part">Part</a> but, personally, I like to approximate the mechanical assembly and these are clearly different parts from that point of view. Next, we have the first <a href="/HAL/Overview/Glossary#joint">Joint</a> which connects the headstock to the swing arm. I can connect the <a href="/HAL/Overview/Glossary#part">Parts</a> into the component with <em>From</em> being the <a href="/HAL/Overview/Glossary#part">Part</a> that is stationary for the <a href="/HAL/Overview/Glossary#joint">Joint</a> and <em>To</em> being the <a href="/HAL/Overview/Glossary#part">Part</a> moved by the <a href="/HAL/Overview/Glossary#joint">Joint</a>. I can also bring in my <strong>Frame</strong> that we prepared earlier and <em>Positions</em> and <em>Speed</em> from the datasheet. I find it easier to work in degrees rather than radians for this kind of model so I use the <em>Unit</em> on those inputs to keep things legible. We follow exactly the same process for the second <a href="/HAL/Overview/Glossary#joint">Joint</a>. The final element we need to add to this before assembling everything we’ve done so far is add in the <strong>Flange</strong>. This is the <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> that a <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> uses when no <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is mounted. This can be created as a <a href="/HAL/Overview/Glossary#connection">Connection</a> with no <em>To</em> <a href="/HAL/Overview/Glossary#part">Part</a> defined and <em>IsEndpoint</em> toggled to <code class="language-plaintext highlighter-rouge">true</code>. Best practice dictates that the <strong>Frame</strong> of the <strong>Flange</strong> should always point out of the end of the <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a>. If you want to have a <a href="/HAL/Overview/Glossary#part">Part</a> or <a href="/HAL/Overview/Glossary#end-effector">Tool</a> attached to the end of the <a href="/HAL/Overview/Glossary#positioner">Positioner</a>, this should be added after assembly of the <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a>.</p>
+
+<p>With all of the elements in place we can merge them all into a single list and pass that list to the <strong>Assemble­</strong> component which can be found in the <strong>Cell</strong> panel and takes all our <a href="/HAL/Overview/Glossary#part">Parts</a>, <a href="/HAL/Overview/Glossary#connection">Connections</a> and <a href="/HAL/Overview/Glossary#joint">Joints</a> in the <em>Component</em> input. It’s important to note that the first element in the list must be a <a href="/HAL/Overview/Glossary#part">Part</a> as this will be used as the base of the <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> and you must have at least one <a href="/HAL/Overview/Glossary#connection">Connection</a> marked as an end point. We can now see our <a href="/HAL/Overview/Glossary#positioner">Positioner</a> and use it exactly as we would any other <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> by creating a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> and/or <a href="/HAL/Overview/Glossary#target">Targets</a> for it. Please see future tutorials (<a href="/HAL/Grasshopper/3-Motion#35-synchronize-motion">1</a>,<a href="/HAL/Grasshopper/3-Motion#36-coupled-motion-and-resolving-targets">2</a>) to see how this can be used in conjunction with another <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> to create a multi-<a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> <a href="/HAL/Overview/Glossary#cell">Cell</a> and how to save this <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> as a <a href="/HAL/Grasshopper/2-Cell#28-save-a-mechanism-as-a-preset">preset</a> that can be shared with your colleagues or peers.</p>
+
+<p>If you have created a <a href="/HAL/Overview/Glossary#positioner">Track</a>, you can mount a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> onto it using the <strong>Attach</strong> component exactly as you have done <a href="/HAL/Overview/Glossary#end-effector">Tools</a> in <a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">previous tutorials</a>, ensuring to keep <em>IsEndEffector</em> set to <code class="language-plaintext highlighter-rouge">true</code>. This is covered in more detail in the <a href="/HAL/Grasshopper/3-Motion#310-using-a-track">Using a Track</a> tutorial.</p>
+
+<p>If you have assembled an external <a href="/HAL/Overview/Glossary#positioner">Positioner</a>, like a rotary table, then this can be programmed in the same way as a second <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. This is detailed in the <a href="/HAL/Grasshopper/3-Motion#35-synchronize-motion">Synchronize Motion</a> and <a href="/HAL/Grasshopper/3-Motion#36-coupled-motion-and-resolving-targets">Coupled Motion and Resolving Targets</a> tutorials.</p>
+
+<hr />
+<h3 id="28-save-a-mechanism-as-a-preset">2.8. Save a Mechanism as a Preset</h3>
+<h4 id="coming-soon">Coming Soon</h4>
+
+<hr />
+
+<p><a href="/HAL/Grasshopper/3-Motion#3-motion">Continue to: 3. Motion</a></p>

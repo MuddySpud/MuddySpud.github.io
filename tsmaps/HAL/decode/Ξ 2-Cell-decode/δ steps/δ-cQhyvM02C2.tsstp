@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+{{gl.references-link}} are useful because they allow us to specify {{gl.targets-link}} relative to something other than the world or the base of the {{gl.manipulator-link}}. This means that they can be recalibrated in the real world without the need to regenerate a {{gl.toolpath-link}} or {{gl.procedure-link}}. They can also be connected one onto another to create a logical hierarchy of elements that can be moved as one.
+

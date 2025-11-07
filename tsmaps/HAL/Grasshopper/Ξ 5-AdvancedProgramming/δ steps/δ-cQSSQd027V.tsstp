@@ -1,0 +1,18 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+
+#### Background:
+
+When working with a fully integrated {{gl.cell-link}} or using a {{gl.manipulator-link}} with pre-built functionality which isn't natively supported by the HAL Robotics Framework, you may want add code to your export which calls an existing function in the {{gl.controller-link}}. We do this using {{gl.custom-actions-link}}. Common for {{gl.custom-actions-link}} are opening or closing a gripper, running tool change procedures, starting logging, activating collision boxes, popping up messages to the operator etc.
+
+#### How to:
+
+We can create a {{gl.custom-action-link}} from the **HAL Robotics** tab, **Procedure** panel. The only thing required here is our _Code_. This should just be the textual representation of the code that you want to export. For example if you wanted to create a pop-up message on an ABB robot you could write _TPWrite "Hello Robot";_ and that exact line of code will be exported within your program.
+
+Other than the _Alias_, which we recommend always setting, the other input is _Simulation_. This takes in a {{gl.procedure-link}} which will change how this {{gl.action-link}} is simulated but won't affect how it's {{gl.export-d-link}}. If you know it's going to take a second for your gripper to close, for example, you could put a {{gl.wait-action-link}} {{gl.action-link}} in your _Simulation_ and the program will pause when simulated but the code won't contain any {{gl.wait-action-link}} instructions.
+
+---
+
+[Continue to: 6. Control]{{ghl.grasshopper-control-link-D}}

@@ -1,0 +1,33 @@
+{
+    "v": "1",
+    "r": {
+        "i": "yuRQYp1mJ",
+        "n": "s7LPoI0pM",
+        "c": 0,
+        "o": [
+            {
+                "i": "yuRQYv1ID",
+                "n": "ytOLyU01vz",
+                "x": "ytLNSq01qu",
+                "c": 1
+            },
+            {
+                "i": "yuRQZ52RG",
+                "n": "ytOLyV015a",
+                "x": "ytLP1Q00bO",
+                "c": 1
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "ytJKIf021t",
+            "p": "LuSenlinTech/equipment/IndoorPower_frags"
+        },
+        {
+            "i": "yjFhSI02KP",
+            "p": "LuSenlinTech/preferences/Customisation_frags"
+        }
+    ],
+    "e": 0
+}

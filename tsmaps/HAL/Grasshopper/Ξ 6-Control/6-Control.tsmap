@@ -1,0 +1,184 @@
+{
+    "key": "s7LPc00Wj",
+    "token": "6Control",
+    "name": "6-Control",
+    "created": "2025-03-14T10:48:48.481Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/Ξ 6-Control/6-Control.tsmap",
+    "iText": "Link to '6-Control'",
+    "___rΩΩt___": {
+        "key": "s7LPc01Y1",
+        "nodes": [
+            {
+                "key": "s7LPc001c",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "s7LPc02EF",
+                        "order": 1,
+                        "option": "Next",
+                        "sharedAssetKey": "cQROzv00FN",
+                        "nodes": [
+                            {
+                                "key": "s7LPc02Fy",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "s7LPc016W",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "s7LPc005i",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "s7LPc0185",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "sharedAssetKey": "cQRb3E018n",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "s7LPc00Oj",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "s7LPc00Zb",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "s7LPc00TC",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "s7LPc02FN",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "sharedAssetKey": "cQRjaK00rG",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "s7LPc00ir",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "s7LPc01vA",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "s7LPc01HV",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "nodes": [
+                                                                                                                    {
+                                                                                                                        "key": "s7LPc01Q9",
+                                                                                                                        "order": 1,
+                                                                                                                        "option": "Next",
+                                                                                                                        "isLeaf": true
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7LPc01Y1",
+            "relativePath": "./δ steps/δ-cQRHFo00sB.tsstp"
+        },
+        {
+            "key": "δ-s7LPc001c",
+            "relativePath": "./δ steps/δ-cQRK3y00j3.tsstp"
+        },
+        {
+            "key": "cQROzv00FN",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7LPc02Fy",
+            "relativePath": "./δ steps/δ-cQROey00Rk.tsstp"
+        },
+        {
+            "key": "δ-s7LPc016W",
+            "relativePath": "./δ steps/δ-cQRTPQ00ck.tsstp"
+        },
+        {
+            "key": "δ-s7LPc005i",
+            "relativePath": "./δ steps/δ-cQRV4602B7.tsstp"
+        },
+        {
+            "key": "cQRb3E018n",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7LPc00Oj",
+            "relativePath": "./δ steps/δ-cQRans01Z7.tsstp"
+        },
+        {
+            "key": "δ-s7LPc00Zb",
+            "relativePath": "./δ steps/δ-cQReRi021U.tsstp"
+        },
+        {
+            "key": "δ-s7LPc00TC",
+            "relativePath": "./δ steps/δ-cQRfjV008N.tsstp"
+        },
+        {
+            "key": "cQRjaK00rG",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7LPc00ir",
+            "relativePath": "./δ steps/δ-cQRjJb01Nz.tsstp"
+        },
+        {
+            "key": "δ-s7LPc01vA",
+            "relativePath": "./δ steps/δ-cQRmDh02LH.tsstp"
+        },
+        {
+            "key": "δ-s7LPc01HV",
+            "relativePath": "./δ steps/δ-cQRo5h01eU.tsstp"
+        },
+        {
+            "key": "δ-s7LPc01Q9",
+            "relativePath": "./δ steps/δ-cQRpsh02Np.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fALqPp01hP",
+        "editorID": "car_2d9153a8dac445fcabc567c5bc417d67",
+        "ticks": 1744460015849
+    }
+}

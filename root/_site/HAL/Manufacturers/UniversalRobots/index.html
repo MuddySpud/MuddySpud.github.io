@@ -1,0 +1,215 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBua0D5","path":"HAL/Manufacturers","fragmentFolderPath":"HAL/Manufacturers/UniversalRobots_frags"},"fragment":{"id":"fdLBua0D5","topLevelMapKey":"eGVQHe1nl","mapKeyChain":"eGVQHe1nl","guideID":"fdLBua2AX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Manufacturers/UniversalRobots.tsmap","parentFragmentID":null,"chartKey":"eGVQHe1nl","options":[]}} -->
+
+<h2 id="universal-robots">Universal Robots</h2>
+
+<p><a href="#0-tips">0. Tips</a><br />
+<a href="#1-controller-options">1. Controller Options</a><br />
+<a href="#2-uploading-code">2. Uploading Code</a><br />
+<a href="#3-simulation">3. Simulation</a></p>
+
+<hr />
+
+<h3 id="0-tips">0. Tips</h3>
+
+<ol>
+  <li>We do not currently have a means to reference <em>TCPs</em> and <em>Payloads</em> from your current Installation so make sure these are accurately defined in your simulation.</li>
+  <li>You can switch between Process Move (<em>movep</em>) and normal (<em>movel</em>) for linear motion in the <a href="/HAL/Overview/Glossary#controller">Controller</a> configurator.</li>
+  <li><a href="/HAL/Overview/Glossary#signal">Signals</a> are identified by their indices so either name your <a href="/HAL/Overview/Glossary#signal">signals</a> with an index, e.g. <em>2</em>, or use the <a href="/HAL/Grasshopper/6-Control#64-reuse-controller-data">export overrides</a> to ensure the correct index is exported.</li>
+</ol>
+
+<hr />
+<h3 id="1-controller-options">1. Controller Options</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this section we’ll explain which <strong>Subsystems</strong> are available in the HAL Robotics Framework for Universal Robots and that their <strong>Capabilities</strong> are. These will be used when you <a href="/HAL/Grasshopper/6-Control#61-configure-a-virtual-controller">Configure a Virtual Controller</a>.</p>
+
+<h4 id="background">Background:</h4>
+
+<p>Industrial <a href="/HAL/Overview/Glossary#controller">Controllers</a> are typically comprised of core functionality, such as the ability to run a program, extended through optional extras, like communication protocols or multi-<a href="/HAL/Overview/Glossary#manipulator">Robot</a> support. To ensure that we only try and interact with your real <a href="/HAL/Overview/Glossary#controller">Controller</a> in a way that is compatible, be it through a network or with exported code, we have added a means to configure your <a href="/HAL/Overview/Glossary#controller">Controller</a>. The constituent parts of this are:</p>
+
+<p>a.  Controller - this is essentially a computer to which your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and <a href="/HAL/Overview/Glossary#signal">Signals</a> are connected.</p>
+
+<p>b.  <a href="/HAL/Overview/Glossary#capabilities">Capabilities</a> - these are how we organize what a <a href="/HAL/Overview/Glossary#controller">Controller</a> can do and draw parallels between different manufacturers’ <a href="/HAL/Overview/Glossary#controller">Controllers</a>. <em>Capabilities</em> are things like the ability to <a href="/HAL/Overview/Glossary#upload">Upload</a> code to the <a href="/HAL/Overview/Glossary#controller">Controller</a> from a PC or the ability to read the values of <a href="/HAL/Overview/Glossary#signal">Signals</a> remotely.</p>
+
+<p>c.  <a href="/HAL/Overview/Glossary#subsystems">Subsystems</a> - these are similar to the options you have in your <a href="/HAL/Overview/Glossary#controller">Controller</a>. They are the actual software modules that implement different <em>Capabilities</em>.</p>
+
+<h4 id="details">Details:</h4>
+
+<p>You’ll find two different Universal Robots controllers in our catalogs, <em>CB3</em> (for UR3, UR5 and UR10 robots) and <em>e-Series CB5</em> (for UR3e, UR5e, UR10e, UR16e and UR20 robots). There are minor compatibility differences between them but your interactions with them through the HAL Robotics Framework will be identical.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Subsystem Name</th>
+      <th>Description</th>
+      <th>Capabilities</th>
+      <th>Configuration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>URScript X.X</td>
+      <td>Translates <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to URScript.</td>
+      <td><a href="/HAL/Overview/Glossary#capabilities">Language</a></td>
+      <td>&gt; Enabled - Whether to export the procedure.<br />&gt; Library Mode - Whether to export code that will run directly or that can be called from another function.<br />&gt; Use Process Move - Whether to use Process Move (<em>movep</em>) for linear motion. Otherwise normal (<em>movel</em>) is used.</td>
+    </tr>
+    <tr>
+      <td>Dashboard X.X</td>
+      <td><a href="/HAL/Overview/Glossary#controller">Controller</a> administration interface.</td>
+      <td><a href="/HAL/Overview/Glossary#capabilities">Upload</a><br /><a href="/HAL/Overview/Glossary#capabilities">Execution</a><br /><a href="/HAL/Overview/Glossary#capabilities">Backup</a></td>
+      <td>&gt; IP - IP address of your remote robot or simulator.<br />&gt; Credentials - Credentials needed to log in to the robot (or <a href="#3-simulation">simulator</a>) remotely. Defaults will work unless they have been changed in your robot’s Settings -&gt; Password -&gt; Admin window. <br />&gt; Root Directory - Directory in which your programs, URCaps etc. are stored. Defaults to ‘/root’ but could be blank if your <a href="#3-simulation">simulator is set up as below</a> or ‘/ursim’ if using the <a href="#docker">default Docker image</a>.</td>
+    </tr>
+    <tr>
+      <td>RTDE</td>
+      <td>Real-Time Data Exchange protocol which allows low latency communication and state streaming from the <a href="/HAL/Overview/Glossary#controller">controller</a>.</td>
+      <td><a href="/HAL/Overview/Glossary#capabilities">Monitor</a><br /><a href="/HAL/Overview/Glossary#capabilities">Receive State</a><br /><a href="/HAL/Overview/Glossary#capabilities">Read Signals</a><br /><a href="/HAL/Overview/Glossary#capabilities">Write Signals</a></td>
+      <td>&gt; IP - IP address of your remote robot or simulator.</td>
+    </tr>
+    <tr>
+      <td>Remote Files</td>
+      <td>Copies files to and from a remote <a href="/HAL/Overview/Glossary#controller">controller</a>.</td>
+      <td><a href="/HAL/Overview/Glossary#capabilities">File Manager</a></td>
+      <td>&gt; IP - IP address of your remote robot or simulator.<br />&gt; Credentials - Credentials needed to log in to the robot (or <a href="#3-simulation">simulator</a>) remotely. Defaults will work unless they have been changed in your robot’s Settings -&gt; Password -&gt; Admin window. For a simulator, these should be the user on the host machine.</td>
+    </tr>
+    <tr>
+      <td>Local Files</td>
+      <td>Copies files to and from a Docker simulated <a href="/HAL/Overview/Glossary#controller">controller</a>. See <a href="#3-simulation">Simulation</a> below for more details.</td>
+      <td><a href="/HAL/Overview/Glossary#capabilities">File Manager</a></td>
+      <td>&gt; Root Directory - Path to which the Docker programs path is set. See <a href="#3-simulation">Simulation</a> below and the <a href="https://hub.docker.com/r/universalrobots/ursim_e-series">Docker Hub page for the image</a> for more details.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h3 id="2-uploading-code">2. Uploading Code</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this section we’ll explain how to get the <a href="/HAL/Overview/Glossary#procedure">Procedures</a> you’ve generated onto your robot. There are two different ways to do this, either <a href="#manual">manually</a> or <a href="#remote">remotely</a>.</p>
+
+<h4 id="remote">Remote:</h4>
+
+<p>If this is the first time you’re setting up this particular robot controller for <a href="#remote">remote upload</a>, skip down to the <a href="#remote-upload-prerequisites">remote upload prerequisites</a> and then come back here.</p>
+
+<ol>
+  <li>Ensure your controller is configured to communicate with your controller. See <a href="#1-controller-options">Controller Options</a> and <a href="/HAL/Grasshopper/6-Control#61-configure-a-virtual-controller">Configure a Virtual Controller</a> for more details about what your options are.</li>
+  <li>Follow the instructions in <a href="/HAL/Grasshopper/6-Control#63-upload-a-procedure">Upload a Procedure</a>.</li>
+  <li>That’s all!</li>
+</ol>
+
+<h4 id="remote-upload-prerequisites">Remote Upload Prerequisites:</h4>
+
+<p>There are a few settings that need to be checked on your controller before we can connect to it from your PC. Some of these might already be correctly set on your system, but even if they aren’t these will only ever need to be done once on your controller. It is also good practice to restart the controller once everything below is configured to ensure it’s taken into account, the only exception is the activation of <em>Remote Control</em> which is likely to be toggled frequently and does not require a restart.</p>
+
+<ol>
+  <li>
+    <p>Ensure you have access to the admin password for you controller. You will need this to make many of the changes below, and it will be needed when you configure your <a href="#1-controller-options">Controller Options</a>.
+<a href="/HAL/assets/images/Manufacturers/UR/URAdminPassword.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/URAdminPassword.PNG" /></center></a>
+<em class="pad-bottom">The Admin Password can be changed in the settings.</em></p>
+  </li>
+  <li>
+    <p>Enable the <em>Network</em>. DHCP or Static will work as long as your PC can be on the same subnet as the controller. Make a note of the IP address as it will be needed when you configure your <a href="#1-controller-options">Controller Options</a>.
+<a href="/HAL/assets/images/Manufacturers/UR/UREnableNetwork.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/UREnableNetwork.PNG" /></center></a>
+<em class="pad-bottom">The controller network needs to be enabled to give us remote access.</em></p>
+  </li>
+  <li>
+    <p>Enable the <em>Secure Shell (SSH)</em>. This will allow us to transfer code files from a PC to your controller remotely.
+<a href="/HAL/assets/images/Manufacturers/UR/UREnableSSH.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/UREnableSSH.PNG" /></center></a>
+<em class="pad-bottom">SSH allows us to transfer code files to your controller.</em></p>
+  </li>
+  <li>
+    <p>Enable the <em>Services</em> chosen in your <a href="#1-controller-options">Controller Options</a>. Typically this will include <em>Dashboard Server</em>, <em>RTDE</em> and the <em>Primary Client Interface</em>.
+<a href="/HAL/assets/images/Manufacturers/UR/UREnableServices.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/UREnableServices.PNG" /></center></a>
+<em class="pad-bottom">Services you have chosen to remotely command your controller need to be Enabled.</em></p>
+  </li>
+  <li>
+    <p>Ensure <em>inbound access</em> for the following ports isn’t disabled - 22 (for <em>SSH</em>), 29999 (for <em>Dashboard Server</em>), 30004 (for <em>RTDE</em>) and 30001 (for <em>Primary Client Interface</em>). If there are other services you have enabled, the full list of used ports can be found <a href="https://forum.universal-robots.com/t/overview-of-used-ports-on-local-host/8889">here</a>.
+<a href="/HAL/assets/images/Manufacturers/UR/UREnablePorts.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/UREnablePorts.PNG" /></center></a>
+<em class="pad-bottom">Ports can be blocked for security but access needs to be allowed for certain services.</em></p>
+  </li>
+  <li>
+    <p>Enable <em>Remote Control</em>. This will add a nwe option in the top right corner of the screen which will allow us to command the controller from a PC using the various <em>Services</em> we just set up.
+<a href="/HAL/assets/images/Manufacturers/UR/UREnableRemoteControl.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/UREnableRemoteControl.PNG" /></center></a>
+<em class="pad-bottom">Remote Control must be enabled before it can be activated for us to command the controller remotely.</em></p>
+  </li>
+  <li>
+    <p>Activate <em>Remote Control</em>. This will allow us to command the controller from a PC using the various <em>Services</em> we just set up. It can be toggled in the top right corner of you teach pendant screen. In <em>Remote Control</em> you won’t be able to jog the robot or make manual changes so you are likely to toggle this on and off a few times whilst setting up your application but remember to activate it before attempting to upload code remotely.
+<a href="/HAL/assets/images/Manufacturers/UR/URActivateRemoteControl.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/URActivateRemoteControl.PNG" /></center></a>
+<em class="pad-bottom">Remote Control must be activated for us to command the controller remotely.</em></p>
+  </li>
+</ol>
+
+<h4 id="manual">Manual:</h4>
+
+<ol>
+  <li><a href="/HAL/Grasshopper/6-Control#62-export-a-procedure">Export</a> your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> to a known directory.</li>
+  <li>Copy the <em>{ProcedureName}.script</em> file onto a USB stick.</li>
+  <li>Insert the USB stick into the USB port on the teach pendant.</li>
+  <li>Create a new <strong>Program</strong> on the controller with a <strong>Script</strong> node (you’ll find this under the <strong>Advanced</strong> category) and set the mode to <em>File</em>.</li>
+</ol>
+
+<p><a href="/HAL/assets/images/Manufacturers/UR/URCreateScript.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/URCreateScript.PNG" /></center></a>
+<em class="pad-bottom">Create a Script node into which you can load your URScript file.</em></p>
+
+<ol>
+  <li>Click <em>Edit</em> then <em>Open</em> to browse to your <em>{ProcedureName}.script</em> file on the USB stick. You can then <em>Exit</em> the script editor.</li>
+</ol>
+
+<p><a href="/HAL/assets/images/Manufacturers/UR/URLoadScript.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/URLoadScript.PNG" /></center></a>
+<em class="pad-bottom">Browse the directories and open your URScript file.</em></p>
+
+<ol>
+  <li>Your <em>{ProcedureName}.script</em> is now loaded and ready to run.</li>
+</ol>
+
+<p><a href="/HAL/assets/images/Manufacturers/UR/URManualProgram.PNG" class="pad-top"><center><img src="/HAL/assets/images/Manufacturers/UR/URManualProgram.PNG" /></center></a>
+<em class="pad-bottom">Browse the directories and open your URScript file.</em></p>
+
+<hr />
+<h3 id="3-simulation">3. Simulation</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>Whilst we expect most users to use our own <a href="/HAL/Overview/Glossary#73-simulation">simulation</a> tools for the majority of their cases, there may be a reason (e.g. cycle time analysis, or validation of the robot’s limits) that you want to run your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> on a manufacturer-provided simulator. This section details what you’ll need and how to configure that simulator.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li>Linux Mint 17.1 computer or virtual machine, or Docker (in Linux container mode if on a Windows PC).</li>
+</ul>
+
+<h4 id="how-to">How to:</h4>
+
+<h5 id="docker">Docker</h5>
+
+<p>The easiest way to run URSim on a Windows PC or Linux is via Docker for which there is a Docker image <a href="https://hub.docker.com/r/universalrobots/ursim_e-series">here</a> although this is (at the time of writing) still listed as experimental. To enable <a href="#remote">remote upload</a> you will need to ensure that the Dashboard port (<em>29999</em>) is exposed in your container. This is mentioned on the <a href="https://hub.docker.com/r/universalrobots/ursim_e-series">Docker Hub page for the image</a>. You will also need to ensure that your <a href="/HAL/Overview/Glossary#capabilities">File Manager</a> is set to Local, its path is set correctly and the <em>Remote Root Directory</em> in your Dashboard matches your Docker bind mounts e.g. <em>/root</em> if you bind mount points to <em>/root/programs</em> or <em>/ursim</em> if following the Docker examples.</p>
+
+<p>E.g. <code class="language-plaintext highlighter-rouge">docker run --rm -it -p 5900:5900 -p 6080:6080 -p 29999:29999 -v "/c/UniversalRobots/staging/root/programs:/root/programs" -e ROBOT_MODEL=UR5 universalrobots/ursim_e-series</code></p>
+
+<p>In the example below, <code class="language-plaintext highlighter-rouge">-p 29999:29999</code> is used to enable the Dashboard from your PC and the <code class="language-plaintext highlighter-rouge">-v ...</code> contains the full path <code class="language-plaintext highlighter-rouge">/root/programs</code> on the left hand side.</p>
+
+<h5 id="linux">Linux</h5>
+
+<p><strong>For CB Series Robots UR3-UR10</strong> - Download the latest version of URSim <strong>3</strong>.x from <a href="https://www.universal-robots.com/download/?filters[]=98759&amp;filters[]=98916&amp;query=">here</a>. Installation instructions are included on the page.</p>
+
+<p><strong>For eSeries Robots UR3e-UR16e and UR20</strong> - Download the latest version of URSim <strong>5</strong>.x from <a href="https://www.universal-robots.com/download/?filters[]=98759&amp;filters[]=98916&amp;query=">here</a>. Installation instructions are included on the page.</p>
+
+<p>To enable uploading from the HAL Robotics Framework to URSim you will need to modify the <code class="language-plaintext highlighter-rouge">start-ursim.sh</code> file in the URSim installation directory. This will need to be done for each installation of URSim you have on the machine.</p>
+<ol>
+  <li>Identify the code block starting with <code class="language-plaintext highlighter-rouge">#program directory</code></li>
+  <li>Within this block there should be a line similar to <code class="language-plaintext highlighter-rouge">ln -s $URSIM_ROOT/programs.$ROBOT_TYPE $URSIM_ROOT/programs</code></li>
+  <li>Comment this line by prefixing a <code class="language-plaintext highlighter-rouge">#</code></li>
+  <li>Add a new line just below containing <code class="language-plaintext highlighter-rouge">ln -s /programs $URSIM_ROOT/programs</code></li>
+</ol>
+
+<p>Should end up with something like:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+
+#program directory
+rm -f $URSIM_ROOT/programs
+#ln -s $URSIM_ROOT/programs.$ROBOT_TYPE $URSIM_ROOT/programs
+ln -s /programs $URSIM_ROOT/programs
+
+...
+</code></pre></div></div>

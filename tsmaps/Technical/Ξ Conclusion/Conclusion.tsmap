@@ -1,0 +1,52 @@
+{
+    "key": "yd9vwR005i  ",
+    "token": "Conclusion",
+    "name": "Conclusion",
+    "created": "2025-11-04T21:36:54.707Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Ξ Conclusion/Conclusion.tsmap",
+    "iText": "Link to 'Conclusion'",
+    "___rΩΩt___": {
+        "key": "yoJ9qV00lx",
+        "isHeadless": true,
+        "nodes": [
+            {
+                "key": "yd9xwf027n",
+                "order": 1,
+                "option": "The data behind the guidance",
+                "isLeaf": true,
+                "isAncillary": true
+            },
+            {
+                "key": "yoK4TH01wR",
+                "order": 2,
+                "nodes": [
+                    {
+                        "key": "yoK9FB00dS",
+                        "order": 1,
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-yd9xwf027n",
+            "relativePath": "./δ steps/δ-yd9xwf027n.tsstp"
+        },
+        {
+            "key": "δ-yoK4TH01wR",
+            "relativePath": "./δ steps/δ-yoK4TH01wR.tsstp"
+        },
+        {
+            "key": "δ-yoK9FB00dS",
+            "relativePath": "./δ steps/δ-yoK9FB00dS.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "yoKnxm00rI",
+        "editorID": "car_91e69661554a4395a9957683a980947b",
+        "ticks": 1762457345342
+    }
+}

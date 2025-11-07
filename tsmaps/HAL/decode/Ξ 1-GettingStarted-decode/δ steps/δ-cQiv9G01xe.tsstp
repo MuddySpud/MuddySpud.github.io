@@ -1,0 +1,11 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+##### Locations
+By clicking on the **Location** _Step_, we see a fairly standard editor view. Some settings require selections from a list of options, others are numeric values and they should make sense in the context. Hovering over the setting's name should give you some additional guidance if you need it. By changing the _Position_ or _Rotation_ values you'll see the {{gl.reference-link}} in your {{dl.decode-cell-setup-s-link}} move. We provide this kind of immediate visual feedback wherever possible and that means that changes are immediately applied. If the setting has a **🔗** symbol, it means that setting can be linked to a [Variable](#14-variables) which you can find out more about below.
+
+{{il.cellAddReferenceLocation-image}}{: .pad-top}
+<em>The _decode_ Reference editor with the Location Step being edited.</em>{: .pad-bottom}
+

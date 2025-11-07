@@ -1,0 +1,26 @@
+¬import ghl from "../../../_shared/grasshopperLinks"
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Manual:
+
+1. [Export]{{ghl.grasshopper-export-procedure-link-D}} your {{gl.procedure-link}} to a known directory.
+2. Copy the _{ProcedureName}.script_ file onto a USB stick.
+3. Insert the USB stick into the USB port on the teach pendant.
+4. Create a new **Program** on the controller with a **Script** node (you'll find this under the **Advanced** category) and set the mode to _File_.
+
+{{il.urCreateScript-image}}{: .pad-top}
+<em>Create a Script node into which you can load your URScript file.</em>{: .pad-bottom}
+
+5. Click _Edit_ then _Open_ to browse to your _{ProcedureName}.script_ file on the USB stick. You can then _Exit_ the script editor.
+
+{{il.urLoadScript-image}}{: .pad-top}
+<em>Browse the directories and open your URScript file.</em>{: .pad-bottom}
+
+6. Your _{ProcedureName}.script_ is now loaded and ready to run.
+
+{{il.urManualProgram-image}}{: .pad-top}
+<em>Browse the directories and open your URScript file.</em>{: .pad-bottom}
+
+---

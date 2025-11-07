@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+There are scenarios in which a single {{gl.manipulator-link}} may have access to multiple [Tools]{{gl.end-effector-link-D}} and the ability to change which {{gl.end-effector-link}} is in use at runtime. This could be because, either, the {{gl.end-effector-link}} itself has multiple {{gl.endpoints-link}} or because automatic {{gl.end-effector-link}} changing equipment is available in the {{gl.cell-link}}.
+

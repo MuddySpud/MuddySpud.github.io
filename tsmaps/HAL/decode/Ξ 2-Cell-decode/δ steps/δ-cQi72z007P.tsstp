@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+{{gl.parts-link}} serve two roles in _decode_ and come in two variants. Firstly, {{gl.parts-link}} can be used to populate your [Cells]{{gl.cell-link-D}} with environmental elements such as pedestals, tables or tool holders which can in turn be used as {{gl.references-link}} for your {{gl.toolpaths-link}}. They can also be used as the basis geometry for {{gl.toolpaths-link}}, e.g. following edges or surfaces. When we import {{gl.parts-link}} for the environment, we optimise them for performance. To retain all the geometric data and therefore enable the latter use, use a **CAD Model** instead. Both are grouped here because the settings and workflow are almost identical and we'll use {{gl.parts-link}} as a general term for both below.
+

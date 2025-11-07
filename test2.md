@@ -1,0 +1,17 @@
+¬import el from "../../shared/externalLinks"
+
+
+#### This challenge manifests everywhere
+
+But for developers, it’s a daily reality. It’s not just about writing docs - it’s about maintaining them. You’re likely all too familiar with the symptoms:
+
+*   **Sprawling, duplicated content** that multiplies across guides, manuals, and wikis, making it impossible to know what’s accurate.
+*   **Bug-prone updates:** You make a critical edit in one place, only to miss that same information duplicated in other files, instantly introducing inconsistencies.
+*   **Brittle, unmanageable docs** that collapse under their own weight when you try to document complex, branching real-world scenarios.
+*   **Wasting precious time** wrestling with static site generators and build scripts instead of writing code and building features.
+
+What if you could solve this by applying the proven principles of software engineering directly to your documentation?
+
+That’s the core idea behind {{el.docsAssemblerExtension_link}}, a VS Code extension designed to help you build documentation systems with **modular, reusable components**. Think of it as bringing **class-based inheritance** to your content. It allows you to create a system where your documentation is as maintainable and scalable as your codebase.
+
+*************************************************************************************

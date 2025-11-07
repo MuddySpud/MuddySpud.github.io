@@ -1,0 +1,78 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import el from "../../../_shared/externalLinks"
+
+
+¬cell-1-1: 
+URScript X.X¬
+
+¬cell-1-2: 
+Translates {{gl.procedures-link}} to URScript.¬
+
+¬cell-1-3: 
+[Language]{{gl.capabilities-link-D}}¬
+
+¬cell-1-4: 
+> Enabled - Whether to export the procedure.<br>> Library Mode - Whether to export code that will run directly or that can be called from another function.<br>> Use Process Move - Whether to use Process Move (_movep_) for linear motion. Otherwise normal (_movel_) is used.¬
+
+
+
+
+¬cell-2-1: 
+Dashboard X.X¬
+
+¬cell-2-2: 
+{{gl.controller-link}} administration interface.¬
+
+¬cell-2-3: 
+[Upload]{{gl.capabilities-link-D}}<br>[Execution]{{gl.capabilities-link-D}}<br>[Backup]{{gl.capabilities-link-D}}¬
+
+¬cell-2-4: 
+> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. <br>> Root Directory - Directory in which your programs, URCaps etc. are stored. Defaults to '/root' but could be blank if your [simulator is set up as below](#3-simulation) or '/ursim' if using the [default Docker image](#docker).¬ 
+
+
+
+
+¬cell-3-1: 
+RTDE¬
+
+¬cell-3-2: 
+Real-Time Data Exchange protocol which allows low latency communication and state streaming from the {{gl.controller-lc-link}}.¬
+
+¬cell-3-3: 
+[Monitor]{{gl.capabilities-link-D}}<br>[Receive State]{{gl.capabilities-link-D}}<br>[Read Signals]{{gl.capabilities-link-D}}<br>[Write Signals]{{gl.capabilities-link-D}}¬
+
+¬cell-3-4: 
+> IP - IP address of your remote robot or simulator.¬ 
+
+
+
+
+¬cell-4-1: 
+Remote Files¬
+
+¬cell-4-2: 
+Copies files to and from a remote {{gl.controller-lc-link}}.¬
+
+¬cell-4-3: 
+[File Manager]{{gl.capabilities-link-D}}¬
+
+¬cell-4-4: 
+> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. For a simulator, these should be the user on the host machine.¬ 
+
+
+
+
+¬cell-5-1: 
+Local Files¬
+
+¬cell-5-2: 
+Copies files to and from a Docker simulated {{gl.controller-lc-link}}. See [Simulation](#3-simulation) below for more details.¬
+
+¬cell-5-3: 
+[File Manager]{{gl.capabilities-link-D}}¬
+
+¬cell-5-4: 
+> Root Directory - Path to which the Docker programs path is set. See [Simulation](#3-simulation) below and the {{el.universal-robots-docker-link}} for more details.¬ 
+
+
+

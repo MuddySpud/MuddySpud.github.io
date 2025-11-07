@@ -1,0 +1,287 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBeH06m","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/3-Motion_frags"},"fragment":{"id":"fdLBeH06m","topLevelMapKey":"cQTP3J01qB","mapKeyChain":"cQTP3J01qB","guideID":"fdLBeH1Po","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/3-Motion.tsmap","parentFragmentID":null,"chartKey":"cQTP3J01qB","options":[]}} -->
+
+<h2 id="3-motion">3. Motion</h2>
+
+<p><a href="#31-create-a-target">3.1. Create a Target</a><br />
+<a href="#32-modify-a-target">3.2. Modify a Target</a><br />
+<a href="#33-change-motion-settings">3.3. Change Motion Settings</a><br />
+<a href="#34-combine-procedures-and-the-procedure-browser">3.4. Combine Procedures</a><br />
+<a href="#35-synchronize-motion">3.5. Synchronize Motion</a><br />
+<a href="#36-coupled-motion-and-resolving-targets">3.6. Coupled Motion and Resolving Targets</a><br />
+<a href="#37-change-a-tool-at-runtime">3.7. Change a Tool at Runtime</a><br />
+<a href="#38-add-target-constraints">3.8. Add Target Constraints [Coming Soon]</a><br />
+<a href="#39-add-mechanism-constraints">3.9. Add Mechanism Constraints [Coming Soon]</a><br />
+<a href="#310-using-a-track">3.10. Using a Track</a></p>
+
+<hr />
+<h3 id="31-create-a-target">3.1. Create a Target</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll look at the different ways that we can create <a href="/HAL/Overview/Glossary#target">Targets</a> in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.1%20-%20Create%20a%20Target.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Create a Target.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#target">Targets</a> are the way we define to where a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should move. They do not, in and of themselves, define how a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should move so we can mix and match <a href="/HAL/Overview/Glossary#target">Target</a> creation techniques with different types of <a href="/HAL/Overview/Glossary#motion-action">Move</a>.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>There are 2 main ways of creating <a href="/HAL/Overview/Glossary#target">Targets</a>, both of which are available from <strong>Target</strong> component in the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel.</p>
+
+<p>The first way of creating a <a href="/HAL/Overview/Glossary#target">Target</a> is a <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <a href="/HAL/Overview/Glossary#target">Target</a> from a <strong>Frame</strong>. When a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves to a <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <a href="/HAL/Overview/Glossary#target">Target</a> the active <a href="/HAL/Overview/Glossary#endpoint">TCP</a> of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> will align with the <a href="/HAL/Overview/Glossary#target">Target’s</a> position and orientation. If we create a <strong>Frame</strong> in Grasshopper, such as by selecting a point and making it the origin of an XY Plane. When we assign this to our <a href="/HAL/Overview/Glossary#target">Target</a> component and hide the previous components, we can see our <a href="/HAL/Overview/Glossary#target">Target</a> axes centred on the point we had selected. Of course, because this is Grasshopper, if we move that point our <a href="/HAL/Overview/Glossary#target">Target</a> moves with it. We can also set the <a href="/HAL/Overview/Glossary#reference">Reference</a> here. Please take a look at the <a href="/HAL/Grasshopper/2-Cell#22-create-a-reference">References tutorial</a> to see how those work.</p>
+
+<p>The Z axis of this <a href="/HAL/Overview/Glossary#target">Target</a> is pointing up. In our <a href="/HAL/Grasshopper/2-Cell#22-create-a-tool">Tool creation tutorial</a>, we recommended that the Z axis of <a href="/HAL/Overview/Glossary#end-effector">Tool</a> <a href="/HAL/Overview/Glossary#endpoint">TCPs</a> point out of the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, following the co-ordinate system flow of the Robot itself. That means that when our Robot reaches the <a href="/HAL/Overview/Glossary#target">Target</a> we’ve just created, the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> will also be pointing up. That may be desirable but remember that setting the orientation of your <a href="/HAL/Overview/Glossary#target">Targets</a> is just as important as their positions and therefore creating the correct <strong>Frame</strong> is critical. We have found a number of cases where creating <a href="/HAL/Overview/Glossary#target">Targets</a> facing directly downwards, with their X axes towards world -X is a useful default and have added a shortcut to create those by-passing points directly to a <a href="/HAL/Overview/Glossary#target">Target</a> parameter.</p>
+
+<p>The other primary way of creating a <a href="/HAL/Overview/Glossary#target">Target</a> is in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a>, that is by defining the desired position of each active <a href="/HAL/Overview/Glossary#joint">Joint</a> of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. We can do this by changing the template of our <a href="/HAL/Overview/Glossary#target">Target</a> component by right-clicking and selecting <strong>From Joint Positions</strong>. The inputs are now slightly different. We need to pass a <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> into the component to visualize the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in its final position and ensure that the <em>Positions</em> we give are valid. The other required input is a list of the <em>Positions</em> of each active <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#joint">Joint</a>. It’s important to note that unlike many other inputs in the HAL Robotics Framework these <em>Positions</em> must be defined in SI units (metres and radians) because they can legitimately contain both lengths and angles. If we create a few sliders, six for a six-axis <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, merge into a single list and ensure that we’re in SI units we can visualize the final position of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> at these <a href="/HAL/Overview/Glossary#joint">Joint</a> positions.</p>
+
+<p>Using these two <a href="/HAL/Overview/Glossary#target">Target</a> creation methods we can get our <a href="/HAL/Overview/Glossary#manipulator">Robots</a> to perform any motion we require. That being said, particularly in a Grasshopper-centric workflow, we often want to follow a Curve as we did in the <a href="/HAL/Grasshopper/1-Getting-Started#1-getting-started">Getting Started</a> tutorial. To facilitate that we have included a <strong>From Curve</strong> template in the <strong>Target</strong> component. This variation of the component takes a <em>Curve</em> and creates <a href="/HAL/Overview/Glossary#target">Targets</a> to approximate the <em>Curve</em>. We do this by subdividing (or discretizing) it. The <em>Discretization</em> can be controlled using the input and changed between straight line segments only or line segments and arcs. The accuracy of the approximation can be controlled using this <em>Tolerance</em> input. The distance given here is the maximum allowed deviation from the input <em>Curve</em>.</p>
+
+<p>All of these <a href="/HAL/Overview/Glossary#target">Target</a> creation options give exactly the same types of <a href="/HAL/Overview/Glossary#target">Target</a> so can be used interchangeably in your <a href="/HAL/Overview/Glossary#motion-action">Move</a> components.</p>
+
+<hr />
+<h3 id="32-modify-a-target">3.2. Modify a Target</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll look at the different utilities to modify <a href="/HAL/Overview/Glossary#target">Targets</a> built in to the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-1">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.2%20-%20Modify%20a%20Target.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Modify a Target.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#target">Targets</a> are the way we define to where a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should move and defining them correctly is a fundamental step in the programming of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. To facilitate certain recurring cases, we provide inbuilt <a href="/HAL/Overview/Glossary#target">Target</a> modifiers.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>The <strong>Transform Target</strong> component from the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel offers several different ways of realigning your <a href="/HAL/Overview/Glossary#target">Targets</a> to face vectors, curve tangents, mesh or surface normal, or any other direction you choose with a <strong>Free Transformation</strong>. To start let’s stick with the <strong>Parallel to Vector</strong> template and try and get all of our <a href="/HAL/Overview/Glossary#target">Targets</a> to face the base of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> which happens to be at the world origin. This is often useful if your <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is free to rotate around its Z axis and can help to avoid reachability issues. We can use the <strong>Target Properties</strong> component to get the location of our <a href="/HAL/Overview/Glossary#target">Targets</a>, create an XY plane to represent the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> base frame and <strong>Vector from 2 Points</strong> component to find the vector between our <a href="/HAL/Overview/Glossary#target">Targets</a> and the origin. We can use our new vector as the <em>Direction</em> input in our <a href="/HAL/Overview/Glossary#target">Target</a> modifier and pass our <a href="/HAL/Overview/Glossary#target">Targets</a> to their input. Ensure the original <a href="/HAL/Overview/Glossary#target">Targets</a> are hidden to make it easier to see our results. We should see that our <a href="/HAL/Overview/Glossary#target">Targets</a> are all pointing towards the origin but not necessarily in the way we were expecting. That is because the <em>Axis</em> defaults to <code class="language-plaintext highlighter-rouge">Z</code>. If we change this to <code class="language-plaintext highlighter-rouge">X</code> then we should see something closer to what we want. We can also <em>Flip</em> the vectors so that our <a href="/HAL/Overview/Glossary#target">Targets</a> face the opposite direction. If we don’t want our <a href="/HAL/Overview/Glossary#target">Targets</a> to all be facing down towards the origin as they are now, the we can discard the Z component of our input vector to keep our <a href="/HAL/Overview/Glossary#target">Targets</a> horizontal.</p>
+
+<p>Most variations of the <strong>Transform Target</strong> component work in a similar way so please play with those to discover what they can do. The one exception is the <strong>Free Transform</strong> template. This allows us to apply any transformation we want to our <a href="/HAL/Overview/Glossary#target">Targets</a> by simply specifying translations and reorientations. The default <em>Reference</em> for this transformation is the <a href="/HAL/Overview/Glossary#target">Target</a> itself but we can specify a Plane as the <em>Reference</em> to change the way our <a href="/HAL/Overview/Glossary#target">Targets</a> are transformed.</p>
+
+<p>The last <a href="/HAL/Overview/Glossary#target">Target</a> modifier we’re going to look at in this tutorial is the <strong>Target Filter</strong> component from the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel. To demonstrate this functionality, we can divide a curve into a large number of <a href="/HAL/Overview/Glossary#target">Targets</a>. After a certain point adding more <a href="/HAL/Overview/Glossary#target">Targets</a> is unnecessary, slows down code export and, in some circumstances, code execution. The <strong>Target Filter</strong> component takes our <a href="/HAL/Overview/Glossary#target">Targets</a> and splits them into two lists, those that meet the <em>Position</em> and <em>Orientation</em> tolerances (<em>Remaining</em>) and those that don’t (<em>Discarded</em>). It is therefore useful to hide the component output and display only the <em>Remaining</em> <a href="/HAL/Overview/Glossary#target">Targets</a>. If we filter the targets to the nearest centimeter, we should see that far fewer remain and by changing the <em>Position</em> tolerance the number of <em>Remaining</em> <a href="/HAL/Overview/Glossary#target">Targets</a> will vary accordingly.</p>
+
+<hr />
+<h3 id="33-change-motion-settings">3.3. Change Motion Settings</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll look at how to change the way in which a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves to you <a href="/HAL/Overview/Glossary#target">Targets</a> using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-2">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.3%20-%20Change%20Motion%20Settings.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Change Motion Settings.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p><strong>Motion Settings</strong> control the way in which a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves between <a href="/HAL/Overview/Glossary#target">Targets</a>. They combine settings for the <strong>Space</strong>, <strong>Speeds</strong>, <strong>Accelerations</strong>, <strong>Blends</strong> and a number of other parameters to control how a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> gets to its destination.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>The <strong>Motion Settings</strong> component can be found in the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel and can be directly passed in to the <strong>Move</strong> component. The four settings mentioned previously are the first inputs on this component.</p>
+
+<p><em>Space</em> controls which path the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> takes to a <a href="/HAL/Overview/Glossary#target">Target</a>. In <code class="language-plaintext highlighter-rouge">Cartesian</code> mode the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> moves in a very controlled manner along a straight line or arc. This is probably the easier motion type to visualize but can cause problems when moving between configurations or when trying to optimise cycle times. Moving in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> means that each <a href="/HAL/Overview/Glossary#joint">Joint</a> will move from one position to the next without consideration for the position of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a>. <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> <a href="/HAL/Overview/Glossary#motion-action">Moves</a> always end in the same configuration and are not liable to <a href="/HAL/Overview/Glossary#(kinematic)-singularity">Singularities</a>. It’s often useful to start your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> with a <a href="/HAL/Overview/Glossary#motion-action">Motion</a> in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> to ensure your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is always initialized to a known position and configuration. It’s worth noting that when using <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> <a href="/HAL/Overview/Glossary#motion-action">Motions</a> your <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> will be dotted until the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> is <a href="/HAL/Overview/Glossary#solving">Solved</a> because we can’t know ahead of time exactly where the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will go during that <a href="/HAL/Overview/Glossary#motion-action">Motion</a>. Once <a href="/HAL/Overview/Glossary#solving">Solved</a>, you will see the path your <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will actually take in space.</p>
+
+<p><em>Speed</em> settings, as the name implies, constrain the speed of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. They can be declared in <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian space</a> to directly limit the position or orientation <em>Speed</em> of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a>. You can also constrain the <em>Speeds</em> of your <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#joint">Joints</a> using the second overload or combine the two using the third overload. Please note that not all <a href="/HAL/Overview/Glossary#manipulator">Robot</a> manufacturers support programmable <a href="/HAL/Overview/Glossary#endpoint">Joint</a> speed constraints so there may be variations between your simulation and real <a href="/HAL/Overview/Glossary#manipulator">Robot</a> when they are used.</p>
+
+<p><em>Acceleration</em> settings constrain the acceleration of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. They function in exactly the same way as the <em>Speeds</em>, constraining <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> acceleration, <a href="/HAL/Overview/Glossary#joint-space">Joint</a> acceleration or both.</p>
+
+<p><em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> sometimes called zones or approximations change how close the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> needs to get to a <a href="/HAL/Overview/Glossary#target">Target</a> before moving on to the next. It’s useful to consider your <em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> carefully because increasing their size can drastically improve cycle time by allowing the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to maintain speed instead of coming to a stop at each <a href="/HAL/Overview/Glossary#target">Target</a>. <em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> are most easily visualized in <em>Position</em>. If we set a 100 mm radius <a href="/HAL/Overview/Glossary#blend">Blend</a>, we can see circles appear around each <a href="/HAL/Overview/Glossary#target">Target</a>. These indicate that the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> will exactly follow our <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> until it gets within 100 mm of the <a href="/HAL/Overview/Glossary#target">Target</a>, at which point it will start to deviate within that circle to keep its speed up and head towards the subsequent <a href="/HAL/Overview/Glossary#target">Target</a>. It will exactly follow our <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> again when it leaves the circle. When we solve our <a href="/HAL/Overview/Glossary#procedure">Procedure</a>, we can see the path our <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will actually take getting close but not actually to all of our <a href="/HAL/Overview/Glossary#target">Targets</a>.</p>
+
+<p><em>Kinematic</em> settings are a more advanced topic and will be discussed in future tutorials (<a href="/HAL/Grasshopper/3-Motion#36-coupled-motion-and-resolving-targets">1</a>,<a href="/HAL/Grasshopper/3-Motion#38-add-target-constraints">2</a>,<a href="/HAL/Grasshopper/3-Motion#39-add-mechanism-constraints">3</a>.</p>
+
+<hr />
+<h3 id="34-combine-procedures-and-the-procedure-browser">3.4. Combine Procedures and the Procedure Browser</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll see how to combine different <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to chain sequences using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-3">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.4%20-%20Combine%20Procedures%20and%20the%20Procedure%20Browser.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Combine Procedures and the Procedure Browser.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-3">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-3">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#procedure">Procedures</a> are sequences of atomic <a href="/HAL/Overview/Glossary#action">Actions</a>, such as <a href="/HAL/Overview/Glossary#motion-action">Move</a>, <a href="/HAL/Overview/Glossary#wait-action">Wait</a> or <a href="/HAL/Overview/Glossary#signal-action">Change Signal State</a>. Each of these are created individually but need to be combined to be executed one after the other by our <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. <a href="/HAL/Overview/Glossary#procedure">Procedures</a> can also be created as reusable sequences of <a href="/HAL/Overview/Glossary#action">Actions</a> for example moving to a home position and opening a gripper.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>To combine multiple <a href="/HAL/Overview/Glossary#procedure">Procedures</a>, we can use the <strong>Combine Actions</strong> component from the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel. This component allows us to name our new <a href="/HAL/Overview/Glossary#procedure">Procedure</a> with the <em>Alias</em> input. This is extremely useful for identifying your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later, particularly when using it more than once. The only mandatory input for this component is the list of <a href="/HAL/Overview/Glossary#procedure">Procedures</a> and <a href="/HAL/Overview/Glossary#action">Actions</a> to be <em>Combined</em>. In Grasshopper we can pass any number of wires into the same input and the <strong>Combine Actions</strong> component will create a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> for each branch of items it gets. However, to ensure that we keep a clean document and an easy means of changing the order of <a href="/HAL/Overview/Glossary#procedure">Procedures</a> it is recommended to use something like a <strong>Merge</strong> component and flattening all the inputs. Once those are <em>Combined</em>, we will have single <a href="/HAL/Overview/Glossary#procedure">Procedure</a> that executes each of our sub-<a href="/HAL/Overview/Glossary#procedure">Procedures</a> one after the other.</p>
+
+<p>Once a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> has been assigned to a <a href="/HAL/Overview/Glossary#controller">Controller</a> and <a href="/HAL/Overview/Glossary#solving">Solved</a> it is useful to see how a <a href="/HAL/Overview/Glossary#73-simulation">Simulation</a> is progressing through that <a href="/HAL/Overview/Glossary#procedure">Procedure</a> so we can see where any issues may lie or which phases might be taking longer than we expect. We can do that using the <strong>Procedure Browser</strong>. To access the <strong>Procedure Browser</strong>, we need to ensure that we have an <strong>Execution Control</strong> connected to a complete <strong>Execute</strong> component. Once that’s in place we can double-click on the <strong>Execution Control</strong> to open the <strong>Procedure Browser</strong>. In this window we can see our execution controls, reset, play/pause, next, previous and loop as well as all of our actions. Alongside that we have a time slider that allows you to speed up or slow down the <a href="/HAL/Overview/Glossary#73-simulation">Simulation</a> of your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> without affecting your program itself. The rest of the <strong>Procedure Browser</strong> window shows the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> that you are executing and the progress of each <a href="/HAL/Overview/Glossary#action">Action</a> within it. This <strong>Procedure Browser</strong> view also serves to demonstrate the purpose of the <em>Compact</em> input on our <strong>Combine Procedure</strong> component. By default, <em>Compact</em> is set to <code class="language-plaintext highlighter-rouge">true</code>. This compacts all of the incoming <a href="/HAL/Overview/Glossary#procedure">Procedures</a> and creates a single, flat list of <a href="/HAL/Overview/Glossary#action">Actions</a>. If, however, we toggle <em>Compact</em> to <code class="language-plaintext highlighter-rouge">false</code> we see that all of our previous <a href="/HAL/Overview/Glossary#procedure">Procedures</a> are maintained in the hierarchy and can be collapsed or expanded to view their contents. The hierarchical, un-compacted mode can be particularly useful if you reuse sub-<a href="/HAL/Overview/Glossary#procedure">Procedures</a>.</p>
+
+<hr />
+<h3 id="35-synchronize-motion">3.5. Synchronize Motion</h3>
+
+<h4 id="objective-4">Objective:</h4>
+
+<p>In this tutorial we’ll see how to synchronize the motion of multiple <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-4">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.5%20-%20Synchronize%20Motion.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Synchronize Motion.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-4">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-4">Background:</h4>
+
+<p>When we have multiple <a href="/HAL/Overview/Glossary#manipulator">Robots</a> or <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a>, such as <a href="/HAL/Overview/Glossary#positioner">Positioners</a>, in a <a href="/HAL/Overview/Glossary#cell">Cell</a> it may be necessary for them to execute <a href="/HAL/Overview/Glossary#motion-action">Motion</a> synchronously. This could be in scenarios such as two <a href="/HAL/Overview/Glossary#manipulator">Robots</a> sharing a load between them or a <a href="/HAL/Overview/Glossary#positioner">Positioner</a> reorientating a <a href="/HAL/Overview/Glossary#part">Part</a> whilst a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> works on it.</p>
+
+<h4 id="how-to-4">How to:</h4>
+
+<p>In order to <strong>Synchronize</strong> <a href="/HAL/Overview/Glossary#motion-action">Motions</a>, we need to ensure we have multiple <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to work with and we always use one <a href="/HAL/Overview/Glossary#procedure">Procedure</a> per <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> we want to program, whether it’s a <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, <strong>Track</strong> or <a href="/HAL/Overview/Glossary#positioner">Positioner</a>. A setup for this could be as simple as having two <a href="/HAL/Overview/Glossary#manipulator">Robots</a> each moving to a single <a href="/HAL/Overview/Glossary#target">Target</a> in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a>. To make this a little more demonstrative it would be preferable if the <a href="/HAL/Overview/Glossary#motion-action">Motions</a> are dissimilar, for example one being long and the short or one fast and the other slow. To <strong>Synchronize</strong> the <a href="/HAL/Overview/Glossary#motion-action">Motions</a>, we need to assign them <strong>Sync Settings</strong>. The <strong>Sync Settings</strong> component can be found in the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel. We should assign a unique name, using the <em>Alias</em> input, to the <strong>Sync Settings</strong> to ensure that they are easily identifiable later. Once those <strong>Sync Settings</strong> have been created, they need to be assigned to both of our <a href="/HAL/Overview/Glossary#motion-action">Moves</a>. It is important to note that it must be the exact same <strong>Sync Settings</strong> passed to both. Your <strong>Sync Settings</strong> must only be used for one synchronous sequence of <a href="/HAL/Overview/Glossary#motion-action">Motions</a> per <a href="/HAL/Overview/Glossary#procedure">Procedure</a>, and synchronous sequences must contain the same number of <a href="/HAL/Overview/Glossary#action">Actions</a> in each <a href="/HAL/Overview/Glossary#procedure">Procedure</a> in which they’re used. We can now <strong>Solve</strong> and see that the duration of our <a href="/HAL/Overview/Glossary#motion-action">Moves</a> has been adjusted so that they both take the same amount of time. Also critically important in <strong>Synchronization</strong>, is the fact that all the motions start at the same time. We can test this out be adding a <a href="/HAL/Overview/Glossary#motion-action">Move</a> to one of the <a href="/HAL/Overview/Glossary#procedure">Procedures</a> prior to the <strong>Synchronous</strong> <a href="/HAL/Overview/Glossary#motion-action">Moves</a>. When this is re-<strong>Solved,</strong> we can see that the second <a href="/HAL/Overview/Glossary#manipulator">Robot</a> implicitly waits for the first <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#motion-action">Move</a> to finish before they both start their <strong>Synchronous</strong> <a href="/HAL/Overview/Glossary#motion-action">Moves</a>.</p>
+
+<hr />
+<h3 id="36-coupled-motion-and-resolving-targets">3.6. Coupled Motion and Resolving Targets</h3>
+
+<h4 id="objective-5">Objective:</h4>
+
+<p>In this tutorial we’ll see how to simplify the programming of multi-<a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> setups using <strong>Target Resolvers</strong> in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-5">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.6%20-%20Resolve%20Targets.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Resolve Targets.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-5">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-5">Background:</h4>
+
+<p>When we have multiple <a href="/HAL/Overview/Glossary#manipulator">Robots</a> or <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a>, such as <a href="/HAL/Overview/Glossary#positioner">Positioners</a>, in a <a href="/HAL/Overview/Glossary#cell">Cell</a> programming can become increasingly complex and, in many scenarios, we only really have one set of <a href="/HAL/Overview/Glossary#target">Targets</a> that we care about which a <a href="/HAL/Overview/Glossary#positioner">Positioner</a> should be relocating to facilitate access by a <a href="/HAL/Overview/Glossary#manipulator">Manipulator</a>. We refer to this configuration, where one <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> displaces the <a href="/HAL/Overview/Glossary#target">Targets</a> of another as <strong>Coupled</strong> motion.</p>
+
+<h4 id="how-to-5">How to:</h4>
+
+<p>As an example of this we can have a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> drawing a straight line between two <a href="/HAL/Overview/Glossary#target">Targets</a> that are referenced on a rotary <a href="/HAL/Overview/Glossary#positioner">Positioner</a>. In order to setup <strong>Coupled</strong> motion we need to add some settings to all the <strong>Motion Settings</strong> that will be used in that <strong>Coupled</strong> configuration. We can create <strong>Kinematic Settings</strong> from the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel and because we’re dealing with multiple <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> we are going to change to the <strong>Composite Kinematic Settings</strong> template. We are now asked to input settings for the <em>Primary</em> and <em>Secondary</em> <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a>. The former is typically the <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> that is moving the <a href="/HAL/Overview/Glossary#target">Targets</a> around, historically termed “Master”, and the latter is the <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> moving to those <a href="/HAL/Overview/Glossary#target">Targets</a>, historically termed “Slave”. In our case the <a href="/HAL/Overview/Glossary#target">Targets</a> are referenced to the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> and the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is following those <a href="/HAL/Overview/Glossary#target">Targets</a> around. We don’t need to assign any additional <strong>Kinematic Settings</strong> to our <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> so we can simply chain our <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> into simple Kinematic Settings and into their positions in the <strong>Composite Kinematic Settings</strong>. These <strong>Composite Kinematic Settings</strong> can now be added to our <strong>Motion Settings</strong> for the <strong>Coupled</strong> <a href="/HAL/Overview/Glossary#motion-action">Motions</a>. We have two separate sets of <strong>Motion Settings</strong> here; one is for the <strong>Coupled</strong> <a href="/HAL/Overview/Glossary#motion-action">Motion</a> and the other is for an asynchronous initialization <a href="/HAL/Overview/Glossary#motion-action">Motion</a> for each of the <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a>.</p>
+
+<p>With our settings in place we can now look at programming the <a href="/HAL/Overview/Glossary#positioner">Positioner</a>. We could calculate the <a href="/HAL/Overview/Glossary#target">Targets</a> for the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> and set them explicitly but when we’re in a scenario like this welding example we can set some rules for the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> to follow. We do this using the <strong>Target Resolvers</strong> from the <strong>HAL Robotics</strong> tab, <strong>Motion</strong> panel. There are a few different templates to explore but, in our case, the first is the one we want. The <strong>Vector Aligned</strong> <strong>Target Resolver</strong> tells the positioner to point the given <em>Axis</em> of our <a href="/HAL/Overview/Glossary#target">Targets</a> towards a particular direction. If we can it’s normally preferable to weld with Gravity so we’re going to ask the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> to point the Z axis of our <a href="/HAL/Overview/Glossary#target">Targets</a> straight down. The <strong>Target Resolver</strong> can be used in a <strong>Move</strong> just like a <a href="/HAL/Overview/Glossary#target">Target</a> provided it is duplicated to match the number of “secondary” <a href="/HAL/Overview/Glossary#target">Targets</a>. To make that task easier we have included a template in <strong>Move</strong> called <strong>Synchronized</strong> which takes in a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> and a <a href="/HAL/Overview/Glossary#target">Target</a>, or <strong>Target Resolver</strong>, and will create all of the necessary <a href="/HAL/Overview/Glossary#motion-action">Moves</a> for you with the correct synchronization settings to match the input <em>Procedure</em>. <strong>Synchronized</strong> <a href="/HAL/Overview/Glossary#motion-action">Move</a> creates a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> as an output like any other <strong>Move</strong> and so it can be merged and <strong>Combined</strong> as we would normally with any other <strong>Move</strong>. With both of our <a href="/HAL/Overview/Glossary#procedure">Procedures</a> now complete we can <strong>Solve</strong> and <strong>Simulate</strong> to see our <a href="/HAL/Overview/Glossary#positioner">Positioner</a> aligning itself automatically to best present the <a href="/HAL/Overview/Glossary#target">Targets</a> to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>.</p>
+
+<hr />
+<h3 id="37-change-a-tool-at-runtime">3.7. Change a Tool at Runtime</h3>
+
+<h4 id="objective-6">Objective:</h4>
+
+<p>In this tutorial we’ll see how to change the active <a href="/HAL/Overview/Glossary#end-effector">Tool</a> of a <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> during the execution of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> in the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-6">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.7%20-%20Change%20a%20Tool%20at%20Runtime.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Change a Tool at Runtime.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-6">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-6">Background:</h4>
+
+<p>There are scenarios in which a single <a href="/HAL/Overview/Glossary#manipulator">Robot</a> may have access to multiple <a href="/HAL/Overview/Glossary#end-effector">Tools</a> and the ability to change which <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is in use at runtime. This could be because, either, the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> itself has multiple <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a> or because automatic <a href="/HAL/Overview/Glossary#end-effector">Tool</a> changing equipment is available in the <a href="/HAL/Overview/Glossary#cell">Cell</a>.</p>
+
+<h4 id="how-to-6">How to:</h4>
+
+<p>In preparation for this tutorial a number of things have been put in place. Firstly, three <a href="/HAL/Overview/Glossary#end-effector">Tools</a> have been created; a simple cone, an interchange plate and a double cone with 2 distinct <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>. Secondly, these <a href="/HAL/Overview/Glossary#end-effector">Tools</a> have each been positioned in front of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in a known location. And finally, a <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> has been created to go to each of the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> picking positions with a jump in between. I have also prepared the standard <strong>Combine</strong>, <strong>Solve</strong>, and <strong>Execute</strong> flow.</p>
+
+<p>The focus of this tutorial will be on the <strong>Change Tool</strong> component which can be found in the <strong>HAL Robotics</strong> tab under <strong>Procedure</strong>. Each version of this component will give us a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> that we can Combine with <a href="/HAL/Overview/Glossary#motion-action">Moves</a> and <a href="/HAL/Overview/Glossary#wait-action">Waits</a> as we have done countless times before. The <strong>Change Tool</strong> component has 3 templates and we’ll cover them all, starting with <strong>Detach Tool</strong>. We’re going to use this to remove the <code class="language-plaintext highlighter-rouge">Cone</code> <a href="/HAL/Overview/Glossary#end-effector">Tool</a> that we’ve initially got attached to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. We want to ensure the <em>Mechanism</em> is the combined <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> and we can specify the <em>Tool</em> as the <code class="language-plaintext highlighter-rouge">Cone</code> <a href="/HAL/Overview/Glossary#end-effector">Tool</a>. The <em>Tool</em> input is actually optional and the currently active <a href="/HAL/Overview/Glossary#end-effector">Tool</a> will be removed if none is specified. We can weave this into our main <a href="/HAL/Overview/Glossary#procedure">Procedure</a> and if you Solve and Execute, you’ll see the Cone disappear when we hit the right <a href="/HAL/Overview/Glossary#target">Target</a>. The <code class="language-plaintext highlighter-rouge">Cone</code> is actually in the exact position we left it but it is no longer displayed because it’s not part of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. We can use the <em>Environment</em> input on <strong>Execute</strong> to force the display of mobile, non-mechanism <a href="/HAL/Overview/Glossary#part">Parts</a>. If we now <strong>Execute</strong>, we should see the <code class="language-plaintext highlighter-rouge">Cone</code> hang in space where we detached it.</p>
+
+<p>From here we’re going to attach two <a href="/HAL/Overview/Glossary#end-effector">Tools</a> to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in succession. The first is going to be the <code class="language-plaintext highlighter-rouge">Interface</code> which acts as something of a Tool Changer. Using the <strong>Change Tool</strong> component and the <strong>Attach Tool</strong> template we can set the combined <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> as the <em>Mechanism</em> again and the <code class="language-plaintext highlighter-rouge">Interface</code> as the <em>Tool</em>. Merging this into our <a href="/HAL/Overview/Glossary#procedure">Procedure</a> will attach the <code class="language-plaintext highlighter-rouge">Interface</code> to our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and we can visualize the <a href="/HAL/Overview/Glossary#part">Parts</a> before they are attached using the same technique as for the <code class="language-plaintext highlighter-rouge">Cone</code>, passing the <a href="/HAL/Overview/Glossary#part">Parts</a> into <em>Environment</em> on <strong>Execute</strong>. If we repeat this process and attach the <code class="language-plaintext highlighter-rouge">MultiTool</code> this time, you should see that the <code class="language-plaintext highlighter-rouge">MultiTool</code> gets connected to the <a href="/HAL/Overview/Glossary#endpoint">Active Endpoint</a> of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, which in this case is the end of the <code class="language-plaintext highlighter-rouge">Interface</code>. This behavior may not always be desirable e.g. stationary tools, and can be modified in the overload of <strong>Attach Tool</strong>.</p>
+
+<p>In this final combination of <a href="/HAL/Overview/Glossary#end-effector">Tools</a> attached to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> we have two distinct potential <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>. The final template of the <strong>Change Tool</strong> component allows us to set which <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a>, or <a href="/HAL/Overview/Glossary#end-effector">Tool</a> if you have multiple distinct <a href="/HAL/Overview/Glossary#end-effector">Tools</a> attached, is currently Active. We do this by specifying, once again, the combined <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a>, and the <a href="/HAL/Overview/Glossary#connection">Connection</a> that we want to use as the <a href="/HAL/Overview/Glossary#endpoint">Active Endpoint</a>. To ensure consistent and deterministic output, I would recommend doing this immediately after attaching the <code class="language-plaintext highlighter-rouge">MultiTool</code> as well as when you may wish to switch between the two <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a>. With that merged and our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> <a href="/HAL/Overview/Glossary#part">Parts</a> in the <em>Environment</em> we can see everything run.</p>
+
+<hr />
+<h3 id="38-add-target-constraints">3.8. Add Target Constraints</h3>
+<h4 id="coming-soon">Coming Soon</h4>
+
+<hr />
+<h3 id="39-add-mechanism-constraints">3.9. Add Mechanism Constraints</h3>
+<h4 id="coming-soon-1">Coming Soon</h4>
+
+<hr />
+<h3 id="310-using-a-track">3.10. Using a Track</h3>
+
+<h4 id="objective-7">Objective:</h4>
+
+<p>In this tutorial we’ll see how the previous tutorials on <a href="#35-synchronize-motion">synchronization</a> and <a href="#36-coupled-motion-and-resolving-targets">Target Resolvers</a> can be used together to program a <strong>Track</strong>, or <a href="/HAL/Overview/Glossary#positioner">Linear Positioner</a>, using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="demo-files-7">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/3.10%20-%20Using%20a%20Track.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" /> Using a Track.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-7">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/3-Motion#35-synchronize-motion">Synchronize Motion</a> tutorial is highly recommended.</li>
+  <li>Reading or watching the <a href="/HAL/Grasshopper/3-Motion#36-coupled-motion-and-resolving-targets">Coupled Motion and Resolving Targets</a> tutorial is highly recommended.</li>
+  <li>An extension to the HAL Robotics Framework that allows code export for external axes such as HAL.ABB or HAL.KUKA.</li>
+</ul>
+
+<h4 id="background-7">Background:</h4>
+
+<p>Mounting a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> on a <strong>Track</strong>, or linear axis <a href="/HAL/Overview/Glossary#positioner">Positioner</a>, can massively open up the usable space in a <a href="/HAL/Overview/Glossary#cell">Cell</a>. However, programming one <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> whilst it’s mounted on another can introduce a few complexities.</p>
+
+<h4 id="how-to-7">How to:</h4>
+
+<p>As per usual, we’re going to start this session by modelling our <a href="/HAL/Overview/Glossary#cell">Cell</a>. This means picking our <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, <strong>Attaching</strong> a <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, and importing our <a href="/HAL/Overview/Glossary#positioner">Positioner</a>. This is where things start deviating slightly from our <a href="#35-synchronize-motion">synchronization</a> tutorial. In this instance we actually want to mount one of our <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> on another. The HAL Robotics Framework doesn’t really make a distinction between <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> types e.g. <a href="/HAL/Overview/Glossary#positioner">Positioner</a>, <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, so we can use the exact same strategy as <strong>Attaching</strong> our <a href="/HAL/Overview/Glossary#end-effector">Tool</a> to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. We’ll use the <strong>Attach</strong> component with the <strong>Track</strong> as the <em>Parent</em> and the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> + <a href="/HAL/Overview/Glossary#end-effector">Tool</a> combination as the <em>Child</em>. Ensure that <em>IsEndEffector</em> is left as <code class="language-plaintext highlighter-rouge">true</code> because our <em>Child</em> contains our desired <a href="/HAL/Overview/Glossary#end-effector">End Effector</a>. We can use the <em>Location</em> and <em>InWorld</em> parameters to adjust the position and orientation of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> on the <strong>Track</strong>. This will create a single <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> that we can program as we would any other <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a>, however, this monolithic approach doesn’t give us as much freedom as treating this like a multi-<a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> setup does. N.B. If you do use the single <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> approach, ensure any <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> <a href="/HAL/Overview/Glossary#target">Targets</a> are a) in SI units for the relevant joints, and b) are in the right order i.e. with the <strong>Track</strong> first in this case (<em>Parent</em> joints followed by <em>Child</em> joints). To return to a multi-<a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> scenario we can use the <strong>Disassemble</strong> component from <strong>HAL Robotics</strong> -&gt; <strong>Cell</strong>. This will split our <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> into its constituent parts including its <em>SubMechanisms</em>, that is to say, the <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> which make it up. We can now treat the <em>SubMechanisms</em> as we did our <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> in <a href="#35-synchronize-motion">previous</a> <a href="#36-coupled-motion-and-resolving-targets">tutorials</a>.</p>
+
+<p>There are a few subtleties to programming a <strong>Track</strong> so let’s walk through an example. Let’s start by preparing a simple curve following <a href="/HAL/Overview/Glossary#procedure">Procedure</a> for the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> as we did in the <a href="/HAL/Grasshopper/1-Getting-Started#1-getting-started">Getting Started tutorial</a>. Ensure the <strong>Track</strong> is actually required by making this curve longer than the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> reach. We can then program the <strong>Track</strong> using <a href="/HAL/Overview/Glossary#target">Targets</a> as we do for any other <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> for maximum control, or using the <strong>Target Resolvers</strong> seen in a <a href="#36-coupled-motion-and-resolving-targets">previous tutorial</a> for a quick but effective approach. For a <strong>Track</strong> the <strong>Offset</strong> <strong>Target Resolver</strong> overload is of particular use. The default version of this component asks simply for an <em>Offset</em> distance which is the distance the <strong>Track’s</strong> <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> (and by extension the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> base) should be kept from the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#target">Target</a>. Setting the <em>Offset</em> to <code class="language-plaintext highlighter-rouge">0</code> or any value less than the distance between the <strong>Track’s</strong> <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> and <a href="/HAL/Overview/Glossary#target">Target</a> will cause the <strong>Track</strong> to get as close to the <a href="/HAL/Overview/Glossary#target">Target</a> as possible. To create a full <a href="/HAL/Overview/Glossary#procedure">Procedure</a> for the <strong>Track</strong> we need to set some <strong>Sync Settings</strong> for the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#motion-action">Move</a> and can then use the <strong>Synchronize</strong> utility overload of the <strong>Move</strong> component to synchronize our <strong>Target Resolver</strong> with the full <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#procedure">Procedure</a> (see the <a href="/HAL/Grasshopper/3-Motion#35-synchronize-motion">Synchronize Motion tutorial</a> for a refresher on how to do this). As one <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> is moving another, you will also need to ensure that the <strong>Kinematic Settings</strong> are in place for this setup, with the <strong>Track</strong> as the <em>Primary</em> and <a href="/HAL/Overview/Glossary#manipulator">Robot</a> as a <em>Secondary</em>, in both the <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#motion-action">Move</a> and the <strong>Track’s</strong> (see the <a href="/HAL/Grasshopper/3-Motion#36-coupled-motion-and-resolving-targets">Coupled Motion and Resolving Targets tutorial</a> as a reminder if needed). With this in place we are in a position to <strong>Solve</strong> and <strong>Execute</strong> and we should see both <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a> moving as we expect.</p>
+
+<p>Although <a href="/HAL/Overview/Glossary#export">exporting</a> is covered in a later <a href="/HAL/Grasshopper/6-Control#62-export-a-procedure">tutorial</a>, there are a couple of things that need to be setup for external axes that are worth looking at here if your <a href="/HAL/Overview/Glossary#positioner">Positioner</a> is an external axis and programmed within the same exported <a href="/HAL/Overview/Glossary#procedure">Procedure</a> as your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>.</p>
+<ol>
+  <li>You’ll need to setup your <a href="/HAL/Overview/Glossary#joint-mapping">Joint Mappings</a>.  When you created or loaded your <a href="/HAL/Overview/Glossary#positioner">Positioner</a> you will likely have glossed over the <em>Mapping(s)</em> input. These values are 0-based indices of any external <a href="/HAL/Overview/Glossary#joint">axis</a> that needs to be exported. In our example above, we have 6 axes in our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and our <a href="/HAL/Overview/Glossary#positioner">Positioner</a> comes after that. We can therefore assign it an index of <code class="language-plaintext highlighter-rouge">6</code> (0-based, so 7th when exported) or higher depending on the exact configuration of our real <a href="/HAL/Overview/Glossary#cell">Cell</a>.</li>
+  <li>You’ll need to set your <a href="/HAL/Overview/Glossary#positioner">Positioner</a> <a href="/HAL/Overview/Glossary#procedure">Procedure</a> as a child of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. This can be done in the <a href="/HAL/Overview/Glossary#controller">Controller</a> configuration, accessible by double-clicking on your <a href="/HAL/Overview/Glossary#controller">Controller</a> component. On the right-hand side of this window you should see both of the <a href="/HAL/Overview/Glossary#procedure">Procedures</a> listed. Drag the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> <a href="/HAL/Overview/Glossary#procedure">Procedure</a> onto the main <a href="/HAL/Overview/Glossary#procedure">Procedure</a> to make it a child. As you’re doing this, ensure that the <em>Task Alias</em> of your main <a href="/HAL/Overview/Glossary#procedure">Procedure</a> matches the target <strong>Task</strong> on your real <a href="/HAL/Overview/Glossary#controller">Controller</a>.</li>
+</ol>
+
+<hr />
+
+<p><a href="/HAL/Grasshopper/4-IO#4-io">Continue to: 4. I/O</a></p>

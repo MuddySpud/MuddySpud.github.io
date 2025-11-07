@@ -1,0 +1,18 @@
+¬import il from "../../../_shared/imageLinks"
+¬import del from "../../../_shared/decodeExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+#### How to:
+
+From the **Scene** screen, select the {{gl.reference-link}} onto which you want to attach your new {{gl.part-link}}, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.parts-link}} onto each other to restructure your **Scene** later. Either of those states will enable the _Item Type_ selector to list {{gl.part-link}} and **CAD Model** as options. So we can reuse it in later tutorials, let's opt for the **CAD Model** now and use our [Wobbly Block]{{del.WobblyBlock-link-D}} example file. Click **+** and you'll enter the editor.
+
+The **From Geometry** _Creator_ will allow you to select a **CAD File**, {{dl.decode-locations-link}} and [Translation Overrides]{{dl.decode-translation-overrides-link-D}}, all of which should be familiar to you by now. If not, please refer back to the tutorials above for more details.
+
+Once you are happy with the {{gl.part-link}} or **CAD Model**'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Scene** screen.
+
+{{il.cellAddCADModelComplete-image}}{: .pad-top}
+<em>Parts can be used as environmental context whilst CAD Models are useful to extract geometric data for Toolpaths later.</em>{: .pad-bottom}
+
+---

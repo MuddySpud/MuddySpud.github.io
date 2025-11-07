@@ -1,0 +1,51 @@
+{
+    "key": "s7SMMh0AC",
+    "token": "Mapl",
+    "name": "MapL",
+    "created": "2025-06-01T08:58:54.689Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapL/MapL.tsmap",
+    "iText": "Link to 'MapL'",
+    "iExits": [
+        {
+            "key": "s7SMMh01I",
+            "text": "Exit 1",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "s7SMMh1R6",
+        "nodes": [
+            {
+                "key": "s7SMMh2Rk",
+                "order": 1,
+                "option": "MapL 1.1\n",
+                "iKey": "fugVwq00wh",
+                "nodes": [
+                    {
+                        "key": "s7SMMh0fa",
+                        "order": 1,
+                        "option": "Exit1 MapE 1.1",
+                        "iExitKey": "fuhBa202EB",
+                        "exitKey": "s7SMMh01I"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMMh1R6",
+            "relativePath": "./δ steps/δ-jrv8gQ00eU.tsstp"
+        },
+        {
+            "key": "δ-s7SMMh2Rk",
+            "relativePath": "./δ steps/δ-jrvAWg00Fu.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "jrvdWD01xt",
+        "editorID": "car_fa8ee194e9b14f97a51503a2ee38f102",
+        "ticks": 1748768459857
+    }
+}

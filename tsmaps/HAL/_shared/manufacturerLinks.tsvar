@@ -1,0 +1,35 @@
+
+
+¬manufacturer-documentation-url: ../Ξ Manufacturers/Manufacturers.tsmap
+¬manufacturer-documentation-link: [manufacturer-specific documentation]({{manufacturer-documentation-url}})
+
+¬abb-doc-url: ../Manufacturers/Ξ ABB/ABB.tsmap
+¬abb-doc-link: [ABB]({{abb-doc-url}})
+
+¬doosan-doc-url: ../Manufacturers/Doosan.md
+¬doosan-doc-link: [Doosan]({{doosan-doc-url}})
+
+¬fanuc-doc-url: ../Manufacturers/FANUC.md
+¬fanuc-doc-link: [FANUC]({{fanuc-doc-url}})
+
+¬inovoRobotics-doc-url: ../Manufacturers/InovoRobotics.md
+¬inovoRobotics-doc-link: [Inovo Robotics]({{inovoRobotics-doc-url}})
+
+¬kawasaki-doc-url: ../Manufacturers/Kawasaki.md
+¬kawasaki-doc-link: [Kawasaki]({{kawasaki-doc-url}})
+
+¬kuka-doc-url: ../Manufacturers/KUKA.md
+¬kuka-doc-link: [KUKA]({{kuka-doc-url}})
+
+¬mitsubishi-doc-url: ../Manufacturers/Mitsubishi.md
+¬mitsubishi-doc-link: [Mitsubishi]({{mitsubishi-doc-url}})
+
+¬staubli-doc-url: ../Manufacturers/Staubli.md
+¬staubli-doc-link: [Stäubli]({{staubli-doc-url}})
+
+¬universalRobots-doc-url: ../Manufacturers/Ξ UniversalRobots/UniversalRobots.tsmap
+¬universalRobots-doc-link: [Universal Robots]({{universalRobots-doc-url}})
+
+¬yaskawa-doc-url: ../Manufacturers/Yaskawa.md
+¬yaskawa-doc-link: [Yaskawa]({{yaskawa-doc-url}})
+

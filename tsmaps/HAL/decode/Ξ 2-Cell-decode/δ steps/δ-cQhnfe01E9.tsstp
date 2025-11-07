@@ -1,0 +1,18 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+On the **Scene** screen, select **Robot** from the _Item Type_ selector at the very top, then click **+**. The **From Preset** _Creator_ will allow you to select a {{gl.manipulator-link}} from our catalogue. 
+
+Select the **Preset** _Step_ and the {{gl.manipulator-link}} catalogue will pop-up. Double-click on the robot you want to load to choose it. If the {{gl.manipulator-link}} you want isn't listed, look for the **Scan Online Content** button in lower left-hand corner which will list all the available [Robots]{{gl.manipulator-link-D}} and download whichever one you choose. There are plenty to choose from so it may take a few seconds to list them all. Next time you load the catalogue, your offline [Robots]{{gl.manipulator-link-D}} will be listed.
+
+If you need to set the **Location** of the {{gl.manipulator-link}}, choose that _Step_ and adjust accordingly. The **Reference** setting can be used to adjust whether you want to define a **Location** relative to the **Scene**'s origin, or the element to which the {{gl.manipulator-link}} is attached, its _Parent_.
+
+Once you are happy with the {{gl.manipulator-link}}'s setup click **ok** in the upper right corner to return to the **Scene** screen.
+
+{{il.cellAddRobotCatalogue-image}}{: .pad-top}
+<em>There are lots of robots to choose from in the online catalogue.</em>{: .pad-bottom}
+
+---

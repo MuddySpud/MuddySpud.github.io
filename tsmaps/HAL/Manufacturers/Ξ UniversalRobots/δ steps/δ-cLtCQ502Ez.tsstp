@@ -1,0 +1,36 @@
+¬import il from "../../../_shared/imageLinks"
+¬import el from "../../../_shared/externalLinks"
+
+
+#### Remote Upload Prerequisites:
+
+There are a few settings that need to be checked on your controller before we can connect to it from your PC. Some of these might already be correctly set on your system, but even if they aren't these will only ever need to be done once on your controller. It is also good practice to restart the controller once everything below is configured to ensure it's taken into account, the only exception is the activation of _Remote Control_ which is likely to be toggled frequently and does not require a restart.
+
+1. Ensure you have access to the admin password for you controller. You will need this to make many of the changes below, and it will be needed when you configure your [Controller Options](#1-controller-options).
+{{il.urAdminPassword-image}}{: .pad-top}
+<em>The Admin Password can be changed in the settings.</em>{: .pad-bottom}
+
+2. Enable the _Network_. DHCP or Static will work as long as your PC can be on the same subnet as the controller. Make a note of the IP address as it will be needed when you configure your [Controller Options](#1-controller-options).
+{{il.urEnableNetwork-image}}{: .pad-top}
+<em>The controller network needs to be enabled to give us remote access.</em>{: .pad-bottom}
+
+3. Enable the _Secure Shell (SSH)_. This will allow us to transfer code files from a PC to your controller remotely.
+{{il.urEnableSSH-image}}{: .pad-top}
+<em>SSH allows us to transfer code files to your controller.</em>{: .pad-bottom}
+
+4. Enable the _Services_ chosen in your [Controller Options](#1-controller-options). Typically this will include _Dashboard Server_, _RTDE_ and the _Primary Client Interface_.
+{{il.urEnableServices-image}}{: .pad-top}
+<em>Services you have chosen to remotely command your controller need to be Enabled.</em>{: .pad-bottom}
+
+5. Ensure _inbound access_ for the following ports isn't disabled - 22 (for _SSH_), 29999 (for _Dashboard Server_), 30004 (for _RTDE_) and 30001 (for _Primary Client Interface_). If there are other services you have enabled, the full list of used ports can be found {{el.universal-robots-port-list-here-link}}.
+{{il.urEnablePorts-image}}{: .pad-top}
+<em>Ports can be blocked for security but access needs to be allowed for certain services.</em>{: .pad-bottom}
+
+6. Enable _Remote Control_. This will add a nwe option in the top right corner of the screen which will allow us to command the controller from a PC using the various _Services_ we just set up.
+{{il.urEnableRemoteControl-image}}{: .pad-top}
+<em>Remote Control must be enabled before it can be activated for us to command the controller remotely.</em>{: .pad-bottom}
+
+7. Activate _Remote Control_. This will allow us to command the controller from a PC using the various _Services_ we just set up. It can be toggled in the top right corner of you teach pendant screen. In _Remote Control_ you won't be able to jog the robot or make manual changes so you are likely to toggle this on and off a few times whilst setting up your application but remember to activate it before attempting to upload code remotely.
+{{il.urActivateRemoteControl-image}}{: .pad-top}
+<em>Remote Control must be activated for us to command the controller remotely.</em>{: .pad-bottom}
+

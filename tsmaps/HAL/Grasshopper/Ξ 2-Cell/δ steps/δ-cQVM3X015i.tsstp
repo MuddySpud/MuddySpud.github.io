@@ -1,0 +1,21 @@
+¬import il from "../../../_shared/imageLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+We can create a {{gl.part-link}} by going to the **Cell** panel, **Create Part**. If you've seen the [Create a Reference]{{ghl.grasshopper-create-reference-link-D}} tutorial many of the inputs here will look familiar, in its simplest form a {{gl.part-link}} is just a {{gl.reference-link}} with associated geometry. The _Frame_ of our {{gl.part-link}} is its base frame, that is to say if you were to set the position of the {{gl.part-link}} that is the point that you would expect to be at the designated position. The _Body_ is the geometry we want to assign to our {{gl.part-link}}, and we can assign a _Mass_. The _Mass_ is particularly necessary if this part is going to be used as part of a {{gl.end-effector-link}} so that the total mass can be calculated and {{gl.export-d-link}} in your code.
+
+{{il.23Part-image}}{: .pad-top}
+<em>A part is a shape (approximated by meshes) with an associated location an mass.</em>{: .pad-bottom}
+
+{{il.23PartAdvanced-image}}{: .pad-top}
+<em>The second overload of the {{gl.part-link}} component allows us to specify a few more details including the _Color_ and _Centre of Mass_.</em>{: .pad-bottom}
+
+{{il.23PartRelocate-image}}{: .pad-top}
+<em>Once you've created your {{gl.parts-link}} they can be moved around your scene using the **Relocate** component.</em>{: .pad-bottom}
+
+{{il.23PartAttach-image}}{: .pad-top}
+<em> Two parts can also be attached to each other using the **Attach** component.</em>{: .pad-bottom}
+

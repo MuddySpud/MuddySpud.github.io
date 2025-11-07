@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.4. Create a Tool
+
+#### Objective:
+
+In this tutorial we'll create a simple {{gl.end-effector-link}} in the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.rhFile16-img}}  Create a Tool.3dm]{{gel.createTool-link-D}}{: .icon-link}      
+> [{{il.ghFile16-img}}  Create a Tool.gh]{{gel.createTool-gh-link-D}}{: .icon-link}
+

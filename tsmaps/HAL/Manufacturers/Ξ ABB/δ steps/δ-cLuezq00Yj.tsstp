@@ -1,0 +1,16 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dt from "../Ω variables/detailsTable"
+
+
+#### Details:
+
+You'll find a number of different ABB controllers in our catalogs but between the multiple _OmniCore_ and _IRC5_ versions the only major difference is the geometry. The {{gl.controller-link}} type (_OmniCore_ or _IRC5_) will also define which software versions are available and therefore which {{gl.subsystems-link}} can be chosen.
+
+| Subsystem Name | Description | Capabilities | Configuration |
+| -------------- | ----------- | ------------ | ------------- |
+| {{dt.cell-1-1}} | {{dt.cell-1-2}} | {{dt.cell-1-3}} | {{dt.cell-1-4}} |
+| {{dt.cell-2-1}} | {{dt.cell-2-2}} | {{dt.cell-2-3}} | {{dt.cell-2-4}} |
+| {{dt.cell-3-1}} | {{dt.cell-3-2}} | {{dt.cell-3-3}} | {{dt.cell-3-4}} |
+| {{dt.cell-4-1}} | {{dt.cell-4-2}} | {{dt.cell-4-3}} | {{dt.cell-4-4}} |
+
+---

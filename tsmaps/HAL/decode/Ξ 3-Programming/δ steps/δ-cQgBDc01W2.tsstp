@@ -1,0 +1,20 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.0. Procedures
+
+#### Objective:
+
+In this tutorial we'll cover the main structure and background of {{gl.procedures-link}} in _decode_.
+
+#### Background:
+
+{{gl.procedures-link}} are a sequence of {{gl.actions-link}} to be executed by a {{gl.controller-link}}. In the **Programming** screen you'll find tools to create individual, atomic {{gl.actions-link}} like {{gl.motion-action-move-link}} or {{gl.wait-action-link}} as well as ones which generate complex {{gl.toolpaths-link}} comprised of 10s, 100s or even 1000s of individual {{gl.actions-link}}.
+
+Each {{gl.manipulator-link}} has a main {{gl.procedure-link}}, always the first in the list, assigned to it. You can add {{gl.procedures-link}} to a {{gl.manipulator-link}} to help you [structure your code](#36-structuring-procedures), but it's only the main one which will be {{gl.solving-d-link}}, [Simulated]{{gl.simulation-link-D}} or {{gl.control-link}}. {{gl.procedures-link}} can be added via the **+** button in the upper right-hand corner of the **Programming** screen and renamed,or removed through the menu button next to it.
+
+{{il.programmingComplete01-image}}{: .pad-top}
+<em>Even complex Toolpaths can be kept to simple Procedures in _decode_.</em>{: .pad-bottom}
+
+---

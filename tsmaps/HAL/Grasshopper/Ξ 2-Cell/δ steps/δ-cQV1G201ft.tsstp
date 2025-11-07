@@ -1,0 +1,16 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+
+#### How to:
+
+Within the **HAL Robotics** tab, under the **Cell** panel you will find a component called **Robot**. When you place this in the document you will notice that it has two interlocking squares **⧉** in its name. This is the symbol for a [pop-up window component]{{ghl.grasshopper-components-link-D}} meaning we can double click on the component to bring up an additional user interface. In this case that's a catalog listing all of the available [Robots]{{gl.manipulator-link-D}} we've pre-created for your immediate use. 
+
+You can use the search bar or tags listed on the left-hand side of the window to filter the [Robots]{{gl.manipulator-link-D}} to find the one you want. Once you have identified the {{gl.manipulator-link}} you want to add to the document simply double click or use the "Select" button to instantiate your {{gl.manipulator-link}} in the scene. If you intend to {{gl.export-link}} code to your {{gl.manipulator-link}} it is a good habit to name your virtual **Robot** to match the real one using the _Alias_ input. For example, the `IRB-1200` we have in the office is configured as `HAL_Jarvis`.
+
+{{il.21Robot-image}}{: .big-image}
+<em>It is good practice to name HAL objects by using the _Alias_ input of the components.</em>{: .pad-bottom}
+
+---

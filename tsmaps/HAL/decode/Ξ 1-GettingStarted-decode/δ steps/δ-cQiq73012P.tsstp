@@ -1,0 +1,11 @@
+#### How to:
+
+Once you've opened _decode_, and logged in to the HAL Robotics Framework to access your licenses, you should be presented with a list of **Projects** that are stored on your PC. If this is the first time you're opening the software, this list may well be empty. By default, all your **Projects** will be stored in a folder within you _Documents_ folder but you can change that by clicking on **change projects folder** in the bottom right-hand corner of the window. If you want to shared **Projects** between multiple computers, you could set this folder to be somewhere on a networked drive.
+
+If the **Project** you want to open is listed, you can open it by either double-clicking, or clicking once to select, then on the **open** button.
+
+If this is your first **Project** or you want to start a new **Project**, click on the **new** button in the upper right-hand corner. This will take you to a new screen where you can give the **Project** a _Name_ and _Description_ to help you identify it in the list next time you open _decode_. The _Name_ will also be the final part of the _Destination_ path and we will alert you if that _Name_ is already in use.
+
+Once you're happy with those details, click **ok**. We will create that **Project** for you and automatically open it ready for you to start your new endeavour.
+
+---

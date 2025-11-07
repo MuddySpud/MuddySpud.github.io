@@ -1,0 +1,51 @@
+{
+    "v": "1",
+    "r": {
+        "i": "ytU69M05O",
+        "n": "wtMWFT01Mi",
+        "c": 0,
+        "o": [
+            {
+                "i": "ytU69U1Fa",
+                "n": "wqTCK0001k",
+                "x": "s7LPsx14a",
+                "c": 0,
+                "o": [
+                    {
+                        "i": "ytU69U0JF",
+                        "n": "wqTMwZ01QI",
+                        "x": "s7LPsx14a",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "ytU69U2OP",
+                                "n": "wqTVJE01Qw",
+                                "x": "s7LPsx14a",
+                                "c": 0,
+                                "o": [
+                                    {
+                                        "i": "ytU69U1fr",
+                                        "n": "wqTcge02PX",
+                                        "x": "s7LPsx14a",
+                                        "_x": "wqTeGi01qL"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7LPsx1UQ",
+            "p": "_site/LuSenlinTech/produce/Crops/HerbSelection_frags"
+        }
+    ],
+    "e": 1,
+    "mv": {
+        "bayCount": "4",
+        "modelName": "500"
+    }
+}

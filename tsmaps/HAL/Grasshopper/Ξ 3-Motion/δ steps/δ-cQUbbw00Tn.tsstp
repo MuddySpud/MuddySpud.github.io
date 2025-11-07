@@ -1,0 +1,7 @@
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+- Reading or watching the [Synchronize Motion]{{ghl.grasshopper-synchronize-motion-link-D}} tutorial is highly recommended.
+- Reading or watching the [Coupled Motion and Resolving Targets]{{ghl.grasshopper-coupled-motion-link-D}} tutorial is highly recommended.
+- An extension to the HAL Robotics Framework that allows code export for external axes such as HAL.ABB or HAL.KUKA.
+

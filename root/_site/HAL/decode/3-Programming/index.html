@@ -1,0 +1,352 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLCJo1rc","path":"HAL/decode","fragmentFolderPath":"HAL/decode/3-Programming_frags"},"fragment":{"id":"fdLCJo1rc","topLevelMapKey":"eGWgw90N3","mapKeyChain":"eGWgw90N3","guideID":"fdLCJo0tS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/3-Programming.tsmap","parentFragmentID":null,"chartKey":"eGWgw90N3","options":[]}} -->
+
+<h2 id="3-programming">3. Programming</h2>
+
+<p><a href="#30-procedures">3.0. Procedures</a><br />
+<a href="#31-move">3.1. Move</a><br />
+<a href="#32-wait-for-a-time">3.2. Wait for a Time</a><br />
+<a href="#33-set-a-signal">3.3. Set a Signal</a><br />
+<a href="#34-paths">3.4. Paths</a><br />
+<a href="#35-custom-actions">3.5. Custom Actions</a><br />
+<a href="#36-structuring-procedures">3.6. Structuring Procedures</a><br />
+<a href="#37-validation-and-simulation">3.7. Validation and Simulation</a></p>
+
+<hr />
+<h3 id="30-procedures">3.0. Procedures</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll cover the main structure and background of <a href="/HAL/Overview/Glossary#procedure">Procedures</a> in <em>decode</em>.</p>
+
+<h4 id="background">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#procedure">Procedures</a> are a sequence of <a href="/HAL/Overview/Glossary#action">Actions</a> to be executed by a <a href="/HAL/Overview/Glossary#controller">Controller</a>. In the <strong>Programming</strong> screen you’ll find tools to create individual, atomic <a href="/HAL/Overview/Glossary#action">Actions</a> like <a href="/HAL/Overview/Glossary#motion-action">Move</a> or <a href="/HAL/Overview/Glossary#wait-action">Wait</a> as well as ones which generate complex <a href="/HAL/Overview/Glossary#toolpath">Toolpaths</a> comprised of 10s, 100s or even 1000s of individual <a href="/HAL/Overview/Glossary#action">Actions</a>.</p>
+
+<p>Each <a href="/HAL/Overview/Glossary#manipulator">Robot</a> has a main <a href="/HAL/Overview/Glossary#procedure">Procedure</a>, always the first in the list, assigned to it. You can add <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to help you <a href="#36-structuring-procedures">structure your code</a>, but it’s only the main one which will be <a href="/HAL/Overview/Glossary#solving">Solved</a>, <a href="/HAL/Overview/Glossary#73-simulation">Simulated</a> or <a href="/HAL/Overview/Glossary#74-control">Exported</a>. <a href="/HAL/Overview/Glossary#procedure">Procedures</a> can be added via the <strong>+</strong> button in the upper right-hand corner of the <strong>Programming</strong> screen and renamed,or removed through the menu button next to it.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Complete-01.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Complete-01.png" /></a>
+<em class="pad-bottom">Even complex Toolpaths can be kept to simple Procedures in <em>decode</em>.</em></p>
+
+<hr />
+<h3 id="31-move">3.1. Move</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll look at the different ways that we can program individual <a href="/HAL/Overview/Glossary#motion-action">Motions</a> in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>Motions are the fundamental building block of <a href="/HAL/Overview/Glossary#manipulator">Robot</a> programming instructing the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to go from its current position to somewhere else. We define where a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should move using <a href="/HAL/Overview/Glossary#target">Targets</a> and how they should get there with <a href="/HAL/Overview/Glossary#motion-action">Motion</a> Settings.
+We can mix and match <a href="/HAL/Overview/Glossary#target">Target</a> creation techniques with different <a href="/HAL/Overview/Glossary#joint-space">Motion Spaces</a> ass we’ll see below.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>From the <strong>Programming</strong> screen, select the <a href="#36-structuring-procedures">Group</a> into which you want to add your new <a href="/HAL/Overview/Glossary#motion-action">Move</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#action">Actions</a> onto <a href="#36-structuring-procedures">Groups</a> or in between other <a href="/HAL/Overview/Glossary#action">Actions</a> to restructure your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#motion-action">Move</a> as an option. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#motion-action">Move</a>.</p>
+
+<p>There are two <em>Steps</em> here which align with the <em>where</em> and <em>how</em> the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves mentioned above.</p>
+
+<p>There are 2 main ways of creating <a href="/HAL/Overview/Glossary#target">Targets</a>, both of which are found in the <strong>Target</strong> <em>Step</em>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Move-Target.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Move-Target.png" /></a>
+<em class="pad-bottom">Targets in <em>decode</em> can be edited in Joint or Cartesian spaces.</em></p>
+
+<p>The first way of creating a <a href="/HAL/Overview/Glossary#target">Target</a> is in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a>, that is by defining the desired position of each active <a href="/HAL/Overview/Glossary#joint">Joint</a> of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. The list of <em>Positions</em> correspond to each active <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#joint">Joint</a>. As you change these values, you can visualize the final position of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> at these <a href="/HAL/Overview/Glossary#joint">Joint</a> positions.</p>
+
+<p>The other way of creating a <a href="/HAL/Overview/Glossary#target">Target</a> is a <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <a href="/HAL/Overview/Glossary#target">Target</a> from a <strong>Frame</strong>. When a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves to a <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <a href="/HAL/Overview/Glossary#target">Target</a> the active <a href="/HAL/Overview/Glossary#endpoint">TCP</a> of our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> will align with the <a href="/HAL/Overview/Glossary#target">Target’s</a> position and orientation. As you change the values of that <strong>Frame</strong> you can see our <a href="/HAL/Overview/Glossary#target">Target</a> move and our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> moves with it. A <strong>Frame</strong> is always relative to a <a href="/HAL/Overview/Glossary#reference">Reference</a> which can also be set here. Please take a look at the <a href="/HAL/decode/2-Cell#23-create-a-reference">References tutorial</a> to see how those work.</p>
+
+<p>At the top of the <strong>Target</strong> <em>Step</em> is a crucial selector. It allows us to specify the <a href="/HAL/Overview/Glossary#joint-space">Motion Space</a> in which we want to store the <a href="/HAL/Overview/Glossary#target">Target</a>. <em>N.B. This does not affect <strong>how</strong> we move to the <a href="/HAL/Overview/Glossary#target">Target</a>.</em> 
+Selecting <a href="/HAL/Overview/Glossary#joint-space">Joint Space</a> will mean that we consider only those <a href="/HAL/Overview/Glossary#joint">Joint</a> positions and we ignore the <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <strong>Frame</strong>. If, for example, you were to change the length of your <a href="/HAL/Overview/Glossary#end-effector">Tool</a> or the location of a <a href="/HAL/Overview/Glossary#reference">Reference</a>, it wouldn’t matter because these are fixed values for each <a href="/HAL/Overview/Glossary#joint">Joint</a>.
+Selecting <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian Space</a> will mean that we only consider the <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> <strong>Frame</strong>. If, for example, you were to change the length of your <a href="/HAL/Overview/Glossary#end-effector">Tool</a> or the location of a <a href="/HAL/Overview/Glossary#reference">Reference</a>, we will recompute the values for each <a href="/HAL/Overview/Glossary#joint">Joint</a> to get the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> into that position.</p>
+
+<p>Either of these <a href="/HAL/Overview/Glossary#target">Target</a> creation options give exactly the same types of <a href="/HAL/Overview/Glossary#target">Target</a> so can be used with any <strong>Motion Settings</strong>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings.png" /></a>
+<em class="pad-bottom">Motion Settings tell the Robot how to get to the Target.</em></p>
+
+<p><em>Motion Type</em> controls which path the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> takes to a <a href="/HAL/Overview/Glossary#target">Target</a>. In <code class="language-plaintext highlighter-rouge">Cartesian</code> mode the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> moves in a very controlled manner along a straight line or arc. This is probably the easier motion type to visualize but can cause problems when moving between configurations or when trying to optimise cycle times. Moving in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> means that each <a href="/HAL/Overview/Glossary#joint">Joint</a> will move from one position to the next without consideration for the position of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a>. <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> <a href="/HAL/Overview/Glossary#motion-action">Moves</a> always end in the same configuration and are not liable to <a href="/HAL/Overview/Glossary#(kinematic)-singularity">Singularities</a>. It’s often useful to start your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> with a <a href="/HAL/Overview/Glossary#motion-action">Motion</a> in <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> to ensure your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is always initialized to a known position and configuration. It’s worth noting that when using <a href="/HAL/Overview/Glossary#joint-space">Joint space</a> <a href="/HAL/Overview/Glossary#motion-action">Motions</a> your <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> preview will be dotted until the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> is <a href="/HAL/Overview/Glossary#solving">Solved</a> because we can’t know ahead of time exactly where the <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will go during that <a href="/HAL/Overview/Glossary#motion-action">Motion</a>. Once <a href="/HAL/Overview/Glossary#solving">Solved</a>, you will see the path your <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will actually take in space.</p>
+
+<p><em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> sometimes called zones or approximations change how close the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> needs to get to a <a href="/HAL/Overview/Glossary#target">Target</a> before moving on to the next. It’s useful to consider your <em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> carefully because increasing their size can drastically improve cycle time by allowing the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to maintain speed instead of coming to a stop at each <a href="/HAL/Overview/Glossary#target">Target</a>. <em><a href="/HAL/Overview/Glossary#blend">Blends</a></em> are most easily visualized in <em>Position</em>. If we set a 100 mm radius <a href="/HAL/Overview/Glossary#blend">Blend</a>, we can see a circle appear around our <a href="/HAL/Overview/Glossary#target">Target</a> (unless it’s the very first in a Procedure). This indicates that the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> will exactly follow our <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> until it gets within 100 mm of the <a href="/HAL/Overview/Glossary#target">Target</a>, at which point it will start to deviate within that circle to keep its speed up and head towards the subsequent <a href="/HAL/Overview/Glossary#target">Target</a>. It will exactly follow our <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> again when it leaves the circle. When we solve our <a href="/HAL/Overview/Glossary#procedure">Procedure</a>, we can see the path our <a href="/HAL/Overview/Glossary#endpoint">TCP</a> will actually take getting close but not actually to all of our <a href="/HAL/Overview/Glossary#target">Targets</a>.</p>
+
+<p><em>Speed</em> settings, as the name implies, constrain the speed of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. They can be declared in <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian space</a> to directly limit the position or orientation <em>Speed</em> of the <a href="/HAL/Overview/Glossary#endpoint">TCP</a>. You can also constrain the <em>Speeds</em> of your <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#joint">Joints</a> using the second overload or combine the two using the third overload. Please note that not all <a href="/HAL/Overview/Glossary#manipulator">Robot</a> manufacturers support programmable <a href="/HAL/Overview/Glossary#endpoint">Joint</a> speed constraints so there may be variations between your simulation and real <a href="/HAL/Overview/Glossary#manipulator">Robot</a> when they are used.</p>
+
+<p><em>Acceleration</em> settings constrain the acceleration of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. They function in exactly the same way as the <em>Speeds</em>, constraining <a href="/HAL/Overview/Glossary#cartesian-space">Cartesian</a> acceleration, <a href="/HAL/Overview/Glossary#joint-space">Joint</a> acceleration or both.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings-Variable.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Move-MotionSettings-Variable.png" /></a>
+<em class="pad-bottom">Linking Motion Settings to Variables helps speed up any changes you might need to make in the future and are necessary if you want an operator to be able to change a value.</em></p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#motion-action">Move</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<hr />
+<h3 id="32-wait-for-a-time">3.2. Wait for a Time</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll create a <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a> that pauses <a href="/HAL/Overview/Glossary#manipulator">Robot</a> execution for a fixed period of time using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p>In certain scenarios it may be necessary to have your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#wait-action">Wait</a> in its current position. This could be because it’s taking a measurement, a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is working or simply because something else is happening in the environment. If the time to <a href="/HAL/Overview/Glossary#wait-action">Wait</a> is a constant, such as the time required for a gripper to open, then a <strong>Wait Time</strong> <a href="/HAL/Overview/Glossary#action">Action</a> is a good solution.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>From the <strong>Programming</strong> screen, select the <a href="#36-structuring-procedures">Group</a> into which you want to add your new <a href="/HAL/Overview/Glossary#wait-action">Wait</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#action">Actions</a> onto <a href="#36-structuring-procedures">Groups</a> or in between other <a href="/HAL/Overview/Glossary#action">Actions</a> to restructure your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#wait-action">Wait</a> as an option. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#wait-action">Wait Action</a>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-WaitTime-Complete.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-WaitTime-Complete.png" /></a>
+<em class="pad-bottom">Waits allow the Robot to hold in position for a given time.</em></p>
+
+<p>The default, <strong>From Time</strong> <em>Creator</em> will allow you to set the time for which the robot should pause. For example, if the <em>Time</em> is set to 2 seconds, when we <a href="#37-validation-and-simulation">Simulate</a> the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> pauses for 2 seconds.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#wait-action">Wait</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<hr />
+<h3 id="33-set-a-signal">3.3. Set a Signal</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll change the state of a <a href="/HAL/Overview/Glossary#signal">Signal</a> at runtime in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#signal">Signal</a> in your <strong>Network</strong>. If you don’t have one, see the <a href="/HAL/decode/2-Cell#26-create-a-signal">Create a Signal</a> tutorial for more information.</li>
+</ul>
+
+<h4 id="background-3">Background:</h4>
+
+<p>Electrical Input and Output (I/O) <a href="/HAL/Overview/Glossary#signal">Signals</a> are used to activate or deactivate <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, trigger actions on remote machines or pass data between <strong>Sensors</strong>. The activation of these <a href="/HAL/Overview/Glossary#signal">Signals</a> needs to be triggered at the right time during program execution, something we can do easily with <a href="/HAL/Overview/Glossary#signal-action">Signal Actions</a>.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>In our previous tutorial, we created a digital output <a href="/HAL/Overview/Glossary#signal">Signal</a> within a <a href="/HAL/Overview/Glossary#controller">Controller</a> and assigned it an appropriate <em>Name</em>.. We now want to change the state of that <a href="/HAL/Overview/Glossary#signal">Signal</a> during the execution of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. To do so, from the <strong>Programming</strong> screen, select the <a href="#36-structuring-procedures">Group</a> into which you want to add your new <a href="/HAL/Overview/Glossary#signal-action">Signal Action</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#action">Actions</a> onto <a href="#36-structuring-procedures">Groups</a> or in between other <a href="/HAL/Overview/Glossary#action">Actions</a> to restructure your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#signal-action">Set Signal</a> as an option. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#signal-action">Signal Action</a>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-SetSignal-Complete.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-SetSignal-Complete.png" /></a>
+<em class="pad-bottom">Signals can be used to activate or deactivate Tools or trigger actions.</em></p>
+
+<p>You’ll have a <em>Creator</em> for each type of <a href="/HAL/Overview/Glossary#signal">Signal</a> available, e.g. <strong>Set Digital Output</strong> or <strong>Set Analog Output</strong>. Within each you will find a list of the relevant <a href="/HAL/Overview/Glossary#signal">Signals</a> in your <strong>Network</strong> and a <em>Value</em> which should be assigned.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#signal-action">Signal Action</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<hr />
+<h3 id="34-paths">3.4. Paths</h3>
+
+<h4 id="objective-4">Objective:</h4>
+
+<p>In this tutorial we’ll see how to combine different <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to chain sequences using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-3">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/decode/2-Cell#24-create-a-part">CAD Model</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-4">Background:</h4>
+
+<p>Building <a href="/HAL/Overview/Glossary#procedure">Procedures</a> <a href="/HAL/Overview/Glossary#action">Action</a> by <a href="/HAL/Overview/Glossary#action">Action</a> might be sufficient for some processes but longer Toolpaths can more easily be generated based on some sort of geometry, be that curves, surfaces or meshes. <strong>Paths</strong> allow exactly that including options for triggering sub-<a href="/HAL/Overview/Glossary#procedure">Procedures</a> and jumping between different sections of the <strong>Path</strong>.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>From the <strong>Programming</strong> screen, select the <a href="#36-structuring-procedures">Group</a> into which you want to add your new <strong>Path</strong>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#action">Actions</a> onto <a href="#36-structuring-procedures">Groups</a> or in between other <a href="/HAL/Overview/Glossary#action">Actions</a> to restructure your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later. Either of those states will enable the <em>Item Type</em> selector to list <strong>Path</strong> as an option. Click <strong>+</strong> and you’ll start creating a <strong>Path</strong>.</p>
+
+<p>There are two <em>Creators</em> in <strong>Path</strong>, <strong>Follow Curve</strong> and <strong>Follow Pattern</strong>. The former allows you to select or create curves within your <strong>Scene</strong> whilst the latter uses curves, surfaces or meshes as input regions that can be filled with a pattern. After that first <strong>Curve</strong> or <strong>Pattern</strong> creation section, the <em>Creators</em> then follow exactly the same structure.</p>
+
+<h5 id="follow-curve">Follow Curve</h5>
+
+<p>There are lots of different ways to assign curves for the <strong>Path</strong> to follow, grouped in the <strong>Source</strong> setting. If you want to follow the edge of a CAD Model you have in your <strong>Scene</strong>, <strong>From Model</strong> lets you select that geometry. In the <strong>From Model</strong> settings you’ll find a selector which allows you to add or remove curves to a collection. Click on <strong>select</strong> and then the <strong>+</strong> button in the pop-up to start selecting. Any eligible curves within your model will be highlighted when you hover over them and a single click will add them to the selection. You will see a banner appear above your 3D viewport which has extra information about the next step in the selection process, in this case how to confirm your selection and return to the pop-up. All the curves you selected will be listed here and can be individually removed using the <strong>X</strong> next to each item, or all cleared with the <strong>X</strong> next to he <strong>+</strong> button. You can return to adding or removing curves from the model by clicking the <strong>+</strong> again. When you’re happy with your selection click <strong>ok</strong> and you’ll be returned to the <strong>Path</strong> editor.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowCurve-FromModel-Selector.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowCurve-FromModel-Selector.png" /></a>
+<em class="pad-bottom">You can select the edges of CAD Models to get your Robots to follow them.</em></p>
+
+<p>The other <strong>Sources</strong> allow you to create curves on any CAD Models you have imported. They will all ask you for one or more <strong>Host</strong> <strong>Locations</strong> which can be selected on any CAD Model in your <strong>Scene</strong>, and then a series of relevant <strong>Settings</strong>. There lots of possibilities here so it’s well worth experimenting with all the options to see what can be achieved. For example from the <strong>Spiral</strong> <em>Source</em>, setting the <em>Inner Radius</em> and <em>Outer Radius</em> to the same value (maybe even a <a href="/HAL/decode/1-Getting-Started#14-variables">Variable</a>), and deactivating <strong>Flat</strong>, will allow you to create a cylindrical spiral at some point(s) on your CAD Model. Or linking your <strong>Location(s)</strong> to a <a href="/HAL/decode/1-Getting-Started#14-variables">Variable</a> will allow you to apply several different curves to the same locations.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Concentric.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Concentric.png" /></a>
+<em class="pad-bottom">Complex curves can be generated all over your CAD Models.</em></p>
+
+<p>The <strong>Modifiers</strong> then allow you to manipulate those curves, <em>Flipping</em> their direction to control which way the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#motion-action">Moves</a> along them, <em>Extending</em> them to over shoot (or using negative values to inset the start and end points). For <strong>From Model</strong> curves, <em>Join</em> determines whether curves whose ends touch should be considered as a single joined curve or not and <em>Preserve Direction</em> adds a little extra control over when that joining is applied.</p>
+
+<h5 id="follow-pattern">Follow Pattern</h5>
+
+<p>Both <strong>Follow Pattern</strong> <em>Creators</em> require some means of defining a <strong>Region</strong> to work. <em>Planar</em> requires the selection of <em>Boundary</em> curves from a CAD Model. Those can either be independent closed regions or one inside another which will be treated as holes within the outermost region. <em>Non-Planar</em> regions need a surface or mesh from a CAD Model. It’s best to explode complex models into their usable surfaces or meshes in your CAD editor of choice before importing them to make this easier. If you have curves within you CAD Models you can also set these are <em>Boundaries</em> on the <em>Host</em> surfaces but if no <em>Boundaries</em> are specified we’ll the edges of those surfaces in their stead.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Selector.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Selector.png" /></a>
+<em class="pad-bottom">Managing the separate surfaces in your original CAD file will make selection easier.</em></p>
+
+<p>With a <strong>Region</strong> in place, we can <strong>Create a Pattern</strong>. The <em>Pattern Type</em> will determine the settings available so, again, it’s worth experimenting to see what they all do. All <em>Pattern Types</em> work well on <em>Planar</em> <strong>Regions</strong> but we only recommend <em>Concentric</em> or <em>Parallel</em> on <em>Non-Planar</em> <strong>Regions</strong>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Concentric.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Concentric.png" /></a>
+<em class="pad-bottom">Entire surfaces, including non-planar ones, can be covered in patterns.</em></p>
+
+<h5 id="target-generation">Target Generation</h5>
+
+<p>The <strong>Targets</strong> <em>Step</em> allows you to decide how the geometry we have no selected or created should be subdivided into <a href="/HAL/Overview/Glossary#motion-action">Moves</a>. The <em>Subdivision</em> <em>Method</em> allows you to decide how the inputs should be approximated whilst the <em>Tolerance</em> allows you to specify how accurately the input should be followed. A larger <em>Tolerance</em> value will allow greater deviation from the input but will result in fewer <a href="/HAL/Overview/Glossary#target">Targets</a>. Whilst it might seem desirable to make that as low as possible, having too many <a href="/HAL/Overview/Glossary#target">Targets</a> will generate lots of code and may have a negative impact on <a href="/HAL/Overview/Glossary#manipulator">Robot</a> performance. The <strong>Guide</strong> settings allow you to automatically orient your <a href="/HAL/Overview/Glossary#target">Targets</a> to follow some geometry. For example if you were applying a <em>Pattern</em> to a surface, the <em>Guide</em> would enable you to keep all your <a href="/HAL/Overview/Glossary#target">Targets</a> normal (perpendicular) to that surface, or if you have selected curves <strong>From Model</strong> you could keep one of the axes tangent to them (<em>Use Curve As Guide</em>).</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Guide.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Guide.png" /></a>
+<em class="pad-bottom">Targets can be aligned to a guide surface to maintain perpendicularity to that surface.</em></p>
+
+<p><strong>Transform <a href="/HAL/Overview/Glossary#target">Targets</a></strong> allows you to offset your <a href="/HAL/Overview/Glossary#target">Targets</a> uniformly. This is applied relative to the <a href="/HAL/Overview/Glossary#target">Target</a> itself when in <em>Parent</em> or to the <em>World</em> when the Reference is set to the <em>World</em>. If for example you had a pattern across a surface with all of your <a href="/HAL/Overview/Glossary#target">Targets</a>’ Z-axes facing into that surface, you could moving them all off the surface by 20mm by setting the <em>Position Z</em> value to <code class="language-plaintext highlighter-rouge">-20</code> (minus because it’s in the opposite direction to the Z axis). Or you could rotate all of your <a href="/HAL/Overview/Glossary#target">Targets</a> around their X-axes by changing the <em>Rotation X</em> value.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Transform.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Transform.png" /></a>
+<em class="pad-bottom">Targets can be offset to create spacing between a Part and the Tool.</em></p>
+
+<h5 id="motion">Motion</h5>
+
+<p><strong>Motion Settings</strong> are exactly the same as you will have seen in the <a href="#31-move">Move</a> tutorial.</p>
+
+<h5 id="jumps">Jumps</h5>
+
+<p>It’s possible that your <strong>Path</strong> is a single continuous sequence of <a href="/HAL/Overview/Glossary#target">Targets</a>, but if there are breaks in it <strong>Jumps</strong> allow you to specify how the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should get from the end of one sequence to the start of the next. There are 5 phases to the <strong>Jump</strong> <em>Step</em> that can all be controlled by the same settings or specified individually.</p>
+<ul>
+  <li><strong>Path Entry</strong> specifies where the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should <a href="/HAL/Overview/Glossary#motion-action">Move</a> to before the start of the first sequence.</li>
+  <li><strong>Path Exit</strong> specifies where the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should <a href="/HAL/Overview/Glossary#motion-action">Move</a> to after the end of the last sequence.</li>
+  <li><strong>Jump Start</strong> specifies where the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should <a href="/HAL/Overview/Glossary#motion-action">Move</a> to after the end of any other sequence.</li>
+  <li><strong>Jump End</strong> specifies where the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> should <a href="/HAL/Overview/Glossary#motion-action">Move</a> to before the start of any other sequence.</li>
+  <li><strong>Jump Travel</strong> dictates how the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> <a href="/HAL/Overview/Glossary#motion-action">Moves</a> between <strong>Jump Start</strong> and <strong>Jump End</strong>.</li>
+</ul>
+
+<p>The settings within each of those phases should be familiar by now.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Jumps.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Jumps.png" /></a>
+<em class="pad-bottom">Jumps allow you to control how the Robot gets between segments of your Toolpath.</em></p>
+
+<p><strong>Jump Events</strong> allow you to specify if anything should happen during the <strong>Path</strong> or its <strong>Jumps</strong>. That could include activating or deactivating a Tool, triggering a Signal or a Wait. They are all <a href="/HAL/Overview/Glossary#procedure">Procedure</a> <strong>Calls</strong> and therefore need to be created within sub-Procedures. See <a href="#36-structuring-procedures">Structuring Procedures</a> for more details about how those are created.</p>
+
+<ul>
+  <li><strong>Entry</strong> <strong>On Approach</strong> is called at the <strong>Path Entry</strong> <a href="/HAL/Overview/Glossary#target">Target</a>.</li>
+  <li><strong>Entry</strong> <strong>On Start</strong> is called at the first <a href="/HAL/Overview/Glossary#target">Target</a> of the first sequence only.</li>
+  <li><strong>Jumps</strong> <strong>On Departure</strong> is called at the last <a href="/HAL/Overview/Glossary#target">Target</a> of each sequence.</li>
+  <li><strong>Jumps</strong> <strong>On Retract</strong> is called at the <strong>Jump Start</strong> point of each sequence.</li>
+  <li><strong>Jumps</strong> <strong>On Travel</strong> is called at the <strong>Jump End</strong> point of each sequence.</li>
+  <li><strong>Jumps</strong> <strong>On Arrival</strong> is called at the first <a href="/HAL/Overview/Glossary#target">Target</a> of each sequence.</li>
+  <li><strong>Exit</strong> <strong>On End</strong> is called at the last <a href="/HAL/Overview/Glossary#target">Target</a> of the last sequence only.</li>
+  <li><strong>Exit</strong> <strong>On Retract</strong> is called at the <strong>Path Exit</strong> <a href="/HAL/Overview/Glossary#target">Target</a>.</li>
+</ul>
+
+<p>Once you are happy with the <strong>Path</strong>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<hr />
+<h3 id="35-custom-actions">3.5. Custom Actions</h3>
+
+<h4 id="objective-5">Objective:</h4>
+
+<p>In this tutorial we’ll use a <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a> to trigger an existing <a href="/HAL/Overview/Glossary#manipulator">Robot</a> function using <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-4">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-5">Background:</h4>
+
+<p>When working with a fully integrated <a href="/HAL/Overview/Glossary#cell">Cell</a> or using a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> with pre-built functionality which isn’t natively supported by the HAL Robotics Framework, you may want add code to your export which calls an existing function in the <a href="/HAL/Overview/Glossary#controller">Controller</a>. We do this using <a href="/HAL/Overview/Glossary#custom-action">Custom Actions</a>. Common for <a href="/HAL/Overview/Glossary#custom-action">Custom Actions</a> are opening or closing a gripper, running tool change procedures, starting logging, activating collision boxes, popping up messages to the operator etc.</p>
+
+<h4 id="how-to-4">How to:</h4>
+
+<p>From the <strong>Programming</strong> screen, select the <a href="#36-structuring-procedures">Group</a> into which you want to add your new <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#action">Actions</a> onto <a href="#36-structuring-procedures">Groups</a> or in between other <a href="/HAL/Overview/Glossary#action">Actions</a> to restructure your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a> as an option. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a>.</p>
+
+<p>The main thing required here is our <em>Code</em>. This should just be the textual representation of the code that you want to export. For example if you wanted to create a pop-up message on an ABB robot you could write <em>TPWrite “Hello Robot”;</em> and that exact line of code will be exported within your program.</p>
+
+<p>Other than the <em>Name</em>, which we recommend always setting, the other setting is <em>Simulation</em>. This allows you to select a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> which will change how this <a href="/HAL/Overview/Glossary#action">Action</a> is simulated but won’t affect how it’s <a href="/HAL/Overview/Glossary#export">Exported</a>. If you know it’s going to take a second for your gripper to close, for example, you could put a <a href="/HAL/Overview/Glossary#wait-action">Wait</a> <a href="/HAL/Overview/Glossary#action">Action</a> in a <a href="#36-structuring-procedures">sub-procedure</a>, assign it to your <em>Simulation</em> and the program will pause when simulated but the code won’t contain any <a href="/HAL/Overview/Glossary#wait-action">Wait</a> instructions.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#custom-action">Custom Action</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<hr />
+<h3 id="36-structuring-procedures">3.6. Structuring Procedures</h3>
+
+<h4 id="objective-6">Objective:</h4>
+
+<p>In this tutorial we’ll see how to simplify your programming by structuring your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-5">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-6">Background:</h4>
+
+<p>Once your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> start to get more complex, you will likely find that certain sequences of <a href="/HAL/Overview/Glossary#action">Actions</a> are repeated. That could include moving the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to a home position, (de)activating a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> or setting some collection of Signals. Even if those sequences aren’t repeated, it may help the legibility of your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to create a hierarchy to collect <a href="/HAL/Overview/Glossary#action">Actions</a> into logical groups. We have two ways of doing that in <em>decode</em>, <strong>Groups</strong> and <a href="/HAL/Overview/Glossary#procedure">Procedure</a> Calls.</p>
+
+<h4 id="how-to-5">How to:</h4>
+
+<p>From the <strong>Programming</strong> screen, click in some white space to clear your selection. The <em>Item Type</em> selector should now list <strong>Group</strong> and <strong>Call</strong>.</p>
+
+<p>Starting with <strong>Group</strong>, click <strong>+</strong> and we’ll enter the <strong>Group</strong> editor. There are no settings in here other than the name so set one that makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen. If you then select your new <strong>Group</strong> you’ll see that any <a href="/HAL/Overview/Glossary#action">Action</a> can be created within it or existing <a href="/HAL/Overview/Glossary#action">Actions</a> can be dragged in or out of it. That’s all there is to <strong>Groups</strong>, they’re there to help you keep <a href="/HAL/Overview/Glossary#procedure">Procedures</a> organised.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Groups.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Groups.png" /></a>
+<em class="pad-bottom">Groups can help to structure longer Procedures.</em></p>
+
+<p><a href="/HAL/Overview/Glossary#procedure">Procedure</a> Calls, however, are a little more involved. Before we can use one we’ll need a sub-<a href="/HAL/Overview/Glossary#procedure">Procedure</a> to call. In the top right-hand corner you’ll see another <strong>+</strong> button and a three bar menu (<strong>☰</strong>). Either of those can be used to add a new Procedure, and the menu can also be used to rename or delete your additional <a href="/HAL/Overview/Glossary#procedure">Procedures</a>. As usual give this <a href="/HAL/Overview/Glossary#procedure">Procedure</a> an identifiable name, add some <a href="/HAL/Overview/Glossary#action">Actions</a> and then use the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> selector to return to your main <a href="/HAL/Overview/Glossary#procedure">Procedure</a>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-SubProcedures-Complete.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-SubProcedures-Complete.png" /></a>
+<em class="pad-bottom">Sub-Procedures allow you to create reusable blocks of code.</em></p>
+
+<p>Once back in your main <a href="/HAL/Overview/Glossary#procedure">Procedure</a>’s editor, with a <strong>Group</strong> or nothing selected, select <strong>Call</strong> from the <em>Item Type</em> selector and click <strong>+</strong> to add one. The default <em>Creator</em> has a <strong>Configure</strong> <em>Step</em> which will allow you to select which <a href="/HAL/Overview/Glossary#procedure">Procedure</a> you want to call. This will automatically rename your <strong>Call</strong>. Once you are happy with the <strong>Call</strong>’s setup click <strong>ok</strong> in the upper right corner to return to the <strong>Programming</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-CallProcedure.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-CallProcedure.png" /></a>
+<em class="pad-bottom">Procedure Calls allow you to reuse sub-Procedures e.g. to deactivate a Tool.</em></p>
+
+<hr />
+<h3 id="37-validation-and-simulation">3.7. Validation and Simulation</h3>
+
+<h4 id="objective-7">Objective:</h4>
+
+<p>In this tutorial we’ll see how to Simulate our <a href="/HAL/Overview/Glossary#procedure">Procedure</a> in <em>decode</em> to ensure it does what we expect.</p>
+
+<h4 id="requirements-to-follow-along-6">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+  <li>Some <a href="/HAL/Overview/Glossary#action">Actions</a> in your main Procedure</li>
+</ul>
+
+<h4 id="background-7">Background:</h4>
+
+<p>There are scenarios in which a single <a href="/HAL/Overview/Glossary#manipulator">Robot</a> may have access to multiple <a href="/HAL/Overview/Glossary#end-effector">Tools</a> and the ability to change which <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is in use at runtime. This could be because, either, the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> itself has multiple <a href="/HAL/Overview/Glossary#endpoint">Endpoints</a> or because automatic <a href="/HAL/Overview/Glossary#end-effector">Tool</a> changing equipment is available in the <a href="/HAL/Overview/Glossary#cell">Cell</a>.</p>
+
+<h4 id="how-to-6">How to:</h4>
+
+<p>In the <strong>Programming</strong> screen, between the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> selector and the <em>Item Type</em> selector you should see a large blue <strong>solve</strong> button. Clicking that will run a very fast simulation behind the scenes during which <em>decode</em> will work out how the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is going to follow any Toolpaths you’ve created and check for potential issues. If your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> is solved that button will be replaced by a <strong>simulation control bar</strong> with <strong>reset</strong>, <strong>play</strong>/<strong>pause</strong>, <strong>next</strong>, <strong>previous</strong>, and <strong>loop</strong> buttons as well as a <strong>time ratio</strong> slider to change the playback speed of the simulation. This won’t change the programmed or exported speeds, it’s just like skipping faster or slower through time. On the far right-hand side of that bar is a button with some graphs. That will open the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> Timeline which will show you the details of your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>’s <a href="/HAL/Overview/Glossary#motion-action">Motion</a> and highlight any issues during the <a href="/HAL/Overview/Glossary#procedure">Procedure</a>.</p>
+
+<p><a href="/HAL/assets/images/decode/03-Programming/Programming-Solved-Timeline-Middle.png" class="pad-top"><img src="/HAL/assets/images/decode/03-Programming/Programming-Solved-Timeline-Middle.png" /></a>
+<em class="pad-bottom">Solving the Procedure triggers the validation of the Procedure and allows its simulation.</em></p>
+
+<p>Every time you make a change to anything in your <a href="/HAL/Overview/Glossary#procedure">Procedure</a> you’ll need to re-<strong>solve</strong> but we’ll remember what happened last time so subsequent <strong>solve</strong>s will be faster.</p>
+
+<hr />
+
+<p><a href="/HAL/decode/4-Workflows#4-operator-workflows">Continue to: 4. Operator Workflows</a></p>

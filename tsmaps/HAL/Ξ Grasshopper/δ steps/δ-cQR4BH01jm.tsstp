@@ -1,0 +1,13 @@
+¬import gl from "../../_shared/grasshopperLinks"
+
+
+
+### {{gl.grasshopper-control-link}}
+
+#### {{gl.grasshopper-virtual-controller-link}}
+
+#### {{gl.grasshopper-export-procedure-link}}
+
+#### {{gl.grasshopper-upload-procedure-link}}
+
+#### {{gl.grasshopper-reuse-controller-link}}

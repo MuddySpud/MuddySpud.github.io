@@ -1,0 +1,46 @@
+¬import hl from "../../../_shared/halRoboticsLinks"
+¬import il from "../../../_shared/imageLinks"
+
+
+### 0.4. Purchase Licenses
+
+#### Objective:
+
+This tutorial will guide you through how to purchase licenses for the HAL Robotics Framework on the {{hl.hal-robotics-home-link}}. The process is the same whether you're purchasing for yourself or for an organization.
+
+#### Requirements to follow along:
+
+- Internet access.
+
+#### Background:
+
+Purchasing licenses will allow you to use the HAL Robotics Framework and are sold on a subscription basis, starting from 1 year. They do not automatically renew.
+
+#### How to:
+
+Start by browsing to the {{hl.hal-robotics-home-link}} and {{hl.hal-robotics-logging-in-link}}. You should then see navigate the {{hl.hal-robotics-purchase-licenses-link}}.
+
+* You must have a name set to purchase licenses. If your name is not listed after _For attention of_, click on _Hello youremailaddress@example.com!_ and set your first and last names.
+
+* If you wish to purchase licenses for an organization, use the _Organization_ drop down to select the correct one. You must be an admin for the organization to purchase licenses on its behalf. Otherwise, if you wish to purchase licenses for yourself then leave this set to "None".
+
+* Set _Reference_ if you want to add a Purchase Order number or similar to any invoices.
+
+* **For personal licenses** - if your _Billing Address_ is not valid, the _Billing Address_ field will be editable. Set your address and click "Save".
+**For organization licenses** - your _Billing Address_ and _VAT number_ are set by your organization. If these need changing, please navigate to the {{hl.hal-robotics-organizations-link}}, "View" your organization and under "Details" click "Edit".
+
+* Choose your license types, quantities and durations. "Professional" licenses are the default. All others are discounts from this and you will see conditions of sale under the license line.
+
+* If you have chosen a license type for which you have not been pre-approved, you will need to upload supporting information e.g. a scan of your student card, or evidence of your company's age, so that we can approve the purchase.
+
+Once you have entered all of your information you can "Buy Now" or "Request" your licenses, depending on whether we can automatically validate your purchase. If you do have to make a request, we will review this within 1 business day and either send you an invoice directly or be in touch to clarify any details.
+
+If you do have "Buy Now" as an option, and most people should, then your invoice should open in a new tab. If it doesn't, don't worry, there will be a link to it in the summary text on the web page and you will receive it by email too. This invoice will give you links to our secure payment providers through which you can pay online. As soon as your payment clears, your licenses will be issued and we will confirm this by email.
+
+{{il.purchaseLicense-image}}{: .pad-top}
+<em>The "Purchase Licenses" tab will allow you to purchase or renew you HAL Robotics Framework licenses.</em>{: .pad-bottom}
+
+{{il.requestLicense-image}}{: .pad-top}
+<em>If we need to manually validate the license type you have requested, you may be asked to "Request" your licenses, rather than to "Buy Now".</em>{: .pad-bottom}
+
+---

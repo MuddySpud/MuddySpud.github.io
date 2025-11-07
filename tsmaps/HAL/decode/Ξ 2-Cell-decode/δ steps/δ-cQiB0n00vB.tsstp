@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 2.5. Create a Controller
+
+#### Objective:
+
+In this tutorial we'll look at how you can create and configure a virtual {{gl.controller-link}} to match your real {{gl.controller-link}} in your _decode_ scene.
+

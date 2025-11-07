@@ -1,0 +1,17 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+**Operator Workflows** are a set of collaborative work instructions for the operator of a {{gl.cell-link}}, [Robots]{{gl.motion-action-link-D}} and any other peripheral devices, like sensors, that need to be controlled or feed into the process.
+
+#### How to:
+
+From the **Workflow Editor** screen, click on the three bar menu icon (**☰**) in the top right-hand corner and **Add a New Workflow**. You can use the same menu to rename the **Workflow**, add other **Workflows** or delete the currently selected **Workflow**.
+
+{{il.workflowEditorCreate-image}}{: .pad-top}
+<em>An empty Workflow isn't very useful but offers a lot of potential.</em>{: .pad-bottom}
+
+---

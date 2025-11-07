@@ -1,0 +1,94 @@
+{
+    "v": "1",
+    "r": {
+        "i": "yuRQgR0Wr",
+        "n": "ynQOzj01da",
+        "o": [
+            {
+                "i": "yuRQgW1c0",
+                "n": "s7LPr62Sr",
+                "o": [
+                    {
+                        "i": "yuRQgh0oP",
+                        "n": "s7LPr62N4",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "yuRQgh0mC",
+                                "n": "s7LPr61rb",
+                                "x": "s7LPkr1rO",
+                                "_x": "s7LPr60ZH"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "yuRQgz1MZ",
+                        "n": "s7LPr629C",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "yuRQgz102",
+                                "n": "s7LPr61cY",
+                                "x": "s7LPkr1rO",
+                                "_x": "s7LPr60ZH"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "yuRQhF1pR",
+                        "n": "s7LPr62Ye",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "yuRQhF1op",
+                                "n": "s7LPr60Xt",
+                                "x": "s7LPkr1rO",
+                                "_x": "s7LPr60ZH"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "yuRQhV1cF",
+                        "n": "s7LPr61b5",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "yuRQhV0u8",
+                                "n": "s7LPr61v2",
+                                "x": "s7LPkr1rO",
+                                "_x": "s7LPr60ZH"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "yuRQhk1VV",
+                        "n": "s7LPr60xE",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "yuRQhk25R",
+                                "n": "s7LPr60O2",
+                                "x": "s7LPkr1rO",
+                                "_x": "s7LPr60ZH"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "i": "yuRQi41Ae",
+                "n": "ynWh6n00th"
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7LPkr2IB",
+            "p": "LuSenlinTech/climate/WinterTemperatures_frags"
+        }
+    ],
+    "e": 1,
+    "mv": {
+        "spaceDisplayText": "space"
+    }
+}

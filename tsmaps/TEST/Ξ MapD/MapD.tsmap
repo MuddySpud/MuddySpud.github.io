@@ -1,0 +1,49 @@
+{
+    "key": "s7LPfP1td",
+    "token": "Mapd",
+    "name": "MapD",
+    "created": "2025-04-18T11:42:43.647Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapD/MapD.tsmap",
+    "iText": "Link to 'MapD'",
+    "iExits": [
+        {
+            "key": "s7LPfP07x",
+            "text": "Exit1-MapD-step-1.1",
+            "order": 1
+        },
+        {
+            "key": "s7LPfP0vm",
+            "text": "Exit2-MapD-step-1.2",
+            "order": 2
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "s7LPfP1LG",
+        "nodes": [
+            {
+                "key": "s7LPfP1BP",
+                "order": 1,
+                "option": "MapD-step-1.1",
+                "exitKey": "s7LPfP07x"
+            },
+            {
+                "key": "s7LPfP0gO",
+                "order": 2,
+                "option": "MapD-step-1.2",
+                "exitKey": "s7LPfP0vm"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7LPfP1LG",
+            "relativePath": "./δ steps/δ-fjJFjx01a6.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "imFApu00VK",
+        "editorID": "car_3618e26f63a64cdaaab35499e69c9fc0",
+        "ticks": 1747768325314
+    }
+}

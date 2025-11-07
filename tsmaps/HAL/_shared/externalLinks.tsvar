@@ -1,0 +1,20 @@
+
+
+¬abb-robotStudio-link: [RobotStudio](https://new.abb.com/products/robotics/robotstudio)
+
+¬abb-robotStudio-enable-link: [here](https://forums.robotstudio.com/discussion/comment/36060#Comment_36060?utm_source=community-search&utm_medium=organic-search&utm_term=robotwebservices)
+
+¬abb-robotStudio-remote-link: [here](https://forums.robotstudio.com/discussion/12082/using-robotwebservices-to-access-a-remote-virtual-controller)
+
+
+
+
+¬rhino-download-link: [McNeel's Rhinoceros 3D and Grasshopper](https://www.rhino3d.com/download)
+
+¬universal-robots-port-list-here-link: [here](https://forum.universal-robots.com/t/overview-of-used-ports-on-local-host/8889)
+
+¬universal-robots-docker-url: https://hub.docker.com/r/universalrobots/ursim_e-series
+¬universal-robots-docker-link: [Docker Hub page for the image]({{universal-robots-docker-url}})
+¬universal-robots-docker-here-link: [here]({{universal-robots-docker-url}})
+
+¬universal-robots-download-here-link: [here](https://www.universal-robots.com/download/?filters[]=98759&filters[]=98916&query=)

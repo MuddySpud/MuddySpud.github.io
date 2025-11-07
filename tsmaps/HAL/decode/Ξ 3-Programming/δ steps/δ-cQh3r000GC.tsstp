@@ -1,0 +1,14 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+From the **Programming** screen, select the [Group](#36-structuring-procedures) into which you want to add your new {{gl.custom-action-link}}, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.actions-link}} onto [Groups](#36-structuring-procedures) or in between other {{gl.actions-link}} to restructure your {{gl.procedure-link}} later. Either of those states will enable the _Item Type_ selector to list {{gl.custom-action-link}} as an option. Click **+** and you'll start creating a {{gl.custom-action-link}}. 
+
+The main thing required here is our _Code_. This should just be the textual representation of the code that you want to export. For example if you wanted to create a pop-up message on an ABB robot you could write _TPWrite "Hello Robot";_ and that exact line of code will be exported within your program.
+
+Other than the _Name_, which we recommend always setting, the other setting is _Simulation_. This allows you to select a {{gl.procedure-link}} which will change how this {{gl.action-link}} is simulated but won't affect how it's {{gl.export-d-link}}. If you know it's going to take a second for your gripper to close, for example, you could put a {{gl.wait-action-link}} {{gl.action-link}} in a [sub-procedure](#36-structuring-procedures), assign it to your _Simulation_ and the program will pause when simulated but the code won't contain any {{gl.wait-action-link}} instructions.
+
+Once you are happy with the {{gl.custom-action-link}}'s setup, ensure the name makes it easy to identify and click **ok** in the upper right corner to return to the **Programming** screen.
+
+---

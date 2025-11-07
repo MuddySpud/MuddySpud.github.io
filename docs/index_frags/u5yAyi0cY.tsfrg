@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /index_frags/u5yAyi0cY.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"u5yAyi0cY","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"u5yAv11T1","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","parentFragmentID":"u5yAy31Ne","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"u5yAyo0rp","order":1},{"id":"u5yAyy0Es","option":"Show this step...","order":2,"isAncillary":true}]} -->
+
+## This Website is *One* Guide
+
+This website is not just talking about [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) - it is a live demonstration of it. All the text you're reading has been dynamically assembled from a complex structure of interconnected maps. It demonstrates that you can create and maintain an expansive documentation system with a similar ease to how you maintain your codebase.
+
+To see the mechanics: Look at this section 'This Website is One Guide' It is a single step in the opening map. Click the ancillary button at the end of that section: 'Show this step...' to see a screenshot of that exact step open in VS Code and drill into the features behind it. An ancillary is Docs Assembler's way of letting you expand information on-demand, without cluttering the main path for those who don't need it.
+
+This is the proof. This is what treating docs like code looks like.
+

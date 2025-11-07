@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+{{gl.parts-link}} serve two roles in the HAL Robotics Framework. Firstly, they can be used to populate your [Cells]{{gl.cell-link-D}} with environmental elements such as pedestals, tables or tool holders which can in turn be used as {{gl.references-link}} for your {{gl.toolpaths-link}}. {{gl.parts-link}} can also be used as the basis for creating your own {{gl.mechanisms-link}} such as [Robots]{{gl.manipulator-link-D}}, {{gl.positioners-link}} or complex [Tools]{{gl.end-effector-link-D}}.
+

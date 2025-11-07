@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.4. Paths
+
+#### Objective:
+
+In this tutorial we'll see how to combine different {{gl.procedures-link}} to chain sequences using the HAL Robotics Framework for Grasshopper.
+

@@ -1,0 +1,177 @@
+{
+    "key": "s7SMKc14O",
+    "token": "Mapg",
+    "name": "MapG",
+    "created": "2025-05-20T12:45:33.238Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapG/MapG.tsmap",
+    "iText": "Link to 'MapG'",
+    "___rΩΩt___": {
+        "key": "s7SMKc1zT",
+        "nodes": [
+            {
+                "key": "s7SMKc03U",
+                "order": 1,
+                "option": "MapG 1.1\n",
+                "iKey": "fjJE5v023K",
+                "nodes": [
+                    {
+                        "key": "s7SMKc0Gd",
+                        "order": 1,
+                        "option": "Exit1-MapD-step-1.1",
+                        "iKey": "fugVwq00wh",
+                        "iExitKey": "g0ll0B019c",
+                        "nodes": [
+                            {
+                                "key": "s7SMKc29E",
+                                "order": 1,
+                                "option": "Exit1 MapE 1.1",
+                                "isLeaf": true,
+                                "iExitKey": "fuhBa202EB"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "s7SMKc0E5",
+                        "order": 2,
+                        "option": "Exit2-MapD-step-1.2",
+                        "isLeaf": true,
+                        "iKey": "fjJ9H201oF",
+                        "iExitKey": "g0lsqN02AV"
+                    }
+                ]
+            },
+            {
+                "key": "s7SMKc1Wp",
+                "order": 2,
+                "option": "MapG 1.2\n",
+                "isLeaf": true,
+                "iKey": "iUQlhk028g"
+            },
+            {
+                "key": "s7SMKc0TT",
+                "order": 3,
+                "option": "MapG 1.3",
+                "iKey": "j16ALz00rY",
+                "nodes": [
+                    {
+                        "key": "s7SMKc08r",
+                        "order": 1,
+                        "option": "Exit1 MapI 1.1-2.1",
+                        "isLeaf": true,
+                        "iExitKey": "j16dIi01kJ"
+                    }
+                ]
+            },
+            {
+                "key": "s7SMKc0ZQ",
+                "order": 4,
+                "option": "MapG 1.4",
+                "iKey": "j2V4r100rS",
+                "nodes": [
+                    {
+                        "key": "s7SMKc1hC",
+                        "order": 1,
+                        "option": "Exit1",
+                        "isLeaf": true,
+                        "iExitKey": "j2W3Qx01CV"
+                    }
+                ]
+            },
+            {
+                "key": "s7SMKc15C",
+                "order": 5,
+                "option": "MapG 1.5",
+                "iKey": "jrpVh901b8",
+                "nodes": [
+                    {
+                        "key": "s7SMKc1Jt",
+                        "order": 1,
+                        "option": "Exit 1",
+                        "isLeaf": true,
+                        "iExitKey": "jrqkdR01n8"
+                    }
+                ]
+            },
+            {
+                "key": "s7SMKc204",
+                "order": 6,
+                "option": "MapG 1.6\n",
+                "iKey": "jrv6xM00Hj",
+                "nodes": [
+                    {
+                        "key": "s7SMKc1ra",
+                        "order": 1,
+                        "option": "Exit 1",
+                        "isLeaf": true,
+                        "iKey": "fjJ9H201oF",
+                        "iExitKey": "jrvR2500Hb"
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMKc1zT",
+            "relativePath": "./δ steps/δ-ikftpq010v.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc1Wp",
+            "relativePath": "./δ steps/δ-ikg5Gg00FW.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc03U",
+            "relativePath": "./δ steps/δ-ikfvAt02aO.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc0Gd",
+            "relativePath": "./δ steps/δ-ikh3jL0148.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc0E5",
+            "relativePath": "./δ steps/δ-ikh3jL00g2.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc29E",
+            "relativePath": "./δ steps/δ-ikilQT00z1.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc0TT",
+            "relativePath": "./δ steps/δ-j17dCf0078.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc08r",
+            "relativePath": "./δ steps/δ-j17m75012j.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc0ZQ",
+            "relativePath": "./δ steps/δ-j2WD6h00wb.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc1hC",
+            "relativePath": "./δ steps/δ-j2WLBK01P5.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc15C",
+            "relativePath": "./δ steps/δ-jrqqes02DF.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc1Jt",
+            "relativePath": "./δ steps/δ-jrqv3c001B.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc204",
+            "relativePath": "./δ steps/δ-jrvgHE0204.tsstp"
+        },
+        {
+            "key": "δ-s7SMKc1ra",
+            "relativePath": "./δ steps/δ-jrvl9a01Mm.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "jrvvBi01OB",
+        "editorID": "car_699e47fdfd65415ead94b19b6ce4b686",
+        "ticks": 1748768527778
+    }
+}

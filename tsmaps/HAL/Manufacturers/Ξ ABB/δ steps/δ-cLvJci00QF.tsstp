@@ -1,0 +1,21 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+¬import il from "../../../_shared/imageLinks"
+
+
+#### Manual (via Teach Pendant):
+
+1. [Export]{{ghl.grasshopper-export-procedure-link-D}} your {{gl.procedure-link}} to a known directory.
+2. Copy the _{ProcedureName}.mod_ file onto a USB stick.
+3. Insert the USB stick into the USB port on the teach pendant.
+4. Navigate to the _Program Editor_ and select _Modules_ (in the top centre of the screen) -> _File_ -> _Load Module_.
+
+{{il.abbViewModules-image}}{: .pad-top}
+<em>Edit the Program and Load a Module.</em>{: .pad-bottom}
+
+5. Navigate to your Module file on the USB stick and click _OK_.
+6. Return to the _Production Window_.
+7. Select _PP to Main_.
+8. You are now ready to run your {{gl.procedure-link}}.
+
+---

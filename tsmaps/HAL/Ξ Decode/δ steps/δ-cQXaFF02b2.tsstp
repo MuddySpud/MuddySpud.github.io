@@ -1,0 +1,19 @@
+¬import dl from "../../_shared/decodeLinks"
+
+
+### {{dl.decode-cell-setup-link}}
+
+#### {{dl.decode-insert-robot-link}}
+
+#### {{dl.decode-create-tool-link}}
+
+#### {{dl.decode-create-reference-link}}
+
+#### {{dl.decode-insert-part-link}}
+
+#### {{dl.decode-create-controller-link}}
+
+#### {{dl.decode-create-signals-link}}
+
+---
+

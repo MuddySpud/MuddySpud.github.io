@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.1. Move
+
+#### Objective:
+
+In this tutorial we'll look at the different ways that we can program individual {{gl.motion-action-motions-link}} in _decode_.
+

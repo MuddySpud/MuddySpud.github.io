@@ -1,0 +1,46 @@
+{
+    "key": "s7LPei062",
+    "token": "Mapa",
+    "name": "MapA",
+    "created": "2025-04-18T11:42:05.451Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapA/MapA.tsmap",
+    "iText": "Link to 'MapA'",
+    "___rΩΩt___": {
+        "key": "s7LPei0mW",
+        "nodes": [
+            {
+                "key": "s7LPei1KU",
+                "order": 1,
+                "option": "MapA 1.1",
+                "isLeaf": true,
+                "iKey": "fjJ9H201oF"
+            },
+            {
+                "key": "s7LPei2Xn",
+                "order": 2,
+                "option": "MapA 1.2",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7LPei0mW",
+            "relativePath": "./δ steps/δ-fjJ8BS02R2.tsstp"
+        },
+        {
+            "key": "δ-s7LPei2Xn",
+            "relativePath": "./δ steps/δ-fjJcH700sr.tsstp"
+        },
+        {
+            "key": "δ-s7LPei1KU",
+            "relativePath": "./δ steps/δ-fjJI1o01Z7.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "hzN95e00ZJ",
+        "editorID": "car_6b001a4b71524207b0a0a9079e06aa54",
+        "ticks": 1747046184762
+    }
+}

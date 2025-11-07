@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+For the most part, the **Programming** we are doing in the HAL Robotics Framework for Grasshopper doesn't require our PCs to be in the loop whilst running our {{gl.controllers-link}}. The major advantage of that is that we delegate all of the **Motion Control** to the **Industrial Controller** which has been built specifically to execute code and run our [Robots]{{gl.manipulator-link-D}}, resulting in excellent predictability, reliability and accuracy. The actual code that a {{gl.controller-link}} requires will depend on its manufacturer and configuration. For example, ABB IRC5 {{gl.controllers-link}} require code in the programming language RAPID, KUKA KRC4s require code in KUKA Robot Language (KRL) and Staubli [Robots]{{gl.manipulator-link-D}} will require VAL+ or VAL3 depending on their generation. Fortunately, the HAL Robotics Framework handles all of this for you as long as you select the right {{gl.controller-link}} configuration.
+

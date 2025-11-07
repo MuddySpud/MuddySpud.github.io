@@ -1,0 +1,12 @@
+¬import el from "../../../_shared/externalLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+##### Docker
+
+The easiest way to run URSim on a Windows PC or Linux is via Docker for which there is a Docker image {{el.universal-robots-docker-here-link}} although this is (at the time of writing) still listed as experimental. To enable [remote upload](#remote) you will need to ensure that the Dashboard port (_29999_) is exposed in your container. This is mentioned on the {{el.universal-robots-docker-link}}. You will also need to ensure that your [File Manager]{{gl.capabilities-link-D}} is set to Local, its path is set correctly and the _Remote Root Directory_ in your Dashboard matches your Docker bind mounts e.g. _/root_ if you bind mount points to _/root/programs_ or _/ursim_ if following the Docker examples. 
+
+E.g. `docker run --rm -it -p 5900:5900 -p 6080:6080 -p 29999:29999 -v "/c/UniversalRobots/staging/root/programs:/root/programs" -e ROBOT_MODEL=UR5 universalrobots/ursim_e-series`
+
+In the example below, `-p 29999:29999` is used to enable the Dashboard from your PC and the `-v ...` contains the full path `/root/programs` on the left hand side.
+

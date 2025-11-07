@@ -1,0 +1,14 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Building {{gl.procedures-link}} {{gl.action-link}} by {{gl.action-link}} might be sufficient for some processes but longer Toolpaths can more easily be generated based on some sort of geometry, be that curves, surfaces or meshes. **Paths** allow exactly that including options for triggering sub-{{gl.procedures-link}} and jumping between different sections of the **Path**.
+
+#### How to:
+
+From the **Programming** screen, select the [Group](#36-structuring-procedures) into which you want to add your new **Path**, or click anywhere in the white space to clear your current selection. You can always drag and drop {{gl.actions-link}} onto [Groups](#36-structuring-procedures) or in between other {{gl.actions-link}} to restructure your {{gl.procedure-link}} later. Either of those states will enable the _Item Type_ selector to list **Path** as an option. Click **+** and you'll start creating a **Path**.
+
+There are two _Creators_ in **Path**, **Follow Curve** and **Follow Pattern**. The former allows you to select or create curves within your **Scene** whilst the latter uses curves, surfaces or meshes as input regions that can be filled with a pattern. After that first **Curve** or **Pattern** creation section, the _Creators_ then follow exactly the same structure.
+

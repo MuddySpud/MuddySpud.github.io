@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.1. Create a Target
+
+#### Objective:
+
+In this tutorial we'll look at the different ways that we can create {{gl.targets-link}} in the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}}  Create a Target.gh]{{gel.createTarget-gh-link-D}}{: .icon-link}
+

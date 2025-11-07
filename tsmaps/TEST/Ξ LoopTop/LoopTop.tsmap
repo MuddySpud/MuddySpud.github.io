@@ -1,0 +1,37 @@
+{
+    "key": "s7SMEO21B",
+    "token": "Looptop",
+    "name": "LoopTop",
+    "created": "2025-04-21T18:02:04.403Z",
+    "list": true,
+    "title": "Loop top",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ LoopTop/LoopTop.tsmap",
+    "iText": "Link to 'LoopTop'",
+    "___rΩΩt___": {
+        "key": "s7SMEO1V8",
+        "nodes": [
+            {
+                "key": "s7SMEO0n1",
+                "order": 1,
+                "option": "LoopTop-step-1.1\n\n",
+                "isLeaf": true,
+                "iKey": "g2OTe002K3"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMEO1V8",
+            "relativePath": "./δ steps/δ-g2ONHv02SX.tsstp"
+        },
+        {
+            "key": "δ-s7SMEO0n1",
+            "relativePath": "./δ steps/δ-g2PlFH02VH.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "hz6tdi02Op",
+        "editorID": "car_21918024ad67405bb25b0ea3dd12288a",
+        "ticks": 1747042312122
+    }
+}

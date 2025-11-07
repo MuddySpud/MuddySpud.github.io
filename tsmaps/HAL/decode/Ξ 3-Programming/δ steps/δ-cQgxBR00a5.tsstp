@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.5. Custom Actions
+
+#### Objective:
+
+In this tutorial we'll use a {{gl.custom-action-link}} to trigger an existing {{gl.manipulator-link}} function using _decode_.
+

@@ -1,0 +1,64 @@
+{
+    "key": "s7SMVH0bi",
+    "token": "Spacing",
+    "name": "Spacing",
+    "created": "2025-08-24T12:07:03.573Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ Spacing/Spacing.tsmap",
+    "iText": "Link to 'Spacing'",
+    "___rΩΩt___": {
+        "key": "s7SMVH0jP",
+        "nodes": [
+            {
+                "key": "s7SMVH1Vj",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "s7SMVH0Pv",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "s7SMVH0l6",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "s7SMVH2Z7",
+                                        "order": 1,
+                                        "isLeaf": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMVH0jP",
+            "relativePath": "./δ steps/δ-rnqedr00HL.tsstp"
+        },
+        {
+            "key": "δ-s7SMVH1Vj",
+            "relativePath": "./δ steps/δ-rnqgkq02IU.tsstp"
+        },
+        {
+            "key": "δ-s7SMVH0Pv",
+            "relativePath": "./δ steps/δ-rnqphU027C.tsstp"
+        },
+        {
+            "key": "δ-s7SMVH0l6",
+            "relativePath": "./δ steps/δ-rnqynI01Yv.tsstp"
+        },
+        {
+            "key": "δ-s7SMVH2Z7",
+            "relativePath": "./δ steps/δ-rnr4pw02YQ.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "rnsXBw02B3",
+        "editorID": "car_9b161f4085f3424fbf7930432172058d",
+        "ticks": 1756037677864
+    }
+}

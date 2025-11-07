@@ -1,0 +1,11 @@
+¬import hl from "../../../_shared/halRoboticsLinks"
+
+
+#### Feedback:
+
+We appreciate your support helping us make _decode_ a stable interface that you can trust for your development needs now and hopefully long into the future. If you find any bugs or major issues please let us know, preferably through our {{hl.hal-robotics-github-link}} so that anyone else with the same experience can chime in and, if need be, help us pinpoint the source of the error. Please give us as much detail as possible as that will ensure we can reproduce the problem internally and therefore identify, and fix, the root cause rather than the symptom.
+
+We would also be very receptive to anything that could make your experience better. That could be features you'd like to see, interactions that could be improved or any other suggestions you have. Again if those go through our [GitHub page]{{hl.hal-robotics-github-discussion-link-D}} then we can have an open discussion about how those would work and get input from others on the same subject.
+
+Of course, if you have anything nice to say about _decode_ then we'd love to hear that too, on [GitHub]{{hl.hal-robotics-github-discussion-link-D}}, by {{hl.hal-robotics-email-link}} or in whatever public forum you feel is appropriate.
+

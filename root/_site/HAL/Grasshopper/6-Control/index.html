@@ -1,0 +1,164 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLC061xn","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/6-Control_frags"},"fragment":{"id":"fdLC061xn","topLevelMapKey":"eGVQIJ0LJ","mapKeyChain":"eGVQIJ0LJ","guideID":"fdLC061ZB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/6-Control.tsmap","parentFragmentID":null,"chartKey":"eGVQIJ0LJ","options":[]}} -->
+
+<h2 id="6-control">6. Control</h2>
+
+<p><a href="#61-configure-a-virtual-controller">6.1. Configure a Virtual Controller</a><br />
+<a href="#62-export-a-procedure">6.2. Export a Procedure</a><br />
+<a href="#63-upload-a-procedure">6.3. Upload a Procedure</a><br />
+<a href="#64-reuse-controller-data">6.4. Reuse Controller Data</a></p>
+
+<hr />
+<h3 id="61-configure-a-virtual-controller">6.1. Configure a Virtual Controller</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll look at how you can configure a virtual <a href="/HAL/Overview/Glossary#controller">Controller</a> to match your real <a href="/HAL/Overview/Glossary#controller">Controller</a> using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p>Industrial <a href="/HAL/Overview/Glossary#controller">Controllers</a> are typically comprised of core functionality, such as the ability to run a program, extended through optional extras, like communication protocols or multi-<a href="/HAL/Overview/Glossary#manipulator">Robot</a> support. To ensure that we only try and interact with your real <a href="/HAL/Overview/Glossary#controller">Controller</a> in a way that is compatible, be it through a network or with exported code, we have added a means to configure your <a href="/HAL/Overview/Glossary#controller">Controller</a>. The constituent parts of this are:</p>
+
+<p>a.  Controller - this is essentially a computer to which your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and <a href="/HAL/Overview/Glossary#signal">Signals</a> are connected.</p>
+
+<p>b.  Capabilities - these are how we organize what a <a href="/HAL/Overview/Glossary#controller">Controller</a> can do and draw parallels between different manufacturers’ <a href="/HAL/Overview/Glossary#controller">Controllers</a>. <em>Capabilities</em> are things like the ability to <a href="/HAL/Overview/Glossary#upload">Upload</a> code to the <a href="/HAL/Overview/Glossary#controller">Controller</a> from a PC or the ability to read the values of <a href="/HAL/Overview/Glossary#signal">Signals</a> remotely.</p>
+
+<p>c.  Subsystems - these are similar to the options you have in your <a href="/HAL/Overview/Glossary#controller">Controller</a>. They are the actual software modules that implement different <em>Capabilities</em>.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>All of these different parts are best explored with concrete examples so let’s create a <a href="/HAL/Overview/Glossary#controller">Controller</a> and look at how we can configure it. We can start by navigating to the <strong>HAL Robotics</strong> tab, <strong>Cell</strong> panel and placing a <strong>Controller</strong>. As this is a windowed component, we can double-click to open the catalog and choose our <a href="/HAL/Overview/Glossary#controller">Controller</a> preset. For this example, I’m going to use the <code class="language-plaintext highlighter-rouge">IRC5 Compact V2</code> but you will find details for any other manufacturer’s <a href="/HAL/Overview/Glossary#controller">Controllers</a> in the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a>. When we select a <a href="/HAL/Overview/Glossary#controller">Controller</a> a configuration page will pop-up.</p>
+
+<p>The first thing we’ll see at the top is the system version. In the case of ABB this is the Robotware version but for KUKA this would be KUKA System Software or in Universal Robots it will be the Polyscope version. It’s important to note that these are version ranges so don’t expect to see every point release listed. By changing the version we’ll change which <strong>Subsystems</strong> are available. If I switch down to <code class="language-plaintext highlighter-rouge">5.14</code>, <code class="language-plaintext highlighter-rouge">EGM</code> will disappear from the options below because it was only introduced in Robotware 6.</p>
+
+<p>The rest of the window is split in two; on the left is <strong>Subsystem</strong> and <strong>Capability</strong> selection and on the right is parametrization. In the left-hand column we can see the <strong>Capabilities</strong> listed with <strong>Subsystems</strong> that implement that <strong>Capability</strong> in a drop-down alongside. Let’s look specifically at <code class="language-plaintext highlighter-rouge">Upload</code>. By hovering over the name, we can see that the <code class="language-plaintext highlighter-rouge">Upload</code> <strong>Capability</strong> enables <a href="/HAL/Overview/Glossary#procedure">Procedure</a> <a href="/HAL/Overview/Glossary#upload">Uploading</a> to a remote <a href="/HAL/Overview/Glossary#controller">Controller</a>. We can also see that there are two subsystems that offer this <strong>Capability</strong>, <code class="language-plaintext highlighter-rouge">PCSDK</code> and <code class="language-plaintext highlighter-rouge">Robot Web Services (RWS)</code>. <code class="language-plaintext highlighter-rouge">RWS</code> is built in to the latest Robotware versions but to use the <code class="language-plaintext highlighter-rouge">PCSDK</code> we need the option “PC Interface” on our <a href="/HAL/Overview/Glossary#controller">Controller</a>. If you don’t have that option you can change <strong>Subsystem</strong> to ensure we use a compatible method to <a href="/HAL/Overview/Glossary#upload">Upload</a> <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to your <a href="/HAL/Overview/Glossary#controller">Controller</a>. There may also be circumstances where we don’t have any of the options installed or don’t want access to a <strong>Capability</strong> for security purposes. In that case we can deactivate the <strong>Capability</strong> using its toggle. On the right-hand side of the window, we have the inputs to configure our <strong>Subsystems</strong>. Only active <strong>Subsystems</strong> are listed so if we deactivate both <code class="language-plaintext highlighter-rouge">EGM</code> <strong>Capabilities</strong> the <code class="language-plaintext highlighter-rouge">EGM</code> parameters will disappear. Once we have changed the relevant properties we can select “Configure” to apply our changes. Closing the window without configuring will leave the <a href="/HAL/Overview/Glossary#controller">Controller</a> in an invalid, unconfigured state.</p>
+
+<p>In future tutorials we’ll look at some specific uses of our <strong>Capabilities</strong> and <strong>Subsystems</strong> for <a href="/HAL/Grasshopper/6-Control#62-export-a-procedure">exporting</a> and <a href="/HAL/Grasshopper/6-Control#63-upload-a-procedure">uploading</a> code for a real <a href="/HAL/Overview/Glossary#controller">Controller</a>.</p>
+
+<hr />
+<h3 id="62-export-a-procedure">6.2. Export a Procedure</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll <a href="/HAL/Overview/Glossary#export">Export</a> some robot code ready to be run on a real <a href="/HAL/Overview/Glossary#controller">Controller</a> using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>For the most part, the <strong>Programming</strong> we are doing in the HAL Robotics Framework for Grasshopper doesn’t require our PCs to be in the loop whilst running our <a href="/HAL/Overview/Glossary#controller">Controllers</a>. The major advantage of that is that we delegate all of the <strong>Motion Control</strong> to the <strong>Industrial Controller</strong> which has been built specifically to execute code and run our <a href="/HAL/Overview/Glossary#manipulator">Robots</a>, resulting in excellent predictability, reliability and accuracy. The actual code that a <a href="/HAL/Overview/Glossary#controller">Controller</a> requires will depend on its manufacturer and configuration. For example, ABB IRC5 <a href="/HAL/Overview/Glossary#controller">Controllers</a> require code in the programming language RAPID, KUKA KRC4s require code in KUKA Robot Language (KRL) and Staubli <a href="/HAL/Overview/Glossary#manipulator">Robots</a> will require VAL+ or VAL3 depending on their generation. Fortunately, the HAL Robotics Framework handles all of this for you as long as you select the right <a href="/HAL/Overview/Glossary#controller">Controller</a> configuration.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>To prepare to export we must have a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> ready and a <a href="/HAL/Overview/Glossary#controller">Controller</a> in our document. To properly configure our <a href="/HAL/Overview/Glossary#controller">Controller</a>, we need to return to its configuration screen. This is the page you will see immediately after selecting your <a href="/HAL/Overview/Glossary#controller">Controller</a> or you can get back to it by simply double-clicking on your <a href="/HAL/Overview/Glossary#controller">Controller</a> component. We will use an ABB IRC5 as an example but the same principles hold true for any <a href="/HAL/Overview/Glossary#controller">Controller</a> preset. When we open the configuration window there are two pieces of information that we need to check. The first, and simplest, is the <em>Language</em>. If the <a href="/HAL/Overview/Glossary#controller">Controller</a> <em>Version</em> is correctly set then this should be compatible with your real <a href="/HAL/Overview/Glossary#controller">Controller</a> but you can always export a slightly different <em>Language</em> if you want.</p>
+
+<p>The other element to verify is the <strong>Export Settings</strong>. These are listed on the right-hand side under the <em>Language</em> version. You should have a list of all of your <a href="/HAL/Overview/Glossary#procedure">Procedures</a>. If you haven’t given them identifiable <em>Aliases</em> now would be a good time to do so. There are three scenarios that we need to discuss with these <strong>Export Settings</strong>:</p>
+
+<p>a.  Single Robot - For a single <a href="/HAL/Overview/Glossary#manipulator">Robot</a> setup you will just need to make sure that your path is correctly set. For ABB <a href="/HAL/Overview/Glossary#controller">Controllers</a> the path is the Task name in your real <a href="/HAL/Overview/Glossary#controller">Controller</a> but for KUKA this is an index which can remain “1”. You also have the option of completely deactivating the export of a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> using its toggle, or exporting a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> as a library, which means it won’t have a code entry point. This could be useful if you have pre-configured initialization or termination sequences in your <a href="/HAL/Overview/Glossary#controller">Controller</a>.</p>
+
+<p>b.  Multi-Robot - The only additional check you need to make when using a multi-<a href="/HAL/Overview/Glossary#manipulator">Robot</a> configuration is that your paths are all correct. Again, that’s Tasks for ABB or the equivalent for other manufacturers.</p>
+
+<p>c.  External Axes - The final unique configuration is for <a href="/HAL/Overview/Glossary#positioner">External Axes</a>. In the HAL Robotics Framework, we require each <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> to have its own <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. With <a href="/HAL/Overview/Glossary#positioner">External Axes</a> we actually want to merge a number of <a href="/HAL/Overview/Glossary#procedure">Procedures</a> into one to <a href="/HAL/Overview/Glossary#export">Export</a> correctly. We can do this by simply dragging the <a href="/HAL/Overview/Glossary#positioner">External Axes’</a> <a href="/HAL/Overview/Glossary#procedure">Procedure(s)</a> onto the main <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. This marks it as a child <a href="/HAL/Overview/Glossary#procedure">Procedure</a> of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and they will be <a href="/HAL/Overview/Glossary#export">Exported</a> together. When using this kind of configuration please make sure that you have also setup your <strong>Joint Mappings</strong> correctly for your <a href="/HAL/Overview/Glossary#positioner">External Axes</a>. This can be done during the <a href="/HAL/Overview/Glossary#joint">Joint</a> creation when assembling a <a href="/HAL/Overview/Glossary#mechanism">Mechanism</a> from scratch or using the <em>Mapping</em> input on the <a href="/HAL/Overview/Glossary#positioner">Positioner</a> component. <strong>Mappings</strong> are zero-based in the HAL Robotics Framework and will automatically be converted at <a href="/HAL/Overview/Glossary#export">Export</a> to match the format of the real <a href="/HAL/Overview/Glossary#controller">Controller</a>.</p>
+
+<p>Now that our <a href="/HAL/Overview/Glossary#controller">Controller</a> is configured, we can place <a href="/HAL/Overview/Glossary#export">Export</a> component from the <strong>HAL Robotics</strong> tab, <strong>Control</strong> panel. We can hook up our <a href="/HAL/Overview/Glossary#controller">Controller</a>, <strong>Solution</strong> and assign a path to the <em>Destination</em>. When we run the component by toggling <em>Export</em> to <code class="language-plaintext highlighter-rouge">true</code> this will generate our code and give us the paths to all exported files as an output. In the second overload of this component there’s one additional input worth discussing, <em>Mode</em>. <code class="language-plaintext highlighter-rouge">Inline</code> mode will create a dense code file with as little declarative code as possible. <code class="language-plaintext highlighter-rouge">Predeclaration</code> mode will do just the opposite, it will create variables wherever possible to make it easier to change things by hand should you want to. For most scenarios we recommend <code class="language-plaintext highlighter-rouge">Inline</code> as it produces shorter code and is faster.</p>
+
+<p>As a final note in this tutorial, we know that there are circumstances where you may need to add very specific lines of code to your <a href="/HAL/Overview/Glossary#export">Exports</a>. This could be to trigger a particular <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, send a message or call another piece of code. You can do this using <strong>Custom Actions</strong>. These are found in the <strong>HAL Robotics</strong> tab, <strong>Procedure</strong> panel. You can add any text to the <em>Code</em> input and it will be <a href="/HAL/Overview/Glossary#export">Exported</a> verbatim. If your <strong>Custom Action</strong> causes the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to <a href="/HAL/Overview/Glossary#wait-action">Wait</a> or some other <strong>Simulatable</strong> <a href="/HAL/Overview/Glossary#action">Action</a> to occur you can add a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> to the <em>Simulation</em> input. Just remember that regardless of what you add to the <em>Simulation</em>, only what you put in the <em>Expression</em> will be <a href="/HAL/Overview/Glossary#export">Exported</a>. Learn more about <strong>Custom Actions</strong> in <a href="/HAL/Grasshopper/5-Advanced-Programming#55-custom-actions">this tutorial</a>.</p>
+
+<hr />
+<h3 id="63-upload-a-procedure">6.3. Upload a Procedure</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll <a href="/HAL/Overview/Glossary#upload">Upload</a> some robot code to a real <a href="/HAL/Overview/Glossary#controller">Controller</a> using the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#upload">Uploading</a> is the logical successor to <a href="/HAL/Overview/Glossary#export">Exporting</a> which we looked at <a href="#62-export-a-procedure">above</a> which essentially copies any generated code to the remote <a href="/HAL/Overview/Glossary#controller">Controller</a> and can even run it for you. This is not available on all supported robots so please check the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a> to see if it’s available on your <a href="/HAL/Overview/Glossary#manipulator">Robot</a>.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>To prepare to <a href="/HAL/Overview/Glossary#upload">upload</a> we must do through the same process as <a href="/HAL/Overview/Glossary#export">exporting</a>, so if you haven’t been through <a href="#62-export-a-procedure">that tutorial above</a> yet please do that before returning here.</p>
+
+<p>The configuration of your <a href="/HAL/Overview/Glossary#controller">Controller</a> will be different depending on the manufacturer so please check the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a> to see how to configure your <em>Upload</em> and <em>File Manager</em> <a href="/HAL/Overview/Glossary#subsystems">subsystems</a>.</p>
+
+<p>Now that our <a href="/HAL/Overview/Glossary#controller">Controller</a> is configured and we are happy with the way our code is <a href="/HAL/Overview/Glossary#export">Exporting</a>, we can place the <a href="/HAL/Overview/Glossary#upload">Upload</a> component from the <strong>HAL Robotics</strong> tab, <strong>Control</strong> panel. We can hook up our <a href="/HAL/Overview/Glossary#controller">Controller</a> and <strong>Solution</strong>, exactly as we did with <a href="/HAL/Overview/Glossary#export">Export</a>. You will also find <em>Mode</em> which was discussed in <a href="/HAL/Overview/Glossary#export">Export</a>. <code class="language-plaintext highlighter-rouge">Inline</code> mode will create a dense code file with as little declarative code as possible. <code class="language-plaintext highlighter-rouge">Predeclaration</code> mode will do just the opposite, it will create variables wherever possible to make it easier to change things by hand should you want to. For most scenarios we recommend <code class="language-plaintext highlighter-rouge">Inline</code> as it produces shorter code and is faster. When we run the component by toggling <em>Upload</em> to <code class="language-plaintext highlighter-rouge">true</code> this will generate our code and copy it to the robot.</p>
+
+<p>The <em>AutoRun</em> property will attempt to run the <a href="/HAL/Overview/Glossary#procedure">Procedure</a> as soon sa it’s been <a href="/HAL/Overview/Glossary#upload">Uploaded</a> so use it with <strong>extreme caution</strong>. This is not available on all supported robots so please check the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a> to see if it’s available on your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and whether there are any restrictions on when it can be used.</p>
+
+<hr />
+<h3 id="64-reuse-controller-data">6.4. Reuse Controller Data</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll explore some advanced syntax which allows you to reference data and variables which are already declared on your <a href="/HAL/Overview/Glossary#controller">Controller</a> or rename variables you <a href="/HAL/Overview/Glossary#export">Export</a> using the HAL Robotics Framework.</p>
+
+<h4 id="background-3">Background:</h4>
+
+<p>When your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and, more importantly, its <a href="/HAL/Overview/Glossary#controller">Controller</a> were installed, it’s possible that certain <a href="/HAL/Overview/Glossary#end-effector">Tools</a> were calibrated and stored in the <a href="/HAL/Overview/Glossary#controller">Controller’s</a> system variables or that it would be helpful to name <a href="/HAL/Overview/Glossary#signal">Signals</a> so they’re immediately identifiable (e.g. <em>ToolOn</em>) but that they’re named differently in your <a href="/HAL/Overview/Glossary#controller">Controller</a> or even that your <a href="/HAL/Overview/Glossary#manipulator">Robot’s</a> language doesn’t allow you to name <a href="/HAL/Overview/Glossary#signal">Signals</a> at all. We have therefore given you the option of overriding the way elements are <a href="/HAL/Overview/Glossary#export">Exported</a>. These are generally useful for <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, <a href="/HAL/Overview/Glossary#reference">References</a> and <a href="/HAL/Overview/Glossary#signal">Signals</a> but can be used for <a href="/HAL/Overview/Glossary#target">Targets</a>, <a href="/HAL/Overview/Glossary#motion-action">Motion Settings</a> or any other declarable type.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>These overrides are all done through the naming of objects, by using special syntax in their <em>Aliases</em>. There are 3 scenarios we permit:</p>
+<ol>
+  <li>Forcing the declaration of the element, even in <code class="language-plaintext highlighter-rouge">Inline</code> mode, e.g. so you can make manual changes to the code later.</li>
+  <li>Skipping the declaration of the element, e.g. because it’s already in the <a href="/HAL/Overview/Glossary#controller">Controller’s</a> system variables and you want to use that data directly.</li>
+  <li>Renaming the element, e.g. the <a href="/HAL/Overview/Glossary#signal">Signal</a> which you have called <em>ToolOn</em> for legibility is actually called <em>DO-04</em> or is index <em>3</em> on the real <a href="/HAL/Overview/Glossary#controller">Controller</a>.</li>
+  <li>[Bonus] A combination of the above.</li>
+</ol>
+
+<p>The syntax you can use is as follows:</p>
+<ol>
+  <li>Declare an override - Append <code class="language-plaintext highlighter-rouge">@</code> to the <em>Alias</em></li>
+  <li>Skip declaration - Append <code class="language-plaintext highlighter-rouge">!</code> to the <em>Alias</em></li>
+  <li>Renaming - Append the new name to the <em>Alias</em></li>
+</ol>
+
+<p>Examples:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool</code></td>
+      <td>Regular tool declaration.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@</code></td>
+      <td>Forces the declaration of the tool.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@toolData32</code></td>
+      <td>Forces the declaration of the tool, as a tool variable called toolData32.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@!</code></td>
+      <td>No declaration – considers that a “MyTool” tool declaration already exists in the controller.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyTool@!toolData32</code></td>
+      <td>No declaration – use the toolData32 tool variable from the controller.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />

@@ -1,0 +1,76 @@
+{
+    "key": "w5bxTm01sp  ",
+    "token": "Testpod",
+    "name": "TestPod",
+    "created": "2025-10-08T22:57:12.715Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestPod/TestPod.tspod",
+    "isPod": true,
+    "iText": "Link to 'TestPod'",
+    "___rΩΩt___": {
+        "key": "w5bzcv024P",
+        "nodes": [
+            {
+                "key": "w5cDaE001g",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "wGLFkk01ye",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "wGLOOF00N2",
+                                "order": 1,
+                                "isLeaf": true
+                            },
+                            {
+                                "key": "wGLkOP002D",
+                                "order": 2,
+                                "option": "TestPod 1.1-2.1-3.3",
+                                "isLeaf": true,
+                                "isAncillary": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-w5bzcv024P",
+            "content": "TestPod Root 1\n\n",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-w5bzcv024P.tsstp"
+        },
+        {
+            "key": "δ-w5cDaE001g",
+            "content": "TestPod 1.1-2\n\n",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-w5cDaE001g.tsstp"
+        },
+        {
+            "key": "δ-wGLFkk01ye",
+            "content": "TestPod 1.1-2.1-3",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-wGLFkk01ye.tsstp"
+        },
+        {
+            "key": "δ-wGLOOF00N2",
+            "content": "TestPod 1.1-2.1-3.1-4 end\n\n",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-wGLOOF00N2.tsstp"
+        },
+        {
+            "key": "δ-wGLkOP002D",
+            "content": "TestPod 1.1-2.1-3.3-1 end\n\n",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-wGLkOP002D.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wHN8Vm02Hm",
+        "editorID": "car_7f61281deed24530821ba2066224a329",
+        "ticks": 1760138016234
+    }
+}

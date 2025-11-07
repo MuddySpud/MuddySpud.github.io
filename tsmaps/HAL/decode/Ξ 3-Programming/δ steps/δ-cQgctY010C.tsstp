@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Electrical Input and Output (I/O) {{gl.signals-link}} are used to activate or deactivate [Tools]{{gl.end-effector-link-D}}, trigger actions on remote machines or pass data between **Sensors**. The activation of these {{gl.signals-link}} needs to be triggered at the right time during program execution, something we can do easily with {{gl.signal-actions-link}}.
+

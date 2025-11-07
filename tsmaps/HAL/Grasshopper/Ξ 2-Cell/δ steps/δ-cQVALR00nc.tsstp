@@ -1,0 +1,29 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+The simplest way to create a {{gl.reference-link}} is under the **Cell** panel, **Create Reference**. Our {{gl.reference-link}} defaults to the world origin but you can equally select any point from your Rhino or Grasshopper session. In this demo I'm going to use this point on the corner of my box which I've previously drawn in Rhino. I'm going to bring that into Grasshopper and assign it as the origin of an XY Plane and the _Frame_ of my **Reference**. We can see the location of our {{gl.reference-link}} from these dashed axes with dots at the ends. You can also see that the {{gl.reference-link}} is labelled. To simplify finding our {{gl.references-link}} later it's advisable to give them an identifiable name, in this case `BoxCorner`, using the _Alias_ input.
+
+{{il.22Reference-image}}{: .pad-top}
+<em>It is good practice to name HAL objects by using the _Alias_ input of the components.</em>{: .pad-bottom}
+
+There are two main ways to use {{gl.references-link}}, both of which can be demonstrated using the **Target** component and selecting the **From Curve** template. 
+*   The first, default, way of using the {{gl.reference-link}} can be seen by simply selecting a curve already in position in the world. We can see that the {{gl.targets-link}} all follow the curve as it is drawn, but if we drill down into the **Targets'** properties using the **Target Properties** component, we can see that their {{gl.references-link}} are correctly set to `BoxCorner`. If, in this configuration, we move our {{gl.reference-link}} you'll see that the {{gl.targets-link}} do not follow. That's because the parameter _InWorld_ is set to `true` meaning that both the {{gl.targets-link}} and {{gl.reference-link}} are in their correct positions in the world and no modifications need to be made. 
+
+{{il.22TargetsAbsolute-image}}{: .pad-top}
+<em>Targets created without reference will automatically have the world origin assigned as their reference. Their coordinates will be translated to robot code as they are.</em>{: .pad-bottom}
+
+{{il.22TargetsAbsoluteReferenced-image}}{: .pad-top}
+<em>Targets created with a reference but _InWorld_ will have the reference assigned but their location relative to the world origin won't change. Their coordinates relative to the reference will be translated to robot code.</em>{: .pad-bottom}
+
+*   The other way of using the {{gl.references-link}} is with geometry modelled relative to the world origin like this curve. If we set this up in the same way and change _InWorld_ to `false` our {{gl.targets-link}} maintain the same relative transformation between the world origin and their new {{gl.reference-link}}. Now when we move the {{gl.reference-link}} around, the relative {{gl.targets-link}} follow.
+
+{{il.22ReferencedTargetsOnRoot-image}}{: .pad-top}
+<em>Targets created at the document origin then assigned to a reference, not _InWorld_, will follow the reference around the scene treating the reference as their new origin. Their coordinates relative to the reference will be translated to robot code.</em>{: .pad-bottom}
+
+{{gl.references-link}} can also be parented. If we create another {{gl.reference-link}} and use Shift + Up to change overload we can see a _Parent_ input appear and the same _InWorld_ parameter that we saw in **Target from Curve**. If we use our old {{gl.reference-link}} as the _Parent_ of this new {{gl.reference-link}}, add a bit of an offset by assigning the _Frame_ and set _InWorld_ to `false` we now have a {{gl.reference-link}} referenced to a {{gl.reference-link}}. We can reassign the {{gl.reference-link}} of our relative {{gl.targets-link}} and see both the new {{gl.reference-link}} and our {{gl.targets-link}} follow when `BoxCorner` is moved. This is of particular use if you have a calibrated work surface but want to perform work in different areas of it.
+
+{{il.22RelativeReferences-image}}{: .pad-top}
+<em>References can be declared relative to each other.</em>{: .pad-bottom}

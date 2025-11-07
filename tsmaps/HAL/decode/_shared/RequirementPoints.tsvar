@@ -1,0 +1,17 @@
+¬import gl from "../../_shared/glossaryLinks"
+¬import dl from "../../_shared/decodeLinks"
+¬import ol from "../../_shared/overviewLinks"
+
+
+¬requirement-1: 
+- HAL Robotics _decode_ installed on a PC. See {{ol.overview-installation-link}} if you need to install the software.¬
+
+¬requirement-2: 
+- An open {{dl.decode-project-link}}¬
+
+¬requirement-3: 
+- A {{gl.manipulator-link}} in the **Scene**¬
+
+¬requirement-4: 
+- A {{gl.controller-link}} in the **Scene**¬
+

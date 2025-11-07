@@ -1,0 +1,168 @@
+{
+    "key": "s7S9Dz0hO",
+    "token": "1Gettingstarteddecode",
+    "name": "1-GettingStarted-decode",
+    "created": "2025-03-14T11:57:47.931Z",
+    "list": true,
+    "publishFileName": "1-Getting-Started",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/Ξ 1-GettingStarted-decode/1-GettingStarted-decode.tsmap",
+    "iText": "Link to '1-GettingStarted-decode'",
+    "___rΩΩt___": {
+        "key": "s7S9Dz1U9",
+        "nodes": [
+            {
+                "key": "s7S9Dz0uh",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "s7S9Dz1rw",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "s7S9Dz1Fn",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "s7S9Dz17f",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "s7S9Dz26f",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "nodes": [
+                                                    {
+                                                        "key": "s7S9Dz1i6",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "s7S9Dz0vu",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "s7S9Dz22C",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "s7S9Dz0n2",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "s7S9Dz0tz",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "s7S9Dz1wn",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "s7S9Dz0mc",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "s7S9Dz0sj",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "isLeaf": true
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7S9Dz1U9",
+            "relativePath": "./δ steps/δ-cQieHo00Iv.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0uh",
+            "relativePath": "./δ steps/δ-cQijMh01ox.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz1rw",
+            "relativePath": "./δ steps/δ-cQikmm021D.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz1Fn",
+            "relativePath": "./δ steps/δ-cQilul00ig.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz17f",
+            "relativePath": "./δ steps/δ-cQinD7028U.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz26f",
+            "relativePath": "./δ steps/δ-cQiooI012Z.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz1i6",
+            "relativePath": "./δ steps/δ-cQiq73012P.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0vu",
+            "relativePath": "./δ steps/δ-cQirr1022e.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz22C",
+            "relativePath": "./δ steps/δ-cQitJM02UP.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0n2",
+            "relativePath": "./δ steps/δ-cQiv9G01xe.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0tz",
+            "relativePath": "./δ steps/δ-cQixGF015D.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz1wn",
+            "relativePath": "./δ steps/δ-cQiyVN02NY.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0mc",
+            "relativePath": "./δ steps/δ-cQj03u02HQ.tsstp"
+        },
+        {
+            "key": "δ-s7S9Dz0sj",
+            "relativePath": "./δ steps/δ-cQj1Ic02AO.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fAF4WV01F2",
+        "editorID": "car_add20af177164d36bfd8a1a2561ab9b4",
+        "ticks": 1744458401783
+    }
+}

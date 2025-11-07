@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+When we have multiple [Robots]{{gl.manipulator-link-D}} or {{gl.mechanisms-link}}, such as {{gl.positioners-link}}, in a {{gl.cell-link}} programming can become increasingly complex and, in many scenarios, we only really have one set of {{gl.targets-link}} that we care about which a {{gl.positioner-link}} should be relocating to facilitate access by a [Manipulator]{{gl.manipulator-link-D}}. We refer to this configuration, where one {{gl.mechanism-link}} displaces the {{gl.targets-link}} of another as **Coupled** motion.
+

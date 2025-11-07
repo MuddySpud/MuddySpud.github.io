@@ -1,0 +1,165 @@
+{
+    "v": "1",
+    "r": {
+        "i": "yuRR0S1X5",
+        "n": "s7SMPw1aQ",
+        "o": [
+            {
+                "i": "yuRR0d2PS",
+                "n": "s7SMPw1gK",
+                "c": 0,
+                "o": [
+                    {
+                        "i": "yuRR0d0M1",
+                        "n": "wqTjpZ00iy",
+                        "x": "wqTeGi01qL",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR141tb",
+                "n": "s7SMPw2X6",
+                "c": 1,
+                "o": [
+                    {
+                        "i": "yuRR140Ar",
+                        "n": "wstUdl01Nm",
+                        "x": "wss8h901vX",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR1J0pE",
+                "n": "s7SMPw0nf",
+                "c": 2,
+                "o": [
+                    {
+                        "i": "yuRR1J0U6",
+                        "n": "wtKTNf00UH",
+                        "x": "wtJUdC01Gg",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR1Y2Hk",
+                "n": "s7SMPw1ap",
+                "c": 3,
+                "o": [
+                    {
+                        "i": "yuRR1Y1Rv",
+                        "n": "xBaVh901NX",
+                        "x": "wtZF260zS",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR1p10N",
+                "n": "s7SMPw01z",
+                "c": 4,
+                "o": [
+                    {
+                        "i": "yuRR1p03Q",
+                        "n": "wthFvA00tr",
+                        "x": "wtgm5X00HJ",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR270Xt",
+                "n": "s7SMPw0iX",
+                "c": 5,
+                "o": [
+                    {
+                        "i": "yuRR271zV",
+                        "n": "wu0zcI00jg",
+                        "x": "wtu3Kb02LO",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR2O2Xz",
+                "n": "s7SMPw1PR",
+                "c": 6,
+                "o": [
+                    {
+                        "i": "yuRR2O1Ak",
+                        "n": "xBaeRE01pr",
+                        "x": "wuNsj120p",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR2d0oA",
+                "n": "s7SMPw0f6",
+                "c": 7,
+                "o": [
+                    {
+                        "i": "yuRR2d19F",
+                        "n": "wuZvcs013L",
+                        "x": "wuZNti02E2",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            },
+            {
+                "i": "yuRR2s17y",
+                "n": "s7SMPw0FD",
+                "c": 8,
+                "o": [
+                    {
+                        "i": "yuRR2x0Nn",
+                        "n": "wubjTs00Zy",
+                        "x": "wubGs202Bw",
+                        "_x": "s7SMPw1Te"
+                    }
+                ]
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "wqSrAG00n4",
+            "p": "LuSenlinTech/produce/Crops/AromaticHerbsSelect4_frags"
+        },
+        {
+            "i": "wsqXK702Nl",
+            "p": "LuSenlinTech/produce/Crops/LeafyGreensSelect_frags"
+        },
+        {
+            "i": "wtF0Ww02Ne",
+            "p": "LuSenlinTech/produce/Crops/FruitingVeg_frags"
+        },
+        {
+            "i": "wtZF260ir",
+            "p": "LuSenlinTech/produce/Crops/RootsStems_frags"
+        },
+        {
+            "i": "wtfKcq013p",
+            "p": "LuSenlinTech/produce/Crops/EdibleFlowers_frags"
+        },
+        {
+            "i": "wtiaC602KY",
+            "p": "LuSenlinTech/produce/Crops/AquaticPlants_frags"
+        },
+        {
+            "i": "wuNsj11BZ",
+            "p": "LuSenlinTech/produce/Crops/MushroomsAndFungi_frags"
+        },
+        {
+            "i": "wuYugT00Mx",
+            "p": "LuSenlinTech/produce/Crops/EdibleMolluscs_frags"
+        },
+        {
+            "i": "wuahkg011M",
+            "p": "LuSenlinTech/produce/Crops/Snails_frags"
+        }
+    ],
+    "e": 1
+}

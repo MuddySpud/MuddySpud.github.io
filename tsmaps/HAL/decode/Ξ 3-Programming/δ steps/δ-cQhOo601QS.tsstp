@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+In the **Programming** screen, between the {{gl.procedure-link}} selector and the _Item Type_ selector you should see a large blue **solve** button. Clicking that will run a very fast simulation behind the scenes during which _decode_ will work out how the {{gl.manipulator-link}} is going to follow any Toolpaths you've created and check for potential issues. If your {{gl.procedure-link}} is solved that button will be replaced by a **simulation control bar** with **reset**, **play**/**pause**, **next**, **previous**, and **loop** buttons as well as a **time ratio** slider to change the playback speed of the simulation. This won't change the programmed or exported speeds, it's just like skipping faster or slower through time. On the far right-hand side of that bar is a button with some graphs. That will open the {{gl.procedure-link}} Timeline which will show you the details of your {{gl.manipulator-link}}'s {{gl.motion-action-motion-link}} and highlight any issues during the {{gl.procedure-link}}.
+
+{{il.programmingSolvedTimelineMiddle-image}}{: .pad-top}
+<em>Solving the Procedure triggers the validation of the Procedure and allows its simulation.</em>{: .pad-bottom}
+
+Every time you make a change to anything in your {{gl.procedure-link}} you'll need to re-**solve** but we'll remember what happened last time so subsequent **solve**s will be faster.
+
+---
+

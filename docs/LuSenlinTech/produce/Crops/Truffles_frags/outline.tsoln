@@ -1,0 +1,42 @@
+{
+    "v": "1",
+    "r": {
+        "i": "yoUZey2Lb",
+        "n": "wuGaat00ah",
+        "o": [
+            {
+                "i": "yoUZfC2FH",
+                "n": "wuGfkE00jU",
+                "_x": "wuHH6D00FW",
+                "d": 0
+            },
+            {
+                "i": "yoUZfQ2aH",
+                "n": "wuH8Qx01SF",
+                "_x": "wuHH6D00FW",
+                "d": 1
+            },
+            {
+                "i": "yoUZfZ1NF",
+                "n": "wuHDli01a2",
+                "_x": "wuHH6D00FW",
+                "d": 2
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "yV5koR02G0",
+            "p": "LuSenlinTech/produce/Pods/Crops/Fungi/BlackTruffleUrbanKnot_frags"
+        },
+        {
+            "i": "yV6MCl00Tk",
+            "p": "LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper_frags"
+        },
+        {
+            "i": "yV72Sl00NX",
+            "p": "LuSenlinTech/produce/Pods/Crops/Fungi/SummerTruffleHarvestNugget_frags"
+        }
+    ],
+    "e": 1
+}

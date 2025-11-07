@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 6.1. Configure a Virtual Controller
+
+#### Objective:
+
+In this tutorial we'll look at how you can configure a virtual {{gl.controller-link}} to match your real {{gl.controller-link}} using the HAL Robotics Framework for Grasshopper.
+

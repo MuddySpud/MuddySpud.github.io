@@ -1,0 +1,36 @@
+{
+    "v": "1",
+    "r": {
+        "i": "ytU5Bd1K8",
+        "n": "s7LPlH1pM",
+        "c": 0,
+        "o": [
+            {
+                "i": "ytU5Bq0sm",
+                "n": "ytCYcq01Eo",
+                "x": "s7SMXt1dV",
+                "c": 1
+            },
+            {
+                "i": "ytU5Bz15u",
+                "n": "ytCYcq00fc",
+                "x": "s7SMXt0Xu",
+                "c": 1
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "s7SMXt0ol",
+            "p": "_site/LuSenlinTech/equipment/Power_frags"
+        },
+        {
+            "i": "yjFhSI02KP",
+            "p": "_site/LuSenlinTech/preferences/Customisation_frags"
+        }
+    ],
+    "e": 0,
+    "mv": {
+        "spaceDisplayText": "in your garden or small outdoor plot"
+    }
+}

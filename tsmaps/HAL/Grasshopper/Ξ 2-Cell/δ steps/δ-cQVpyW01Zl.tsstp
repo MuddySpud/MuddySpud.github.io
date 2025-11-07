@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+#### Background:
+
+[Tools]{{gl.end-effector-link-D}} can often be approximated to be a single geometric body with a single {{gl.endpoint-link}}. This is the assumption that's made in the {{ghl.grasshopper-create-tool-t-link}} tutorial to make it really easy to get started. There are also plenty of scenarios, however, where the {{gl.end-effector-link}} you have will be composed of multiple {{gl.parts-link}} or even have multiple {{gl.endpoints-link}}.
+

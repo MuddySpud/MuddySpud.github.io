@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+In certain scenarios it may be necessary to have your {{gl.manipulator-link}} {{gl.wait-action-link}} in its current position. This could be because it's taking a measurement, a {{gl.end-effector-link}} is working or simply because something else is happening in the environment. If the {{gl.wait-action-link}} duration is conditional on another {{gl.manipulator-link}} reaching a particular point in its {{gl.procedure-link}} then a **Wait Sync** {{gl.action-link}} is a good solution.
+
+#### How to:
+
+We can create a {{gl.wait-action-link}} {{gl.action-link}} from the **HAL Robotics** tab, **Procedure** panel and switch to the **Wait Sync** overload. The only thing required here are our **Sync Settings**. We can create **Sync Settings** from the **Motion** panel. It's important to give our **Sync Settings** an identifiable name. The output of this component is an {{gl.action-link}} which can be merged into any other sequence of {{gl.actions-link}} you may have but given that this is a synchronization {{gl.action-link}} it only really makes sense if it's used in more than one {{gl.procedure-link}}. I have prepared a very simple demo here with two [Robots]{{gl.manipulator-link-D}} performing a single [Move Action]{{gl.motion-action-link-D}} each. I'm going to copy and paste my {{gl.wait-action-link}} to ensure that the same **Sync Settings** is used for both [Wait Actions]{{gl.wait-action-link-D}} and use {{gl.wait-action-link}} before {{gl.motion-action-move-link}} in one case and after in the other. Once that's merged and **Solved**, we can see that the first {{gl.manipulator-link}} moves, the other waits until both synchronized [Waits]{{gl.wait-action-link-D}} are executed and then the second {{gl.manipulator-link}} follows. This is a simple way to organize multiple [Robots]{{gl.manipulator-link-D}} without synchronizing their {{gl.motion-action-motion-link}}.
+
+---

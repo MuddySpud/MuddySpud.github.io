@@ -1,0 +1,244 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBjP0kJ","path":"HAL/Grasshopper","fragmentFolderPath":"HAL/Grasshopper/1-Getting-Started_frags"},"fragment":{"id":"fdLBjP0kJ","topLevelMapKey":"cQWYif02Yo","mapKeyChain":"cQWYif02Yo","guideID":"fdLBjP2Zc","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/Grasshopper/1-GettingStarted.tsmap","parentFragmentID":null,"chartKey":"cQWYif02Yo","options":[]}} -->
+
+<h2 id="1-getting-started">1. Getting Started</h2>
+
+<p><a href="#11-quick-start">1.1. Quick Start</a><br />
+<a href="#12-interface-overview">1.2. Interface Overview</a><br />
+<a href="#13-components">1.3. Components</a><br />
+<a href="#14-documentation-component">1.4. Documentation Component</a></p>
+
+<hr />
+<h3 id="11-quick-start">1.1. Quick Start</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this tutorial we’ll take the shortest route from an empty session to a moving Robot in the HAL Robotics Framework for <a href="https://www.rhino3d.com/6/new/grasshopper">Grasshopper</a>.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+<blockquote>
+  <p><a href="/HAL/Grasshopper/ExampleFiles/Tutorials/1.1%20-%20Getting%20Started.gh" class="icon-link"><img src="/HAL/assets/images/Grasshopper/GHFile16.PNG" />  Getting Started.gh</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+  <li>A basic knowledge of Rhinoceros 3D and Grasshopper are highly recommended.</li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p>The HAL Robotics Framework is a modular software library that simplify the modelling, programming and simulation of processes involving industrial machines. The client for McNeel software gives you access to the vast majority of the Framework’s functionality from within <a href="https://www.rhino3d.com/6/new/grasshopper">Grasshopper</a>, a visual programming environment that runs within <a href="https://www.rhino3d.com/6/features">Rhinoceros 3D</a>.</p>
+
+<h4 id="how-to">How to:</h4>
+
+<p>Once you’ve opened Grasshopper and logged in to the HAL Robotics Framework to access your licenses you should be presented with a blank Grasshopper canvas and a new <strong>HAL Robotics</strong> tab at the top your screen. There are plenty of tools within this tab to allow you to program just about any process you want, and other tutorials will look at each of them individually as well as the <a href="/HAL/Grasshopper/1-Getting-Started#12-interface-overview">structure of the interface</a>, but for now, we’re just going to get up and running as quickly as possible.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11GHLogin.PNG" class="pad-top"><center><img src="/HAL/assets/images/Grasshopper/11GHLogin.PNG" /></center></a>
+<em class="pad-bottom">The “Log In” window will allow ou to connect to your HAL user account when Grasshopper starts.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11GHBlank.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11GHBlank.PNG" /></a>
+<em class="pad-bottom">The new blue HAL parameters should show up in the “Params” tab.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11GHBlankTab.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11GHBlankTab.PNG" /></a>
+<em class="pad-bottom">The “HAL Robotics” tab contains the components we will use in this tutorial series.</em></p>
+
+<p>The first component we’re going to use is the <strong>Robot</strong>. You’ll find it inside the <strong>Cell</strong> menu, in the top left of the toolbar. When we place that component on the canvas not much happens. This is because <strong>Robot</strong> is one of a few special types of component that we’ve developed to extend the default Grasshopper interface. We’ll see what each does as we come across them and they are all covered in a <a href="/HAL/Grasshopper/1-Getting-Started#13-components">special tutorial</a> so feel free to have a look at that for more detail.</p>
+
+<p>This particular component has an interlocking squares icon <strong>⧉</strong> on the name bar. This indicates that it can be double-clicked to get a pop-up window. If we open that window on the <strong>Robot</strong> component then we get the Robot Catalog. You can select any <a href="/HAL/Overview/Glossary#manipulator">Robot</a> you want by simply clicking on it and then the “Select” button. I’m going to choose the <code class="language-plaintext highlighter-rouge">IRB 1200 - 0.7m</code> as that’s what I have next to me at the office. Once we’ve made our selection it will pop up into the scene. If you want to change your choice, you can always double click on the component again.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Robot.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Robot.gif" /></a>
+<em class="pad-bottom">Double click on the robot component to open and select a robot preset.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11RobotSearch.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11RobotSearch.gif" /></a>
+<em class="pad-bottom">You can also find this component by using the Grasshopper search feature, by double clicking on the canvas and typing “robot”.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11RobotViaHelp.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11RobotViaHelp.gif" /></a>
+<em class="pad-bottom">As the default Grasshopper search feature is limited, we added our own component browser allowing you to look for keywords in components, and preview filtered results. To access this utility, you can use the <strong>Documentation</strong> component in the <strong>Help</strong> menu, or via the “<strong>HAL</strong>&gt;<strong>Help</strong>&gt;<strong>Documentation</strong>” menu of the Grasshopper window.</em></p>
+
+<p>We now have a <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, but we’re almost always going to need a <a href="/HAL/Overview/Glossary#end-effector">Tool, also called end-effector</a> as well, so I’m going to add a <strong>Tool</strong> component, again from the <strong>Cell</strong> menu. We assume that you will want to create your own <a href="/HAL/Overview/Glossary#end-effector">Tools</a> so this catalog component contains only a few options to get you started. The creation of <a href="/HAL/Overview/Glossary#end-effector">Tools</a> is covered in future tutorials (<a href="/HAL/Grasshopper/2-Cell#24-create-a-tool">1</a>,<a href="/HAL/Grasshopper/2-Cell#25-calibrate-a-reference-or-tool">2</a>,<a href="/HAL/Grasshopper/2-Cell#26-create-a-multi-part-tool">3</a>) so please have a look at those for more information. I’m going to select the <code class="language-plaintext highlighter-rouge">extruder</code> because I know it’s about the right size for this <a href="/HAL/Overview/Glossary#manipulator">Robot</a>.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Tool.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Tool.gif" /></a>
+<em class="pad-bottom">Double click on the “Tool” component to open and select a tool preset.</em></p>
+
+<p>Once we have a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> in the scene, we need to connect the two together. We do that using the <strong>Attach</strong> component. We will see that once we’ve assigned the <strong>Robot</strong> component as the <em>Parent</em> and <strong>Tool</strong> component as the <em>Child</em>, the <code class="language-plaintext highlighter-rouge">extruder</code> is attached to the end or <a href="/HAL/Overview/Glossary#flange">Flange</a> of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. That’s all there is to creating our very simple <a href="/HAL/Overview/Glossary#cell">Robot Cell</a>.
+We’re going to hide all the components we’ve already added to ensure that we can see what we’re doing as we proceed.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Attach.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Attach.gif" /></a>
+<em class="pad-bottom">Attach the robot and the tool mechanisms together using the “Attach” component, then hide all components to free the viewport for the following programming steps.</em></p>
+
+<p>Now that we have a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the scene, we need to <a href="/HAL/Overview/Glossary#72-programming">program</a> it. To get started I’m just going to make it follow a curve that I have drawn in Rhino and referenced in Grasshopper. <a href="/HAL/Overview/Glossary#manipulator">Robots</a> don’t inherently understand geometry so we have to convert this curve into a series of <a href="/HAL/Overview/Glossary#target">Targets</a> for the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to follow. We can this with the <strong>Target</strong> component under the <strong>Motion</strong> menu. When we place the component on the canvas you should see that its key input is a list of <em>Frames</em> but this component also has a black band at the bottom which says “Template 1/<em>n</em>”. This is the second new component type we’ve come across. Template components can be right-clicked upon and their shape changed. In this case you can see that there are a few different ways of creating <a href="/HAL/Overview/Glossary#target">Targets</a>. We’ve got a curve as input so we’re going to choose <strong>Target from Curve</strong>. There are a number of things we can change here but to keep things simple we’ll keep the defaults and just assign the curve in the <em>Curve</em> input. 
+You should see a number of <a href="/HAL/Overview/Glossary#target">Targets</a> appear in the viewport. The exact number and pattern, of course, will vary according to the curve you’re using.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11TargetsFromCurve.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11TargetsFromCurve.gif" /></a>
+<em class="pad-bottom">You can generate curves in Grasshopper or use the “Curve” parameter to register a Rhinoceros curve from which targets will be generated.</em></p>
+
+<p>Please note that <a href="/HAL/Overview/Glossary#target">Targets</a> can be edited and transformed in any way you want, and that you can also use Grasshopper planes to create <a href="/HAL/Overview/Glossary#target">Targets</a> from scratch. Please see the dedicated tutorials in the <a href="/HAL/Grasshopper/3-Motion">Motion section of this documentation</a>).</p>
+
+<p>Now that we have some <a href="/HAL/Overview/Glossary#target">Targets</a>, we need to actually instruct the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> to move through them. We do this using the <strong>Move</strong> component which is found in the <strong>Procedure</strong> menu. There are plenty of options to control how a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> gets to these <a href="/HAL/Overview/Glossary#target">Targets</a> and they are discussed in detail in future tutorials (<a href="/HAL/Grasshopper/3-Motion#33-change-motion-settings">1</a>,<a href="/HAL/Grasshopper/3-Motion#35-synchronize-motion">2</a>). The bare minimum is to assign our <strong>Targets</strong> to <strong>Move</strong> and there we have a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> ready for <a href="/HAL/Overview/Glossary#73-simulation">Execution</a>. Again, I’m going to hide the components other than <strong>Move</strong> to keep things simple on screen.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Move.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Move.gif" /></a>
+<em class="pad-bottom">Use the “Move” component to generate a robot motion through the generated targets.</em></p>
+
+<p>Now that we have a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and a <a href="/HAL/Overview/Glossary#procedure">Procedure</a>, we need to link the two together. In the HAL Robotics Framework, as with your real <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, the entity that interprets programming to actuate a machine is a <a href="/HAL/Overview/Glossary#controller">Controller</a>. We can get a <strong>Controller</strong> from the <strong>Cell</strong> menu. We can see that this also has the interlocking squares icon <strong>⧉</strong> and therefore can be double-clicked to get a pop-up window. From this Controller Catalog you can choose the <a href="/HAL/Overview/Glossary#controller">Controller</a> you are using as you did with the <strong>Robot</strong>. Please note, you will need the extension for any brand installed to be able to load their <a href="/HAL/Overview/Glossary#controller">Controllers</a>. If you didn’t install any extensions you can continue with the <code class="language-plaintext highlighter-rouge">Generic Controller</code> for now and install the brand-specific extensions from the <a href="/HAL/Overview/0-Administration-and-Setup#01-install">HAL Robotics Framework Installer</a> later. The <a href="/HAL/Overview/Glossary#manipulator">Robot</a> we have here uses an <code class="language-plaintext highlighter-rouge">IRC5 Compact V2</code> so I’m going to pick that. You can configure the complete setup of your <a href="/HAL/Overview/Glossary#controller">Controller</a> and we have a <a href="/HAL/Grasshopper/6-Control#61-configure-a-virtual-controller">separate tutorial</a> on that but for now I’m going to “Configure” with the defaults. The position and visual representation of the <strong>Controller</strong> is of little interest in this case so I’m going to hide it immediately. With the <strong>Controller</strong> in place we can assign the <strong>Robot</strong> and <strong>Procedure</strong> to link the two together.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Controller.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Controller.gif" /></a>
+<em class="pad-bottom">Double click on the “Controller” component to open and select a controller preset, then plug the robot and tool as the controlled mechanism, and the motion through targets as the procedure to be assigned to the mechanism.</em></p>
+
+<p>Now, of course, we want to see whether the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> can make it round our curve without issue. This is referred to as “Solving” and is done using the <strong>Procedure Solver</strong> component in the <strong>Simulation</strong> menu. With that component in place we can assign the <em>Controller</em> and toggle the <em>Solve</em> Boolean to <code class="language-plaintext highlighter-rouge">true</code>. This will start the solving and any issues, errors or notification will be output under <em>Notifications</em>. If we now want to visualize that solved <a href="/HAL/Overview/Glossary#procedure">Procedure</a> then we can add the <strong>Execute</strong> component to the end of our chain from, again, the <strong>Simulation</strong> menu. This should come with its <strong>Execution Control</strong> pre-attached but if it doesn’t you can find the <strong>Execution Control</strong> under the <strong>Simulation</strong> menu as well. Once the <em>Solution</em> is assigned to the <strong>Execute</strong> component we’re ready to hit <em>Play</em> and watch our <a href="/HAL/Overview/Glossary#manipulator">Robot</a> make its way around the curve. If your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is moving, congratulations, you’ve completed your first session with the HAL Robotics Framework for Grasshopper.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/11Simulation.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/11Simulation.gif" /></a>
+<em class="pad-bottom">The simulation is split into two steps: the “Solver” computes the robot behavior, and the “Execute” component displays the computed solution.</em></p>
+
+<hr />
+<h3 id="12-interface-overview">1.2. Interface Overview</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll take a look at the layout HAL Robotics Framework components in Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p>The HAL Robotics Framework for Grasshopper installs a new tab within the Grasshopper UI called <strong>HAL Robotics</strong>. You will know that the Framework is installed if you can see the <strong>HAL Robotics</strong> tab and a number of blue hexagonal parameters components on the <strong>Params</strong> tab.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>In the <strong>Params</strong> tab you will find a number of HAL Robotics Framework parameters. These are all in blue hexagons and may come in useful for keeping your documents organized. The parameters panels are organized in the same way as the <strong>HAL Robotics</strong> tab, as we’ll see shortly, with the addition of all of these units which can be used to ensure you use the units most appropriate to your way of working regardless of the units of your model space.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12Parameters.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12Parameters.PNG" /></a>
+<em class="pad-bottom">The HAL parameters are shaped as blue hexagon.</em></p>
+
+<p>Within the <strong>HAL Robotics</strong> tab, you will see a set of panels. These are ordered and organized to guide you through the process of setting up your processes in the HAL Robotics Framework.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12Components.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12Components.PNG" /></a>
+<em class="pad-bottom">The HAL Robotics tab is ordered following the software workflow, from the robot cell modelling, to the procedure execution utilities.</em></p>
+
+<p><strong>Cell</strong><br />
+The Cell panel covers everything you’ll need to build up a virtual version of your robotic <a href="/HAL/Overview/Glossary#cell">Cell</a>. This includes <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, <a href="/HAL/Overview/Glossary#positioner">Positioner</a> and <a href="/HAL/Overview/Glossary#end-effector">Tool</a> presets, as well as the components required to build your own <a href="/HAL/Overview/Glossary#mechanism">Mechanisms</a>, <a href="/HAL/Overview/Glossary#part">Parts</a>, set up your <a href="/HAL/Overview/Glossary#signal">I/O Signals</a> and assemble all of these into a complete digital system through a <a href="/HAL/Overview/Glossary#controller">Controller</a>.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12CellComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12CellComponents.PNG" /></a>
+<em class="pad-bottom">The “Cell” panel contains everything to model the hardware of a robot cell.</em></p>
+
+<p><strong>Motion</strong><br />
+The Motion panel contains all the components to create and manipulate <a href="/HAL/Overview/Glossary#target">Targets</a> and control how your <a href="/HAL/Overview/Glossary#manipulator">Robots</a> are going to move towards those <a href="/HAL/Overview/Glossary#target">Targets</a> by specifying the Speed, Acceleration, <a href="/HAL/Overview/Glossary#blend">Blend</a> and Kinematic Settings.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12MotionComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12MotionComponents.PNG" /></a>
+<em class="pad-bottom">The “Motion” panel contains everything to fine tune a robot motion.</em></p>
+
+<p><strong>Procedure</strong><br />
+The Procedure panel is where you’ll find all the tools necessary to program your machines. This includes <a href="/HAL/Overview/Glossary#motion-action">Move</a>, <a href="/HAL/Overview/Glossary#wait-action">Wait</a> and <a href="/HAL/Overview/Glossary#signal-action">Signal Change</a> <a href="/HAL/Overview/Glossary#action">Actions</a> as well as utilities for changing <a href="/HAL/Overview/Glossary#end-effector">Tools</a> at runtime, manipulating <a href="/HAL/Overview/Glossary#part">Parts</a> and Combining these into a <a href="/HAL/Overview/Glossary#procedure">Procedure</a> ready to <a href="/HAL/Overview/Glossary#73-simulation">Simulate</a>.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12ProcedureComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12ProcedureComponents.PNG" /></a>
+<em class="pad-bottom">The “Procedure” panel contains the different actions forming a robot procedure.</em></p>
+
+<p><strong>Simulation</strong><br />
+The Simulation panel contains everything you need to <a href="/HAL/Overview/Glossary#solving">Solve</a> and Execute a <a href="/HAL/Overview/Glossary#73-simulation">Simulation</a> of your <a href="/HAL/Overview/Glossary#procedure">Procedures</a>.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12SimulationComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12SimulationComponents.PNG" /></a>
+<em class="pad-bottom">The “Simulation” panel contains the utilities to compute and visualize simulated robot procedures.</em></p>
+
+<p><strong>Control</strong><br />
+The Control panel is where you’ll find components to get your <a href="/HAL/Overview/Glossary#procedure">Procedures</a> out of the digital world and onto your real machines. This includes functionality such as <a href="/HAL/Overview/Glossary#export">Exporting</a> and <a href="/HAL/Overview/Glossary#upload">Uploading</a> code.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12ControlComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12ControlComponents.PNG" /></a>
+<em class="pad-bottom">The “Control” panel contains utilities to transform your simulation into executable robot code.</em></p>
+
+<p><strong>Utilities</strong><br />
+The Utilities tab contains useful tools such as Frame creators which will enable you to input or output frame data in any standard formalism.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12UtilitiesComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12UtilitiesComponents.PNG" /></a>
+<em class="pad-bottom">The “Utilities” panel contains various utilities.</em></p>
+
+<p><strong>Help</strong><br />
+The Help panel contains the Documentation component and other tools to help you look up information about the software.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12HelpComponents.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12HelpComponents.PNG" /></a></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/12DocumentationDrop.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/12DocumentationDrop.gif" /></a>
+<em class="pad-bottom">The “Documentation” component can be dropped on a component to visualize its documentation.</em></p>
+
+<hr />
+<h3 id="13-components">1.3. Components</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll look at the component variations and patterns added to HAL Robotics Framework components in Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>On any given HAL Robotics Framework component, you will notice a few recurring patterns and symbols in the names of inputs and outputs. These patterns can be used individually or combined on a single parameter. The Create Part component is a good example of all of these.</p>
+
+<ul>
+  <li>
+    <p><strong>→</strong> Name - An arrow ( <strong>→</strong> ) preceding an input name means that the input is mandatory. Component will not compute until data is provided to every mandatory input.</p>
+  </li>
+  <li>
+    <p><strong>[</strong>Name<strong>]</strong> - Square brackets <strong>[ ]</strong> around the name of an input or output mean that the data will be treated as a list or collection.</p>
+  </li>
+  <li>
+    <p><strong>{</strong>Name<strong>}</strong> - Curly brackets <strong>{ }</strong> around the name of an input or output mean that the data will be treated as a Grasshopper DataTree.</p>
+  </li>
+  <li>
+    <p>Name <strong>(unit)</strong> - A name followed by a unit in brackets e.g. (mm) or (rad), means that the input will be treated in a specific unit. These units can be changed by right-clicking on the input, hovering over <em>Unit</em> and selecting the unit you prefer to use. You can assign a textual expression to these inputs and it will be calculated for you e.g. 3m + 35mm.</p>
+  </li>
+</ul>
+
+<p>To help keep the interface and number of components manageable we have introduced 3 new modes of interaction with Grasshopper components. Components that feature each new interaction mode can be identified easily.</p>
+
+<ul>
+  <li>
+    <p>Windowed Components a.k.a. Pop-up Components, such as the <strong>Robot</strong> preset component, feature two interlocking squares <strong>⧉</strong> in their name. You can double click on these components to get a pop-up window with additional component inputs. This could be a catalog of available <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or <a href="/HAL/Overview/Glossary#controller">Controller</a> presets, or an overview of <a href="/HAL/Overview/Glossary#procedure">Procedure</a> execution progress.</p>
+  </li>
+  <li>
+    <p>Overloaded Components, such as the <strong>Create Reference</strong> component, can be recognized by their black bar at the bottom which states <em>Shift + ↕ (1/2)</em>, or similar. Overloads of a component all perform the same function, such as creating a <a href="/HAL/Overview/Glossary#reference">Reference</a>, but are designed to simplify components for typical use by keeping advanced inputs out of the way until you need them.</p>
+  </li>
+  <li>
+    <p>Templated Components, such as the <strong>Frame</strong> component, can be identified by their black bar at the bottom which states <em>Template 1/3</em>, or similar. Templates are a means of grouping components that create similar objects or use different construction methods. For example, in the case of <strong>Frame</strong>, the templates represent different formalisms for frame creation such as Euler, Quaternion etc. Similarly, in the <strong>Create Target</strong> component, templates all create <a href="/HAL/Overview/Glossary#target">Targets</a> but use different inputs e.g. from a Frame, from Joint Positions or from a Curve.</p>
+  </li>
+</ul>
+
+<p><a href="/HAL/assets/images/Grasshopper/13Components.PNG" class="pad-top"><img src="/HAL/assets/images/Grasshopper/13Components.PNG" /></a>
+<em class="pad-bottom">The various parameter decorations and shape-changing component features listed above are visible on these four components.</em></p>
+
+<hr />
+<h3 id="14-documentation-component">1.4. Documentation Component</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll look at the <strong>Documentation</strong> component and how it can help you discover functionality within the HAL Robotics Framework for Grasshopper.</p>
+
+<h4 id="requirements-to-follow-along-3">Requirements to follow along:</h4>
+
+<ul>
+  <li><a href="https://www.rhino3d.com/download">McNeel’s Rhinoceros 3D and Grasshopper</a>, and the HAL Robotics Framework installed on a PC.</li>
+</ul>
+
+<p>Reading or watching the Component Variations tutorial is highly recommended.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>The <strong>Documentation</strong> component can be accessed through the HAL menu under Help -&gt; Documentation or via the <strong>Help</strong> panel in the <strong>HAL Robotics</strong> tab of Grasshopper. You can drag this component onto an existing component to display its documentation, or if you instantiate the component on the canvas, you will be presented with a list of all the available HAL Robotics Framework components.</p>
+
+<p>Using the search bar at the top of the window you can look for functionality that interests you. For example, if you type “speed” and trigger the search by hitting the <em>enter</em> or <em>space</em> key you will see a list of components which use the word “speed” in their title or description. The first option presented should be the <strong>Speed Settings</strong>. By selecting that component, if it isn’t already, you will see the component layout at the bottom of the window with descriptions of each input and output, as well as a series of tabs which will show the different <em>overloads</em> of the component. From here you can add the component to your current document by clicking “add to document” or close the window to cancel. This same functionality is extended to many other Grasshopper libraries and plugins which can be activated in the <em>Libraries</em> slide-out on the left-hand side of the window.</p>
+
+<p><a href="/HAL/assets/images/Grasshopper/14DocumentationSearch.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/14DocumentationSearch.gif" /></a>
+<em class="pad-bottom">You can browse the various component overloads by using the tabs at the bottom of the window, if any.</em></p>
+
+<p><a href="/HAL/assets/images/Grasshopper/14DocumentationLibraries.gif" class="pad-top"><img src="/HAL/assets/images/Grasshopper/14DocumentationLibraries.gif" /></a>
+<em class="pad-bottom">It is possible to use the HAL Documentation browser with all Grasshopper components, including plugins.</em></p>
+
+<hr />
+
+<p><a href="/HAL/Grasshopper/2-Cell#2-cell">Continue to: 2. Cell</a></p>

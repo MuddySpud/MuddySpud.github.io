@@ -1,0 +1,61 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+In the **Params** tab you will find a number of HAL Robotics Framework parameters. These are all in blue hexagons and may come in useful for keeping your documents organized. The parameters panels are organized in the same way as the **HAL Robotics** tab, as we'll see shortly, with the addition of all of these units which can be used to ensure you use the units most appropriate to your way of working regardless of the units of your model space.
+
+{{il.12Parameters-image}}{: .pad-top}
+<em>The HAL parameters are shaped as blue hexagon.</em>{: .pad-bottom} 
+
+Within the **HAL Robotics** tab, you will see a set of panels. These are ordered and organized to guide you through the process of setting up your processes in the HAL Robotics Framework.
+
+{{il.12Components-image}}{: .pad-top}
+<em>The HAL Robotics tab is ordered following the software workflow, from the robot cell modelling, to the procedure execution utilities.</em>{: .pad-bottom} 
+
+**Cell**<br>
+The Cell panel covers everything you'll need to build up a virtual version of your robotic {{gl.cell-link}}. This includes {{gl.manipulator-link}}, {{gl.positioner-link}} and {{gl.end-effector-link}} presets, as well as the components required to build your own {{gl.mechanisms-link}}, {{gl.parts-link}}, set up your [I/O Signals]{{gl.signal-link-D}} and assemble all of these into a complete digital system through a {{gl.controller-link}}.
+
+{{il.12CellComponents-image}}{: .pad-top}
+<em>The "Cell" panel contains everything to model the hardware of a robot cell.</em>{: .pad-bottom} 
+
+**Motion**<br>
+The Motion panel contains all the components to create and manipulate {{gl.targets-link}} and control how your [Robots]{{gl.manipulator-link-D}} are going to move towards those {{gl.targets-link}} by specifying the Speed, Acceleration, {{gl.blend-link}} and Kinematic Settings.
+
+{{il.12MotionComponents-image}}{: .pad-top}
+<em>The "Motion" panel contains everything to fine tune a robot motion.</em>{: .pad-bottom} 
+
+**Procedure**<br>
+The Procedure panel is where you'll find all the tools necessary to program your machines. This includes {{gl.motion-action-move-link}}, {{gl.wait-action-link}} and [Signal Change]{{gl.signal-action-link-D}} {{gl.actions-link}} as well as utilities for changing [Tools]{{gl.end-effector-link-D}} at runtime, manipulating {{gl.parts-link}} and Combining these into a {{gl.procedure-link}} ready to [Simulate]{{gl.simulation-link-D}}.
+
+{{il.12ProcedureComponents-image}}{: .pad-top}
+<em>The "Procedure" panel contains the different actions forming a robot procedure.</em>{: .pad-bottom} 
+
+**Simulation**<br>
+The Simulation panel contains everything you need to {{gl.solving-link}} and Execute a {{gl.simulation-link}} of your {{gl.procedures-link}}.
+
+{{il.12SimulationComponents-image}}{: .pad-top}
+<em>The "Simulation" panel contains the utilities to compute and visualize simulated robot procedures.</em>{: .pad-bottom} 
+
+**Control**<br>
+The Control panel is where you'll find components to get your {{gl.procedures-link}} out of the digital world and onto your real machines. This includes functionality such as [Exporting]{{gl.export-link-D}} and {{gl.uploading-link}} code.
+
+{{il.12ControlComponents-image}}{: .pad-top}
+<em>The "Control" panel contains utilities to transform your simulation into executable robot code.</em>{: .pad-bottom} 
+
+**Utilities**<br>
+The Utilities tab contains useful tools such as Frame creators which will enable you to input or output frame data in any standard formalism.
+
+{{il.12UtilitiesComponents-image}}{: .pad-top}
+<em>The "Utilities" panel contains various utilities.</em>{: .pad-bottom} 
+ 
+**Help**<br>
+The Help panel contains the Documentation component and other tools to help you look up information about the software.
+
+{{il.12HelpComponents-image}}{: .pad-top} 
+
+{{il.12DocumentationDrop-image}}{: .pad-top}
+<em>The "Documentation" component can be dropped on a component to visualize its documentation.</em>{: .pad-bottom} 
+
+--- 

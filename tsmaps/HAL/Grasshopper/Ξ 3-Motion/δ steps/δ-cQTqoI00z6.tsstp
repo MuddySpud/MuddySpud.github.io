@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+**Motion Settings** control the way in which a {{gl.manipulator-link}} moves between {{gl.targets-link}}. They combine settings for the **Space**, **Speeds**, **Accelerations**, **Blends** and a number of other parameters to control how a {{gl.manipulator-link}} gets to its destination.
+

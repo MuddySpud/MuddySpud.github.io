@@ -1,0 +1,37 @@
+{
+    "key": "wvwSJO00nJ  ",
+    "token": "Testrelative",
+    "name": "TestRelative",
+    "created": "2025-10-17T21:44:47.266Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestRelative/TestRelative.tsmap",
+    "iText": "Link to 'TestRelative'",
+    "___rΩΩt___": {
+        "key": "wvwV9a00MA",
+        "sharedAssetKey": "wvwXfU02CU",
+        "nodes": [
+            {
+                "key": "wvwWzs01iw",
+                "order": 1,
+                "option": "Next",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "wvwXfU02CU",
+            "relativePath": "../../LuSenlinTech/produce/_shared/AquaticPlants_m.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-wvwWzs01iw",
+            "relativePath": "./δ steps/δ-wvwWzs01iw.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "wvwjFv025z",
+        "editorID": "car_9edc91149f37451a842829d1c151fe6b",
+        "ticks": 1760737552399
+    }
+}

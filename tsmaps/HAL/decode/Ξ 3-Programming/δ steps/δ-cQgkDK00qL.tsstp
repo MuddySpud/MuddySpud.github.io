@@ -1,0 +1,4 @@
+¬import dl from "../../../_shared/decodeLinks"
+
+
+- A {{dl.decode-create-part-link}} in the **Scene**

@@ -1,0 +1,173 @@
+{
+    "key": "s7S9Cr2Aq",
+    "token": "4Workflows",
+    "name": "4-Workflows",
+    "created": "2025-03-14T11:29:43.517Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/Ξ 4-Workflows/4-Workflows.tsmap",
+    "iText": "Link to '4-Workflows'",
+    "___rΩΩt___": {
+        "key": "s7S9Cr0Hz",
+        "nodes": [
+            {
+                "key": "s7S9Cr1lw",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "s7S9Cr0t3",
+                        "order": 1,
+                        "option": "Next",
+                        "sharedAssetKey": "cQfR9g02Xn",
+                        "nodes": [
+                            {
+                                "key": "s7S9Cr22g",
+                                "order": 1,
+                                "option": "Next",
+                                "nodes": [
+                                    {
+                                        "key": "s7S9Cr116",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "nodes": [
+                                            {
+                                                "key": "s7S9Cr1Tb",
+                                                "order": 1,
+                                                "option": "Next",
+                                                "sharedAssetKey": "cQfXm100pR",
+                                                "nodes": [
+                                                    {
+                                                        "key": "s7S9Cr2V2",
+                                                        "order": 1,
+                                                        "option": "Next",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "s7S9Cr0Vg",
+                                                                "order": 1,
+                                                                "option": "Next",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "s7S9Cr1Zh",
+                                                                        "order": 1,
+                                                                        "option": "Next",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "s7S9Cr02R",
+                                                                                "order": 1,
+                                                                                "option": "Next",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "s7S9Cr1Xt",
+                                                                                        "order": 1,
+                                                                                        "option": "Next",
+                                                                                        "sharedAssetKey": "cQfiQT01Y9",
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "s7S9Cr1ly",
+                                                                                                "order": 1,
+                                                                                                "option": "Next",
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "s7S9Cr2Ln",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Next",
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "s7S9Cr2BW",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "isLeaf": true
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7S9Cr0Hz",
+            "relativePath": "./δ steps/δ-cQbZqw020B.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr1lw",
+            "relativePath": "./δ steps/δ-cQfMGJ01wl.tsstp"
+        },
+        {
+            "key": "cQfR9g02Xn",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7S9Cr22g",
+            "relativePath": "./δ steps/δ-cQfQlK00c7.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr116",
+            "relativePath": "./δ steps/δ-cQfU6j01v8.tsstp"
+        },
+        {
+            "key": "cQfXm100pR",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7S9Cr2V2",
+            "relativePath": "./δ steps/δ-cQfXPE00uK.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr0Vg",
+            "relativePath": "./δ steps/δ-cQfbu501nY.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr1Zh",
+            "relativePath": "./δ steps/δ-cQfdHr020X.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr02R",
+            "relativePath": "./δ steps/δ-cQfeX401oe.tsstp"
+        },
+        {
+            "key": "cQfiQT01Y9",
+            "relativePath": "../_shared/Requirements.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-s7S9Cr1ly",
+            "relativePath": "./δ steps/δ-cQfi7V026G.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr2Ln",
+            "relativePath": "./δ steps/δ-cQflwE006b.tsstp"
+        },
+        {
+            "key": "δ-s7S9Cr2BW",
+            "relativePath": "./δ steps/δ-cQfnGJ00zQ.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "fMgepf015g",
+        "editorID": "car_1e801eb684c44984bd1b4b824b04d661",
+        "ticks": 1744642292243
+    }
+}

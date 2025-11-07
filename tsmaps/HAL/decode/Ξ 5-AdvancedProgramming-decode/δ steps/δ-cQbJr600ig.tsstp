@@ -1,0 +1,22 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### How to:
+
+These overrides are all done through the naming of objects, by using special syntax in their _Aliases_, activated or deactivated using the **Translation Overrides** _Step_. There are 3 scenarios we permit:
+1. Forcing the declaration of the element, even in `Inline` mode, e.g. so you can make manual changes to the code later. 
+2. Skipping the declaration of the element, e.g. because it's already in the [Controller's]{{gl.controller-link-D}} system variables and you want to use that data directly.
+3. Renaming the element, e.g. the {{gl.signal-link}} which you have called _ToolOn_ for legibility is actually called _DO-04_ or is index _3_ on the real {{gl.controller-link}}.
+4. [Bonus] A combination of the above.
+
+Overriding can be activated in the **Translation Overrides** _Step_ of compatible items by toggling **Override** on. You will then see a few options appear. **Mode** can be set between **Alias** and **Index**. The former will allow you to specify a new name for the item when it's exported. If the **Alias Override** is left blank, we will reuse the _Name_ specified in the object itself. In **Index** mode, we will try to {{gl.export-link}} the **Index** within an array in the native language e.g. `Tool[3]`. If **Skip Declaration** is activated, then we will _not_ {{gl.export-link}} any values for the item and assume that it is defined in your [Controller's]{{gl.controller-link-D}} system variables.
+
+{{il.signalsAliasOverride-image}}{: .pad-top}
+<em>Translation overrides give you extra control over how items are exported to your robot code.</em>{: .pad-bottom}
+
+The syntax you will see is as follows:
+1. Declare an override - Appends `@` to the _Alias_
+2. Skip declaration - Appends `!` to the _Alias_
+3. Renaming - Appends the new name to the _Alias_
+

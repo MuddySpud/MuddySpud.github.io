@@ -1,0 +1,73 @@
+{
+    "v": "1",
+    "r": {
+        "i": "yuRQj20kV",
+        "n": "s7LPoO0qp",
+        "o": [
+            {
+                "i": "yuRQj92Dz",
+                "n": "s7LPoO0VY",
+                "o": [
+                    {
+                        "i": "yuRQjO0rF",
+                        "n": "s7LPoO2B5",
+                        "o": [
+                            {
+                                "i": "yuRQjV0bu",
+                                "n": "s7LPoO11x",
+                                "o": [
+                                    {
+                                        "i": "yuRQjd261",
+                                        "n": "s7LPoO05F",
+                                        "_x": "s7LPoO19j"
+                                    },
+                                    {
+                                        "i": "yuRQjp1Zl",
+                                        "n": "s7LPoO09a",
+                                        "_x": "s7LPoO04R"
+                                    },
+                                    {
+                                        "i": "yuRQkC1C4",
+                                        "n": "s7LPoO0o9",
+                                        "_x": "s7LPoO2Y3"
+                                    }
+                                ]
+                            },
+                            {
+                                "i": "yuRQkS0il",
+                                "n": "s7LPoO0I7"
+                            }
+                        ]
+                    },
+                    {
+                        "i": "yuRQkq1cd",
+                        "n": "s7LPoO25V",
+                        "o": [
+                            {
+                                "i": "yuRQl128G",
+                                "n": "s7LPoO0j7"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "i": "yuRQlU08c",
+                "n": "s7LPoO1n7",
+                "o": [
+                    {
+                        "i": "yuRQlp2Wn",
+                        "n": "s7LPoO1QC"
+                    }
+                ]
+            }
+        ]
+    },
+    "e": 3,
+    "mv": {
+        "spaceDisplayText": "space",
+        "lowEffortPriceStart": "- to be confirmed...",
+        "moderateEffortPriceStart": "- to be confirmed...",
+        "highEffortPriceStart": "- price to be confirmed..."
+    }
+}

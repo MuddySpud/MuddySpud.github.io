@@ -1,0 +1,244 @@
+<!-- tsGuideRenderComment {"guide":{"id":"fdLBpN1iH","path":"HAL/decode","fragmentFolderPath":"HAL/decode/2-Cell_frags"},"fragment":{"id":"fdLBpN1iH","topLevelMapKey":"cQhegc01qa","mapKeyChain":"cQhegc01qa","guideID":"fdLBpN1BC","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/HAL/decode/2-Cell-decode.tsmap","parentFragmentID":null,"chartKey":"cQhegc01qa","options":[]}} -->
+
+<h2 id="2-cell-setup">2. Cell Setup</h2>
+
+<p><a href="#21-insert-a-robot">2.1. Insert a Robot</a><br />
+<a href="#22-create-a-tool">2.2. Create a Tool</a><br />
+<a href="#23-create-a-reference">2.3. Create a Reference</a><br />
+<a href="#24-insert-a-part">2.4. Insert a Part</a><br />
+<a href="#25-create-a-controller">2.5. Create a Controller</a><br />
+<a href="#26-create-a-signal">2.6. Create a Signal</a></p>
+
+<hr />
+<h3 id="21-insert-a-robot">2.1. Insert a Robot</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<p>In this quick tutorial we’ll take a look how to insert a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> preset into your <em>decode</em> scene.</p>
+
+<h4 id="requirements-to-follow-along">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+</ul>
+
+<h4 id="how-to">How to:</h4>
+
+<p>On the <strong>Scene</strong> screen, select <strong>Robot</strong> from the <em>Item Type</em> selector at the very top, then click <strong>+</strong>. The <strong>From Preset</strong> <em>Creator</em> will allow you to select a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> from our catalogue.</p>
+
+<p>Select the <strong>Preset</strong> <em>Step</em> and the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> catalogue will pop-up. Double-click on the robot you want to load to choose it. If the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> you want isn’t listed, look for the <strong>Scan Online Content</strong> button in lower left-hand corner which will list all the available <a href="/HAL/Overview/Glossary#manipulator">Robots</a> and download whichever one you choose. There are plenty to choose from so it may take a few seconds to list them all. Next time you load the catalogue, your offline <a href="/HAL/Overview/Glossary#manipulator">Robots</a> will be listed.</p>
+
+<p>If you need to set the <strong>Location</strong> of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>, choose that <em>Step</em> and adjust accordingly. The <strong>Reference</strong> setting can be used to adjust whether you want to define a <strong>Location</strong> relative to the <strong>Scene</strong>’s origin, or the element to which the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> is attached, its <em>Parent</em>.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>’s setup click <strong>ok</strong> in the upper right corner to return to the <strong>Scene</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddRobot-Catalogue.gif" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddRobot-Catalogue.gif" /></a>
+<em class="pad-bottom">There are lots of robots to choose from in the online catalogue.</em></p>
+
+<hr />
+<h3 id="22-create-a-tool">2.2. Create a Tool</h3>
+
+<h4 id="objective-1">Objective:</h4>
+
+<p>In this tutorial we’ll create a simple <a href="/HAL/Overview/Glossary#end-effector">Tool</a> for your <em>decode</em> scene.</p>
+
+<h4 id="demo-files">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/decode/ExampleFiles/Tool.stl" class="icon-link"><img src="/HAL/assets/images/Grasshopper/RHFile16.PNG" /> Tool.stl</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-1">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background">Background:</h4>
+
+<p>More often than not you will need a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> or <a href="/HAL/Overview/Glossary#end-effector">End Effector</a> in your <a href="/HAL/Overview/Glossary#cell">Cell</a> to undertake a process. The <a href="/HAL/Overview/Glossary#end-effector">Tool</a> could be anything from a welding torch to a spindle or even something as simple as a pen. <a href="/HAL/Overview/Glossary#end-effector">Tools</a> can be attached to the end of a manipulator like a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> or stationary with a <a href="/HAL/Overview/Glossary#manipulator">Robot</a> bringing the <a href="/HAL/Overview/Glossary#part">Part</a> to the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>.</p>
+
+<h4 id="how-to-1">How to:</h4>
+
+<p>From the <strong>Scene</strong> screen, select the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> onto which you want to attach the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>. That will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#end-effector">Tool</a> as an option. <em>N.B. Stationary <a href="/HAL/Overview/Glossary#end-effector">Tools</a> will be enabled in a future update.</em> Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#end-effector">Tool</a>.</p>
+
+<p>The <strong>From Preset</strong> <em>Creator</em> will allow you to select a <a href="/HAL/Overview/Glossary#end-effector">Tool</a> from our catalogue. If one of those works for you, you can skip to settings the <strong>Location</strong> below, but with the enormous variety of <a href="/HAL/Overview/Glossary#end-effector">Tools</a> in the world and even the ease with which one can create an entirely unique, custom <a href="/HAL/Overview/Glossary#end-effector">Tool</a> for a process, chances are good that you will need to model your own <a href="/HAL/Overview/Glossary#end-effector">Tool</a>. To do that, select <strong>From Components</strong> in the <em>Creator</em> selector and you’ll see the <strong>Assemble</strong> <em>Step</em> appear.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-FromComponents.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-FromComponents.png" /></a>
+<em class="pad-bottom">The Tool editor with the From Components Creator selected.</em></p>
+
+<p>Opening the <strong>Assemble</strong> <em>Step</em> will generate a mini-<strong>Scene</strong> which represents your <a href="/HAL/Overview/Glossary#end-effector">Tool</a>. A <a href="/HAL/Overview/Glossary#end-effector">Tool</a> will always be composed of at least one <a href="/HAL/Overview/Glossary#part">Part</a> which acts as its <em>base</em>, and one <a href="/HAL/Overview/Glossary#endpoint">endpoint</a> which acts as the <a href="/HAL/Overview/Glossary#endpoint">tool centre point (TCP)</a>.</p>
+
+<p>Start by adding a <a href="/HAL/Overview/Glossary#part">Part</a> and you’ll get a whole new <em>Creator</em> embedded. There are lots of options here to explore but the most common workflow is likely to <strong>From Geometry</strong> and importing your <em>Part Body</em> <strong>From CAD File</strong>. There first editable <em>Step</em> therein is <em>CAD File</em> which will allow you to select the CAD file which contains your <a href="/HAL/Overview/Glossary#end-effector">Tool</a>’s geometry. <em>To keep things simple, it’s worth ensuring that the base of that geometry is at the origin of the file you’re importing but you can adjust that with the Location if needed.</em> The next few <em>Steps</em> will work on their own to import that geometric data and convert into our own formats for optimal performance. The rest of the <a href="/HAL/Overview/Glossary#part">Part</a> settings are optional and should be self-explanatory. Click <strong>ok</strong> on the <em>Creator</em> to finish creating that <a href="/HAL/Overview/Glossary#part">Part</a>.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreatePart.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreatePart.png" /></a>
+<em class="pad-bottom">The Part Creator in From Geometry mode allowing the importing of a CAD file to act as the Tool’s geometry.</em></p>
+
+<p>Now select your <a href="/HAL/Overview/Glossary#part">Part</a>, and you can add an <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> to it. The only settings here are for the <em>Location</em> of that <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> which will act as the <a href="/HAL/Overview/Glossary#endpoint">TCP</a>. This is most easily set relative to its <em>Parent</em> as a <em>Reference</em> and we recommend that the Z axis of <a href="/HAL/Overview/Glossary#endpoint">TCPs</a> point out of the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>, following the co-ordinate system flow of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a> itself. Click <strong>ok</strong> on the <em>Creator</em> to finish creating that <a href="/HAL/Overview/Glossary#endpoint">Endpoint</a> and then on <strong>ok</strong> again to complete the assembly.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreateEndPoint.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-CreateTool-CreateEndPoint.png" /></a>
+<em class="pad-bottom">You will see the position of the TCP in the live preview.</em></p>
+
+<p>As standard, the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>’s base will be attached to the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>’s <em>flange</em>, or <a href="/HAL/Overview/Glossary#endpoint">endpoint</a>. Setting the <em>Location</em> allows you to offset that attachment point if you need to.</p>
+
+<p>The <strong>Translation Override</strong> <em>Step</em> will allow you change how the <a href="/HAL/Overview/Glossary#end-effector">Tool</a> is <a href="/HAL/Overview/Glossary#export">exported</a> into <a href="/HAL/Overview/Glossary#manipulator">Robot</a> code.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#end-effector">Tool</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Scene</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-RobotWithTool.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-RobotWithTool.png" /></a>
+<em class="pad-bottom">The Tool should appear attached to our Robot and show the location of our TCP.</em></p>
+
+<hr />
+<h3 id="23-create-a-reference">2.3. Create a Reference</h3>
+
+<h4 id="objective-2">Objective:</h4>
+
+<p>In this tutorial we’ll see how to create <a href="/HAL/Overview/Glossary#reference">References</a> for your <em>decode</em> scene.</p>
+
+<h4 id="requirements-to-follow-along-2">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+</ul>
+
+<h4 id="background-1">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#reference">References</a> are useful because they allow us to specify <a href="/HAL/Overview/Glossary#target">Targets</a> relative to something other than the world or the base of the <a href="/HAL/Overview/Glossary#manipulator">Robot</a>. This means that they can be recalibrated in the real world without the need to regenerate a <a href="/HAL/Overview/Glossary#toolpath">Toolpath</a> or <a href="/HAL/Overview/Glossary#procedure">Procedure</a>. They can also be connected one onto another to create a logical hierarchy of elements that can be moved as one.</p>
+
+<h4 id="how-to-2">How to:</h4>
+
+<p>From the <strong>Scene</strong> screen, select the <a href="/HAL/Overview/Glossary#reference">Reference</a> onto which you want to attach your new <a href="/HAL/Overview/Glossary#reference">Reference</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#reference">References</a> onto each other to restructure your <strong>Scene</strong> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#reference">Reference</a> as an option. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#reference">Reference</a>.</p>
+
+<p>The <strong>From Location</strong> <em>Creator</em> will allow you to set its <a href="/HAL/decode/1-Getting-Started#locations">Location</a> and <a href="/HAL/decode/1-Getting-Started#translation-overrides">Translation Overrides</a>, both of which should be familiar to you by now. If not, please refer back to the tutorials above for more details.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#reference">Reference</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Scene</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddReference-Location.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddReference-Location.png" /></a>
+<em class="pad-bottom">References can be used to relocate or calibrate Parts and CAD Models, or structure your Scene.</em></p>
+
+<h4 id="next">Next:</h4>
+
+<p>Take a look at the next tutorial on creating <a href="/HAL/Overview/Glossary#part">Parts</a> to learn how to add geometry to your <a href="/HAL/Overview/Glossary#reference">References</a>.</p>
+
+<hr />
+<h3 id="24-create-a-part">2.4. Create a Part</h3>
+
+<h4 id="objective-3">Objective:</h4>
+
+<p>In this tutorial we’ll see how to add <a href="/HAL/Overview/Glossary#part">Parts</a> to your <em>decode</em> scene.</p>
+
+<h4 id="demo-files-1">Demo Files:</h4>
+
+<blockquote>
+  <p><a href="/HAL/decode/ExampleFiles/WobblyBlock.stp" class="icon-link"><img src="/HAL/assets/images/Grasshopper/RHFile16.PNG" />  WobblyBlock.stp</a></p>
+</blockquote>
+
+<h4 id="requirements-to-follow-along-3">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>Reading the <a href="#23-create-a-reference">Create a Reference</a> tutorial is highly recommended.</li>
+</ul>
+
+<h4 id="background-2">Background:</h4>
+
+<p><a href="/HAL/Overview/Glossary#part">Parts</a> serve two roles in <em>decode</em> and come in two variants. Firstly, <a href="/HAL/Overview/Glossary#part">Parts</a> can be used to populate your <a href="/HAL/Overview/Glossary#cell">Cells</a> with environmental elements such as pedestals, tables or tool holders which can in turn be used as <a href="/HAL/Overview/Glossary#reference">References</a> for your <a href="/HAL/Overview/Glossary#toolpath">Toolpaths</a>. They can also be used as the basis geometry for <a href="/HAL/Overview/Glossary#toolpath">Toolpaths</a>, e.g. following edges or surfaces. When we import <a href="/HAL/Overview/Glossary#part">Parts</a> for the environment, we optimise them for performance. To retain all the geometric data and therefore enable the latter use, use a <strong>CAD Model</strong> instead. Both are grouped here because the settings and workflow are almost identical and we’ll use <a href="/HAL/Overview/Glossary#part">Parts</a> as a general term for both below.</p>
+
+<h4 id="how-to-3">How to:</h4>
+
+<p>From the <strong>Scene</strong> screen, select the <a href="/HAL/Overview/Glossary#reference">Reference</a> onto which you want to attach your new <a href="/HAL/Overview/Glossary#part">Part</a>, or click anywhere in the white space to clear your current selection. You can always drag and drop <a href="/HAL/Overview/Glossary#part">Parts</a> onto each other to restructure your <strong>Scene</strong> later. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#part">Part</a> and <strong>CAD Model</strong> as options. So we can reuse it in later tutorials, let’s opt for the <strong>CAD Model</strong> now and use our <a href="/HAL/decode/ExampleFiles/WobblyBlock.stp">Wobbly Block</a> example file. Click <strong>+</strong> and you’ll enter the editor.</p>
+
+<p>The <strong>From Geometry</strong> <em>Creator</em> will allow you to select a <strong>CAD File</strong>, <a href="/HAL/decode/1-Getting-Started#locations">Location</a> and <a href="/HAL/decode/1-Getting-Started#translation-overrides">Translation Overrides</a>, all of which should be familiar to you by now. If not, please refer back to the tutorials above for more details.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#part">Part</a> or <strong>CAD Model</strong>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Scene</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddCADModel-Complete.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddCADModel-Complete.png" /></a>
+<em class="pad-bottom">Parts can be used as environmental context whilst CAD Models are useful to extract geometric data for Toolpaths later.</em></p>
+
+<hr />
+<h3 id="25-create-a-controller">2.5. Create a Controller</h3>
+
+<h4 id="objective-4">Objective:</h4>
+
+<p>In this tutorial we’ll look at how you can create and configure a virtual <a href="/HAL/Overview/Glossary#controller">Controller</a> to match your real <a href="/HAL/Overview/Glossary#controller">Controller</a> in your <em>decode</em> scene.</p>
+
+<h4 id="requirements-to-follow-along-4">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong> is recommended</li>
+</ul>
+
+<h4 id="background-3">Background:</h4>
+
+<p>Industrial <a href="/HAL/Overview/Glossary#controller">Controllers</a> are typically comprised of core functionality, such as the ability to run a program, extended through optional extras, like communication protocols or multi-<a href="/HAL/Overview/Glossary#manipulator">Robot</a> support. To ensure that we only try and interact with your real <a href="/HAL/Overview/Glossary#controller">Controller</a> in a way that is compatible, be it through a network or with exported code, we have added a means to configure your <a href="/HAL/Overview/Glossary#controller">Controller</a>. The constituent parts of this are:</p>
+
+<p>a.  <a href="/HAL/Overview/Glossary#controller">Controller</a> - this is essentially a computer to which your <a href="/HAL/Overview/Glossary#manipulator">Robot</a> and <a href="/HAL/Overview/Glossary#signal">Signals</a> are connected.</p>
+
+<p>b.  Capabilities - these are how we organize what a <a href="/HAL/Overview/Glossary#controller">Controller</a> can do and draw parallels between different manufacturers’ <a href="/HAL/Overview/Glossary#controller">Controllers</a>. <em>Capabilities</em> are things like the ability to <a href="/HAL/Overview/Glossary#upload">Upload</a> code to the <a href="/HAL/Overview/Glossary#controller">Controller</a> from a PC or the ability to read the values of <a href="/HAL/Overview/Glossary#signal">Signals</a> remotely.</p>
+
+<p>c.  Subsystems - these are similar to the options you have in your <a href="/HAL/Overview/Glossary#controller">Controller</a>. They are the actual software modules that implement different <em>Capabilities</em>.</p>
+
+<h4 id="how-to-4">How to:</h4>
+
+<p>All of these different parts are best explored with concrete examples so let’s create a <a href="/HAL/Overview/Glossary#controller">Controller</a> and look at how we can configure it.
+From the <strong>Scene</strong> screen, select the <a href="/HAL/Overview/Glossary#reference">Reference</a> onto which you want to attach your new <a href="/HAL/Overview/Glossary#controller">Controller</a>, or click anywhere in the white space to clear your current selection. Either of those states will enable the <em>Item Type</em> selector to list <a href="/HAL/Overview/Glossary#controller">Controller</a> as an option. Click <strong>+</strong> and you’ll enter the editor.</p>
+
+<p>There is only one <em>Creator</em> available here. Select the <strong>Preset</strong> <em>Step</em> and the <a href="/HAL/Overview/Glossary#controller">Controller</a> catalogue will pop-up. Double-click on the <a href="/HAL/Overview/Glossary#controller">Controller</a> you want to load to choose it. If the <a href="/HAL/Overview/Glossary#controller">Controller</a> you want isn’t listed, look for the <strong>Scan Online Content</strong> button in lower left-hand corner which will list all the available <a href="/HAL/Overview/Glossary#controller">Controllers</a> and download whichever one you choose. Next time you load the catalogue, your offline <a href="/HAL/Overview/Glossary#controller">Controllers</a> will be listed.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddController-FromCatalogue-Middle.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddController-FromCatalogue-Middle.png" /></a>
+<em class="pad-bottom">There are Controllers from all our supported manufacturers in the Controller catalogue.</em></p>
+
+<p>For this example, we’re going to use the <code class="language-plaintext highlighter-rouge">IRC5 Compact V2</code> but you will find details for any other manufacturer’s <a href="/HAL/Overview/Glossary#controller">Controllers</a> in the <a href="/HAL/Manufacturers">manufacturer-specific documentation</a>. When we select a <a href="/HAL/Overview/Glossary#controller">Controller</a>, if there is anything to configure, a configuration page will pop-up.</p>
+
+<p>The first thing we’ll see at the top is the system version. In the case of ABB this is the RobotWare version but for KUKA this would be KUKA System Software or in Universal Robots it will be the Polyscope version. It’s important to note that these are version ranges so don’t expect to see every point release listed. By changing the version we’ll change which <strong>Subsystems</strong> are available. If we switch down to <code class="language-plaintext highlighter-rouge">5.14</code>, <code class="language-plaintext highlighter-rouge">EGM</code> will disappear from the options below because it was only introduced in Robotware 6.</p>
+
+<p>The rest of the window is split in two; on the left is <strong>Subsystem</strong> and <strong>Capability</strong> selection and on the right is parametrization. In the left-hand column we can see the <strong>Capabilities</strong> listed with <strong>Subsystems</strong> that implement that <strong>Capability</strong> in a drop-down alongside. Let’s look specifically at <code class="language-plaintext highlighter-rouge">Upload</code>. By hovering over the name, we can see that the <code class="language-plaintext highlighter-rouge">Upload</code> <strong>Capability</strong> enables <a href="/HAL/Overview/Glossary#procedure">Procedure</a> <a href="/HAL/Overview/Glossary#upload">Uploading</a> to a remote <a href="/HAL/Overview/Glossary#controller">Controller</a>. We can also see that there are two subsystems that offer this <strong>Capability</strong>, <code class="language-plaintext highlighter-rouge">PCSDK</code> and <code class="language-plaintext highlighter-rouge">Robot Web Services (RWS)</code>. <code class="language-plaintext highlighter-rouge">RWS</code> is built in to the latest Robotware versions but to use the <code class="language-plaintext highlighter-rouge">PCSDK</code> we need the option “PC Interface” on our <a href="/HAL/Overview/Glossary#controller">Controller</a>. If you don’t have that option you can change <strong>Subsystem</strong> to ensure we use a compatible method to <a href="/HAL/Overview/Glossary#upload">Upload</a> <a href="/HAL/Overview/Glossary#procedure">Procedures</a> to your <a href="/HAL/Overview/Glossary#controller">Controller</a>. There may also be circumstances where we don’t have any of the options installed or don’t want access to a <strong>Capability</strong> for security purposes. In that case we can deactivate the <strong>Capability</strong> using its toggle. On the right-hand side of the window, we have the inputs to configure our <strong>Subsystems</strong>. Only active <strong>Subsystems</strong> are listed so if we deactivate both <code class="language-plaintext highlighter-rouge">EGM</code> <strong>Capabilities</strong> the <code class="language-plaintext highlighter-rouge">EGM</code> parameters will disappear. Once we have changed the relevant properties we can select “Configure” to apply our changes. Closing the window without configuring will leave the <a href="/HAL/Overview/Glossary#controller">Controller</a> in an invalid, unconfigured state.</p>
+
+<p><a href="/HAL/assets/images/decode/01-Scene/Cell-AddController-Configured.png" class="pad-top"><img src="/HAL/assets/images/decode/01-Scene/Cell-AddController-Configured.png" /></a>
+<em class="pad-bottom">The controller configurator allows you to match the capabilities of your real Controller in the virtual Scene.</em></p>
+
+<p>If you need to set the <em>Location</em> of the <a href="/HAL/Overview/Glossary#controller">Controller</a>, choose that <em>Step</em> and adjust accordingly. The <em>Reference</em> setting can be used to adjust whether you want to define a <em>Location</em> relative to the <strong>Scene</strong>’s origin, or the element to which the <a href="/HAL/Overview/Glossary#controller">Controller</a> is attached, its <em>Parent</em>.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#controller">Controller</a>’s setup click <strong>ok</strong> in the upper right corner to return to the <strong>Scene</strong> screen. <a href="/HAL/Overview/Glossary#controller">Controllers</a> are hidden by default in the <strong>Scene</strong> but can be shown using the <em>eye</em> icon.</p>
+
+<hr />
+<h3 id="26-create-a-signal">2.6. Create a Signal</h3>
+
+<h4 id="objective-5">Objective:</h4>
+
+<p>In this tutorial we’ll create a <a href="/HAL/Overview/Glossary#signal">Signal</a> that can be programmed in <em>decode</em>.</p>
+
+<h4 id="requirements-to-follow-along-5">Requirements to follow along:</h4>
+
+<ul>
+  <li>HAL Robotics <em>decode</em> installed on a PC. See <a href="/HAL/Overview/0-Administration-and-Setup#01-install">Installation</a> if you need to install the software.</li>
+  <li>An open <a href="/HAL/decode/1-Getting-Started#11-projects">project</a></li>
+  <li>A <a href="/HAL/Overview/Glossary#manipulator">Robot</a> in the <strong>Scene</strong></li>
+  <li>A <a href="/HAL/Overview/Glossary#controller">Controller</a> in the <strong>Scene</strong></li>
+</ul>
+
+<h4 id="background-4">Background:</h4>
+
+<p>Electrical Input and Output (I/O) <a href="/HAL/Overview/Glossary#signal">Signals</a> are used to activate or deactivate <a href="/HAL/Overview/Glossary#end-effector">Tools</a>, trigger actions on remote machines or pass data between <strong>Sensors</strong>.</p>
+
+<h4 id="how-to-5">How to:</h4>
+
+<p>From the <strong>Network</strong> screen, select the <strong>I/O Signals Board</strong> into which you want to add your new <a href="/HAL/Overview/Glossary#signal">Signal(s)</a>. <a href="/HAL/Overview/Glossary#signal">Signals</a> can’t be moved between <strong>Boards</strong> later. That will enable the <em>Item Type</em> selector to list a number of different <a href="/HAL/Overview/Glossary#signal">Signals</a> types. Select whichever you need but <strong>Digital Output</strong>s are very common so we’ll use that as our example here. Click <strong>+</strong> and you’ll start creating a <a href="/HAL/Overview/Glossary#signal">Signal</a> of your selected type.</p>
+
+<p>The <strong>Configuration</strong> <em>Step</em> will allow you to set its upper and lower limits (leave <code class="language-plaintext highlighter-rouge">0</code> to <code class="language-plaintext highlighter-rouge">24V</code> if you are unsure). The <a href="/HAL/decode/1-Getting-Started#translation-overrides">Translation Overrides</a> will allow you to use a human readable name within <em>decode</em> but change what’s <a href="/HAL/Overview/Glossary#export">exported</a>.</p>
+
+<p>Once you are happy with the <a href="/HAL/Overview/Glossary#signal">Signal</a>’s setup, ensure the name makes it easy to identify and click <strong>ok</strong> in the upper right corner to return to the <strong>Network</strong> screen.</p>
+
+<p><a href="/HAL/assets/images/decode/02-Network/Network-CreateSignal-TranslationOverrides.png" class="pad-top"><img src="/HAL/assets/images/decode/02-Network/Network-CreateSignal-TranslationOverrides.png" /></a>
+<em class="pad-bottom">Translation overrides make it easy to identify Signals without breaking the exported code.</em></p>
+
+<hr />
+
+<p><a href="/HAL/decode/3-Programming#3-programming">Continue to: 3. Programming</a></p>

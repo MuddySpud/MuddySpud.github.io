@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+
+#### Background:
+
+Motions are the fundamental building block of {{gl.manipulator-link}} programming instructing the {{gl.manipulator-link}} to go from its current position to somewhere else. We define where a {{gl.manipulator-link}} should move using {{gl.targets-link}} and how they should get there with {{gl.motion-action-motion-link}} Settings.
+We can mix and match {{gl.target-link}} creation techniques with different [Motion Spaces]{{gl.joint-space-link-D}} ass we'll see below.
+

@@ -1,0 +1,13 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+Industrial {{gl.controllers-link}} are typically comprised of core functionality, such as the ability to run a program, extended through optional extras, like communication protocols or multi-{{gl.manipulator-link}} support. To ensure that we only try and interact with your real {{gl.controller-link}} in a way that is compatible, be it through a network or with exported code, we have added a means to configure your {{gl.controller-link}}. The constituent parts of this are:
+
+a.  {{gl.controller-link}} - this is essentially a computer to which your {{gl.manipulator-link}} and {{gl.signals-link}} are connected.
+
+b.  Capabilities - these are how we organize what a {{gl.controller-link}} can do and draw parallels between different manufacturers' {{gl.controllers-link}}. _Capabilities_ are things like the ability to {{gl.upload-link}} code to the {{gl.controller-link}} from a PC or the ability to read the values of {{gl.signals-link}} remotely.
+
+c.  Subsystems - these are similar to the options you have in your {{gl.controller-link}}. They are the actual software modules that implement different _Capabilities_.
+

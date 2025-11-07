@@ -1,0 +1,59 @@
+{
+    "key": "s7SMDC0Tc",
+    "token": "Mapc",
+    "name": "MapC",
+    "created": "2025-04-18T11:42:33.772Z",
+    "list": true,
+    "publishFileName": "MapC",
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MapC/MapC.tsmap",
+    "iText": "Link to 'MapC'",
+    "___rΩΩt___": {
+        "key": "s7SMDC2KG",
+        "nodes": [
+            {
+                "key": "s7SMDC17m",
+                "order": 1,
+                "option": "MapC 1.1",
+                "iKey": "fugVwq00wh",
+                "nodes": [
+                    {
+                        "key": "s7SMDC26b",
+                        "order": 1,
+                        "option": "Exit1 MapE 1.1",
+                        "isLeaf": true,
+                        "iExitKey": "fuhBa202EB"
+                    }
+                ]
+            },
+            {
+                "key": "s7SMDC0Bl",
+                "order": 2,
+                "option": "MapC 1.2",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMDC2KG",
+            "relativePath": "./δ steps/δ-fjJD4x00Kf.tsstp"
+        },
+        {
+            "key": "δ-s7SMDC0Bl",
+            "relativePath": "./δ steps/δ-fkuBWf02T8.tsstp"
+        },
+        {
+            "key": "δ-s7SMDC17m",
+            "relativePath": "./δ steps/δ-fktrA001KS.tsstp"
+        },
+        {
+            "key": "δ-s7SMDC26b",
+            "relativePath": "./δ steps/δ-i8GGZn00Tj.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "jKKBqg00Sg",
+        "editorID": "car_1745fd4f81aa47eaa7471cb2519135cd",
+        "ticks": 1748271916270
+    }
+}

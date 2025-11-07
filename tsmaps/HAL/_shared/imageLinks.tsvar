@@ -1,0 +1,316 @@
+
+
+¬logo-url: ../assets/images/decode/logo.png
+
+¬userPortalRegister-url: ../assets/images/Overview/01UserPortalRegister.PNG
+¬userPortalRegister-image: [<img src="{{userPortalRegister-url}}">]({{userPortalRegister-url}})
+
+¬userPortalRegistration-url: ../assets/images/Overview/01UserPortalRegistration.PNG
+¬userPortalRegistration-image: [<img src="{{userPortalRegistration-url}}">]({{userPortalRegistration-url}})
+
+¬userPortalRegistrationConfirmation-url: ../assets/images/Overview/01UserPortalRegistrationConfirmation.PNG
+¬userPortalRegistrationConfirmation-image: [<img src="{{userPortalRegistrationConfirmation-url}}">]({{userPortalRegistrationConfirmation-url}})
+
+¬userPortalLogin-url: ../assets/images/Overview/01UserPortalLogin.PNG
+¬userPortalLogin-image: [<img src="{{userPortalLogin-url}}">]({{userPortalLogin-url}})
+
+¬userPortal-url: ../assets/images/Overview/01UserPortal.PNG
+¬userPortal-image: [<img src="{{userPortal-url}}">]({{userPortal-url}})
+
+¬setupExe-url: ../assets/images/Overview/01SetupExe.PNG
+¬setupExe-image: [<img src="{{setupExe-url}}" style="display:block">]({{setupExe-url}})
+
+¬installerDisclaimer-url: ../assets/images/Overview/01InstallerDisclaimer.PNG
+¬installerDisclaimer-image: [<img src="{{installerDisclaimer-url}}">]({{installerDisclaimer-url}})
+
+¬installerPackages-url: ../assets/images/Overview/01InstallerPackages.PNG
+¬installerPackages-image: [<img src="{{installerPackages-url}}">]({{installerPackages-url}})
+
+¬installerPackageLicenses-url: ../assets/images/Overview/01InstallerPackageLicenses.PNG
+¬installerPackageLicenses-image: [<img src="{{installerPackageLicenses-url}}">]({{installerPackageLicenses-url}})
+
+¬installerProgress-url: ../assets/images/Overview/01InstallerProgress.PNG
+¬installerProgress-image: [<img src="{{installerProgress-url}}">]({{installerProgress-url}})
+
+¬installerComplete-url: ../assets/images/Overview/01InstallerComplete.PNG
+¬installerComplete-image: [<img src="{{installerComplete-url}}">]({{installerComplete-url}})
+
+¬createOrganization-url: ../assets/images/Overview/02CreateOrganization.PNG
+¬createOrganization-image: [<img align="left" src="{{createOrganization-url}}">]({{createOrganization-url}})
+
+¬organization-url: ../assets/images/Overview/02Organizations.PNG
+¬organization-image: [<img align="left" src="{{organization-url}}">]({{organization-url}})
+
+¬organizationMembers-url: ../assets/images/Overview/02OrganizationMembers.PNG
+¬organizationMembers-image: [<img align="left" src="{{organizationMembers-url}}">]({{organizationMembers-url}})
+
+¬organizationLicenses-url: ../assets/images/Overview/02OrganizationLicenses.PNG
+¬organizationLicenses-image: [<img align="left" src="{{organizationLicenses-url}}">]({{organizationLicenses-url}})
+
+¬purchaseLicense-url: ../assets/images/Overview/04PurchaseLicense.PNG
+¬purchaseLicense-image: [<img align="left" src="{{purchaseLicense-url}}">]({{purchaseLicense-url}})
+
+¬requestLicense-url: ../assets/images/Overview/04RequestLicense.PNG
+¬requestLicense-image: [<img align="left" src="{{requestLicense-url}}">]({{requestLicense-url}})
+
+¬joinOrganization-url: ../assets/images/Overview/03JoinOrganization.PNG
+¬joinOrganization-image: [<img align="left" src="{{joinOrganization-url}}">]({{joinOrganization-url}})
+
+¬urAdminPassword-url: ../assets/images/Manufacturers/UR/URAdminPassword.PNG
+¬urAdminPassword-image: [<center><img src="{{urAdminPassword-url}}"></center>]({{urAdminPassword-url}})
+
+¬urEnableNetwork-url: ../assets/images/Manufacturers/UR/UREnableNetwork.PNG
+¬urEnableNetwork-image: [<center><img src="{{urEnableNetwork-url}}"></center>]({{urEnableNetwork-url}})
+
+¬urEnableSSH-url: ../assets/images/Manufacturers/UR/UREnableSSH.PNG
+¬urEnableSSH-image: [<center><img src="{{urEnableSSH-url}}"></center>]({{urEnableSSH-url}})
+
+¬urEnableServices-url: ../assets/images/Manufacturers/UR/UREnableServices.PNG
+¬urEnableServices-image: [<center><img src="{{urEnableServices-url}}"></center>]({{urEnableServices-url}})
+
+¬urEnablePorts-url: ../assets/images/Manufacturers/UR/UREnablePorts.PNG
+¬urEnablePorts-image: [<center><img src="{{urEnablePorts-url}}"></center>]({{urEnablePorts-url}})
+
+¬urEnableRemoteControl-url: ../assets/images/Manufacturers/UR/UREnableRemoteControl.PNG
+¬urEnableRemoteControl-image: [<center><img src="{{urEnableRemoteControl-url}}"></center>]({{urEnableRemoteControl-url}})
+
+¬urActivateRemoteControl-url: ../assets/images/Manufacturers/UR/URActivateRemoteControl.PNG
+¬urActivateRemoteControl-image: [<center><img src="{{urActivateRemoteControl-url}}"></center>]({{urActivateRemoteControl-url}})
+
+¬urCreateScript-url: ../assets/images/Manufacturers/UR/URCreateScript.PNG
+¬urCreateScript-image: [<center><img src="{{urCreateScript-url}}"></center>]({{urCreateScript-url}})
+
+¬urLoadScript-url: ../assets/images/Manufacturers/UR/URLoadScript.PNG
+¬urLoadScript-image: [<center><img src="{{urLoadScript-url}}"></center>]({{urLoadScript-url}})
+
+¬urManualProgram-url: ../assets/images/Manufacturers/UR/URManualProgram.PNG
+¬urManualProgram-image: [<center><img src="{{urManualProgram-url}}"></center>]({{urManualProgram-url}})
+
+¬abbViewModules-url: ../assets/images/Manufacturers/ABB/ABBViewModules.PNG
+¬abbViewModules-image: [<center><img src="{{abbViewModules-url}}"></center>]({{abbViewModules-url}})
+
+¬installerPackages-IncludeBeta-url: ../assets/images/Overview/01InstallerPackages-IncludeBeta.png
+¬installerPackages-IncludeBeta-image: [<center><img src="{{installerPackages-IncludeBeta-url}}"></center>]({{installerPackages-IncludeBeta-url}})
+
+¬programmingMoveMotionSettingsVariable-url: ../assets/images/decode/03-Programming/Programming-Move-MotionSettings-Variable.png
+¬programmingMoveMotionSettingsVariable-image: [<img src="{{programmingMoveMotionSettingsVariable-url}}">]({{programmingMoveMotionSettingsVariable-url}})
+
+¬programmingMoveMotionSettings-url: ../assets/images/decode/03-Programming/Programming-Move-MotionSettings.png
+¬programmingMoveMotionSettings-image: [<img src="{{programmingMoveMotionSettings-url}}">]({{programmingMoveMotionSettings-url}})
+
+¬overviewTabLayout-url: ../assets/images/decode/00-Overview/Overview-TabLayout.png
+¬overviewTabLayout-image: [<img src="{{overviewTabLayout-url}}">]({{overviewTabLayout-url}})
+
+¬cellCompleteScene-url: ../assets/images/decode/01-Scene/Cell-CompleteScene.png
+¬cellCompleteScene-image: [<img src="{{cellCompleteScene-url}}">]({{cellCompleteScene-url}})
+
+¬cellAddReferenceNoSteps-url: ../assets/images/decode/01-Scene/Cell-AddReference-NoSteps.png
+¬cellAddReferenceNoSteps-image: [<img src="{{cellAddReferenceNoSteps-url}}">]({{cellAddReferenceNoSteps-url}})
+
+¬cellAddReferenceLocation-url: ../assets/images/decode/01-Scene/Cell-AddReference-Location.png
+¬cellAddReferenceLocation-image: [<img src="{{cellAddReferenceLocation-url}}">]({{cellAddReferenceLocation-url}})
+
+¬cellAddReferenceTranslationOverrides-url: ../assets/images/decode/01-Scene/Cell-AddReference-TranslationOverrides.png
+¬cellAddReferenceTranslationOverrides-image: [<img src="{{cellAddReferenceTranslationOverrides-url}}">]({{cellAddReferenceTranslationOverrides-url}})
+
+¬cellAddRobotCatalogue-url: ../assets/images/decode/01-Scene/Cell-AddRobot-Catalogue.gif
+¬cellAddRobotCatalogue-image: [<img src="{{cellAddRobotCatalogue-url}}">]({{cellAddRobotCatalogue-url}})
+
+¬cellCreateToolCreatePart-url: ../assets/images/decode/01-Scene/Cell-CreateTool-CreatePart.png
+¬cellCreateToolCreatePart-image: [<img src="{{cellCreateToolCreatePart-url}}">]({{cellCreateToolCreatePart-url}})
+
+¬programmingAddSubProcedureMenu-url: ../assets/images/decode/03-Programming/Programming-AddSubProcedure-Menu.png
+¬programmingAddSubProcedureMenu-image: [<img src="{{programmingAddSubProcedureMenu-url}}">]({{programmingAddSubProcedureMenu-url}})
+
+
+¬programmingFollowCurveFromModelSelector-url: ../assets/images/decode/03-Programming/Programming-FollowCurve-FromModel-Selector.png
+¬programmingFollowCurveFromModelSelector-image: [<img src="{{programmingFollowCurveFromModelSelector-url}}">]({{programmingFollowCurveFromModelSelector-url}})
+
+¬rhFile16-url: ../assets/images/Grasshopper/RHFile16.PNG
+¬rhFile16-img: <img src="{{rhFile16-url}}">
+
+¬ghFile16-url: ../assets/images/Grasshopper/GHFile16.PNG
+¬ghFile16-img: <img src="{{ghFile16-url}}">
+
+¬cellCreateToolFromComponents-url: ../assets/images/decode/01-Scene/Cell-CreateTool-FromComponents.png
+¬cellCreateToolFromComponents-image: [<img src="{{cellCreateToolFromComponents-url}}">]({{cellCreateToolFromComponents-url}})
+
+¬cellCreateToolCreateEndPoint-url: ../assets/images/decode/01-Scene/Cell-CreateTool-CreateEndPoint.png
+¬cellCreateToolCreateEndPoint-image: [<img src="{{cellCreateToolCreateEndPoint-url}}">]({{cellCreateToolCreateEndPoint-url}})
+
+¬cellRobotWithTool-url: ../assets/images/decode/01-Scene/Cell-RobotWithTool.png
+¬cellRobotWithTool-image: [<img src="{{cellRobotWithTool-url}}">]({{cellRobotWithTool-url}})
+
+¬11GHLogin-url: ../assets/images/Grasshopper/11GHLogin.PNG
+¬11GHLogin-image: [<center><img src="{{11GHLogin-url}}"></center>]({{11GHLogin-url}})
+
+¬11GHBlank-url: ../assets/images/Grasshopper/11GHBlank.PNG
+¬11GHBlank-image: [<img src="{{11GHBlank-url}}">]({{11GHBlank-url}})
+
+¬11GHBlankTab-url: ../assets/images/Grasshopper/11GHBlankTab.PNG
+¬11GHBlankTab-image: [<img src="{{11GHBlankTab-url}}">]({{11GHBlankTab-url}})
+
+¬11Robot-url: ../assets/images/Grasshopper/11Robot.gif
+¬11Robot-image: [<img src="{{11Robot-url}}">]({{11Robot-url}})
+
+¬11RobotSearch-url: ../assets/images/Grasshopper/11RobotSearch.gif
+¬11RobotSearch-image: [<img src="{{11RobotSearch-url}}">]({{11RobotSearch-url}})
+
+¬11RobotViaHelp-url: ../assets/images/Grasshopper/11RobotViaHelp.gif
+¬11RobotViaHelp-image: [<img src="{{11RobotViaHelp-url}}">]({{11RobotViaHelp-url}})
+
+¬11Tool-url: ../assets/images/Grasshopper/11Tool.gif
+¬11Tool-image: [<img src="{{11Tool-url}}">]({{11Tool-url}})
+
+¬11Attach-url: ../assets/images/Grasshopper/11Attach.gif
+¬11Attach-image: [<img src="{{11Attach-url}}">]({{11Attach-url}})
+
+¬11TargetsFromCurve-url: ../assets/images/Grasshopper/11TargetsFromCurve.gif
+¬11TargetsFromCurve-image: [<img src="{{11TargetsFromCurve-url}}">]({{11TargetsFromCurve-url}})
+
+¬11Move-url: ../assets/images/Grasshopper/11Move.gif
+¬11Move-image: [<img src="{{11Move-url}}">]({{11Move-url}})
+
+¬11Controller-url: ../assets/images/Grasshopper/11Controller.gif
+¬11Controller-image: [<img src="{{11Controller-url}}">]({{11Controller-url}})
+
+¬11Simulation-url: ../assets/images/Grasshopper/11Simulation.gif
+¬11Simulation-image: [<img src="{{11Simulation-url}}">]({{11Simulation-url}})
+
+¬12Parameters-url: ../assets/images/Grasshopper/12Parameters.PNG
+¬12Parameters-image: [<img src="{{12Parameters-url}}">]({{12Parameters-url}})
+
+¬12Components-url: ../assets/images/Grasshopper/12Components.PNG
+¬12Components-image: [<img src="{{12Components-url}}">]({{12Components-url}})
+
+¬12CellComponents-url: ../assets/images/Grasshopper/12CellComponents.PNG
+¬12CellComponents-image: [<img src="{{12CellComponents-url}}">]({{12CellComponents-url}})
+
+¬12MotionComponents-url: ../assets/images/Grasshopper/12MotionComponents.PNG
+¬12MotionComponents-image: [<img src="{{12MotionComponents-url}}">]({{12MotionComponents-url}})
+
+¬12ProcedureComponents-url: ../assets/images/Grasshopper/12ProcedureComponents.PNG
+¬12ProcedureComponents-image: [<img src="{{12ProcedureComponents-url}}">]({{12ProcedureComponents-url}})
+
+¬12SimulationComponents-url: ../assets/images/Grasshopper/12SimulationComponents.PNG
+¬12SimulationComponents-image: [<img src="{{12SimulationComponents-url}}">]({{12SimulationComponents-url}})
+
+¬12ControlComponents-url: ../assets/images/Grasshopper/12ControlComponents.PNG
+¬12ControlComponents-image: [<img src="{{12ControlComponents-url}}">]({{12ControlComponents-url}})
+
+¬12UtilitiesComponents-url: ../assets/images/Grasshopper/12UtilitiesComponents.PNG
+¬12UtilitiesComponents-image: [<img src="{{12UtilitiesComponents-url}}">]({{12UtilitiesComponents-url}})
+
+¬12HelpComponents-url: ../assets/images/Grasshopper/12HelpComponents.PNG
+¬12HelpComponents-image: [<img src="{{12HelpComponents-url}}">]({{12HelpComponents-url}})
+
+¬12DocumentationDrop-url: ../assets/images/Grasshopper/12DocumentationDrop.gif
+¬12DocumentationDrop-image: [<img src="{{12DocumentationDrop-url}}">]({{12DocumentationDrop-url}})
+
+¬22Reference-url: ../assets/images/Grasshopper/22Reference.gif
+¬22Reference-image: [<img src="{{22Reference-url}}">]({{22Reference-url}})
+
+¬22TargetsAbsolute-url: ../assets/images/Grasshopper/22TargetsAbsolute.gif
+¬22TargetsAbsolute-image: [<img src="{{22TargetsAbsolute-url}}">]({{22TargetsAbsolute-url}})
+
+¬22TargetsAbsoluteReferenced-url: ../assets/images/Grasshopper/22TargetsAbsoluteReferenced.gif
+¬22TargetsAbsoluteReferenced-image: [<img src="{{22TargetsAbsoluteReferenced-url}}">]({{22TargetsAbsoluteReferenced-url}})
+
+¬22ReferencedTargetsOnRoot-url: ../assets/images/Grasshopper/22ReferencedTargetsOnRoot.gif
+¬22ReferencedTargetsOnRoot-image: [<img src="{{22ReferencedTargetsOnRoot-url}}">]({{22ReferencedTargetsOnRoot-url}})
+
+¬22RelativeReferences-url: ../assets/images/Grasshopper/22RelativeReferences.gif
+¬22RelativeReferences-image: [<img src="{{22RelativeReferences-url}}">]({{22RelativeReferences-url}})
+
+¬23Part-url: ../assets/images/Grasshopper/23Part.gif
+¬23Part-image: [<img src="{{23Part-url}}">]({{23Part-url}})
+
+¬23PartAdvanced-url: ../assets/images/Grasshopper/23PartAdvanced.gif
+¬23PartAdvanced-image: [<img src="{{23PartAdvanced-url}}">]({{23PartAdvanced-url}})
+
+¬23PartRelocate-url: ../assets/images/Grasshopper/23PartRelocate.gif
+¬23PartRelocate-image: [<img src="{{23PartRelocate-url}}">]({{23PartRelocate-url}})
+
+¬23PartAttach-url: ../assets/images/Grasshopper/23PartAttach.gif
+¬23PartAttach-image: [<img src="{{23PartAttach-url}}">]({{23PartAttach-url}})
+
+¬cellAddCADModelComplete-url: ../assets/images/decode/01-Scene/Cell-AddCADModel-Complete.png
+¬cellAddCADModelComplete-image: [<img src="{{cellAddCADModelComplete-url}}">]({{cellAddCADModelComplete-url}})
+
+¬cellAddControllerFromCatalogueMiddle-url: ../assets/images/decode/01-Scene/Cell-AddController-FromCatalogue-Middle.png
+¬cellAddControllerFromCatalogueMiddle-image: [<img src="{{cellAddControllerFromCatalogueMiddle-url}}">]({{cellAddControllerFromCatalogueMiddle-url}})
+
+¬cellAddControllerConfigured-url: ../assets/images/decode/01-Scene/Cell-AddController-Configured.png
+¬cellAddControllerConfigured-image: [<img src="{{cellAddControllerConfigured-url}}">]({{cellAddControllerConfigured-url}})
+
+¬networkCreateSignalTranslationOverrides-url: ../assets/images/decode/02-Network/Network-CreateSignal-TranslationOverrides.png
+¬networkCreateSignalTranslationOverrides-image: [<img src="{{networkCreateSignalTranslationOverrides-url}}">]({{networkCreateSignalTranslationOverrides-url}})
+
+¬programmingComplete01-url: ../assets/images/decode/03-Programming/Programming-Complete-01.png
+¬programmingComplete01-image: [<img src="{{programmingComplete01-url}}">]({{programmingComplete01-url}})
+
+¬programmingWaitTimeComplete-url: ../assets/images/decode/03-Programming/Programming-WaitTime-Complete.png
+¬programmingWaitTimeComplete-image: [<img src="{{programmingWaitTimeComplete-url}}">]({{programmingWaitTimeComplete-url}})
+
+¬programmingMoveTarget-url: ../assets/images/decode/03-Programming/Programming-Move-Target.png
+¬programmingMoveTarget-image: [<img src="{{programmingMoveTarget-url}}">]({{programmingMoveTarget-url}})
+
+¬programmingSetSignalComplete-url: ../assets/images/decode/03-Programming/Programming-SetSignal-Complete.png
+¬programmingSetSignalComplete-image: [<img src="{{programmingSetSignalComplete-url}}">]({{programmingSetSignalComplete-url}})
+
+¬programmingFollowPatternNonPlanarJumps-url: ../assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Jumps.png
+¬programmingFollowPatternNonPlanarJumps-image: [<img src="{{programmingFollowPatternNonPlanarJumps-url}}">]({{programmingFollowPatternNonPlanarJumps-url}})
+
+¬programmingFollowPatternNonPlanarConcentric-url: ../assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Concentric.png
+¬programmingFollowPatternNonPlanarConcentric-image: [<img src="{{programmingFollowPatternNonPlanarConcentric-url}}">]({{programmingFollowPatternNonPlanarConcentric-url}})
+
+¬programmingFollowPatternNonPlanarSelector-url: ../assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Selector.png
+¬programmingFollowPatternNonPlanarSelector-image: [<img src="{{programmingFollowPatternNonPlanarSelector-url}}">]({{programmingFollowPatternNonPlanarSelector-url}})
+
+¬programmingFollowPatterNonPlanarGuide-url: ../assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Guide.png
+¬programmingFollowPatterNonPlanarGuide-image: [<img src="{{programmingFollowPatterNonPlanarGuide-url}}">]({{programmingFollowPatterNonPlanarGuide-url}})
+
+¬programmingFollowPatternNonPlanarTransform-url: ../assets/images/decode/03-Programming/Programming-FollowPattern-NonPlanar-Transform.png
+¬programmingFollowPatternNonPlanarTransform-image: [<img src="{{programmingFollowPatternNonPlanarTransform-url}}">]({{programmingFollowPatternNonPlanarTransform-url}})
+
+¬programmingGroups-url: ../assets/images/decode/03-Programming/Programming-Groups.png
+¬programmingGroups-image: [<img src="{{programmingGroups-url}}">]({{programmingGroups-url}})
+
+¬programmingSubProceduresComplete-url: ../assets/images/decode/03-Programming/Programming-SubProcedures-Complete.png
+¬programmingSubProceduresComplete-image: [<img src="{{programmingSubProceduresComplete-url}}">]({{programmingSubProceduresComplete-url}})
+
+¬programmingCallProcedure-url: ../assets/images/decode/03-Programming/Programming-CallProcedure.png
+¬programmingCallProcedure-image: [<img src="{{programmingCallProcedure-url}}">]({{programmingCallProcedure-url}})
+
+¬workflowEditorComplete-url: ../assets/images/decode/04-WorkflowEditor/WorkflowEditor-Complete.png
+¬workflowEditorComplete-image: [<img src="{{workflowEditorComplete-url}}">]({{workflowEditorComplete-url}})
+
+¬workflowEditorOperatorInput-url: ../assets/images/decode/04-WorkflowEditor/WorkflowEditor-OperatorInput.png
+¬workflowEditorOperatorInput-image: [<img src="{{workflowEditorOperatorInput-url}}">]({{workflowEditorOperatorInput-url}})
+
+¬workflowExecutorOperatorInput-url: ../assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-OperatorInput.png
+¬workflowExecutorOperatorInput-image: [<img src="{{workflowExecutorOperatorInput-url}}">]({{workflowExecutorOperatorInput-url}})
+
+¬14DocumentationSearch-url: ../assets/images/Grasshopper/14DocumentationSearch.gif
+¬14DocumentationSearch-image: [<img src="{{14DocumentationSearch-url}}">]({{14DocumentationSearch-url}})
+
+¬14DocumentationLibraries-url: ../assets/images/Grasshopper/14DocumentationLibraries.gif
+¬14DocumentationLibraries-image: [<img src="{{14DocumentationLibraries-url}}">]({{14DocumentationLibraries-url}})
+
+¬programmingSolvedTimelineMiddle-url: ../assets/images/decode/03-Programming/Programming-Solved-Timeline-Middle.png
+¬programmingSolvedTimelineMiddle-image: [<img src="{{programmingSolvedTimelineMiddle-url}}">]({{programmingSolvedTimelineMiddle-url}})
+
+¬workflowEditorCreate-url: ../assets/images/decode/04-WorkflowEditor/WorkflowEditor-Create.gif
+¬workflowEditorCreate-image: [<img src="{{workflowEditorCreate-url}}">]({{workflowEditorCreate-url}})
+
+¬workflowExecutorSimulationFastExecution-url: ../assets/images/decode/05-WorkflowExecutor/WorkflowExecutor-Simulation-FastExecution.gif
+¬workflowExecutorSimulationFastExecution-image: [<img src="{{workflowExecutorSimulationFastExecution-url}}">]({{workflowExecutorSimulationFastExecution-url}})
+
+¬signalsAliasOverride-url: ../assets/images/decode/02-Network/Signals-AliasOverride.png
+¬signalsAliasOverride-image: [<img src="{{signalsAliasOverride-url}}">]({{signalsAliasOverride-url}})
+
+¬13Components-url: ../assets/images/Grasshopper/13Components.PNG
+¬13Components-image: [<img src="{{13Components-url}}">]({{13Components-url}})
+
+¬21Robot-url: ../assets/images/Grasshopper/21Robot.gif
+¬21Robot-image: [<img src="{{21Robot-url}}">]({{21Robot-url}})

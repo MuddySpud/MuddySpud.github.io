@@ -1,0 +1,9 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.3. Set a Signal
+
+#### Objective:
+
+In this tutorial we'll change the state of a {{gl.signal-link}} at runtime in _decode_.
+

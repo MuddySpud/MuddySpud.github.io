@@ -1,0 +1,39 @@
+{
+    "key": "s7SMHS2aq",
+    "token": "Loop3",
+    "name": "Loop3",
+    "created": "2025-04-21T18:03:17.622Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/HAL.Documentation/tsmapsTest/TEST/Ξ Loop3/Loop3.tsmap",
+    "iText": "Link to 'Loop3'",
+    "___rΩΩt___": {
+        "key": "s7SMHS2Yz",
+        "nodes": [
+            {
+                "key": "s7SMHS0vP",
+                "order": 1,
+                "option": "Loop3-step-1.1",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMHS2Yz",
+            "relativePath": "./δ steps/δ-g2Oe6X01w0.tsstp"
+        },
+        {
+            "key": "δ-s7SMHS0vP",
+            "relativePath": "./δ steps/δ-g2OoQu02RL.tsstp"
+        },
+        {
+            "key": "δ-g2OoQu02RL",
+            "relativePath": "./δ steps/δ-g2OoQu02RL.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "hQgSnh02YE",
+        "editorID": "car_9107d388de5d404a9bb77dcccd2dc764",
+        "ticks": 1746533617001
+    }
+}

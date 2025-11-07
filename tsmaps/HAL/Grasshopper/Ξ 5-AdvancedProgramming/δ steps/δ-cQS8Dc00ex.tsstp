@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+
+
+### 5.1. Wait for a Time
+
+#### Objective:
+
+In this tutorial we'll create a {{gl.wait-action-a-link}} that pauses {{gl.manipulator-link}} execution for a fixed period of time using the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}} Wait for a Time.gh]{{gel.waitTime-gh-link-D}}{: .icon-link}
+

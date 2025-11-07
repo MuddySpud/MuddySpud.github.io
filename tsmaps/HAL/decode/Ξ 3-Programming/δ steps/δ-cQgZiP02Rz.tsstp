@@ -1,0 +1,5 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import dl from "../../../_shared/decodeLinks"
+
+
+- A {{gl.signal-link}} in your **Network**. If you don't have one, see the {{dl.decode-create-signal-link}} tutorial for more information.

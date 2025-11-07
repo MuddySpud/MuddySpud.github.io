@@ -1,0 +1,15 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ml from "../../../_shared/manufacturerLinks"
+
+
+#### How to:
+
+To prepare to [upload]{{gl.upload-link-D}} we must do through the same process as [exporting]{{gl.export-link-D}}, so if you haven't been through [that tutorial above](#62-export-a-procedure) yet please do that before returning here.
+
+The configuration of your {{gl.controller-link}} will be different depending on the manufacturer so please check the {{ml.manufacturer-documentation-link}} to see how to configure your _Upload_ and _File Manager_ [subsystems]{{gl.subsystems-link-D}}.
+
+Now that our {{gl.controller-link}} is configured and we are happy with the way our code is [Exporting]{{gl.export-link-D}}, we can place the {{gl.upload-link}} component from the **HAL Robotics** tab, **Control** panel. We can hook up our {{gl.controller-link}} and **Solution**, exactly as we did with [Export]{{gl.export-link-D}}. You will also find _Mode_ which was discussed in [Export]{{gl.export-link-D}}. `Inline` mode will create a dense code file with as little declarative code as possible. `Predeclaration` mode will do just the opposite, it will create variables wherever possible to make it easier to change things by hand should you want to. For most scenarios we recommend `Inline` as it produces shorter code and is faster. When we run the component by toggling _Upload_ to `true` this will generate our code and copy it to the robot.
+
+The _AutoRun_ property will attempt to run the {{gl.procedure-link}} as soon sa it's been [Uploaded]{{gl.upload-link-D}} so use it with **extreme caution**. This is not available on all supported robots so please check the {{ml.manufacturer-documentation-link}} to see if it's available on your {{gl.manipulator-link}} and whether there are any restrictions on when it can be used.
+
+---

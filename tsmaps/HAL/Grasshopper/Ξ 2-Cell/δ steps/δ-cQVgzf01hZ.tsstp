@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+[Tools]{{gl.end-effector-link-D}} and {{gl.references-link}} can be digitally modelled with some degree of accuracy but installation and manufacturing tolerances mean that the most accurate data will always come from a calibrated {{gl.manipulator-link}} {{gl.controller-link}}.
+

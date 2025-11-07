@@ -1,0 +1,7 @@
+¬import ghl from "../../_shared/grasshopperLinks"
+
+
+1. Ensure your controller is configured to communicate with your controller. See [Controller Options](#1-controller-options) and {{ghl.grasshopper-configure-virtual-controller-link}} for more details about what your options are.
+2. Follow the instructions in {{ghl.grasshopper-upload-procedure-t-link}}.
+3. That's all!
+

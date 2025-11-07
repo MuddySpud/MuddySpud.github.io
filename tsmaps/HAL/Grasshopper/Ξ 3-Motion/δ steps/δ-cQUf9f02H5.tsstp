@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+Mounting a {{gl.manipulator-link}} on a **Track**, or linear axis {{gl.positioner-link}}, can massively open up the usable space in a {{gl.cell-link}}. However, programming one {{gl.mechanism-link}} whilst it's mounted on another can introduce a few complexities.
+

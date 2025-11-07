@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+¬import ghl from "../../../_shared/grasshopperLinks"
+
+
+- Basic modelling skills in Rhinoceros 3D and Vector/Plane manipulation skills in Grasshopper will greatly help preparing your own {{gl.end-effector-link}} model.
+- Reading or watching the {{ghl.grasshopper-create-part-t-link}} tutorial is highly recommended.
+- Reading or watching the {{ghl.grasshopper-create-tool-t-link}} tutorial is highly recommended.
+

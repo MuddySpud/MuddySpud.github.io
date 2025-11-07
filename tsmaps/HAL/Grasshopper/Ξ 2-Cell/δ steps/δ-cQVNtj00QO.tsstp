@@ -1,0 +1,8 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Next:
+
+Take a look at the [tutorial](#26-create-a-multi-part-tool) on creating multi-{{gl.part-link}} [Tools]{{gl.end-effector-link-D}} and the creating your own {{gl.positioner-link}} [tutorial](#27-create-a-positioner) to learn how to use {{gl.parts-link}} in other ways.
+
+---

@@ -1,0 +1,15 @@
+¬import il from "../../../_shared/imageLinks"
+¬import gel from "../../../_shared/grasshopperExampleLinks"
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+### 3.5. Synchronize Motion
+
+#### Objective:
+
+In this tutorial we'll see how to synchronize the motion of multiple {{gl.mechanisms-link}} using the HAL Robotics Framework for Grasshopper.
+
+#### Demo Files:
+
+> [{{il.ghFile16-img}} Synchronize Motion.gh]{{gel.synchronizeMotion-gh-link-D}}{: .icon-link}
+

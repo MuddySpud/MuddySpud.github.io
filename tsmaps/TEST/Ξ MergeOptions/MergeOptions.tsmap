@@ -1,0 +1,34 @@
+{
+    "key": "s7SMQr1dT",
+    "token": "Mergeoptions",
+    "name": "MergeOptions",
+    "created": "2025-08-15T14:47:53.313Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MergeOptions/MergeOptions.tsmap",
+    "iText": "Link to 'MergeOptions'",
+    "___rΩΩt___": {
+        "key": "s7SMQr1h9",
+        "nodes": [
+            {
+                "key": "s7SMQr00x",
+                "order": 1,
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMQr1h9",
+            "relativePath": "./δ steps/δ-qxsQlV00Hh.tsstp"
+        },
+        {
+            "key": "δ-s7SMQr00x",
+            "relativePath": "./δ steps/δ-qxvMup01bO.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "r5qCMW01fe",
+        "editorID": "car_17b9d6663de1438492e062bc111e9ef9",
+        "ticks": 1755386962356
+    }
+}

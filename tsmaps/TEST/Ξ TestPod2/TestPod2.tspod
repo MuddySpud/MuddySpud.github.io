@@ -1,0 +1,30 @@
+{
+    "key": "xmGNfQ00jG  ",
+    "token": "Testpod2",
+    "name": "TestPod2",
+    "created": "2025-10-26T20:30:05.444Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestPod2/TestPod2.tspod",
+    "isPod": true,
+    "iText": "Link to 'TestPod2'",
+    "___rΩΩt___": {
+        "key": "xmGQPF004z",
+        "nodes": [
+            {
+                "key": "xmGSn300Q1",
+                "order": 1
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-xmGQPF004z",
+            "relativePath": "./δ steps/δ-xmGQPF004z.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "xmGUIp01IH",
+        "editorID": "car_17b4bbc080654eb9b5f7bd6a10218086",
+        "ticks": 1761510630951
+    }
+}

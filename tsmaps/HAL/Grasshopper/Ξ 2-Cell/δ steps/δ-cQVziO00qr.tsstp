@@ -1,0 +1,7 @@
+¬import gl from "../../../_shared/glossaryLinks"
+
+
+#### Background:
+
+{{gl.positioners-link}} can greatly extend the capabilities of your {{gl.cell-link}} by moving your {{gl.manipulator-link}} or {{gl.part-link}} to facilitate access for processing. We provide a number of preset {{gl.positioners-link}}, however, {{gl.positioners-link}} are highly customizable and it's even possible build your own so it may be necessary to model your exact configuration for use in the HAL Robotics Framework.
+
