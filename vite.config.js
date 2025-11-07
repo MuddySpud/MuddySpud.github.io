@@ -6,7 +6,6 @@
 import { defineConfig } from 'vite';
 import mkcert from 'vite-plugin-mkcert';
 import path from 'path';
-// import { visualizer } from "rollup-plugin-visualizer";
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 

@@ -17,5 +17,5 @@ dist/
 pub/
 .bin/
 
-/.jekyll-cache/
-/docs/.jekyll-cache/
+.jekyll-cache/
+
