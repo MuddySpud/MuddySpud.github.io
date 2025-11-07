@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/WatercressHydroPepp
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGzRk1qh","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/WatercressHydroPepper_frags"},"fragment":{"id":"ygGzRk1qh","topLevelMapKey":"yGAKEZ020S","mapKeyChain":"yGAKEZ020S","guideID":"ygGzRk06b","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/WatercressHydroPepper.tspod","chartKey":"yGAKEZ020S","isLeaf":false,"options":[{"id":"ygGzRw0RS","option":"Hydro-Pepper - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUahC0cm","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/WatercressHydroPepper_frags"},"fragment":{"id":"yoUahC0cm","topLevelMapKey":"yGAKEZ020S","mapKeyChain":"yGAKEZ020S","guideID":"yoUahC2VV","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/WatercressHydroPepper.tspod","chartKey":"yGAKEZ020S","isLeaf":false,"options":[{"id":"yoUahK2Ub","option":"Hydro-Pepper - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Watercress ‘Hydro-Pepper’
 

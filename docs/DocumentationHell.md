@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGwx41Bz","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"ygGwx41Bz","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"ygGwx40n3","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"ygGwya0Vw","option":"Explore a Docs Assembler solution ","order":1},{"id":"ygGwyn1e5","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUXmd1f3","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"yoUXmd1f3","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"yoUXmd1cX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"yoUXoI1Qp","option":"Explore a Docs Assembler solution ","order":1},{"id":"yoUXoX21F","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
@@ -18,13 +18,13 @@ fragsFolderPath: DocumentationHell_frags
 ###### [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler):
 {: .nt-fr-ul-header}
 
-- is a specialised text editor for building and managing complex documentation.
-- is useful for adapting a core set of instructions to real-world scenarios without duplicating text.
-- creates a single, authoritative system where your organisation's entire knowledge base is interconnected and always consistent.
+- Is a specialised text editor for building and managing complex documentation.
+- Eliminates documentation redundancy by adapting core instructions to real-world scenarios without duplicating text.
+- Creates a single, authoritative system where your organisation's entire knowledge base is interconnected and always consistent.
 
 It allows you to capture complex thinking and simplify intricate systems into a single source of truth. The result is a dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving critical situations - all grounded in your organisation's verifiable knowledge. These paths can be used directly or referenced by AI Agents to improve customer support.
 
-This entire website is a live example. The 'Vertical Kitchen Garden Planner' demo below shows the kind of detailed pathways you can build using [Docs Assembler's](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) text files.
+This entire website is a live example, a dynamic guide built using [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler), with the 'Vertical Kitchen Garden Planner' demo below showcasing the intricate, adaptive pathways you can create with [Docs Assembler's](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) text files
 
 ### The Problem with Traditional Manuals
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStrea
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH1by0g0","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream_frags"},"fragment":{"id":"ygH1by0g0","topLevelMapKey":"yUggLn00wA","mapKeyChain":"yUggLn00wA","guideID":"ygH1by13f","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream.tspod","chartKey":"yUggLn00wA","isLeaf":false,"options":[{"id":"ygH1cD1yu","option":"CoolStream - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUdD02an","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream_frags"},"fragment":{"id":"yoUdD02an","topLevelMapKey":"yUggLn00wA","mapKeyChain":"yUggLn00wA","guideID":"yoUdD00d4","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream.tspod","chartKey":"yUggLn00wA","isLeaf":false,"options":[{"id":"yoUdDF1ZZ","option":"CoolStream - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Rainbow Trout ‘CoolStream’
 

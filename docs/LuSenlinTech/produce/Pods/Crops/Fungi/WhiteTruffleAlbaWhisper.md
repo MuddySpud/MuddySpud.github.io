@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH2g81WN","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper_frags"},"fragment":{"id":"ygH2g81WN","topLevelMapKey":"yV6MCl00Tk","mapKeyChain":"yV6MCl00Tk","guideID":"ygH2g802D","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper.tspod","chartKey":"yV6MCl00Tk","isLeaf":false,"options":[{"id":"ygH2gL2NU","option":"Alba Whisper - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUeOw0Ds","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper_frags"},"fragment":{"id":"yoUeOw0Ds","topLevelMapKey":"yV6MCl00Tk","mapKeyChain":"yV6MCl00Tk","guideID":"yoUeOw0sh","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/WhiteTruffleAlbaWhisper.tspod","chartKey":"yV6MCl00Tk","isLeaf":false,"options":[{"id":"yoUePC2Vk","option":"Alba Whisper - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### White Truffle ‘Alba Whisper’
 

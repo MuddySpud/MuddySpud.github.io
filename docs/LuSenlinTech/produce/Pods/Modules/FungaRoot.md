@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FungaRoot_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGyiU2St","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FungaRoot_frags"},"fragment":{"id":"ygGyiU2St","topLevelMapKey":"wkMzSw001H","mapKeyChain":"wkMzSw001H","guideID":"ygGyiU1fI","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FungaRoot.tspod","chartKey":"wkMzSw001H","isLeaf":false,"options":[{"id":"ygGyic039","option":"FungaRoot - a deeper look","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUZos0JA","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FungaRoot_frags"},"fragment":{"id":"yoUZos0JA","topLevelMapKey":"wkMzSw001H","mapKeyChain":"wkMzSw001H","guideID":"yoUZos17O","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FungaRoot.tspod","chartKey":"wkMzSw001H","isLeaf":false,"options":[{"id":"yoUZoz1mZ","option":"FungaRoot - a deeper look","order":1,"isAncillary":true}]}} -->
 
 | FungaRoot | Split cassette couples root crops with truffle mycorrhiza. Precision pH and moisture coax simultaneous vegetables and mini truffles. | Roots & stems - Finger Carrot, Baby Beet, Tokyo Turnip, Baby Kohlrabi |
 {: .nt-fr-columns}

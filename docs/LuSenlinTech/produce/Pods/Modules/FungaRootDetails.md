@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FungaRootDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH2lD2YR","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FungaRootDetails_frags"},"fragment":{"id":"ygH2lD2YR","topLevelMapKey":"y1FGAu02CF","mapKeyChain":"y1FGAu02CF","guideID":"ygH2lD29n","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FungaRootDetails.tspod","chartKey":"y1FGAu02CF","isLeaf":false,"options":[{"id":"ygH2lS1mY","option":"How it works","order":1,"isAncillary":true},{"id":"ygH2mV2Q6","option":"The science behind it","order":2,"isAncillary":true},{"id":"ygH2mv040","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUeT329g","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FungaRootDetails_frags"},"fragment":{"id":"yoUeT329g","topLevelMapKey":"y1FGAu02CF","mapKeyChain":"y1FGAu02CF","guideID":"yoUeT31VR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FungaRootDetails.tspod","chartKey":"y1FGAu02CF","isLeaf":false,"options":[{"id":"yoUeTI1Xh","option":"How it works","order":1,"isAncillary":true},{"id":"yoUeTY12G","option":"The science behind it","order":2,"isAncillary":true},{"id":"yoUeTu0GM","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 
 #### Truffle-Inoculated Root Vegetables

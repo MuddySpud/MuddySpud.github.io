@@ -3,7 +3,7 @@
 ¬halRobotics_link: [HAL Robotics]({{halRobtics_url}})
 
 ¬luSenLinName: Lǜ Sēnlín
-¬luSenLinNameTech: {{¬luSenLinName}} Technologies
+¬luSenLinNameTech: {{luSenLinName}} Technologies
 ¬docsAssemblerName: Docs Assembler
 ¬docsAssemblerExtension_url: https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler
 ¬docsAssemblerExtension_link: [{{docsAssemblerName}}]({{docsAssemblerExtension_url}})

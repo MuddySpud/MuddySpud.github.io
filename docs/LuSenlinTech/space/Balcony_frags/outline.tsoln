@@ -1,138 +1,36 @@
 {
     "v": "1",
     "r": {
-        "i": "ygGx8j1iN",
-        "n": "s7LPkv17x",
+        "i": "yoUXyl2S2",
+        "n": "yhJqMu02OH",
         "c": 0,
         "o": [
             {
-                "i": "ygGx8v0hl",
-                "n": "s7LPkv0T6",
-                "x": "s7LPr60ZH",
-                "c": 1,
-                "o": [
-                    {
-                        "i": "ygGx971rf",
-                        "n": "s7LPkv1Np",
-                        "x": "s7LPoO19j",
-                        "c": 2,
-                        "o": [
-                            {
-                                "i": "ygGx9C1VG",
-                                "n": "s7LPkv0FM",
-                                "x": "s7SMOZ0VN",
-                                "c": 3,
-                                "o": [
-                                    {
-                                        "i": "ygGx9C1Sl",
-                                        "n": "s7LPkv1H7",
-                                        "x": "s7SMXt1dV",
-                                        "c": 4
-                                    },
-                                    {
-                                        "i": "ygGx9O1wi",
-                                        "n": "s7LPkv2U6",
-                                        "x": "s7SMXt0Xu",
-                                        "c": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "i": "ygGx9m2Ih",
-                        "n": "s7LPkv1Ye",
-                        "x": "s7LPoO04R",
-                        "o": [
-                            {
-                                "i": "ygGx9q1oP",
-                                "n": "uXAz8Y01gX",
-                                "c": 2,
-                                "o": [
-                                    {
-                                        "i": "ygGx9q0J7",
-                                        "n": "xCdPrg00BZ",
-                                        "x": "s7SMOZ0VN",
-                                        "c": 3,
-                                        "o": [
-                                            {
-                                                "i": "ygGx9q0X6",
-                                                "n": "xCdSxK004c",
-                                                "x": "s7SMXt1dV",
-                                                "c": 4
-                                            },
-                                            {
-                                                "i": "ygGx9z253",
-                                                "n": "xCdSxK026w",
-                                                "x": "s7SMXt0Xu",
-                                                "c": 4
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "i": "ygGxAe0Yw",
-                        "n": "s7LPkv2b0",
-                        "x": "s7LPoO2Y3",
-                        "c": 5,
-                        "o": [
-                            {
-                                "i": "ygGxAj1x5",
-                                "n": "uXjObW00cy",
-                                "x": "uXcsWB01pQ",
-                                "c": 3,
-                                "o": [
-                                    {
-                                        "i": "ygGxAj0xK",
-                                        "n": "uXjU7W01F7",
-                                        "x": "s7SMXt1dV",
-                                        "c": 4
-                                    },
-                                    {
-                                        "i": "ygGxAs1hN",
-                                        "n": "uXjU7W019Z",
-                                        "x": "s7SMXt0Xu",
-                                        "c": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "i": "yoUXys0fO",
+                "n": "s7LPkv17x",
+                "x": "s7SMXt1dV",
+                "c": 1
+            },
+            {
+                "i": "yoUXz41hw",
+                "n": "s7LPkv17x1",
+                "x": "s7SMXt0Xu",
+                "c": 1
             }
         ]
     },
     "c": [
         {
-            "i": "s7LPr60IG",
-            "p": "LuSenlinTech/climate/Climate_frags"
-        },
-        {
-            "i": "s7LPoO1sh",
-            "p": "LuSenlinTech/preferences/ClientEffort_frags"
-        },
-        {
-            "i": "s7SMOZ0AN",
-            "p": "LuSenlinTech/equipment/FrameTower_frags"
-        },
-        {
             "i": "s7SMXt0ol",
             "p": "LuSenlinTech/equipment/Power_frags"
         },
         {
-            "i": "yd9vwR005i",
-            "p": "Technical/Conclusion_frags"
-        },
-        {
-            "i": "uXEN9G00lv",
-            "p": "LuSenlinTech/equipment/CustomFrameTower_frags"
+            "i": "yjFhSI02KP",
+            "p": "LuSenlinTech/preferences/Customisation_frags"
         }
     ],
     "e": 0,
     "mv": {
-        "spaceDisplayText": "patio  or balcony"
+        "spaceDisplayText": "on your patio  or balcony"
     }
 }

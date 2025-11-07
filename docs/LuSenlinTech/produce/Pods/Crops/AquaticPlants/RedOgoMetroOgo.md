@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedOgoMetroOgo_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH0uj2Qy","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedOgoMetroOgo_frags"},"fragment":{"id":"ygH0uj2Qy","topLevelMapKey":"y4k9Gz00gu","mapKeyChain":"y4k9Gz00gu","guideID":"ygH0uj1b5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedOgoMetroOgo.tspod","chartKey":"y4k9Gz00gu","isLeaf":false,"options":[{"id":"ygH0ux0iF","option":"Metro-Ogo - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUcPO281","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedOgoMetroOgo_frags"},"fragment":{"id":"yoUcPO281","topLevelMapKey":"y4k9Gz00gu","mapKeyChain":"y4k9Gz00gu","guideID":"yoUcPO1LT","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedOgoMetroOgo.tspod","chartKey":"y4k9Gz00gu","isLeaf":false,"options":[{"id":"yoUcPW2K4","option":"Metro-Ogo - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red Ogo ‘Metro-Ogo’ *(Gracilaria cultivar for salads & poke)*
 

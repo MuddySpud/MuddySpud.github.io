@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH0I62Nh","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"ygH0I62Nh","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"ygH0I60as","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue.tspod","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"ygH0IK0Gb","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUbfJ1mr","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"yoUbfJ1mr","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"yoUbfJ0g5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue.tspod","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"yoUbfY04G","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Borage ‘Sky-Blue’
 

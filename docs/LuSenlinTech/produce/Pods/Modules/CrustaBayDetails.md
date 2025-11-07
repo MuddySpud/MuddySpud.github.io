@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/CrustaBayDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGyf61MH","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/CrustaBayDetails_frags"},"fragment":{"id":"ygGyf61MH","topLevelMapKey":"xrUw0s01Ez","mapKeyChain":"xrUw0s01Ez","guideID":"ygGyf60eg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/CrustaBayDetails.tspod","chartKey":"xrUw0s01Ez","isLeaf":false,"options":[{"id":"ygGyfJ0nK","option":"How it works","order":1,"isAncillary":true},{"id":"ygGyfg1Hn","option":"The science behind it","order":2,"isAncillary":true},{"id":"ygGyg02NN","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUZkp0Uu","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/CrustaBayDetails_frags"},"fragment":{"id":"yoUZkp0Uu","topLevelMapKey":"xrUw0s01Ez","mapKeyChain":"xrUw0s01Ez","guideID":"yoUZkp1Kb","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/CrustaBayDetails.tspod","chartKey":"xrUw0s01Ez","isLeaf":false,"options":[{"id":"yoUZl71rR","option":"How it works","order":1,"isAncillary":true},{"id":"yoUZla1TI","option":"The science behind it","order":2,"isAncillary":true},{"id":"yoUZmJ1SB","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Biofloc Crustacean Nursery
 

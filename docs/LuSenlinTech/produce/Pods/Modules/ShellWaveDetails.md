@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/ShellWaveDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGygb0eZ","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/ShellWaveDetails_frags"},"fragment":{"id":"ygGygb0eZ","topLevelMapKey":"xsc3Da02G6","mapKeyChain":"xsc3Da02G6","guideID":"ygGygb2P9","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/ShellWaveDetails.tspod","chartKey":"xsc3Da02G6","isLeaf":false,"options":[{"id":"ygGygn0IB","option":"How it works","order":1,"isAncillary":true},{"id":"ygGyh81cj","option":"The science behind it","order":2,"isAncillary":true},{"id":"ygGyhT0oB","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUZn92Hb","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/ShellWaveDetails_frags"},"fragment":{"id":"yoUZn92Hb","topLevelMapKey":"xsc3Da02G6","mapKeyChain":"xsc3Da02G6","guideID":"yoUZn91KE","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/ShellWaveDetails.tspod","chartKey":"xsc3Da02G6","isLeaf":false,"options":[{"id":"yoUZnG1Gg","option":"How it works","order":1,"isAncillary":true},{"id":"yoUZng1Hv","option":"The science behind it","order":2,"isAncillary":true},{"id":"yoUZo51jB","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Pristine Bivalve Habitat
 

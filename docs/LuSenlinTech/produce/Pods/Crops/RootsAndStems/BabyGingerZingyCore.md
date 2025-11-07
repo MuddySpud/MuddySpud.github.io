@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCo
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH02a2Zv","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore_frags"},"fragment":{"id":"ygH02a2Zv","topLevelMapKey":"yKWya700Ch","mapKeyChain":"yKWya700Ch","guideID":"ygH02a0tp","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore.tspod","chartKey":"yKWya700Ch","isLeaf":false,"options":[{"id":"ygH02q05e","option":"Zingy Core - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUbOd0un","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore_frags"},"fragment":{"id":"yoUbOd0un","topLevelMapKey":"yKWya700Ch","mapKeyChain":"yKWya700Ch","guideID":"yoUbOd1Vy","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore.tspod","chartKey":"yKWya700Ch","isLeaf":false,"options":[{"id":"yoUbOu2Jq","option":"Zingy Core - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Ginger ‘Zingy Core’
 

@@ -1,4 +1,6 @@
 
+************* Before a release to live delete git *******************
+
 ## Publish to DocsAssemblerDemo
 
 Publish C:\GitHub\MuddySpud\MuddySpud.github.io\tsmaps\Ξ DocumentationHell\DocumentationHell.tsmap
@@ -74,3 +76,4 @@ Then need to script out a rough path and ask Deepseek to critique it. What text 
 Ask DS to script out text to say that the field needs special treatment and to give us a call - ask deepseek what it thinks...
 Need a technical summary for the techncal path.
 
+### Need to get a version out now

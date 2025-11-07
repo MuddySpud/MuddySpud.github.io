@@ -19,47 +19,46 @@
         }
     ],
     "___rΩΩt___": {
-        "key": "s7SMXt0LX",
-        "variable": "powerSupply",
+        "key": "ynPsZg01rD",
         "nodes": [
             {
-                "key": "s7SMXt1Q2",
+                "key": "s7SMXt0LX",
                 "order": 1,
-                "option": "Yes",
-                "exitKey": "s7SMXt1dV"
-            },
-            {
-                "key": "s7SMXt10X",
-                "order": 2,
-                "option": "No",
+                "variable": "powerSupply",
                 "nodes": [
                     {
-                        "key": "s7SMXt1yC",
+                        "key": "s7SMXt1Q2",
                         "order": 1,
-                        "option": "SolisCell™",
-                        "isLeaf": true,
-                        "isAncillary": true
+                        "option": "Yes",
+                        "exitKey": "s7SMXt1dV"
                     },
                     {
-                        "key": "s7SMXt1VA",
+                        "key": "s7SMXt10X",
                         "order": 2,
+                        "option": "No",
                         "nodes": [
                             {
-                                "key": "s7SMXt1DT",
+                                "key": "s7SMXt1VA",
                                 "order": 1,
-                                "option": "No power supply ",
-                                "exitKey": "s7SMXt0Xu"
-                            },
-                            {
-                                "key": "uTkkaA01M7",
-                                "order": 2,
                                 "option": "HotCarrier™",
                                 "isLeaf": true,
                                 "isAncillary": true
+                            },
+                            {
+                                "key": "yjV8nZ02VP",
+                                "order": 2,
+                                "exitKey": "s7SMXt0Xu"
                             }
                         ]
                     }
                 ]
+            },
+            {
+                "key": "ynQ5oQ00r4",
+                "order": 2,
+                "option": "SolisCell™",
+                "isLeaf": true,
+                "isAncillary": true
             }
         ]
     },
@@ -73,21 +72,21 @@
             "relativePath": "./δ steps/δ-rp5jwF00iO.tsstp"
         },
         {
-            "key": "δ-s7SMXt1yC",
-            "relativePath": "./δ steps/δ-rpatdV01Z4.tsstp"
-        },
-        {
             "key": "δ-s7SMXt1VA",
             "relativePath": "./δ steps/δ-rpmUDR01oz.tsstp"
         },
         {
-            "key": "δ-uTkkaA01M7",
-            "relativePath": "./δ steps/δ-uTkkaA01M7.tsstp"
+            "key": "δ-ynPsZg01rD",
+            "relativePath": "./δ steps/δ-ynPsZg01rD.tsstp"
+        },
+        {
+            "key": "δ-ynQ5oQ00r4",
+            "relativePath": "./δ steps/δ-ynQ5oQ00r4.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "uUIUCP00Iv",
-        "editorID": "car_dc09bb5e60dd43c0bd62794761dbbded",
-        "ticks": 1758496734665
+        "id": "ynQFhd01po",
+        "editorID": "car_da9b7a92b19249bf887b54cbe776ec97",
+        "ticks": 1762443867277
     }
 }

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/RootVaultDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGypt1Z8","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/RootVaultDetails_frags"},"fragment":{"id":"ygGypt1Z8","topLevelMapKey":"xsb4l200p2","mapKeyChain":"xsb4l200p2","guideID":"ygGypt1LJ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/RootVaultDetails.tspod","chartKey":"xsb4l200p2","isLeaf":false,"options":[{"id":"ygGyq50xs","option":"How it works","order":1,"isAncillary":true},{"id":"ygGyqT1Wp","option":"The science behind it","order":2,"isAncillary":true},{"id":"ygGyqm1cJ","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUZxQ2Yf","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/RootVaultDetails_frags"},"fragment":{"id":"yoUZxQ2Yf","topLevelMapKey":"xsb4l200p2","mapKeyChain":"xsb4l200p2","guideID":"yoUZxQ15m","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/RootVaultDetails.tspod","chartKey":"xsb4l200p2","isLeaf":false,"options":[{"id":"yoUZxh1H2","option":"How it works","order":1,"isAncillary":true},{"id":"yoUZyG2Wn","option":"The science behind it","order":2,"isAncillary":true},{"id":"yoUZyq1As","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Gradient-Formed Root System
 

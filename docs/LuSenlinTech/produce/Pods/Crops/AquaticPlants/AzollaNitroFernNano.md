@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH0fj0lf","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano_frags"},"fragment":{"id":"ygH0fj0lf","topLevelMapKey":"y4a2qP01yM","mapKeyChain":"y4a2qP01yM","guideID":"ygH0fj29i","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano.tspod","chartKey":"y4a2qP01yM","isLeaf":false,"options":[{"id":"ygH0fu00u","option":"Azolla - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUc8W1jl","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano_frags"},"fragment":{"id":"yoUc8W1jl","topLevelMapKey":"y4a2qP01yM","mapKeyChain":"y4a2qP01yM","guideID":"yoUc8W0hr","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano.tspod","chartKey":"y4a2qP01yM","isLeaf":false,"options":[{"id":"yoUc8l2R6","option":"Azolla - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Azolla ‘Nitro-Fern Nano’ *(floating N-fixing fern)*
 

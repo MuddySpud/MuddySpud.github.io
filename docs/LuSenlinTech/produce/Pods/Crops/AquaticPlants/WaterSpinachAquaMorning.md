@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/WaterSpinachAquaM
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH0r51qJ","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/WaterSpinachAquaMorning_frags"},"fragment":{"id":"ygH0r51qJ","topLevelMapKey":"y4i33301WZ","mapKeyChain":"y4i33301WZ","guideID":"ygH0r528C","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/WaterSpinachAquaMorning.tspod","chartKey":"y4i33301WZ","isLeaf":false,"options":[{"id":"ygH0rJ0vy","option":"Aqua-Morning - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUcLK28a","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/WaterSpinachAquaMorning_frags"},"fragment":{"id":"yoUcLK28a","topLevelMapKey":"y4i33301WZ","mapKeyChain":"y4i33301WZ","guideID":"yoUcLK1k0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/WaterSpinachAquaMorning.tspod","chartKey":"y4i33301WZ","isLeaf":false,"options":[{"id":"yoUcLZ159","option":"Aqua-Morning - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Water Spinach ‘Aqua-Morning’ *(compact kangkong for hydro loops)*
 

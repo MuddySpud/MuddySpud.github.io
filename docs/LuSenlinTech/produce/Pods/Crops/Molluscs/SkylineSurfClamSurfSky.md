@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH2F61Ww","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky_frags"},"fragment":{"id":"ygH2F61Ww","topLevelMapKey":"yUxFyX01LG","mapKeyChain":"yUxFyX01LG","guideID":"ygH2F61Ws","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky.tspod","chartKey":"yUxFyX01LG","isLeaf":false,"options":[{"id":"ygH2FK2Vt","option":"Surf-Sky - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUdxB1N4","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky_frags"},"fragment":{"id":"yoUdxB1N4","topLevelMapKey":"yUxFyX01LG","mapKeyChain":"yUxFyX01LG","guideID":"yoUdxB1sS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky.tspod","chartKey":"yUxFyX01LG","isLeaf":false,"options":[{"id":"yoUdxe0ey","option":"Surf-Sky - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Skyline Surf Clam ‘Surf-Sky’
 

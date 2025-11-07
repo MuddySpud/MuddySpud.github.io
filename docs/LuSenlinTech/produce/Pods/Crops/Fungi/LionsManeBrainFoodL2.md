@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygH11t1QY","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frags"},"fragment":{"id":"ygH11t1QY","topLevelMapKey":"yQJY6R01j3","mapKeyChain":"yQJY6R01j3","guideID":"ygH11t0hI","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2.tspod","chartKey":"yQJY6R01j3","isLeaf":false,"options":[{"id":"ygH1281Ts","option":"BrainFood L-2 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUcXe2XL","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frags"},"fragment":{"id":"yoUcXe2XL","topLevelMapKey":"yQJY6R01j3","mapKeyChain":"yQJY6R01j3","guideID":"yoUcXe1Rn","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2.tspod","chartKey":"yQJY6R01j3","isLeaf":false,"options":[{"id":"yoUcXt099","option":"BrainFood L-2 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Lion’s Mane ‘BrainFood L-2’
 

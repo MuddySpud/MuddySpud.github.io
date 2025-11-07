@@ -7,15 +7,5 @@ fragsFolderPath: Technical/Conclusion_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGxTK0uz","path":"Technical","fragmentFolderPath":"Technical/Conclusion_frags"},"fragment":{"id":"ygGxTK0uz","topLevelMapKey":"yd9vwR005i","mapKeyChain":"yd9vwR005i","guideID":"ygGxTK2Fg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Conclusion.tsmap","chartKey":"yd9vwR005i","isLeaf":false,"options":[{"id":"ygGxTa1JA","option":"Conclusion","order":1}]}} -->
-
-PROCESS_STEP
-
-### Step Variables
-
-The list below shows the "step variables" that have been captured as you made choices in this guide.
-
-Think of them as live data points. When you selected an option like "**Balcony**" or "**Lettuce**," the guide automatically recorded it in a variable (e.g., `location = balcony`).
-
-This creates a structured record of the user's path. In a real application, this data could be passed to your code to generate a custom quote, populate an order form, or trigger any other automated process.
+<!-- tsGuideRenderComment {"guide":{"id":"yoUYNu1iF","path":"Technical","fragmentFolderPath":"Technical/Conclusion_frags"},"fragment":{"id":"yoUYNu1iF","topLevelMapKey":"yd9vwR005i","mapKeyChain":"yd9vwR005i","guideID":"yoUYNu0JH","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Conclusion.tsmap","chartKey":"yd9vwR005i","isLeaf":false,"options":[{"id":"yoUYNv0bI","option":"The data behind the guidance","order":1,"isAncillary":true},{"id":"yoUYOK1Dq","order":2}]}} -->
 

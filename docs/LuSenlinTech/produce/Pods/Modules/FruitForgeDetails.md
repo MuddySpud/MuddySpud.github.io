@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Modules/FruitForgeDetails_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"ygGyrQ26t","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FruitForgeDetails_frags"},"fragment":{"id":"ygGyrQ26t","topLevelMapKey":"xrZvS001KG","mapKeyChain":"xrZvS001KG","guideID":"ygGyrQ1f7","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FruitForgeDetails.tspod","chartKey":"xrZvS001KG","isLeaf":false,"options":[{"id":"ygGyre0Kl","option":"How it works","order":1,"isAncillary":true},{"id":"ygGys10UG","option":"The science behind it","order":2,"isAncillary":true},{"id":"ygGysL0uL","option":"The technology","order":3,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yoUa0N2P0","path":"LuSenlinTech/produce/Pods/Modules","fragmentFolderPath":"LuSenlinTech/produce/Pods/Modules/FruitForgeDetails_frags"},"fragment":{"id":"yoUa0N2P0","topLevelMapKey":"xrZvS001KG","mapKeyChain":"xrZvS001KG","guideID":"yoUa0N1mX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Modules/FruitForgeDetails.tspod","chartKey":"xrZvS001KG","isLeaf":false,"options":[{"id":"yoUa0e16x","option":"How it works","order":1,"isAncillary":true},{"id":"yoUa1A19w","option":"The science behind it","order":2,"isAncillary":true},{"id":"yoUa1c0MH","option":"The technology","order":3,"isAncillary":true}]}} -->
 
 #### Flavour-Intensified Fruit
 
