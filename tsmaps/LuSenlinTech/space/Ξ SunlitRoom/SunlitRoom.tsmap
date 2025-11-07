@@ -8,17 +8,53 @@
     "iText": "Link to 'SunlitRoom'",
     "___rΩΩt___": {
         "key": "s7LPoI0pM",
-        "isLeaf": true
+        "nodes": [
+            {
+                "key": "ytEKrr01ga",
+                "order": 1,
+                "iKey": "s7SMXt0ol",
+                "nodes": [
+                    {
+                        "key": "ytEXqX0234",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "isLeaf": true,
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt1dV"
+                    },
+                    {
+                        "key": "ytEXqX01fb",
+                        "order": 2,
+                        "option": "No power supply",
+                        "isLeaf": true,
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt0Xu"
+                    }
+                ]
+            }
+        ]
     },
     "___αssεts___": [
         {
             "key": "δ-s7LPoI0pM",
             "relativePath": "./δ steps/δ-puDAYy00Hw.tsstp"
+        },
+        {
+            "key": "δ-ytEKrr01ga",
+            "relativePath": "./δ steps/δ-ytEKrr01ga.tsstp"
+        },
+        {
+            "key": "δ-ytEXqX0234",
+            "relativePath": "./δ steps/δ-ytEXqX0234.tsstp"
+        },
+        {
+            "key": "δ-ytEXqX01fb",
+            "relativePath": "./δ steps/δ-ytEXqX01fb.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xm0Enr10J",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1761506758123
+        "id": "ytEe3Z01ps",
+        "editorID": "car_4ffbfad3db104cb0a2ae05855fcc8d48",
+        "ticks": 1762529758973
     }
 }

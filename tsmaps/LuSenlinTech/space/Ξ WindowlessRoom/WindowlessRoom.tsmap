@@ -8,17 +8,53 @@
     "iText": "Link to 'WindowlessRoom'",
     "___rΩΩt___": {
         "key": "s7SMNu0ct",
-        "isLeaf": true
+        "nodes": [
+            {
+                "key": "ytDo8F027h",
+                "order": 1,
+                "iKey": "s7SMXt0ol",
+                "nodes": [
+                    {
+                        "key": "ytE16a0175",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "isLeaf": true,
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt1dV"
+                    },
+                    {
+                        "key": "ytE16a02ML",
+                        "order": 2,
+                        "option": "No power supply",
+                        "isLeaf": true,
+                        "iKey": "yjFhSI02KP",
+                        "iExitKey": "s7SMXt0Xu"
+                    }
+                ]
+            }
+        ]
     },
     "___αssεts___": [
         {
             "key": "δ-s7SMNu0ct",
             "relativePath": "./δ steps/δ-pRcaWg02DR.tsstp"
+        },
+        {
+            "key": "δ-ytDo8F027h",
+            "relativePath": "./δ steps/δ-ytDo8F027h.tsstp"
+        },
+        {
+            "key": "δ-ytE16a0175",
+            "relativePath": "./δ steps/δ-ytE16a0175.tsstp"
+        },
+        {
+            "key": "δ-ytE16a02ML",
+            "relativePath": "./δ steps/δ-ytE16a02ML.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "xm0Dp61U7",
-        "editorID": "da_() => {\n        const extensions = vscode.extensions;\n        const docsAssember = extensions.getExtension('netoftrees.documentation-assembler');\n        if (docsAssember) {\n            return docsAssember.packageJSON.version;\n        }\n        return null;\n    }",
-        "ticks": 1761506754356
+        "id": "ytEAb600Gi",
+        "editorID": "car_64fef826fe504ef4be19422bc22589d0",
+        "ticks": 1762529645732
     }
 }
