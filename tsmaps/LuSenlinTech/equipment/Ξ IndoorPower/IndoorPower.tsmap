@@ -54,12 +54,12 @@
     "___αssεts___": [
         {
             "key": "ytKL1902Qo",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/PowerIntro.tsstp",
+            "relativePath": "../_shared/PowerIntro.tsstp",
             "isShared": true
         },
         {
             "key": "ytL7tc02ZU",
-            "relativePath": "../../../../../../../../C:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/equipment/_shared/PowerQuestion.tsstp",
+            "relativePath": "../_shared/PowerQuestion.tsstp",
             "isShared": true
         },
         {
@@ -68,8 +68,8 @@
         }
     ],
     "___εdit___": {
-        "id": "ytTmGn024G",
-        "editorID": "car_0709cf42ab5b4c4b898304a5b1b05db1",
-        "ticks": 1762533365465
+        "id": "z0eKbI00Zc",
+        "editorID": "me_1d6ba2503e8d4e5ebb5ebbdb4dc077cb",
+        "ticks": 1762639315064
     }
 }
