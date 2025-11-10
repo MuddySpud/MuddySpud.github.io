@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zmzT10o","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags"},"fragment":{"id":"z6zmzT10o","topLevelMapKey":"yUh9xO018b","mapKeyChain":"yUh9xO018b","guideID":"z6zmzT1NX","chartKey":"yUh9xO018b","isLeaf":false,"options":[{"id":"z6zmzZ0yA","option":"Silver Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUTa50F5","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags"},"fragment":{"id":"zAUTa50F5","topLevelMapKey":"yUh9xO018b","mapKeyChain":"yUh9xO018b","guideID":"zAUTa51Zg","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte.tspod","chartKey":"yUh9xO018b","isLeaf":false,"options":[{"id":"zAUTaB0M1","option":"Silver Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Nano Carp ‘Silver Byte’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/UrbanGreekOregano_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zo1q10j","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/UrbanGreekOregano_frags"},"fragment":{"id":"z6zo1q10j","topLevelMapKey":"yAT0z5018Y","mapKeyChain":"yAT0z5018Y","guideID":"z6zo1q0T6","chartKey":"yAT0z5018Y","isLeaf":false,"options":[{"id":"z6zo211Nr","option":"OG-35 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUUZC2Y1","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/UrbanGreekOregano_frags"},"fragment":{"id":"zAUUZC2Y1","topLevelMapKey":"yAT0z5018Y","mapKeyChain":"yAT0z5018Y","guideID":"zAUUZC2JO","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/UrbanGreekOregano.tspod","chartKey":"yAT0z5018Y","isLeaf":false,"options":[{"id":"zAUUZM0tC","option":"OG-35 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Urban Greek Oregano ‘OG-35’
 

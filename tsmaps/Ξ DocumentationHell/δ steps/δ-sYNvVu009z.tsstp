@@ -3,11 +3,11 @@
 
 # Escape Documentation Hell
 
-###### {{el.docsAssemblerExtension_link}}:
-{: .nt-fr-ul-header}
+{{el.docsAssemblerExtension_link}} is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
 
-- Is a Text Editor for authoring documentation in structured text files.
-- Is designed for documenting intricate systems, or complex troubleshooting - scenarios where traditional manuals fail. 
+Text is built from reusable content parts. If you change a part, it updates everywhere. 
 
-This website is a guide built with it and the 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
+There is no lock‑in - it publishes to plain Markdown files, so you can uninstall {{el.docsAssemblerExtension_link}} and continue working with your files as before.
+
+This website is a guide built with {{el.docsAssemblerExtension_link}}. The 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
 

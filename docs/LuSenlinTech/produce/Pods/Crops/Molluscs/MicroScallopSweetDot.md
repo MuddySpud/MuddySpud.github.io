@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6znLZ28N","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_frags"},"fragment":{"id":"z6znLZ28N","topLevelMapKey":"yUu0k400ll","mapKeyChain":"yUu0k400ll","guideID":"z6znLZ14h","chartKey":"yUu0k400ll","isLeaf":false,"options":[{"id":"z6znLf2Jg","option":"Sweet-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUTuN15P","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_frags"},"fragment":{"id":"zAUTuN15P","topLevelMapKey":"yUu0k400ll","mapKeyChain":"yUu0k400ll","guideID":"zAUTuN2DN","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot.tspod","chartKey":"yUu0k400ll","isLeaf":false,"options":[{"id":"zAUTuY25i","option":"Sweet-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Scallop ‘Sweet-Dot’
 

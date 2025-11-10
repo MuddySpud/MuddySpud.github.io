@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/RadishFlash40_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zlUb00f","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/RadishFlash40_frags"},"fragment":{"id":"z6zlUb00f","topLevelMapKey":"yKURGJ00sM","mapKeyChain":"yKURGJ00sM","guideID":"z6zlUb0Q9","chartKey":"yKURGJ00sM","isLeaf":false,"options":[{"id":"z6zlUv1AL","option":"Flash-40 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUS7O2SQ","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/RadishFlash40_frags"},"fragment":{"id":"zAUS7O2SQ","topLevelMapKey":"yKURGJ00sM","mapKeyChain":"yKURGJ00sM","guideID":"zAUS7O11c","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/RadishFlash40.tspod","chartKey":"yKURGJ00sM","isLeaf":false,"options":[{"id":"zAUS7Y1me","option":"Flash-40 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Radish ‘Flash-40’
 

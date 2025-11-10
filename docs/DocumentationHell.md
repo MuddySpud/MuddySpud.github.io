@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zjem2MF","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"z6zjem2MF","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"z6zjem0ex","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"z6zjg20hB","option":"Explore a Docs Assembler solution ","order":1},{"id":"z6zjgE2Ic","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUQFx0Hh","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"zAUQFx0Hh","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"zAUQFx103","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"zAUQH30Z6","option":"Explore a Docs Assembler solution ","order":1},{"id":"zAUQHC0sS","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
@@ -15,13 +15,13 @@ fragsFolderPath: DocumentationHell_frags
 
 # Escape Documentation Hell
 
-###### [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler):
-{: .nt-fr-ul-header}
+[Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
 
-- Is a Text Editor for authoring documentation in structured text files.
-- Is designed for documenting intricate systems, or complex troubleshooting - scenarios where traditional manuals fail. 
+Text is built from reusable content parts. If you change a part, it updates everywhere. 
 
-This website is a guide built with it and the 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
+There is no lock‑in - it publishes to plain Markdown files, so you can uninstall [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and continue working with your files as before.
+
+This website is a guide built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler). The 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
 
 ### The Problem with Traditional Manuals
 

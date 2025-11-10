@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarro
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6znFD1MW","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarronette_frags"},"fragment":{"id":"z6znFD1MW","topLevelMapKey":"yUr8Gl00cW","mapKeyChain":"yUr8Gl00cW","guideID":"z6znFD0Nw","chartKey":"yUr8Gl00cW","isLeaf":false,"options":[{"id":"z6znFP0hz","option":"Blue Marronette - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUTog033","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarronette_frags"},"fragment":{"id":"zAUTog033","topLevelMapKey":"yUr8Gl00cW","mapKeyChain":"yUr8Gl00cW","guideID":"zAUTog0f0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarronette.tspod","chartKey":"yUr8Gl00cW","isLeaf":false,"options":[{"id":"zAUToq20A","option":"Blue Marronette - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Marron ‘Blue Marronette’
 

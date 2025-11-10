@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPear
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zn2U0Uq","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPearlKing_frags"},"fragment":{"id":"z6zn2U0Uq","topLevelMapKey":"yUkaZk00wD","mapKeyChain":"yUkaZk00wD","guideID":"z6zn2U0j2","chartKey":"yUkaZk00wD","isLeaf":false,"options":[{"id":"z6zn2f07L","option":"Pearl-King - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUTdO28i","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPearlKing_frags"},"fragment":{"id":"zAUTdO28i","topLevelMapKey":"yUkaZk00wD","mapKeyChain":"yUkaZk00wD","guideID":"zAUTdO00m","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPearlKing.tspod","chartKey":"yUkaZk00wD","isLeaf":false,"options":[{"id":"zAUTdZ0Q9","option":"Pearl-King - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Freshwater Prawn ‘Pearl-King’
 

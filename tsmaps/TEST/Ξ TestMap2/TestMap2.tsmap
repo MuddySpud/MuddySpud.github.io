@@ -1,0 +1,25 @@
+{
+    "key": "zBqUe801yp  ",
+    "token": "Testmap2",
+    "name": "TestMap2",
+    "created": "2025-11-10T19:59:13.313Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestMap2/TestMap2.tsmap",
+    "iText": "Link to 'TestMap2'",
+    "___rΩΩt___": {
+        "key": "zBqYjw02Rm",
+        "nodes": [
+            {
+                "key": "zBqdit01Ym",
+                "order": 1,
+                "option": "Option 2"
+            }
+        ]
+    },
+    "___αssεts___": [],
+    "___εdit___": {
+        "id": "zBsxat02Ai",
+        "editorID": "car_077d2f4a6f1f49a59eb32f7c7fb67fab",
+        "ticks": 1762805341244
+    }
+}

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/WindowlessRoom_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zjqT19c","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"z6zjqT19c","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"z6zjqT1TV","chartKey":"s7SMNu079","isLeaf":false,"options":[{"id":"z6zjqf1dF","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"z6zjqp1Ji","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUQRG1UD","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"zAUQRG1UD","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"zAUQRG0YF","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/WindowlessRoom.tsmap","chartKey":"s7SMNu079","isLeaf":false,"options":[{"id":"zAUQRR19y","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"zAUQRb1Va","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
 
 ## Windowless Room
 

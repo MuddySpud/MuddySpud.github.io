@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/BlueGhostShrimpSpec
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zn6h20Q","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/BlueGhostShrimpSpectra_frags"},"fragment":{"id":"z6zn6h20Q","topLevelMapKey":"yUmKkt00mJ","mapKeyChain":"yUmKkt00mJ","guideID":"z6zn6h1eq","chartKey":"yUmKkt00mJ","isLeaf":false,"options":[{"id":"z6zn6o0OV","option":"Spectra - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUThm029","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/BlueGhostShrimpSpectra_frags"},"fragment":{"id":"zAUThm029","topLevelMapKey":"yUmKkt00mJ","mapKeyChain":"yUmKkt00mJ","guideID":"zAUThm1AS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/BlueGhostShrimpSpectra.tspod","chartKey":"yUmKkt00mJ","isLeaf":false,"options":[{"id":"zAUThw1Ug","option":"Spectra - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Blue Ghost Shrimp ‘Spectra’
 

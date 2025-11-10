@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Balcony_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zjoF2QU","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"z6zjoF2QU","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"z6zjoF0vJ","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"z6zjoS26v","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"z6zjoc1S3","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUQPA0c0","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"zAUQPA0c0","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"zAUQPA0NS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Balcony.tsmap","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"zAUQPM2Bj","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"zAUQPV1A1","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
 
 ## Tiny Patio or Balcony
 

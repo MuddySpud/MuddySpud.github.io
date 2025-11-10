@@ -7,7 +7,7 @@ fragsFolderPath: Technical/Conclusion_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zk8Y1lw","path":"Technical","fragmentFolderPath":"Technical/Conclusion_frags"},"fragment":{"id":"z6zk8Y1lw","topLevelMapKey":"yd9vwR005i","mapKeyChain":"yd9vwR005i","guideID":"z6zk8Y0GF","chartKey":"yd9vwR005i","isLeaf":false,"options":[{"id":"z6zk8d2A6","order":1}],"variable":[["demoEnd "," true"]]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUQlF0SP","path":"Technical","fragmentFolderPath":"Technical/Conclusion_frags"},"fragment":{"id":"zAUQlF0SP","topLevelMapKey":"yd9vwR005i","mapKeyChain":"yd9vwR005i","guideID":"zAUQlF0eq","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Technical/Conclusion.tsmap","chartKey":"yd9vwR005i","isLeaf":false,"options":[{"id":"zAUQlJ1vG","order":1}],"variable":[["demoEnd "," true"]]}} -->
 
 #### [Demo complete]
 {: .nt-fr-comment}

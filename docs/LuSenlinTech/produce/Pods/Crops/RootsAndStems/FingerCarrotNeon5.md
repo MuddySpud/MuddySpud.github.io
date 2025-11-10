@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"z6zlRW0QS","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5_frags"},"fragment":{"id":"z6zlRW0QS","topLevelMapKey":"yKSOs401hY","mapKeyChain":"yKSOs401hY","guideID":"z6zlRW0uH","chartKey":"yKSOs401hY","isLeaf":false,"options":[{"id":"z6zlRc1TK","option":"Neon 5 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zAUS2H1zS","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5_frags"},"fragment":{"id":"zAUS2H1zS","topLevelMapKey":"yKSOs401hY","mapKeyChain":"yKSOs401hY","guideID":"zAUS2H1pk","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5.tspod","chartKey":"yKSOs401hY","isLeaf":false,"options":[{"id":"zAUS2R2UJ","option":"Neon 5 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Finger Carrot ‘Neon 5’
 
