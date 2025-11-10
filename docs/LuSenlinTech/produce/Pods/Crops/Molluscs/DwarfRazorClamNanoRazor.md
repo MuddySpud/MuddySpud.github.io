@@ -7,6 +7,6 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazo
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUE419Z","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazor_frags"},"fragment":{"id":"yuRUE419Z","topLevelMapKey":"yUvEdl00U0","mapKeyChain":"yUvEdl00U0","guideID":"yuRUE41jv","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazor.tspod","chartKey":"yUvEdl00U0","isLeaf":false,"options":[{"id":"yuRUEF1BB","option":"Nano-Razor - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znOV0na","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazor_frags"},"fragment":{"id":"z6znOV0na","topLevelMapKey":"yUvEdl00U0","mapKeyChain":"yUvEdl00U0","guideID":"z6znOV0UO","chartKey":"yUvEdl00U0","isLeaf":false,"options":[{"id":"z6znOh2FH","option":"Nano-Razor - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Razor Clam ‘Nano-Razor’

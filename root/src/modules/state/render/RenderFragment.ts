@@ -28,7 +28,6 @@ export default class RenderFragment implements IRenderFragment {
     public topLevelMapKey: string = '';
     public mapKeyChain: string = '';
     public guideID: string = '';
-    public guidePath: string = '';
     public parentFragmentID: string;
     public value: string = '';
     public selected: IRenderFragment | null = null;

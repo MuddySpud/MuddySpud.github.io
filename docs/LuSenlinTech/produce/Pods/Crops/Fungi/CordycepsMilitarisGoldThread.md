@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/CordycepsMilitarisGoldThr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRTVC2a7","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/CordycepsMilitarisGoldThread_frags"},"fragment":{"id":"yuRTVC2a7","topLevelMapKey":"yQm8DL01Tn","mapKeyChain":"yQm8DL01Tn","guideID":"yuRTVC2Sv","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fungi/CordycepsMilitarisGoldThread.tspod","chartKey":"yQm8DL01Tn","isLeaf":false,"options":[{"id":"yuRTVO1dY","option":"Gold Thread - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zmiQ01i","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/CordycepsMilitarisGoldThread_frags"},"fragment":{"id":"z6zmiQ01i","topLevelMapKey":"yQm8DL01Tn","mapKeyChain":"yQm8DL01Tn","guideID":"z6zmiQ02j","chartKey":"yQm8DL01Tn","isLeaf":false,"options":[{"id":"z6zmic0Cx","option":"Gold Thread - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Cordyceps Militaris ‘Gold Thread’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/MiniAbaloneBlueEar_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUHP1ro","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MiniAbaloneBlueEar_frags"},"fragment":{"id":"yuRUHP1ro","topLevelMapKey":"yUwGJ000B0","mapKeyChain":"yUwGJ000B0","guideID":"yuRUHP0Ek","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/MiniAbaloneBlueEar.tspod","chartKey":"yUwGJ000B0","isLeaf":false,"options":[{"id":"yuRUHV0xj","option":"Blue-Ear - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znRW1rL","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MiniAbaloneBlueEar_frags"},"fragment":{"id":"z6znRW1rL","topLevelMapKey":"yUwGJ000B0","mapKeyChain":"yUwGJ000B0","guideID":"z6znRW1fo","chartKey":"yUwGJ000B0","isLeaf":false,"options":[{"id":"z6znRh0kz","option":"Blue-Ear - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Abalone ‘Blue-Ear’
 

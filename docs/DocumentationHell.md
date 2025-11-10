@@ -7,11 +7,11 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRQL90B8","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"yuRQL90B8","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"yuRQL90Es","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"yuRQMT08W","option":"Explore a Docs Assembler solution ","order":1},{"id":"yuRQMe1JT","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zjem2MF","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"z6zjem2MF","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"z6zjem0ex","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"z6zjg20hB","option":"Explore a Docs Assembler solution ","order":1},{"id":"z6zjgE2Ic","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
-*This site is built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and hosted on [GitHub Pages](https://docs.github.com/en/pages). You can view the source code and documentation structure in the [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo).*
+*This site is built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and hosted on [GitHub Pages](https://docs.github.com/en/pages). You can view the documentation structure in the [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo) or the [Docs Assembler Demo Sandbox repo](https://github.com/CompositeFlows/DocsAssemblerDemoSandbox).*
 
 # Escape Documentation Hell
 
@@ -19,12 +19,9 @@ fragsFolderPath: DocumentationHell_frags
 {: .nt-fr-ul-header}
 
 - Is a Text Editor for authoring documentation in structured text files.
-- Builds guides that adapt their content based on user choices.
-- Ensures consistency by reusing text components instead of copying them.
+- Is designed for documenting intricate systems, or complex troubleshooting - scenarios where traditional manuals fail. 
 
-It is designed for scenarios where traditional manuals fail: documenting intricate systems, or complex troubleshooting.
-
-This website is built with it. The 'Vertical Kitchen Garden Planner' embedded below is a single guide that illustrates the depth of complexity possible.
+This website is a guide built with it and the 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
 
 ### The Problem with Traditional Manuals
 

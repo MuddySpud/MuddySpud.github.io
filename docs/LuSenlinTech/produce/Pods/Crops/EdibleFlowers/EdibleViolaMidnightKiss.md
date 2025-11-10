@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/EdibleViolaMidnig
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRSpq27A","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/EdibleViolaMidnightKiss_frags"},"fragment":{"id":"yuRSpq27A","topLevelMapKey":"yQHI0B00kq","mapKeyChain":"yQHI0B00kq","guideID":"yuRSpq2FK","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/EdibleViolaMidnightKiss.tspod","chartKey":"yQHI0B00kq","isLeaf":false,"options":[{"id":"yuRSpv1OD","option":"Midnight Kiss - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zm690Ho","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/EdibleViolaMidnightKiss_frags"},"fragment":{"id":"z6zm690Ho","topLevelMapKey":"yQHI0B00kq","mapKeyChain":"yQHI0B00kq","guideID":"z6zm6915i","chartKey":"yQHI0B00kq","isLeaf":false,"options":[{"id":"z6zm6O1Mj","option":"Midnight Kiss - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Edible Viola ‘Midnight Kiss’
 

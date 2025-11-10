@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUXX1Yn","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl_frags"},"fragment":{"id":"yuRUXX1Yn","topLevelMapKey":"yV21JL00j7","mapKeyChain":"yV21JL00j7","guideID":"yuRUXX21j","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl.tspod","chartKey":"yV21JL00j7","isLeaf":false,"options":[{"id":"yuRUXd2b7","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zniO0I1","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl_frags"},"fragment":{"id":"z6zniO0I1","topLevelMapKey":"yV21JL00j7","mapKeyChain":"yV21JL00j7","guideID":"z6zniO1E5","chartKey":"yV21JL00j7","isLeaf":false,"options":[{"id":"z6znib0RG","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mystery Snail ‘Protein Pearl’
 

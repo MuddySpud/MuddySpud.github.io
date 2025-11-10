@@ -842,7 +842,6 @@ const gFragmentCode = {
         fragment.topLevelMapKey = rawFragment.topLevelMapKey ?? '';
         fragment.mapKeyChain = rawFragment.mapKeyChain ?? '';
         fragment.guideID = rawFragment.guideID ?? '';
-        fragment.guidePath = rawFragment.guidePath ?? '';
         fragment.iKey = rawFragment.iKey ?? null;
         fragment.exitKey = rawFragment.exitKey ?? null;
         fragment.variable = rawFragment.variable ?? [];

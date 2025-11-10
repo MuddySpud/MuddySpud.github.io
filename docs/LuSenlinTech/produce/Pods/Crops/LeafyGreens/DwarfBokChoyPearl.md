@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/DwarfBokChoyPearl_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRRZD2MX","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/DwarfBokChoyPearl_frags"},"fragment":{"id":"yuRRZD2MX","topLevelMapKey":"yG1Lpk01R5","mapKeyChain":"yG1Lpk01R5","guideID":"yuRRZD2Vx","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/DwarfBokChoyPearl.tspod","chartKey":"yG1Lpk01R5","isLeaf":false,"options":[{"id":"yuRRZJ1uB","option":"Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zksE0fy","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/DwarfBokChoyPearl_frags"},"fragment":{"id":"z6zksE0fy","topLevelMapKey":"yG1Lpk01R5","mapKeyChain":"yG1Lpk01R5","guideID":"z6zksE1yI","chartKey":"yG1Lpk01R5","isLeaf":false,"options":[{"id":"z6zksQ2TD","option":"Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Bok-Choy ‘Pearl’
 

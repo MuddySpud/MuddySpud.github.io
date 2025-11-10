@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/SpinachHeatGuard_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRRgt23p","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SpinachHeatGuard_frags"},"fragment":{"id":"yuRRgt23p","topLevelMapKey":"yG6FsR01HB","mapKeyChain":"yG6FsR01HB","guideID":"yuRRgt1c2","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/SpinachHeatGuard.tspod","chartKey":"yG6FsR01HB","isLeaf":false,"options":[{"id":"yuRRh516c","option":"HeatGuard - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zkzh1eu","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SpinachHeatGuard_frags"},"fragment":{"id":"z6zkzh1eu","topLevelMapKey":"yG6FsR01HB","mapKeyChain":"yG6FsR01HB","guideID":"z6zkzh1Xd","chartKey":"yG6FsR01HB","isLeaf":false,"options":[{"id":"z6zkzn12h","option":"HeatGuard - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Spinach ‘HeatGuard’
 

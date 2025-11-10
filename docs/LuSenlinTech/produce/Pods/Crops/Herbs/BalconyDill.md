@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/BalconyDill_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUxV16G","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/BalconyDill_frags"},"fragment":{"id":"yuRUxV16G","topLevelMapKey":"yAWRuc00tU","mapKeyChain":"yAWRuc00tU","guideID":"yuRUxV2GZ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/BalconyDill.tspod","chartKey":"yAWRuc00tU","isLeaf":false,"options":[{"id":"yuRUxh13x","option":"Frond-Flash - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zo802UG","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/BalconyDill_frags"},"fragment":{"id":"z6zo802UG","topLevelMapKey":"yAWRuc00tU","mapKeyChain":"yAWRuc00tU","guideID":"z6zo801kV","chartKey":"yAWRuc00tU","isLeaf":false,"options":[{"id":"z6zo8B13a","option":"Frond-Flash - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Balcony Dill ‘Frond-Flash’
 

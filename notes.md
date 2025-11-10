@@ -51,10 +51,6 @@ https://docsassemblerdemo.netoftrees.com/
 ###### Next:
 
   Need to always make sure start with title that matches previous selected option. ie option selected must be followed by a markdown heading with the same text as option.
-  Build other locations.
-  Add todo for farm field should pretend that it is LuSenlin that is saying it. ie contact field division as this location is being developed.
-  Then try and generate images for frames and modules with plants added.
-  As Adrian said with his image.
 
 Add what to notice in intro to demo.
   - See how large the range of opions are
@@ -70,24 +66,5 @@ Need to have some way for the technical exploration of demo to include when in t
 
 #### Spaces - write text differences
 Need to write out the differences between spaces ie garden could have a shelter and different anchors - need the get Deepseek to work that out for each space what are their differnces based on what it knows.
-Then need to script out a rough path and ask Deepseek to critique it. What text to edit, add or remove.
-
-#### - Spaces field special treatment
-Ask DS to script out text to say that the field needs special treatment and to give us a call - ask deepseek what it thinks...
-Need a technical summary for the techncal path.
-
-### Need to get a version out now
 
 
-Release to live:
-- publish documentaton Hell map
-- build renderer
-- move to demo repo
-- commit
-- move renderer code to live
-- make repo public with free licence
-- update vsix
-- release extension
-- say where the fragment renderer text is
-- add a demo renderer read me 
-- MAKE sure all the code is public to run website themselves and can get all the suff working

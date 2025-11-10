@@ -14,7 +14,6 @@ export default interface IRenderFragment {
     topLevelMapKey: string;
     mapKeyChain: string;
     guideID: string;
-    guidePath: string;
     parentFragmentID: string | null;
     value: string;
     selected: IRenderFragment | null;

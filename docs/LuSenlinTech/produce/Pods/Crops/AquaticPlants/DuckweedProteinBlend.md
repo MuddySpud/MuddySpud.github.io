@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/DuckweedProteinBl
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRStf1ha","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/DuckweedProteinBlend_frags"},"fragment":{"id":"yuRStf1ha","topLevelMapKey":"y4XDXZ01Po","mapKeyChain":"y4XDXZ01Po","guideID":"yuRStf23t","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/DuckweedProteinBlend.tspod","chartKey":"y4XDXZ01Po","isLeaf":false,"options":[{"id":"yuRStt08E","option":"Duckweed blend - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zm9e1Ik","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/DuckweedProteinBlend_frags"},"fragment":{"id":"z6zm9e1Ik","topLevelMapKey":"y4XDXZ01Po","mapKeyChain":"y4XDXZ01Po","guideID":"z6zm9e086","chartKey":"y4XDXZ01Po","isLeaf":false,"options":[{"id":"z6zm9p10z","option":"Duckweed blend - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Duckweed Protein Blend *(Lemna × Wolffia hybrid mix)*
 

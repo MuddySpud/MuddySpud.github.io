@@ -5,5 +5,9 @@ permalink: pretty
 title: Docs Assembler demo guides
 markdown_ext: markdown,tsfrg,md
 
+# Disable all caching
+disable_disk_cache: true
 
+# Or more specific cache controls
+full_rebuild: true
 

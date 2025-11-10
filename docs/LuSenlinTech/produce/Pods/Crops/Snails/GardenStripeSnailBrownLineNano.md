@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/GardenStripeSnailBrownLi
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUQs2S7","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/GardenStripeSnailBrownLineNano_frags"},"fragment":{"id":"yuRUQs2S7","topLevelMapKey":"yUzwAp0067","mapKeyChain":"yUzwAp0067","guideID":"yuRUQs03p","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/GardenStripeSnailBrownLineNano.tspod","chartKey":"yUzwAp0067","isLeaf":false,"options":[{"id":"yuRUR40Uv","option":"Brown-Line Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znaw1N6","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/GardenStripeSnailBrownLineNano_frags"},"fragment":{"id":"z6znaw1N6","topLevelMapKey":"yUzwAp0067","mapKeyChain":"yUzwAp0067","guideID":"z6znaw0t4","chartKey":"yUzwAp0067","isLeaf":false,"options":[{"id":"z6znbO1G1","option":"Brown-Line Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Garden Stripe Snail ‘Brown-Line Nano’
 

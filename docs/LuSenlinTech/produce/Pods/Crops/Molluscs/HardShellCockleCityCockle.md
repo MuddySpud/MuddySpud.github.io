@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCoc
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUFf0tm","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCockle_frags"},"fragment":{"id":"yuRUFf0tm","topLevelMapKey":"yUvgNl01Ux","mapKeyChain":"yUvgNl01Ux","guideID":"yuRUFf16j","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCockle.tspod","chartKey":"yUvgNl01Ux","isLeaf":false,"options":[{"id":"yuRUFl2S7","option":"City Cockle - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znPo1uR","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCockle_frags"},"fragment":{"id":"z6znPo1uR","topLevelMapKey":"yUvgNl01Ux","mapKeyChain":"yUvgNl01Ux","guideID":"z6znPo0Lp","chartKey":"yUvgNl01Ux","isLeaf":false,"options":[{"id":"z6znPz1fr","option":"City Cockle - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Hard-Shell Cockle ‘City Cockle’
 

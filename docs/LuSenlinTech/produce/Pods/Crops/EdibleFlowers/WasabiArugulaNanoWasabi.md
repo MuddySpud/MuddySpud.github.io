@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNano
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRScH1Da","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNanoWasabi_frags"},"fragment":{"id":"yuRScH1Da","topLevelMapKey":"yQBHZW02UD","mapKeyChain":"yQBHZW02UD","guideID":"yuRScH14W","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNanoWasabi.tspod","chartKey":"yQBHZW02UD","isLeaf":false,"options":[{"id":"yuRScS2Y6","option":"Nano-Wasabi - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zlsS2Ub","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNanoWasabi_frags"},"fragment":{"id":"z6zlsS2Ub","topLevelMapKey":"yQBHZW02UD","mapKeyChain":"yQBHZW02UD","guideID":"z6zlsS2DK","chartKey":"yQBHZW02UD","isLeaf":false,"options":[{"id":"z6zlse03i","option":"Nano-Wasabi - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Wasabi Arugula ‘Nano-Wasabi’
 

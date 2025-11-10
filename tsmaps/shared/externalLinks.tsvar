@@ -12,6 +12,9 @@
 ¬docsAssemblerDemoRepo_url: https://github.com/CompositeFlows/DocsAssemblerDemo
 ¬docsAssemblerDemoRepo_link: [Docs Assembler Demo repo]({{docsAssemblerDemoRepo_url}})
 
+¬docsAssemblerDemoSandboxRepo_url: https://github.com/CompositeFlows/DocsAssemblerDemoSandbox
+¬docsAssemblerDemoSandboxRepo_link: [Docs Assembler Demo Sandbox repo]({{docsAssemblerDemoSandboxRepo_url}})
+
 ¬githubPages_url: https://docs.github.com/en/pages
 ¬githubPages_link: [GitHub Pages]({{githubPages_url}})
 

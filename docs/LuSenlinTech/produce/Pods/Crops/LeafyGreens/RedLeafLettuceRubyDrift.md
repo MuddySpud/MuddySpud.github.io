@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/RedLeafLettuceRubyD
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRRm62OV","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/RedLeafLettuceRubyDrift_frags"},"fragment":{"id":"yuRRm62OV","topLevelMapKey":"yG9lJ1021X","mapKeyChain":"yG9lJ1021X","guideID":"yuRRm60E0","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/RedLeafLettuceRubyDrift.tspod","chartKey":"yG9lJ1021X","isLeaf":false,"options":[{"id":"yuRRmD1rW","option":"Ruby Drift - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zl5r1Pm","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/RedLeafLettuceRubyDrift_frags"},"fragment":{"id":"z6zl5r1Pm","topLevelMapKey":"yG9lJ1021X","mapKeyChain":"yG9lJ1021X","guideID":"z6zl5r1an","chartKey":"yG9lJ1021X","isLeaf":false,"options":[{"id":"z6zl5w21U","option":"Ruby Drift - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red Leaf Lettuce ‘Ruby Drift’
 

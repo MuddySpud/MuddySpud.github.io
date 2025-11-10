@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/IcePlantCrystalLe
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRShJ1hz","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/IcePlantCrystalLeaf_frags"},"fragment":{"id":"yuRShJ1hz","topLevelMapKey":"yQCvGv00Dd","mapKeyChain":"yQCvGv00Dd","guideID":"yuRShJ0I6","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/IcePlantCrystalLeaf.tspod","chartKey":"yQCvGv00Dd","isLeaf":false,"options":[{"id":"yuRShW0IF","option":"Crystal Leaf - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zlyc0Eo","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/IcePlantCrystalLeaf_frags"},"fragment":{"id":"z6zlyc0Eo","topLevelMapKey":"yQCvGv00Dd","mapKeyChain":"yQCvGv00Dd","guideID":"z6zlyc1jM","chartKey":"yQCvGv00Dd","isLeaf":false,"options":[{"id":"z6zlyj0Gc","option":"Crystal Leaf - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Ice Plant ‘Crystal Leaf’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/MiniWhelkSpiralBite_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUaX07E","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MiniWhelkSpiralBite_frags"},"fragment":{"id":"yuRUaX07E","topLevelMapKey":"yV3D070056","mapKeyChain":"yV3D070056","guideID":"yuRUaX2Fv","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/MiniWhelkSpiralBite.tspod","chartKey":"yV3D070056","isLeaf":false,"options":[{"id":"yuRUae16t","option":"Spiral Bite - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znlM05J","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MiniWhelkSpiralBite_frags"},"fragment":{"id":"z6znlM05J","topLevelMapKey":"yV3D070056","mapKeyChain":"yV3D070056","guideID":"z6znlM0PC","chartKey":"yV3D070056","isLeaf":false,"options":[{"id":"z6znlS1ui","option":"Spiral Bite - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Whelk ‘Spiral Bite’
 

@@ -7,10 +7,7 @@
 {: .nt-fr-ul-header}
 
 - Is a Text Editor for authoring documentation in structured text files.
-- Builds guides that adapt their content based on user choices.
-- Ensures consistency by reusing text components instead of copying them.
+- Is designed for documenting intricate systems, or complex troubleshooting - scenarios where traditional manuals fail. 
 
-It is designed for scenarios where traditional manuals fail: documenting intricate systems, or complex troubleshooting.
-
-This website is built with it. The 'Vertical Kitchen Garden Planner' embedded below is a single guide that illustrates the depth of complexity possible.
+This website is a guide built with it and the 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
 

@@ -53,8 +53,32 @@ body {
         margin: 0 0 5px 0;
     }
 
+    .nt-fr-comment-stars {
+        margin: 100px 0;
+        font-size: 30px;
+        text-align: center;
+        color: #728ed7;
+    }
+
+    .nt-fr-comment {
+        margin: 100px 0;
+        text-align: center;
+        color: #728ed7;
+        font-style: italic;
+    }
+
     .nt-fr-centre {
         text-align: center;
+    }
+
+    .nt-fr-divider {
+        margin: 100px auto 100px auto;
+        width: 50%;
+        border-color: #728ed7;
+    }
+
+    .nt-fr-italic {
+        font-style: italic;
     }
 
     .nt-fr-columns,
@@ -132,8 +156,12 @@ body {
 
             &.nt-fr-prior-is-ancillary {
 
-                &>.nt-fr-fragment-discussion p:first-child {
-                    margin-top: 50px;
+                &>.nt-fr-fragment-discussion {
+
+                    &>p:first-child,
+                    &>ul:first-child {
+                        margin-top: 50px;
+                    }
                 }
             }
 
@@ -300,8 +328,12 @@ body {
 
                 &.nt-fr-prior-is-ancillary {
 
-                    &>.nt-fr-fragment-discussion p:first-child {
-                        margin-top: 20px;
+                    &>.nt-fr-fragment-discussion {
+
+                        &>p:first-child,
+                        &>ul:first-child {
+                            margin-top: 20px;
+                        }
                     }
                 }
             }
@@ -488,9 +520,13 @@ body {
             }
         }
 
-        .nt-fr-ancillary-head+.nt-fr-fragment-box .nt-fr-fragment-discussion>p:first-child {
-            margin-top: 36px;
-            /* Additional styling for visual indication */
+        .nt-fr-ancillary-head+.nt-fr-fragment-box .nt-fr-fragment-discussion {
+
+            &>p:first-child,
+            &>ul:first-child {
+                margin-top: 36px;
+                /* Additional styling for visual indication */
+            }
         }
     }
 

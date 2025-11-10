@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/BalconyMelonHoneyDr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRS2i29k","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/BalconyMelonHoneyDrop_frags"},"fragment":{"id":"yuRS2i29k","topLevelMapKey":"yKPtNP00Wu","mapKeyChain":"yKPtNP00Wu","guideID":"yuRS2i2Hv","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/BalconyMelonHoneyDrop.tspod","chartKey":"yKPtNP00Wu","isLeaf":false,"options":[{"id":"yuRS2t23D","option":"Honey-Drop - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zlLC1xq","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/BalconyMelonHoneyDrop_frags"},"fragment":{"id":"z6zlLC1xq","topLevelMapKey":"yKPtNP00Wu","mapKeyChain":"yKPtNP00Wu","guideID":"z6zlLC0dt","chartKey":"yKPtNP00Wu","isLeaf":false,"options":[{"id":"z6zlLH0kb","option":"Honey-Drop - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Balcony Melon ‘Honey-Drop’
 

@@ -40,7 +40,6 @@ const parseRenderingComment = (
         "topLevelMapKey": "cv1TRl01rf",
         "mapKeyChain": "cv1TRl01rf",
         "guideID": "dBt7JN1He",
-        "guidePath": "c:/GitHub/TEST.Documentation/tsmapsdataOptionsFolder/Holder/dataOptions.tsmap",
         "parentFragmentID": null,
         "chartKey": "cv1TRl01rf",
         "options": [

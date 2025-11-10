@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRRXV1wj","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_frags"},"fragment":{"id":"yuRRXV1wj","topLevelMapKey":"yFpALn00Kr","mapKeyChain":"yFpALn00Kr","guideID":"yuRRXV0fy","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin.tspod","chartKey":"yFpALn00Kr","isLeaf":false,"options":[{"id":"yuRRXb16E","option":"BlueFin - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zkqY1fM","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_frags"},"fragment":{"id":"z6zkqY1fM","topLevelMapKey":"yFpALn00Kr","mapKeyChain":"yFpALn00Kr","guideID":"z6zkqY0YJ","chartKey":"yFpALn00Kr","isLeaf":false,"options":[{"id":"z6zkqk1Pn","option":"BlueFin - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Nano-Kale ‘BlueFin’
 

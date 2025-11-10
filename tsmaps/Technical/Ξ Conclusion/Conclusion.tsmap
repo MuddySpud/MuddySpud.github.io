@@ -9,22 +9,30 @@
     "___rΩΩt___": {
         "key": "yoJ9qV00lx",
         "isHeadless": true,
+        "variable": "demoEnd = true",
         "nodes": [
             {
-                "key": "yd9xwf027n",
-                "order": 1,
-                "option": "The data behind the guidance",
-                "isLeaf": true,
-                "isAncillary": true
-            },
-            {
                 "key": "yoK4TH01wR",
-                "order": 2,
+                "order": 1,
                 "nodes": [
                     {
                         "key": "yoK9FB00dS",
                         "order": 1,
-                        "isLeaf": true
+                        "newFragment": true,
+                        "nodes": [
+                            {
+                                "key": "z5kz4A01RX",
+                                "order": 1,
+                                "newFragment": true,
+                                "nodes": [
+                                    {
+                                        "key": "z5PrhD00aV",
+                                        "order": 1,
+                                        "isLeaf": true
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -32,21 +40,25 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-yd9xwf027n",
-            "relativePath": "./δ steps/δ-yd9xwf027n.tsstp"
+            "key": "δ-yoK9FB00dS",
+            "relativePath": "./δ steps/δ-yoK9FB00dS.tsstp"
+        },
+        {
+            "key": "δ-z5PrhD00aV",
+            "relativePath": "./δ steps/δ-z5PrhD00aV.tsstp"
+        },
+        {
+            "key": "δ-z5kz4A01RX",
+            "relativePath": "./δ steps/δ-z5kz4A01RX.tsstp"
         },
         {
             "key": "δ-yoK4TH01wR",
             "relativePath": "./δ steps/δ-yoK4TH01wR.tsstp"
-        },
-        {
-            "key": "δ-yoK9FB00dS",
-            "relativePath": "./δ steps/δ-yoK9FB00dS.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "yoKnxm00rI",
-        "editorID": "car_91e69661554a4395a9957683a980947b",
-        "ticks": 1762457345342
+        "id": "z6zFr102Km",
+        "editorID": "car_f283eb38ea17459b8f161e377e6614d9",
+        "ticks": 1762732959723
     }
 }

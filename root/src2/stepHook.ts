@@ -85,7 +85,7 @@ const printStepVariables = (
     ]
 
     const resetVariables = [
-        "powerSupply"
+        "demoEnd"
     ]
 
     for (const variable of stepVariables) {

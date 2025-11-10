@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/MacrobrachiumGiantP
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRU5y0q0","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MacrobrachiumGiantPrawnJr_frags"},"fragment":{"id":"yuRU5y0q0","topLevelMapKey":"yUre5o02AR","mapKeyChain":"yUre5o02AR","guideID":"yuRU5y2Ty","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/MacrobrachiumGiantPrawnJr.tspod","chartKey":"yUre5o02AR","isLeaf":false,"options":[{"id":"yuRU6C0AT","option":"Giant Prawn Jr. - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znGb1Vy","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MacrobrachiumGiantPrawnJr_frags"},"fragment":{"id":"z6znGb1Vy","topLevelMapKey":"yUre5o02AR","mapKeyChain":"yUre5o02AR","guideID":"z6znGb0Dp","chartKey":"yUre5o02AR","isLeaf":false,"options":[{"id":"z6znGn0MW","option":"Giant Prawn Jr. - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Macrobrachium “Giant Prawn Jr.” 
 

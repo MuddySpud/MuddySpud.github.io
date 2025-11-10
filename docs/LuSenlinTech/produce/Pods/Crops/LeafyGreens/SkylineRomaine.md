@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRRVw15G","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frags"},"fragment":{"id":"yuRRVw15G","topLevelMapKey":"yFoCR800N8","mapKeyChain":"yFoCR800N8","guideID":"yuRRVw04Y","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine.tspod","chartKey":"yFoCR800N8","isLeaf":false,"options":[{"id":"yuRRW81hF","option":"Skyline Romaine - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zkpB2Zj","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frags"},"fragment":{"id":"z6zkpB2Zj","topLevelMapKey":"yFoCR800N8","mapKeyChain":"yFoCR800N8","guideID":"z6zkpB07i","chartKey":"yFoCR800N8","isLeaf":false,"options":[{"id":"z6zkpH1hO","option":"Skyline Romaine - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Skyline Romaine
 

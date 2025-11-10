@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniS
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRSQm0Or","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniStem_frags"},"fragment":{"id":"yuRSQm0Or","topLevelMapKey":"yKYTzM02F3","mapKeyChain":"yKYTzM02F3","guideID":"yuRSQm1Ma","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniStem.tspod","chartKey":"yKYTzM02F3","isLeaf":false,"options":[{"id":"yuRSQy1CG","option":"Mini Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zlgp2Rc","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniStem_frags"},"fragment":{"id":"z6zlgp2Rc","topLevelMapKey":"yKYTzM02F3","mapKeyChain":"yKYTzM02F3","guideID":"z6zlgp0zg","chartKey":"yKYTzM02F3","isLeaf":false,"options":[{"id":"z6zlh12D9","option":"Mini Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Kohlrabi ‘Mini Stem’
 

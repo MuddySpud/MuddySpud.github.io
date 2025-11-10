@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/ButterClamCreamDot_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRUMH1O2","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ButterClamCreamDot_frags"},"fragment":{"id":"yuRUMH1O2","topLevelMapKey":"yUxzDu01SI","mapKeyChain":"yUxzDu01SI","guideID":"yuRUMH0uF","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/ButterClamCreamDot.tspod","chartKey":"yUxzDu01SI","isLeaf":false,"options":[{"id":"yuRUMS2IE","option":"Cream-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6znW30SK","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ButterClamCreamDot_frags"},"fragment":{"id":"z6znW30SK","topLevelMapKey":"yUxzDu01SI","mapKeyChain":"yUxzDu01SI","guideID":"z6znW30eX","chartKey":"yUxzDu01SI","isLeaf":false,"options":[{"id":"z6znWF0rW","option":"Cream-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Butter Clam ‘Cream-Dot’
 

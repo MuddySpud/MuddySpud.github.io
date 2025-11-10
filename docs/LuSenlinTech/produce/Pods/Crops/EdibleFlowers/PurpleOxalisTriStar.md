@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/PurpleOxalisTriSt
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"yuRSmL1kk","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/PurpleOxalisTriStar_frags"},"fragment":{"id":"yuRSmL1kk","topLevelMapKey":"yQF48Q02HB","mapKeyChain":"yQF48Q02HB","guideID":"yuRSmL1Me","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/PurpleOxalisTriStar.tspod","chartKey":"yQF48Q02HB","isLeaf":false,"options":[{"id":"yuRSmX2HK","option":"TriStar - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"z6zm300ZE","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/PurpleOxalisTriStar_frags"},"fragment":{"id":"z6zm300ZE","topLevelMapKey":"yQF48Q02HB","mapKeyChain":"yQF48Q02HB","guideID":"z6zm30263","chartKey":"yQF48Q02HB","isLeaf":false,"options":[{"id":"z6zm3B1HG","option":"TriStar - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Purple Oxalis ‘TriStar’
 
