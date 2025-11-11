@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUTt31vw","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_frags"},"fragment":{"id":"zAUTt31vw","topLevelMapKey":"yUtVwu02Zq","mapKeyChain":"yUtVwu02Zq","guideID":"zAUTt32Lb","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold.tspod","chartKey":"yUtVwu02Zq","isLeaf":false,"options":[{"id":"zAUTtD2LQ","option":"Metro-Gold - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvqta0oN","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_frags"},"fragment":{"id":"zGvqta0oN","topLevelMapKey":"yUtVwu02Zq","mapKeyChain":"yUtVwu02Zq","guideID":"zGvqta1wD","chartKey":"yUtVwu02Zq","isLeaf":false,"options":[{"id":"zGvqtj2Q6","option":"Metro-Gold - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Manila Clam ‘Metro-Gold’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/MilkSnailLacteaUrban_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUBT1kU","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MilkSnailLacteaUrban_frags"},"fragment":{"id":"zAUUBT1kU","topLevelMapKey":"yV14R801BL","mapKeyChain":"yV14R801BL","guideID":"zAUUBT0LM","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/MilkSnailLacteaUrban.tspod","chartKey":"yV14R801BL","isLeaf":false,"options":[{"id":"zAUUBd1HO","option":"Lactea Urban - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrLn1cB","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MilkSnailLacteaUrban_frags"},"fragment":{"id":"zGvrLn1cB","topLevelMapKey":"yV14R801BL","mapKeyChain":"yV14R801BL","guideID":"zGvrLn2QV","chartKey":"yV14R801BL","isLeaf":false,"options":[{"id":"zGvrML0sm","option":"Lactea Urban - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Milk Snail ‘Lactea Urban’
 

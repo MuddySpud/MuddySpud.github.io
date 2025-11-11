@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/PurpleHolyBasilDuo_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUP00vr","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/PurpleHolyBasilDuo_frags"},"fragment":{"id":"zAUUP00vr","topLevelMapKey":"yANXIy018g","mapKeyChain":"yANXIy018g","guideID":"zAUUP01ex","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/PurpleHolyBasilDuo.tspod","chartKey":"yANXIy018g","isLeaf":false,"options":[{"id":"zAUUP604A","option":"Purple Holy Basil Duo - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvraa0NT","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/PurpleHolyBasilDuo_frags"},"fragment":{"id":"zGvraa0NT","topLevelMapKey":"yANXIy018g","mapKeyChain":"yANXIy018g","guideID":"zGvraa1a8","chartKey":"yANXIy018g","isLeaf":false,"options":[{"id":"zGvran2CI","option":"Purple Holy Basil Duo - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Purple Holy Basil Duo (green & deep-violet pair)
 

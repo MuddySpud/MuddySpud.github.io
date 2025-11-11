@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEve
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAURud2MZ","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEverPink_frags"},"fragment":{"id":"zAURud2MZ","topLevelMapKey":"yKPBrN00kI","mapKeyChain":"yKPBrN00kI","guideID":"zAURud1sS","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEverPink.tspod","chartKey":"yKPBrN00kI","isLeaf":false,"options":[{"id":"zAURuo0p9","option":"EverPink - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvnsf2R5","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEverPink_frags"},"fragment":{"id":"zGvnsf2R5","topLevelMapKey":"yKPBrN00kI","mapKeyChain":"yKPBrN00kI","guideID":"zGvnsf0KN","chartKey":"yKPBrN00kI","isLeaf":false,"options":[{"id":"zGvnsu13u","option":"EverPink - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Alpine Strawberry ‘EverPink’
 

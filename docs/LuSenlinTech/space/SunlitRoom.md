@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/SunlitRoom_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUQSK0bG","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/SunlitRoom_frags"},"fragment":{"id":"zAUQSK0bG","topLevelMapKey":"s7LPoI1Jr","mapKeyChain":"s7LPoI1Jr","guideID":"zAUQSK1gx","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/SunlitRoom.tsmap","chartKey":"s7LPoI1Jr","isLeaf":false,"options":[{"id":"zAUQSZ2W0","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"zAUQSj0Ej","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvm93038","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/SunlitRoom_frags"},"fragment":{"id":"zGvm93038","topLevelMapKey":"s7LPoI1Jr","mapKeyChain":"s7LPoI1Jr","guideID":"zGvm931qr","chartKey":"s7LPoI1Jr","isLeaf":false,"options":[{"id":"zGvm9H14J","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"zGvm9R1Vw","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
 
 ## Sunlit Room
 

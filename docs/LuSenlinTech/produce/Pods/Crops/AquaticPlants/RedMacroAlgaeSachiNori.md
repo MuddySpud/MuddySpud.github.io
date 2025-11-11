@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedMacroAlgaeSach
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUSm20nW","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedMacroAlgaeSachiNori_frags"},"fragment":{"id":"zAUSm20nW","topLevelMapKey":"y4bDoP01hE","mapKeyChain":"y4bDoP01hE","guideID":"zAUSm21So","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedMacroAlgaeSachiNori.tspod","chartKey":"y4bDoP01hE","isLeaf":false,"options":[{"id":"zAUSmC2TX","option":"Sachi-Nori - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvpAu0Zi","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/RedMacroAlgaeSachiNori_frags"},"fragment":{"id":"zGvpAu0Zi","topLevelMapKey":"y4bDoP01hE","mapKeyChain":"y4bDoP01hE","guideID":"zGvpAu0SJ","chartKey":"y4bDoP01hE","isLeaf":false,"options":[{"id":"zGvpBE1iz","option":"Sachi-Nori - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red Macro-Algae ‘Sachi-Nori’ *(Porphyra sp. - mini nori sheets)*
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/SpirulinaMatBlueC
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUSoJ0jr","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/SpirulinaMatBlueCore_frags"},"fragment":{"id":"zAUSoJ0jr","topLevelMapKey":"y4d25L00ah","mapKeyChain":"y4d25L00ah","guideID":"zAUSoJ2AQ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/AquaticPlants/SpirulinaMatBlueCore.tspod","chartKey":"y4d25L00ah","isLeaf":false,"options":[{"id":"zAUSob1KG","option":"BlueCore - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvpDw02X","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/SpirulinaMatBlueCore_frags"},"fragment":{"id":"zGvpDw02X","topLevelMapKey":"y4d25L00ah","mapKeyChain":"y4d25L00ah","guideID":"zGvpDw1bZ","chartKey":"y4d25L00ah","isLeaf":false,"options":[{"id":"zGvpEE0N3","option":"BlueCore - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Spirulina Mat ‘BlueCore’ *(edible cyanobacteria bio-film cassette)*
 

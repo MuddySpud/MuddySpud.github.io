@@ -1,21 +1,21 @@
 {
     "v": "1",
     "r": {
-        "i": "zAUQmH0VR",
+        "i": "zGvmTY0LD",
         "n": "s7LPkr1pv",
         "o": [
             {
-                "i": "zAUQmV1sd",
+                "i": "zGvmTy0yB",
                 "n": "s7LPkr1GS",
                 "_x": "s7LPkr1rO"
             },
             {
-                "i": "zAUQmj0XV",
+                "i": "zGvmU90jK",
                 "n": "s7LPkr2MR",
                 "_x": "s7LPkr1rO"
             },
             {
-                "i": "zAUQmr1t3",
+                "i": "zGvmUH1Jv",
                 "n": "s7LPkr0Wo",
                 "_x": "s7LPkr1rO"
             }
@@ -23,6 +23,6 @@
     },
     "e": 1,
     "mv": {
-        "spaceDisplayText": "space"
+        "spaceDisplayText": "in your vertical garden location"
     }
 }

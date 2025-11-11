@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/GroundCherryUrbanLa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUS0g0Km","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/GroundCherryUrbanLantern_frags"},"fragment":{"id":"zAUS0g0Km","topLevelMapKey":"yKRO5I01oS","mapKeyChain":"yKRO5I01oS","guideID":"zAUS0g1cD","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/FruitingVeg/GroundCherryUrbanLantern.tspod","chartKey":"yKRO5I01oS","isLeaf":false,"options":[{"id":"zAUS0r1uP","option":"Urban Lantern - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvo4J2Tz","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/GroundCherryUrbanLantern_frags"},"fragment":{"id":"zGvo4J2Tz","topLevelMapKey":"yKRO5I01oS","mapKeyChain":"yKRO5I01oS","guideID":"zGvo4J1wn","chartKey":"yKRO5I01oS","isLeaf":false,"options":[{"id":"zGvo4a0Ia","option":"Urban Lantern - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Ground Cherry ‘Urban Lantern’
 

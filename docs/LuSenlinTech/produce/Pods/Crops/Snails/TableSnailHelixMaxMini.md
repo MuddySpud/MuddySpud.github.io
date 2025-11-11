@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/TableSnailHelixMaxMini_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUU5s0HQ","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/TableSnailHelixMaxMini_frags"},"fragment":{"id":"zAUU5s0HQ","topLevelMapKey":"yUyjHF00x2","mapKeyChain":"yUyjHF00x2","guideID":"zAUU5s0bC","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/TableSnailHelixMaxMini.tspod","chartKey":"yUyjHF00x2","isLeaf":false,"options":[{"id":"zAUU6209E","option":"Helix Max-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrCm2Da","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/TableSnailHelixMaxMini_frags"},"fragment":{"id":"zGvrCm2Da","topLevelMapKey":"yUyjHF00x2","mapKeyChain":"yUyjHF00x2","guideID":"zGvrCm0SM","chartKey":"yUyjHF00x2","isLeaf":false,"options":[{"id":"zGvrCz22G","option":"Helix Max-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Table Snail ‘Helix Max-Mini’
 

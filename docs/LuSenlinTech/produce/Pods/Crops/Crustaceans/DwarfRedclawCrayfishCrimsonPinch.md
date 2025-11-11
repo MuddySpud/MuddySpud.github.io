@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/DwarfRedclawCrayfis
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUTkj0yv","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/DwarfRedclawCrayfishCrimsonPinch_frags"},"fragment":{"id":"zAUTkj0yv","topLevelMapKey":"yUnlMq017C","mapKeyChain":"yUnlMq017C","guideID":"zAUTkj0ub","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Crustaceans/DwarfRedclawCrayfishCrimsonPinch.tspod","chartKey":"yUnlMq017C","isLeaf":false,"options":[{"id":"zAUTkt25A","option":"Crimson Pinch - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvqgq1FL","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/DwarfRedclawCrayfishCrimsonPinch_frags"},"fragment":{"id":"zGvqgq1FL","topLevelMapKey":"yUnlMq017C","mapKeyChain":"yUnlMq017C","guideID":"zGvqgq19N","chartKey":"yUnlMq017C","isLeaf":false,"options":[{"id":"zGvqh31OU","option":"Crimson Pinch - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Redclaw Crayfish ‘Crimson Pinch’
 

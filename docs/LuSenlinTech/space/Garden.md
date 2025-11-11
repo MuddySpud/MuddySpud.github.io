@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Garden_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUQQ71cr","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"zAUQQ71cr","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"zAUQQ70WL","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/space/Garden.tsmap","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"zAUQQP0iO","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"zAUQQZ2Mj","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvm6A2MJ","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"zGvm6A2MJ","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"zGvm6A2Nm","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"zGvm6O0eC","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"zGvm6Y1yi","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
 
 ## Garden
 

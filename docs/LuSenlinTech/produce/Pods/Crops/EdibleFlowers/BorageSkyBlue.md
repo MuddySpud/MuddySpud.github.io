@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUSRZ0RV","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"zAUSRZ0RV","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"zAUSRZ1ms","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue.tspod","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"zAUSRe1Hg","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvogu07l","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"zGvogu07l","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"zGvogu2Qv","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"zGvoh30Sj","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Borage ‘Sky-Blue’
 

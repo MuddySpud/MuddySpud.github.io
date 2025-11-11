@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAURYS07w","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_frags"},"fragment":{"id":"zAURYS07w","topLevelMapKey":"yG457800Iq","mapKeyChain":"yG457800Iq","guideID":"zAURYS1oR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin.tspod","chartKey":"yG457800Iq","isLeaf":false,"options":[{"id":"zAURYc0wi","option":"Metro-Spin - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvnMX1Xi","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_frags"},"fragment":{"id":"zGvnMX1Xi","topLevelMapKey":"yG457800Iq","mapKeyChain":"yG457800Iq","guideID":"zGvnMX1rf","chartKey":"yG457800Iq","isLeaf":false,"options":[{"id":"zGvnMn1CJ","option":"Metro-Spin - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Komatsuna ‘Metro-Spin’
 

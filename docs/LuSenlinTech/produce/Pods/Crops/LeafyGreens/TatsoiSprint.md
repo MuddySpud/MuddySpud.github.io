@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAURX024G","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags"},"fragment":{"id":"zAURX024G","topLevelMapKey":"yG3UFL02Tu","mapKeyChain":"yG3UFL02Tu","guideID":"zAURX01dc","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint.tspod","chartKey":"yG3UFL02Tu","isLeaf":false,"options":[{"id":"zAURXA0Jc","option":"Sprint - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvnKc1mU","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags"},"fragment":{"id":"zGvnKc1mU","topLevelMapKey":"yG3UFL02Tu","mapKeyChain":"yG3UFL02Tu","guideID":"zGvnKc1vF","chartKey":"yG3UFL02Tu","isLeaf":false,"options":[{"id":"zGvnKq2JV","option":"Sprint - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Tatsoi ‘Sprint’
 

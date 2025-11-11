@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SaladBurnetCucumb
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUSad2Z3","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SaladBurnetCucumberDrop_frags"},"fragment":{"id":"zAUSad2Z3","topLevelMapKey":"yQDgrg026J","mapKeyChain":"yQDgrg026J","guideID":"zAUSad0ya","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SaladBurnetCucumberDrop.tspod","chartKey":"yQDgrg026J","isLeaf":false,"options":[{"id":"zAUSao14n","option":"Cucumber Drop - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvouA27g","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SaladBurnetCucumberDrop_frags"},"fragment":{"id":"zGvouA27g","topLevelMapKey":"yQDgrg026J","mapKeyChain":"yQDgrg026J","guideID":"zGvouA2FR","chartKey":"yQDgrg026J","isLeaf":false,"options":[{"id":"zGvouN1c7","option":"Cucumber Drop - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Salad Burnet ‘Cucumber Drop’
 

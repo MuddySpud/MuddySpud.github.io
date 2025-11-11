@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/StripedNeriteNeriSnack_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUMC0jd","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/StripedNeriteNeriSnack_frags"},"fragment":{"id":"zAUUMC0jd","topLevelMapKey":"yV3puh012a","mapKeyChain":"yV3puh012a","guideID":"zAUUMC0WX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Snails/StripedNeriteNeriSnack.tspod","chartKey":"yV3puh012a","isLeaf":false,"options":[{"id":"zAUUMH0My","option":"Neri-Snack - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrWg1Py","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/StripedNeriteNeriSnack_frags"},"fragment":{"id":"zGvrWg1Py","topLevelMapKey":"yV3puh012a","mapKeyChain":"yV3puh012a","guideID":"zGvrWg2KI","chartKey":"yV3puh012a","isLeaf":false,"options":[{"id":"zGvrWs0QQ","option":"Neri-Snack - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Striped Nerite ‘Neri-Snack’
 

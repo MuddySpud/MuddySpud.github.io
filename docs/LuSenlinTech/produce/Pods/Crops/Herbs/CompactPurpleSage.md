@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/CompactPurpleSage_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUdi1qh","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/CompactPurpleSage_frags"},"fragment":{"id":"zAUUdi1qh","topLevelMapKey":"yAVsWp008W","mapKeyChain":"yAVsWp008W","guideID":"zAUUdi1eB","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/CompactPurpleSage.tspod","chartKey":"yAVsWp008W","isLeaf":false,"options":[{"id":"zAUUdm0Wu","option":"Plum-Sage - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrw21yX","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/CompactPurpleSage_frags"},"fragment":{"id":"zGvrw21yX","topLevelMapKey":"yAVsWp008W","mapKeyChain":"yAVsWp008W","guideID":"zGvrw21Hn","chartKey":"yAVsWp008W","isLeaf":false,"options":[{"id":"zGvrwF0oZ","option":"Plum-Sage - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Compact Purple Sage ‘Plum-Sage’
 

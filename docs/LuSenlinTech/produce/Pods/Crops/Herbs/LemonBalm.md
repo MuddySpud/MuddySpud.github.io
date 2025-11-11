@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/LemonBalm_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUXi1Rb","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/LemonBalm_frags"},"fragment":{"id":"zAUUXi1Rb","topLevelMapKey":"yASNs900K9","mapKeyChain":"yASNs900K9","guideID":"zAUUXi1SX","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/LemonBalm.tspod","chartKey":"yASNs900K9","isLeaf":false,"options":[{"id":"zAUUXm0gG","option":"Citro-Edge - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrnq1Vf","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/LemonBalm_frags"},"fragment":{"id":"zGvrnq1Vf","topLevelMapKey":"yASNs900K9","mapKeyChain":"yASNs900K9","guideID":"zGvrnq0fk","chartKey":"yASNs900K9","isLeaf":false,"options":[{"id":"zGvro21N9","option":"Citro-Edge - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Lemon Balm ‘Citro-Edge’
 

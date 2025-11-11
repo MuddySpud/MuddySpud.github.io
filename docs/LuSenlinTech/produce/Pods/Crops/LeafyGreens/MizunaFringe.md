@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/MizunaFringe_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAURcy28J","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/MizunaFringe_frags"},"fragment":{"id":"zAURcy28J","topLevelMapKey":"yG6rmu01is","mapKeyChain":"yG6rmu01is","guideID":"zAURcy094","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/LeafyGreens/MizunaFringe.tspod","chartKey":"yG6rmu01is","isLeaf":false,"options":[{"id":"zAURd90fQ","option":"Fringe - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvnTF0LW","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/MizunaFringe_frags"},"fragment":{"id":"zGvnTF0LW","topLevelMapKey":"yG6rmu01is","mapKeyChain":"yG6rmu01is","guideID":"zGvnTF1m2","chartKey":"yG6rmu01is","isLeaf":false,"options":[{"id":"zGvnTT0e2","option":"Fringe - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mizuna ‘Fringe’
 

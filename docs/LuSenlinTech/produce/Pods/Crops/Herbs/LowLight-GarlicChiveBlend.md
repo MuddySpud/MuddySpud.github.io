@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/LowLight-GarlicChiveBlend
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUUWK03a","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/LowLight-GarlicChiveBlend_frags"},"fragment":{"id":"zAUUWK03a","topLevelMapKey":"yARTTc01RW","mapKeyChain":"yARTTc01RW","guideID":"zAUUWK2ZQ","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Herbs/LowLight-GarlicChiveBlend.tspod","chartKey":"yARTTc01RW","isLeaf":false,"options":[{"id":"zAUUWP1b6","option":"Chive Blend - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvrlv1WG","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/LowLight-GarlicChiveBlend_frags"},"fragment":{"id":"zGvrlv1WG","topLevelMapKey":"yARTTc01RW","mapKeyChain":"yARTTc01RW","guideID":"zGvrlv2YX","chartKey":"yARTTc01RW","isLeaf":false,"options":[{"id":"zGvrm917z","option":"Chive Blend - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Low-Light Chive / Garlic-Chive Blend
 

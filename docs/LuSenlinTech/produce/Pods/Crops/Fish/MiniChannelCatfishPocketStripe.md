@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/MiniChannelCatfishPocketSt
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zAUTQF0Gx","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/MiniChannelCatfishPocketStripe_frags"},"fragment":{"id":"zAUTQF0Gx","topLevelMapKey":"yUeRBW00SQ","mapKeyChain":"yUeRBW00SQ","guideID":"zAUTQF0BR","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/LuSenlinTech/produce/Pods/Crops/Fish/MiniChannelCatfishPocketStripe.tspod","chartKey":"yUeRBW00SQ","isLeaf":false,"options":[{"id":"zAUTQQ2TD","option":"Pocket Stripe - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"zGvqAw2TI","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/MiniChannelCatfishPocketStripe_frags"},"fragment":{"id":"zGvqAw2TI","topLevelMapKey":"yUeRBW00SQ","mapKeyChain":"yUeRBW00SQ","guideID":"zGvqAw2XF","chartKey":"yUeRBW00SQ","isLeaf":false,"options":[{"id":"zGvqBA0Wl","option":"Pocket Stripe - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Channel Catfish ‘Pocket Stripe’
 
