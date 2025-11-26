@@ -6,25 +6,21 @@ fragsFolderPath: index_frags
 
 ---
 
-
-<!-- tsGuideRenderComment {"guide":{"id":"yAZOow1nw","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"yAZOow1nw","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"yAZOow1r5","guidePath":"c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/DocumentationHell.tsmap","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"yAZOqO0v9","option":"Explore a Docs Assembler solution ","order":1},{"id":"yAZOqg1NU","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWaRX2YD","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"10aWaRX2YD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"10aWaRX09D","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"10aWaT82YL","option":"Explore a Docs Assembler solution","order":1},{"id":"10aWaTM1Qe","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
-*This site is built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and hosted on [GitHub Pages](https://docs.github.com/en/pages). You can view the source code and documentation structure in the [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo).*
+*This site is built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and hosted on [GitHub Pages](https://docs.github.com/en/pages). You can view the documentation structure in the [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo) or the [Docs Assembler Demo Sandbox repo](https://github.com/CompositeFlows/DocsAssemblerDemoSandbox).*
 
 # Escape Documentation Hell
 
-###### [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler):
-{: .nt-fr-ul-header}
+[Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
 
-- is a specialised text editor for building and managing complex documentation.
-- is useful for adapting a core set of instructions to real-world scenarios without duplicating text.
-- creates a single, authoritative system where your organisation's entire knowledge base is interconnected and always consistent.
+Text is built from reusable content parts. If you change a part, it updates everywhere. 
 
-It allows you to capture complex thinking and simplify intricate systems into a single source of truth. The result is a dynamic, auditable, and unified decision system that can guide an entire organisation, even through a crisis. It works by mapping out precise, authorised paths for resolving critical situations - all grounded in your organisation's verifiable knowledge. These paths can be used directly or referenced by AI Agents to improve customer support.
+There is no lock‑in - it publishes to plain Markdown files, so you can uninstall [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and continue working with your files as before.
 
-This entire website is a live example. The 'Vertical Kitchen Garden Planner' demo below shows the kind of detailed pathways you can build using [Docs Assembler's](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) text files.
+This website is a guide built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler). The 'Vertical Kitchen Garden Planner' below, is a component embedded within it to give an idea of the complexity these guides can manage.
 
 ### The Problem with Traditional Manuals
 
