@@ -13,8 +13,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-  # Explicitly include your custom extensions
-  extensions: markdown,tsfrg,md
 
 # Disable all caching
 disable_disk_cache: true
