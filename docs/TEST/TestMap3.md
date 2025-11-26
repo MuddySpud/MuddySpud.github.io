@@ -11,5 +11,5 @@ fragsFolderPath: TEST/TestMap3_frags
 
 root
 
-[TestMap v3](./TEST/TestMap.md)
+[TestMap v4](./TEST/TestMap.md)
 
