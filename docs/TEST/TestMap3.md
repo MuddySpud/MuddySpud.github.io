@@ -7,9 +7,9 @@ fragsFolderPath: TEST/TestMap3_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10cVcsa1hp","path":"TEST","fragmentFolderPath":"TEST/TestMap3_frags"},"fragment":{"id":"10cVcsa1hp","topLevelMapKey":"10PPHFG013m","mapKeyChain":"10PPHFG013m","guideID":"10cVcsa2XY","chartKey":"10PPHFG013m","isLeaf":false,"options":[{"id":"10cVcsq2Tr","option":"option 2","order":1}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10gMTkJ0ar","path":"TEST","fragmentFolderPath":"TEST/TestMap3_frags"},"fragment":{"id":"10gMTkJ0ar","topLevelMapKey":"10PPHFG013m","mapKeyChain":"10PPHFG013m","guideID":"10gMTkJ2Yy","chartKey":"10PPHFG013m","isLeaf":false,"options":[{"id":"10gMTkb1sE","option":"option 2","order":1}]}} -->
 
 root
 
-[TestMap v4](./TEST/TestMap.md)
+[TestMap](/TEST/TestMap/)
 
