@@ -1,5 +1,5 @@
 {
-  "name": "fragment-renderer",
+  "name": "DocsAssemblerDemoSandbox",
   "version": "0.0.1",
   "author": "netoftrees",
   "type": "module",
@@ -8,13 +8,11 @@
     "dev": "vite",
     "build": "tsc && vite build --mode production",
     "min-build": "tsc && npx vite build --config vite-min.config.js",
-    "serve": "vite preview --port 1226",
+    "serve": "vite preview --port 1223",
     "build:jekyll": "jekyll build",
-    "wsl:build:jekyll": "bundle exec jekyll build",
     "modify:html": "node modify-html.js",
     "build-modify:jekyll": "yarn build:jekyll && yarn modify:html",
-    "build-modify:jekyll-dev": "yarn build:jekyll && yarn modify:html && vite",
-    "wsl:build-modify:jekyll-dev": "yarn wsl:build:jekyll && yarn modify:html && vite"
+    "build-modify:jekyll-dev": "yarn build:jekyll && yarn modify:html && vite"
   },
   "devDependencies": {
     "@vitejs/plugin-basic-ssl": "^1.0.1",

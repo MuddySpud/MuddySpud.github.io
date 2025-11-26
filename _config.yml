@@ -15,20 +15,10 @@ defaults:
       path: "docs"
       type: pages
     values:
-      layout: default
-
-# Plugins
-plugins:
-  - jekyll-relative-links
-
-# Optional: configure relative_links (these are the defaults)
-relative_links:
-  enabled: true
-  collections: true
+      layout: simple
 
 # Disable all caching
 disable_disk_cache: true
 
 # Or more specific cache controls
 full_rebuild: true
-

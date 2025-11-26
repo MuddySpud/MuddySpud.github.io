@@ -5,20 +5,15 @@ permalink: pretty
 title: Docs Assembler demo guides
 markdown_ext: markdown,tsfrg,md
 
-# Plugins
-plugins:
-  - jekyll-relative-links
-
-# Optional: configure relative_links (these are the defaults)
-relative_links:
-  enabled: true
-  collections: true
-
+defaults:
+  - scope:
+      path: "" # Empty string for all files
+    values:
+      layout: "simple"
+      
 # Disable all caching
 disable_disk_cache: true
 
 # Or more specific cache controls
 full_rebuild: true
-
-
 
