@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvpeJ1Yx","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_frags"},"fragment":{"id":"zGvpeJ1Yx","topLevelMapKey":"yQKcZC00Lv","mapKeyChain":"yQKcZC00Lv","guideID":"zGvpeJ1HK","chartKey":"yQKcZC00Lv","isLeaf":false,"options":[{"id":"zGvpeX2ER","option":"BK-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWdzm0Xe","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/BlackKingTrumpetBKMini_frags"},"fragment":{"id":"10aWdzm0Xe","topLevelMapKey":"yQKcZC00Lv","mapKeyChain":"yQKcZC00Lv","guideID":"10aWdzm0KW","chartKey":"yQKcZC00Lv","isLeaf":false,"options":[{"id":"10aWe091PH","option":"BK-Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Black King Trumpet ‘BK-Mini’
 

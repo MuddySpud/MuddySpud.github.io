@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvr8u1dR","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky_frags"},"fragment":{"id":"zGvr8u1dR","topLevelMapKey":"yUxFyX01LG","mapKeyChain":"yUxFyX01LG","guideID":"zGvr8u10e","chartKey":"yUxFyX01LG","isLeaf":false,"options":[{"id":"zGvr980xN","option":"Surf-Sky - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWfHj0nJ","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/SkylineSurfClamSurfSky_frags"},"fragment":{"id":"10aWfHj0nJ","topLevelMapKey":"yUxFyX01LG","mapKeyChain":"yUxFyX01LG","guideID":"10aWfHj1Vp","chartKey":"yUxFyX01LG","isLeaf":false,"options":[{"id":"10aWfHw0Yz","option":"Surf-Sky - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Skyline Surf Clam ‘Surf-Sky’
 

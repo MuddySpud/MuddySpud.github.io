@@ -7,6 +7,6 @@ fragsFolderPath: Technical/Hallucinations_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvm1R0ro","path":"Technical","fragmentFolderPath":"Technical/Hallucinations_frags"},"fragment":{"id":"zGvm1R0ro","topLevelMapKey":"u5Yi1402Vi","mapKeyChain":"u5Yi1402Vi","guideID":"zGvm1R1W9","chartKey":"u5Yi1402Vi","isLeaf":false,"options":[{"id":"zGvm1b2HQ","order":1},{"id":"zGvm241td","option":"What are LLMs?","order":2,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWaZv2KH","path":"Technical","fragmentFolderPath":"Technical/Hallucinations_frags"},"fragment":{"id":"10aWaZv2KH","topLevelMapKey":"u5Yi1402Vi","mapKeyChain":"u5Yi1402Vi","guideID":"10aWaZv1oG","chartKey":"u5Yi1402Vi","isLeaf":false,"options":[{"id":"10aWaaN03P","order":1},{"id":"10aWaap0QC","option":"What are LLMs?","order":2,"isAncillary":true}]}} -->
 
 ## Hallucinations in AI

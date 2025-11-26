@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarro
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvqnH2a5","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarronette_frags"},"fragment":{"id":"zGvqnH2a5","topLevelMapKey":"yUr8Gl00cW","mapKeyChain":"yUr8Gl00cW","guideID":"zGvqnH29J","chartKey":"yUr8Gl00cW","isLeaf":false,"options":[{"id":"zGvqnX0KA","option":"Blue Marronette - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWewq0aZ","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniMarronBlueMarronette_frags"},"fragment":{"id":"10aWewq0aZ","topLevelMapKey":"yUr8Gl00cW","mapKeyChain":"yUr8Gl00cW","guideID":"10aWewq06q","chartKey":"yUr8Gl00cW","isLeaf":false,"options":[{"id":"10aWex40lG","option":"Blue Marronette - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Marron ‘Blue Marronette’
 

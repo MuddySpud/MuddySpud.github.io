@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvo8O11w","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_frags"},"fragment":{"id":"zGvo8O11w","topLevelMapKey":"yKTq5Y01gj","mapKeyChain":"yKTq5Y01gj","guideID":"zGvo8O0qR","chartKey":"yKTq5Y01gj","isLeaf":false,"options":[{"id":"zGvo8e0JH","option":"Ruby 2 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWceJ291","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyBeetRuby2_frags"},"fragment":{"id":"10aWceJ291","topLevelMapKey":"yKTq5Y01gj","mapKeyChain":"yKTq5Y01gj","guideID":"10aWceJ1bt","chartKey":"yKTq5Y01gj","isLeaf":false,"options":[{"id":"10aWceV1rt","option":"Ruby 2 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Beet ‘Ruby 2’
 

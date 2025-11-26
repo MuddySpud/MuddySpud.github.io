@@ -1,13 +1,9 @@
 // https://stackoverflow.com/questions/69417788/vite-https-on-localhost
 
-// npm i vite-plugin-mkcert -D
-
-
 import { defineConfig } from 'vite';
-import mkcert from 'vite-plugin-mkcert';
+import fs from 'fs';
 import path from 'path';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
-
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,14 +33,15 @@ export default defineConfig({
     },
 
     server: {
-
         port: 1226,
         strictPort: true,
-        https: true
+        https: {
+            key: fs.readFileSync(path.resolve(__dirname, 'localhost-key.pem')),
+            cert: fs.readFileSync(path.resolve(__dirname, 'localhost.pem'))
+        }
     },
 
     plugins: [
-        mkcert(),
         // visualizer(),
         viteStaticCopy({
             targets: [

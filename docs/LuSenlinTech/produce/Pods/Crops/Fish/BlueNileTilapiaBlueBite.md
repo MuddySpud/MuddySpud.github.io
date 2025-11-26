@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/BlueNileTilapiaBlueBite_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvq5p1nT","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/BlueNileTilapiaBlueBite_frags"},"fragment":{"id":"zGvq5p1nT","topLevelMapKey":"yUdPEL01nr","mapKeyChain":"yUdPEL01nr","guideID":"zGvq5p1ok","chartKey":"yUdPEL01nr","isLeaf":false,"options":[{"id":"zGvq622Sv","option":"BlueBite - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWeNQ14r","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/BlueNileTilapiaBlueBite_frags"},"fragment":{"id":"10aWeNQ14r","topLevelMapKey":"yUdPEL01nr","mapKeyChain":"yUdPEL01nr","guideID":"10aWeNQ0zG","chartKey":"yUdPEL01nr","isLeaf":false,"options":[{"id":"10aWeNh2NZ","option":"BlueBite - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Blue Nile Tilapia ‘BlueBite’
 

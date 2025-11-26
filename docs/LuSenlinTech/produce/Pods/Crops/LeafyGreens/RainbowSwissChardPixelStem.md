@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/RainbowSwissChardPi
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvnOw1lh","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/RainbowSwissChardPixelStem_frags"},"fragment":{"id":"zGvnOw1lh","topLevelMapKey":"yG5OYS02Ty","mapKeyChain":"yG5OYS02Ty","guideID":"zGvnOw0hv","chartKey":"yG5OYS02Ty","isLeaf":false,"options":[{"id":"zGvnPB0Ks","option":"Pixel-Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWc271x8","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/RainbowSwissChardPixelStem_frags"},"fragment":{"id":"10aWc271x8","topLevelMapKey":"yG5OYS02Ty","mapKeyChain":"yG5OYS02Ty","guideID":"10aWc270Oc","chartKey":"yG5OYS02Ty","isLeaf":false,"options":[{"id":"10aWc2P1mb","option":"Pixel-Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Rainbow Swiss Chard ‘Pixel-Stem’
 

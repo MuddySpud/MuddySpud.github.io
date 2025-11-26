@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/MalabarSpinachRub
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvowL2Z0","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/MalabarSpinachRubyVine_frags"},"fragment":{"id":"zGvowL2Z0","topLevelMapKey":"yQESZK01YR","mapKeyChain":"yQESZK01YR","guideID":"zGvowL155","chartKey":"yQESZK01YR","isLeaf":false,"options":[{"id":"zGvowc283","option":"Ruby Vine - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWdLE0qx","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/MalabarSpinachRubyVine_frags"},"fragment":{"id":"10aWdLE0qx","topLevelMapKey":"yQESZK01YR","mapKeyChain":"yQESZK01YR","guideID":"10aWdLE1xT","chartKey":"yQESZK01YR","isLeaf":false,"options":[{"id":"10aWdLQ1P4","option":"Ruby Vine - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Malabar Spinach ‘Ruby Vine’
 

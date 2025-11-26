@@ -1,0 +1,36 @@
+{
+    "key": "10bcd6W00Jc ",
+    "token": "Testmap4",
+    "name": "TestMap4",
+    "created": "2025-11-25T20:16:06.801Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestMap4/TestMap4.tsmap",
+    "iText": "Link to 'TestMap4'",
+    "___rΩΩt___": {
+        "key": "10bcgFn010n",
+        "nodes": [
+            {
+                "key": "10bcnA9019O",
+                "order": 1,
+                "option": "Next",
+                "isLeaf": true,
+                "iKey": "10baEHB1JZ"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-10bcgFn010n",
+            "relativePath": "./δ steps/δ-10bcgFn010n.tsstp"
+        },
+        {
+            "key": "δ-10bcnA9019O",
+            "relativePath": "./δ steps/δ-10bcnA9019O.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "10bdPfl02LI",
+        "editorID": "car_3cc9b25b650544b3ba1c7164d4ec59bf",
+        "ticks": 1764101953497
+    }
+}
