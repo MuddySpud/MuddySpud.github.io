@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/HerbivoreGoldfishFoodFin_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvqDC2E1","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/HerbivoreGoldfishFoodFin_frags"},"fragment":{"id":"zGvqDC2E1","topLevelMapKey":"yUf00k00UK","mapKeyChain":"yUf00k00UK","guideID":"zGvqDC1YY","chartKey":"yUf00k00UK","isLeaf":false,"options":[{"id":"zGvqDP2P7","option":"FoodFin - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWeTu0za","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/HerbivoreGoldfishFoodFin_frags"},"fragment":{"id":"10aWeTu0za","topLevelMapKey":"yUf00k00UK","mapKeyChain":"yUf00k00UK","guideID":"10aWeTu1t8","chartKey":"yUf00k00UK","isLeaf":false,"options":[{"id":"10aWeU91Hn","option":"FoodFin - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Herbivore Goldfish ‘FoodFin’
 

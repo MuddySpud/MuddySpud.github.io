@@ -33,7 +33,7 @@
                                                     {
                                                         "key": "u4eeh600MG",
                                                         "order": 1,
-                                                        "option": "Explore a Docs Assembler solution ",
+                                                        "option": "Explore a Docs Assembler solution",
                                                         "isHeadless": true,
                                                         "nodes": [
                                                             {
@@ -215,8 +215,8 @@
         }
     ],
     "___εdit___": {
-        "id": "xm4Ft100Tc",
-        "editorID": "car_9d8da625bc324deb9f60100155b50687",
-        "ticks": 1761507715599
+        "id": "zqe3o2000l",
+        "editorID": "car_7c5eb70c6739427984c57dcf078e7c7a",
+        "ticks": 1763407619978
     }
 }

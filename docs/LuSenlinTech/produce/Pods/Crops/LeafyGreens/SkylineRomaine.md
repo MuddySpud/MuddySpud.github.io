@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvnCZ1s7","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frags"},"fragment":{"id":"zGvnCZ1s7","topLevelMapKey":"yFoCR800N8","mapKeyChain":"yFoCR800N8","guideID":"zGvnCZ0m9","chartKey":"yFoCR800N8","isLeaf":false,"options":[{"id":"zGvnCn1Yl","option":"Skyline Romaine - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWbpt0Uv","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/SkylineRomaine_frags"},"fragment":{"id":"10aWbpt0Uv","topLevelMapKey":"yFoCR800N8","mapKeyChain":"yFoCR800N8","guideID":"10aWbpt0C8","chartKey":"yFoCR800N8","isLeaf":false,"options":[{"id":"10aWbq61MS","option":"Skyline Romaine - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Skyline Romaine
 

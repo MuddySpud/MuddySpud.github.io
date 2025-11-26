@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvopx04n","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_frags"},"fragment":{"id":"zGvopx04n","topLevelMapKey":"yQCOvW00N0","mapKeyChain":"yQCOvW00N0","guideID":"zGvopx2QA","chartKey":"yQCOvW00N0","isLeaf":false,"options":[{"id":"zGvoqB0sq","option":"Lemon Arrow - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWdFR1KG","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/SorrelLemonArrow_frags"},"fragment":{"id":"10aWdFR1KG","topLevelMapKey":"yQCOvW00N0","mapKeyChain":"yQCOvW00N0","guideID":"10aWdFR1nP","chartKey":"yQCOvW00N0","isLeaf":false,"options":[{"id":"10aWdFf09b","option":"Lemon Arrow - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Sorrel ‘Lemon Arrow’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEve
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvnsf2R5","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEverPink_frags"},"fragment":{"id":"zGvnsf2R5","topLevelMapKey":"yKPBrN00kI","mapKeyChain":"yKPBrN00kI","guideID":"zGvnsf0KN","chartKey":"yKPBrN00kI","isLeaf":false,"options":[{"id":"zGvnsu13u","option":"EverPink - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWcSa13Q","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/AlpineStrawberryEverPink_frags"},"fragment":{"id":"10aWcSa13Q","topLevelMapKey":"yKPBrN00kI","mapKeyChain":"yKPBrN00kI","guideID":"10aWcSa1dU","chartKey":"yKPBrN00kI","isLeaf":false,"options":[{"id":"10aWcSn1m4","option":"EverPink - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Alpine Strawberry ‘EverPink’
 

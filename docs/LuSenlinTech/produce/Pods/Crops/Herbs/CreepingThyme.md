@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/CreepingThyme_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvs1f2Z1","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/CreepingThyme_frags"},"fragment":{"id":"zGvs1f2Z1","topLevelMapKey":"yATaol0249","mapKeyChain":"yATaol0249","guideID":"zGvs1f16K","chartKey":"yATaol0249","isLeaf":false,"options":[{"id":"zGvs1t1SV","option":"Tiny-Thymus - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWg8x1Jq","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/CreepingThyme_frags"},"fragment":{"id":"10aWg8x1Jq","topLevelMapKey":"yATaol0249","mapKeyChain":"yATaol0249","guideID":"10aWg8x2SC","chartKey":"yATaol0249","isLeaf":false,"options":[{"id":"10aWg9A1w9","option":"Tiny-Thymus - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Creeping Thyme ‘Tiny-Thymus’
 

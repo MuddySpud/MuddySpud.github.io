@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/PatioCherryTomatoSu
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvndt2aW","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/PatioCherryTomatoSunDot_frags"},"fragment":{"id":"zGvndt2aW","topLevelMapKey":"yIgWL3005J","mapKeyChain":"yIgWL3005J","guideID":"zGvndt2Ki","chartKey":"yIgWL3005J","isLeaf":false,"options":[{"id":"zGvne90qG","option":"Sun-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWcDo2Sb","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/PatioCherryTomatoSunDot_frags"},"fragment":{"id":"10aWcDo2Sb","topLevelMapKey":"yIgWL3005J","mapKeyChain":"yIgWL3005J","guideID":"10aWcDo2FF","chartKey":"yIgWL3005J","isLeaf":false,"options":[{"id":"10aWcDz1sz","option":"Sun-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Patio Cherry Tomato ‘Sun-Dot’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWh
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvoDB1S6","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite_frags"},"fragment":{"id":"zGvoDB1S6","topLevelMapKey":"yKV2VE0040","mapKeyChain":"yKV2VE0040","guideID":"zGvoDB0M0","chartKey":"yKV2VE0040","isLeaf":false,"options":[{"id":"zGvoDP1Vy","option":"Metro-White - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWciW20f","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/MiniDaikonMetroWhite_frags"},"fragment":{"id":"10aWciW20f","topLevelMapKey":"yKV2VE0040","mapKeyChain":"yKV2VE0040","guideID":"10aWciW2IG","chartKey":"yKV2VE0040","isLeaf":false,"options":[{"id":"10aWcij14L","option":"Metro-White - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Daikon ‘Metro-White’
 

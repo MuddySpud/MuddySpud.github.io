@@ -7,7 +7,7 @@ fragsFolderPath: Technical/DemoIntroduction_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvm0g0ht","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"zGvm0g0ht","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"zGvm0g0C4","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"zGvm0n28H","option":"Start the demo","order":1}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWaYz0y5","path":"Technical","fragmentFolderPath":"Technical/DemoIntroduction_frags"},"fragment":{"id":"10aWaYz0y5","topLevelMapKey":"u5gguY01On","mapKeyChain":"u5gguY01On","guideID":"10aWaYz2GB","chartKey":"u5gguY01On","isLeaf":false,"options":[{"id":"10aWaZG19Q","option":"Start the demo","order":1}]}} -->
 
 ## Explore a Docs Assembler Solution
 

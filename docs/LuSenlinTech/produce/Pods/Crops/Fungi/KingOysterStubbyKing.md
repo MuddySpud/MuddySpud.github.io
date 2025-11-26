@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/KingOysterStubbyKing_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvq1a1jT","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/KingOysterStubbyKing_frags"},"fragment":{"id":"zGvq1a1jT","topLevelMapKey":"yQnFd602Ji","mapKeyChain":"yQnFd602Ji","guideID":"zGvq1a0t7","chartKey":"yQnFd602Ji","isLeaf":false,"options":[{"id":"zGvq1n22V","option":"Stubby-King - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWeJF0LR","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/KingOysterStubbyKing_frags"},"fragment":{"id":"10aWeJF0LR","topLevelMapKey":"yQnFd602Ji","mapKeyChain":"yQnFd602Ji","guideID":"10aWeJF1ro","chartKey":"yQnFd602Ji","isLeaf":false,"options":[{"id":"10aWeJS02q","option":"Stubby-King - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### King Oyster ‘Stubby-King’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/WindowlessRoom_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvm7W0XA","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"zGvm7W0XA","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"zGvm7W1qJ","chartKey":"s7SMNu079","isLeaf":false,"options":[{"id":"zGvm7j1xJ","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"zGvm7u0h7","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWah31H2","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/WindowlessRoom_frags"},"fragment":{"id":"10aWah31H2","topLevelMapKey":"s7SMNu079","mapKeyChain":"s7SMNu079","guideID":"10aWah42Lk","chartKey":"s7SMNu079","isLeaf":false,"options":[{"id":"10aWahH1DK","option":"Has power supply","iExitKey":"ytLNSq01qu","order":1},{"id":"10aWahZ0hY","option":"No power supply","iExitKey":"ytLP1Q00bO","order":2}],"iKey":"ytJKIf021t"}} -->
 
 ## Windowless Room
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfZucchiniCityZu
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvnof0JV","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfZucchiniCityZuke_frags"},"fragment":{"id":"zGvnof0JV","topLevelMapKey":"yIkgMi01lX","mapKeyChain":"yIkgMi01lX","guideID":"zGvnof126","chartKey":"yIkgMi01lX","isLeaf":false,"options":[{"id":"zGvnom2Uf","option":"City-Zuke - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWcOB07P","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/DwarfZucchiniCityZuke_frags"},"fragment":{"id":"10aWcOB07P","topLevelMapKey":"yIkgMi01lX","mapKeyChain":"yIkgMi01lX","guideID":"10aWcOB1z2","chartKey":"yIkgMi01lX","isLeaf":false,"options":[{"id":"10aWcOO1PU","option":"City-Zuke - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Zucchini ‘City-Zuke’
 

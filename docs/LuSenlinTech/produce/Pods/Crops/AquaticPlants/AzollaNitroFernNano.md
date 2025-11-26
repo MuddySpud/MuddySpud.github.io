@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvp980HV","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano_frags"},"fragment":{"id":"zGvp980HV","topLevelMapKey":"y4a2qP01yM","mapKeyChain":"y4a2qP01yM","guideID":"zGvp980Ap","chartKey":"y4a2qP01yM","isLeaf":false,"options":[{"id":"zGvp9F0xN","option":"Azolla - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWdXe1Ep","path":"LuSenlinTech/produce/Pods/Crops/AquaticPlants","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/AquaticPlants/AzollaNitroFernNano_frags"},"fragment":{"id":"10aWdXe1Ep","topLevelMapKey":"y4a2qP01yM","mapKeyChain":"y4a2qP01yM","guideID":"10aWdXe2Zf","chartKey":"y4a2qP01yM","isLeaf":false,"options":[{"id":"10aWdXs2QI","option":"Azolla - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Azolla ‘Nitro-Fern Nano’ *(floating N-fixing fern)*
 

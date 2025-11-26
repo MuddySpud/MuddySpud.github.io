@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNano
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"zGvokq0BN","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNanoWasabi_frags"},"fragment":{"id":"zGvokq0BN","topLevelMapKey":"yQBHZW02UD","mapKeyChain":"yQBHZW02UD","guideID":"zGvokq1oZ","chartKey":"yQBHZW02UD","isLeaf":false,"options":[{"id":"zGvol12GI","option":"Nano-Wasabi - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10aWdAv0oB","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/WasabiArugulaNanoWasabi_frags"},"fragment":{"id":"10aWdAv0oB","topLevelMapKey":"yQBHZW02UD","mapKeyChain":"yQBHZW02UD","guideID":"10aWdAv0qX","chartKey":"yQBHZW02UD","isLeaf":false,"options":[{"id":"10aWdBA1Qi","option":"Nano-Wasabi - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Wasabi Arugula ‘Nano-Wasabi’
 
