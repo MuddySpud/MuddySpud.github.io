@@ -13,10 +13,17 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+  # Explicitly include your custom extensions
+  extensions:
+    - ".md"
+    - ".markdown" 
+    - ".tsfrg"
 
 # Disable all caching
 disable_disk_cache: true
 
 # Or more specific cache controls
 full_rebuild: true
+
+
 
