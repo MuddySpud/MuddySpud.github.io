@@ -24,6 +24,11 @@ body {
 
     .sidebar-about {
 
+        h1 {
+            margin-bottom: 2rem;
+            line-height: 1.25;
+        }
+
         h4 {
             font-size: 18px;
             margin: 0 0 20px 0;
@@ -41,13 +46,37 @@ body {
             font-weight: 400;
         }
     }
-}
 
-.sidebar-about {
+    .sidebar-about-notes {
+        font-style: italic;
+        margin: 150px 0 30px 0;
+        font-size: 13px;
 
-    h1 {
-        margin-bottom: 2rem;
-        line-height: 1.25;
+        h6 {
+            font-size: 13px;
+            font-weight: 300;
+            margin: 0;
+            color: #8f8f8f;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        a {
+            color: #98bb87;
+            text-decoration: none;
+            display: inline;
+        }
+
+        ul {
+            padding: 0 0 0 20px;
+        }
+
+        li {
+            line-height: unset;
+            font-weight: 300;
+        }
     }
 }
 
@@ -617,18 +646,78 @@ body {
         padding-right: 15px;
         width: 315px;
     }
+
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 900px) {
 
-    .main-content {
-        padding: 10px 3px 10px 0;
+    .hamburger {
+        display: block;
+        background-color: #111111;
     }
-}
-
-@media (max-width: 800px) {
 
     .main-content {
         padding: 10px 3px 10px 20px;
+    }
+
+    .box-inner .sidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background-color: #111111;
+        transform: translateY(-100%);
+        height: unset;
+        width: 100%;
+
+        p {
+            max-width: unset;
+        }
+
+        .sidebar-about h4 {
+            margin-bottom: 6px;
+        }
+
+        .sidebar-about-notes {
+            margin: 50px 0 0 0;
+
+            P {
+                margin: 0;
+            }
+        }
+    }
+
+    #boxOuter.show-sidebar .sidebar {
+        transform: translateY(0);
+        top: 0;
+        right: unset;
+        height: unset;
+        overflow: hidden;
+    }
+
+    #boxOuter.show-sidebar .hamburger div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 4.5px);
+    }
+
+    #boxOuter.show-sidebar .hamburger div:nth-child(2) {
+        opacity: 0;
+    }
+
+    #boxOuter.show-sidebar .hamburger div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -4.5px);
+    }
+    
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-left: 50px;
     }
 }
