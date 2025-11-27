@@ -18,6 +18,31 @@ body {
     color: #e6e6e6;
 }
 
+.sidebar {
+    width: 350px;
+    padding: 30px 50px 30px 10px;
+
+    .sidebar-about {
+
+        h4 {
+            font-size: 18px;
+            margin: 0 0 20px 0;
+            font-weight: 400;
+            color: #8f8f8f;
+        }
+
+        ul {
+            padding: 0 0 0 20px;
+        }
+
+        li {
+            line-height: 2rem;
+            color: #8f8f8f;
+            font-weight: 400;
+        }
+    }
+}
+
 .sidebar-about {
 
     h1 {
@@ -562,5 +587,48 @@ body {
         border: none;
         background-color: transparent;
         vertical-align: top;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-right: -100px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-right: -50px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    #treeSolve #treeSolveFragments .nt-fr-ancillary-box {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .sidebar {
+        padding-right: 15px;
+        width: 315px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .main-content {
+        padding: 10px 3px 10px 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .main-content {
+        padding: 10px 3px 10px 20px;
     }
 }
