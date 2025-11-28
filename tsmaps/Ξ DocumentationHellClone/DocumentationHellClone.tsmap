@@ -1,5 +1,5 @@
 {
-    "key": "10rEHYw00yq",
+    "key": "10rGJgC00dZ",
     "token": "Documentationhellclone",
     "name": "DocumentationHellClone",
     "created": "2025-08-29T18:47:04.477Z",
@@ -13,36 +13,36 @@
         "ticks": 1764319757262
     },
     "___rΩΩt___": {
-        "key": "10rEMNU07m",
+        "key": "10rGNGb0eD",
         "nodes": [
             {
-                "key": "10rEMNU0iG",
+                "key": "10rGNGb18b",
                 "order": 1,
                 "nodes": [
                     {
-                        "key": "10rEMNU0cN",
+                        "key": "10rGNGb1x1",
                         "order": 1,
                         "nodes": [
                             {
-                                "key": "10rEMNV18D",
+                                "key": "10rGNGc0iV",
                                 "order": 1,
                                 "nodes": [
                                     {
-                                        "key": "10rEMNV1HX",
+                                        "key": "10rGNGc1QA",
                                         "order": 1,
                                         "nodes": [
                                             {
-                                                "key": "10rEMNV1r7",
+                                                "key": "10rGNGc0jt",
                                                 "order": 1,
                                                 "nodes": [
                                                     {
-                                                        "key": "10rEMNV2ag",
+                                                        "key": "10rGNGc1Jo",
                                                         "order": 1,
                                                         "option": "Explore a Docs Assembler solution",
                                                         "isHeadless": true,
                                                         "nodes": [
                                                             {
-                                                                "key": "10rEMNV1Ud",
+                                                                "key": "10rGNGc1XV",
                                                                 "order": 1,
                                                                 "isLeaf": true,
                                                                 "iKey": "u5gguY01On"
@@ -50,51 +50,51 @@
                                                         ]
                                                     },
                                                     {
-                                                        "key": "10rEMNV0VA",
+                                                        "key": "10rGNGc02c",
                                                         "order": 2,
                                                         "option": "Explore a Docs Assembler solution - with tech notes",
                                                         "nodes": [
                                                             {
-                                                                "key": "10rEMNV1uo",
+                                                                "key": "10rGNGc05F",
                                                                 "order": 1,
                                                                 "nodes": [
                                                                     {
-                                                                        "key": "10rEMNV0aD",
+                                                                        "key": "10rGNGd1GG",
                                                                         "order": 1,
                                                                         "nodes": [
                                                                             {
-                                                                                "key": "10rEMNV179",
+                                                                                "key": "10rGNGd1nI",
                                                                                 "order": 1,
                                                                                 "nodes": [
                                                                                     {
-                                                                                        "key": "10rEMNV0o6",
+                                                                                        "key": "10rGNGd0ER",
                                                                                         "order": 1,
                                                                                         "nodes": [
                                                                                             {
-                                                                                                "key": "10rEMNW1yV",
+                                                                                                "key": "10rGNGd02K",
                                                                                                 "order": 1,
                                                                                                 "isLeaf": true,
                                                                                                 "iKey": "u5gguY01On"
                                                                                             },
                                                                                             {
-                                                                                                "key": "10rEMNW2UP",
+                                                                                                "key": "10rGNGd245",
                                                                                                 "order": 2,
                                                                                                 "option": "Show this step...",
                                                                                                 "isAncillary": true,
                                                                                                 "nodes": [
                                                                                                     {
-                                                                                                        "key": "10rEMNW00r",
+                                                                                                        "key": "10rGNGd0mu",
                                                                                                         "order": 1,
                                                                                                         "option": "The power of variables",
                                                                                                         "isAncillary": true,
                                                                                                         "nodes": [
                                                                                                             {
-                                                                                                                "key": "10rEMNW2YI",
+                                                                                                                "key": "10rGNGd0PK",
                                                                                                                 "order": 1,
                                                                                                                 "isLeaf": true
                                                                                                             },
                                                                                                             {
-                                                                                                                "key": "10rEMNW05Y",
+                                                                                                                "key": "10rGNGd01P",
                                                                                                                 "order": 2,
                                                                                                                 "option": "Using variables",
                                                                                                                 "isLeaf": true,
@@ -107,7 +107,7 @@
                                                                                         ]
                                                                                     },
                                                                                     {
-                                                                                        "key": "10rEMNW0vv",
+                                                                                        "key": "10rGNGe1PI",
                                                                                         "order": 2,
                                                                                         "option": "What are hallucinations?",
                                                                                         "isLeaf": true,
@@ -119,7 +119,7 @@
                                                                         ]
                                                                     },
                                                                     {
-                                                                        "key": "10rEMNW2J5",
+                                                                        "key": "10rGNGe1qQ",
                                                                         "order": 2,
                                                                         "option": "What are decision trees?",
                                                                         "isLeaf": true,
@@ -143,80 +143,80 @@
     },
     "___αssεts___": [
         {
-            "key": "δ-10rEMNU07m",
-            "relativePath": "./δ steps/δ-10rEMNU07m.tsstp"
+            "key": "δ-10rGNGb0eD",
+            "relativePath": "./δ steps/δ-10rGNGb0eD.tsstp"
         },
         {
-            "key": "δ-10rEMNV1Ud",
-            "relativePath": "./δ steps/δ-10rEMNV1Ud.tsstp"
+            "key": "δ-10rGNGc1XV",
+            "relativePath": "./δ steps/δ-10rGNGc1XV.tsstp"
         },
         {
-            "key": "δ-10rEMNU0iG",
-            "relativePath": "./δ steps/δ-10rEMNU0iG.tsstp"
+            "key": "δ-10rGNGb18b",
+            "relativePath": "./δ steps/δ-10rGNGb18b.tsstp"
         },
         {
-            "key": "δ-10rEMNV18D",
-            "relativePath": "./δ steps/δ-10rEMNV18D.tsstp"
+            "key": "δ-10rGNGc0iV",
+            "relativePath": "./δ steps/δ-10rGNGc0iV.tsstp"
         },
         {
-            "key": "δ-10rEMNV1r7",
-            "relativePath": "./δ steps/δ-10rEMNV1r7.tsstp"
+            "key": "δ-10rGNGc0jt",
+            "relativePath": "./δ steps/δ-10rGNGc0jt.tsstp"
         },
         {
-            "key": "δ-10rEMNV0aD",
-            "relativePath": "./δ steps/δ-10rEMNV0aD.tsstp"
+            "key": "δ-10rGNGd1GG",
+            "relativePath": "./δ steps/δ-10rGNGd1GG.tsstp"
         },
         {
-            "key": "δ-10rEMNW2UP",
-            "relativePath": "./δ steps/δ-10rEMNW2UP.tsstp"
+            "key": "δ-10rGNGd245",
+            "relativePath": "./δ steps/δ-10rGNGd245.tsstp"
         },
         {
-            "key": "δ-10rEMNW00r",
-            "relativePath": "./δ steps/δ-10rEMNW00r.tsstp"
+            "key": "δ-10rGNGd0mu",
+            "relativePath": "./δ steps/δ-10rGNGd0mu.tsstp"
         },
         {
-            "key": "δ-10rEMNW2YI",
-            "relativePath": "./δ steps/δ-10rEMNW2YI.tsstp"
+            "key": "δ-10rGNGd0PK",
+            "relativePath": "./δ steps/δ-10rGNGd0PK.tsstp"
         },
         {
-            "key": "δ-10rEMNW05Y",
-            "relativePath": "./δ steps/δ-10rEMNW05Y.tsstp"
+            "key": "δ-10rGNGd01P",
+            "relativePath": "./δ steps/δ-10rGNGd01P.tsstp"
         },
         {
-            "key": "δ-10rEMNV179",
-            "relativePath": "./δ steps/δ-10rEMNV179.tsstp"
+            "key": "δ-10rGNGd1nI",
+            "relativePath": "./δ steps/δ-10rGNGd1nI.tsstp"
         },
         {
-            "key": "δ-10rEMNV0o6",
-            "relativePath": "./δ steps/δ-10rEMNV0o6.tsstp"
+            "key": "δ-10rGNGd0ER",
+            "relativePath": "./δ steps/δ-10rGNGd0ER.tsstp"
         },
         {
-            "key": "δ-10rEMNW1yV",
-            "relativePath": "./δ steps/δ-10rEMNW1yV.tsstp"
+            "key": "δ-10rGNGd02K",
+            "relativePath": "./δ steps/δ-10rGNGd02K.tsstp"
         },
         {
-            "key": "δ-10rEMNW0vv",
-            "relativePath": "./δ steps/δ-10rEMNW0vv.tsstp"
+            "key": "δ-10rGNGe1PI",
+            "relativePath": "./δ steps/δ-10rGNGe1PI.tsstp"
         },
         {
-            "key": "δ-10rEMNV1HX",
-            "relativePath": "./δ steps/δ-10rEMNV1HX.tsstp"
+            "key": "δ-10rGNGc1QA",
+            "relativePath": "./δ steps/δ-10rGNGc1QA.tsstp"
         },
         {
-            "key": "δ-10rEMNV0VA",
-            "relativePath": "./δ steps/δ-10rEMNV0VA.tsstp"
+            "key": "δ-10rGNGc02c",
+            "relativePath": "./δ steps/δ-10rGNGc02c.tsstp"
         },
         {
-            "key": "δ-10rEMNV1uo",
-            "relativePath": "./δ steps/δ-10rEMNV1uo.tsstp"
+            "key": "δ-10rGNGc05F",
+            "relativePath": "./δ steps/δ-10rGNGc05F.tsstp"
         },
         {
-            "key": "δ-10rEMNW2J5",
-            "relativePath": "./δ steps/δ-10rEMNW2J5.tsstp"
+            "key": "δ-10rGNGe1qQ",
+            "relativePath": "./δ steps/δ-10rGNGe1qQ.tsstp"
         },
         {
-            "key": "δ-10rEMNU0cN",
-            "relativePath": "./δ steps/δ-10rEMNU0cN.tsstp"
+            "key": "δ-10rGNGb1x1",
+            "relativePath": "./δ steps/δ-10rGNGb1x1.tsstp"
         }
     ]
 }
