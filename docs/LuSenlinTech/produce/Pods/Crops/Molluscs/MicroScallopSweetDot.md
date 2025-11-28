@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWf501rZ","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_frags"},"fragment":{"id":"10aWf501rZ","topLevelMapKey":"yUu0k400ll","mapKeyChain":"yUu0k400ll","guideID":"10aWf500K2","chartKey":"yUu0k400ll","isLeaf":false,"options":[{"id":"10aWf5C0QG","option":"Sweet-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg86U1Ph","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroScallopSweetDot_frags"},"fragment":{"id":"10mg86U1Ph","topLevelMapKey":"yUu0k400ll","mapKeyChain":"yUu0k400ll","guideID":"10mg86U2O2","chartKey":"yUu0k400ll","isLeaf":false,"options":[{"id":"10mg86a2AI","option":"Sweet-Dot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Scallop ‘Sweet-Dot’
 

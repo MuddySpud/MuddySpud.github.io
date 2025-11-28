@@ -7,6 +7,6 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazo
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWf9M1sX","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazor_frags"},"fragment":{"id":"10aWf9M1sX","topLevelMapKey":"yUvEdl00U0","mapKeyChain":"yUvEdl00U0","guideID":"10aWf9M2Wq","chartKey":"yUvEdl00U0","isLeaf":false,"options":[{"id":"10aWf9b26q","option":"Nano-Razor - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg8A70mK","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/DwarfRazorClamNanoRazor_frags"},"fragment":{"id":"10mg8A70mK","topLevelMapKey":"yUvEdl00U0","mapKeyChain":"yUvEdl00U0","guideID":"10mg8A72Jl","chartKey":"yUvEdl00U0","isLeaf":false,"options":[{"id":"10mg8AE0hS","option":"Nano-Razor - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Razor Clam ‘Nano-Razor’

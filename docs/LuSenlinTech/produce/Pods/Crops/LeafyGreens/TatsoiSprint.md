@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWbyJ14v","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags"},"fragment":{"id":"10aWbyJ14v","topLevelMapKey":"yG3UFL02Tu","mapKeyChain":"yG3UFL02Tu","guideID":"10aWbyJ1Pn","chartKey":"yG3UFL02Tu","isLeaf":false,"options":[{"id":"10aWbyZ1S5","option":"Sprint - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5Nx2Mj","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/TatsoiSprint_frags"},"fragment":{"id":"10mg5Nx2Mj","topLevelMapKey":"yG3UFL02Tu","mapKeyChain":"yG3UFL02Tu","guideID":"10mg5Nx1H5","chartKey":"yG3UFL02Tu","isLeaf":false,"options":[{"id":"10mg5OE2Dg","option":"Sprint - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Tatsoi ‘Sprint’
 

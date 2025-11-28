@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWc0O1pU","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_frags"},"fragment":{"id":"10aWc0O1pU","topLevelMapKey":"yG457800Iq","mapKeyChain":"yG457800Iq","guideID":"10aWc0O0BF","chartKey":"yG457800Iq","isLeaf":false,"options":[{"id":"10aWc0b02Y","option":"Metro-Spin - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5Ps1mu","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/KomatsunaMetroSpin_frags"},"fragment":{"id":"10mg5Ps1mu","topLevelMapKey":"yG457800Iq","mapKeyChain":"yG457800Iq","guideID":"10mg5Ps1ke","chartKey":"yG457800Iq","isLeaf":false,"options":[{"id":"10mg5Pz2KZ","option":"Metro-Spin - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Komatsuna ‘Metro-Spin’
 

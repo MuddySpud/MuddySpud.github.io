@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/MicroRomaTomatoPixe
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWcFo2Z2","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/MicroRomaTomatoPixelPlum_frags"},"fragment":{"id":"10aWcFo2Z2","topLevelMapKey":"yIhbjb01U8","mapKeyChain":"yIhbjb01U8","guideID":"10aWcFo07k","chartKey":"yIhbjb01U8","isLeaf":false,"options":[{"id":"10aWcG01p7","option":"Pixel-Plum - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5g70bN","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/MicroRomaTomatoPixelPlum_frags"},"fragment":{"id":"10mg5g70bN","topLevelMapKey":"yIhbjb01U8","mapKeyChain":"yIhbjb01U8","guideID":"10mg5g71Ml","chartKey":"yIhbjb01U8","isLeaf":false,"options":[{"id":"10mg5gG0Mz","option":"Pixel-Plum - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Roma Tomato ‘Pixel-Plum’
 

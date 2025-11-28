@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWbrt072","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_frags"},"fragment":{"id":"10aWbrt072","topLevelMapKey":"yFpALn00Kr","mapKeyChain":"yFpALn00Kr","guideID":"10aWbrt0Jz","chartKey":"yFpALn00Kr","isLeaf":false,"options":[{"id":"10aWbs81Bb","option":"BlueFin - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5Hb0Sl","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/NanoKaleBlueFin_frags"},"fragment":{"id":"10mg5Hb0Sl","topLevelMapKey":"yFpALn00Kr","mapKeyChain":"yFpALn00Kr","guideID":"10mg5Hb0JY","chartKey":"yFpALn00Kr","isLeaf":false,"options":[{"id":"10mg5Hj2Ig","option":"BlueFin - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Nano-Kale ‘BlueFin’
 

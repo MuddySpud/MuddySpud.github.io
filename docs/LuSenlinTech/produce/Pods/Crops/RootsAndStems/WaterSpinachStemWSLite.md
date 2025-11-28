@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/WaterSpinachStemW
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWcoi2YF","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/WaterSpinachStemWSLite_frags"},"fragment":{"id":"10aWcoi2YF","topLevelMapKey":"yKWUn00188","mapKeyChain":"yKWUn00188","guideID":"10aWcoi0Xv","chartKey":"yKWUn00188","isLeaf":false,"options":[{"id":"10aWcow20r","option":"WS-Lite - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg6Bc29Y","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/WaterSpinachStemWSLite_frags"},"fragment":{"id":"10mg6Bc29Y","topLevelMapKey":"yKWUn00188","mapKeyChain":"yKWUn00188","guideID":"10mg6Bc1fZ","chartKey":"yKWUn00188","isLeaf":false,"options":[{"id":"10mg6Bl1ZW","option":"WS-Lite - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Water Spinach Stem ‘WS-Lite’
 

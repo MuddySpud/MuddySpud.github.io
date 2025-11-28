@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWfYP1lg","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl_frags"},"fragment":{"id":"10aWfYP1lg","topLevelMapKey":"yV21JL00j7","mapKeyChain":"yV21JL00j7","guideID":"10aWfYP0c0","chartKey":"yV21JL00j7","isLeaf":false,"options":[{"id":"10aWfYd1fi","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg8V50wQ","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/MysterySnailProteinPearl_frags"},"fragment":{"id":"10mg8V50wQ","topLevelMapKey":"yV21JL00j7","mapKeyChain":"yV21JL00j7","guideID":"10mg8V51nF","chartKey":"yV21JL00j7","isLeaf":false,"options":[{"id":"10mg8VD1Fy","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mystery Snail ‘Protein Pearl’
 

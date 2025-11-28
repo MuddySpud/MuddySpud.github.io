@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/MicroGeoduckShortDuck_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWfFg2Ht","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroGeoduckShortDuck_frags"},"fragment":{"id":"10aWfFg2Ht","topLevelMapKey":"yUwkyv00j5","mapKeyChain":"yUwkyv00j5","guideID":"10aWfFg2EW","chartKey":"yUwkyv00j5","isLeaf":false,"options":[{"id":"10aWfFt13C","option":"Short-Duck - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg8Eu1ro","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/MicroGeoduckShortDuck_frags"},"fragment":{"id":"10mg8Eu1ro","topLevelMapKey":"yUwkyv00j5","mapKeyChain":"yUwkyv00j5","guideID":"10mg8Eu1Mi","chartKey":"yUwkyv00j5","isLeaf":false,"options":[{"id":"10mg8F22ai","option":"Short-Duck - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Geoduck ‘Short-Duck’
 

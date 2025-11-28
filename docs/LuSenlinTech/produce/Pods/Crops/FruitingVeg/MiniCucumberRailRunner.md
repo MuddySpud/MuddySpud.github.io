@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/MiniCucumberRailRun
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWcM91pn","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/MiniCucumberRailRunner_frags"},"fragment":{"id":"10aWcM91pn","topLevelMapKey":"yIk5Yi022q","mapKeyChain":"yIk5Yi022q","guideID":"10aWcM903L","chartKey":"yIk5Yi022q","isLeaf":false,"options":[{"id":"10aWcML0We","option":"Rail-Runner - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5lw21F","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/MiniCucumberRailRunner_frags"},"fragment":{"id":"10mg5lw21F","topLevelMapKey":"yIk5Yi022q","mapKeyChain":"yIk5Yi022q","guideID":"10mg5lw00m","chartKey":"yIk5Yi022q","isLeaf":false,"options":[{"id":"10mg5m320n","option":"Rail-Runner - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Cucumber ‘Rail-Runner’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStrea
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWea62GP","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream_frags"},"fragment":{"id":"10aWea62GP","topLevelMapKey":"yUggLn00wA","mapKeyChain":"yUggLn00wA","guideID":"10aWea622g","chartKey":"yUggLn00wA","isLeaf":false,"options":[{"id":"10aWeaJ22A","option":"CoolStream - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg7fV1Aa","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/DwarfRainbowTroutCoolStream_frags"},"fragment":{"id":"10mg7fV1Aa","topLevelMapKey":"yUggLn00wA","mapKeyChain":"yUggLn00wA","guideID":"10mg7fV2UT","chartKey":"yUggLn00wA","isLeaf":false,"options":[{"id":"10mg7fb1N8","option":"CoolStream - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Dwarf Rainbow Trout ‘CoolStream’
 

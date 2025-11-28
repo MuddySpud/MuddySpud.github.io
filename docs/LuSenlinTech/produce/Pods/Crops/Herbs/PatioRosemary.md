@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/PatioRosemary_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWg182Xg","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/PatioRosemary_frags"},"fragment":{"id":"10aWg182Xg","topLevelMapKey":"yAVGew01b7","mapKeyChain":"yAVGew01b7","guideID":"10aWg1827h","chartKey":"yAVGew01b7","isLeaf":false,"options":[{"id":"10aWg1M0Q1","option":"AromiStax - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg8th1Na","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/PatioRosemary_frags"},"fragment":{"id":"10mg8th1Na","topLevelMapKey":"yAVGew01b7","mapKeyChain":"yAVGew01b7","guideID":"10mg8th2CY","chartKey":"yAVGew01b7","isLeaf":false,"options":[{"id":"10mg8tn1R8","option":"AromiStax - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Patio Rosemary ‘AromiStax’
 

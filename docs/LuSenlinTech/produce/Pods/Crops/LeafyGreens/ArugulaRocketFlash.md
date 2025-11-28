@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/LeafyGreens/ArugulaRocketFlash_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWc8G1th","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/ArugulaRocketFlash_frags"},"fragment":{"id":"10aWc8G1th","topLevelMapKey":"yG9DxP01bU","mapKeyChain":"yG9DxP01bU","guideID":"10aWc8G0zq","chartKey":"yG9DxP01bU","isLeaf":false,"options":[{"id":"10aWc8T0Sp","option":"Rocket-Flash - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg5XM2Ui","path":"LuSenlinTech/produce/Pods/Crops/LeafyGreens","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/LeafyGreens/ArugulaRocketFlash_frags"},"fragment":{"id":"10mg5XM2Ui","topLevelMapKey":"yG9DxP01bU","mapKeyChain":"yG9DxP01bU","guideID":"10mg5XM2Xd","chartKey":"yG9DxP01bU","isLeaf":false,"options":[{"id":"10mg5Xd2BW","option":"Rocket-Flash - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Arugula ‘Rocket-Flash’
 

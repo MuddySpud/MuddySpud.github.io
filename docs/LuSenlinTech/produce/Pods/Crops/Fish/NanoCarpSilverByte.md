@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWebx0xW","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags"},"fragment":{"id":"10aWebx0xW","topLevelMapKey":"yUh9xO018b","mapKeyChain":"yUh9xO018b","guideID":"10aWebx1eC","chartKey":"yUh9xO018b","isLeaf":false,"options":[{"id":"10aWecB2XK","option":"Silver Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg7hS0fQ","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/NanoCarpSilverByte_frags"},"fragment":{"id":"10mg7hS0fQ","topLevelMapKey":"yUh9xO018b","mapKeyChain":"yUh9xO018b","guideID":"10mg7hS292","chartKey":"yUh9xO018b","isLeaf":false,"options":[{"id":"10mg7hY0Lr","option":"Silver Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Nano Carp ‘Silver Byte’
 

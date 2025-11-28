@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWfkV1WW","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags"},"fragment":{"id":"10aWfkV1WW","topLevelMapKey":"yAOOHb01WO","mapKeyChain":"yAOOHb01WO","guideID":"10aWfkV2X3","chartKey":"yAOOHb01WO","isLeaf":false,"options":[{"id":"10aWfkj1Cs","option":"Genovese Pesto Mint™ - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg8fq2Cx","path":"LuSenlinTech/produce/Pods/Crops/Herbs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Herbs/GenovesePestoMint_frags"},"fragment":{"id":"10mg8fq2Cx","topLevelMapKey":"yAOOHb01WO","mapKeyChain":"yAOOHb01WO","guideID":"10mg8fr07U","chartKey":"yAOOHb01WO","isLeaf":false,"options":[{"id":"10mg8g60aP","option":"Genovese Pesto Mint™ - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Genovese Pesto Mint™ (low-menthol, pesto-friendly)
 

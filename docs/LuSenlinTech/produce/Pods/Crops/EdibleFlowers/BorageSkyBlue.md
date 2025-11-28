@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_fra
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWd6r1LL","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"10aWd6r1LL","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"10aWd6r26S","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"10aWd751G8","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg6RE1rQ","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/BorageSkyBlue_frags"},"fragment":{"id":"10mg6RE1rQ","topLevelMapKey":"yQA18x006i","mapKeyChain":"yQA18x006i","guideID":"10mg6RE1Pd","chartKey":"yQA18x006i","isLeaf":false,"options":[{"id":"10mg6RM1wS","option":"Sky-Blue - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Borage ‘Sky-Blue’
 

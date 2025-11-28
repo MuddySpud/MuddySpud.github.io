@@ -7,6 +7,11 @@
     "publishFileName": "DocumentationHell",
     "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/Ξ DocumentationHell/DocumentationHell.tsmap",
     "iText": "Link  to 'DocumentationHell' ",
+    "___εdit___": {
+        "id": "10qNINi01iX",
+        "editorID": "exp_ad06bc284fbd46a4ab3f0c1a8970d31b",
+        "ticks": 1764319757262
+    },
     "___rΩΩt___": {
         "key": "sIi16r00h6",
         "nodes": [
@@ -213,10 +218,5 @@
             "key": "δ-xVSWst01TO",
             "relativePath": "./δ steps/δ-xVSWst01TO.tsstp"
         }
-    ],
-    "___εdit___": {
-        "id": "zqe3o2000l",
-        "editorID": "car_7c5eb70c6739427984c57dcf078e7c7a",
-        "ticks": 1763407619978
-    }
+    ]
 }

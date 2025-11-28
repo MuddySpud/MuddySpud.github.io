@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWf740MA","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_frags"},"fragment":{"id":"10aWf740MA","topLevelMapKey":"yUuUre00Pd","mapKeyChain":"yUuUre00Pd","guideID":"10aWf7428Y","chartKey":"yUuUre00Pd","isLeaf":false,"options":[{"id":"10aWf7H0wU","option":"Balconia - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg88L0p9","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/PocketOysterBalconia_frags"},"fragment":{"id":"10mg88L0p9","topLevelMapKey":"yUuUre00Pd","mapKeyChain":"yUuUre00Pd","guideID":"10mg88L05R","chartKey":"yUuUre00Pd","isLeaf":false,"options":[{"id":"10mg88S0nu","option":"Balconia - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Pocket Oyster ‘Balconia’
 

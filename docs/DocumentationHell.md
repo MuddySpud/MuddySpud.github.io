@@ -7,11 +7,9 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10aWaRX2YD","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"10aWaRX2YD","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"10aWaRX09D","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"10aWaT82YL","option":"Explore a Docs Assembler solution","order":1},{"id":"10aWaTM1Qe","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"10mg3nJ1x9","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"10mg3nJ1x9","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"10mg3nJ2Ci","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"10mg3ob18C","option":"Explore a Docs Assembler solution","order":1},{"id":"10mg3or1JF","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
-
-*This site is built with [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) and hosted on [GitHub Pages](https://docs.github.com/en/pages). You can view the documentation structure in the [Docs Assembler Demo repo](https://github.com/CompositeFlows/DocsAssemblerDemo) or the [Docs Assembler Demo Sandbox repo](https://github.com/CompositeFlows/DocsAssemblerDemoSandbox).*
 
 # Escape Documentation Hell
 
