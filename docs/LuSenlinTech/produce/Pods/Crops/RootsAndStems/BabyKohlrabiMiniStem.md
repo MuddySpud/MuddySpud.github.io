@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniS
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6IN0rf","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniStem_frags"},"fragment":{"id":"10mg6IN0rf","topLevelMapKey":"yKYTzM02F3","mapKeyChain":"yKYTzM02F3","guideID":"10mg6IN1ip","chartKey":"yKYTzM02F3","isLeaf":false,"options":[{"id":"10mg6Ic08I","option":"Mini Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yKYWQD00XP","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyKohlrabiMiniStem_frags"},"fragment":{"id":"yKYWQD00XP","topLevelMapKey":"yKYTzM02F3","mapKeyChain":"yKYTzM02F3","guideID":"yKYTzM02F3","chartKey":"yKYTzM02F3","isLeaf":false,"options":[{"id":"yKYYMg01hj","option":"Mini Stem - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Kohlrabi ‘Mini Stem’
 

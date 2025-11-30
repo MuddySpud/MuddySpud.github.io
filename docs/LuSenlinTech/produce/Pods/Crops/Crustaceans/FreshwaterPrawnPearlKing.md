@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPear
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7kw0YF","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPearlKing_frags"},"fragment":{"id":"10mg7kw0YF","topLevelMapKey":"yUkaZk00wD","mapKeyChain":"yUkaZk00wD","guideID":"10mg7kw103","chartKey":"yUkaZk00wD","isLeaf":false,"options":[{"id":"10mg7lA12V","option":"Pearl-King - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUkeOO00XX","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/FreshwaterPrawnPearlKing_frags"},"fragment":{"id":"yUkeOO00XX","topLevelMapKey":"yUkaZk00wD","mapKeyChain":"yUkaZk00wD","guideID":"yUkaZk00wD","chartKey":"yUkaZk00wD","isLeaf":false,"options":[{"id":"yUkgcO02GU","option":"Pearl-King - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Freshwater Prawn ‘Pearl-King’
 

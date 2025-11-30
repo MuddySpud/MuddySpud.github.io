@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroR
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6T91SC","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil_frags"},"fragment":{"id":"10mg6T91SC","topLevelMapKey":"yQAg7T00Fp","mapKeyChain":"yQAg7T00Fp","guideID":"10mg6T908j","chartKey":"yQAg7T00Fp","isLeaf":false,"options":[{"id":"10mg6TH1mX","option":"Ruby Veil - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQAjY9018C","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/RedAmaranthMicroRubyVeil_frags"},"fragment":{"id":"yQAjY9018C","topLevelMapKey":"yQAg7T00Fp","mapKeyChain":"yQAg7T00Fp","guideID":"yQAg7T00Fp","chartKey":"yQAg7T00Fp","isLeaf":false,"options":[{"id":"yQAlfm003A","option":"Ruby Veil - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Red Amaranth Micro ‘Ruby Veil’
 

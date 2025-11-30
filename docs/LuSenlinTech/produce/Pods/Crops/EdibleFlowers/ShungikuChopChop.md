@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6WF2Ls","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_frags"},"fragment":{"id":"10mg6WF2Ls","topLevelMapKey":"yQBrrR002h","mapKeyChain":"yQBrrR002h","guideID":"10mg6WF1sJ","chartKey":"yQBrrR002h","isLeaf":false,"options":[{"id":"10mg6WL1Hc","option":"Chop-Chop - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQBtjS006j","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/ShungikuChopChop_frags"},"fragment":{"id":"yQBtjS006j","topLevelMapKey":"yQBrrR002h","mapKeyChain":"yQBrrR002h","guideID":"yQBrrR002h","chartKey":"yQBrrR002h","isLeaf":false,"options":[{"id":"yQBwEd02Y9","option":"Chop-Chop - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Shungiku ‘Chop-Chop’
 

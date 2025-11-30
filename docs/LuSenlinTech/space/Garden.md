@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Garden_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg41k29C","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"10mg41k29C","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"10mg41k2Mn","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"10mg4211yL","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"10mg42D0NE","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"s7LPlH1pM","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Garden_frags"},"fragment":{"id":"s7LPlH1pM","topLevelMapKey":"s7LPlH16Y","mapKeyChain":"s7LPlH16Y","guideID":"s7LPlH16Y","chartKey":"s7LPlH16Y","isLeaf":false,"options":[{"id":"ytCYcq01Eo","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"ytCYcq00fc","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
 
 ## Garden
 

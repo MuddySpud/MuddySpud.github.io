@@ -7,7 +7,7 @@ fragsFolderPath: DocumentationHell_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg3nJ1x9","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"10mg3nJ1x9","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"10mg3nJ2Ci","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"10mg3ob18C","option":"Explore a Docs Assembler solution","order":1},{"id":"10mg3or1JF","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"sIi16r00h6","path":"","fragmentFolderPath":"DocumentationHell_frags"},"fragment":{"id":"sIi16r00h6","topLevelMapKey":"sIhxfx02EB","mapKeyChain":"sIhxfx02EB","guideID":"sIhxfx02EB","chartKey":"sIhxfx02EB","isLeaf":false,"options":[{"id":"u4eeh600MG","option":"Explore a Docs Assembler solution","order":1},{"id":"uqem6A02Wl","option":"Explore a Docs Assembler solution - with tech notes","order":2}]}} -->
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 

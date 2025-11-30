@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7G00L4","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_frags"},"fragment":{"id":"10mg7G00L4","topLevelMapKey":"yQLfKc0132","mapKeyChain":"yQLfKc0132","guideID":"10mg7G01El","chartKey":"yQLfKc0132","isLeaf":false,"options":[{"id":"10mg7G61sZ","option":"City-Top - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQLhx300IE","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/ChestnutMushroomCityTop_frags"},"fragment":{"id":"yQLhx300IE","topLevelMapKey":"yQLfKc0132","mapKeyChain":"yQLfKc0132","guideID":"yQLfKc0132","chartKey":"yQLfKc0132","isLeaf":false,"options":[{"id":"yQLjdo01HY","option":"City-Top - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Chestnut Mushroom ‘City-Top’
 

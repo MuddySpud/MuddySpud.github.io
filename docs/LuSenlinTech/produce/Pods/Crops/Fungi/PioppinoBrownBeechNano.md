@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/PioppinoBrownBeechNano_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7JN1OW","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/PioppinoBrownBeechNano_frags"},"fragment":{"id":"10mg7JN1OW","topLevelMapKey":"yQkaF0014R","mapKeyChain":"yQkaF0014R","guideID":"10mg7JN1zl","chartKey":"yQkaF0014R","isLeaf":false,"options":[{"id":"10mg7JV0hK","option":"Brown Beech Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQkcvA02a6","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/PioppinoBrownBeechNano_frags"},"fragment":{"id":"yQkcvA02a6","topLevelMapKey":"yQkaF0014R","mapKeyChain":"yQkaF0014R","guideID":"yQkaF0014R","chartKey":"yQkaF0014R","isLeaf":false,"options":[{"id":"yQkemv01zb","option":"Brown Beech Nano - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Pioppino ‘Brown Beech Nano’
 

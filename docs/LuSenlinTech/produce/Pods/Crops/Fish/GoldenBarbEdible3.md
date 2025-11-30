@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/GoldenBarbEdible3_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7bw03C","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/GoldenBarbEdible3_frags"},"fragment":{"id":"10mg7bw03C","topLevelMapKey":"yUfTx201yv","mapKeyChain":"yUfTx201yv","guideID":"10mg7bw1ku","chartKey":"yUfTx201yv","isLeaf":false,"options":[{"id":"10mg7cB0ti","option":"Edible-3 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUfX0m00nB","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/GoldenBarbEdible3_frags"},"fragment":{"id":"yUfX0m00nB","topLevelMapKey":"yUfTx201yv","mapKeyChain":"yUfTx201yv","guideID":"yUfTx201yv","chartKey":"yUfTx201yv","isLeaf":false,"options":[{"id":"yUfYe901c5","option":"Edible-3 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Golden Barb ‘Edible-3’
 

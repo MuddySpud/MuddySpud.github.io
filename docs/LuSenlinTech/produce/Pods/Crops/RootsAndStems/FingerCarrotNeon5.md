@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6172LP","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5_frags"},"fragment":{"id":"10mg6172LP","topLevelMapKey":"yKSOs401hY","mapKeyChain":"yKSOs401hY","guideID":"10mg6170Si","chartKey":"yKSOs401hY","isLeaf":false,"options":[{"id":"10mg61F1k4","option":"Neon 5 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yKSRic01v4","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/FingerCarrotNeon5_frags"},"fragment":{"id":"yKSRic01v4","topLevelMapKey":"yKSOs401hY","mapKeyChain":"yKSOs401hY","guideID":"yKSOs401hY","chartKey":"yKSOs401hY","isLeaf":false,"options":[{"id":"yKSUPQ01gu","option":"Neon 5 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Finger Carrot ‘Neon 5’
 

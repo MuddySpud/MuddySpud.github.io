@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniCrayfishGreenMa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7ry0bZ","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniCrayfishGreenMarble_frags"},"fragment":{"id":"10mg7ry0bZ","topLevelMapKey":"yUmpgs02L9","mapKeyChain":"yUmpgs02L9","guideID":"10mg7ry2Sr","chartKey":"yUmpgs02L9","isLeaf":false,"options":[{"id":"10mg7s42Nq","option":"Green-Marble - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUmsH601Qe","path":"LuSenlinTech/produce/Pods/Crops/Crustaceans","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Crustaceans/MiniCrayfishGreenMarble_frags"},"fragment":{"id":"yUmsH601Qe","topLevelMapKey":"yUmpgs02L9","mapKeyChain":"yUmpgs02L9","guideID":"yUmpgs02L9","chartKey":"yUmpgs02L9","isLeaf":false,"options":[{"id":"yUmuMd025J","option":"Green-Marble - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Mini Crayfish ‘Green-Marble’
 

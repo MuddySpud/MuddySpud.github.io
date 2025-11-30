@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg84f2JJ","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_frags"},"fragment":{"id":"10mg84f2JJ","topLevelMapKey":"yUtVwu02Zq","mapKeyChain":"yUtVwu02Zq","guideID":"10mg84g0PM","chartKey":"yUtVwu02Zq","isLeaf":false,"options":[{"id":"10mg84o1HK","option":"Metro-Gold - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUtYJN004m","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/ManilaClamMetroGold_frags"},"fragment":{"id":"yUtYJN004m","topLevelMapKey":"yUtVwu02Zq","mapKeyChain":"yUtVwu02Zq","guideID":"yUtVwu02Zq","chartKey":"yUtVwu02Zq","isLeaf":false,"options":[{"id":"yUtaSu00kX","option":"Metro-Gold - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Manila Clam ‘Metro-Gold’
 

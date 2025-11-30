@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCoc
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg8BQ1HH","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCockle_frags"},"fragment":{"id":"10mg8BQ1HH","topLevelMapKey":"yUvgNl01Ux","mapKeyChain":"yUvgNl01Ux","guideID":"10mg8BQ12o","chartKey":"yUvgNl01Ux","isLeaf":false,"options":[{"id":"10mg8Bf1f2","option":"City Cockle - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUvjMw00Lk","path":"LuSenlinTech/produce/Pods/Crops/Molluscs","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Molluscs/HardShellCockleCityCockle_frags"},"fragment":{"id":"yUvjMw00Lk","topLevelMapKey":"yUvgNl01Ux","mapKeyChain":"yUvgNl01Ux","guideID":"yUvgNl01Ux","chartKey":"yUvgNl01Ux","isLeaf":false,"options":[{"id":"yUvl3R01DK","option":"City Cockle - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Hard-Shell Cockle ‘City Cockle’
 

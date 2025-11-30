@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/space/Balcony_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg40H270","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"10mg40H270","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"10mg40H1Ds","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"10mg40b0FQ","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"10mg40m1IW","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yhJqMu02OH","path":"LuSenlinTech/space","fragmentFolderPath":"LuSenlinTech/space/Balcony_frags"},"fragment":{"id":"yhJqMu02OH","topLevelMapKey":"s7LPkv1Gh","mapKeyChain":"s7LPkv1Gh","guideID":"s7LPkv1Gh","chartKey":"s7LPkv1Gh","isLeaf":false,"options":[{"id":"s7LPkv17x","option":"Has power supply","iExitKey":"s7SMXt1dV","order":1},{"id":"s7LPkv17x1","option":"No power supply","iExitKey":"s7SMXt0Xu","order":2}],"iKey":"s7SMXt0ol"}} -->
 
 ## Tiny Patio or Balcony
 

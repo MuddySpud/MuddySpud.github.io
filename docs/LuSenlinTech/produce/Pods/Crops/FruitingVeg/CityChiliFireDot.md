@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg5ju2J0","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_frags"},"fragment":{"id":"10mg5ju2J0","topLevelMapKey":"yIjVPO00TV","mapKeyChain":"yIjVPO00TV","guideID":"10mg5ju1bS","chartKey":"yIjVPO00TV","isLeaf":false,"options":[{"id":"10mg5k32IW","option":"FireDot - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yIjZ1P011o","path":"LuSenlinTech/produce/Pods/Crops/FruitingVeg","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/FruitingVeg/CityChiliFireDot_frags"},"fragment":{"id":"yIjZ1P011o","topLevelMapKey":"yIjVPO00TV","mapKeyChain":"yIjVPO00TV","guideID":"yIjVPO00TV","chartKey":"yIjVPO00TV","isLeaf":false,"options":[{"id":"yIjcPd005O","option":"FireDot - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### City Chili ‘FireDot’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frag
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7952XF","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frags"},"fragment":{"id":"10mg7952XF","topLevelMapKey":"yQJY6R01j3","mapKeyChain":"yQJY6R01j3","guideID":"10mg7950ox","chartKey":"yQJY6R01j3","isLeaf":false,"options":[{"id":"10mg79D1pR","option":"BrainFood L-2 - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQJbv501Ih","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/LionsManeBrainFoodL2_frags"},"fragment":{"id":"yQJbv501Ih","topLevelMapKey":"yQJY6R01j3","mapKeyChain":"yQJY6R01j3","guideID":"yQJY6R01j3","chartKey":"yQJY6R01j3","isLeaf":false,"options":[{"id":"yQJdw301hl","option":"BrainFood L-2 - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Lion’s Mane ‘BrainFood L-2’
 

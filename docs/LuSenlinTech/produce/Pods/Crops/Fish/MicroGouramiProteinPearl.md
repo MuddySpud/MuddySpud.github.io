@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fish/MicroGouramiProteinPearl_f
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7j223K","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/MicroGouramiProteinPearl_frags"},"fragment":{"id":"10mg7j223K","topLevelMapKey":"yUhggN02Eg","mapKeyChain":"yUhggN02Eg","guideID":"10mg7j21EU","chartKey":"yUhggN02Eg","isLeaf":false,"options":[{"id":"10mg7j82MV","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yUhjpM004r","path":"LuSenlinTech/produce/Pods/Crops/Fish","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fish/MicroGouramiProteinPearl_frags"},"fragment":{"id":"yUhjpM004r","topLevelMapKey":"yUhggN02Eg","mapKeyChain":"yUhggN02Eg","guideID":"yUhggN02Eg","chartKey":"yUhggN02Eg","isLeaf":false,"options":[{"id":"yUhloU01ej","option":"Protein Pearl - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Micro Gourami ‘Protein Pearl’
 

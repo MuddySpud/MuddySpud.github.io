@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/MaitakeFractalFeathers_fr
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7N70sg","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/MaitakeFractalFeathers_frags"},"fragment":{"id":"10mg7N70sg","topLevelMapKey":"yQlXic02A8","mapKeyChain":"yQlXic02A8","guideID":"10mg7N707Q","chartKey":"yQlXic02A8","isLeaf":false,"options":[{"id":"10mg7NF1By","option":"Fractal Feathers - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQlZqL019A","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/MaitakeFractalFeathers_frags"},"fragment":{"id":"yQlZqL019A","topLevelMapKey":"yQlXic02A8","mapKeyChain":"yQlXic02A8","guideID":"yQlXic02A8","chartKey":"yQlXic02A8","isLeaf":false,"options":[{"id":"yQlcbk023E","option":"Fractal Feathers - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Maitake ‘Fractal Feathers’
 

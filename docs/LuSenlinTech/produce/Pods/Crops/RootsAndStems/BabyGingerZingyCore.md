@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCo
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6D01yx","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore_frags"},"fragment":{"id":"10mg6D01yx","topLevelMapKey":"yKWya700Ch","mapKeyChain":"yKWya700Ch","guideID":"10mg6D02Er","chartKey":"yKWya700Ch","isLeaf":false,"options":[{"id":"10mg6DF04V","option":"Zingy Core - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yKX1HF022P","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/BabyGingerZingyCore_frags"},"fragment":{"id":"yKX1HF022P","topLevelMapKey":"yKWya700Ch","mapKeyChain":"yKWya700Ch","guideID":"yKWya700Ch","chartKey":"yKWya700Ch","isLeaf":false,"options":[{"id":"yKX2pI027e","option":"Zingy Core - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Baby Ginger ‘Zingy Core’
 

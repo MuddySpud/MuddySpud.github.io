@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Snails/GoldenAppleSnailGiltAppl
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg8TC0Ah","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/GoldenAppleSnailGiltAppleMini_frags"},"fragment":{"id":"10mg8TC0Ah","topLevelMapKey":"yV1ZL100HP","mapKeyChain":"yV1ZL100HP","guideID":"10mg8TC0xz","chartKey":"yV1ZL100HP","isLeaf":false,"options":[{"id":"10mg8TR1wI","option":"Gilt Apple Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yV1cmv00Qe","path":"LuSenlinTech/produce/Pods/Crops/Snails","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Snails/GoldenAppleSnailGiltAppleMini_frags"},"fragment":{"id":"yV1cmv00Qe","topLevelMapKey":"yV1ZL100HP","mapKeyChain":"yV1ZL100HP","guideID":"yV1ZL100HP","chartKey":"yV1ZL100HP","isLeaf":false,"options":[{"id":"yV1emt01sW","option":"Gilt Apple Mini - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Golden Apple Snail ‘Gilt Apple Mini’
 

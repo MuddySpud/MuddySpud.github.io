@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrb
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6F30WD","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus_frags"},"fragment":{"id":"10mg6F30WD","topLevelMapKey":"yKXNWc00FO","mapKeyChain":"yKXNWc00FO","guideID":"10mg6F31SA","chartKey":"yKXNWc00FO","isLeaf":false,"options":[{"id":"10mg6F90h3","option":"Urban Lotus - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yKXREE008z","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/YoungLotusRootUrbanLotus_frags"},"fragment":{"id":"yKXREE008z","topLevelMapKey":"yKXNWc00FO","mapKeyChain":"yKXNWc00FO","guideID":"yKXNWc00FO","chartKey":"yKXNWc00FO","isLeaf":false,"options":[{"id":"yKXToG00tU","option":"Urban Lotus - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Young Lotus Root ‘Urban Lotus’
 

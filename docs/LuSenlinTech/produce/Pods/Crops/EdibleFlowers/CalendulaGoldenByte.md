@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/EdibleFlowers/CalendulaGoldenBy
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6Pm0ac","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/CalendulaGoldenByte_frags"},"fragment":{"id":"10mg6Pm0ac","topLevelMapKey":"yQ9My001Vx","mapKeyChain":"yQ9My001Vx","guideID":"10mg6Pm0zO","chartKey":"yQ9My001Vx","isLeaf":false,"options":[{"id":"10mg6Ps0Si","option":"Golden Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQ9Ovo00u1","path":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/EdibleFlowers/CalendulaGoldenByte_frags"},"fragment":{"id":"yQ9Ovo00u1","topLevelMapKey":"yQ9My001Vx","mapKeyChain":"yQ9My001Vx","guideID":"yQ9My001Vx","chartKey":"yQ9My001Vx","isLeaf":false,"options":[{"id":"yQ9TIQ01Ny","option":"Golden Byte - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Calendula ‘Golden Byte’
 

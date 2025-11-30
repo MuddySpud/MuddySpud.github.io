@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/Fungi/EnokiMetroNeedle_frags
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg7EE24G","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/EnokiMetroNeedle_frags"},"fragment":{"id":"10mg7EE24G","topLevelMapKey":"yQLA4g00UJ","mapKeyChain":"yQLA4g00UJ","guideID":"10mg7EE1Jm","chartKey":"yQLA4g00UJ","isLeaf":false,"options":[{"id":"10mg7EM0kD","option":"Metro-Needle - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yQLCvD00fq","path":"LuSenlinTech/produce/Pods/Crops/Fungi","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/Fungi/EnokiMetroNeedle_frags"},"fragment":{"id":"yQLCvD00fq","topLevelMapKey":"yQLA4g00UJ","mapKeyChain":"yQLA4g00UJ","guideID":"yQLA4g00UJ","chartKey":"yQLA4g00UJ","isLeaf":false,"options":[{"id":"yQLEnv01xR","option":"Metro-Needle - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Enoki ‘Metro-Needle’
 

@@ -7,7 +7,7 @@ fragsFolderPath: LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKa
 ---
 
 
-<!-- tsGuideRenderComment {"guide":{"id":"10mg6850Pi","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu_frags"},"fragment":{"id":"10mg6850Pi","topLevelMapKey":"yKVXY900Rn","mapKeyChain":"yKVXY900Rn","guideID":"10mg6850JY","chartKey":"yKVXY900Rn","isLeaf":false,"options":[{"id":"10mg68B1O2","option":"Tiny Kabu - a deeper dive","order":1,"isAncillary":true}]}} -->
+<!-- tsGuideRenderComment {"guide":{"id":"yKVavA02bC","path":"LuSenlinTech/produce/Pods/Crops/RootsAndStems","fragmentFolderPath":"LuSenlinTech/produce/Pods/Crops/RootsAndStems/TokyoTurnipTinyKabu_frags"},"fragment":{"id":"yKVavA02bC","topLevelMapKey":"yKVXY900Rn","mapKeyChain":"yKVXY900Rn","guideID":"yKVXY900Rn","chartKey":"yKVXY900Rn","isLeaf":false,"options":[{"id":"yKVcme026k","option":"Tiny Kabu - a deeper dive","order":1,"isAncillary":true}]}} -->
 
 ##### Tokyo Turnip ‘Tiny Kabu’
 
