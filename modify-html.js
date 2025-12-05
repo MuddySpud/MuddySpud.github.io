@@ -163,7 +163,7 @@ async function processHtmlFiles() {
         // Write modified HTML back
         await fs.writeFile(file, dom.serialize(), 'utf8');
 
-        console.log(`Modified ${file}`);
+        // console.log(`Modified ${file}`);
       }
     }
 
@@ -195,7 +195,7 @@ async function processFindAndReplaceFiles() {
       // Write modified text back
       await fs.writeFile(file, newContent, 'utf8');
 
-      console.log(`Modified ${file}`);
+      // console.log(`Modified ${file}`);
     }
   }
   catch (error) {
@@ -228,7 +228,7 @@ async function processDocumentationHellMap() {
     // Write modified text back
     await fs.writeFile(documentationHellFilePath, newContent, 'utf8');
 
-    console.log(`^^^^^^^^^^^^^^^^^^^^^^^^Modified ${documentationHellFilePath}`);
+    // console.log(`^^^^^^^^^^^^^^^^^^^^^^^^Modified ${documentationHellFilePath}`);
   }
   catch (error) {
 
