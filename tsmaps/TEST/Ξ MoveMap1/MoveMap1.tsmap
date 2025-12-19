@@ -1,0 +1,35 @@
+{
+    "key": "12pXmps02Zo ",
+    "token": "Movemap1",
+    "name": "MoveMap1",
+    "created": "2025-12-19T10:22:26.936Z",
+    "list": true,
+    "cachedPath": "c:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ MoveMap1/MoveMap1.tsmap",
+    "iText": "Link to 'MoveMap1'",
+    "___rΩΩt___": {
+        "key": "12pXosl01Ul",
+        "nodes": [
+            {
+                "key": "12pXqcO01NF",
+                "order": 1,
+                "option": "Next",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-12pXosl01Ul",
+            "relativePath": "./δ steps/δ-12pXosl01Ul.tsstp"
+        },
+        {
+            "key": "δ-12pXqcO01NF",
+            "relativePath": "./δ steps/δ-12pXqcO01NF.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "12pXt4s02BO",
+        "editorID": "car_def0218a8462490591a7447aa9ff04da",
+        "ticks": 1766139770930
+    }
+}
