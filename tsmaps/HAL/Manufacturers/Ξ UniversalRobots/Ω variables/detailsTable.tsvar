@@ -27,7 +27,7 @@ Dashboard X.X¬
 [Upload]{{gl.capabilities-link-D}}<br>[Execution]{{gl.capabilities-link-D}}<br>[Backup]{{gl.capabilities-link-D}}¬
 
 ¬cell-2-4: 
-> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. <br>> Root Directory - Directory in which your programs, URCaps etc. are stored. Defaults to '/root' but could be blank if your [simulator is set up as below](#3-simulation) or '/ursim' if using the [default Docker image](#docker).¬ 
+> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. <br>> Root Directory - Directory in which your programs, URCaps etc. are stored. Defaults to '/root' but could be blank if your [simulator is set up as below](#3-simulation) or '/ursim' if using the [default Docker image](#docker).¬
 
 
 
@@ -42,7 +42,7 @@ Real-Time Data Exchange protocol which allows low latency communication and stat
 [Monitor]{{gl.capabilities-link-D}}<br>[Receive State]{{gl.capabilities-link-D}}<br>[Read Signals]{{gl.capabilities-link-D}}<br>[Write Signals]{{gl.capabilities-link-D}}¬
 
 ¬cell-3-4: 
-> IP - IP address of your remote robot or simulator.¬ 
+> IP - IP address of your remote robot or simulator.¬
 
 
 
@@ -57,7 +57,7 @@ Copies files to and from a remote {{gl.controller-lc-link}}.¬
 [File Manager]{{gl.capabilities-link-D}}¬
 
 ¬cell-4-4: 
-> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. For a simulator, these should be the user on the host machine.¬ 
+> IP - IP address of your remote robot or simulator.<br>> Credentials - Credentials needed to log in to the robot (or [simulator](#3-simulation)) remotely. Defaults will work unless they have been changed in your robot's Settings -> Password -> Admin window. For a simulator, these should be the user on the host machine.¬
 
 
 
@@ -72,7 +72,7 @@ Copies files to and from a Docker simulated {{gl.controller-lc-link}}. See [Simu
 [File Manager]{{gl.capabilities-link-D}}¬
 
 ¬cell-5-4: 
-> Root Directory - Path to which the Docker programs path is set. See [Simulation](#3-simulation) below and the {{el.universal-robots-docker-link}} for more details.¬ 
+> Root Directory - Path to which the Docker programs path is set. See [Simulation](#3-simulation) below and the {{el.universal-robots-docker-link}} for more details.¬
 
 
 
