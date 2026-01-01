@@ -8,18 +8,40 @@
     "cachedPath": "d:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestIntro/TestIntro.tsmap",
     "iText": "Link to 'TestIntro'",
     "___rΩΩt___": {
-        "key": "s7SMBI1Ex",
-        "isLeaf": true
+        "key": "s7SMBI0uZ",
+        "nodes": [
+            {
+                "key": "s7SMBI0ME",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "s7SMBI1Ex",
+                        "order": 1,
+                        "option": "Next",
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
     },
     "___αssεts___": [
+        {
+            "key": "δ-s7SMBI0uZ",
+            "relativePath": "./δ steps/δ-s7SMBI0uZ.tsstp"
+        },
+        {
+            "key": "δ-s7SMBI0ME",
+            "relativePath": "./δ steps/δ-s7SMBI0ME.tsstp"
+        },
         {
             "key": "δ-s7SMBI1Ex",
             "relativePath": "./δ steps/δ-s7SMBI1Ex.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "143bwZe01hK",
+        "id": "143bSwv01I9",
         "editorID": "car_a227fe31307b40fbb2b31771c68d7983",
-        "ticks": 1767263739218
+        "ticks": 1767263625341
     }
 }
