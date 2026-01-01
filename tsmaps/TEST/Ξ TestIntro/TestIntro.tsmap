@@ -1,0 +1,58 @@
+{
+    "key": "143YgAZ00hS ",
+    "token": "Testintro",
+    "name": "TestIntro",
+    "created": "2026-01-01T10:23:08.875Z",
+    "list": true,
+    "publishFileName": "TestIntro",
+    "cachedPath": "d:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ TestIntro/TestIntro.tsmap",
+    "iText": "Link to 'TestIntro'",
+    "___rΩΩt___": {
+        "key": "s7SMBI0uZ",
+        "nodes": [
+            {
+                "key": "s7SMBI0ME",
+                "order": 1,
+                "option": "Next",
+                "nodes": [
+                    {
+                        "key": "s7SMBI1Ex",
+                        "order": 1,
+                        "option": "Next",
+                        "nodes": [
+                            {
+                                "key": "s7SMBI2By",
+                                "order": 1,
+                                "option": "Next",
+                                "isLeaf": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-s7SMBI0uZ",
+            "relativePath": "./δ steps/δ-s7SMBI0uZ.tsstp"
+        },
+        {
+            "key": "δ-s7SMBI0ME",
+            "relativePath": "./δ steps/δ-s7SMBI0ME.tsstp"
+        },
+        {
+            "key": "δ-s7SMBI1Ex",
+            "relativePath": "./δ steps/δ-s7SMBI1Ex.tsstp"
+        },
+        {
+            "key": "δ-s7SMBI2By",
+            "relativePath": "./δ steps/δ-s7SMBI2By.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "143bCFV00x8",
+        "editorID": "car_594f2a2eaed14c6f8d43c5d610fc2436",
+        "ticks": 1767263561145
+    }
+}
