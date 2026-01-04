@@ -1,8 +1,7 @@
 ¬import el from "../../shared/externalLinks"
-¬import euth from "../_shared/ExploreUnderTheHood"
 
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - {{el.halRobotics_link}}.*
 
-{{euth.introductionLink}}
+
 
