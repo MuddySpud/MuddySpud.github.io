@@ -8,6 +8,8 @@ permalink: /DocumentationHell_frags/sIi16r00h6.html
 
 *This is an experimental port from a C# server/database application - to a GitHub repo/VS Code extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).*
 
+
+
 # Escape Documentation Hell
 
 [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
