@@ -1,0 +1,23 @@
+{
+    "¬imports": [
+        {
+            "¬alias": "alias1",
+            "¬filepath": "filePath1"
+        },
+        {
+            "¬alias": "alias2",
+            "¬filepath": "./Test"
+        }
+    ],
+    "propertyName1": "nt-{{alias1.variableName1}}-end",
+    "propertyName2": "nt-{{alias2.testMapLink}}-end",
+    "object1": {
+        "propertyName3": "{{alias1.variableName3}}"
+    },
+    "object2": {
+        "propertyName4": "other text",
+        "object3": {
+            "propertyName3": "Fred was here {{alias2.moveMapLink}} \n 12930"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "key": "16ipdQ402UL ",
+    "token": "Videotest",
+    "name": "VideoTest",
+    "created": "2026-01-29T16:44:57.620Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/MuddySpud/MuddySpud.github.io/tsmaps/TEST/Ξ VideoTest/VideoTest.tsmap",
+    "iText": "Link to 'VideoTest'",
+    "___rΩΩt___": {
+        "key": "16ipf7g00UO",
+        "nodes": [
+            {
+                "key": "16iph8r00eq",
+                "order": 1,
+                "option": "Next",
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-16ipf7g00UO",
+            "relativePath": "./δ steps/δ-16ipf7g00UO.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "16kcahr02Qa",
+        "editorID": "car_15ba6c0be27448a0a9a25f8b8a5b5070",
+        "ticks": 1769731541599
+    }
+}
