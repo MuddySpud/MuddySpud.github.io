@@ -15,6 +15,13 @@
                 "option": "Next",
                 "isLeaf": true,
                 "discussionType": "videoUrlJson"
+            },
+            {
+                "key": "16p0DIR01Is",
+                "order": 2,
+                "option": "variables",
+                "isLeaf": true,
+                "discussionType": "videoUrlJson"
             }
         ]
     },
@@ -28,11 +35,17 @@
             "content": "{\"url\":\"https://player.vimeo.com/video/817455618?h=1ed6f8fb44\"}",
             "isVirtual": true,
             "relativePath": "./δ steps/δ-16iph8r00eq.tsjsn"
+        },
+        {
+            "key": "δ-16p0DIR01Is",
+            "content": "{\"url\":\"https://player.vimeo.com/video/817455618?h=1ed6f8fb44\"}",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-16p0DIR01Is.tsjsn"
         }
     ],
     "___εdit___": {
-        "id": "16p06JG024s",
+        "id": "16p1Qps012d",
         "editorID": "car_016091a619b24dae91aa0240f4e74fbe",
-        "ticks": 1769796249970
+        "ticks": 1769796567200
     }
 }
