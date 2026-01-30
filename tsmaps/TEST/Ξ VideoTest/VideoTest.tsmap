@@ -13,7 +13,8 @@
                 "key": "16iph8r00eq",
                 "order": 1,
                 "option": "Next",
-                "isLeaf": true
+                "isLeaf": true,
+                "discussionType": "videoUrlJson"
             }
         ]
     },
@@ -21,11 +22,17 @@
         {
             "key": "δ-16ipf7g00UO",
             "relativePath": "./δ steps/δ-16ipf7g00UO.tsstp"
+        },
+        {
+            "key": "δ-16iph8r00eq",
+            "content": "{\"url\":\"https://player.vimeo.com/video/817455618?h=1ed6f8fb44\"}",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-16iph8r00eq.tsjsn"
         }
     ],
     "___εdit___": {
-        "id": "16kcahr02Qa",
-        "editorID": "car_15ba6c0be27448a0a9a25f8b8a5b5070",
-        "ticks": 1769731541599
+        "id": "16p06JG024s",
+        "editorID": "car_016091a619b24dae91aa0240f4e74fbe",
+        "ticks": 1769796249970
     }
 }
