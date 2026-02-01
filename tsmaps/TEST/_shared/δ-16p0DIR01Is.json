@@ -5,8 +5,6 @@
             "¬filepath": "./Test"
         }
     ],
-    "$schema": "./schemas/videoUrlJson.json",
     "url": "{{t.vimeoPlayerUrl}}",
     "fred": "r"
 }
-

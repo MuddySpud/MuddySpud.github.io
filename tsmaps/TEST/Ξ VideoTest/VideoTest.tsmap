@@ -22,8 +22,16 @@
                 "option": "variables",
                 "isLeaf": true,
                 "discussionType": "videoUrlJson"
+            },
+            {
+                "key": "16uDmqm01AH",
+                "order": 3,
+                "option": "test",
+                "isLeaf": true,
+                "discussionType": "markdown"
             }
-        ]
+        ],
+        "discussionType": "markdown"
     },
     "___αssεts___": [
         {
@@ -32,20 +40,20 @@
         },
         {
             "key": "δ-16iph8r00eq",
-            "content": "{\"url\":\"https://player.vimeo.com/video/817455618?h=1ed6f8fb44\"}",
-            "isVirtual": true,
             "relativePath": "./δ steps/δ-16iph8r00eq.tsjsn"
         },
         {
             "key": "δ-16p0DIR01Is",
-            "content": "{\"url\":\"https://player.vimeo.com/video/817455618?h=1ed6f8fb44\"}",
-            "isVirtual": true,
             "relativePath": "./δ steps/δ-16p0DIR01Is.tsjsn"
+        },
+        {
+            "key": "δ-16uDmqm01AH",
+            "relativePath": "./δ steps/δ-16uDmqm01AH.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "16p1Qps012d",
-        "editorID": "car_016091a619b24dae91aa0240f4e74fbe",
-        "ticks": 1769796567200
+        "id": "16uDpAl00ue",
+        "editorID": "car_34faf71d6ff74cb38a563b7dbd570a68",
+        "ticks": 1769873402367
     }
 }

@@ -117,5 +117,27 @@
                 "foreground": "#a384fc"
             }
         }
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*.video.json",
+                "**/*.video.json"
+            ],
+            "url": "myext://schemas/videoUrlJson.json"
+        },
+        {
+            "fileMatch": [
+                "*.imports.json",
+                "**/*.imports.json"
+            ],
+            "url": "myext://schemas/imports-schema.json"
+        },
+        {
+            "fileMatch": [
+                "**/*.tsjsn"
+            ],
+            "url": "docsAssembler-schema://schemas/videoUrlJson.json"
+        }
     ]
 }
