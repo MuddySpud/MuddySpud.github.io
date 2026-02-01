@@ -117,13 +117,5 @@
                 "foreground": "#a384fc"
             }
         }
-    ],
-    "json.schemas": [
-        {
-            "fileMatch": [
-                "**/*.json"
-            ],
-            "url": "docsAssembler-schema://schemas/videoUrlJson.json"
-        }
     ]
 }
