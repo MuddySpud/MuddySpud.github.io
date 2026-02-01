@@ -9,7 +9,7 @@
             "¬filepath": "./Test"
         }
     ],
-    "$schema": "file:///d%3A/GitHub/CompositeFlows-RM/documentation-assembler-vsc/schemas/videoUrlJson.json",
+    "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
     "propertyName1": "nt-{{alias1.testMapUrl}}-end",
     "propertyName2": "nt-{{alias2.testMapLink}}-end",
     "object1": {
