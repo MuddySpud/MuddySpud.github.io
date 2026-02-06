@@ -1,17 +1,25 @@
 {
     "¬imports": [
-        { "¬alias": "alias1", "¬path": "filePath1" },
-        { "¬alias": "alias2", "¬path": "filePath2" }
+        {
+            "¬alias": "alias1",
+            "¬filepath": "./bert"
+        },
+        {
+            "¬alias": "alias2",
+            "¬filepath": "./Test"
+        }
     ],
-    "propertyName1": "nt-{{alias1.variableName1}}-end",
-    "propertyName2": "nt-{{alias2.variableName2}}-end",
+    "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
+    "propertyName1": "nt-{{alias1.testMapUrl}}-end",
+    "propertyName2": "nt-{{alias2.testMapLink}}-end",
     "object1": {
-        "propertyName3": "{{alias1.variableName3}}"
+        "propertyName3": "{{alias1.moveMapUrl}}"
     },
     "object2": {
         "propertyName4": "other text",
         "object3": {
-            "propertyName3": "Fred was here {{alias1.variableName3}} \n 12930"
+            "propertyName3": "Fred was here {{alias2.moveMapLink}} \n 12930"
         }
     }
 }
+

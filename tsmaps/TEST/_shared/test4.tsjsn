@@ -12,6 +12,7 @@
     "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
     "propertyName1": "nt-{{alias1.testMapUrl}}-end",
     "propertyName2": "nt-{{alias2.testMapLink}}-end",
+    "propertyName3": "nt-{{alias1.}}-end",
     "object1": {
         "propertyName3": "{{alias1.moveMapUrl}}"
     },
