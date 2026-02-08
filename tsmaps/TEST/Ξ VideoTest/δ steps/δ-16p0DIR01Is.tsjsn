@@ -2,11 +2,12 @@
     "¬imports": [
         {
             "¬alias": "t",
-            "¬filepath": "./Test"
+            "¬filepath": "../../_shared/Test"
         }
     ],
-    "$schema": "./schemas/videoUrlJson.json",
-    "url": "{{t.vimeoPlayerUrl}}",
-    "fred": "r"
+    "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
+    "type": "video",
+    "playerType": "vimeo",
+    "url": "{{t.vimeoPlayerUrl}}"
 }
 

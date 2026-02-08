@@ -1,1 +1,6 @@
-{"url":"https://player.vimeo.com/video/817455618?h=1ed6f8fb44"}
+{
+    "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
+    "type": "video",
+    "playerType": "vimeo",
+    "url": "https://player.vimeo.com/video/817455618?h=1ed6f8fb44"
+}

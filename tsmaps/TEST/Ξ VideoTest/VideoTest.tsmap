@@ -14,24 +14,22 @@
                 "order": 1,
                 "option": "Next",
                 "isLeaf": true,
-                "discussionType": "videoUrlJson"
+                "discussionType": "video"
             },
             {
                 "key": "16p0DIR01Is",
                 "order": 2,
                 "option": "variables",
                 "isLeaf": true,
-                "discussionType": "videoUrlJson"
+                "discussionType": "video"
             },
             {
                 "key": "16uDmqm01AH",
                 "order": 3,
                 "option": "test",
-                "isLeaf": true,
-                "discussionType": "markdown"
+                "isLeaf": true
             }
-        ],
-        "discussionType": "markdown"
+        ]
     },
     "___αssεts___": [
         {
@@ -52,8 +50,8 @@
         }
     ],
     "___εdit___": {
-        "id": "16uDpAl00ue",
-        "editorID": "car_34faf71d6ff74cb38a563b7dbd570a68",
-        "ticks": 1769873402367
+        "id": "17h0IKx02N1",
+        "editorID": "me_67df56cb7f6848ea9bd11e4f728ceee4",
+        "ticks": 1770594218347
     }
 }
