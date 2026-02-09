@@ -121,11 +121,11 @@
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
-            "keyword": "#c586c0",
-            "alias": "#7bc67e",
-            "variable": "#86bdb2",
-            "path": "#d8ad1f",
-            "operator": "#f0ef9e"
+            "dakeyword": "#c586c0",
+            "daalias": "#7bc67e",
+            "davariable": "#86bdb2",
+            "dapath": "#d8ad1f",
+            "daoperator": "#f0ef9e"
         }
     },
     "json.schemas": []
