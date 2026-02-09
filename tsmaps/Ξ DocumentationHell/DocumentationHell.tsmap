@@ -110,15 +110,8 @@
                                                                         "key": "v6E9BE01nK",
                                                                         "order": 2,
                                                                         "option": "What are decision trees?",
-                                                                        "isAncillary": true,
-                                                                        "nodes": [
-                                                                            {
-                                                                                "key": "17hCnnK02Zg",
-                                                                                "order": 1,
-                                                                                "option": "Video",
-                                                                                "isLeaf": true
-                                                                            }
-                                                                        ]
+                                                                        "isLeaf": true,
+                                                                        "isAncillary": true
                                                                     }
                                                                 ]
                                                             }
@@ -212,17 +205,11 @@
         {
             "key": "δ-u4eeh600MG",
             "relativePath": "./δ steps/δ-u4eeh600MG.tsstp"
-        },
-        {
-            "key": "δ-17hCnnK02Zg",
-            "content": "END",
-            "isVirtual": true,
-            "relativePath": "./δ steps/δ-17hCnnK02Zg.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "17hCrIn01fU",
-        "editorID": "car_a8e956279bfa4066a78e092a57673c20",
-        "ticks": 1770597212689
+        "id": "17jyx1P02M5",
+        "editorID": "car_c41c600808bc411c8718e589e2ebce7a",
+        "ticks": 1770638227091
     }
 }
