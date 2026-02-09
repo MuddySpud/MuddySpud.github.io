@@ -35,8 +35,7 @@
                                                         "order": 1,
                                                         "option": "Explore a Docs Assembler solution",
                                                         "isLeaf": true,
-                                                        "iKey": "u5gguY01On",
-                                                        "discussionType": "markdown"
+                                                        "iKey": "u5gguY01On"
                                                     },
                                                     {
                                                         "key": "uqem6A02Wl",
@@ -63,8 +62,7 @@
                                                                                                 "key": "u51rKe01DX",
                                                                                                 "order": 1,
                                                                                                 "isLeaf": true,
-                                                                                                "iKey": "u5gguY01On",
-                                                                                                "discussionType": "markdown"
+                                                                                                "iKey": "u5gguY01On"
                                                                                             },
                                                                                             {
                                                                                                 "key": "u4z5G702Xs",
@@ -81,25 +79,20 @@
                                                                                                             {
                                                                                                                 "key": "u4zYPX00A6",
                                                                                                                 "order": 1,
-                                                                                                                "isLeaf": true,
-                                                                                                                "discussionType": "markdown"
+                                                                                                                "isLeaf": true
                                                                                                             },
                                                                                                             {
                                                                                                                 "key": "u4zf7f0076",
                                                                                                                 "order": 2,
                                                                                                                 "option": "Using variables",
                                                                                                                 "isLeaf": true,
-                                                                                                                "isAncillary": true,
-                                                                                                                "discussionType": "markdown"
+                                                                                                                "isAncillary": true
                                                                                                             }
-                                                                                                        ],
-                                                                                                        "discussionType": "markdown"
+                                                                                                        ]
                                                                                                     }
-                                                                                                ],
-                                                                                                "discussionType": "markdown"
+                                                                                                ]
                                                                                             }
-                                                                                        ],
-                                                                                        "discussionType": "markdown"
+                                                                                        ]
                                                                                     },
                                                                                     {
                                                                                         "key": "u5ZOcJ01h6",
@@ -107,46 +100,41 @@
                                                                                         "option": "What are hallucinations?",
                                                                                         "isLeaf": true,
                                                                                         "isAncillary": true,
-                                                                                        "iKey": "u5Yi1402Vi",
-                                                                                        "discussionType": "markdown"
+                                                                                        "iKey": "u5Yi1402Vi"
                                                                                     }
-                                                                                ],
-                                                                                "discussionType": "markdown"
+                                                                                ]
                                                                             }
-                                                                        ],
-                                                                        "discussionType": "markdown"
+                                                                        ]
                                                                     },
                                                                     {
                                                                         "key": "v6E9BE01nK",
                                                                         "order": 2,
                                                                         "option": "What are decision trees?",
-                                                                        "isLeaf": true,
                                                                         "isAncillary": true,
-                                                                        "discussionType": "markdown"
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "17hCnnK02Zg",
+                                                                                "order": 1,
+                                                                                "option": "Video",
+                                                                                "isLeaf": true
+                                                                            }
+                                                                        ]
                                                                     }
-                                                                ],
-                                                                "discussionType": "markdown"
+                                                                ]
                                                             }
-                                                        ],
-                                                        "discussionType": "markdown"
+                                                        ]
                                                     }
-                                                ],
-                                                "discussionType": "markdown"
+                                                ]
                                             }
-                                        ],
-                                        "discussionType": "markdown"
+                                        ]
                                     }
-                                ],
-                                "discussionType": "markdown"
+                                ]
                             }
-                        ],
-                        "discussionType": "markdown"
+                        ]
                     }
-                ],
-                "discussionType": "markdown"
+                ]
             }
-        ],
-        "discussionType": "markdown"
+        ]
     },
     "___αssεts___": [
         {
@@ -224,11 +212,17 @@
         {
             "key": "δ-u4eeh600MG",
             "relativePath": "./δ steps/δ-u4eeh600MG.tsstp"
+        },
+        {
+            "key": "δ-17hCnnK02Zg",
+            "content": "END",
+            "isVirtual": true,
+            "relativePath": "./δ steps/δ-17hCnnK02Zg.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "17f5VHM02Dy",
-        "editorID": "car_dc410ac7b9984d83a22ad987ba0fc375",
-        "ticks": 1770565907064
+        "id": "17hCrIn01fU",
+        "editorID": "car_a8e956279bfa4066a78e092a57673c20",
+        "ticks": 1770597212689
     }
 }
