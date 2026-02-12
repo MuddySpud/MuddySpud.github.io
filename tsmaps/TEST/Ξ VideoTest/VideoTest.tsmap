@@ -27,6 +27,7 @@
                 "key": "16uDmqm01AH",
                 "order": 3,
                 "option": "test",
+                "sharedAssetKey": "17wmmX300p7",
                 "isLeaf": true
             }
         ]
@@ -45,13 +46,14 @@
             "relativePath": "./δ steps/δ-16p0DIR01Is.tsjsn"
         },
         {
-            "key": "δ-16uDmqm01AH",
-            "relativePath": "./δ steps/δ-16uDmqm01AH.tsstp"
+            "key": "17wmmX300p7",
+            "relativePath": "../_shared/δ-sYNvVu009z.tsstp",
+            "isShared": true
         }
     ],
     "___εdit___": {
-        "id": "17h0IKx02N1",
-        "editorID": "me_67df56cb7f6848ea9bd11e4f728ceee4",
-        "ticks": 1770594218347
+        "id": "17wmqGU02L5",
+        "editorID": "car_4346778f9ed54e1089a6c67d337c7f60",
+        "ticks": 1770827433550
     }
 }
