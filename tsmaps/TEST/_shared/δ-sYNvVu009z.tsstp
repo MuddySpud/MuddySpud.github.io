@@ -3,6 +3,9 @@
 
 # Escape Documentation Hell
 
+
+[Docs Assembler]({{el.docsAssemblerDemoRepo_url}})
+
 {{el.docsAssemblerExtension_link}} is a text editor for authoring documentation. It is specifically designed for - eliminating duplication - documenting intricate systems - and complex troubleshooting. All scenarios where traditional documentation fails. 
 
 Text is built from reusable content parts. If you change a part, it updates everywhere. 
