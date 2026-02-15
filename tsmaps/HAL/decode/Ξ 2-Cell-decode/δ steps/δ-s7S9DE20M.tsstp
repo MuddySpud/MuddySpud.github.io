@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll create a simple {{gl.end-effector-link}} for your _decode_ scene.
+In this tutorial we'll create a simple {{::gl.end-effector-link}} for your _decode_ scene.
 
 #### Demo Files:
 
-> [{{il.rhFile16-img}} Tool.stl]{{del.tool-link-D}}{: .icon-link}
+> [{{::il.rhFile16-img}} Tool.stl]{{::del.tool-link-D}}{: .icon-link}
 

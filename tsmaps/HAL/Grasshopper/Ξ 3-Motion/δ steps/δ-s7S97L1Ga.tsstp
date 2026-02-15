@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll look at how to change the way in which a {{gl.manipulator-link}} moves to you {{gl.targets-link}} using the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll look at how to change the way in which a {{::gl.manipulator-link}} moves to you {{::gl.targets-link}} using the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Change Motion Settings.gh]{{gel.changeMotionSettings-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Change Motion Settings.gh]{{::gel.changeMotionSettings-gh-link-D}}{: .icon-link}
 

@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll create a {{gl.wait-action-a-link}} that pauses {{gl.manipulator-link}} execution for a fixed period of time using the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll create a {{::gl.wait-action-a-link}} that pauses {{::gl.manipulator-link}} execution for a fixed period of time using the HAL Robotics Framework for Grasshopper.
 

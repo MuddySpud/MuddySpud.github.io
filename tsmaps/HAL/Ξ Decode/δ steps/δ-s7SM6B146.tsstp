@@ -1,12 +1,12 @@
 ¬import dl from "../../_shared/decodeLinks"
 
 
-### {{dl.decode-advanced-programming-link}}
+### {{::dl.decode-advanced-programming-link}}
 
-#### {{dl.decode-external-variables-link}}
+#### {{::dl.decode-external-variables-link}}
 
-#### {{dl.decode-procedures-variables-link}}
+#### {{::dl.decode-procedures-variables-link}}
 
-#### {{dl.decode-geometry-link}}
+#### {{::dl.decode-geometry-link}}
 
-#### {{dl.decode-resuing-controller-link}}
+#### {{::dl.decode-resuing-controller-link}}

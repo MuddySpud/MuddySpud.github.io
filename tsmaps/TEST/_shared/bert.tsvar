@@ -1,12 +1,12 @@
 
 
 ¬testMapUrl: ../Ξ TestMap/TestMap.tsmap
-¬testMapLink: [TestMap]({{testMapUrl}})
+¬testMapLink: [TestMap]({{::testMapUrl}})
 
 ¬moveMapUrl: ../Ξ MoveMap/MoveMap.tsmap
-¬moveMapLink: [MoveMap]({{moveMapUrl}})
+¬moveMapLink: [MoveMap]({{::moveMapUrl}})
 
 ¬vimeoPlayerUrl: https://player.vimeo.com/video/817455618?h=1ed6f8fb44
-¬vimeoPlayerLink:  [Vimeo player link]({{vimeoPlayerUrl}})
+¬vimeoPlayerLink: [Vimeo player link]({{::vimeoPlayerUrl}})
 
 

@@ -4,5 +4,5 @@
 
 #### Background:
 
-{{gl.targets-link}} are the way we define to where a {{gl.manipulator-link}} should move. They do not, in and of themselves, define how a {{gl.manipulator-link}} should move so we can mix and match {{gl.target-link}} creation techniques with different types of {{gl.motion-action-move-link}}.
+{{::gl.targets-link}} are the way we define to where a {{::gl.manipulator-link}} should move. They do not, in and of themselves, define how a {{::gl.manipulator-link}} should move so we can mix and match {{::gl.target-link}} creation techniques with different types of {{::gl.motion-action-move-link}}.
 

@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll see how to create {{gl.references-link}} in HAL Robotics Framework components in Grasshopper.
+In this tutorial we'll see how to create {{::gl.references-link}} in HAL Robotics Framework components in Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}}  Create a Reference.gh]{{gel.createReference-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}}  Create a Reference.gh]{{::gel.createReference-gh-link-D}}{: .icon-link}
 

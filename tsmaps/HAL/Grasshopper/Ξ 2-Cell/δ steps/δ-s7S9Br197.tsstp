@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll bring in calibrated data to improve the accuracy of [Tools]{{gl.end-effector-link-D}} and {{gl.references-link}} in the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll bring in calibrated data to improve the accuracy of [Tools]{{::gl.end-effector-link-D}} and {{::gl.references-link}} in the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Calibrate a Tool or Reference.gh]{{gel.calibrateTool-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Calibrate a Tool or Reference.gh]{{::gel.calibrateTool-gh-link-D}}{: .icon-link}
 

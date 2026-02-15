@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll look at how you can create and configure a virtual {{gl.controller-link}} to match your real {{gl.controller-link}} in your _decode_ scene.
+In this tutorial we'll look at how you can create and configure a virtual {{::gl.controller-link}} to match your real {{::gl.controller-link}} in your _decode_ scene.
 

@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll create a {{gl.signal-link}} that can be programmed in the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll create a {{::gl.signal-link}} that can be programmed in the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Create a Signal.gh]{{gel.createSignal-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Create a Signal.gh]{{::gel.createSignal-gh-link-D}}{: .icon-link}
 

@@ -14,7 +14,7 @@
 ¬universal-robots-port-list-here-link: [here](https://forum.universal-robots.com/t/overview-of-used-ports-on-local-host/8889)
 
 ¬universal-robots-docker-url: https://hub.docker.com/r/universalrobots/ursim_e-series
-¬universal-robots-docker-link: [Docker Hub page for the image]({{universal-robots-docker-url}})
-¬universal-robots-docker-here-link: [here]({{universal-robots-docker-url}})
+¬universal-robots-docker-link: [Docker Hub page for the image]({{::universal-robots-docker-url}})
+¬universal-robots-docker-here-link: [here]({{::universal-robots-docker-url}})
 
 ¬universal-robots-download-here-link: [here](https://www.universal-robots.com/download/?filters[]=98759&filters[]=98916&query=)

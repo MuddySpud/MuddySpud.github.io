@@ -3,5 +3,5 @@
 
 ¬fred: ../../../assets/images/FileAlias.png
 
-¬joe: [test link]({{il.garden_url}})
+¬joe: [test link]({{::il.garden_url}})
 

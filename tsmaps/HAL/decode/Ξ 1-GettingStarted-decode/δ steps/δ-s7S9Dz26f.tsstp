@@ -9,7 +9,7 @@ In this tutorial we'll see how to create a HAL Robotics _decode_ Project so we c
 
 #### Requirements to follow along:
 
-- HAL Robotics _decode_ installed on a PC. See {{ol.overview-installation-link}} if you need to install the software.
+- HAL Robotics _decode_ installed on a PC. See {{::ol.overview-installation-link}} if you need to install the software.
 
 #### Background:
 

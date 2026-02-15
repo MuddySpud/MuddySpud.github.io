@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll use a {{gl.custom-action-link}} to trigger an existing {{gl.manipulator-link}} function using the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll use a {{::gl.custom-action-link}} to trigger an existing {{::gl.manipulator-link}} function using the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Custom Action.gh]{{gel.customAction-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Custom Action.gh]{{::gel.customAction-gh-link-D}}{: .icon-link}
 

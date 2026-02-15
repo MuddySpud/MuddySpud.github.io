@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll use a {{gl.custom-action-link}} to trigger an existing {{gl.manipulator-link}} function using _decode_.
+In this tutorial we'll use a {{::gl.custom-action-link}} to trigger an existing {{::gl.manipulator-link}} function using _decode_.
 

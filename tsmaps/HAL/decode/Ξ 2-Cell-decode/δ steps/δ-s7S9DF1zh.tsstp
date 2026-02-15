@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll create a {{gl.signal-link}} that can be programmed in _decode_.
+In this tutorial we'll create a {{::gl.signal-link}} that can be programmed in _decode_.
 

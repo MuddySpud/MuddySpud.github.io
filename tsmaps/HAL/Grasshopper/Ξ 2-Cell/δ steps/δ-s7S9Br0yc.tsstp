@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll see how to create {{gl.parts-link}} using HAL Robotics Framework components in Grasshopper.
+In this tutorial we'll see how to create {{::gl.parts-link}} using HAL Robotics Framework components in Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}}  Create a Part.gh]{{gel.createPart-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}}  Create a Part.gh]{{::gel.createPart-gh-link-D}}{: .icon-link}
 

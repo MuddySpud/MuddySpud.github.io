@@ -4,8 +4,8 @@
 
 ## 1. Simple Guide
 
-{{ll.redDwarfFoodDispenserFix_map_link}} 
+{{::ll.redDwarfFoodDispenserFix_map_link}} 
 
   
-*{{c.cloneAndDownloadExtension}}*
+*{{::c.cloneAndDownloadExtension}}*
 

@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll {{gl.upload-link}} some robot code to a real {{gl.controller-link}} using the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll {{::gl.upload-link}} some robot code to a real {{::gl.controller-link}} using the HAL Robotics Framework for Grasshopper.
 

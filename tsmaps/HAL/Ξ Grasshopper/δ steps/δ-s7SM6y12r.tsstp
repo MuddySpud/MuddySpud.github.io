@@ -2,14 +2,14 @@
 
 
 
-### {{gl.grasshopper-getting-started-link}}
+### {{::gl.grasshopper-getting-started-link}}
 
-#### {{gl.grasshopper-quick-start-link}}
+#### {{::gl.grasshopper-quick-start-link}}
 
-#### {{gl.grasshopper-interface-overview-link}}
+#### {{::gl.grasshopper-interface-overview-link}}
 
-#### {{gl.grasshopper-components-link}}
+#### {{::gl.grasshopper-components-link}}
 
-#### {{gl.grasshopper-documentation-component-link}}
+#### {{::gl.grasshopper-documentation-component-link}}
 
 ---

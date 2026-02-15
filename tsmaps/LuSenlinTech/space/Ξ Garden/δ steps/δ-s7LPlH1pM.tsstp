@@ -12,5 +12,5 @@ The survey will analyze:
 *   **Topography & Drainage:** Modeling the land's contours to ensure optimal water management and prevent pooling.
 *   **Zoning & Workflow:** Planning the layout for efficient harvesting, maintenance paths, and aesthetic harmony with your outdoor space.
 
-This comprehensive analysis allows us to design a system where your **{{tm.precisionHeatTM}}** root zones and irrigation schedules are perfectly calibrated to your specific climate. If your system requires off-grid power, the data will also determine the optimal size and placement for a **{{tm.hotCarrierTM}}** solar array.
+This comprehensive analysis allows us to design a system where your **{{::tm.precisionHeatTM}}** root zones and irrigation schedules are perfectly calibrated to your specific climate. If your system requires off-grid power, the data will also determine the optimal size and placement for a **{{::tm.hotCarrierTM}}** solar array.
 

@@ -17,13 +17,13 @@ On any given HAL Robotics Framework component, you will notice a few recurring p
 
 To help keep the interface and number of components manageable we have introduced 3 new modes of interaction with Grasshopper components. Components that feature each new interaction mode can be identified easily.
 
-*   Windowed Components a.k.a. Pop-up Components, such as the **Robot** preset component, feature two interlocking squares **⧉** in their name. You can double click on these components to get a pop-up window with additional component inputs. This could be a catalog of available {{gl.manipulator-link}} or {{gl.controller-link}} presets, or an overview of {{gl.procedure-link}} execution progress.
+*   Windowed Components a.k.a. Pop-up Components, such as the **Robot** preset component, feature two interlocking squares **⧉** in their name. You can double click on these components to get a pop-up window with additional component inputs. This could be a catalog of available {{::gl.manipulator-link}} or {{::gl.controller-link}} presets, or an overview of {{::gl.procedure-link}} execution progress.
 
-*   Overloaded Components, such as the **Create Reference** component, can be recognized by their black bar at the bottom which states _Shift + ↕ (1/2)_, or similar. Overloads of a component all perform the same function, such as creating a {{gl.reference-link}}, but are designed to simplify components for typical use by keeping advanced inputs out of the way until you need them.
+*   Overloaded Components, such as the **Create Reference** component, can be recognized by their black bar at the bottom which states _Shift + ↕ (1/2)_, or similar. Overloads of a component all perform the same function, such as creating a {{::gl.reference-link}}, but are designed to simplify components for typical use by keeping advanced inputs out of the way until you need them.
 
-*   Templated Components, such as the **Frame** component, can be identified by their black bar at the bottom which states _Template 1/3_, or similar. Templates are a means of grouping components that create similar objects or use different construction methods. For example, in the case of **Frame**, the templates represent different formalisms for frame creation such as Euler, Quaternion etc. Similarly, in the **Create Target** component, templates all create {{gl.targets-link}} but use different inputs e.g. from a Frame, from Joint Positions or from a Curve.
+*   Templated Components, such as the **Frame** component, can be identified by their black bar at the bottom which states _Template 1/3_, or similar. Templates are a means of grouping components that create similar objects or use different construction methods. For example, in the case of **Frame**, the templates represent different formalisms for frame creation such as Euler, Quaternion etc. Similarly, in the **Create Target** component, templates all create {{::gl.targets-link}} but use different inputs e.g. from a Frame, from Joint Positions or from a Curve.
 
-{{il.13Components-image}}{: .pad-top}
+{{::il.13Components-image}}{: .pad-top}
 <em>The various parameter decorations and shape-changing component features listed above are visible on these four components.</em>{: .pad-bottom}
 
 ---

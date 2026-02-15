@@ -4,7 +4,7 @@
 root
 
 
-{{t.testMapLink}}
+{{::t.testMapLink}}
 
-{{t.moveMapLink}}
+{{::t.moveMapLink}}
 

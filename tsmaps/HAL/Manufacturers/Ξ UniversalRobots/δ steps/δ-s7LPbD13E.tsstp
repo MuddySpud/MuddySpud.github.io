@@ -3,9 +3,9 @@
 
 ##### Linux
 
-**For CB Series Robots UR3-UR10** - Download the latest version of URSim **3**.x from {{el.universal-robots-download-here-link}}. Installation instructions are included on the page.
+**For CB Series Robots UR3-UR10** - Download the latest version of URSim **3**.x from {{::el.universal-robots-download-here-link}}. Installation instructions are included on the page.
 
-**For eSeries Robots UR3e-UR16e and UR20** - Download the latest version of URSim **5**.x from {{el.universal-robots-download-here-link}}. Installation instructions are included on the page.
+**For eSeries Robots UR3e-UR16e and UR20** - Download the latest version of URSim **5**.x from {{::el.universal-robots-download-here-link}}. Installation instructions are included on the page.
 
 To enable uploading from the HAL Robotics Framework to URSim you will need to modify the `start-ursim.sh` file in the URSim installation directory. This will need to be done for each installation of URSim you have on the machine.
 1. Identify the code block starting with `#program directory`

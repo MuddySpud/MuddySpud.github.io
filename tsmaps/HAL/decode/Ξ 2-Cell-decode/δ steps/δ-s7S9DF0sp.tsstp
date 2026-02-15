@@ -3,6 +3,6 @@
 
 #### Requirements to follow along:
 
-{{rp.requirement-1}}
-{{rp.requirement-2}}
+{{::rp.requirement-1}}
+{{::rp.requirement-2}}
 

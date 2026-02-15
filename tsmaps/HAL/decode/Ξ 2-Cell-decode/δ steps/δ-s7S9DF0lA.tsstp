@@ -3,7 +3,7 @@
 
 #### Requirements to follow along:
 
-{{rp.requirement-1}}
-{{rp.requirement-2}}
+{{::rp.requirement-1}}
+{{::rp.requirement-2}}
 - Reading the [Create a Reference](#23-create-a-reference) tutorial is highly recommended.
 

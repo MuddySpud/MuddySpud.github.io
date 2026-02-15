@@ -12,6 +12,6 @@
 
 ###### Service Model: 
 
-- Self-assembly stackable {{tm.pureLightTM}} units.
+- Self-assembly stackable {{::tm.pureLightTM}} units.
 - Monthly consumable deliveries (e.g., nutrient packs or juvenile crayfish).
 - Monthly virtual agronomist consultations.

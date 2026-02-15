@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll look at the different utilities to modify {{gl.targets-link}} built in to the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll look at the different utilities to modify {{::gl.targets-link}} built in to the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Modify a Target.gh]{{gel.modifyTarget-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Modify a Target.gh]{{::gel.modifyTarget-gh-link-D}}{: .icon-link}
 

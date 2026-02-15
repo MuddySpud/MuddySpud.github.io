@@ -7,36 +7,36 @@
 
 #### Objective:
 
-In this tutorial you will learn how to install the HAL Robotics Framework from the {{hl.hal-robotics-home-link}}.
+In this tutorial you will learn how to install the HAL Robotics Framework from the {{::hl.hal-robotics-home-link}}.
 
 #### Requirements to follow along:
 
-- Host software e.g. {{el.rhino-download-link}}, installed on a PC. _N.B. We are working with McNeel to automate this process for you._
+- Host software e.g. {{::el.rhino-download-link}}, installed on a PC. _N.B. We are working with McNeel to automate this process for you._
 - Internet access.
 
 #### How to:
 
-In order to install and use the HAL Robotics Framework, you will first need to {{hl.hal-robotics-register-link}}.
-If you already have an account, you can simply {{hl.hal-robotics-login-link}}. 
+In order to install and use the HAL Robotics Framework, you will first need to {{::hl.hal-robotics-register-link}}.
+If you already have an account, you can simply {{::hl.hal-robotics-login-link}}. 
 
-{{il.userPortalRegister-image}}{: .pad-top}
+{{::il.userPortalRegister-image}}{: .pad-top}
 <em>Register using a valid email address, as it will be used for support and licensing.</em>{: .pad-bottom}
 
-{{il.userPortalRegistration-image}}{: .pad-top}
+{{::il.userPortalRegistration-image}}{: .pad-top}
 <em>Upon validation of your registration details, please verify that our confirmation email is not blocked by your spam filter.</em>{: .pad-bottom}
 
-{{il.userPortalRegistrationConfirmation-image}}{: .pad-top}
+{{::il.userPortalRegistrationConfirmation-image}}{: .pad-top}
 <em>A final registration confirmation will be displayed once you click on the link you received via email.</em>{: .pad-bottom}
 
-{{il.userPortalLogin-image}}{: .pad-top}
+{{::il.userPortalLogin-image}}{: .pad-top}
 <em>The login page simply requires your email and password.</em>{: .pad-bottom}
 
-On the home page you should see a _Downloads_ tab which will give you a link to {{hl.hal-robotics-download-link}}. By clicking on that link, you will download the HAL Robotics Framework Installer. 
+On the home page you should see a _Downloads_ tab which will give you a link to {{::hl.hal-robotics-download-link}}. By clicking on that link, you will download the HAL Robotics Framework Installer. 
 
-{{il.userPortal-image}}{: .pad-top}
-<em>The {{hl.hal-robotics-home-link}} Downloads page.</em>{: .pad-bottom}
+{{::il.userPortal-image}}{: .pad-top}
+<em>The {{::hl.hal-robotics-home-link}} Downloads page.</em>{: .pad-bottom}
 
-{{il.setupExe-image}}{: .pad-top}
+{{::il.setupExe-image}}{: .pad-top}
 <em>The downloaded "Setup.exe" application will install the HAL Robotics Framework Installer.</em>{: .pad-bottom}
 v
 Once the download is complete, run the installer and you should see a list of all available packages and extensions. 
@@ -46,19 +46,19 @@ Every time there are updates available for the packages you have installed simpl
 
 Once the installation is complete you have successfully installed the HAL Robotics Framework.
 
-{{il.installerDisclaimer-image}}{: .pad-top}
+{{::il.installerDisclaimer-image}}{: .pad-top}
 <em>Important information is displayed during the installation phases, please take notice of these elements before using the software.</em>{: .pad-bottom}
 
-{{il.installerPackages-image}}{: .pad-top}
+{{::il.installerPackages-image}}{: .pad-top}
 <em>The HAL Robotics Framework is composed of functionality modules. The installer lets you select the ones you wish to install.</em>{: .pad-bottom}
 
-{{il.installerPackageLicenses-image}}{: .pad-top}
+{{::il.installerPackageLicenses-image}}{: .pad-top}
 <em>Each module is distributed with a corresponding End-User License Agreement (EULA), please take notice of these elements before using the software.</em>{: .pad-bottom}
 
-{{il.installerProgress-image}}{: .pad-top}
+{{::il.installerProgress-image}}{: .pad-top}
 <em>Upon validation of the module selection, the installer will download and install each module and the corresponding dependencies.</em>{: .pad-bottom}
 
-{{il.installerComplete-image}}{: .pad-top}
+{{::il.installerComplete-image}}{: .pad-top}
 <em>You can exit the installer once the setup is complete.</em>{: .pad-bottom}
 
 ---

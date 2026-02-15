@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll see how to add {{gl.parts-link}} to your _decode_ scene.
+In this tutorial we'll see how to add {{::gl.parts-link}} to your _decode_ scene.
 
 #### Demo Files:
 
-> [{{il.rhFile16-img}}  WobblyBlock.stp]{{del.WobblyBlock-link-D}}{: .icon-link}
+> [{{::il.rhFile16-img}}  WobblyBlock.stp]{{::del.WobblyBlock-link-D}}{: .icon-link}
 

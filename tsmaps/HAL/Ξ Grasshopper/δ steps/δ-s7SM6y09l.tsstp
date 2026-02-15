@@ -2,10 +2,10 @@
 
 
 
-### {{gl.grasshopper-io-link}}
+### {{::gl.grasshopper-io-link}}
 
-#### {{gl.grasshopper-create-signal-link}}
+#### {{::gl.grasshopper-create-signal-link}}
 
-#### {{gl.grasshopper-signal-state-link}}
+#### {{::gl.grasshopper-signal-state-link}}
 
 ---

@@ -5,7 +5,7 @@
 
 #### Objective:
 
-Whilst we expect most users to use our own {{gl.simulation-lc-link}} tools for the majority of their cases, there may be a reason (e.g. cycle time analysis, or validation of the robot's limits) that you want to run your {{gl.procedures-link}} on a manufacturer-provided simulator. This section details what you'll need and how to configure that simulator.
+Whilst we expect most users to use our own {{::gl.simulation-lc-link}} tools for the majority of their cases, there may be a reason (e.g. cycle time analysis, or validation of the robot's limits) that you want to run your {{::gl.procedures-link}} on a manufacturer-provided simulator. This section details what you'll need and how to configure that simulator.
 
 #### Requirements to follow along:
 

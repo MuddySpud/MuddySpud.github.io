@@ -5,5 +5,5 @@
 
 #### Objective:
 
-In this tutorial we'll see how to Simulate our {{gl.procedure-link}} in _decode_ to ensure it does what we expect.
+In this tutorial we'll see how to Simulate our {{::gl.procedure-link}} in _decode_ to ensure it does what we expect.
 

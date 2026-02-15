@@ -3,4 +3,4 @@
 
 # Modular Documentation Demos
 
-{{el.docsAssemblerExtension_link}}, a {{el.vscode_link}} 
+{{::el.docsAssemblerExtension_link}}, a {{::el.vscode_link}} 

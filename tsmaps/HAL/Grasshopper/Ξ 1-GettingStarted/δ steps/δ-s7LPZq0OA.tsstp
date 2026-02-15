@@ -7,8 +7,8 @@
 
 #### Objective:
 
-In this tutorial we'll take the shortest route from an empty session to a moving Robot in the HAL Robotics Framework for {{gl.grasshopper-link}}.
+In this tutorial we'll take the shortest route from an empty session to a moving Robot in the HAL Robotics Framework for {{::gl.grasshopper-link}}.
 
 #### Demo Files:
-> [{{il.ghFile16-img}}  Getting Started.gh]{{gel.gettingStarted-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}}  Getting Started.gh]{{::gel.gettingStarted-link-D}}{: .icon-link}
 

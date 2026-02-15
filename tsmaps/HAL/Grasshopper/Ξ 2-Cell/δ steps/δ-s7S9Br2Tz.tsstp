@@ -7,10 +7,10 @@
 
 #### Objective:
 
-In this tutorial we'll be modelling a {{gl.positioner-link}}, in the form of a 2-axis rotary table, in the HAL Robotics Framework for Grasshopper. The principles used in this tutorial apply to all forms of {{gl.mechanism-link}} including Linear {{gl.positioners-link}}, like Tracks, and [Manipulators]{{gl.manipulator-link-D}}.
+In this tutorial we'll be modelling a {{::gl.positioner-link}}, in the form of a 2-axis rotary table, in the HAL Robotics Framework for Grasshopper. The principles used in this tutorial apply to all forms of {{::gl.mechanism-link}} including Linear {{::gl.positioners-link}}, like Tracks, and [Manipulators]{{::gl.manipulator-link-D}}.
 
 #### Demo Files:
 
-> [{{il.rhFile16-img}}  Create a Positioner.3dm]{{gel.createPositioner-dm-link-D}}{: .icon-link}   
-> [{{il.ghFile16-img}}  Create a Positioner.gh]{{gel.createPositioner-gh-link-D}}{: .icon-link}
+> [{{::il.rhFile16-img}}  Create a Positioner.3dm]{{::gel.createPositioner-dm-link-D}}{: .icon-link}   
+> [{{::il.ghFile16-img}}  Create a Positioner.gh]{{::gel.createPositioner-gh-link-D}}{: .icon-link}
 

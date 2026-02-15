@@ -1,19 +1,19 @@
 ¬import dl from "../../_shared/decodeLinks"
 
 
-### {{dl.decode-getting-started-link}}
+### {{::dl.decode-getting-started-link}}
 
-#### {{dl.decode-beta-link}}
+#### {{::dl.decode-beta-link}}
 
-#### {{dl.decode-projects-link}}
+#### {{::dl.decode-projects-link}}
 
-#### {{dl.decode-structure-link}}
+#### {{::dl.decode-structure-link}}
 
-#### {{dl.decode-interface-link}}
+#### {{::dl.decode-interface-link}}
 
-#### {{dl.decode-variables-link}}
+#### {{::dl.decode-variables-link}}
 
-#### {{dl.decode-assets-link}}
+#### {{::dl.decode-assets-link}}
 
 ---
 

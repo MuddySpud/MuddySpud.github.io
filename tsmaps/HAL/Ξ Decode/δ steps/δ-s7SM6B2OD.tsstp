@@ -2,21 +2,21 @@
 ¬import il from "../../_shared/imageLinks"
 
 
-<img class="logo" src="{{il.logo-url}}" height="35">
+<img class="logo" src="{{::il.logo-url}}" height="35">
 
 ---
 
-### {{ol.overview-administration-setup-link}}
+### {{::ol.overview-administration-setup-link}}
 
-#### {{ol.overview-install-link}}
+#### {{::ol.overview-install-link}}
 
-#### {{ol.overview-create-admin-org-link}}
+#### {{::ol.overview-create-admin-org-link}}
 
-#### {{ol.overview-join-org-link}}
+#### {{::ol.overview-join-org-link}}
 
-#### {{ol.overview-purchase-licenses-link}}
+#### {{::ol.overview-purchase-licenses-link}}
 
-#### {{ol.overview-uninstallation-link}}
+#### {{::ol.overview-uninstallation-link}}
 
 ---
 

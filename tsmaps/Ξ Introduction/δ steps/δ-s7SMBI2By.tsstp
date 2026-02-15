@@ -6,9 +6,9 @@
 
 Adapts to your specific situation, generating a custom article with only the relevant steps.
 
-Example: [DeLorean Time Machine Technical Manual]{{ll.deLoreanTimeMachineTechnicalManual_map_link}}
+Example: [DeLorean Time Machine Technical Manual]{{::ll.deLoreanTimeMachineTechnicalManual_map_link}}
 
 Map: [DeLoreanTimeMachineTechnicalManual.tsmap](https://github.com/MuddySpud/MuddySpud.github.io/blob/main/tsmaps/BackToTheFuture/%CE%9E%20DeLoreanTimeMachineTechnicalManual)   
-*{{c.cloneAndDownloadExtension}}*
+*{{::c.cloneAndDownloadExtension}}*
 
 

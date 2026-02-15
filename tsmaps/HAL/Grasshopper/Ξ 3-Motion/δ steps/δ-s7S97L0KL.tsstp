@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll see how to change the active {{gl.end-effector-link}} of a {{gl.mechanism-link}} during the execution of a {{gl.procedure-link}} in the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll see how to change the active {{::gl.end-effector-link}} of a {{::gl.mechanism-link}} during the execution of a {{::gl.procedure-link}} in the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Change a Tool at Runtime.gh]{{gel.changeToolRuntime-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Change a Tool at Runtime.gh]{{::gel.changeToolRuntime-gh-link-D}}{: .icon-link}
 

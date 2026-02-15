@@ -7,10 +7,10 @@ You'll find two different Universal Robots controllers in our catalogs, _CB3_ (f
 
 | Subsystem Name | Description | Capabilities | Configuration |
 | -------------- | ----------- | ------------ | ------------- |
-| {{dt.cell-1-1}} | {{dt.cell-1-2}} | {{dt.cell-1-3}} | {{dt.cell-1-4}} |
-| {{dt.cell-2-1}} | {{dt.cell-2-2}} | {{dt.cell-2-3}} | {{dt.cell-2-4}} |
-| {{dt.cell-3-1}} | {{dt.cell-3-2}} | {{dt.cell-3-3}} | {{dt.cell-3-4}} |
-| {{dt.cell-4-1}} | {{dt.cell-4-2}} | {{dt.cell-4-3}} | {{dt.cell-4-4}} |
-| {{dt.cell-5-1}} | {{dt.cell-5-2}} | {{dt.cell-5-3}} | {{dt.cell-5-4}} |
+| {{::dt.cell-1-1}} | {{::dt.cell-1-2}} | {{::dt.cell-1-3}} | {{::dt.cell-1-4}} |
+| {{::dt.cell-2-1}} | {{::dt.cell-2-2}} | {{::dt.cell-2-3}} | {{::dt.cell-2-4}} |
+| {{::dt.cell-3-1}} | {{::dt.cell-3-2}} | {{::dt.cell-3-3}} | {{::dt.cell-3-4}} |
+| {{::dt.cell-4-1}} | {{::dt.cell-4-2}} | {{::dt.cell-4-3}} | {{::dt.cell-4-4}} |
+| {{::dt.cell-5-1}} | {{::dt.cell-5-2}} | {{::dt.cell-5-3}} | {{::dt.cell-5-4}} |
 
 ---

@@ -1,4 +1,4 @@
 ¬import ghl from "../../../_shared/grasshopperLinks"
 
 
-- Reading or watching the [Create a Signal]{{ghl.grasshopper-create-signal-link-D}} tutorial is highly recommended and this tutorial builds on its output.
+- Reading or watching the [Create a Signal]{{::ghl.grasshopper-create-signal-link-D}} tutorial is highly recommended and this tutorial builds on its output.

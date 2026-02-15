@@ -1,8 +1,8 @@
 
 
 ¬testMapUrl: ../Ξ TestMap/TestMap.tsmap
-¬testMapLink: [TestMap]({{testMapUrl}})
+¬testMapLink: [TestMap]({{::testMapUrl}})
 
 
 ¬moveMapUrl: ../Ξ MoveMap/MoveMap.tsmap
-¬moveMapLink: [MoveMap]({{moveMapUrl}})
+¬moveMapLink: [MoveMap]({{::moveMapUrl}})

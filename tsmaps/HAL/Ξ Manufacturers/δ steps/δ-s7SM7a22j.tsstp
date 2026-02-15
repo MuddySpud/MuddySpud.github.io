@@ -3,25 +3,25 @@
 
 ## Manufacturer Specific Details
 
-#### {{ml.abb-doc-link}}
+#### {{::ml.abb-doc-link}}
 
-#### {{ml.doosan-doc-link}}
+#### {{::ml.doosan-doc-link}}
 
-#### {{ml.fanuc-doc-link}}
+#### {{::ml.fanuc-doc-link}}
 
-#### {{ml.inovoRobotics-doc-link}}
+#### {{::ml.inovoRobotics-doc-link}}
 
-#### {{ml.kawasaki-doc-link}}
+#### {{::ml.kawasaki-doc-link}}
 
-#### {{ml.kuka-doc-link}}
+#### {{::ml.kuka-doc-link}}
 
-#### {{ml.mitsubishi-doc-link}}
+#### {{::ml.mitsubishi-doc-link}}
 
-#### {{ml.staubli-doc-link}}
+#### {{::ml.staubli-doc-link}}
 
-#### {{ml.universalRobots-doc-link}}
+#### {{::ml.universalRobots-doc-link}}
 
-#### {{ml.yaskawa-doc-link}}
+#### {{::ml.yaskawa-doc-link}}
 
 <!-- [<img src="https://hal-robotics.com/wp-content/uploads/2021/10/ABB_logo-k-200x77.png">](ABB/Contents.md)
 

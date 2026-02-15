@@ -7,9 +7,9 @@
 
 #### Objective:
 
-In this tutorial we'll change the state of a {{gl.signal-link}} at runtime in the HAL Robotics Framework for Grasshopper.
+In this tutorial we'll change the state of a {{::gl.signal-link}} at runtime in the HAL Robotics Framework for Grasshopper.
 
 #### Demo Files:
 
-> [{{il.ghFile16-img}} Change a Signal State.gh]{{gel.changeSignalState-gh-link-D}}{: .icon-link}
+> [{{::il.ghFile16-img}} Change a Signal State.gh]{{::gel.changeSignalState-gh-link-D}}{: .icon-link}
 
