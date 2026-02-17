@@ -3,19 +3,11 @@
         {
             "¬alias": "t",
             "¬filepath": "../../_shared/Test"
-        },
-        {
-            "¬alias": "t",
-            "¬filepath": "../../_shared/Test"
-        },
-        {
-            "¬alias": "e",
-            "¬filepath": "../../_shared/bert"
         }
     ],
     "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
     "type": "video",
     "playerType": "vimeo",
-    "url": "{{t.vimeoPlayerUrl}}"
+    "url": "{{::t.vimeoPlayerUrl}}"
 }
 
