@@ -1,10 +1,12 @@
 ¬import el from "../../shared/externalLinks"
 
 
-### We think in networks, but we're forced to write in lines
+## We think in webs, yet we're sentenced to lines
 
-Human knowledge doesn't live in straight lines - it branches, loops, and layers. A thousand what-ifs, dependencies, and contextual decisions crisscross our minds, yet we've had no way to pour this networked thinking onto paper. 
-Traditional documents force us to flatten complexity into linear prose, losing the very structure that makes expertise usable.
-We built {{::el.docsAssemblerExtension_link}} to bridge that gap. As programmers, we applied the principles of software systems that run the clouds to knowledge itself, enabling adaptable structures that capture real-world complexity without redundancy or fragility.
-While it's ideal for documenting expertise, its true power lies in what you'll build with it. In essence, it's a tool to give form to the rich, layered networks in our minds - that others can navigate, understand, and contribute to. Today, expressing such networks in a shareable, mergeable form is practically impossible. {{::el.docsAssemblerExtension_link}} makes it not just possible but intuitive.
+Human knowledge branches, loops, and layers - a living web of what-ifs, dependencies, and context. Yet we've had no way to pour this networked thinking onto paper. Traditional documents force us to flatten complexity into linear prose, losing the very structure that makes expertise usable.
 
+{{::el.docsAssemblerExtension_link}} breaks the sentence.
+
+It applies the principles of software systems that run the clouds to knowledge itself - capturing depth without redundancy or fragility. Networked thinking, made explicit, shareable, and mergeable. So others can understand and learn, or extend and refine.
+
+Its true power, though, lies in what you'll build with it.
