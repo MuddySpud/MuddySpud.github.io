@@ -1,6 +1,7 @@
+¬import b from "./bert"
 
 
-¬testMapUrl: ../Ξ TestMap/TestMap.tsmap
+¬testMapUrl: ../Ξ TestMap/{{::b.testmap}}.tsmap
 ¬testMapLink: [TestMap]({{::testMapUrl}})
 
 ¬moveMapUrl: ../Ξ MoveMap/MoveMap.tsmap

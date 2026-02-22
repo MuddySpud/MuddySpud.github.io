@@ -1,3 +1,6 @@
+¬import t from "./Test"
+
+¬bert: ./bert.tsvar
 
 ¬halRobtics_url: https://hal-robotics.com
 ¬halRobotics_link: [HAL Robotics]({{::halRobtics_url}})
@@ -21,3 +24,22 @@
 ¬vscode_url: https://code.visualstudio.com/
 ¬vscode_link: [Visual Studio Code]({{::vscode_url}})
 
+
+
+
+fred
+
+¬joe:     
+bla bla
+bla ¬
+bla
+
+¬joe2:
+bla bla
+bla ¬
+
+¬joe3: fred¬
+
+¬joe4:fred
+
+¬circularRef: fred was here {{::t.testMapLink}}

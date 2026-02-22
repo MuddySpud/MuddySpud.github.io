@@ -5,7 +5,13 @@
 
 We believe the best way to understand a tool is to see it solve a real problem. So, we built a live example: an interactive guide for a fictional company, **{{::el.luSenLinNameTech}}**, that makes modular kitchen gardens. 
 
-This isn't a demo about gardening. It's a familiar scenario used to show how {{::el.docsAssemblerName}} turns a tangled web of product options and instructions into a clear, guided experience.
+But this isn't a demo about gardening.
+
+It's a demonstration of something more fundamental: a system that merges decision trees with text, built from reusable components just like software classes. The garden keeps going - more crops, more options, more complexity - because the underlying system can hold whatever knowledge you want and remain easy to maintain.
+
+This is what it looks like to take the rich, branching knowledge inside your head, make it available to others, and let them add their own expertise in return. No AI hallucinations. Just deterministic, authoritative text that you and your team control.
+
+What you build with it is up to you. This is simply text, structured like code, so we can finally do with documentation what we've done with software for decades.
 
 
 ##### From Doubt to Direction
