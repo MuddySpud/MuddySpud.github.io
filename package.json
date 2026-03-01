@@ -17,6 +17,7 @@
   "devDependencies": {
     "@vitejs/plugin-basic-ssl": "^1.0.1",
     "sass": "*",
+    "timing-object": "^3.1.96",
     "typescript": "^5.9.3",
     "vite": "*",
     "vite-plugin-mkcert": "^1.16.0",

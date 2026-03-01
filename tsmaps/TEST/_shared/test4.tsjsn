@@ -10,16 +10,16 @@
         }
     ],
     "$schema": "docsAssembler-schema://schemas/videoUrlJson.json",
-    "propertyName1": "nt-{{alias1.testMapUrl}}-end",
-    "propertyName2": "nt-{{alias2.testMapLink}}-end",
-    "propertyName3": "nt-{{alias1.}}-end",
+    "propertyName1": "nt-{{::alias1.testMapUrl}}-end",
+    "propertyName2": "nt-{{::alias2.testMapLink}}-end",
+    "propertyName3": "nt-{{::alias1.}}-end",
     "object1": {
-        "propertyName3": "{{alias1.moveMapUrl}}"
+        "propertyName3": "{{::alias1.moveMapUrl}}"
     },
     "object2": {
         "propertyName4": "other text",
         "object3": {
-            "propertyName3": "Fred was here {{alias2.moveMapLink}} \n 12930"
+            "propertyName3": "Fred was here {{::alias2.moveMapLink}} \n 12930"
         }
     }
 }

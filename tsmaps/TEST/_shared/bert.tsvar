@@ -1,5 +1,6 @@
+¬import al from ".bert"
 
-
+¬testmap: TestMap
 ¬testMapUrl: ../Ξ TestMap/TestMap.tsmap
 ¬testMapLink: [TestMap]({{::testMapUrl}})
 
