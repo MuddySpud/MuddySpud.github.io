@@ -68,5 +68,5 @@ Need to have some way for the technical exploration of demo to include when in t
 #### Spaces - write text differences
 Need to write out the differences between spaces ie garden could have a shelter and different anchors - need the get Deepseek to work that out for each space what are their differnces based on what it knows.
 
-
+https://muddyspud.github.io/
 
