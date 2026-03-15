@@ -33,9 +33,7 @@
             {
                 "key": "1AnQKcV02Aj",
                 "order": 4,
-                "option": "1",
-                "isLeaf": true,
-                "gPath": "LuSenlinTech/produce/Pods/Modules"
+                "option": "1"
             }
         ]
     },
@@ -56,15 +54,11 @@
             "key": "17wmmX300p7",
             "relativePath": "../_shared/δ-sYNvVu009z.tsstp",
             "isShared": true
-        },
-        {
-            "key": "δ-1AnQKcV02Aj",
-            "relativePath": "./δ steps/δ-1AnQKcV02Aj.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1AuHVWE005h",
-        "editorID": "car_f9299c3d5b5845f08ddfecf9fb90abf6",
-        "ticks": 1773538811458
+        "id": "1AxVre500Vy",
+        "editorID": "car_5a7e1dbb0ac24baab129185201e41d99",
+        "ticks": 1773586562113
     }
 }
