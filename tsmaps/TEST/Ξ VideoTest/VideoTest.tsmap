@@ -33,9 +33,7 @@
             {
                 "key": "1AnQKcV02Aj",
                 "order": 4,
-                "option": "1",
-                "isLeaf": true,
-                "gPath": "https://muddyspud.github.io/LuSenlinTech/produce/Pods/Modules/AeroHerb_frags"
+                "option": "1"
             }
         ]
     },
@@ -56,15 +54,11 @@
             "key": "17wmmX300p7",
             "relativePath": "../_shared/δ-sYNvVu009z.tsstp",
             "isShared": true
-        },
-        {
-            "key": "δ-1AnQKcV02Aj",
-            "relativePath": "./δ steps/δ-1AnQKcV02Aj.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1AxhVEn01kR",
-        "editorID": "car_d0239cb61e05400883e4d8acc3a88104",
-        "ticks": 1773589335913
+        "id": "1Azm0XW01fA",
+        "editorID": "car_22ce182a60c742d790e5a098869b4c52",
+        "ticks": 1773619962222
     }
 }
