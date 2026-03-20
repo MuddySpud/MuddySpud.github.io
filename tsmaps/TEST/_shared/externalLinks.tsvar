@@ -24,22 +24,3 @@
 ¬vscode_url: https://code.visualstudio.com/
 ¬vscode_link: [Visual Studio Code]({{::vscode_url}})
 
-
-
-
-fred
-
-¬joe:     
-bla bla
-bla ¬
-bla
-
-¬joe2:
-bla bla
-bla ¬
-
-¬joe3: fred¬
-
-¬joe4:fred
-
-¬circularRef: fred was here {{::t.testMapLink}}
