@@ -130,5 +130,7 @@
             "daurl": "#ffa704"
         }
     },
-    "json.schemas": []
+    "json.schemas": [],
+    "docsAssembler.contact": "team@netoftrees.com",
+    "docsAssembler.organisation": "netoftrees"
 }
