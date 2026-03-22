@@ -33,12 +33,59 @@
             {
                 "key": "1AnQKcV02Aj",
                 "order": 4,
-                "option": "1",
+                "option": "Link to guide NO EXITS",
                 "isLeaf": true,
                 "gPath": {
                     "guidePath": "LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
                     "bankUrl": "https://muddyspud.github.io/"
                 }
+            },
+            {
+                "key": "1Bbslbr00SE",
+                "order": 5,
+                "option": "Link to guide EXITS",
+                "gPath": {
+                    "guidePath": "LuSenlinTech/equipment/Power_frags",
+                    "bankUrl": "https://muddyspud.github.io/"
+                },
+                "nodes": [
+                    {
+                        "key": "1Bbt2v80105",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "isLeaf": true,
+                        "iExitKey": "s7SMXt1dV"
+                    },
+                    {
+                        "key": "1Bbt2v901ih",
+                        "order": 2,
+                        "option": "No power supply",
+                        "isLeaf": true,
+                        "iExitKey": "s7SMXt0Xu"
+                    }
+                ]
+            },
+            {
+                "key": "1Bbxdbx00Y8",
+                "order": 6,
+                "option": "Link to map Power",
+                "iKey": "s7SMXt0ol",
+                "nodes": [
+                    {
+                        "key": "1BbxmND01Cg",
+                        "order": 1,
+                        "option": "Has power supply",
+                        "isLeaf": true,
+                        "iExitKey": "s7SMXt1dV"
+                    },
+                    {
+                        "key": "1BbxmNE02Sn",
+                        "order": 2,
+                        "option": "No power supply",
+                        "isLeaf": true,
+                        "iExitKey": "s7SMXt0Xu"
+                    }
+                ]
             }
         ]
     },
@@ -63,11 +110,35 @@
         {
             "key": "δ-1AnQKcV02Aj",
             "relativePath": "./δ steps/δ-1AnQKcV02Aj.tsstp"
+        },
+        {
+            "key": "δ-1Bbslbr00SE",
+            "relativePath": "./δ steps/δ-1Bbslbr00SE.tsstp"
+        },
+        {
+            "key": "δ-1Bbt2v80105",
+            "relativePath": "./δ steps/δ-1Bbt2v80105.tsstp"
+        },
+        {
+            "key": "δ-1Bbt2v901ih",
+            "relativePath": "./δ steps/δ-1Bbt2v901ih.tsstp"
+        },
+        {
+            "key": "δ-1Bbxdbx00Y8",
+            "relativePath": "./δ steps/δ-1Bbxdbx00Y8.tsstp"
+        },
+        {
+            "key": "δ-1BbxmND01Cg",
+            "relativePath": "./δ steps/δ-1BbxmND01Cg.tsstp"
+        },
+        {
+            "key": "δ-1BbxmNE02Sn",
+            "relativePath": "./δ steps/δ-1BbxmNE02Sn.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1BRfEUT00EY",
-        "editorID": "car_45d58db720c94cc4a60b52885aea24f4",
-        "ticks": 1774032084961
+        "id": "1BbxrXW019P",
+        "editorID": "car_f033e3bbb78e4d5c98eac0f15d0f87a7",
+        "ticks": 1774184288330
     }
 }
