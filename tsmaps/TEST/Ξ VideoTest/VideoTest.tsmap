@@ -36,7 +36,7 @@
                 "option": "Link to guide NO EXITS",
                 "isLeaf": true,
                 "gPath": {
-                    "guidePath": "LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
+                    "guidePath": "root/_site/LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
                     "bankUrl": "https://muddyspud.github.io/"
                 }
             },
@@ -45,7 +45,7 @@
                 "order": 5,
                 "option": "Link to guide EXITS",
                 "gPath": {
-                    "guidePath": "LuSenlinTech/equipment/Power_frags",
+                    "guidePath": "root/_site/LuSenlinTech/equipment/Power_frags",
                     "bankUrl": "https://muddyspud.github.io/"
                 },
                 "nodes": [
@@ -137,8 +137,8 @@
         }
     ],
     "___εdit___": {
-        "id": "1BbxrXW019P",
-        "editorID": "car_f033e3bbb78e4d5c98eac0f15d0f87a7",
-        "ticks": 1774184288330
+        "id": "1BkJnUB01uV",
+        "editorID": "me_84d5178ba2204b548eea5809ff97ec8f",
+        "ticks": 1774307726651
     }
 }
