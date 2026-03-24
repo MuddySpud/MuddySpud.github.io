@@ -1,0 +1,17 @@
+{
+    "organisation": "netoftrees",
+    "contact": "team@netoftrees.com",
+    "gitConfig": {
+        "owner": "MuddySpud",
+        "repo": "MuddySpud.github.io",
+        "branch": "master",
+        "publishUrl": "https://MuddySpud.github.io/"
+    },
+    "repoConfig": {
+        "assetFolderName": "δ steps",
+        "variableFolderName": "Ω variables",
+        "publishFolderName": "pub",
+        "docsFolderName": "docs",
+        "mapsFolderName": "tsmaps"
+    }
+}

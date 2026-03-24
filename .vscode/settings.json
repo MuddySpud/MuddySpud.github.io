@@ -130,12 +130,5 @@
             "daurl": "#ffa704"
         }
     },
-    "json.schemas": [],
-    "docsAssembler.contact": "team@netoftrees.com",
-    "docsAssembler.organisation": "netoftrees",
-    "docsAssembler.repo": "MuddySpud.github.io",
-    "docsAssembler.owner": "MuddySpud",
-    "docsAssembler.gitHubPagesUrl": "https://MuddySpud.github.io/",
-    "docsAssembler.branch": "main",
-    "docsAssembler.publishUrl": "https://MuddySpud.github.io/"
+    "json.schemas": []
 }
