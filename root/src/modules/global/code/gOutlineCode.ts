@@ -815,8 +815,19 @@ const gOutlineCode = {
             return;
         }
 
-        const outlineChartPath = chart?.p as string;
-        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+        let fragmentFolderUrl: string;
+        const outlineChartPath = chart.p;
+
+        if (!chart.i) {
+
+            // Is a remote guide
+            fragmentFolderUrl = outlineChartPath;
+        }
+        else {
+
+            // Is a map
+            fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+        }
 
         if (!U.isNullOrWhiteSpace(fragmentFolderUrl)) {
 
