@@ -13,5 +13,8 @@
         "publishFolderName": "pub",
         "docsFolderName": "docs",
         "mapsFolderName": "tsmaps"
+    },
+    "devConfig": {
+        "forceJsDelivr": true
     }
 }
