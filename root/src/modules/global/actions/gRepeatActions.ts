@@ -5,8 +5,6 @@ import IState from "../../interfaces/state/IState";
 import IStateAnyArray from "../../interfaces/state/IStateAnyArray";
 import IHttpEffect from "../../interfaces/state/effects/IHttpEffect";
 import gStateCode from "../code/gStateCode";
-import gAjaxHeaderCode from "../http/gAjaxHeaderCode";
-import { ActionType } from "../../interfaces/enums/ActionType";
 import U from "../gUtilities";
 import IAction from "../../interfaces/state/IAction";
 
@@ -82,7 +80,7 @@ const sendRequest = (
 };
 
 const getEffect = (
-    state: IState,
+    _state: IState,
     httpEffect: IHttpEffect,
     effects: Array<IHttpEffect>
 ): void => {
@@ -90,19 +88,18 @@ const getEffect = (
     const url: string = httpEffect.url;
     const callID: string = U.generateGuid();
 
-    let headers = gAjaxHeaderCode.buildHeaders(
-        state,
-        callID,
-        ActionType.GetStep
-    );
+    let headers = new Headers();
+    headers.append('Accept', '*/*');
+
+    const options = {
+        method: "GET",
+        headers: headers
+    };
 
     const effect = gAuthenticatedHttp({
         url: url,
         parseType: httpEffect.parseType,
-        options: {
-            method: "GET",
-            headers: headers
-        },
+        options,
         response: 'json',
         action: httpEffect.actionDelegate,
         error: (_state: IState, errorDetails: any) => {
