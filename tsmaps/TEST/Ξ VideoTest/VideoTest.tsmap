@@ -45,19 +45,19 @@
                 "order": 5,
                 "option": "Link to guide EXITS",
                 "gPath": {
-                    "guidePath": "root/_site/LuSenlinTech/equipment/Power_frags",
-                    "bankUrl": "https://muddyspud.github.io/"
+                    "guidePath": "LuSenlinTech/equipment/Power_frags",
+                    "bankUrl": "https://MuddySpud.github.io/"
                 },
                 "nodes": [
                     {
-                        "key": "1Bbt2v80105",
+                        "key": "1C1VDum00Lg",
                         "order": 1,
                         "option": "Has power supply",
                         "isLeaf": true,
                         "iExitKey": "s7SMXt1dV"
                     },
                     {
-                        "key": "1Bbt2v901ih",
+                        "key": "1C1VDum008R",
                         "order": 2,
                         "option": "No power supply",
                         "isLeaf": true,
@@ -116,14 +116,6 @@
             "relativePath": "./δ steps/δ-1Bbslbr00SE.tsstp"
         },
         {
-            "key": "δ-1Bbt2v80105",
-            "relativePath": "./δ steps/δ-1Bbt2v80105.tsstp"
-        },
-        {
-            "key": "δ-1Bbt2v901ih",
-            "relativePath": "./δ steps/δ-1Bbt2v901ih.tsstp"
-        },
-        {
             "key": "δ-1Bbxdbx00Y8",
             "relativePath": "./δ steps/δ-1Bbxdbx00Y8.tsstp"
         },
@@ -134,11 +126,19 @@
         {
             "key": "δ-1BbxmNE02Sn",
             "relativePath": "./δ steps/δ-1BbxmNE02Sn.tsstp"
+        },
+        {
+            "key": "δ-1C1VDum00Lg",
+            "relativePath": "./δ steps/δ-1C1VDum00Lg.tsstp"
+        },
+        {
+            "key": "δ-1C1VDum008R",
+            "relativePath": "./δ steps/δ-1C1VDum008R.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1BkJnUB01uV",
-        "editorID": "me_84d5178ba2204b548eea5809ff97ec8f",
-        "ticks": 1774307726651
+        "id": "1C1VJvr02Lx",
+        "editorID": "car_f3d8ff97c90644e29a19c5535bc0aaa7",
+        "ticks": 1774561670695
     }
 }
