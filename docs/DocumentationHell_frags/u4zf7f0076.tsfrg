@@ -16,17 +16,17 @@ Variables are defined in special variable files, which use the *.tsvar* file ext
 
 The syntax for defining a variable is straightforward. For a single line:
 
-[<img class="nt-fr-small-image" src="/assets/images/VariableDefinitionInline.png">](/assets/images/VariableDefinitionInline.png)
+[<img class="nt-fr-small-image" src="assets/images/VariableDefinitionInline.png">](assets/images/VariableDefinitionInline.png)
 
 e.g. 
-[<img class="nt-fr-small-image" src="/assets/images/GardenLink.png">](/assets/images/GardenLink.png)
+[<img class="nt-fr-small-image" src="assets/images/GardenLink.png">](assets/images/GardenLink.png)
 
 For a multi-line variable, such as a detailed note, you encapsulate the content:
 
-[<img class="nt-fr-small-image" src="/assets/images/VariableDefinitionMultline.png">](/assets/images/VariableDefinitionMultline.png)
+[<img class="nt-fr-small-image" src="assets/images/VariableDefinitionMultline.png">](assets/images/VariableDefinitionMultline.png)
 
 e.g. 
-[<img class="nt-fr-small-image" src="/assets/images/SafetyNode.png">](/assets/images/SafetyNode.png)
+[<img class="nt-fr-small-image" src="assets/images/SafetyNode.png">](assets/images/SafetyNode.png)
 
 ##### Using a Variable
 
@@ -36,18 +36,18 @@ To use a variable, you must first import the file it is defined in. You can assi
 At the very top of your map or step file. 
 Use the syntax:
 
-[<img class="nt-fr-small-image" src="/assets/images/ImportFileAlias.png">](/assets/images/ImportFileAlias.png)
+[<img class="nt-fr-small-image" src="assets/images/ImportFileAlias.png">](assets/images/ImportFileAlias.png)
 
 e.g.
-[<img class="nt-fr-small-image" src="/assets/images/ImportStatements.png">](/assets/images/ImportStatements.png)
+[<img class="nt-fr-small-image" src="assets/images/ImportStatements.png">](assets/images/ImportStatements.png)
 
 ###### 2. Reference any variable
 From the imported file wherever you want the content to appear, using the syntax:
 
-[<img class="nt-fr-small-image" src="/assets/images/FileAlias.png">](/assets/images/FileAlias.png)
+[<img class="nt-fr-small-image" src="assets/images/FileAlias.png">](assets/images/FileAlias.png)
 
 e.g.
-[<img class="nt-fr-small-image" src="/assets/images/InstallationDiagram.png">](/assets/images/InstallationDiagram.png)
+[<img class="nt-fr-small-image" src="assets/images/InstallationDiagram.png">](assets/images/InstallationDiagram.png)
 
 During the publish process, [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) will automatically replace every {% raw %}{{file_alias.variable_name}}{% endraw %} reference with the value defined in the variable file.
 
