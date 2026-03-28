@@ -5,7 +5,6 @@ import DisplayGuide from "../../state/display/DisplayGuide";
 import RenderGuide from "../../state/render/RenderGuide";
 import TreeSolve from "../../state/window/TreeSolve";
 import gFileConstants from "../gFileConstants";
-import U from "../gUtilities";
 import gFragmentCode from "./gFragmentCode";
 import gStateCode from "./gStateCode";
 
@@ -93,28 +92,12 @@ const gRenderCode = {
 
     getFragmentFolderUrl: (folderPath: string): string | null => {
 
-        let divider = '';
+        const url = new URL(
+            folderPath,
+            document.baseURI
+        );
 
-        if (!U.isNullOrWhiteSpace(folderPath)) {
-
-            if (!location.origin.endsWith('/')) {
-
-                if (!folderPath.startsWith('/')) {
-
-                    divider = '/';
-                }
-            }
-            else {
-                if (folderPath.startsWith('/') === true) {
-
-                    folderPath = folderPath.substring(1);
-                }
-            }
-
-            return `${location.origin}${divider}${folderPath}`;
-        }
-
-        return null;
+        return url.toString();
     },
 
     registerGuideComment: () => {

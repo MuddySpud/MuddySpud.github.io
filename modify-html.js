@@ -176,67 +176,67 @@ async function processHtmlFiles() {
   }
 }
 
-async function processFindAndReplaceFiles() {
+// async function processFindAndReplaceFiles() {
 
-  try {
-    // Get all HTML files recursively
-    const htmlFiles = await getFindAndReplaceFiles('root/_site');
+//   try {
+//     // Get all HTML files recursively
+//     const htmlFiles = await getFindAndReplaceFiles('root/_site');
 
-    // Process each file
-    for (const file of htmlFiles) {
+//     // Process each file
+//     for (const file of htmlFiles) {
 
-      const oldContent = await fs.readFile(file, 'utf8');
+//       const oldContent = await fs.readFile(file, 'utf8');
 
-      let newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
-      newContent = newContent.replaceAll('TEST/', '_site/TEST/');
-      newContent = newContent.replaceAll('Technical/', '_site/Technical/');
-      newContent = newContent.replaceAll('"/assets/', '"/_site/assets/');
+//       let newContent = oldContent.replaceAll('LuSenlinTech/', '_site/LuSenlinTech/');
+//       newContent = newContent.replaceAll('TEST/', '_site/TEST/');
+//       newContent = newContent.replaceAll('Technical/', '_site/Technical/');
+//       newContent = newContent.replaceAll('"/assets/', '"/_site/assets/');
 
-      // Write modified text back
-      await fs.writeFile(file, newContent, 'utf8');
+//       // Write modified text back
+//       await fs.writeFile(file, newContent, 'utf8');
 
-      // console.log(`Modified ${file}`);
-    }
-  }
-  catch (error) {
+//       // console.log(`Modified ${file}`);
+//     }
+//   }
+//   catch (error) {
 
-    console.error('Error processing find and replace files:', error);
-    process.exit(1); // Exit with error code for Yarn
-  }
-}
+//     console.error('Error processing find and replace files:', error);
+//     process.exit(1); // Exit with error code for Yarn
+//   }
+// }
 
-async function processDocumentationHellMap() {
+// async function processDocumentationHellMap() {
 
-  try {
+//   try {
 
-    const documentationHellFilePath = 'root/_site/DocumentationHell/index.html';
+//     const documentationHellFilePath = 'root/_site/DocumentationHell/index.html';
 
-    const oldContent = await fs.readFile(documentationHellFilePath, 'utf8');
+//     const oldContent = await fs.readFile(documentationHellFilePath, 'utf8');
 
-    // let newContent = oldContent.replaceAll('../../', '../');
-    let newContent = oldContent;
-    const pattern = ',"path":"","fragmentFolderPath":"DocumentationHell_frags"},';
-    const index = newContent.indexOf(pattern);
+//     // let newContent = oldContent.replaceAll('../../', '../');
+//     let newContent = oldContent;
+//     const pattern = ',"path":"","fragmentFolderPath":"DocumentationHell_frags"},';
+//     const index = newContent.indexOf(pattern);
 
-    if (index > -1) {
+//     if (index > -1) {
 
-      let start = newContent.substring(0, index);
-      let end = newContent.substring(index + pattern.length);
-      newContent = `${start},"path":"_site","fragmentFolderPath":"_site/DocumentationHell_frags"},${end}`;
-    }
+//       let start = newContent.substring(0, index);
+//       let end = newContent.substring(index + pattern.length);
+//       newContent = `${start},"path":"_site","fragmentFolderPath":"_site/DocumentationHell_frags"},${end}`;
+//     }
 
-    // Write modified text back
-    await fs.writeFile(documentationHellFilePath, newContent, 'utf8');
+//     // Write modified text back
+//     await fs.writeFile(documentationHellFilePath, newContent, 'utf8');
 
-    // console.log(`^^^^^^^^^^^^^^^^^^^^^^^^Modified ${documentationHellFilePath}`);
-  }
-  catch (error) {
+//     // console.log(`^^^^^^^^^^^^^^^^^^^^^^^^Modified ${documentationHellFilePath}`);
+//   }
+//   catch (error) {
 
-    console.error('Error processing find and replace files:', error);
-    process.exit(1); // Exit with error code for Yarn
-  }
-}
+//     console.error('Error processing find and replace files:', error);
+//     process.exit(1); // Exit with error code for Yarn
+//   }
+// }
 
 await processHtmlFiles();
-await processFindAndReplaceFiles();
-await processDocumentationHellMap();
+// await processFindAndReplaceFiles();
+// await processDocumentationHellMap();
