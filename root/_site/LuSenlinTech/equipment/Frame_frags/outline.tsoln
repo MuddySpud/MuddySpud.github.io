@@ -41,15 +41,15 @@
     "c": [
         {
             "i": "s7LPpx1UH",
-            "p": "_site/LuSenlinTech/equipment/FrameModules_frags"
+            "p": "LuSenlinTech/equipment/FrameModules_frags"
         },
         {
             "i": "s7SMQM0ki",
-            "p": "_site/LuSenlinTech/produce/ProductTypes1000_frags"
+            "p": "LuSenlinTech/produce/ProductTypes1000_frags"
         },
         {
             "i": "s7SMPw0xn",
-            "p": "_site/LuSenlinTech/produce/ProductTypes500_frags"
+            "p": "LuSenlinTech/produce/ProductTypes500_frags"
         }
     ],
     "e": 1

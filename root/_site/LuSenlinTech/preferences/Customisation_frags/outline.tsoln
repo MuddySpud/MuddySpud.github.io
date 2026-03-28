@@ -53,23 +53,23 @@
     "c": [
         {
             "i": "s7LPr60IG",
-            "p": "_site/LuSenlinTech/climate/Climate_frags"
+            "p": "LuSenlinTech/climate/Climate_frags"
         },
         {
             "i": "s7LPoO1sh",
-            "p": "_site/LuSenlinTech/preferences/ClientEffort_frags"
+            "p": "LuSenlinTech/preferences/ClientEffort_frags"
         },
         {
             "i": "s7SMOZ0AN",
-            "p": "_site/LuSenlinTech/equipment/FrameTower_frags"
+            "p": "LuSenlinTech/equipment/FrameTower_frags"
         },
         {
             "i": "yd9vwR005i",
-            "p": "_site/Technical/Conclusion_frags"
+            "p": "Technical/Conclusion_frags"
         },
         {
             "i": "uXEN9G00lv",
-            "p": "_site/LuSenlinTech/equipment/CustomFrameTower_frags"
+            "p": "LuSenlinTech/equipment/CustomFrameTower_frags"
         }
     ],
     "e": 0,
