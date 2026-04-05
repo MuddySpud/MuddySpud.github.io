@@ -4,5 +4,6 @@ import IRenderOutlineChart from "../../interfaces/state/render/IRenderOutlineCha
 export default class RenderOutlineChart implements IRenderOutlineChart {
 
     public i: string = '';
+    public b: string = '';
     public p: string = '';
 }

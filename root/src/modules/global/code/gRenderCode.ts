@@ -1,5 +1,7 @@
 import IState from "../../interfaces/state/IState";
+import IRenderFragment from "../../interfaces/state/render/IRenderFragment";
 import IRenderGuide from "../../interfaces/state/render/IRenderGuide";
+import IRenderOutlineChart from "../../interfaces/state/render/IRenderOutlineChart";
 import Filters from "../../state/constants/Filters";
 import DisplayGuide from "../../state/display/DisplayGuide";
 import RenderGuide from "../../state/render/RenderGuide";
@@ -15,7 +17,7 @@ const parseGuide = (rawGuide: any): IRenderGuide => {
     guide.title = rawGuide.title ?? '';
     guide.description = rawGuide.description ?? '';
     guide.path = rawGuide.path ?? null;
-    guide.fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(rawGuide.fragmentFolderPath);
+    guide.fragmentFolderUrl = gRenderCode.getGuideFragmentFolderUrl(rawGuide.fragmentFolderPath);
 
     return guide;
 };
@@ -90,11 +92,39 @@ const parseRenderingComment = (
 
 const gRenderCode = {
 
-    getFragmentFolderUrl: (folderPath: string): string | null => {
+    getGuideFragmentFolderUrl: (folderPath: string): string => {
 
         const url = new URL(
             folderPath,
             document.baseURI
+        );
+
+        return url.toString();
+    },
+
+    getFragmentFolderUrl: (
+        chart: IRenderOutlineChart,
+        fragment: IRenderFragment
+    ): string => {
+
+        const path = chart.p;
+
+        if (path.startsWith('https://') === true
+            || path.startsWith('http://') === true
+        ) {
+            return path;
+        }
+
+        let baseURI = fragment.section.outline?.baseURI;
+
+        if (!baseURI) {
+
+            baseURI = document.baseURI;
+        }
+
+        const url = new URL(
+            path,
+            baseURI
         );
 
         return url.toString();

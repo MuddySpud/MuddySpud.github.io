@@ -3,6 +3,6 @@
 export default interface IHttpOptions {
 
     method: string;
-    headers: Headers;
+    headers?: Headers;
     body?: string;
 }

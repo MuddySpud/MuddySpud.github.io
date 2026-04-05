@@ -127,6 +127,7 @@ const loadCharts = (
 
         c = new RenderOutlineChart();
         c.i = chart.i;
+        c.b = chart.b;
         c.p = chart.p;
         outline.c.push(c);
     }
@@ -163,7 +164,7 @@ const gOutlineCode = {
         const guide = state.renderState.displayGuide;
         const rawOutline = outlineResponse.jsonData;
 
-        const guideOutline = gOutlineCode.getOutline(
+        const guideOutline = gOutlineCode.getGuideOutline(
             state,
             fragmentFolderUrl
         );
@@ -566,7 +567,7 @@ const gOutlineCode = {
         state.renderState.currentSection = displaySection;
     },
 
-    getOutline: (
+    getGuideOutline: (
         state: IState,
         fragmentFolderUrl: string
     ): IRenderOutline => {
@@ -578,7 +579,47 @@ const gOutlineCode = {
             return outline;
         }
 
-        outline = new RenderOutline(fragmentFolderUrl);
+        outline = new RenderOutline(
+            fragmentFolderUrl,
+            document.baseURI
+        );
+
+        state.renderState.outlines[fragmentFolderUrl] = outline;
+
+        return outline;
+    },
+
+    getOutline: (
+        state: IState,
+        fragmentFolderUrl: string,
+        chart: IRenderOutlineChart,
+        linkFragment: IRenderFragment
+    ): IRenderOutline => {
+
+        let outline: IRenderOutline = state.renderState.outlines[fragmentFolderUrl];
+
+        if (outline) {
+
+            return outline;
+        }
+
+        let baseURI: string | null = chart.b;
+
+        if (U.isNullOrWhiteSpace(baseURI) === true) {
+
+            baseURI = linkFragment.section.outline?.baseURI ?? null;
+        }
+
+        if (!baseURI) {
+
+            baseURI = document.baseURI;
+        }
+
+        outline = new RenderOutline(
+            fragmentFolderUrl,
+            baseURI!
+        );
+
         state.renderState.outlines[fragmentFolderUrl] = outline;
 
         return outline;
@@ -716,14 +757,18 @@ const gOutlineCode = {
             nextSegmentIndex++;
         }
 
-        const outlineChartPath = chart?.p as string;
-        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(
+            chart,
+            linkFragment
+        );
 
         if (!U.isNullOrWhiteSpace(fragmentFolderUrl)) {
 
             const outline = gOutlineCode.getOutline(
                 state,
-                fragmentFolderUrl
+                fragmentFolderUrl,
+                chart,
+                linkFragment
             );
 
             if (outline.loaded === true) {
@@ -826,14 +871,19 @@ const gOutlineCode = {
         else {
 
             // Is a map
-            fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+            fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(
+                chart,
+                linkFragment
+            );
         }
 
         if (!U.isNullOrWhiteSpace(fragmentFolderUrl)) {
 
             const outline = gOutlineCode.getOutline(
                 state,
-                fragmentFolderUrl
+                fragmentFolderUrl,
+                chart,
+                linkFragment
             );
 
             if (outline.loaded === true) {
@@ -923,8 +973,10 @@ const gOutlineCode = {
             return;
         }
 
-        const outlineChartPath = chart?.p as string;
-        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(outlineChartPath) as string;
+        const fragmentFolderUrl = gRenderCode.getFragmentFolderUrl(
+            chart,
+            optionFragment
+        );
 
         if (U.isNullOrWhiteSpace(fragmentFolderUrl)) {
             return;
@@ -932,7 +984,9 @@ const gOutlineCode = {
 
         const outline = gOutlineCode.getOutline(
             state,
-            fragmentFolderUrl
+            fragmentFolderUrl,
+            chart,
+            optionFragment
         );
 
         if (outline.loaded === true) {

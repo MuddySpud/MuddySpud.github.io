@@ -5,6 +5,7 @@ import IRenderOutlineNode from "./IRenderOutlineNode";
 export default interface IRenderOutline {
 
     path: string;
+    baseURI: string;
     loaded: boolean;
     
     v: string; // version

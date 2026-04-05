@@ -6,12 +6,16 @@ import RenderOutlineNode from "./RenderOutlineNode";
 
 export default class RenderOutline implements IRenderOutline {
 
-    constructor(path: string) {
-
+    constructor(
+        path: string,
+        baseURI: string
+    ) {
         this.path = path;
+        this.baseURI = baseURI;
     }
 
     public path: string;
+    public baseURI: string;
     public loaded = false;
 
     public v: string = '';

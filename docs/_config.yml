@@ -16,4 +16,3 @@ disable_disk_cache: true
 
 # Or more specific cache controls
 full_rebuild: true
-
