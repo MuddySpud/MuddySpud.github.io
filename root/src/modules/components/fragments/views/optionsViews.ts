@@ -99,7 +99,7 @@ const buildCollapsedAncillaryView = (
                         ]
                     },
                     [
-                        h("span", {class: "nt-fr-ancillary-target"}, ancillary.option)
+                        h("span", { class: "nt-fr-ancillary-target" }, ancillary.option)
                     ]
                 )
             ])
@@ -153,7 +153,7 @@ const BuildExpandedOptionView = (
         innerView = podViews.buildView(option);
     }
     else {
-        innerView = h("span", {class: "nt-fr-option-text"},  option.option);
+        innerView = h("span", { class: "nt-fr-option-text" }, option.option);
     }
 
     const view: VNode =
@@ -468,7 +468,8 @@ const buildOptionsView = (
     }
 
     if (options.length === 1
-        && options[0].option === ''
+        && (options[0].option === '' // if option is blank
+            || !U.isNullOrWhiteSpace(options[0].exitKey)) // if a single exit
     ) {
         return null;
     }
@@ -502,7 +503,8 @@ const buildOptionsBoxView = (
     }
 
     if (options.length === 1
-        && options[0].option === ''
+        && (options[0].option === '' // if option is blank
+            || !U.isNullOrWhiteSpace(options[0].exitKey)) // if a single exit
     ) {
         return;
     }
@@ -544,7 +546,8 @@ const optionsViews = {
         }
 
         if (fragment.options.length === 1
-            && fragment.options[0].option === ''
+            && (fragment.options[0].option === '' // if option is blank
+                || !U.isNullOrWhiteSpace(fragment.options[0].exitKey)) // if a single exit
         ) {
             return {
                 views: [],
@@ -599,7 +602,8 @@ const optionsViews = {
         }
 
         if (fragment.options.length === 1
-            && fragment.options[0].option === ''
+            && (fragment.options[0].option === '' // if option is blank
+                || !U.isNullOrWhiteSpace(fragment.options[0].exitKey)) // if a single exit
         ) {
             return;
         }

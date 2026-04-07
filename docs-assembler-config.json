@@ -15,6 +15,6 @@
         "mapsFolderName": "tsmaps"
     },
     "devConfig": {
-        "forceJsDelivr": true
+        "forceJsDelivr": false
     }
 }

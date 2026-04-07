@@ -172,6 +172,7 @@ const loadOption = (
     option.isAncillary = rawOption.isAncillary === true;
     option.order = rawOption.order ?? 0;
     option.iExitKey = rawOption.iExitKey ?? '';
+    option.exitKey = rawOption.exitKey ?? '';
     option.podKey = rawOption.podKey ?? '';
     option.podText = rawOption.podText ?? '';
 
@@ -699,9 +700,9 @@ const gFragmentCode = {
         const optionsAndAncillaries = gFragmentCode.splitOptionsAndAncillaries(fragment.options);
 
         if (optionsAndAncillaries.options.length === 1
-            && optionsAndAncillaries.options[0].option === ''
             && U.isNullOrWhiteSpace(fragment.iKey)
-            && U.isNullOrWhiteSpace(fragment.exitKey)
+            && (optionsAndAncillaries.options[0].option === '' // if option is blank
+                || !U.isNullOrWhiteSpace(optionsAndAncillaries.options[0].exitKey)) // if a single exit
         ) {
             const outlineNode = gStateCode.getCached_outlineNode(
                 state,
@@ -890,6 +891,7 @@ const gFragmentCode = {
                     option.isAncillary = rawOption.isAncillary === true;
                     option.order = rawOption.order ?? 0;
                     option.iExitKey = rawOption.iExitKey ?? '';
+                    option.exitKey = rawOption.exitKey ?? '';
                     option.podKey = rawOption.podKey ?? '';
                     option.podText = rawOption.podText ?? '';
                     option.section = fragment.section;
