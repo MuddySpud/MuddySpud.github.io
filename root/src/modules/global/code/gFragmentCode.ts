@@ -172,7 +172,7 @@ const loadOption = (
     option.isAncillary = rawOption.isAncillary === true;
     option.order = rawOption.order ?? 0;
     option.iExitKey = rawOption.iExitKey ?? '';
-    option.exitKey = rawOption.exitKey ?? '';
+    option.autoMergeExit = rawOption.autoMergeExit === true;
     option.podKey = rawOption.podKey ?? '';
     option.podText = rawOption.podText ?? '';
 
@@ -702,7 +702,7 @@ const gFragmentCode = {
         if (optionsAndAncillaries.options.length === 1
             && U.isNullOrWhiteSpace(fragment.iKey)
             && (optionsAndAncillaries.options[0].option === '' // if option is blank
-                || !U.isNullOrWhiteSpace(optionsAndAncillaries.options[0].exitKey)) // if a single exit
+                || optionsAndAncillaries.options[0].autoMergeExit === true) // if a single exit
         ) {
             const outlineNode = gStateCode.getCached_outlineNode(
                 state,
@@ -892,6 +892,7 @@ const gFragmentCode = {
                     option.order = rawOption.order ?? 0;
                     option.iExitKey = rawOption.iExitKey ?? '';
                     option.exitKey = rawOption.exitKey ?? '';
+                    option.autoMergeExit = rawOption.autoMergeExit ?? '';
                     option.podKey = rawOption.podKey ?? '';
                     option.podText = rawOption.podText ?? '';
                     option.section = fragment.section;

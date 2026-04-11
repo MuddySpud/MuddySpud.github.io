@@ -469,7 +469,7 @@ const buildOptionsView = (
 
     if (options.length === 1
         && (options[0].option === '' // if option is blank
-            || !U.isNullOrWhiteSpace(options[0].exitKey)) // if a single exit
+            || options[0].autoMergeExit === true) // if a single exit
     ) {
         return null;
     }
@@ -504,7 +504,7 @@ const buildOptionsBoxView = (
 
     if (options.length === 1
         && (options[0].option === '' // if option is blank
-            || !U.isNullOrWhiteSpace(options[0].exitKey)) // if a single exit
+            || options[0].autoMergeExit === true) // if a single exit
     ) {
         return;
     }
@@ -547,7 +547,7 @@ const optionsViews = {
 
         if (fragment.options.length === 1
             && (fragment.options[0].option === '' // if option is blank
-                || !U.isNullOrWhiteSpace(fragment.options[0].exitKey)) // if a single exit
+                || fragment.options[0].autoMergeExit === true) // if a single exit
         ) {
             return {
                 views: [],
@@ -603,7 +603,7 @@ const optionsViews = {
 
         if (fragment.options.length === 1
             && (fragment.options[0].option === '' // if option is blank
-                || !U.isNullOrWhiteSpace(fragment.options[0].exitKey)) // if a single exit
+                || fragment.options[0].autoMergeExit === true) // if a single exit
         ) {
             return;
         }

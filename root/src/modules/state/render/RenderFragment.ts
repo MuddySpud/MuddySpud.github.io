@@ -23,6 +23,7 @@ export default class RenderFragment implements IRenderFragment {
     public iKey: string | null = null;
     public iExitKey: string | null = null;
     public exitKey: string | null = null;
+    public autoMergeExit: boolean = false;
     public podKey: string | null = null;
     public podText: string | null = null;
     public topLevelMapKey: string = '';

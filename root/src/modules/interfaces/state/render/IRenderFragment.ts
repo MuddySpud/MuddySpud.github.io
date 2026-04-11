@@ -9,6 +9,7 @@ export default interface IRenderFragment {
     iKey: string | null;
     iExitKey: string | null;
     exitKey: string | null;
+    autoMergeExit: boolean;
     podKey: string | null;
     podText: string | null;
     topLevelMapKey: string;
