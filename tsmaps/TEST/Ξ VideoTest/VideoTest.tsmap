@@ -24,40 +24,47 @@
                 "discussionType": "video"
             },
             {
-                "key": "16uDmqm01AH",
+                "key": "1Fn6WwY00DW",
                 "order": 3,
+                "option": "rumble",
+                "isLeaf": true,
+                "discussionType": "video"
+            },
+            {
+                "key": "16uDmqm01AH",
+                "order": 4,
                 "option": "test",
                 "sharedAssetKey": "17wmmX300p7",
                 "isLeaf": true
             },
             {
                 "key": "1AnQKcV02Aj",
-                "order": 4,
+                "order": 5,
                 "option": "Link to guide NO EXITS",
                 "isLeaf": true,
                 "gPath": {
-                    "guidePath": "root/_site/LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
-                    "bankUrl": "https://muddyspud.github.io/"
+                    "guidePath": "LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
+                    "bankUrl": "https://netoftrees.com/docs-assembler-demo/"
                 }
             },
             {
                 "key": "1Bbslbr00SE",
-                "order": 5,
+                "order": 6,
                 "option": "Link to guide EXITS",
                 "gPath": {
                     "guidePath": "LuSenlinTech/equipment/Power_frags",
-                    "bankUrl": "https://MuddySpud.github.io/"
+                    "bankUrl": "https://netoftrees.com/docs-assembler-demo/"
                 },
                 "nodes": [
                     {
-                        "key": "1C1VDum00Lg",
+                        "key": "1Fn7g5v00GF",
                         "order": 1,
                         "option": "Has power supply",
                         "isLeaf": true,
                         "iExitKey": "s7SMXt1dV"
                     },
                     {
-                        "key": "1C1VDum008R",
+                        "key": "1Fn7g5w00oP",
                         "order": 2,
                         "option": "No power supply",
                         "isLeaf": true,
@@ -67,7 +74,7 @@
             },
             {
                 "key": "1Bbxdbx00Y8",
-                "order": 6,
+                "order": 7,
                 "option": "Link to map Power",
                 "iKey": "s7SMXt0ol",
                 "nodes": [
@@ -128,17 +135,21 @@
             "relativePath": "./δ steps/δ-1BbxmNE02Sn.tsstp"
         },
         {
-            "key": "δ-1C1VDum00Lg",
-            "relativePath": "./δ steps/δ-1C1VDum00Lg.tsstp"
+            "key": "δ-1Fn6WwY00DW",
+            "relativePath": "./δ steps/δ-1Fn6WwY00DW.tsjsn"
         },
         {
-            "key": "δ-1C1VDum008R",
-            "relativePath": "./δ steps/δ-1C1VDum008R.tsstp"
+            "key": "δ-1Fn7g5v00GF",
+            "relativePath": "./δ steps/δ-1Fn7g5v00GF.tsstp"
+        },
+        {
+            "key": "δ-1Fn7g5w00oP",
+            "relativePath": "./δ steps/δ-1Fn7g5w00oP.tsstp"
         }
     ],
     "___εdit___": {
-        "id": "1C1VJvr02Lx",
-        "editorID": "car_f3d8ff97c90644e29a19c5535bc0aaa7",
-        "ticks": 1774561670695
+        "id": "1Fn7pgI00gY",
+        "editorID": "car_7dcf1e4158cf42b8a261e696eb2785a3",
+        "ticks": 1778013735490
     }
 }

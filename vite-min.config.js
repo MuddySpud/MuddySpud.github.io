@@ -1,8 +1,6 @@
 
 import { defineConfig } from 'vite';
 import mkcert from 'vite-plugin-mkcert';
-import path from 'path';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 
 // https://vitejs.dev/config/
@@ -18,11 +16,16 @@ export default defineConfig({
                 entryFileNames: `assets/[name].[hash].js`,
                 chunkFileNames: `assets/[name].[hash].js`,
                 assetFileNames: `assets/[name].[hash].[ext]`,
+
                 manualChunks(id) {
+
                     if (id.includes('src2/stepHook')) {
+
                         return 'stepHook';
                     }
+
                     if (id.includes('src/index')) {
+
                         return 'guide';
                     }
                 }
@@ -38,16 +41,26 @@ export default defineConfig({
     },
 
     plugins: [
-        mkcert(),
-        // visualizer(),
-        viteStaticCopy({
-            targets: [
-                {
-                    src: 'src/modules/components/fragments/scss/fragments.scss',
-                    dest: '../build'
+        {
+            name: 'jekyll-front-matter',
+
+            generateBundle(_, bundle) {
+
+                for (const [fileName, asset] of Object.entries(bundle)) {
+
+                    if (fileName.endsWith('.css') 
+                        && asset.type === 'asset'
+                    ) {
+                        const source = typeof asset.source === 'string'
+                            ? asset.source
+                            : asset.source.toString();
+
+                        asset.source = '---\n\n---\n\n\n' + source;
+                    }
                 }
-            ]
-        })
+            }
+        },
+        mkcert()
     ],
 
     css: {

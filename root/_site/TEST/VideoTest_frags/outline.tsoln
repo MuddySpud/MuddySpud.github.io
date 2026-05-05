@@ -11,6 +11,9 @@
                 "i": "16p0DIR01Is"
             },
             {
+                "i": "1Fn6WwY00DW"
+            },
+            {
                 "i": "16uDmqm01AH"
             },
             {
@@ -22,11 +25,11 @@
                 "c": 1,
                 "o": [
                     {
-                        "i": "1Bbt2v80105",
+                        "i": "1Fn7g5v00GF",
                         "x": "s7SMXt1dV"
                     },
                     {
-                        "i": "1Bbt2v901ih",
+                        "i": "1Fn7g5w00oP",
                         "x": "s7SMXt0Xu"
                     }
                 ]
@@ -49,10 +52,12 @@
     },
     "c": [
         {
-            "p": "https://cdn.jsdelivr.net/gh/MuddySpud/MuddySpud.github.io@master/root/_site/LuSenlinTech/produce/Pods/Modules/AeroHerb_frags"
+            "p": "https://cdn.jsdelivr.net/gh/netoftrees/docs-assembler-demo@main/LuSenlinTech/produce/Pods/Modules/AeroHerb_frags",
+            "b": "https://cdn.jsdelivr.net/gh/netoftrees/docs-assembler-demo@main/"
         },
         {
-            "p": "https://cdn.jsdelivr.net/gh/MuddySpud/MuddySpud.github.io@master/root/_site/LuSenlinTech/equipment/Power_frags"
+            "p": "https://cdn.jsdelivr.net/gh/netoftrees/docs-assembler-demo@main/LuSenlinTech/equipment/Power_frags",
+            "b": "https://cdn.jsdelivr.net/gh/netoftrees/docs-assembler-demo@main/"
         },
         {
             "i": "s7SMXt0ol",
