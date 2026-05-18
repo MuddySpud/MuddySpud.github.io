@@ -1,0 +1,58 @@
+{
+    "key": "1CrXXu700DR ",
+    "token": "Publishtomarkdown",
+    "name": "PublishToMarkdown",
+    "created": "2026-04-04T19:22:50.531Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ PublishToMarkdown/PublishToMarkdown.tsmap",
+    "iText": "Link to 'PublishToMarkdown'",
+    "iExits": [
+        {
+            "key": "1CrXzTR0190",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1CrXa2U01S4",
+        "nodes": [
+            {
+                "key": "1CrXcSN01Lt",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "1CrXlip00Fk",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "1CrXvGS00Ik",
+                                "order": 1,
+                                "option": "Next",
+                                "exitKey": "1CrXzTR0190"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CrXa2U01S4",
+            "relativePath": "./δ steps/δ-1CrXa2U01S4.tsstp"
+        },
+        {
+            "key": "δ-1CrXcSN01Lt",
+            "relativePath": "./δ steps/δ-1CrXcSN01Lt.tsstp"
+        },
+        {
+            "key": "δ-1CrXlip00Fk",
+            "relativePath": "./δ steps/δ-1CrXlip00Fk.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1Cv6giV003w",
+        "editorID": "car_b9eedadf4e804183b37e139bc51fc717",
+        "ticks": 1775383274895
+    }
+}

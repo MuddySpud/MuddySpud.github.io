@@ -1,0 +1,6 @@
+##### Why this matters
+
+Deterministic systems are predictable and auditable. If something appears, you can trace exactly why.
+
+Probabilistic systems are flexible but unreliable for documentation - you can't trust that the same request will yield the same accurate result every time.
+

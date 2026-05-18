@@ -1,0 +1,65 @@
+{
+    "key": "1GuplRE01RI ",
+    "token": "Downloaddocsassemblerextensionfromopenvsx",
+    "name": "DownloadDocsAssemblerExtensionFromOpenVsx",
+    "created": "2026-05-17T18:49:32.796Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/tutorials/text/Ξ DownloadDocsAssemblerExtensionFromOpenVsx/DownloadDocsAssemblerExtensionFromOpenVsx.tsmap",
+    "iText": "Link to 'DownloadDocsAssemblerExtensionFromOpenVsx'",
+    "iExits": [
+        {
+            "key": "1Guq5T700TI",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1GuptHl00fy",
+        "sharedAssetKey": "1GviFxX024p",
+        "nodes": [
+            {
+                "key": "1Gupxcj02GV",
+                "order": 1,
+                "sharedAssetKey": "1GvlR4B00BB",
+                "nodes": [
+                    {
+                        "key": "1Guq2f600W0",
+                        "order": 1,
+                        "option": "Next",
+                        "exitKey": "1Guq5T700TI"
+                    }
+                ]
+            },
+            {
+                "key": "1Gvkxcn02ME",
+                "order": 2,
+                "option": "Avoid using link",
+                "sharedAssetKey": "1GvlGx502A2",
+                "isLeaf": true,
+                "isAncillary": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "1GviFxX024p",
+            "relativePath": "../../_shared/steps/DownloadDAOpenVsxLink.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "1GvlR4B00BB",
+            "relativePath": "../../_shared/steps/CopyVsixToDesktop.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "1GvlGx502A2",
+            "relativePath": "../../_shared/steps/DownloadDAOpenVsx.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "1GvleBy00f3",
+        "editorID": "car_db94111459c9440db7d46f81b2dc6592",
+        "ticks": 1779057567966
+    }
+}

@@ -1,0 +1,16 @@
+¬import il from "../variables/imageLinks"
+
+
+#### Download Docs Assembler from open-vsx.org
+
+1. In a browser navigate to `https://open-vsx.org/`. *- yellow ring*
+2. In the open-vsx search box type `docs`.  *- see orange ring*
+3. Click the extension `Docs Assembler` published by `netoftrees`. *- red ring*
+
+{{::il.DA_select_openVsx_img}}
+
+5. In the web page that opens scroll down till you can see the `download` button and click it. *- red ring*
+6. The Docs Assembler vscode extension is saved to the download folder.
+
+{{::il.DA_download_openVsx_img}}
+

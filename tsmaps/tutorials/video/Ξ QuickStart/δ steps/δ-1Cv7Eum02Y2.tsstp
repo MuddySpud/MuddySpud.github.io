@@ -1,0 +1,8 @@
+¬import il from "../../../../_shared/InternalLinks"
+
+
+### Final summary
+
+All files are plain JSON or Markdown, and Git has your history.
+
+{{::il.quickStart-link}}

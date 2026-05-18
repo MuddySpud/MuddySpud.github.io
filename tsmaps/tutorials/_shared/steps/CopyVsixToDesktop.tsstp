@@ -1,0 +1,6 @@
+#### Move .vsix out of Downloads folder
+
+1. Move the downloaded `.vsix` file out of the Downloads folder to the Desktop.
+
+*vscode prevents installing extensions from the Download folder*
+

@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /explanations/Nesting_frags/1CmV0xj01Cl.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"1CmV0xj01Cl","topLevelMapKey":"1CmUzV800iI","mapKeyChain":"1CmUzV800iI","guideID":"1CmUzV800iI","chartKey":"1CmUzV800iI","isLeaf":false,"options":[{"id":"1CmbDZ800Be","option":"Next","order":1,"autoMergeExit":true}]} -->
+
+## What is nesting?
+
+Nesting means placing one map inside another map.
+
+When Map A references Map B, Map B becomes a single step inside Map A. From the outside it looks like any other step, but inside it can be its own complete guide.
+
+This is similar to folders inside folders or functions that call other functions.
+
+### Nesting example
+
+Imagine a troubleshooting guide for a factory, although this could be any multi-variant system.
+
+The top-level map refers to maps for all of the major assemblies of the factory line. Those in turn refer to their sub-assemblies, which refer to their machines, which refer to their components, and so on.
+
+The top-level map does not need to know the internal steps of any nested map. If a component changes, you update only the nested map and all its parent maps automatically reflect the change.
+
+### Benefits of nesting
+
+Nesting keeps large maps manageable. Without it, a map with hundreds or even thousands of steps becomes impossible to navigate.
+
+With nesting you can:
+- Hide complexity inside smaller maps
+- Reuse the same nested map in many places
+- Change something once and every parent map updates automatically (single source of truth)
+- Let different teams own different nested maps
+
+The demo uses nesting heavily, which is why it stays organised even with pathways hundreds of steps long.
+
+### Nesting summary
+
+Nesting gives you encapsulation, reusability, and maintainability. Like classes in code, it is how you build massive, complex guides that remain straightforward to maintain and grow.
+

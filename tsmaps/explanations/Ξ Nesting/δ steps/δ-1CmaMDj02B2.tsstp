@@ -1,0 +1,8 @@
+### Nesting example
+
+Imagine a troubleshooting guide for a factory, although this could be any multi-variant system.
+
+The top-level map refers to maps for all of the major assemblies of the factory line. Those in turn refer to their sub-assemblies, which refer to their machines, which refer to their components, and so on.
+
+The top-level map does not need to know the internal steps of any nested map. If a component changes, you update only the nested map and all its parent maps automatically reflect the change.
+

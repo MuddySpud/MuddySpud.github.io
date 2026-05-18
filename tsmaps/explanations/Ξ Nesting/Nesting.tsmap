@@ -1,0 +1,68 @@
+{
+    "key": "1CmUzV800iI ",
+    "token": "Nesting",
+    "name": "Nesting",
+    "created": "2026-04-03T22:41:19.950Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ Nesting/Nesting.tsmap",
+    "iText": "Link to 'Nesting'",
+    "iExits": [
+        {
+            "key": "1CmbLt901Jo",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1CmV0xj01Cl",
+        "nodes": [
+            {
+                "key": "1CmaMDj02B2",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "1CmacBQ024k",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "1Cmb1PQ01yv",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "1CmbDZ800Be",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "exitKey": "1CmbLt901Jo"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CmV0xj01Cl",
+            "relativePath": "./δ steps/δ-1CmV0xj01Cl.tsstp"
+        },
+        {
+            "key": "δ-1CmaMDj02B2",
+            "relativePath": "./δ steps/δ-1CmaMDj02B2.tsstp"
+        },
+        {
+            "key": "δ-1CmacBQ024k",
+            "relativePath": "./δ steps/δ-1CmacBQ024k.tsstp"
+        },
+        {
+            "key": "δ-1Cmb1PQ01yv",
+            "relativePath": "./δ steps/δ-1Cmb1PQ01yv.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1CmbNEl00lJ",
+        "editorID": "car_63a82c6d0c9d492695b5af8640c08b11",
+        "ticks": 1775257601159
+    }
+}

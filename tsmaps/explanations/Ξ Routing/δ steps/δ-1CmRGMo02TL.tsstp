@@ -1,0 +1,11 @@
+### Routing summary
+
+You have seen:
+- Deferred questions - the guide asks for the specific operation only when the answer matters
+- Routing to specialised sub-maps
+- Multiple exit points
+- Deduplication across parent maps
+
+The result is the shortest useful path for the reader.
+Later you'll see how to integrate expertise you don't own.
+

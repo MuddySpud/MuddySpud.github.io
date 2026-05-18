@@ -1,0 +1,38 @@
+{
+    "key": "1GvmkAS00YG ",
+    "token": "Installdavsix",
+    "name": "InstallDAVsix",
+    "created": "2026-05-17T22:43:49.264Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/tutorials/text/Ξ InstallDAVsix/InstallDAVsix.tsmap",
+    "iText": "Link to 'InstallDAVsix'",
+    "iExits": [
+        {
+            "key": "1Gw871S01Sw",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1GvmqUG002I",
+        "nodes": [
+            {
+                "key": "1GvmtJ500Ts",
+                "order": 1,
+                "option": "Next",
+                "exitKey": "1Gw871S01Sw"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1GvmqUG002I",
+            "relativePath": "./δ steps/δ-1GvmqUG002I.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1Gw88Xt01Y3",
+        "editorID": "car_77a067227e7644c39a6a4486d993c272",
+        "ticks": 1779062927861
+    }
+}

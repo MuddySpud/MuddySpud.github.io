@@ -1,0 +1,34 @@
+{
+    "key": "1CPEpGP00tf ",
+    "token": "Whatisdeterministic",
+    "name": "WhatIsDeterministic",
+    "created": "2026-03-30T23:12:51.621Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ WhatIsDeterministic/WhatIsDeterministic.tsmap",
+    "iText": "Link to 'WhatIsDeterministic'",
+    "___rΩΩt___": {
+        "key": "1CPEryF01hY",
+        "nodes": [
+            {
+                "key": "1CPEtoQ01XN",
+                "order": 1,
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CPEryF01hY",
+            "relativePath": "./δ steps/δ-1CPEryF01hY.tsstp"
+        },
+        {
+            "key": "δ-1CPEtoQ01XN",
+            "relativePath": "./δ steps/δ-1CPEtoQ01XN.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1CPF2X901nt",
+        "editorID": "car_b754beae52d64e56a8d074e088625097",
+        "ticks": 1774912422631
+    }
+}

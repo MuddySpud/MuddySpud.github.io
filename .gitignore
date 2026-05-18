@@ -20,3 +20,14 @@ pub/
 .jekyll-cache/
 
 **/*.tscom
+
+node_modules/
+out/
+build/
+.cache/
+.staging/
+.temp/
+
+
+
+

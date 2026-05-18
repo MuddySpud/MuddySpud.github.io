@@ -1,0 +1,8 @@
+¬import el from "../variables/externalLinks"
+
+
+#### Download Docs Assembler from open-vsx.org link
+
+You can download the Docs Assembler vscode extension from open-vsx here: 
+[{{::el.openVsx_DA_url}}]({{::el.openVsx_DA_url}})
+

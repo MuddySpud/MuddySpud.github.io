@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /tutorials/video/QuickStart_frags/1CraymJ00vQ.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"1CraymJ00vQ","topLevelMapKey":"1Ckyiqs00fm","mapKeyChain":"1Ckyiqs00fm","guideID":"1Ckyiqs00fm","chartKey":"1Ckyiqs00fm","isLeaf":false,"options":[{"id":"1CvXvNs00vH","option":"Step into the demo","order":1},{"id":"1CvXzZJ01AD","option":"Return to tutorial start","order":2}]} -->
+
+## What you have learned
+
+This tutorial introduced five core concepts that work together:
+
+- Routing
+- Nesting
+- Absolute ownership
+- Publish to Markdown
+- Remote guides
+
+You can also define **variables** for reusable text snippets (with automatic link fixing) and use **ancillaries** for collapsible sections that let readers expand or hide detail as needed.
+
+Each concept solves a specific maintenance problem. Together they form a complete system.
+
+### How they fit together
+
+You write maps in VS Code. The maps live in Git repos you control (absolute ownership). You nest maps inside other maps to keep things organised (nesting).
+
+When a decision point is reached, one map can route to another map - or to a remote guide - and return (routing).
+
+When you are ready, the extension assembles everything into standard Markdown files (publish to Markdown). You host those files anywhere. Your readers see clean documentation.
+
+If you uninstall the extension tomorrow, the published Markdown files remain. Your documentation is never trapped.
+
+### Final summary
+
+All files are plain JSON or Markdown, and Git has your history.
+
+[Quick start video](tutorials/video/QuickStart/)

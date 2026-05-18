@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /explanations/AbsoluteOwnership_frags/1CmcBig02Uq.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"1CmcBig02Uq","topLevelMapKey":"1Cmc9MI020y","mapKeyChain":"1Cmc9MI020y","guideID":"1Cmc9MI020y","chartKey":"1Cmc9MI020y","isLeaf":false,"options":[{"id":"1CmcfM702Gx","option":"Next","order":1,"autoMergeExit":true}]} -->
+
+## What is absolute ownership?
+
+Absolute ownership means all your content lives in standard Git repositories that you control.
+
+You are not storing your documentation in a proprietary database or on someone else's server.
+
+### Why Git instead of a database?
+
+Git gives you:
+- Full history - every change is tracked. You can see who changed what, and when.
+- Instant rollback - revert to any previous version with one command.
+- No new tools to learn - if you already use Git for code, you already know how to use it for documentation.
+- Offline access - your files are on your hard drive.
+- Standard diffing - see exactly what changed between two versions, line by line.
+
+### Benefits of absolute ownership
+
+- No subscription fees
+- No vendor lock-in
+- Use your existing Git workflow (pull requests, reviews, CI/CD)
+- Backups are already handled
+
+### Absolute ownership summary
+
+You own your content completely. The extension is just a tool for editing it.
+

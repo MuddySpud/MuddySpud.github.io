@@ -1,0 +1,14 @@
+### The problem this solves
+
+If you have ever copied and pasted the same paragraph into ten different documents, then updated it and missed a spot, you already know the pain.
+
+The real dread goes deeper:
+
+- Sprawling, duplicated content across guides and wikis - impossible to know what is accurate
+- Error-prone updates - you change something in one place, but miss the same information duplicated elsewhere
+- Brittle, unmanageable documentation that cannot handle similar-but-different scenarios without creating contradictions
+
+The demo we will show you later proves how encapsulation eliminates this dread. It is large - some pathways through it are hundreds of steps long. It proves this tool can handle massive, complex systems.
+
+You will also see how breaking things into smaller pieces simplifies maintenance and lets different teams own different sections without conflict.
+

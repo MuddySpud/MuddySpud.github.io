@@ -1,0 +1,5 @@
+¬import il from "./InternalLinks"
+
+
+{{::il.quickStart-link}}
+

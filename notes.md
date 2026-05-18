@@ -1,72 +1,72 @@
-https://player.vimeo.com/video/817455618?h=1ed6f8fb44
 
-************* Before a release to live delete git *******************
-
-## Publish to DocsAssemblerDemo
-
-Publish C:\GitHub\MuddySpud\MuddySpud.github.io\tsmaps\Ξ DocumentationHell\DocumentationHell.tsmap
-
-Then copy over published files to docs.
-
-Run yarn build
-
-Delete all files in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
-
-Copy over the files in C:\GitHub\MuddySpud\MuddySpud.github.io\build over to C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
-
-Adjust these references in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_includes\head.html
-  <script type="module" crossorigin src="/assets/FragmentRenderer/index.Df81YTG1.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/FragmentRenderer/stepHook.BZRxKY32.js">
-  <link rel="modulepreload" crossorigin href="/assets/FragmentRenderer/guide.BXLPv0P3.js">
-  <link rel="stylesheet" crossorigin href="/assets/FragmentRenderer/guide.CqGWZ4gS.css">
-to the new file names in C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets\FragmentRenderer
-
-Delete these folders in DocsAssemblerDemo:
-  C:\GitHub\DocsAssemblerDemo\tsmaps
-  C:\GitHub\DocsAssemblerDemo\docs\_includes
-  C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_layouts
-  C:\GitHub\DocsAssemblerDemo\docs\assets
-  C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
-  C:\GitHub\DocsAssemblerDemo\docs\LuSenlinTech
-  C:\GitHub\DocsAssemblerDemo\docs\Technical
-  C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
-
-copy over folders:
-C:\GitHub\MuddySpud\MuddySpud.github.io\tsmaps to C:\GitHub\DocsAssemblerDemo\tsmaps
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\DocumentationHell.md to C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\Technical to C:\GitHub\DocsAssemblerDemo\docs\Technical
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\LuSenlinTech to C:\GitHub\DocsAssemblerDemo\docs\LuSenlinTech
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\DocumentationHell_frags to C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell_frags
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\assets to C:\GitHub\DocsAssemblerDemo\docs\assets
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_includes to C:\GitHub\DocsAssemblerDemo\docs\_includes
-C:\GitHub\MuddySpud\MuddySpud.github.io\docs\_layouts to C:\GitHub\DocsAssemblerDemo\docs\_layouts
-
-Copy over the fragment json and markdwn from C:\GitHub\DocsAssemblerDemo\docs\DocumentationHell.md
-to C:\GitHub\DocsAssemblerDemo\docs\index.md
-
-Commit the changes and check github CompositeFlows-RM
-
-https://docsassemblerdemo.netoftrees.com/
+root discussion:
+    What if your documentation could think like you do, navigating "if this, then that, except when…" logic to deliver precisely the right information?
+    No LLM hallucinations. No decision-tree duplication. Just deterministic content.
+Add 2 auxilliaries:
+    - to explain Hallucination (and LLMs)
+    - to explain decision trees
+    - deterministic vs ??
+Add an option with no text so it merges automatically.
+Add a decision to the option and work out what text could be added here.
+Add 2 options (3rd and 4th to be added later)
+    - Watch this tutorial video
+    - Step into the demo guide used in the video
+    - Step into a part of the demo guide that can be routed back out to here
 
 
-###### Next:
 
-  Need to always make sure start with title that matches previous selected option. ie option selected must be followed by a markdown heading with the same text as option.
+Should explain we are going to use the demo guide shown here: 
+https://netoftrees.github.io/docs-assembler-demo/
 
-Add what to notice in intro to demo.
-  - See how large the range of opions are
-  - How similar but slghtly different - so we remove duplication so we only have to edit in a single place. etc
-  - How we can edit a small sctin on in isolation no having to be overwhelmed with the whole guide.
-  - Using variables to define column text can make a defining a table in markdown easier to read and debug
-  - Don't need to follow this for building your docs it is just a demo of what is possible
-  - why don't you experiment...
-  - The architexture choices we made in this demo are for demonstration purposes only.
+-- We will show you how to create a map
+-- How to link to a remote guide and explain why you would want to do that
+These should all be options off the root of this tutorial
+The whole tutorial is just a quick start but we aim to show how to link to a video, if you don't want to embed it in the markdown
+How to edit markdown
+How to create a variable
+a blank option merges into the main flow
+publishing
+importing a bank
+etc Add here all the variants!!!!
+Then say they have all been used in the demo guide then link to it.
+Adding a pod
+So we are going start by creating a map then link to it from this map - should be about deterministic
 
-#### Tech path
-Need to have some way for the technical exploration of demo to include when in the chain it is linking to a new tree perhaps show a screen shot of the map with that step highlighed and open in the markdown editor.
+The main path should be root intro with 3 auxs 
+Explanation of some sort about the tutorial
+    - Perhaps start with introduction to demo website.
+    - In the video go to the website and click through it?
+    - Add other subjects that need to be introduced? - keep it short though
+        - The repo - ie it is your data in your organisation
+        - Using remote guides - why you might do this?
+Then link to a map with one exit - to showcase routing through maps
+Then plug in choices
+    - watch video
+    - step into demo guide used in the video
+    - step into a section in the video
+    - tutorial about how to install the extension etc fron instaling vscode to Jekyll etc ( need to work out how this replates to the videos)
 
-#### Spaces - write text differences
-Need to write out the differences between spaces ie garden could have a shelter and different anchors - need the get Deepseek to work that out for each space what are their differnces based on what it knows.
+**THE demo ends in a conclusion. If we make that a tree with an exit and add the conclusion onto it for the demo then we can replace the conclusion here as an example and show a different result...**
 
-https://muddyspud.github.io/
 
+
+
+1. Create a map called 'What is decision trees'
+    - Add root discussion with blank option
+    - Add solution
+1. Create a map called 'What is deterministic'
+    - Add root discussion with blank option
+    - Add solution
+2. Create a map 'Quick start video tutorial'
+    - Add root discussion with blank option
+    - Add a discusion to the blank option
+    - TODO
+
+
+create separate maps for each of the branches A-D then plug them into a long chain and add them after the video as ancillaries.
+
+
+Other important unique features:
+- All content lives in your Git repositories. You control them completely. There are no subscriptions.
+- You publish your maps into guides. These are standard markdown files. If you uninstall the extension you can continue editing you guides with a markdown editor. There is no lock-in.
+- Guides can be hosted for free on GitHub Pages, or any static hosting you choose. And you can use other people's guides in buidling yours.

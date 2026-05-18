@@ -1,0 +1,131 @@
+{
+    "g": "1Ckyiqs00fm",
+    "v": "1",
+    "r": {
+        "i": "1Ckykyy02FV",
+        "o": [
+            {
+                "i": "1Ckyt1n02Wx",
+                "o": [
+                    {
+                        "i": "1Cl0t5Y01ix",
+                        "c": 0,
+                        "o": [
+                            {
+                                "i": "1CmRvGJ02E9",
+                                "x": "1CmRlte016N",
+                                "c": 1,
+                                "o": [
+                                    {
+                                        "i": "1CmbZF601K0",
+                                        "x": "1CmbLt901Jo",
+                                        "c": 2,
+                                        "o": [
+                                            {
+                                                "i": "1CmcxJc008N",
+                                                "x": "1Cmck04018X",
+                                                "c": 3,
+                                                "o": [
+                                                    {
+                                                        "i": "1CrYWlo02Dr",
+                                                        "x": "1CrXzTR0190",
+                                                        "c": 4,
+                                                        "o": [
+                                                            {
+                                                                "i": "1CraymJ00vQ",
+                                                                "x": "1Cras7J01Cc",
+                                                                "o": [
+                                                                    {
+                                                                        "i": "1CvXvNs00vH",
+                                                                        "c": 5,
+                                                                        "o": [
+                                                                            {
+                                                                                "i": "1D4244102DY",
+                                                                                "x": "1D3wjIz02GN"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "i": "1CvXzZJ01AD"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "i": "1CmDlKq02GL"
+                    },
+                    {
+                        "i": "1CmDqDS02aE",
+                        "c": 5,
+                        "o": [
+                            {
+                                "i": "1D41mqQ01MI",
+                                "x": "1D3wjIz02GN"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "i": "1CkzgTh02Ub",
+                "c": 6
+            },
+            {
+                "i": "1Ckzh1q00nQ",
+                "c": 7
+            },
+            {
+                "i": "1CkzpWA01l3",
+                "c": 8
+            }
+        ]
+    },
+    "c": [
+        {
+            "i": "1CmPIQa013C",
+            "p": "explanations/Routing_frags"
+        },
+        {
+            "i": "1CmUzV800iI",
+            "p": "explanations/Nesting_frags"
+        },
+        {
+            "i": "1Cmc9MI020y",
+            "p": "explanations/AbsoluteOwnership_frags"
+        },
+        {
+            "i": "1CrXXu700DR",
+            "p": "explanations/PublishToMarkdown_frags"
+        },
+        {
+            "i": "1CrZAeL005H",
+            "p": "explanations/ThirdPartyGuides_frags"
+        },
+        {
+            "p": "https://netoftrees.com/docs-assembler-demo/Technical/DocumentationHellContents_frags",
+            "b": "https://netoftrees.com/docs-assembler-demo/"
+        },
+        {
+            "p": "https://netoftrees.com/docs-assembler-demo/Technical/Hallucinations_frags",
+            "b": "https://netoftrees.com/docs-assembler-demo/"
+        },
+        {
+            "i": "1CP8y0V01Io",
+            "p": "explanations/WhatAreDecisionTrees_frags"
+        },
+        {
+            "i": "1CPEpGP00tf",
+            "p": "explanations/WhatIsDeterministic_frags"
+        }
+    ],
+    "e": 0
+}

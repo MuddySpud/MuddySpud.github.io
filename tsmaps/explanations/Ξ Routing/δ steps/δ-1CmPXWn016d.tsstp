@@ -1,0 +1,12 @@
+### A concrete routing example
+
+Imagine an organisation that runs three similar but not identical production lines.
+
+It builds one main diagnostic map for troubleshooting problems across all three lines.
+
+At a certain point the main map needs to know which line the problem is on. Instead of writing every possibility inside the main map, it routes to a sub-map specific to that line.
+
+That sub-map handles the specialised checks and can exit in different ways depending on what it finds.
+
+The main map only needs to know which exit was taken.
+

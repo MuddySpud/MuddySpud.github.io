@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /tutorials/video/QuickStart_frags/1Cl0t5Y01ix.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"1Cl0t5Y01ix","topLevelMapKey":"1Ckyiqs00fm","mapKeyChain":"1Ckyiqs00fm","guideID":"1Ckyiqs00fm","chartKey":"1Ckyiqs00fm","isLeaf":false,"options":[{"id":"1CmRvGJ02E9","option":"Exit","order":1,"iExitKey":"1CmRlte016N"}],"iKey":"1CmPIQa013C"} -->
+
+### The problem this solves
+
+If you have ever copied and pasted the same paragraph into ten different documents, then updated it and missed a spot, you already know the pain.
+
+The real dread goes deeper:
+
+- Sprawling, duplicated content across guides and wikis - impossible to know what is accurate
+- Error-prone updates - you change something in one place, but miss the same information duplicated elsewhere
+- Brittle, unmanageable documentation that cannot handle similar-but-different scenarios without creating contradictions
+
+The demo we will show you later proves how encapsulation eliminates this dread. It is large - some pathways through it are hundreds of steps long. It proves this tool can handle massive, complex systems.
+
+You will also see how breaking things into smaller pieces simplifies maintenance and lets different teams own different sections without conflict.
+
+### How it solves it
+
+This tutorial walks you through five core ideas that make this approach different:
+
+- Routing - one map calls another, then returns
+- Nesting - maps inside maps for massive guides
+- Absolute ownership - your Git repos, no subscriptions
+- Publish to Markdown - standard files, no lock-in
+- Remote guides - use and reuse content that others maintain
+
+Each concept builds on the last. The video walks through them in order.
+

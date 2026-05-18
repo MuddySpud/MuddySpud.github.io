@@ -1,0 +1,68 @@
+{
+    "key": "1CmPIQa013C ",
+    "token": "Routing",
+    "name": "Routing",
+    "created": "2026-04-03T22:18:42.736Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ Routing/Routing.tsmap",
+    "iText": "Link to 'Routing'",
+    "iExits": [
+        {
+            "key": "1CmRlte016N",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1CmPKvc00Pk",
+        "nodes": [
+            {
+                "key": "1CmPXWn016d",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "1CmPo9B00E1",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "1CmRGMo02TL",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "1CmRdTr01In",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "exitKey": "1CmRlte016N"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CmPKvc00Pk",
+            "relativePath": "./δ steps/δ-1CmPKvc00Pk.tsstp"
+        },
+        {
+            "key": "δ-1CmPXWn016d",
+            "relativePath": "./δ steps/δ-1CmPXWn016d.tsstp"
+        },
+        {
+            "key": "δ-1CmPo9B00E1",
+            "relativePath": "./δ steps/δ-1CmPo9B00E1.tsstp"
+        },
+        {
+            "key": "δ-1CmRGMo02TL",
+            "relativePath": "./δ steps/δ-1CmRGMo02TL.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1CmRnjG00Ft",
+        "editorID": "car_a778e27a90524dd8b667fbd344511447",
+        "ticks": 1775255319714
+    }
+}

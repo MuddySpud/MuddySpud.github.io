@@ -1,7 +1,9 @@
 
 <h1 align="center">
-MuddySpud.github.io
+www.netoftrees.com/docs-assembler-help
 </h1>
+
+## Works With Docs Assembler 0.8.1
 
 To run this repo you need [VS Code](https://code.visualstudio.com/download) with the [Docs Assembler](https://marketplace.visualstudio.com/items?itemName=netoftrees.documentation-assembler) extension installed.
 

@@ -1,0 +1,4 @@
+## What does "publish to Markdown" mean?
+
+When you finish building your maps, the extension assembles them into standard Markdown files that any text editor can open. It automatically copies linked assets, validates the entire guide, fixes relative links, and prepares the files for any static host.
+

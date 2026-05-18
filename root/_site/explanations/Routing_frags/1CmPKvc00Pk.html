@@ -1,0 +1,54 @@
+<!-- tsFragmentRenderComment {"id":"1CmPKvc00Pk","topLevelMapKey":"1CmPIQa013C","mapKeyChain":"1CmPIQa013C","guideID":"1CmPIQa013C","chartKey":"1CmPIQa013C","isLeaf":false,"options":[{"id":"1CmRdTr01In","option":"Next","order":1,"autoMergeExit":true}]} -->
+
+<h2 id="what-is-routing">What is routing?</h2>
+
+<p>Routing lets one map call another map and then return to where it started.</p>
+
+<p>Think of it like a function call in code:</p>
+<ul>
+  <li>The main map calls a sub-map.</li>
+  <li>The sub-map runs its steps.</li>
+  <li>When finished, control returns to the main map.</li>
+</ul>
+
+<p>This keeps each map focused on one job. Complex logic lives in its own map.</p>
+
+<p>A routed map can have multiple exit points, allowing the flow to branch and rejoin in different ways.</p>
+
+<h3 id="a-concrete-routing-example">A concrete routing example</h3>
+
+<p>Imagine an organisation that runs three similar but not identical production lines.</p>
+
+<p>It builds one main diagnostic map for troubleshooting problems across all three lines.</p>
+
+<p>At a certain point the main map needs to know which line the problem is on. Instead of writing every possibility inside the main map, it routes to a sub-map specific to that line.</p>
+
+<p>That sub-map handles the specialised checks and can exit in different ways depending on what it finds.</p>
+
+<p>The main map only needs to know which exit was taken.</p>
+
+<h3 id="benefits-of-routing">Benefits of routing</h3>
+
+<p>The main map stays short. Each piece stays focused on its own level of detail. Specialised knowledge lives in a dedicated map.</p>
+
+<p>The user never sees irrelevant steps. Content appears only when needed. Your map stays simple and easy to maintain, even when procedures inside sub-maps change.</p>
+
+<p>Routing also enables:</p>
+<ul>
+  <li>Deduplication - the same sub-map can be used from many parent maps</li>
+  <li>Separation of concerns - different teams can own different sub-maps</li>
+</ul>
+
+<h3 id="routing-summary">Routing summary</h3>
+
+<p>You have seen:</p>
+<ul>
+  <li>Deferred questions - the guide asks for the specific operation only when the answer matters</li>
+  <li>Routing to specialised sub-maps</li>
+  <li>Multiple exit points</li>
+  <li>Deduplication across parent maps</li>
+</ul>
+
+<p>The result is the shortest useful path for the reader.
+Later you’ll see how to integrate expertise you don’t own.</p>
+

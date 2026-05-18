@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /tutorials/video/QuickStart_frags/1Ckyt1n02Wx.html
+---
+
+
+<!-- tsFragmentRenderComment {"id":"1Ckyt1n02Wx","topLevelMapKey":"1Ckyiqs00fm","mapKeyChain":"1Ckyiqs00fm","guideID":"1Ckyiqs00fm","parentFragmentID":"1Ckykyy02FV","chartKey":"1Ckyiqs00fm","isLeaf":false,"options":[{"id":"1Cl0t5Y01ix","option":"Step through the tutorial built in the video","order":1},{"id":"1CmDlKq02GL","option":"View the video","order":2},{"id":"1CmDqDS02aE","option":"Step through the demo used in the video","order":3}]} -->
+
+### What does this extension do?
+
+This extension lets you build documentation that branches in different directions.
+
+You write content in Markdown. You organise it into maps. A map is a set of steps followed by options.
+
+You edit inside VS Code using the visual Map Editor or the raw JSON files, with IntelliSense and automatic validation.
+
+The key difference: maps can call other maps and return. You can also define variables for reusable text snippets and use ancillaries for collapsible sections. This means you never duplicate content. You build reusable pieces, like functions in code.
+
+The result is documentation that adapts to the user's situation without becoming a mess to maintain.
+

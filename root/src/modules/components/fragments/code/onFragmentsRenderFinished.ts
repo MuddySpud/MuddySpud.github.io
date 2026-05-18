@@ -1,7 +1,4 @@
-import DOMPurify from 'dompurify';
-
 import Filters from "../../../state/constants/Filters";
-import domPurifyConfig from './domPurifyConfig';
 
 
 const onFragmentsRenderFinished = () => {
@@ -17,11 +14,7 @@ const onFragmentsRenderFinished = () => {
 
         if (dataDiscussion != null) {
 
-            fragmentBox.innerHTML = DOMPurify.sanitize(
-                dataDiscussion, 
-                domPurifyConfig
-            );
-            
+            fragmentBox.innerHTML = dataDiscussion;
             delete fragmentBox.dataset.discussion;
         }
     }

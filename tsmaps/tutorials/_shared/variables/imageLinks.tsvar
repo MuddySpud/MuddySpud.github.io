@@ -1,0 +1,16 @@
+
+¬DA_select_openVsx_url: ../../../assets/images/open-vsx_docs-select.png
+¬DA_select_openVsx_img: ![Select Docs Assembler on open-vsx.org]({{::DA_select_openVsx_url}})
+
+¬DA_download_openVsx_url: ../../../assets/images/open-vsx_docs-assembler_download.png
+¬DA_download_openVsx_img: ![Download Docs Assembler from open-vsx.org]({{::DA_download_openVsx_url}})
+
+¬DA_installed_url: ../../../assets/images/vscode_DA_installed.png
+¬DA_installed_img: ![Docs Assembler installed in vscode]({{::DA_installed_url}})
+
+¬DA_install_url: ../../../assets/images/vscode_install_vsix.png
+¬DA_install_img: ![Install Docs Assembler in vscode]({{::DA_install_url}})
+
+¬DA_install_dialogue_url: ../../../assets/images/vscode_install_vsix_dialogue.png
+¬DA_install_dialogue_img: ![Install Docs Assembler dialogue in vscode]({{::DA_install_dialogue_url}})
+

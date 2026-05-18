@@ -1,0 +1,266 @@
+{
+    "key": "1Ckyiqs00fm ",
+    "token": "Quickstart",
+    "name": "QuickStart",
+    "created": "2026-04-03T16:26:53.118Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/tutorials/video/Ξ QuickStart/QuickStart.tsmap",
+    "iText": "Link to 'QuickStart'",
+    "___rΩΩt___": {
+        "key": "1Ckykyy02FV",
+        "nodes": [
+            {
+                "key": "1Ckyt1n02Wx",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "1Cl0t5Y01ix",
+                        "order": 1,
+                        "option": "Step through the tutorial built in the video",
+                        "nodes": [
+                            {
+                                "key": "1Cl1Y5o00RT",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "1CmEVZU01MY",
+                                        "order": 1,
+                                        "iKey": "1CmPIQa013C",
+                                        "nodes": [
+                                            {
+                                                "key": "1CmRvGJ02E9",
+                                                "order": 1,
+                                                "option": "Exit",
+                                                "iKey": "1CmUzV800iI",
+                                                "iExitKey": "1CmRlte016N",
+                                                "nodes": [
+                                                    {
+                                                        "key": "1CmbZF601K0",
+                                                        "order": 1,
+                                                        "option": "Exit",
+                                                        "iKey": "1Cmc9MI020y",
+                                                        "iExitKey": "1CmbLt901Jo",
+                                                        "nodes": [
+                                                            {
+                                                                "key": "1CmcxJc008N",
+                                                                "order": 1,
+                                                                "option": "Exit",
+                                                                "iKey": "1CrXXu700DR",
+                                                                "iExitKey": "1Cmck04018X",
+                                                                "nodes": [
+                                                                    {
+                                                                        "key": "1CrYWlo02Dr",
+                                                                        "order": 1,
+                                                                        "option": "Exit",
+                                                                        "iKey": "1CrZAeL005H",
+                                                                        "iExitKey": "1CrXzTR0190",
+                                                                        "nodes": [
+                                                                            {
+                                                                                "key": "1CraymJ00vQ",
+                                                                                "order": 1,
+                                                                                "option": "Exit",
+                                                                                "iExitKey": "1Cras7J01Cc",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "key": "1Cv7DDN01gw",
+                                                                                        "order": 1,
+                                                                                        "nodes": [
+                                                                                            {
+                                                                                                "key": "1Cv7Eum02Y2",
+                                                                                                "order": 1,
+                                                                                                "nodes": [
+                                                                                                    {
+                                                                                                        "key": "1CvXvNs00vH",
+                                                                                                        "order": 1,
+                                                                                                        "option": "Step into the demo",
+                                                                                                        "gPath": {
+                                                                                                            "guidePath": "Technical/DocumentationHellContents_frags",
+                                                                                                            "bankUrl": "https://netoftrees.com/docs-assembler-demo/"
+                                                                                                        },
+                                                                                                        "nodes": [
+                                                                                                            {
+                                                                                                                "key": "1D4244102DY",
+                                                                                                                "order": 1,
+                                                                                                                "option": "Next",
+                                                                                                                "sharedAssetKey": "1D42TrI01B8",
+                                                                                                                "isLeaf": true,
+                                                                                                                "iExitKey": "1D3wjIz02GN"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "key": "1CvXzZJ01AD",
+                                                                                                        "order": 2,
+                                                                                                        "option": "Return to tutorial start",
+                                                                                                        "isLeaf": true
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1CmDlKq02GL",
+                        "order": 2,
+                        "option": "View the video",
+                        "isLeaf": true
+                    },
+                    {
+                        "key": "1CmDqDS02aE",
+                        "order": 3,
+                        "option": "Step through the demo used in the video",
+                        "gPath": {
+                            "guidePath": "Technical/DocumentationHellContents_frags",
+                            "bankUrl": "https://netoftrees.com/docs-assembler-demo/"
+                        },
+                        "nodes": [
+                            {
+                                "key": "1D41mqQ01MI",
+                                "order": 1,
+                                "option": "Next",
+                                "sharedAssetKey": "1D42OaX015O",
+                                "isLeaf": true,
+                                "iExitKey": "1D3wjIz02GN"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "1CkzgTh02Ub",
+                "order": 2,
+                "option": "Explain LLM hallucinations",
+                "isLeaf": true,
+                "isAncillary": true,
+                "gPath": {
+                    "guidePath": "Technical/Hallucinations_frags",
+                    "bankUrl": "https://netoftrees.com/docs-assembler-demo/"
+                }
+            },
+            {
+                "key": "1Ckzh1q00nQ",
+                "order": 3,
+                "option": "Explain decision-trees",
+                "isLeaf": true,
+                "isAncillary": true,
+                "iKey": "1CP8y0V01Io"
+            },
+            {
+                "key": "1CkzpWA01l3",
+                "order": 4,
+                "option": "Explain deterministic",
+                "isLeaf": true,
+                "isAncillary": true,
+                "iKey": "1CPEpGP00tf"
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1Ckykyy02FV",
+            "relativePath": "./δ steps/δ-1Ckykyy02FV.tsstp"
+        },
+        {
+            "key": "δ-1Ckyt1n02Wx",
+            "relativePath": "./δ steps/δ-1Ckyt1n02Wx.tsstp"
+        },
+        {
+            "key": "δ-1CkzgTh02Ub",
+            "relativePath": "./δ steps/δ-1CkzgTh02Ub.tsstp"
+        },
+        {
+            "key": "δ-1Ckzh1q00nQ",
+            "relativePath": "./δ steps/δ-1Ckzh1q00nQ.tsstp"
+        },
+        {
+            "key": "δ-1CkzpWA01l3",
+            "relativePath": "./δ steps/δ-1CkzpWA01l3.tsstp"
+        },
+        {
+            "key": "δ-1Cl0t5Y01ix",
+            "relativePath": "./δ steps/δ-1Cl0t5Y01ix.tsstp"
+        },
+        {
+            "key": "δ-1Cl1Y5o00RT",
+            "relativePath": "./δ steps/δ-1Cl1Y5o00RT.tsstp"
+        },
+        {
+            "key": "δ-1CmDlKq02GL",
+            "relativePath": "./δ steps/δ-1CmDlKq02GL.tsstp"
+        },
+        {
+            "key": "δ-1CmDqDS02aE",
+            "relativePath": "./δ steps/δ-1CmDqDS02aE.tsstp"
+        },
+        {
+            "key": "δ-1CmEVZU01MY",
+            "relativePath": "./δ steps/δ-1CmEVZU01MY.tsstp"
+        },
+        {
+            "key": "δ-1CmRvGJ02E9",
+            "relativePath": "./δ steps/δ-1CmRvGJ02E9.tsstp"
+        },
+        {
+            "key": "δ-1CmbZF601K0",
+            "relativePath": "./δ steps/δ-1CmbZF601K0.tsstp"
+        },
+        {
+            "key": "δ-1CmcxJc008N",
+            "relativePath": "./δ steps/δ-1CmcxJc008N.tsstp"
+        },
+        {
+            "key": "δ-1CrYWlo02Dr",
+            "relativePath": "./δ steps/δ-1CrYWlo02Dr.tsstp"
+        },
+        {
+            "key": "δ-1CraymJ00vQ",
+            "relativePath": "./δ steps/δ-1CraymJ00vQ.tsstp"
+        },
+        {
+            "key": "δ-1Cv7DDN01gw",
+            "relativePath": "./δ steps/δ-1Cv7DDN01gw.tsstp"
+        },
+        {
+            "key": "δ-1Cv7Eum02Y2",
+            "relativePath": "./δ steps/δ-1Cv7Eum02Y2.tsstp"
+        },
+        {
+            "key": "δ-1CvXvNs00vH",
+            "relativePath": "./δ steps/δ-1CvXvNs00vH.tsstp"
+        },
+        {
+            "key": "δ-1CvXzZJ01AD",
+            "relativePath": "./δ steps/δ-1CvXzZJ01AD.tsstp"
+        },
+        {
+            "key": "1D42OaX015O",
+            "relativePath": "../../../_shared/dividingStars.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "1D42TrI01B8",
+            "relativePath": "../../../_shared/dividingStars.tsstp",
+            "isShared": true
+        }
+    ],
+    "___εdit___": {
+        "id": "1GkH1ou01g1",
+        "editorID": "me_e9b9dd68ff0943ff8c65ce3888105266",
+        "ticks": 1778887730928
+    }
+}

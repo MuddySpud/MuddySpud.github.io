@@ -1,0 +1,8 @@
+## What is nesting?
+
+Nesting means placing one map inside another map.
+
+When Map A references Map B, Map B becomes a single step inside Map A. From the outside it looks like any other step, but inside it can be its own complete guide.
+
+This is similar to folders inside folders or functions that call other functions.
+

@@ -1,0 +1,34 @@
+{
+    "key": "1CP8y0V01Io ",
+    "token": "Whataredecisiontrees",
+    "name": "WhatAreDecisionTrees",
+    "created": "2026-03-30T22:49:35.263Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ WhatAreDecisionTrees/WhatAreDecisionTrees.tsmap",
+    "iText": "Link to 'WhatAreDecisionTrees'",
+    "___rΩΩt___": {
+        "key": "1CP937J01eU",
+        "nodes": [
+            {
+                "key": "1CP94Rc011H",
+                "order": 1,
+                "isLeaf": true
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CP937J01eU",
+            "relativePath": "./δ steps/δ-1CP937J01eU.tsstp"
+        },
+        {
+            "key": "δ-1CP94Rc011H",
+            "relativePath": "./δ steps/δ-1CP94Rc011H.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1CP9pzw023m",
+        "editorID": "car_7c605a9f1ad54291b0e885b064903bdc",
+        "ticks": 1774911182804
+    }
+}

@@ -1,0 +1,27 @@
+---
+title: null
+isGuide: true
+mapFolderPath: tsmaps/explanations/%CE%9E%20WhatIsDeterministic
+fragsFolderPath: explanations/WhatIsDeterministic_frags
+
+---
+
+
+<!-- tsGuideRenderComment {"guide":{"id":"1CPEryF01hY","path":"explanations","fragmentFolderPath":"explanations/WhatIsDeterministic_frags"},"fragment":{"id":"1CPEryF01hY","topLevelMapKey":"1CPEpGP00tf","mapKeyChain":"1CPEpGP00tf","guideID":"1CPEpGP00tf","chartKey":"1CPEpGP00tf","isLeaf":true,"options":[]}} -->
+
+##### Deterministic vs. Probabilistic
+
+**Deterministic** means the same input always produces the same output. No variation, no surprises.
+
+Think of a vending machine: press B4, you always get the same snack. It never decides to give you something else because it "felt like it."
+
+**Probabilistic** means the output is guessed based on patterns. The same input can produce different results.
+
+AI chatbots and LLMs are probabilistic. Ask the same question twice and you may get two different answers. They predict what sounds right based on patterns they've seen - which makes them flexible, but they can also produce errors or "hallucinations" where they confidently generate something incorrect.
+
+##### Why this matters
+
+Deterministic systems are predictable and auditable. If something appears, you can trace exactly why.
+
+Probabilistic systems are flexible but unreliable for documentation - you can't trust that the same request will yield the same accurate result every time.
+

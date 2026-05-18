@@ -1,0 +1,22 @@
+¬import il from "../../../_shared/variables/imageLinks"
+
+
+#### Install Docs Assembler in vscode
+
+1. In vscode click the extensions icon in the Activity Bar. *- red circle*
+2. The Extensions panel opens.
+3. In the top right corner of the Extensions Panel click the three dots `...`. *- yellow circle*
+4. In the menu that drops down click `Install from VSIX...`. *- green circle*
+
+{{::il.DA_install_img}}
+
+5. The `INstall from VSIX` dialogue opens.
+6. Navigate to the location of the vsix file and select it. *- yellow circle*
+7. Click the `Install` button in the bottom right corner. *- red circle*
+
+{{::il.DA_install_dialogue_img}}
+
+8. Docs Assembler is installed in vscode. *- red circle*
+
+{{::il.DA_installed_img}}
+

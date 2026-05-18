@@ -1,0 +1,10 @@
+##### Deterministic vs. Probabilistic
+
+**Deterministic** means the same input always produces the same output. No variation, no surprises.
+
+Think of a vending machine: press B4, you always get the same snack. It never decides to give you something else because it "felt like it."
+
+**Probabilistic** means the output is guessed based on patterns. The same input can produce different results.
+
+AI chatbots and LLMs are probabilistic. Ask the same question twice and you may get two different answers. They predict what sounds right based on patterns they've seen - which makes them flexible, but they can also produce errors or "hallucinations" where they confidently generate something incorrect.
+

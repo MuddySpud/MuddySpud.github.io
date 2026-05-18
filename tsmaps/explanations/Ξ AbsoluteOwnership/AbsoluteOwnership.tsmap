@@ -1,0 +1,68 @@
+{
+    "key": "1Cmc9MI020y ",
+    "token": "Absoluteownership",
+    "name": "AbsoluteOwnership",
+    "created": "2026-04-03T23:09:46.138Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/explanations/Ξ AbsoluteOwnership/AbsoluteOwnership.tsmap",
+    "iText": "Link to 'AbsoluteOwnership'",
+    "iExits": [
+        {
+            "key": "1Cmck04018X",
+            "text": "Exit",
+            "order": 1
+        }
+    ],
+    "___rΩΩt___": {
+        "key": "1CmcBig02Uq",
+        "nodes": [
+            {
+                "key": "1CmcCUz01NP",
+                "order": 1,
+                "nodes": [
+                    {
+                        "key": "1CmcQKZ01Lh",
+                        "order": 1,
+                        "nodes": [
+                            {
+                                "key": "1CmcWvR003K",
+                                "order": 1,
+                                "nodes": [
+                                    {
+                                        "key": "1CmcfM702Gx",
+                                        "order": 1,
+                                        "option": "Next",
+                                        "exitKey": "1Cmck04018X"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1CmcBig02Uq",
+            "relativePath": "./δ steps/δ-1CmcBig02Uq.tsstp"
+        },
+        {
+            "key": "δ-1CmcCUz01NP",
+            "relativePath": "./δ steps/δ-1CmcCUz01NP.tsstp"
+        },
+        {
+            "key": "δ-1CmcQKZ01Lh",
+            "relativePath": "./δ steps/δ-1CmcQKZ01Lh.tsstp"
+        },
+        {
+            "key": "δ-1CmcWvR003K",
+            "relativePath": "./δ steps/δ-1CmcWvR003K.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1CmclNQ02Iw",
+        "editorID": "car_3851d6ebcc87407092665a1d40438209",
+        "ticks": 1775257932280
+    }
+}

@@ -1,0 +1,10 @@
+### How they fit together
+
+You write maps in VS Code. The maps live in Git repos you control (absolute ownership). You nest maps inside other maps to keep things organised (nesting).
+
+When a decision point is reached, one map can route to another map - or to a remote guide - and return (routing).
+
+When you are ready, the extension assembles everything into standard Markdown files (publish to Markdown). You host those files anywhere. Your readers see clean documentation.
+
+If you uninstall the extension tomorrow, the published Markdown files remain. Your documentation is never trapped.
+

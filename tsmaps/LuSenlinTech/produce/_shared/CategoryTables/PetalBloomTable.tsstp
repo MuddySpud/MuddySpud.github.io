@@ -1,5 +1,0 @@
-¬import smt from "./soloModulesTable"
-
-
-{{::smt.petalBloomRow}}
-{: .nt-fr-columns}

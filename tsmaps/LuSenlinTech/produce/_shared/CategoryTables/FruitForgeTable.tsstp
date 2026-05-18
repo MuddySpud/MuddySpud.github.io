@@ -1,5 +1,0 @@
-¬import smt from "./soloModulesTable"
-
-
-{{::smt.fruitForgeRow}}
-{: .nt-fr-columns}

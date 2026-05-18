@@ -1,0 +1,10 @@
+### Benefits of routing
+
+The main map stays short. Each piece stays focused on its own level of detail. Specialised knowledge lives in a dedicated map.
+
+The user never sees irrelevant steps. Content appears only when needed. Your map stays simple and easy to maintain, even when procedures inside sub-maps change.
+
+Routing also enables:
+- Deduplication - the same sub-map can be used from many parent maps
+- Separation of concerns - different teams can own different sub-maps
+

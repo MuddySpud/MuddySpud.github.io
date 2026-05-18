@@ -1,0 +1,66 @@
+{
+    "key": "1GiypVA011z ",
+    "token": "Readmequickstart",
+    "name": "ReadMeQuickstart",
+    "created": "2026-05-15T18:10:17.336Z",
+    "list": true,
+    "cachedPath": "d:/GitHub/netoftrees/docs-assembler-help/tsmaps/tutorials/text/Ξ ReadMeQuickstart/ReadMeQuickstart.tsmap",
+    "iText": "Link to 'ReadMeQuickstart'",
+    "___rΩΩt___": {
+        "key": "1GiywNM02Ln",
+        "nodes": [
+            {
+                "key": "1Gvm05L00OF",
+                "order": 1,
+                "sharedAssetKey": "1Gvm8880025",
+                "nodes": [
+                    {
+                        "key": "1Gvm64902SE",
+                        "order": 1,
+                        "sharedAssetKey": "1GvmE9K00ji",
+                        "nodes": [
+                            {
+                                "key": "1GvmCt801bE",
+                                "order": 1,
+                                "iKey": "1GvmkAS00YG",
+                                "nodes": [
+                                    {
+                                        "key": "1Gw8Crl013S",
+                                        "order": 1,
+                                        "option": "Exit",
+                                        "iExitKey": "1Gw871S01Sw"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "___αssεts___": [
+        {
+            "key": "δ-1GiywNM02Ln",
+            "relativePath": "./δ steps/δ-1GiywNM02Ln.tsstp"
+        },
+        {
+            "key": "1Gvm8880025",
+            "relativePath": "../../_shared/steps/DownloadDAOpenVsxLink.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "1GvmE9K00ji",
+            "relativePath": "../../_shared/steps/CopyVsixToDesktop.tsstp",
+            "isShared": true
+        },
+        {
+            "key": "δ-1GvmCt801bE",
+            "relativePath": "./δ steps/δ-1GvmCt801bE.tsstp"
+        }
+    ],
+    "___εdit___": {
+        "id": "1Gw8Crl00l1",
+        "editorID": "car_1d4f8310a7ed4c79a55c36a2c2c770d5",
+        "ticks": 1779062944469
+    }
+}
